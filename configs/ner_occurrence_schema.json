@@ -1,0 +1,59 @@
+{
+  "description": "Schema for one NER-detected mention in the VCL primary text.",
+  "principles": [
+    "Preserve the exact observed text.",
+    "Separate mentions, name variants, and individual people.",
+    "Do not assign a person automatically unless an explicitly approved safe alias applies.",
+    "Keep every decision tied to the exact occurrence by default."
+  ],
+  "fields": {
+    "occurrence_id": "Stable identifier for this mention.",
+    "page_id": "Stable page identifier from combined_primary_text.json.",
+    "section_id": "Stable source section identifier.",
+    "source_id": "Original volume and OCR page-key identifier.",
+    "span_start": "Character offset within the page text.",
+    "span_end": "Exclusive character offset within the page text.",
+    "observed_span": "Exact text extracted from the source.",
+    "sentence_text": "Containing sentence or local context.",
+    "label": "NER category, such as PERSON_NAME, PERSON_REF, TITLE_OR_ROLE, GROUP_OR_POLITY, PLACE_OR_TERRITORY, or ORG.",
+    "mention_kind": "explicit_name, title_surname, role_reference, or relational_reference.",
+    "title": "Parsed title or role when present; never used as an identity by itself.",
+    "name_string": "Name portion after parsing, preserving historical spelling.",
+    "name_variant_group_id": "Optional human-maintained grouping of equivalent observed forms.",
+    "candidate_person_ids": "Plausible authority-file candidates; suggestions only.",
+    "resolved_person_id": "Person assigned to this occurrence, if reviewed or matched by a safe alias.",
+    "resolution_status": "unreviewed, suggested, reviewed, unresolved, or auto_resolved_safe_alias.",
+    "resolution_scope": "occurrence, section, document, or global_safe_alias.",
+    "resolution_rule_id": "Rule or safe-alias record responsible for the assignment.",
+    "review_note": "Human explanation or disambiguation note.",
+    "non_merge_check": "Authority-file constraint check before any person assignment."
+  },
+  "automatic_resolution_rule": "Only an explicitly approved global safe alias may populate resolved_person_id without occurrence-level review.",
+  "examples": [
+    {
+      "observed_span": "Sir Edwin Sandys",
+      "label": "PERSON_NAME",
+      "mention_kind": "explicit_name",
+      "title": "Sir",
+      "name_string": "Edwin Sandys",
+      "resolution_status": "unreviewed"
+    },
+    {
+      "observed_span": "Sir Sandys",
+      "label": "PERSON_REF",
+      "mention_kind": "title_surname",
+      "title": "Sir",
+      "name_string": "Sandys",
+      "resolution_status": "unresolved"
+    },
+    {
+      "observed_span": "Captaine Smith",
+      "label": "PERSON_REF",
+      "mention_kind": "title_surname",
+      "title": "Captaine",
+      "name_string": "Smith",
+      "resolution_status": "auto_resolved_safe_alias",
+      "resolution_scope": "global_safe_alias"
+    }
+  ]
+}

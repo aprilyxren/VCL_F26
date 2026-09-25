@@ -1,0 +1,49 @@
+{
+  "description": "Audit and segmentation of the four raw OCR books before NER.",
+  "primary_output": "data/cleaned/combined_primary_text.json",
+  "introduction_output": "data/cleaned/editorial_introduction.json",
+  "list_of_records_output": "data/cleaned/list_of_records.json",
+  "notes": [
+    "Observed text is preserved exactly; no OCR normalization is performed.",
+    "List of Records No. references inside document records remain in primary text because they are part of the document/editorial metadata on those pages.",
+    "Volume II begins directly with Court Book text.",
+    "Volumes III-IV front matter is stored with the introduction/editorial set-aside.",
+    "Editorial index pages are stored with the introduction/editorial set-aside for now.",
+    "Volume I primary pages are ordered chronologically across its two raw OCR blocks: source keys 437+ followed by source keys 51-266.",
+    "Primary pages have stable page_id, section_id, and source_id fields; original source_page_key and exact text are retained."
+  ],
+  "counts": {
+    "primary_pages": 2474,
+    "introduction_or_editorial_pages": 216,
+    "list_of_records_pages": 92,
+    "by_volume": [
+      {
+        "volume": 1,
+        "raw_pages": 660,
+        "primary_pages": 448,
+        "introduction_pages": 120,
+        "list_of_records_pages": 92
+      },
+      {
+        "volume": 2,
+        "raw_pages": 634,
+        "primary_pages": 630
+      },
+      {
+        "volume": 3,
+        "raw_pages": 812,
+        "primary_pages": 765
+      },
+      {
+        "volume": 4,
+        "raw_pages": 676,
+        "primary_pages": 631
+      }
+    ]
+  },
+  "stable_id_scheme": {
+    "page_id": "V{volume:02d}-P{sequential primary page number:04d}",
+    "section_id": "V{volume:02d}-PRIMARY",
+    "source_id": "V{volume:02d}-OCR-{original source page key}"
+  }
+}

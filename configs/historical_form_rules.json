@@ -1,0 +1,34 @@
+{
+  "description": "Context-sensitive historical/OCR forms. Observed text is never overwritten.",
+  "forms": [
+    {
+      "observed_forms": ["m'", "M'", "m’", "M’", "m*", "M*", "m**", "M**"],
+      "parsed_title": "Mr",
+      "expanded_title": "Master/Mr",
+      "default_label": "TITLE_OR_ROLE",
+      "requires_context_for_person": true,
+      "notes": "Treat as a title marker when attached to a following name; preserve the exact OCR form."
+    },
+    {
+      "observed_forms": ["Counsel", "Counsell", "Councell", "Councel"],
+      "default_label": "ORG_OR_COMMITTEE",
+      "notes": "In this corpus, usually refers to the council/committee group rather than an individual."
+    },
+    {
+      "observed_forms": ["Wrote"],
+      "default_label": "PERSON_NAME",
+      "notes": "Treat as a possible surname/proper noun, especially after an Mr-title form; do not use as a hard negative."
+    },
+    {
+      "observed_forms": ["Nos", "Nos."],
+      "default_label": "EDITORIAL_REFERENCE",
+      "notes": "Usually likely to refer to numbers in the List of Records when preceded by that phrase; retain as uncertain outside that context."
+    },
+    {
+      "observed_forms": ["Deputy", "Deputie", "Deputie*", "Deputies"],
+      "default_label": "TITLE_OR_ROLE",
+      "contextual_person_label": "PERSON_REF",
+      "notes": "The role/title is not an identity. Use PERSON_REF only when the surrounding sentence clearly refers to the role-holder as a person."
+    }
+  ]
+}
