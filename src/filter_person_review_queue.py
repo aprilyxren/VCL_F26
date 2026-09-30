@@ -3,7 +3,10 @@
 This does not resolve people or alter the source queue. It selects rows whose
 observed span is exactly ``First Last`` or ``m'/M'/s'/S' First Last`` and
 rejects curated prose, document-title, institution, commodity, and place
-fragments that happen to have two capitalized tokens.
+fragments that happen to have two capitalized tokens. When a place authority
+file is supplied, exact aliases and strongly geographic name shapes are kept
+out of the definite-person output without treating every occurrence of an
+ambiguous place word as a place.
 """
 
 from __future__ import annotations
@@ -48,6 +51,24 @@ NON_NAME_CALENDAR_TOKENS = {
     "april", "february", "january", "june", "july", "march", "october",
     "september",
 }
+
+# These tokens describe a geographic feature strongly enough to disqualify a
+# two-token PERSON candidate. ``Cape`` is intentionally only a prefix: Cape
+# Cod is a place, while Peirce Cape is an attested person in this corpus.
+GEOGRAPHIC_FIRST_TOKENS = frozenset({"cape", "county"})
+GEOGRAPHIC_LAST_TOKENS = frozenset({
+    "bay", "citie", "cittee", "cittic", "cittie", "citty", "cittye",
+    "city", "citye", "ciry", "country", "countrie", "county", "creek",
+    "creeke", "cytie", "cyttie", "cytty", "cyty", "hund", "hundred",
+    "hundreth", "island", "islande", "islandes", "islands", "isle",
+    "isles", "plantation", "plantaton", "plantaéon", "point", "port",
+    "river", "riuer", "ryver", "sheire", "sheires", "shire", "shires",
+    "town", "towne",
+})
+GEOGRAPHIC_CONTEXT_PREPOSITIONS = frozenset({
+    "at", "from", "in", "into", "near", "of", "on", "toward", "towards",
+    "to", "upon", "within", "vpon", "vppon",
+})
 
 # These are deliberately phrase-level negatives. Individual words such as
 # Wrote, Smith, More, May, Land, and King can be personal names in this corpus
@@ -325,6 +346,80 @@ def normalized_phrase(value: str) -> tuple[str, list[str]]:
     return " ".join(tokens), tokens
 
 
+def load_place_aliases(path: Path | None) -> dict[str, set[tuple[str, str, str]]]:
+    """Load exact authority aliases without fuzzy place/person matching."""
+    forms: dict[str, set[tuple[str, str, str]]] = {}
+    if path is None:
+        return forms
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            values = [row.get("preferred_name", "")]
+            values.extend(row.get("aliases", "").split("|"))
+            for value in values:
+                phrase, _ = normalized_phrase(value)
+                if not phrase:
+                    continue
+                forms.setdefault(phrase, set()).add((
+                    row.get("place_id", ""),
+                    row.get("preferred_name", ""),
+                    row.get("matching_policy", ""),
+                ))
+    return forms
+
+
+def is_strong_geographic_shape(value: str) -> bool:
+    """Return true only for explicit geographic constructions."""
+    _, tokens = normalized_phrase(value)
+    if len(tokens) < 2:
+        return False
+    return tokens[0] in GEOGRAPHIC_FIRST_TOKENS or tokens[-1] in GEOGRAPHIC_LAST_TOKENS
+
+
+def has_geographic_sentence_context(value: str, sentence: str) -> bool:
+    """Check whether an otherwise ambiguous exact alias is used spatially."""
+    value_phrase, value_tokens = normalized_phrase(value)
+    sentence_phrase, sentence_tokens = normalized_phrase(sentence)
+    if not value_phrase or not sentence_phrase:
+        return False
+    if is_strong_geographic_shape(value):
+        return True
+    width = len(value_tokens)
+    for index in range(0, len(sentence_tokens) - width + 1):
+        if sentence_tokens[index:index + width] != value_tokens:
+            continue
+        before = sentence_tokens[max(0, index - 3):index]
+        after = sentence_tokens[index + width:index + width + 3]
+        if any(token in GEOGRAPHIC_CONTEXT_PREPOSITIONS for token in before):
+            return True
+        if any(token in GEOGRAPHIC_LAST_TOKENS for token in before + after):
+            return True
+    return False
+
+
+def place_exclusion_reason(
+    value: str,
+    sentence: str,
+    place_forms: dict[str, set[tuple[str, str, str]]],
+) -> str:
+    """Return a conservative reason for excluding a PERSON candidate as place."""
+    phrase, tokens = normalized_phrase(value)
+    hits = place_forms.get(phrase, set())
+    if hits:
+        policies = {policy for _, _, policy in hits}
+        # A multi-token high-confidence alias is explicit enough by itself;
+        # single-token aliases still require sentence context because many
+        # English place names can also be surnames.
+        if "high_confidence_alias" in policies and (
+            len(tokens) > 1 or has_geographic_sentence_context(value, sentence)
+        ):
+            return "exact_high_confidence_place_alias"
+        if has_geographic_sentence_context(value, sentence):
+            return "contextual_place_alias"
+    if is_strong_geographic_shape(value):
+        return "explicit_geographic_name_shape"
+    return ""
+
+
 NORMALIZED_MIXED_PERSON_REVIEW_PHRASES = frozenset(
     normalized_phrase(value)[0]
     for value in MIXED_PERSON_REVIEW_PHRASES
@@ -363,7 +458,13 @@ def requires_contextual_person_review(value: str) -> bool:
     return phrase in NORMALIZED_MIXED_PERSON_REVIEW_PHRASES
 
 
-def filter_queue(source: Path, output: Path, remainder_output: Path | None = None) -> int:
+def filter_queue(
+    source: Path,
+    output: Path,
+    remainder_output: Path | None = None,
+    place_authority: Path | None = None,
+) -> int:
+    place_forms = load_place_aliases(place_authority)
     with source.open(encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle)
         fieldnames = list(reader.fieldnames or [])
@@ -424,6 +525,17 @@ def filter_queue(source: Path, output: Path, remainder_output: Path | None = Non
             leading_space = len(raw_match) - len(raw_match.lstrip())
             matched_text = raw_match.strip()
             matched_text = matched_text.rstrip(" .,:;!?)]}")
+            candidate_name = f"{match.group('first')} {match.group('last')}"
+            place_reason = place_exclusion_reason(
+                candidate_name,
+                row.get("sentence_text", ""),
+                place_forms,
+            )
+            if place_reason:
+                row["filter_reason"] = place_reason
+                row["person_pattern_status"] = "excluded_place_candidate"
+                remainder.append(row)
+                continue
             relative_start = match.start() + leading_space
             row["span_start"] = str(int(row.get("span_start", 0)) + relative_start)
             row["span_end"] = str(int(row["span_start"]) + len(matched_text))
@@ -432,7 +544,7 @@ def filter_queue(source: Path, output: Path, remainder_output: Path | None = Non
                 f"{row['page_id']}-M{int(row['span_start']):05d}-"
                 f"{int(row['span_end']):05d}"
             )
-            row["name_string"] = f"{match.group('first')} {match.group('last')}"
+            row["name_string"] = candidate_name
             row["matched_title"] = title
             title_key = title.casefold()
             if title_key.startswith("m") and title_key not in TITLE_NORMALIZATION:
@@ -468,5 +580,9 @@ if __name__ == "__main__":
     parser.add_argument("source", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--remainder-output", type=Path)
+    parser.add_argument("--place-authority", type=Path)
     args = parser.parse_args()
-    print(f"Exported {filter_queue(args.source, args.output, args.remainder_output)} filtered rows")
+    print(
+        f"Exported {filter_queue(args.source, args.output, args.remainder_output, args.place_authority)} "
+        "filtered rows"
+    )
