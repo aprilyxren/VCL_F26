@@ -1,1386 +1,4410 @@
 {
-  "Samuel Argall": [
-    "Captain Argall",
-    "Capt. Argall",
-    "Captaine Argoll",
-    "Captain Samuel Argall",
-    "Capt. Samuel Argoll",
-    "Governor Argall",
-    "Governor Argoll",
-    "Samuel Argoll",
-    "Samuell Argall",
-    "Captain Samuell Argall",
-    "Sir Samuell Argall",
-    "Samuell Argoll",
-    "Capt Samuell Argoll",
-    "Capt. Samuell Argoll",
-    "Captaine Samuell Argoll",
-    "m* Samuell Argoll",
-    "Captain Samuel Argal",
-    "Captaine Samuel Argol",
-    "Samuel Argal",
-    "Samuel Argol",
-    "Samuelis Argoll",
-    "Sir Sumucl Argall",
-    "Sumucl Argall",
-    "Sunuell Argall",
-    "Samuel Argall"
-  ],
-  "Edwin Sandys": [
-    "Sir Edwin Sandys",
-    "Sir Edwin Sandis",
-    "S' Edwin Sandys",
-    "S' Edwin Sandis",
-    "Sir E. Sandys",
-    "Sir Ed. Sandys",
-    "Ed. Sandys",
-    "E. Sandys",
-    "Edwin Sandis",
-    "Edwin Sands",
-    "Edwin Sandye",
-    "Edwyn Sandys",
-    "Epwin Sanpys",
-    "EpwIn Sanpys",
-    "Epwin SAnpys",
-    "SIR Epwin Sanpys",
-    "Sir Epwin Sanpys",
-    "Sir Epwin SANpYs",
-    "Epwin Sanpys.",
-    "Edwin Sandes",
-    "Edwin Sandys’",
-    "Edwine Sandis",
-    "Edwinum Sandis",
-    "Edwinuwm Sandis",
-    "Edwiuus Sandis",
-    "Edwyn Sandes",
-    "Edwin Sandys"
-  ],
-  "Thomas Smythe": [
-    "Sir Thomas Smythe",
-    "Thomas Smythe",
-    "Sir Thomas Smith",
-    "Thomas Smith",
-    "S' Thomas Smith",
-    "S' Thos. Smith",
-    "Thomas Smithe",
-    "Sir Thomas Smithe",
-    "Thomas Smithes",
-    "Thomas Smiths",
-    "Sir Thomas Smiths",
-    "Thomas Smith’s",
-    "Sir Thomas Smith’s",
-    "Thomas Smith's",
-    "Sir Thomas Smith's",
-    "Thomas Smith.",
-    "Thomas Smith...",
-    "Thomas Sinyth",
-    "S' Thomas Sinyth",
-    "Thomas Sinyths",
-    "S' Thomas Sinyths",
-    "Thomas Smuth",
-    "S' Thomas Smuth",
-    "Thomas Smythe’s",
-    "Thomas Smyth",
-    "Sir THomas SMYTH",
-    "Sir Thomas Smyth"
-  ],
-  "John Smyth of Nibley": [
-    "John Smyth of Nibley",
-    "Smyth of Nibley"
-  ],
-  "George Yeardley": [
-    "Sir George Yeardley",
-    "Sir Geo. Yeardley",
-    "Geo. Yeardley",
-    "George Yardley",
-    "Geo. Yardley",
-    "Governor Yeardley",
-    "George Yardeley",
-    "Sir George Yardeley",
-    "GEORGE YARDLEY",
-    "Sir George Yardley",
-    "GeorGE YARDLY",
-    "George Yardly",
-    "Sir George Yardly",
-    "George Yeardleys",
-    "Sir George Yeardleys",
-    "George Yeardly",
-    "Captain George Yeardly",
-    "Sir George Yeardly",
-    "George Yeardley",
-    "Captain George Yeardley",
-    "GEORGE YEARDLEY",
-    "George YEARDLEY",
-    "Sir GEORGE YEARDLEY",
-    "Sir George YEARDLEY",
-    "m* George Yeardley",
-    "Sir Georce Yeardley",
-    "Sir Georce Yearptey",
-    "George Yardlie",
-    "George Yardlyes",
-    "Sir GEORGE YarRDLEY",
-    "GEORGE YarRDLEY",
-    "GEORGE YWARDLEY",
-    "Sir GEORGE YWARDLEY",
-    "George Yearcir",
-    "Georce Yeardley",
-    "George Yeardiey",
-    "Sir George Yeardiey",
-    "Sir George Yeardlev",
-    "Sir George Yeardleyes",
-    "George Yeardlie",
-    "George Yeardlys",
-    "George Yeurdley",
-    "Georgio Yardley",
-    "Sir Grorce Yarpiey",
-    "Grorce YEARDLEY",
-    "GrorcGe YEARDLEY",
-    "Grorcrt YEARDLEY",
-    "Sir GrorGE YEARDLEY",
-    "GrorGE YEARDLEY",
-    "Greorce Yrarpiey",
-    "Sir Greorce Yrarpiey",
-    "Grorck Yrearptey",
-    "Grorck Yrearptey.",
-    "Sir Grorck Yrearptey"
-  ],
-  "Francis Wyatt": [
-    "Sir Francis Wyatt",
-    "Francis Wiat",
-    "Francis Wyatt Knight",
-    "Governor Wyatt",
-    "Governor Francis Wyatt",
-    "Francis Wyatr",
-    "Franeis Wyatt",
-    "Frauncis Wyatt",
-    "Sir Frauncis Wyatt",
-    "Francis Wyatt",
-    "Francis WYATT",
-    "Francis WYAtt",
-    "Sir Francis WYATT",
-    "Sir Francis Wiat",
-    "Sir Francis Wyarr",
-    "Francis Wyarr",
-    "Francis Wyate",
-    "Francis Wyratt",
-    "Franers WYAtr",
-    "Sir Fraucis Wyatt",
-    "Fraucis Wyatt",
-    "Frauncis Wyat",
-    "Sir Francis Wat",
-    "Francis Wat",
-    "Francis Wiates",
-    "Sir Vrancis Wratt",
-    "Vrancis Wratt",
-    "Francis Wrarr"
-  ],
-  "Thomas West, Lord De La Warr": [
-    "Thomas West",
-    "Lord De La Warr",
-    "Lord La Warr",
-    "Lord De La Ware",
-    "De La Warr",
-    "Lord Delaware",
-    "Sir Thomas West",
-    "La Warr",
-    "La Warre",
-    "De Lawarr",
-    "Lord De Lawarr",
-    "Lo Lawarr",
-    "D’ Lawarr",
-    "Lord D’ Lawarr"
-  ],
-  "Thomas Gates": [
-    "Sir Thomas Gates",
-    "S' Thomas Gates",
-    "Governor Gates",
-    "Thomas Gates",
-    "Sir Thomas Gaties",
-    "Thomas Gaties",
-    "Thomas Cattes"
-  ],
-  "Thomas Dale": [
-    "Sir Thomas Dale",
-    "Deputy Governor Dale",
-    "Thomas Dale",
-    "Sir Tho Dale",
-    "Thomas Dales",
-    "Sir Thomas Dales",
-    "Sir Thomas Dales’"
-  ],
-  "Elizabeth Dale": [
-    "Elizabeth Dale",
-    "Lady Dale",
-    "Ladie Dale",
-    "Dame Elizabeth Dale"
-  ],
-  "John Smith": [
-    "Captain John Smith",
-    "Capt. John Smith",
-    "Captaine John Smith",
-    "Captain Smith",
-    "Captaine Smith",
-    "Captain Iohn Smith",
-    "Capt. Jo. Smith"
-  ],
-  "Christopher Newport": [
-    "Captain Christopher Newport",
-    "Christopher Newport",
-    "Christofero Newporte"
-  ],
-  "George Percy": [
-    "George Percy",
-    "Geo. Percy",
-    "G[eorge] Percy",
-    "Mr. George Percy",
-    "George Persey",
-    "George Pearcey",
-    "Georgio Pearcey"
-  ],
-  "John Rolfe": [
-    "John Rolf",
-    "John Rolfe",
-    "M' John Rolfe",
-    "M* John Rolfe",
-    "Iohn Rolfe",
-    "Jo Rolfe",
-    "m' Jo Rolfe",
-    "John Rolfes",
-    "Mr. John Rolfes",
-    "John Rolph",
-    "Tohn Rolf"
-  ],
-  "John Pory": [
-    "Jo: Pory",
-    "Joun Porr",
-    "Joun Pory",
-    "John Pory",
-    "JoHN Pory",
-    "Jo Pory",
-    "M' Jo. Pory",
-    "Jo. Pory",
-    "Jo Porr",
-    "Jonn Pory",
-    "Joun Porey",
-    "John Porye",
-    "John Porey",
-    "Iohn Porey",
-    "Zohn Porey",
-    "Master Zohn Porey",
-    "Jobanni Porey"
-  ],
-  "John Ferrar": [
-    "J. Ferrar",
-    "J. fferrar",
-    "John fferrar",
-    "m' John fferrar",
-    "Mr. Ferrar",
-    "Iohn Ferrar",
-    "M’ Iohn Ferrar",
-    "m' Iohn Ferrar",
-    "m* Iohn Ferrar",
-    "m’ Iohn Ferrar",
-    "John Farrar",
-    "M' John Farrar",
-    "M* John Farrar",
-    "M’ John Farrar",
-    "m' John Farrar",
-    "Ihon Farrar",
-    "M* Ihon Farrar",
-    "Jhon Farrar",
-    "m’ Jhon Farrar",
-    "Jo Farrar",
-    "M* Jo Farrar",
-    "Jo. Farrar",
-    "M' Jo. Farrar",
-    "John Farrer",
-    "John Farrer.",
-    "M* John Farrer",
-    "mr. John Farrer",
-    "Joun FErrar",
-    "John Ferrar",
-    "JOHN FERRAR",
-    "JoHN FERRAR",
-    "JoHN Ferrar",
-    "M' John Ferrar",
-    "M* John Ferrar",
-    "Mr John Ferrar",
-    "M’ John Ferrar",
-    "m' John Ferrar",
-    "m’ John Ferrar"
-  ],
-  "Nicholas Ferrar": [
-    "Nicholas Farrar",
-    "Nich. Ferrar",
-    "Nich. fferrar",
-    "Nicholas fferrar",
-    "M' Nicholas Farrar",
-    "M* Nicholas Farrar",
-    "Master Nicholas Farrar",
-    "Nicholas Farrer",
-    "Nicholas Ferrar’s",
-    "Nicholas Marrer",
-    "N. Farrar",
-    "m' N. Farrar",
-    "N. Ferrar",
-    "N. Ferrar’s",
-    "Nich Ferrar",
-    "Niche Ferrar",
-    "Mr Niche Ferrar",
-    "Nicholas Ferrar's",
-    "NicHOLAS FFERRAR",
-    "Nicholaus Mfarrer",
-    "Nicholaus Mlarrer",
-    "Nicnotas Ferran",
-    "Nicolas Ferrar",
-    "M* Nicolas Ferrar",
-    "Master Nicolas Ferrar",
-    "Nicholas Ferrar",
-    "M' Nicholas Ferrar",
-    "m' Nicholas Ferrar",
-    "m* Nicholas Ferrar",
-    "m’ Nicholas Ferrar"
-  ],
-  "George Thorpe": [
-    "Geo. Thorpe",
-    "Geo'ge Thorpe",
-    "George Thorp",
-    "M* George Thorp",
-    "George Thorpe",
-    "Capt. George Thorpe",
-    "Captain George Thorpe",
-    "M' George Thorpe",
-    "Master George Thorpe",
-    "m' George Thorpe",
-    "M* George Thorps",
-    "George Thorps",
-    "Grorce THoorre",
-    "George Thrope",
-    "Grorce THorrr"
-  ],
-  "Richard Berkeley": [
-    "Rich. Berkeley",
-    "Rich. Bearkley",
-    "Mr. Berkeley",
-    "Rich BERKELEY",
-    "Rich Berkeley",
-    "Richard Berk",
-    "Richard Berkley",
-    "M' Richard Berkley",
-    "Richard Berkeley"
-  ],
-  "William Throckmorton": [
-    "Sir William Throckmorton",
-    "Sir Wm. Throckmorton",
-    "Wm. Throckmorton",
-    "William Throkmorton",
-    "William Throckmorton"
-  ],
-  "William Tracy": [
-    "Wm. Tracy",
-    "Wm. Tracie",
-    "Wim. Tracie",
-    "Wii Tracy",
-    "Willm Tracy",
-    "Wiltm Tracy",
-    "William Tracy",
-    "Mr. William Tracy"
-  ],
-  "John Woodlief": [
-    "Captain John Woodlief",
-    "Capt. John Woodleefe",
-    "Captain Woodleefe",
-    "Iohn Woodleefe",
-    "John Woodleefe",
-    "Captain John Woodleefe",
-    "Captaine John Woodleefe"
-  ],
-  "Nathaniel Butler": [
-    "Nathaniel Butler",
-    "Nath. Butler",
-    "Governor Nath. Butler",
-    "Captain Butler",
-    "Capt. Butler",
-    "Capt Nathaniel Butler",
-    "Captain Nathaniel Butler"
-  ],
-  "Nathaniel Rich": [
-    "Sir Nathaniel Rich",
-    "Nath. Rich",
-    "N. Rich",
-    "Sir Nath. Rich",
-    "Nathaniel Rich’s",
-    "Sir Nathaniel Rich’s",
-    "Nathaniel Rieh",
-    "Sir Nathaniel Rieh",
-    "sir Nathaniel Rieh",
-    "Nathaniell Rich",
-    "Nathaniel Rich"
-  ],
-  "John Chamberlain": [],
-  "Dudley Carleton": [
-    "Sir Dudley Carleton",
-    "Dudley Carleton"
-  ],
-  "John Bargrave": [
-    "John Bargrave's",
-    "John Bargraue",
-    "Capt. John Bargraue",
-    "JoHN BARGRAVE",
-    "Captain JoHN BARGRAVE",
-    "Captain John Bargrave",
-    "John Bargrave"
-  ],
-  "James Brett": [
-    "James Brett"
-  ],
-  "John Martin": [
-    "Captain John Martin",
-    "Capt. John Martin",
-    "John Martyn",
-    "John Marten",
-    "Iohn Martin",
-    "Capt Iohn Martin",
-    "Captaine Iohn Martin",
-    "John Martine",
-    "Capt John Martine",
-    "Captaine John Martine",
-    "John Martin’s",
-    "Capt. John Martin’s",
-    "Captain John Martin’s",
-    "John Marttin",
-    "Capt John Marttin",
-    "Captaine John Marttin",
-    "Jonn Martin",
-    "Captain Jonn Martin",
-    "John Martin",
-    "Capt John Martin",
-    "Io Martin",
-    "Iohn Martins",
-    "Captaine Iohn Martins",
-    "Jahn Martin",
-    "Johanni Martine",
-    "John Martifn",
-    "Capt. John Martifn",
-    "John Martin's",
-    "Tohn Martin",
-    "Jonn Martry",
-    "JuG Martin"
-  ],
-  "William Powell": [
-    "Wm. Powell",
-    "William Powel",
-    "Wm. Powel",
-    "Captain Powell",
-    "Capt. Powell",
-    "William Powell",
-    "Captain William Powell",
-    "Captaine William Powell"
-  ],
-  "William Cradock": [
-    "William Cradock"
-  ],
-  "Henry Sherley": [],
-  "John Danvers": [
-    "Sir John Danvers",
-    "Sir Io: Dauers",
-    "John Dauers",
-    "Iohn Dauers",
-    "Sir Iohn Dauers",
-    "Johannes Danvers",
-    "S'Iohn Dauers",
-    "John Danvers",
-    "Johannis Danvers",
-    "Johannem Danvers",
-    "John Davers",
-    "John Danuers",
-    "Iohn Diauers",
-    "Iohn Davers",
-    "Tohn Dauers",
-    "Joun Davrrs",
-    "Jolin Dianyers",
-    "Thon Dauer"
-  ],
-  "Robert Rich": [
-    "Earl of Warwick",
-    "Lord Warwick",
-    "Lord Rich",
-    "Robert Rich, Earl of Warwick",
-    "Robert Rich",
-    "Sir Robert Rich"
-  ],
-  "Henry Wriothesley": [
-    "Earl of Southampton",
-    "Earl Southampton",
-    "Henry Wriothesley, Earl of Southampton",
-    "Henry Wriothesley"
-  ],
-  "Edward la Zouche, Lord Zouch": [
-    "Lord Zouch",
-    "Lord Zouche"
-  ],
-  "Edward Conway": [
-    "Secretary Conway",
-    "Edward Conway",
-    "Sir Edward Conway"
-  ],
-  "Robert Naunton": [
-    "Sir Robert Naunton",
-    "Sir Robt. Naunton",
-    "Robt. Naunton",
-    "Robert Naunton"
-  ],
-  "John Digby": [
-    "Sir John Digby",
-    "John Digby"
-  ],
-  "Ralph Winwood": [
-    "Sir Ralph Winwood",
-    "Sir Raphe Winwood",
-    "Raphe Winwood",
-    "Raph Winwood",
-    "Ralph Winwood"
-  ],
-  "John Wolstenholme": [
-    "Sir John Wolstenholme",
-    "Sir Io: Wolstenholme",
-    "Io: Wolstenholme",
-    "Iohn Wolstenholme",
-    "Sir Iohn Wolstenholme",
-    "John Worstenholme",
-    "John Wolstenholme",
-    "Io Wolstenholme",
-    "m’ Io Wolstenholme",
-    "Iohn Wolstenholm",
-    "Sir Iohn Wolstenholm",
-    "Jo Worsenholme",
-    "Johan Wolstenhohue",
-    "John Wolstenholmes",
-    "John Wostenholme",
-    "Thon Wolstenholme"
-  ],
-  "Matthew de Quester": [
-    "Mathewe de Quester",
-    "Matthew Dequester",
-    "Mathew Dequester",
-    "De Quester"
-  ],
-  "Thomas Mildmay": [
-    "Sir Thomas Mildmaye",
-    "Thomas Mildmaye",
-    "Thomas Mildmay",
-    "Sir Thomas Mildmay"
-  ],
-  "James Bryarley": [
-    "James Bryarley",
-    "JAMES BRYARLEY"
-  ],
-  "John Wheeler": [
-    "John Wheeler"
-  ],
-  "George Huntley": [
-    "Sir George Huntley",
-    "Sir Geo. Huntley",
-    "George Huntley"
-  ],
-  "Edmond Boyd": [
-    "Sir Edmond Boyd",
-    "Edmond Boyd"
-  ],
-  "John Sammes": [
-    "Sir John Sammes",
-    "JoHN SAMMES",
-    "Sir JoHN SAMMES"
-  ],
-  "William Leveson": [
-    "William Leveson",
-    "WILLIAM Leveson"
-  ],
-  "William Hall": [
-    "William Hall",
-    "Wm. Hall"
-  ],
-  "John Robinson": [
-    "John Robinson"
-  ],
-  "William Brewster": [
-    "William Bruster",
-    "William Brewster"
-  ],
-  "James Stringer": [
-    "James Stringer"
-  ],
-  "Ferdinando Yate": [
-    "Ferdinando Yate"
-  ],
-  "John Delbridge": [
-    "John Delbridge",
-    "JOHN DELBRIDGE",
-    "m'* John Delbridge"
-  ],
-  "Roger Dunster": [
-    "Roger Dunster"
-  ],
-  "John Fenner": [
-    "John Fenner"
-  ],
-  "Henry Bacon": [
-    "Henry Bacon"
-  ],
-  "Richard Bucke": [
-    "Richard Bucke",
-    "M* Richard Bucke"
-  ],
-  "James I": [
-    "King James I",
-    "James I, King",
-    "His Majesty",
-    "James I"
-  ],
-  "Pocahontas": [
-    "Matoaka",
-    "Amonute",
-    "Rebecca",
-    "Rebecca Rolfe",
-    "Lady Rebecca",
-    "Lady Rebecca Rolfe",
-    "Mrs. John Rolfe",
-    "Matoaka als Rebecka"
-  ],
-  "George Sandys": [
-    "George Sandys",
-    "Georg Sandys",
-    "M' Georg Sandys",
-    "m’ Georg Sandys",
-    "George Sandis",
-    "Mr. George Sandis",
-    "m* George Sandis",
-    "M' George Sandys",
-    "M* George Sandys",
-    "Master George Sandys",
-    "Mr George Sandys",
-    "Sir George Sandys",
-    "m' George Sandys",
-    "m'’ George Sandys",
-    "m* George Sandys",
-    "m’ George Sandys",
-    "George Sandis.",
-    "George Sandyes",
-    "George Sanpys",
-    "George Sunds",
-    "Gorge Sundes",
-    "Greorce Sanpys",
-    "Grorce Sanpis",
-    "Grorce Sanpys",
-    "Grorcr Sanpis",
-    "Grorcr Sanpys",
-    "Groner Saxpys"
-  ],
-  "Abraham Cartwright": [
-    "Abraham Carthwright",
-    "Abraham Cartw",
-    "Abraham Cartwright",
-    "m' Abraham Cartwright",
-    "Abrahaino Cartwright"
-  ],
-  "Abraham Carpenter": [
-    "Abraham Carpenter"
-  ],
-  "Abraham Chamberlaine": [
-    "Abraham Chamberlaine",
-    "Abrabam Chamberlaine",
-    "m’ Abraham Chamberlaine",
-    "m’ Abrabam Chamberlaine",
-    "Abraham Chamberlen",
-    "m’ Abraham Chamberlen",
-    "m' Abraham Chamberlen",
-    "Abraham Chamberlin",
-    "M' Abraham Chamberlin",
-    "m' Abraham Chamberlin",
-    "Abraham Chamberline",
-    "Abraham Chamberlyn",
-    "m’ Abraham Chamberlyn",
-    "m* Abraham Chamberlyn",
-    "Abraham Chamblen",
-    "m' Abraham Chamblen",
-    "Abraham Cham-",
-    "m* Abraham Cham-"
-  ],
-  "Adam Dixon": [
-    "Adam Dixon"
-  ],
-  "Ralph Hamor": [
-    "Ralph Hamor",
-    "Captain Ralph Hamor",
-    "Ralph Hamour",
-    "Raph Hamer",
-    "Capt Raph Hamer",
-    "Captain Raph Hamer",
-    "m’ Raph Hamer",
-    "Raph Hamor",
-    "Capt Raph Hamor",
-    "Captaine Raph Hamor",
-    "Radulfo Hamor",
-    "Ralphe Hamer",
-    "Captaine Ralphe Hamer",
-    "Rap Hamor",
-    "Captain Rap Hamor",
-    "Raph Haimor",
-    "Raphe Hamor",
-    "Capt Raphe Hamor",
-    "Captaine Raphe Hamor",
-    "M* Raphe Hamor",
-    "Rare Hamer",
-    "Rare Hamor",
-    "Ratew Hamour"
-  ],
-  "William Tucker": [
-    "William Tucker",
-    "Capt William Tucker",
-    "Captain William Tucker",
-    "Captaine William Tucker",
-    "capt William Tucker",
-    "Wilfm Tuckar",
-    "Capt Wilfm Tuckar",
-    "Wilhain Tucker",
-    "Capt Wilhain Tucker",
-    "Willm Tuckar",
-    "Capt Willm Tuckar",
-    "Willtun Turker",
-    "Captain Willtun Turker",
-    "Wiltm Tuckar",
-    "Capt Wiltm Tuckar",
-    "Wiltm Tucker",
-    "Capt Wiltm Tucker",
-    "Win Tucker",
-    "Capt Win Tucker",
-    "capt Win Tucker",
-    "Witim Tuckar",
-    "Wittiam Tucker",
-    "CAPTAIN Wittiam Tucker",
-    "Wittm Tuckar",
-    "Capt Wittm Tuckar",
-    "Wittm Tucker",
-    "Capt Wittm Tucker",
-    "Witttam Tucker",
-    "Wm Tucker",
-    "Capt Wm Tucker",
-    "Capt. Wm Tucker",
-    "WriniAM Tucker",
-    "Wiltm Tuekar",
-    "Capt Wiltm Tuekar",
-    "Withn Tuekar",
-    "Capt Withn Tuekar"
-  ],
-  "Walter Earle": [
-    "Walter Earle"
-  ],
-  "Thomas Wroth": [
-    "Thomas Wroth",
-    "Sir Thomas Wroth",
-    "m' Thomas Wroth",
-    "Thomas Wroths"
-  ],
-  "John Wroth": [
-    "John Wroth",
-    "Mr John Wroth",
-    "M’ John Wroth",
-    "m' John Wroth",
-    "m* John Wroth",
-    "m’ John Wroth",
-    "John Wrothe",
-    "M* John Wrothe",
-    "Iohn Wroth",
-    "m' Iohn Wroth",
-    "m'* Iohn Wroth",
-    "m’ Iohn Wroth"
-  ],
-  "Dudley Digges": [
-    "Dudley Digge",
-    "Dudley Digges",
-    "Dudley Diggs",
-    "Sir Dudley Diggs",
-    "Dudley Digs",
-    "Sir Dudley Digs",
-    "Dudley Digwes",
-    "Sir Dudley Digwes",
-    "Dudly Digges",
-    "Sir Dudly Digges",
-    "Dudly Diges",
-    "Sir Dudly Diges",
-    "Dudleus Digs"
-  ],
-  "Edward Sackville": [
-    "Edward Sackuill",
-    "Edward Sackvill",
-    "Edward Sackville",
-    "Sir Edward Sackville"
-  ],
-  "Thomas Coventry": [
-    "Thomas Covenirye",
-    "Thomas Coventeve",
-    "Sir Thomas Coventeve",
-    "Thomas Coventry",
-    "Sir Thomas Coventry",
-    "Thomas Coventrye",
-    "Sir Thomas Coventrye"
-  ],
-  "Francis Carter": [
-    "Francis Carter",
-    "Francis Carter.2"
-  ],
-  "Henry Rainsford": [
-    "Henry Rainsford",
-    "m' Henry Rainsford",
-    "m’ Henry Rainsford",
-    "Henry Rainsforde"
-  ],
-  "Richard Bull": [
-    "Richard Bull",
-    "m' Richard Bull",
-    "m’ Richard Bull"
-  ],
-  "Thomas Gibbs": [
-    "Thomas Gibbes",
-    "m' Thomas Gibbes",
-    "m* Thomas Gibbes",
-    "m’ Thomas Gibbes",
-    "Thomas Gibbs",
-    "M* Thomas Gibbs",
-    "m' Thomas Gibbs",
-    "m’ Thomas Gibbs",
-    "Thomas Gibé",
-    "m' Thomas Gibé"
-  ],
-  "William Newce": [
-    "William Newce",
-    "Captain William Newce",
-    "Captaine William Newce",
-    "m’ William Newce",
-    "William Nuce",
-    "Willm Newce",
-    "Captain Willm Newce",
-    "Wiltm Newce",
-    "Capt Wiltm Newce",
-    "Wiltm Nuee",
-    "William Nuee",
-    "Wittm Newee",
-    "Captain Wittm Newee",
-    "Sir William Newce",
-    "S' William Newce",
-    "S' William Nuce",
-    "William Nevee"
-  ],
-  "Thomas Newce": [
-    "Thomas Newce",
-    "Thomas Nuce",
-    "Captain Thomas Nuce",
-    "Captaine Thomas Nuce",
-    "m’ Thomas Nuce",
-    "Captain Thomas Newce",
-    "Captaine Thomas Newce",
-    "Tho: Nuce",
-    "m' Tho: Nuce",
-    "Capt Tho: Nuce",
-    "Tuo: Nuce"
-  ],
-  "Richard Caswell": [
-    "Ricardus Caswell",
-    "Richard Casewell",
-    "M’ Richard Casewell",
-    "m’ Richard Casewell",
-    "Richard Caswell",
-    "m’ Richard Caswell"
-  ],
-  "Arthur Ingram": [
-    "Arthur Ingram",
-    "Sir Arthur Ingram"
-  ],
-  "Henry Briggs": [
-    "Henry Briggs",
-    "M' Henry Briggs",
-    "M* Henry Briggs",
-    "m' Henry Briggs",
-    "m’ Henry Briggs",
-    "Henry Brigs",
-    "m’ Henry Brigs"
-  ],
-  "Edward Bennett": [
-    "Edward Bennets",
-    "Mr. Edward Bennets",
-    "Edward Bennett",
-    "M' Edward Bennett",
-    "M* Edward Bennett",
-    "Master Edward Bennett",
-    "Mr. Edward Bennett",
-    "m’ Edward Bennett",
-    "Edward Bennit",
-    "M' Edward Bennit"
-  ],
-  "William Webb": [
-    "William Webb",
-    "m*’ William Webb"
-  ],
-  "Arthur Swayne": [
-    "Arthur Swaine",
-    "m' Arthur Swaine",
-    "m’ Arthur Swaine",
-    "m’* Arthur Swaine",
-    "Arthur Swayne",
-    "M' Arthur Swayne",
-    "Master Arthur Swayne",
-    "m* Arthur Swayne",
-    "m’* Arthur Swayne"
-  ],
-  "Francis West": [
-    "Francis West",
-    "Captaine Francis West",
-    "Frauncis West",
-    "FrRaNcIS West"
-  ],
-  "Anthony Withers": [
-    "Anthony Withers",
-    "M* Anthony Withers",
-    "m' Anthony Withers"
-  ],
-  "John Bonnall": [
-    "John Bonnall",
-    "John Bounall"
-  ],
-  "Morris Abbott": [
-    "Morris Abbot",
-    "Morris Abbott",
-    "M’ Morris Abbott",
-    "m' Morris Abbott",
-    "m* Morris Abbott",
-    "m*’ Morris Abbott",
-    "m’ Morris Abbott"
-  ],
-  "George Calvert": [
-    "George Calvert",
-    "SIR GEORGE CALVERT",
-    "Sir George Calvert",
-    "George Calverte",
-    "Sir George Calverte",
-    "George Caluert",
-    "Sir George Caluert",
-    "Georee Cauvert",
-    "Sir Georee Cauvert"
-  ],
-  "Nicholas Tufton": [
-    "Nicholas Tufton"
-  ],
-  "Nicholas Leate": [
-    "Nicholas Leate",
-    "M' Nicholas Leate",
-    "M*' Nicholas Leate",
-    "m* Nicholas Leate"
-  ],
-  "Richard Wiseman": [
-    "Richard Wiseman",
-    "m’ Richard Wiseman"
-  ],
-  "Robert Heath": [
-    "Robert Heath",
-    "M' Robert Heath",
-    "Roberte Heath",
-    "Sir Roberte Heath"
-  ],
-  "Robert Killigrew": [
-    "Robert Killegrew",
-    "Sir Robert Killegrew",
-    "Robert Killierue",
-    "Sir Robert Killierue",
-    "Robert Killigrew",
-    "Robert Killigrewe",
-    "Sir Robert Killigrewe"
-  ],
-  "Samuel Sandys": [
-    "Samuel Sandys",
-    "Sir Samuel Sandys"
-  ],
-  "Thomas Keightley": [
-    "Thomas Keightley",
-    "Mr Thomas Keightley",
-    "M’ Thomas Keightley",
-    "m' Thomas Keightley",
-    "Thomas Keightly",
-    "m*’ Thomas Keightly"
-  ],
-  "Henry Mildmay": [
-    "Henry Mildemay",
-    "Henry Mildmay",
-    "Sir Henry Mildmay",
-    "Henry Mildmayes"
-  ],
-  "Thomas Styles": [
-    "Thomas Styles",
-    "Mr Thomas Styles",
-    "M’ Thomas Styles"
-  ],
-  "Ferdinando Gorges": [
-    "Ferdinando Gorge",
-    "Ferdinando Gorges",
-    "Sir Ferdinando Gorges",
-    "sir Ferdinando Gorges"
-  ],
-  "Edward Ditchfield": [
-    "Edward Ditchfield",
-    "m’ Edward Ditchfield"
-  ],
-  "Richard Edwards": [
-    "Richard Edwards",
-    "M' Richard Edwards"
-  ],
-  "John Dyke": [
-    "John Dyke"
-  ],
-  "Anthony Abdy": [
-    "Anthony Abdy",
-    "m’ Anthony Abdy",
-    "Anthony Abdye"
-  ],
-  "William Palmer": [
-    "William Palmer",
-    "m’ William Palmer"
-  ],
-  "George Mole": [
-    "George Mole"
-  ],
-  "Richard Morer": [
-    "Richard Morer"
-  ],
-  "Robert Bateman": [
-    "Robert Bateman",
-    "M’ Robert Bateman"
-  ],
-  "Martin Bond": [
-    "Martin Bond"
-  ],
-  "Robert Johnson": [
-    "Robert Ihonson",
-    "Robert Iohnson",
-    "Sir Robert Iohnson",
-    "Robert Johnson",
-    "M' Robert Johnson",
-    "Robt Johnson",
-    "Ropert JOHNSON",
-    "Roberto Johnson"
-  ],
-  "John Bland": [
-    "John Bland",
-    "m* John Bland",
-    "John Blande"
-  ],
-  "John Hart": [
-    "John Hart",
-    "m' John Hart",
-    "John Harte"
-  ],
-  "Ambrose Wood": [
-    "Ambrose Wood",
-    "m' Ambrose Wood"
-  ],
-  "Henry Spelman": [
-    "Henry Spelman",
-    "Captaine Henry Spelman"
-  ],
-  "Richard Pace": [
-    "Richard Pace"
-  ],
-  "William Sharpe": [
-    "William Sharpe"
-  ],
-  "William Capps": [
-    "William Capps",
-    "m’ William Capps"
-  ],
-  "Thomas Melling": [
-    "Thomas Melling",
-    "Thomas Mellinge",
-    "m' Thomas Mellinge"
-  ],
-  "John Cuffe": [
-    "John Cuff",
-    "John Cuffe"
-  ],
-  "Thomas Harris": [
-    "Thomas Harris"
-  ],
-  "John Suckling": [
-    "John Suckling",
-    "Sir John Suckling"
-  ],
-  "William Barrett": [
-    "William Barret"
-  ],
-  "Robert Smith": [
-    "Robert Smith",
-    "M’ Robert Smith",
-    "m' Robert Smith",
-    "m* Robert Smith",
-    "m’ Robert Smith",
-    "m’* Robert Smith",
-    "Robt Smith",
-    "m’ Robt Smith",
-    "Robte Smith",
-    "m' Robte Smith",
-    "m’ Robte Smith"
-  ],
-  "Roger Smith": [
-    "Roger Sinith",
-    "Capt Roger Sinith",
-    "capt Roger Sinith",
-    "Roger Smith",
-    "CAPTAIN Roger SMITH",
-    "Capt Roger Smith",
-    "Capt. Roger Smith",
-    "Captain Roger Smith",
-    "Captaine Roger Smith",
-    "m* Roger Smith"
-  ],
-  "George Smith": [
-    "Geo Smith",
-    "m’ Geo Smith",
-    "m’* Geo Smith",
-    "Georg Smith",
-    "m' Georg Smith",
-    "m* Georg Smith",
-    "m’ Georg Smith",
-    "George Smith",
-    "M* George Smith",
-    "m' George Smith",
-    "m* George Smith",
-    "m’ George Smith"
-  ],
-  "Samuel Wrote": [
-    "Sam Wrote",
-    "m’ Sam Wrote",
-    "Samuel Wrote",
-    "Samuell Wrote",
-    "M' Samuell Wrote",
-    "m' Samuell Wrote",
-    "m* Samuell Wrote",
-    "m’ Samuell Wrote"
-  ],
-  "John Pountis": [
-    "John Pountice",
-    "m' John Pountice",
-    "John Pountis",
-    "Mr. John Pountis",
-    "John Pountus",
-    "M* John Pountus"
-  ],
-  "Robert Bell": [
-    "Robert Bell",
-    "M' Robert Bell",
-    "m* Robert Bell"
-  ],
-  "William Wye": [
-    "William Wye",
-    "M* William Wye",
-    "Wiltm Wye"
-  ],
-  "George Scott": [
-    "George Scott",
-    "m* George Scott",
-    "m’ George Scott",
-    "George Seott",
-    "Georgius Seott"
-  ],
-  "Edward Brewster": [
-    "Edward Brewster",
-    "Captain Edward Brewster",
-    "Captaine Edward Brewster",
-    "Edward Bruister"
-  ],
-  "Daniel Tucker": [
-    "Daniel Tucker",
-    "Daniell Tucker",
-    "Captaine Daniell Tucker",
-    "Captaine Daniel Tucker"
-  ],
-  "John Berkeley": [
-    "John Berkeley",
-    "John Berkley",
-    "Mr. John Berkley",
-    "John Berkly",
-    "m' John Berkly",
-    "m’ John Berkly",
-    "Master John Berkeley"
-  ],
-  "George Chambers": [
-    "George Chamber",
-    "George Chambers",
-    "M’ George Chambers",
-    "M’' George Chambers",
-    "m* George Chambers"
-  ],
-  "George Ruggle": [
-    "George Ruggle",
-    "m' George Ruggle",
-    "m* George Ruggle"
-  ],
-  "Thomas Shipton": [
-    "Thomas Shipton"
-  ],
-  "George Somers": [
-    "George Somers",
-    "Sir George Somers",
-    "George Sumers",
-    "George Summers",
-    "Sir George Summers",
-    "George Somers’",
-    "Sir George Somers’",
-    "George Sommers",
-    "Sir George Sommers",
-    "George Sofiers",
-    "George Sofiiers",
-    "George Suffers",
-    "George Suiiers",
-    "George Suitiers",
-    "Georgio Summers",
-    "Georgius Summers"
-  ],
-  "John Harvey": [
-    "John Haruey",
-    "Capt John Haruey",
-    "JoHN HaRuEy",
-    "John Harvey",
-    "Captain John Harvey",
-    "Iohn Harvy",
-    "m’ Iohn Harvy",
-    "John Harvey's",
-    "John Harvey’s",
-    "John Harvy",
-    "Joon Harvey",
-    "Joun Harvey",
-    "Jouw Harvey"
-  ],
-  "Arthur Guy": [
-    "Arthur Guy",
-    "Captain Arthur Guy",
-    "Captaine Arthur Guy",
-    "Arthur Guye",
-    "Captain Arthur Guye"
-  ],
-  "Walter Cope": [
-    "Walter Cope",
-    "Sir Walter Cope",
-    "Waltero Cope"
-  ],
-  "Gabriel Barber": [
-    "Gabriel Barber",
-    "Gabriel Barbor",
-    "Mr Gabriel Barbor",
-    "m’ Gabriel Barbor"
-  ],
-  "Thomas Roe": [
-    "Thomas Roe",
-    "Sir Thomas Roe",
-    "Thomas Rowe",
-    "Sir Thomas Rowe",
-    "Thomas Roes",
-    "Thomas Roe’s",
-    "Sir Thomas Roe’s",
-    "Thome Rowe"
-  ],
-  "William Ewens": [
-    "Willelmus Ewens",
-    "William Ewens"
-  ],
-  "John Brooke": [
-    "John Brooke",
-    "Sir John Brooke"
-  ],
-  "Christopher Brooke": [
-    "Christopher Brooke",
-    "m’ Christopher Brooke",
-    "Christofer Brooke",
-    "m’ Christofer Brooke",
-    "Christofero Brooke",
-    "Xfer Brooke",
-    "m* Xfer Brooke",
-    "Xo Brooke",
-    "m'’ Xo Brooke",
-    "m’ Xo Brooke",
-    "Xofer Brooke",
-    "m' Xofer Brooke",
-    "m* Xofer Brooke",
-    "Xrofer Brooke",
-    "X6 Brooke",
-    "m' X6 Brooke",
-    "Xio Brook"
-  ],
-  "Abraham Piersey": [
-    "Abraham Peirce",
-    "Abraham Peireys",
-    "Abraham Peirs",
-    "m' Abraham Peirs",
-    "Abraham Peirsey",
-    "Abraham Percey",
-    "Abraham Persey",
-    "Mr. Abraham Persey",
-    "Abraham Perseye",
-    "M’ Abraham Perseye",
-    "Abraham Pierce",
-    "Master Abraham Pierce",
-    "Abraham Piersey",
-    "Albraha Peirsey"
-  ],
-  "Philip Carew": [
-    "Philip Carew",
-    "Phillip Carey",
-    "Phillip Cary",
-    "Phillip Carye"
-  ],
-  "Baptist Hicks": [
-    "Baptist Hicks",
-    "Sir Baptist Hicks",
-    "Baptist Hickes",
-    "Sir Baptist Hickes",
-    "Baptiste Hicks",
-    "Baptistes Ticks",
-    "Baptiste Hiekes",
-    "sir Baptiste Hiekes"
-  ],
-  "William Strachey": [
-    "William Strachey",
-    "William Strachy"
-  ],
-  "Edward Maria Wingfield": [
-    "Edward Maria Wingfield",
-    "Edward-Maria Wingfield",
-    "Captain Edward Maria Wingfield",
-    "Captain Edward Maria Wingfeilde",
-    "Edward Maria Wingfeilde",
-    "Edward Maria Winekfeild",
-    "Edward Maria Winckfeild",
-    "Edwardus Maria Winekfeild",
-    "Captaine Maria Winckfield",
-    "Maria Winckfield",
-    "Maria Winekfeild",
-    "Maria Wingfeilde",
-    "Maria Winkfeild"
-  ],
-  "John Ratcliffe": [
-    "Captain John Ratcliffe",
-    "John Sicklemore alias Ratcliffe",
-    "Captain John Sicklemore alias Ratcliffe",
-    "Captaine John Siclemore, alias Ratcliffe",
-    "John Sicklemore",
-    "John Siclemore",
-    "John Stilemore",
-    "Captain John Stilemore",
-    "John Stilemore alias Rateliffe",
-    "Captain John Stilemore alias Rateliffe",
-    "Capt John Rateliff",
-    "Captaine John Radeliffe"
-  ],
-  "Matthew Scrivener": [
-    "Matthew Scrivener",
-    "Mathew Scrivener",
-    "Matthew Seriuener",
-    "Matheo Scriven"
-  ]
+  "description": "Person alias dictionary for the Virginia Company records. Each person has observed alias spellings plus the source and historical basis of the identification. 'excluded' lists frequent name strings deliberately not assigned to anyone, with the reason.",
+  "people": {
+    "Samuel Argall": {
+      "aliases": [
+        "Captain Argall",
+        "Capt. Argall",
+        "Captaine Argoll",
+        "Captain Samuel Argall",
+        "Capt. Samuel Argoll",
+        "Governor Argall",
+        "Governor Argoll",
+        "Samuel Argoll",
+        "Samuell Argall",
+        "Captain Samuell Argall",
+        "Sir Samuell Argall",
+        "Samuell Argoll",
+        "Capt Samuell Argoll",
+        "Capt. Samuell Argoll",
+        "Captaine Samuell Argoll",
+        "m* Samuell Argoll",
+        "Captain Samuel Argal",
+        "Captaine Samuel Argol",
+        "Samuel Argal",
+        "Samuel Argol",
+        "Samuelis Argoll",
+        "Sir Sumucl Argall",
+        "Sumucl Argall",
+        "Sunuell Argall",
+        "Samuel Argall",
+        "S. Argoll",
+        "Capt. S. Argoll",
+        "Cap Argoll",
+        "Cap' Argoll",
+        "Captayne Argoll"
+      ],
+      "source": "list_of_records",
+      "basis": "Governor Samuel Argall.",
+      "name_groups": [
+        "S. Argoll",
+        "Cap Argoll",
+        "Captayne Argoll"
+      ]
+    },
+    "Edwin Sandys": {
+      "aliases": [
+        "Sir Edwin Sandys",
+        "Sir Edwin Sandis",
+        "S' Edwin Sandys",
+        "S' Edwin Sandis",
+        "Sir E. Sandys",
+        "Sir Ed. Sandys",
+        "Ed. Sandys",
+        "E. Sandys",
+        "Edwin Sandis",
+        "Edwin Sands",
+        "Edwin Sandye",
+        "Edwyn Sandys",
+        "Epwin Sanpys",
+        "EpwIn Sanpys",
+        "Epwin SAnpys",
+        "SIR Epwin Sanpys",
+        "Sir Epwin Sanpys",
+        "Sir Epwin SANpYs",
+        "Epwin Sanpys.",
+        "Edwin Sandes",
+        "Edwin Sandys’",
+        "Edwine Sandis",
+        "Edwinum Sandis",
+        "Edwinuwm Sandis",
+        "Edwiuus Sandis",
+        "Edwyn Sandes",
+        "Edwin Sandys",
+        "St Edwin"
+      ],
+      "source": "list_of_records",
+      "basis": "'S' Edwin' (Sir Edwin) in the records is Sir Edwin Sandys.",
+      "name_groups": [
+        "St Edwin"
+      ]
+    },
+    "Thomas Smythe": {
+      "aliases": [
+        "Sir Thomas Smythe",
+        "Thomas Smythe",
+        "Sir Thomas Smith",
+        "Thomas Smith",
+        "S' Thomas Smith",
+        "S' Thos. Smith",
+        "Thomas Smithe",
+        "Sir Thomas Smithe",
+        "Thomas Smithes",
+        "Thomas Smiths",
+        "Sir Thomas Smiths",
+        "Thomas Smith’s",
+        "Sir Thomas Smith’s",
+        "Thomas Smith's",
+        "Sir Thomas Smith's",
+        "Thomas Smith.",
+        "Thomas Smith...",
+        "Thomas Sinyth",
+        "S' Thomas Sinyth",
+        "Thomas Sinyths",
+        "S' Thomas Sinyths",
+        "Thomas Smuth",
+        "S' Thomas Smuth",
+        "Thomas Smythe’s",
+        "Thomas Smyth",
+        "Sir THomas SMYTH",
+        "Sir Thomas Smyth"
+      ],
+      "source": "list_of_records"
+    },
+    "John Smyth of Nibley": {
+      "aliases": [
+        "John Smyth of Nibley",
+        "Smyth of Nibley",
+        "John Smyth",
+        "Iohn Smyth",
+        "m' Iohn Smyth",
+        "m’ Iohn Smyth"
+      ],
+      "source": "list_of_records",
+      "basis": "Named with Berkeley, Thorpe, Throckmorton and Yeardley in the Berkeley Hundred grants and indentures.",
+      "name_groups": [
+        "John Smyth",
+        "Iohn Smyth"
+      ],
+      "skip_aliases": [
+        "Captaine John Smyth",
+        "Sir John Smyth"
+      ]
+    },
+    "George Yeardley": {
+      "aliases": [
+        "Sir George Yeardley",
+        "Sir Geo. Yeardley",
+        "Geo. Yeardley",
+        "George Yardley",
+        "Geo. Yardley",
+        "Governor Yeardley",
+        "George Yardeley",
+        "Sir George Yardeley",
+        "GEORGE YARDLEY",
+        "Sir George Yardley",
+        "GeorGE YARDLY",
+        "George Yardly",
+        "Sir George Yardly",
+        "George Yeardleys",
+        "Sir George Yeardleys",
+        "George Yeardly",
+        "Captain George Yeardly",
+        "Sir George Yeardly",
+        "George Yeardley",
+        "Captain George Yeardley",
+        "GEORGE YEARDLEY",
+        "George YEARDLEY",
+        "Sir GEORGE YEARDLEY",
+        "Sir George YEARDLEY",
+        "m* George Yeardley",
+        "Sir Georce Yeardley",
+        "Sir Georce Yearptey",
+        "George Yardlie",
+        "George Yardlyes",
+        "Sir GEORGE YarRDLEY",
+        "GEORGE YarRDLEY",
+        "GEORGE YWARDLEY",
+        "Sir GEORGE YWARDLEY",
+        "George Yearcir",
+        "Georce Yeardley",
+        "George Yeardiey",
+        "Sir George Yeardiey",
+        "Sir George Yeardlev",
+        "Sir George Yeardleyes",
+        "George Yeardlie",
+        "George Yeardlys",
+        "George Yeurdley",
+        "Georgio Yardley",
+        "Sir Grorce Yarpiey",
+        "Grorce YEARDLEY",
+        "GrorcGe YEARDLEY",
+        "Grorcrt YEARDLEY",
+        "Sir GrorGE YEARDLEY",
+        "GrorGE YEARDLEY",
+        "Greorce Yrarpiey",
+        "Sir Greorce Yrarpiey",
+        "Grorck Yrearptey",
+        "Grorck Yrearptey.",
+        "Sir Grorck Yrearptey"
+      ],
+      "source": "list_of_records"
+    },
+    "Francis Wyatt": {
+      "aliases": [
+        "Sir Francis Wyatt",
+        "Francis Wiat",
+        "Francis Wyatt Knight",
+        "Governor Wyatt",
+        "Governor Francis Wyatt",
+        "Francis Wyatr",
+        "Franeis Wyatt",
+        "Frauncis Wyatt",
+        "Sir Frauncis Wyatt",
+        "Francis Wyatt",
+        "Francis WYATT",
+        "Francis WYAtt",
+        "Sir Francis WYATT",
+        "Sir Francis Wiat",
+        "Sir Francis Wyarr",
+        "Francis Wyarr",
+        "Francis Wyate",
+        "Francis Wyratt",
+        "Franers WYAtr",
+        "Sir Fraucis Wyatt",
+        "Fraucis Wyatt",
+        "Frauncis Wyat",
+        "Sir Francis Wat",
+        "Francis Wat",
+        "Francis Wiates",
+        "Sir Vrancis Wratt",
+        "Vrancis Wratt",
+        "Francis Wrarr"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas West, Lord De La Warr": {
+      "aliases": [
+        "Thomas West",
+        "Lord De La Warr",
+        "Lord La Warr",
+        "Lord De La Ware",
+        "De La Warr",
+        "Lord Delaware",
+        "Sir Thomas West",
+        "La Warr",
+        "La Warre",
+        "De Lawarr",
+        "Lord De Lawarr",
+        "Lo Lawarr",
+        "D’ Lawarr",
+        "Lord D’ Lawarr"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Gates": {
+      "aliases": [
+        "Sir Thomas Gates",
+        "S' Thomas Gates",
+        "Governor Gates",
+        "Thomas Gates",
+        "Sir Thomas Gaties",
+        "Thomas Gaties",
+        "Thomas Cattes"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Dale": {
+      "aliases": [
+        "Sir Thomas Dale",
+        "Deputy Governor Dale",
+        "Thomas Dale",
+        "Sir Tho Dale",
+        "Thomas Dales",
+        "Sir Thomas Dales",
+        "Sir Thomas Dales’"
+      ],
+      "source": "list_of_records"
+    },
+    "Elizabeth Dale": {
+      "aliases": [
+        "Elizabeth Dale",
+        "Lady Dale",
+        "Ladie Dale",
+        "Dame Elizabeth Dale"
+      ],
+      "source": "list_of_records"
+    },
+    "John Smith": {
+      "aliases": [
+        "Captain John Smith",
+        "Capt. John Smith",
+        "Captaine John Smith",
+        "Captain Smith",
+        "Captaine Smith",
+        "Captain Iohn Smith",
+        "Capt. Jo. Smith"
+      ],
+      "source": "list_of_records"
+    },
+    "Christopher Newport": {
+      "aliases": [
+        "Captain Christopher Newport",
+        "Christopher Newport",
+        "Christofero Newporte",
+        "Capten Newport"
+      ],
+      "source": "list_of_records",
+      "basis": "Captain Christopher Newport.",
+      "name_groups": [
+        "Capten Newport"
+      ]
+    },
+    "George Percy": {
+      "aliases": [
+        "George Percy",
+        "Geo. Percy",
+        "G[eorge] Percy",
+        "Mr. George Percy",
+        "George Persey",
+        "George Pearcey",
+        "Georgio Pearcey"
+      ],
+      "source": "list_of_records"
+    },
+    "John Rolfe": {
+      "aliases": [
+        "John Rolf",
+        "John Rolfe",
+        "M' John Rolfe",
+        "M* John Rolfe",
+        "Iohn Rolfe",
+        "Jo Rolfe",
+        "m' Jo Rolfe",
+        "John Rolfes",
+        "Mr. John Rolfes",
+        "John Rolph",
+        "Tohn Rolf"
+      ],
+      "source": "list_of_records"
+    },
+    "John Pory": {
+      "aliases": [
+        "Jo: Pory",
+        "Joun Porr",
+        "Joun Pory",
+        "John Pory",
+        "JoHN Pory",
+        "Jo Pory",
+        "M' Jo. Pory",
+        "Jo. Pory",
+        "Jo Porr",
+        "Jonn Pory",
+        "Joun Porey",
+        "John Porye",
+        "John Porey",
+        "Iohn Porey",
+        "Zohn Porey",
+        "Master Zohn Porey",
+        "Jobanni Porey"
+      ],
+      "source": "list_of_records"
+    },
+    "John Ferrar": {
+      "aliases": [
+        "J. Ferrar",
+        "J. fferrar",
+        "John fferrar",
+        "m' John fferrar",
+        "Mr. Ferrar",
+        "Iohn Ferrar",
+        "M’ Iohn Ferrar",
+        "m' Iohn Ferrar",
+        "m* Iohn Ferrar",
+        "m’ Iohn Ferrar",
+        "John Farrar",
+        "M' John Farrar",
+        "M* John Farrar",
+        "M’ John Farrar",
+        "m' John Farrar",
+        "Ihon Farrar",
+        "M* Ihon Farrar",
+        "Jhon Farrar",
+        "m’ Jhon Farrar",
+        "Jo Farrar",
+        "M* Jo Farrar",
+        "Jo. Farrar",
+        "M' Jo. Farrar",
+        "John Farrer",
+        "John Farrer.",
+        "M* John Farrer",
+        "mr. John Farrer",
+        "Joun FErrar",
+        "John Ferrar",
+        "JOHN FERRAR",
+        "JoHN FERRAR",
+        "JoHN Ferrar",
+        "M' John Ferrar",
+        "M* John Ferrar",
+        "Mr John Ferrar",
+        "M’ John Ferrar",
+        "m' John Ferrar",
+        "m’ John Ferrar"
+      ],
+      "source": "list_of_records"
+    },
+    "Nicholas Ferrar": {
+      "aliases": [
+        "Nicholas Farrar",
+        "Nich. Ferrar",
+        "Nich. fferrar",
+        "Nicholas fferrar",
+        "M' Nicholas Farrar",
+        "M* Nicholas Farrar",
+        "Master Nicholas Farrar",
+        "Nicholas Farrer",
+        "Nicholas Ferrar’s",
+        "Nicholas Marrer",
+        "N. Farrar",
+        "m' N. Farrar",
+        "N. Ferrar",
+        "N. Ferrar’s",
+        "Nich Ferrar",
+        "Niche Ferrar",
+        "Mr Niche Ferrar",
+        "Nicholas Ferrar's",
+        "NicHOLAS FFERRAR",
+        "Nicholaus Mfarrer",
+        "Nicholaus Mlarrer",
+        "Nicnotas Ferran",
+        "Nicolas Ferrar",
+        "M* Nicolas Ferrar",
+        "Master Nicolas Ferrar",
+        "Nicholas Ferrar",
+        "M' Nicholas Ferrar",
+        "m' Nicholas Ferrar",
+        "m* Nicholas Ferrar",
+        "m’ Nicholas Ferrar"
+      ],
+      "source": "list_of_records"
+    },
+    "George Thorpe": {
+      "aliases": [
+        "Geo. Thorpe",
+        "Geo'ge Thorpe",
+        "George Thorp",
+        "M* George Thorp",
+        "George Thorpe",
+        "Capt. George Thorpe",
+        "Captain George Thorpe",
+        "M' George Thorpe",
+        "Master George Thorpe",
+        "m' George Thorpe",
+        "M* George Thorps",
+        "George Thorps",
+        "Grorce THoorre",
+        "George Thrope",
+        "Grorce THorrr"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Berkeley": {
+      "aliases": [
+        "Rich. Berkeley",
+        "Rich. Bearkley",
+        "Mr. Berkeley",
+        "Rich BERKELEY",
+        "Rich Berkeley",
+        "Richard Berk",
+        "Richard Berkley",
+        "M' Richard Berkley",
+        "Richard Berkeley"
+      ],
+      "source": "list_of_records"
+    },
+    "William Throckmorton": {
+      "aliases": [
+        "Sir William Throckmorton",
+        "Sir Wm. Throckmorton",
+        "Wm. Throckmorton",
+        "William Throkmorton",
+        "William Throckmorton"
+      ],
+      "source": "list_of_records"
+    },
+    "William Tracy": {
+      "aliases": [
+        "Wm. Tracy",
+        "Wm. Tracie",
+        "Wim. Tracie",
+        "Wii Tracy",
+        "Willm Tracy",
+        "Wiltm Tracy",
+        "William Tracy",
+        "Mr. William Tracy"
+      ],
+      "source": "list_of_records"
+    },
+    "John Woodlief": {
+      "aliases": [
+        "Captain John Woodlief",
+        "Capt. John Woodleefe",
+        "Captain Woodleefe",
+        "Iohn Woodleefe",
+        "John Woodleefe",
+        "Captain John Woodleefe",
+        "Captaine John Woodleefe",
+        "Captayne Woodleefe",
+        "M’ Captayne Woodleefe"
+      ],
+      "source": "list_of_records",
+      "basis": "Captain John Woodlief of Berkeley Hundred.",
+      "name_groups": [
+        "Captayne Woodleefe"
+      ]
+    },
+    "Nathaniel Butler": {
+      "aliases": [
+        "Nathaniel Butler",
+        "Nath. Butler",
+        "Governor Nath. Butler",
+        "Captain Butler",
+        "Capt. Butler",
+        "Capt Nathaniel Butler",
+        "Captain Nathaniel Butler",
+        "Nathaniel Butler’s",
+        "Nathaniel Butler's",
+        "Captain Nathaniel Butler’s",
+        "Captain Nathaniel Butler's"
+      ],
+      "source": "list_of_records",
+      "basis": "Possessive form.",
+      "name_groups": [
+        "Nathaniel Butler’s"
+      ]
+    },
+    "Nathaniel Rich": {
+      "aliases": [
+        "Sir Nathaniel Rich",
+        "Nath. Rich",
+        "N. Rich",
+        "Sir Nath. Rich",
+        "Nathaniel Rich’s",
+        "Sir Nathaniel Rich’s",
+        "Nathaniel Rieh",
+        "Sir Nathaniel Rieh",
+        "sir Nathaniel Rieh",
+        "Nathaniell Rich",
+        "Nathaniel Rich",
+        "Nathaniel Rich's",
+        "Sir Nathaniel Rich's"
+      ],
+      "source": "list_of_records"
+    },
+    "John Chamberlain": {
+      "aliases": [],
+      "source": "list_of_records"
+    },
+    "Dudley Carleton": {
+      "aliases": [
+        "Sir Dudley Carleton",
+        "Dudley Carleton"
+      ],
+      "source": "list_of_records"
+    },
+    "John Bargrave": {
+      "aliases": [
+        "John Bargrave's",
+        "John Bargraue",
+        "Capt. John Bargraue",
+        "JoHN BARGRAVE",
+        "Captain JoHN BARGRAVE",
+        "Captain John Bargrave",
+        "John Bargrave",
+        "Iohn Bargraue",
+        "M’ Bargrave",
+        "M' Bargrave"
+      ],
+      "source": "list_of_records",
+      "basis": "Captain John Bargrave.",
+      "name_groups": [
+        "Iohn Bargraue",
+        "M’ Bargrave"
+      ]
+    },
+    "James Brett": {
+      "aliases": [
+        "James Brett"
+      ],
+      "source": "list_of_records"
+    },
+    "John Martin": {
+      "aliases": [
+        "Captain John Martin",
+        "Capt. John Martin",
+        "John Martyn",
+        "John Marten",
+        "Iohn Martin",
+        "Capt Iohn Martin",
+        "Captaine Iohn Martin",
+        "John Martine",
+        "Capt John Martine",
+        "Captaine John Martine",
+        "John Martin’s",
+        "Capt. John Martin’s",
+        "Captain John Martin’s",
+        "John Marttin",
+        "Capt John Marttin",
+        "Captaine John Marttin",
+        "Jonn Martin",
+        "Captain Jonn Martin",
+        "John Martin",
+        "Capt John Martin",
+        "Io Martin",
+        "Iohn Martins",
+        "Captaine Iohn Martins",
+        "Jahn Martin",
+        "Johanni Martine",
+        "John Martifn",
+        "Capt. John Martifn",
+        "John Martin's",
+        "Tohn Martin",
+        "Jonn Martry",
+        "JuG Martin"
+      ],
+      "source": "list_of_records"
+    },
+    "William Powell": {
+      "aliases": [
+        "Wm. Powell",
+        "William Powel",
+        "Wm. Powel",
+        "Captain Powell",
+        "Capt. Powell",
+        "William Powell",
+        "Captain William Powell",
+        "Captaine William Powell"
+      ],
+      "source": "list_of_records"
+    },
+    "William Cradock": {
+      "aliases": [
+        "William Cradock"
+      ],
+      "source": "list_of_records"
+    },
+    "Henry Sherley": {
+      "aliases": [],
+      "source": "list_of_records"
+    },
+    "John Danvers": {
+      "aliases": [
+        "Sir John Danvers",
+        "Sir Io: Dauers",
+        "John Dauers",
+        "Iohn Dauers",
+        "Sir Iohn Dauers",
+        "Johannes Danvers",
+        "S'Iohn Dauers",
+        "John Danvers",
+        "Johannis Danvers",
+        "Johannem Danvers",
+        "John Davers",
+        "John Danuers",
+        "Iohn Diauers",
+        "Iohn Davers",
+        "Tohn Dauers",
+        "Joun Davrrs",
+        "Jolin Dianyers",
+        "Thon Dauer"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Rich": {
+      "aliases": [
+        "Earl of Warwick",
+        "Lord Warwick",
+        "Lord Rich",
+        "Robert Rich, Earl of Warwick",
+        "Robert Rich",
+        "Sir Robert Rich",
+        "Robert Earle of Warwick",
+        "Robert Earle of Warwicke"
+      ],
+      "source": "list_of_records",
+      "basis": "'Robert Earle' groups are truncated 'Robert Earle of Warwick'.",
+      "extra_aliases": [
+        "Robert Earle of Warwick",
+        "Robert Earle of Warwicke"
+      ]
+    },
+    "Henry Wriothesley": {
+      "aliases": [
+        "Earl of Southampton",
+        "Earl Southampton",
+        "Henry Wriothesley, Earl of Southampton",
+        "Henry Wriothesley",
+        "Earle Southampton",
+        "Earle of Southampton",
+        "Lord of Southampton",
+        "my Lord of Southampton",
+        "Lo: of Southampton",
+        "my Lo: of Southampton",
+        "Karle of Southampton",
+        "Ka: of Southampton",
+        "Ea: Southampton",
+        "Ea of Southampton",
+        "Ea: of Southampton",
+        "Ha: of Southampton",
+        "Lo: Southampton",
+        "E of Southampton",
+        "E: of Southampton",
+        "Haru or SOUTHAMPTON",
+        "my L. of Southampton",
+        "HENRY SOUTHAMPTON",
+        "my L. Southampton",
+        "Earn or SouTHAMPTON",
+        "Kart or SouTHAMPTON",
+        "HARL OF SOUTHAMPTON",
+        "Farle of Southampton",
+        "Henry Earle of Southampton"
+      ],
+      "source": "list_of_records",
+      "basis": "Henry Wriothesley, 3rd Earl of Southampton; Company treasurer 1620-1624. 'Henry Earle' groups are truncated 'Henry Earle of Southampton'.",
+      "extra_aliases": [
+        "Henry Earle of Southampton"
+      ]
+    },
+    "Edward la Zouche, Lord Zouch": {
+      "aliases": [
+        "Lord Zouch",
+        "Lord Zouche"
+      ],
+      "source": "list_of_records"
+    },
+    "Edward Conway": {
+      "aliases": [
+        "Secretary Conway",
+        "Edward Conway",
+        "Sir Edward Conway"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Naunton": {
+      "aliases": [
+        "Sir Robert Naunton",
+        "Sir Robt. Naunton",
+        "Robt. Naunton",
+        "Robert Naunton"
+      ],
+      "source": "list_of_records"
+    },
+    "John Digby": {
+      "aliases": [
+        "Sir John Digby",
+        "John Digby"
+      ],
+      "source": "list_of_records"
+    },
+    "Ralph Winwood": {
+      "aliases": [
+        "Sir Ralph Winwood",
+        "Sir Raphe Winwood",
+        "Raphe Winwood",
+        "Raph Winwood",
+        "Ralph Winwood"
+      ],
+      "source": "list_of_records"
+    },
+    "John Wolstenholme": {
+      "aliases": [
+        "Sir John Wolstenholme",
+        "Sir Io: Wolstenholme",
+        "Io: Wolstenholme",
+        "Iohn Wolstenholme",
+        "Sir Iohn Wolstenholme",
+        "John Worstenholme",
+        "John Wolstenholme",
+        "Io Wolstenholme",
+        "m’ Io Wolstenholme",
+        "Iohn Wolstenholm",
+        "Sir Iohn Wolstenholm",
+        "Jo Worsenholme",
+        "Johan Wolstenhohue",
+        "John Wolstenholmes",
+        "John Wostenholme",
+        "Thon Wolstenholme"
+      ],
+      "source": "list_of_records"
+    },
+    "Matthew de Quester": {
+      "aliases": [
+        "Mathewe de Quester",
+        "Matthew Dequester",
+        "Mathew Dequester",
+        "De Quester"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Mildmay": {
+      "aliases": [
+        "Sir Thomas Mildmaye",
+        "Thomas Mildmaye",
+        "Thomas Mildmay",
+        "Sir Thomas Mildmay"
+      ],
+      "source": "list_of_records"
+    },
+    "James Bryarley": {
+      "aliases": [
+        "James Bryarley",
+        "JAMES BRYARLEY"
+      ],
+      "source": "list_of_records"
+    },
+    "John Wheeler": {
+      "aliases": [
+        "John Wheeler"
+      ],
+      "source": "list_of_records"
+    },
+    "George Huntley": {
+      "aliases": [
+        "Sir George Huntley",
+        "Sir Geo. Huntley",
+        "George Huntley"
+      ],
+      "source": "list_of_records"
+    },
+    "Edmond Boyd": {
+      "aliases": [
+        "Sir Edmond Boyd",
+        "Edmond Boyd"
+      ],
+      "source": "list_of_records"
+    },
+    "John Sammes": {
+      "aliases": [
+        "Sir John Sammes",
+        "JoHN SAMMES",
+        "Sir JoHN SAMMES"
+      ],
+      "source": "list_of_records"
+    },
+    "William Leveson": {
+      "aliases": [
+        "William Leveson",
+        "WILLIAM Leveson"
+      ],
+      "source": "list_of_records"
+    },
+    "William Hall": {
+      "aliases": [
+        "William Hall",
+        "Wm. Hall"
+      ],
+      "source": "list_of_records"
+    },
+    "John Robinson": {
+      "aliases": [
+        "John Robinson"
+      ],
+      "source": "list_of_records"
+    },
+    "William Brewster": {
+      "aliases": [
+        "William Bruster",
+        "William Brewster"
+      ],
+      "source": "list_of_records"
+    },
+    "James Stringer": {
+      "aliases": [
+        "James Stringer"
+      ],
+      "source": "list_of_records"
+    },
+    "Ferdinando Yate": {
+      "aliases": [
+        "Ferdinando Yate"
+      ],
+      "source": "list_of_records"
+    },
+    "John Delbridge": {
+      "aliases": [
+        "John Delbridge",
+        "JOHN DELBRIDGE",
+        "m'* John Delbridge",
+        "Iohn Delbridge",
+        "m* Iohn Delbridge",
+        "m’ Iohn Delbridge"
+      ],
+      "source": "list_of_records",
+      "basis": "Spelling variant.",
+      "name_groups": [
+        "Iohn Delbridge"
+      ]
+    },
+    "Roger Dunster": {
+      "aliases": [
+        "Roger Dunster"
+      ],
+      "source": "list_of_records"
+    },
+    "John Fenner": {
+      "aliases": [
+        "John Fenner"
+      ],
+      "source": "list_of_records"
+    },
+    "Henry Bacon": {
+      "aliases": [
+        "Henry Bacon"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Bucke": {
+      "aliases": [
+        "Richard Bucke",
+        "M* Richard Bucke"
+      ],
+      "source": "list_of_records"
+    },
+    "James I": {
+      "aliases": [
+        "King James I",
+        "James I, King",
+        "His Majesty",
+        "James I",
+        "James R"
+      ],
+      "source": "list_of_records",
+      "basis": "Royal signature 'James R.' (Rex).",
+      "name_groups": [
+        "James R"
+      ]
+    },
+    "Pocahontas": {
+      "aliases": [
+        "Matoaka",
+        "Amonute",
+        "Rebecca",
+        "Rebecca Rolfe",
+        "Lady Rebecca",
+        "Lady Rebecca Rolfe",
+        "Mrs. John Rolfe",
+        "Matoaka als Rebecka"
+      ],
+      "source": "list_of_records"
+    },
+    "George Sandys": {
+      "aliases": [
+        "George Sandys",
+        "Georg Sandys",
+        "M' Georg Sandys",
+        "m’ Georg Sandys",
+        "George Sandis",
+        "Mr. George Sandis",
+        "m* George Sandis",
+        "M' George Sandys",
+        "M* George Sandys",
+        "Master George Sandys",
+        "Mr George Sandys",
+        "Sir George Sandys",
+        "m' George Sandys",
+        "m'’ George Sandys",
+        "m* George Sandys",
+        "m’ George Sandys",
+        "George Sandis.",
+        "George Sandyes",
+        "George Sanpys",
+        "George Sunds",
+        "Gorge Sundes",
+        "Greorce Sanpys",
+        "Grorce Sanpis",
+        "Grorce Sanpys",
+        "Grorcr Sanpis",
+        "Grorcr Sanpys",
+        "Groner Saxpys",
+        "G. Sandys",
+        "M* G. Sandys"
+      ],
+      "source": "list_of_records",
+      "basis": "Initialled form.",
+      "name_groups": [
+        "G. Sandys"
+      ]
+    },
+    "Abraham Cartwright": {
+      "aliases": [
+        "Abraham Carthwright",
+        "Abraham Cartw",
+        "Abraham Cartwright",
+        "m' Abraham Cartwright",
+        "Abrahaino Cartwright"
+      ],
+      "source": "list_of_records"
+    },
+    "Abraham Carpenter": {
+      "aliases": [
+        "Abraham Carpenter"
+      ],
+      "source": "list_of_records"
+    },
+    "Abraham Chamberlaine": {
+      "aliases": [
+        "Abraham Chamberlaine",
+        "Abrabam Chamberlaine",
+        "m’ Abraham Chamberlaine",
+        "m’ Abrabam Chamberlaine",
+        "Abraham Chamberlen",
+        "m’ Abraham Chamberlen",
+        "m' Abraham Chamberlen",
+        "Abraham Chamberlin",
+        "M' Abraham Chamberlin",
+        "m' Abraham Chamberlin",
+        "Abraham Chamberline",
+        "Abraham Chamberlyn",
+        "m’ Abraham Chamberlyn",
+        "m* Abraham Chamberlyn",
+        "Abraham Chamblen",
+        "m' Abraham Chamblen",
+        "Abraham Cham-",
+        "m* Abraham Cham-"
+      ],
+      "source": "list_of_records"
+    },
+    "Adam Dixon": {
+      "aliases": [
+        "Adam Dixon"
+      ],
+      "source": "list_of_records"
+    },
+    "Ralph Hamor": {
+      "aliases": [
+        "Ralph Hamor",
+        "Captain Ralph Hamor",
+        "Ralph Hamour",
+        "Raph Hamer",
+        "Capt Raph Hamer",
+        "Captain Raph Hamer",
+        "m’ Raph Hamer",
+        "Raph Hamor",
+        "Capt Raph Hamor",
+        "Captaine Raph Hamor",
+        "Radulfo Hamor",
+        "Ralphe Hamer",
+        "Captaine Ralphe Hamer",
+        "Rap Hamor",
+        "Captain Rap Hamor",
+        "Raph Haimor",
+        "Raphe Hamor",
+        "Capt Raphe Hamor",
+        "Captaine Raphe Hamor",
+        "M* Raphe Hamor",
+        "Rare Hamer",
+        "Rare Hamor",
+        "Ratew Hamour"
+      ],
+      "source": "list_of_records"
+    },
+    "William Tucker": {
+      "aliases": [
+        "William Tucker",
+        "Capt William Tucker",
+        "Captain William Tucker",
+        "Captaine William Tucker",
+        "capt William Tucker",
+        "Wilfm Tuckar",
+        "Capt Wilfm Tuckar",
+        "Wilhain Tucker",
+        "Capt Wilhain Tucker",
+        "Willm Tuckar",
+        "Capt Willm Tuckar",
+        "Willtun Turker",
+        "Captain Willtun Turker",
+        "Wiltm Tuckar",
+        "Capt Wiltm Tuckar",
+        "Wiltm Tucker",
+        "Capt Wiltm Tucker",
+        "Win Tucker",
+        "Capt Win Tucker",
+        "capt Win Tucker",
+        "Witim Tuckar",
+        "Wittiam Tucker",
+        "CAPTAIN Wittiam Tucker",
+        "Wittm Tuckar",
+        "Capt Wittm Tuckar",
+        "Wittm Tucker",
+        "Capt Wittm Tucker",
+        "Witttam Tucker",
+        "Wm Tucker",
+        "Capt Wm Tucker",
+        "Capt. Wm Tucker",
+        "WriniAM Tucker",
+        "Wiltm Tuekar",
+        "Capt Wiltm Tuekar",
+        "Withn Tuekar",
+        "Capt Withn Tuekar"
+      ],
+      "source": "list_of_records"
+    },
+    "Walter Earle": {
+      "aliases": [
+        "Walter Earle"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Wroth": {
+      "aliases": [
+        "Thomas Wroth",
+        "Sir Thomas Wroth",
+        "m' Thomas Wroth",
+        "Thomas Wroths"
+      ],
+      "source": "list_of_records"
+    },
+    "John Wroth": {
+      "aliases": [
+        "John Wroth",
+        "Mr John Wroth",
+        "M’ John Wroth",
+        "m' John Wroth",
+        "m* John Wroth",
+        "m’ John Wroth",
+        "John Wrothe",
+        "M* John Wrothe",
+        "Iohn Wroth",
+        "m' Iohn Wroth",
+        "m'* Iohn Wroth",
+        "m’ Iohn Wroth"
+      ],
+      "source": "list_of_records"
+    },
+    "Dudley Digges": {
+      "aliases": [
+        "Dudley Digge",
+        "Dudley Digges",
+        "Dudley Diggs",
+        "Sir Dudley Diggs",
+        "Dudley Digs",
+        "Sir Dudley Digs",
+        "Dudley Digwes",
+        "Sir Dudley Digwes",
+        "Dudly Digges",
+        "Sir Dudly Digges",
+        "Dudly Diges",
+        "Sir Dudly Diges",
+        "Dudleus Digs"
+      ],
+      "source": "list_of_records"
+    },
+    "Edward Sackville": {
+      "aliases": [
+        "Edward Sackuill",
+        "Edward Sackvill",
+        "Edward Sackville",
+        "Sir Edward Sackville"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Coventry": {
+      "aliases": [
+        "Thomas Covenirye",
+        "Thomas Coventeve",
+        "Sir Thomas Coventeve",
+        "Thomas Coventry",
+        "Sir Thomas Coventry",
+        "Thomas Coventrye",
+        "Sir Thomas Coventrye",
+        "Thome Coventrye"
+      ],
+      "source": "list_of_records",
+      "basis": "Latin genitive of Thomas Coventry.",
+      "name_groups": [
+        "Thome Coventrye"
+      ]
+    },
+    "Francis Carter": {
+      "aliases": [
+        "Francis Carter",
+        "Francis Carter.2"
+      ],
+      "source": "list_of_records"
+    },
+    "Henry Rainsford": {
+      "aliases": [
+        "Henry Rainsford",
+        "m' Henry Rainsford",
+        "m’ Henry Rainsford",
+        "Henry Rainsforde"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Bull": {
+      "aliases": [
+        "Richard Bull",
+        "m' Richard Bull",
+        "m’ Richard Bull",
+        "Ricardus Bull"
+      ],
+      "source": "list_of_records",
+      "basis": "Latin form.",
+      "name_groups": [
+        "Ricardus Bull"
+      ]
+    },
+    "Thomas Gibbs": {
+      "aliases": [
+        "Thomas Gibbes",
+        "m' Thomas Gibbes",
+        "m* Thomas Gibbes",
+        "m’ Thomas Gibbes",
+        "Thomas Gibbs",
+        "M* Thomas Gibbs",
+        "m' Thomas Gibbs",
+        "m’ Thomas Gibbs",
+        "Thomas Gibé",
+        "m' Thomas Gibé",
+        "M' Gibbs",
+        "M’ Gibbs"
+      ],
+      "source": "list_of_records",
+      "basis": "Only Gibbs among Company members in the records.",
+      "name_groups": [
+        "M' Gibbs"
+      ]
+    },
+    "William Newce": {
+      "aliases": [
+        "William Newce",
+        "Captain William Newce",
+        "Captaine William Newce",
+        "m’ William Newce",
+        "William Nuce",
+        "Willm Newce",
+        "Captain Willm Newce",
+        "Wiltm Newce",
+        "Capt Wiltm Newce",
+        "Wiltm Nuee",
+        "William Nuee",
+        "Wittm Newee",
+        "Captain Wittm Newee",
+        "Sir William Newce",
+        "S' William Newce",
+        "S' William Nuce",
+        "William Nevee"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Newce": {
+      "aliases": [
+        "Thomas Newce",
+        "Thomas Nuce",
+        "Captain Thomas Nuce",
+        "Captaine Thomas Nuce",
+        "m’ Thomas Nuce",
+        "Captain Thomas Newce",
+        "Captaine Thomas Newce",
+        "Tho: Nuce",
+        "m' Tho: Nuce",
+        "Capt Tho: Nuce",
+        "Tuo: Nuce"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Caswell": {
+      "aliases": [
+        "Ricardus Caswell",
+        "Richard Casewell",
+        "M’ Richard Casewell",
+        "m’ Richard Casewell",
+        "Richard Caswell",
+        "m’ Richard Caswell",
+        "M’ Caswell",
+        "M' Caswell",
+        "M’ Casewell",
+        "M' Casewell"
+      ],
+      "source": "list_of_records",
+      "basis": "Only Caswell in the records.",
+      "name_groups": [
+        "M’ Caswell",
+        "M’ Casewell"
+      ]
+    },
+    "Arthur Ingram": {
+      "aliases": [
+        "Arthur Ingram",
+        "Sir Arthur Ingram"
+      ],
+      "source": "list_of_records"
+    },
+    "Henry Briggs": {
+      "aliases": [
+        "Henry Briggs",
+        "M' Henry Briggs",
+        "M* Henry Briggs",
+        "m' Henry Briggs",
+        "m’ Henry Briggs",
+        "Henry Brigs",
+        "m’ Henry Brigs"
+      ],
+      "source": "list_of_records"
+    },
+    "Edward Bennett": {
+      "aliases": [
+        "Edward Bennets",
+        "Mr. Edward Bennets",
+        "Edward Bennett",
+        "M' Edward Bennett",
+        "M* Edward Bennett",
+        "Master Edward Bennett",
+        "Mr. Edward Bennett",
+        "m’ Edward Bennett",
+        "Edward Bennit",
+        "M' Edward Bennit",
+        "M’ Bennett",
+        "M' Bennett"
+      ],
+      "source": "list_of_records",
+      "basis": "Edward Bennett, merchant and planter.",
+      "name_groups": [
+        "M’ Bennett"
+      ]
+    },
+    "William Webb": {
+      "aliases": [
+        "William Webb",
+        "m*’ William Webb"
+      ],
+      "source": "list_of_records"
+    },
+    "Arthur Swayne": {
+      "aliases": [
+        "Arthur Swaine",
+        "m' Arthur Swaine",
+        "m’ Arthur Swaine",
+        "m’* Arthur Swaine",
+        "Arthur Swayne",
+        "M' Arthur Swayne",
+        "Master Arthur Swayne",
+        "m* Arthur Swayne",
+        "m’* Arthur Swayne"
+      ],
+      "source": "list_of_records"
+    },
+    "Francis West": {
+      "aliases": [
+        "Francis West",
+        "Captaine Francis West",
+        "Frauncis West",
+        "FrRaNcIS West"
+      ],
+      "source": "list_of_records"
+    },
+    "Anthony Withers": {
+      "aliases": [
+        "Anthony Withers",
+        "M* Anthony Withers",
+        "m' Anthony Withers"
+      ],
+      "source": "list_of_records"
+    },
+    "John Bonnall": {
+      "aliases": [
+        "John Bonnall",
+        "John Bounall"
+      ],
+      "source": "list_of_records"
+    },
+    "Morris Abbott": {
+      "aliases": [
+        "Morris Abbot",
+        "Morris Abbott",
+        "M’ Morris Abbott",
+        "m' Morris Abbott",
+        "m* Morris Abbott",
+        "m*’ Morris Abbott",
+        "m’ Morris Abbott"
+      ],
+      "source": "list_of_records"
+    },
+    "George Calvert": {
+      "aliases": [
+        "George Calvert",
+        "SIR GEORGE CALVERT",
+        "Sir George Calvert",
+        "George Calverte",
+        "Sir George Calverte",
+        "George Caluert",
+        "Sir George Caluert",
+        "Georee Cauvert",
+        "Sir Georee Cauvert",
+        "Secretary Caluert",
+        "m’ Secretary Caluert",
+        "m' Secretary Caluert",
+        "Secré Caluert",
+        "m’ Secré Caluert",
+        "m* Secré Caluert",
+        "Secretarie Caluert",
+        "Mr Secretarie Caluert",
+        "m' Secretarie Caluert",
+        "Secretarie Calvert",
+        "M’ Secretarie Calvert"
+      ],
+      "source": "list_of_records",
+      "basis": "Sir George Calvert, Secretary of State 1619-1625.",
+      "name_groups": [
+        "Secretary Caluert",
+        "Secré Caluert",
+        "Secretarie Caluert",
+        "Secretarie Calvert"
+      ]
+    },
+    "Nicholas Tufton": {
+      "aliases": [
+        "Nicholas Tufton"
+      ],
+      "source": "list_of_records"
+    },
+    "Nicholas Leate": {
+      "aliases": [
+        "Nicholas Leate",
+        "M' Nicholas Leate",
+        "M*' Nicholas Leate",
+        "m* Nicholas Leate"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Wiseman": {
+      "aliases": [
+        "Richard Wiseman",
+        "m’ Richard Wiseman"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Heath": {
+      "aliases": [
+        "Robert Heath",
+        "M' Robert Heath",
+        "Roberte Heath",
+        "Sir Roberte Heath"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Killigrew": {
+      "aliases": [
+        "Robert Killegrew",
+        "Sir Robert Killegrew",
+        "Robert Killierue",
+        "Sir Robert Killierue",
+        "Robert Killigrew",
+        "Robert Killigrewe",
+        "Sir Robert Killigrewe"
+      ],
+      "source": "list_of_records"
+    },
+    "Samuel Sandys": {
+      "aliases": [
+        "Samuel Sandys",
+        "Sir Samuel Sandys"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Keightley": {
+      "aliases": [
+        "Thomas Keightley",
+        "Mr Thomas Keightley",
+        "M’ Thomas Keightley",
+        "m' Thomas Keightley",
+        "Thomas Keightly",
+        "m*’ Thomas Keightly",
+        "M' Keightley",
+        "M’ Keightley"
+      ],
+      "source": "list_of_records",
+      "basis": "Only Keightley in the records.",
+      "name_groups": [
+        "M' Keightley"
+      ]
+    },
+    "Henry Mildmay": {
+      "aliases": [
+        "Henry Mildemay",
+        "Henry Mildmay",
+        "Sir Henry Mildmay",
+        "Henry Mildmayes"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Styles": {
+      "aliases": [
+        "Thomas Styles",
+        "Mr Thomas Styles",
+        "M’ Thomas Styles"
+      ],
+      "source": "list_of_records"
+    },
+    "Ferdinando Gorges": {
+      "aliases": [
+        "Ferdinando Gorge",
+        "Ferdinando Gorges",
+        "Sir Ferdinando Gorges",
+        "sir Ferdinando Gorges"
+      ],
+      "source": "list_of_records"
+    },
+    "Edward Ditchfield": {
+      "aliases": [
+        "Edward Ditchfield",
+        "m’ Edward Ditchfield"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Edwards": {
+      "aliases": [
+        "Richard Edwards",
+        "M' Richard Edwards"
+      ],
+      "source": "list_of_records"
+    },
+    "John Dyke": {
+      "aliases": [
+        "John Dyke"
+      ],
+      "source": "list_of_records"
+    },
+    "Anthony Abdy": {
+      "aliases": [
+        "Anthony Abdy",
+        "m’ Anthony Abdy",
+        "Anthony Abdye"
+      ],
+      "source": "list_of_records"
+    },
+    "William Palmer": {
+      "aliases": [
+        "William Palmer",
+        "m’ William Palmer"
+      ],
+      "source": "list_of_records"
+    },
+    "George Mole": {
+      "aliases": [
+        "George Mole"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Morer": {
+      "aliases": [
+        "Richard Morer"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Bateman": {
+      "aliases": [
+        "Robert Bateman",
+        "M’ Robert Bateman"
+      ],
+      "source": "list_of_records"
+    },
+    "Martin Bond": {
+      "aliases": [
+        "Martin Bond"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Johnson": {
+      "aliases": [
+        "Robert Ihonson",
+        "Robert Iohnson",
+        "Sir Robert Iohnson",
+        "Robert Johnson",
+        "M' Robert Johnson",
+        "Robt Johnson",
+        "Ropert JOHNSON",
+        "Roberto Johnson",
+        "Alderman Iohnson",
+        "m’ Alderman Iohnson",
+        "m' Alderman Iohnson",
+        "m* Alderman Iohnson",
+        "M’* Alderman Iohnson",
+        "Alderman Johnson",
+        "m’ Alderman Johnson",
+        "M* Alderman Johnson",
+        "M’* Alderman Johnson",
+        "M' Alderman Johnson",
+        "Mr Alderman Johnson",
+        "Aldfan Iohnson",
+        "m’ Aldfan Iohnson",
+        "m* Aldfan Iohnson",
+        "m' Aldfan Iohnson",
+        "Alder Iohnson",
+        "m’ Alder Iohnson",
+        "m' Alder Iohnson",
+        "Aldran Johnson",
+        "Mr Aldran Johnson",
+        "M* Aldran Johnson"
+      ],
+      "source": "list_of_records",
+      "basis": "Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe.",
+      "name_groups": [
+        "Alderman Iohnson",
+        "Alderman Johnson",
+        "Aldfan Iohnson",
+        "Alder Iohnson",
+        "Aldran Johnson"
+      ]
+    },
+    "John Bland": {
+      "aliases": [
+        "John Bland",
+        "m* John Bland",
+        "John Blande",
+        "M’ Bland",
+        "M' Bland",
+        "Iohn Bland",
+        "m’ Iohn Bland"
+      ],
+      "source": "list_of_records",
+      "basis": "John Bland, merchant.",
+      "name_groups": [
+        "M’ Bland",
+        "Iohn Bland"
+      ]
+    },
+    "John Hart": {
+      "aliases": [
+        "John Hart",
+        "m' John Hart",
+        "John Harte"
+      ],
+      "source": "list_of_records"
+    },
+    "Ambrose Wood": {
+      "aliases": [
+        "Ambrose Wood",
+        "m' Ambrose Wood"
+      ],
+      "source": "list_of_records"
+    },
+    "Henry Spelman": {
+      "aliases": [
+        "Henry Spelman",
+        "Captaine Henry Spelman"
+      ],
+      "source": "list_of_records"
+    },
+    "Richard Pace": {
+      "aliases": [
+        "Richard Pace"
+      ],
+      "source": "list_of_records"
+    },
+    "William Sharpe": {
+      "aliases": [
+        "William Sharpe"
+      ],
+      "source": "list_of_records"
+    },
+    "William Capps": {
+      "aliases": [
+        "William Capps",
+        "m’ William Capps"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Melling": {
+      "aliases": [
+        "Thomas Melling",
+        "Thomas Mellinge",
+        "m' Thomas Mellinge",
+        "M’ Mellinge",
+        "M' Mellinge"
+      ],
+      "source": "list_of_records",
+      "basis": "Only Melling in the records.",
+      "name_groups": [
+        "M’ Mellinge"
+      ]
+    },
+    "John Cuffe": {
+      "aliases": [
+        "John Cuff",
+        "John Cuffe"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Harris": {
+      "aliases": [
+        "Thomas Harris"
+      ],
+      "source": "list_of_records"
+    },
+    "John Suckling": {
+      "aliases": [
+        "John Suckling",
+        "Sir John Suckling"
+      ],
+      "source": "list_of_records"
+    },
+    "William Barrett": {
+      "aliases": [
+        "William Barret"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Smith": {
+      "aliases": [
+        "Robert Smith",
+        "M’ Robert Smith",
+        "m' Robert Smith",
+        "m* Robert Smith",
+        "m’ Robert Smith",
+        "m’* Robert Smith",
+        "Robt Smith",
+        "m’ Robt Smith",
+        "Robte Smith",
+        "m' Robte Smith",
+        "m’ Robte Smith"
+      ],
+      "source": "list_of_records"
+    },
+    "Roger Smith": {
+      "aliases": [
+        "Roger Sinith",
+        "Capt Roger Sinith",
+        "capt Roger Sinith",
+        "Roger Smith",
+        "CAPTAIN Roger SMITH",
+        "Capt Roger Smith",
+        "Capt. Roger Smith",
+        "Captain Roger Smith",
+        "Captaine Roger Smith",
+        "m* Roger Smith",
+        "Roger Smyth",
+        "Capt Roger Smyth"
+      ],
+      "source": "list_of_records",
+      "basis": "Spelling variant of Captain Roger Smith.",
+      "name_groups": [
+        "Roger Smyth"
+      ]
+    },
+    "George Smith": {
+      "aliases": [
+        "Geo Smith",
+        "m’ Geo Smith",
+        "m’* Geo Smith",
+        "Georg Smith",
+        "m' Georg Smith",
+        "m* Georg Smith",
+        "m’ Georg Smith",
+        "George Smith",
+        "M* George Smith",
+        "m' George Smith",
+        "m* George Smith",
+        "m’ George Smith",
+        "George Smyth"
+      ],
+      "source": "list_of_records",
+      "basis": "Spelling variant.",
+      "name_groups": [
+        "George Smyth"
+      ]
+    },
+    "Samuel Wrote": {
+      "aliases": [
+        "Sam Wrote",
+        "m’ Sam Wrote",
+        "Samuel Wrote",
+        "Samuell Wrote",
+        "M' Samuell Wrote",
+        "m' Samuell Wrote",
+        "m* Samuell Wrote",
+        "m’ Samuell Wrote",
+        "M’ Wrote",
+        "M' Wrote"
+      ],
+      "source": "list_of_records",
+      "basis": "Mr Samuel Wrote of the 1623 Company disputes; no other Wrote in the records.",
+      "name_groups": [
+        "M’ Wrote"
+      ]
+    },
+    "John Pountis": {
+      "aliases": [
+        "John Pountice",
+        "m' John Pountice",
+        "John Pountis",
+        "Mr. John Pountis",
+        "John Pountus",
+        "M* John Pountus"
+      ],
+      "source": "list_of_records"
+    },
+    "Robert Bell": {
+      "aliases": [
+        "Robert Bell",
+        "M' Robert Bell",
+        "m* Robert Bell"
+      ],
+      "source": "list_of_records"
+    },
+    "William Wye": {
+      "aliases": [
+        "William Wye",
+        "M* William Wye",
+        "Wiltm Wye"
+      ],
+      "source": "list_of_records"
+    },
+    "George Scott": {
+      "aliases": [
+        "George Scott",
+        "m* George Scott",
+        "m’ George Scott",
+        "George Seott",
+        "Georgius Seott"
+      ],
+      "source": "list_of_records"
+    },
+    "Edward Brewster": {
+      "aliases": [
+        "Edward Brewster",
+        "Captain Edward Brewster",
+        "Captaine Edward Brewster",
+        "Edward Bruister"
+      ],
+      "source": "list_of_records"
+    },
+    "Daniel Tucker": {
+      "aliases": [
+        "Daniel Tucker",
+        "Daniell Tucker",
+        "Captaine Daniell Tucker",
+        "Captaine Daniel Tucker"
+      ],
+      "source": "list_of_records"
+    },
+    "John Berkeley": {
+      "aliases": [
+        "John Berkeley",
+        "John Berkley",
+        "Mr. John Berkley",
+        "John Berkly",
+        "m' John Berkly",
+        "m’ John Berkly",
+        "Master John Berkeley",
+        "Iohn Berkley",
+        "m’ Iohn Berkley",
+        "m' Iohn Berkley"
+      ],
+      "source": "list_of_records",
+      "basis": "Spelling variant.",
+      "name_groups": [
+        "Iohn Berkley"
+      ]
+    },
+    "George Chambers": {
+      "aliases": [
+        "George Chamber",
+        "George Chambers",
+        "M’ George Chambers",
+        "M’' George Chambers",
+        "m* George Chambers"
+      ],
+      "source": "list_of_records"
+    },
+    "George Ruggle": {
+      "aliases": [
+        "George Ruggle",
+        "m' George Ruggle",
+        "m* George Ruggle"
+      ],
+      "source": "list_of_records"
+    },
+    "Thomas Shipton": {
+      "aliases": [
+        "Thomas Shipton"
+      ],
+      "source": "list_of_records"
+    },
+    "George Somers": {
+      "aliases": [
+        "George Somers",
+        "Sir George Somers",
+        "George Sumers",
+        "George Summers",
+        "Sir George Summers",
+        "George Somers’",
+        "Sir George Somers’",
+        "George Sommers",
+        "Sir George Sommers",
+        "George Sofiers",
+        "George Sofiiers",
+        "George Suffers",
+        "George Suiiers",
+        "George Suitiers",
+        "Georgio Summers",
+        "Georgius Summers"
+      ],
+      "source": "list_of_records"
+    },
+    "John Harvey": {
+      "aliases": [
+        "John Haruey",
+        "Capt John Haruey",
+        "JoHN HaRuEy",
+        "John Harvey",
+        "Captain John Harvey",
+        "Iohn Harvy",
+        "m’ Iohn Harvy",
+        "John Harvey's",
+        "John Harvey’s",
+        "John Harvy",
+        "Joon Harvey",
+        "Joun Harvey",
+        "Jouw Harvey"
+      ],
+      "source": "list_of_records"
+    },
+    "Arthur Guy": {
+      "aliases": [
+        "Arthur Guy",
+        "Captain Arthur Guy",
+        "Captaine Arthur Guy",
+        "Arthur Guye",
+        "Captain Arthur Guye"
+      ],
+      "source": "list_of_records"
+    },
+    "Walter Cope": {
+      "aliases": [
+        "Walter Cope",
+        "Sir Walter Cope",
+        "Waltero Cope"
+      ],
+      "source": "list_of_records"
+    },
+    "Gabriel Barber": {
+      "aliases": [
+        "Gabriel Barber",
+        "Gabriel Barbor",
+        "Mr Gabriel Barbor",
+        "m’ Gabriel Barbor",
+        "M' Barbor",
+        "M’ Barbor",
+        "Gabriell Barbor",
+        "m' Gabriell Barbor"
+      ],
+      "source": "list_of_records",
+      "basis": "Gabriel Barbor/Barber, Company lottery manager.",
+      "name_groups": [
+        "M' Barbor",
+        "Gabriell Barbor"
+      ]
+    },
+    "Thomas Roe": {
+      "aliases": [
+        "Thomas Roe",
+        "Sir Thomas Roe",
+        "Thomas Rowe",
+        "Sir Thomas Rowe",
+        "Thomas Roes",
+        "Thomas Roe’s",
+        "Sir Thomas Roe’s",
+        "Thome Rowe"
+      ],
+      "source": "list_of_records"
+    },
+    "William Ewens": {
+      "aliases": [
+        "Willelmus Ewens",
+        "William Ewens"
+      ],
+      "source": "list_of_records"
+    },
+    "John Brooke": {
+      "aliases": [
+        "John Brooke",
+        "Sir John Brooke"
+      ],
+      "source": "list_of_records"
+    },
+    "Christopher Brooke": {
+      "aliases": [
+        "Christopher Brooke",
+        "m’ Christopher Brooke",
+        "Christofer Brooke",
+        "m’ Christofer Brooke",
+        "Christofero Brooke",
+        "Xfer Brooke",
+        "m* Xfer Brooke",
+        "Xo Brooke",
+        "m'’ Xo Brooke",
+        "m’ Xo Brooke",
+        "Xofer Brooke",
+        "m' Xofer Brooke",
+        "m* Xofer Brooke",
+        "Xrofer Brooke",
+        "X6 Brooke",
+        "m' X6 Brooke",
+        "Xio Brook"
+      ],
+      "source": "list_of_records"
+    },
+    "Abraham Piersey": {
+      "aliases": [
+        "Abraham Peirce",
+        "Abraham Peireys",
+        "Abraham Peirs",
+        "m' Abraham Peirs",
+        "Abraham Peirsey",
+        "Abraham Percey",
+        "Abraham Persey",
+        "Mr. Abraham Persey",
+        "Abraham Perseye",
+        "M’ Abraham Perseye",
+        "Abraham Pierce",
+        "Master Abraham Pierce",
+        "Abraham Piersey",
+        "Albraha Peirsey"
+      ],
+      "source": "list_of_records"
+    },
+    "Philip Carew": {
+      "aliases": [
+        "Philip Carew",
+        "Phillip Carey",
+        "Phillip Cary",
+        "Phillip Carye"
+      ],
+      "source": "list_of_records"
+    },
+    "Baptist Hicks": {
+      "aliases": [
+        "Baptist Hicks",
+        "Sir Baptist Hicks",
+        "Baptist Hickes",
+        "Sir Baptist Hickes",
+        "Baptiste Hicks",
+        "Baptistes Ticks",
+        "Baptiste Hiekes",
+        "sir Baptiste Hiekes"
+      ],
+      "source": "list_of_records"
+    },
+    "William Strachey": {
+      "aliases": [
+        "William Strachey",
+        "William Strachy"
+      ],
+      "source": "list_of_records"
+    },
+    "Edward Maria Wingfield": {
+      "aliases": [
+        "Edward Maria Wingfield",
+        "Edward-Maria Wingfield",
+        "Captain Edward Maria Wingfield",
+        "Captain Edward Maria Wingfeilde",
+        "Edward Maria Wingfeilde",
+        "Edward Maria Winekfeild",
+        "Edward Maria Winckfeild",
+        "Edwardus Maria Winekfeild",
+        "Captaine Maria Winckfield",
+        "Maria Winckfield",
+        "Maria Winekfeild",
+        "Maria Wingfeilde",
+        "Maria Winkfeild",
+        "Edward Maria",
+        "Captain Edward Maria"
+      ],
+      "source": "list_of_records",
+      "basis": "Truncated 'Edward Maria Wingfield'.",
+      "name_groups": [
+        "Edward Maria"
+      ]
+    },
+    "John Ratcliffe": {
+      "aliases": [
+        "Captain John Ratcliffe",
+        "John Sicklemore alias Ratcliffe",
+        "Captain John Sicklemore alias Ratcliffe",
+        "Captaine John Siclemore, alias Ratcliffe",
+        "John Sicklemore",
+        "John Siclemore",
+        "John Stilemore",
+        "Captain John Stilemore",
+        "John Stilemore alias Rateliffe",
+        "Captain John Stilemore alias Rateliffe",
+        "Capt John Rateliff",
+        "Captaine John Radeliffe"
+      ],
+      "source": "list_of_records"
+    },
+    "Matthew Scrivener": {
+      "aliases": [
+        "Matthew Scrivener",
+        "Mathew Scrivener",
+        "Matthew Seriuener",
+        "Matheo Scriven"
+      ],
+      "source": "list_of_records"
+    },
+    "John King, Bishop of London": {
+      "aliases": [
+        "John King",
+        "Bishop of London",
+        "Lord Bishop of London",
+        "my Lord of London",
+        "Lo: Bishop of London"
+      ],
+      "source": "territorial_title_rule",
+      "basis": "John King was Bishop of London 1611-March 1621, the span of Volume I."
+    },
+    "Thomas Cecil, Earl of Exeter": {
+      "aliases": [
+        "Thomas Cecil",
+        "Earl of Exeter",
+        "Thomas, Earl of Exeter",
+        "Earle of Exeter"
+      ],
+      "source": "territorial_title_rule",
+      "basis": "Thomas Cecil, 1st Earl of Exeter (earl 1605-1623); named in the 1609 charter."
+    },
+    "Thomas Collett": {
+      "aliases": [
+        "Thomas Collett"
+      ],
+      "source": "curated",
+      "basis": "Company member; Ferrar family connection.",
+      "name_groups": [
+        "Thomas Collett"
+      ]
+    },
+    "William Cavendish, Lord Cavendish": {
+      "aliases": [
+        "William Cavendish, Lord Cavendish",
+        "Lo Cauendish"
+      ],
+      "source": "curated",
+      "basis": "William, Lord Cavendish (later 2nd Earl of Devonshire), leading Sandys-party member.",
+      "name_groups": [
+        "Lo Cauendish"
+      ]
+    },
+    "Owen Arthur": {
+      "aliases": [
+        "Owen Arthur",
+        "m’ Owen Arthur",
+        "m* Owen Arthur",
+        "m’* Owen Arthur"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Owen Arthur"
+      ]
+    },
+    "Robert Guyar": {
+      "aliases": [
+        "Robert Guyar"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Guyar"
+      ]
+    },
+    "Thomas Wheatley": {
+      "aliases": [
+        "Thomas Wheatley",
+        "mr. Thomas Wheatley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Wheatley"
+      ]
+    },
+    "Thomas Morris": {
+      "aliases": [
+        "Thomas Morris"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Morris"
+      ]
+    },
+    "Richard Smyth": {
+      "aliases": [
+        "Richard Smyth"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Smyth"
+      ]
+    },
+    "Thomas Winston": {
+      "aliases": [
+        "Thomas Winston",
+        "D’ Winstone",
+        "m’ D’ Winstone",
+        "D' Winstone",
+        "m' D' Winstone",
+        "m' D’ Winstone",
+        "Doctor Thomas Winston"
+      ],
+      "source": "curated",
+      "basis": "Dr Thomas Winston, physician and Company member.",
+      "name_groups": [
+        "Thomas Winston",
+        "D’ Winstone"
+      ]
+    },
+    "Edward Collingwood": {
+      "aliases": [
+        "Edward Collingwood"
+      ],
+      "source": "curated",
+      "basis": "Company secretary.",
+      "name_groups": [
+        "Edward Collingwood"
+      ]
+    },
+    "Edward Ryder": {
+      "aliases": [
+        "Edward Ryder",
+        "m* Edward Ryder",
+        "m’ Edward Ryder",
+        "Edwardus Ryder"
+      ],
+      "source": "curated",
+      "basis": "English and Latin forms.",
+      "name_groups": [
+        "Edward Ryder",
+        "Edwardus Ryder"
+      ]
+    },
+    "William Browne": {
+      "aliases": [
+        "William Browne",
+        "Sir William Browne"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Browne"
+      ]
+    },
+    "John Langley": {
+      "aliases": [
+        "John Langley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Langley"
+      ]
+    },
+    "Thomas White": {
+      "aliases": [
+        "Thomas White",
+        "m' Thomas White"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas White"
+      ]
+    },
+    "John White": {
+      "aliases": [
+        "John White"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John White"
+      ]
+    },
+    "Lawrence Hyde": {
+      "aliases": [
+        "Lawrence Hyde",
+        "Lawrence Hide",
+        "M* Lawrence Hide",
+        "Sir Lawrence Hyde"
+      ],
+      "source": "curated",
+      "basis": "Lawyer and Company counsel; spelling variants.",
+      "name_groups": [
+        "Lawrence Hyde",
+        "Lawrence Hide"
+      ]
+    },
+    "Henry Mansell": {
+      "aliases": [
+        "Henry Mansell"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Mansell"
+      ]
+    },
+    "Abraham De Lawne": {
+      "aliases": [
+        "Abraham De Lawne",
+        "De Lawne",
+        "m’* De Lawne"
+      ],
+      "source": "curated",
+      "basis": "Index entry 'De Lawne, Abraham'.",
+      "name_groups": [
+        "De Lawne"
+      ]
+    },
+    "John Dennis": {
+      "aliases": [
+        "John Dennis"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Dennis"
+      ]
+    },
+    "Patrick Copland": {
+      "aliases": [
+        "Patrick Copland",
+        "Patrick Copeland",
+        "M’ Copland",
+        "M' Copland",
+        "M* Patrick Copland",
+        "M. Patrick"
+      ],
+      "source": "curated",
+      "basis": "East India Company chaplain who raised funds for the East India School; only Copland in the records.",
+      "name_groups": [
+        "Patrick Copeland",
+        "Patrick Copland",
+        "M’ Copland",
+        "M. Patrick"
+      ]
+    },
+    "Gilbert Morewood": {
+      "aliases": [
+        "Gilbert Morewood",
+        "m' Gilbert Morewood",
+        "Gilbertus Morewood"
+      ],
+      "source": "curated",
+      "basis": "English and Latin forms.",
+      "name_groups": [
+        "Gilbert Morewood",
+        "Gilbertus Morewood"
+      ]
+    },
+    "James Carter": {
+      "aliases": [
+        "James Carter"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Francis Carter.",
+      "name_groups": [
+        "James Carter"
+      ]
+    },
+    "Edward Barnes": {
+      "aliases": [
+        "Edward Barnes"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Barnes"
+      ]
+    },
+    "Thomas Davis": {
+      "aliases": [
+        "Thomas Davis",
+        "Mr. Thomas Davis"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Davis"
+      ]
+    },
+    "Richard Godfry": {
+      "aliases": [
+        "Richard Godfry"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Godfry"
+      ]
+    },
+    "Richard George": {
+      "aliases": [
+        "Richard George"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard George"
+      ]
+    },
+    "Robert Pawlett": {
+      "aliases": [
+        "Robert Pawlett",
+        "Robert Pawlet"
+      ],
+      "source": "curated",
+      "basis": "Spelling variants.",
+      "name_groups": [
+        "Robert Pawlet",
+        "Robert Pawlett"
+      ]
+    },
+    "John Kirrell": {
+      "aliases": [
+        "John Kirrell"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Kirrell"
+      ]
+    },
+    "George Swinhowe": {
+      "aliases": [
+        "George Swinhowe",
+        "m* George Swinhowe",
+        "M' George Swinhowe"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "George Swinhowe"
+      ]
+    },
+    "Edward Lawley": {
+      "aliases": [
+        "Edward Lawley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Lawley"
+      ]
+    },
+    "Christopher Lawne": {
+      "aliases": [
+        "Christopher Lawne",
+        "Captain Christopher Lawne"
+      ],
+      "source": "curated",
+      "basis": "Founder of Lawne's plantation (Isle of Wight Plantation).",
+      "name_groups": [
+        "Christopher Lawne"
+      ]
+    },
+    "Peter Humble": {
+      "aliases": [
+        "Peter Humble"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Peter Humble"
+      ]
+    },
+    "Elizabeth Smalley": {
+      "aliases": [
+        "Elizabeth Smalley",
+        "Widdowe Smalley"
+      ],
+      "source": "curated",
+      "basis": "The widow Smalley.",
+      "name_groups": [
+        "Elizabeth Smalley",
+        "Widdowe Smalley"
+      ]
+    },
+    "Charles North": {
+      "aliases": [
+        "Charles North",
+        "Sir Charles North"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Charles North"
+      ]
+    },
+    "Henry Southey": {
+      "aliases": [
+        "Henry Southey",
+        "m* Henry Southey",
+        "Master Henry Southey"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Southey"
+      ]
+    },
+    "Robert Barker": {
+      "aliases": [
+        "Robert Barker",
+        "m'’ Robert Barker"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Barker"
+      ]
+    },
+    "Edward Waterhouse": {
+      "aliases": [
+        "Edward Waterhouse",
+        "m’ Edward Waterhouse",
+        "m' Edward Waterhouse",
+        "M’ Waterhowse",
+        "M' Waterhowse"
+      ],
+      "source": "curated",
+      "basis": "Company secretary, author of the 1622 massacre Declaration.",
+      "name_groups": [
+        "Edward Waterhouse",
+        "M’ Waterhowse"
+      ],
+      "skip_aliases": [
+        "Sir Edward Waterhouse"
+      ]
+    },
+    "Edward Hurd": {
+      "aliases": [
+        "Edward Hurd",
+        "m’ Edward Hurd",
+        "m* Edward Hurd"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Hurd"
+      ]
+    },
+    "Henry Peyton": {
+      "aliases": [
+        "Henry Peyton",
+        "Sir Henry Peyton"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Peyton"
+      ]
+    },
+    "Thomas Jones": {
+      "aliases": [
+        "Thomas Jones",
+        "Capt Thomas Jones",
+        "Captaine Thomas Jones",
+        "Captain Thomas Jones"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Jones"
+      ]
+    },
+    "Thomas Button": {
+      "aliases": [
+        "Thomas Button",
+        "Sir Thomas Button"
+      ],
+      "source": "curated",
+      "basis": "Sir Thomas Button, naval commander.",
+      "name_groups": [
+        "Thomas Button"
+      ]
+    },
+    "John Boys": {
+      "aliases": [
+        "John Boys",
+        "M* John Boys",
+        "Mr. John Boys"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Boys"
+      ]
+    },
+    "Robert Poole": {
+      "aliases": [
+        "Robert Poole"
+      ],
+      "source": "curated",
+      "basis": "Interpreter in Virginia.",
+      "name_groups": [
+        "Robert Poole"
+      ]
+    },
+    "Thomas Coopy": {
+      "aliases": [
+        "Thomas Coopy"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Coopy"
+      ]
+    },
+    "John Cole": {
+      "aliases": [
+        "John Cole"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Cole"
+      ]
+    },
+    "John Blanchard": {
+      "aliases": [
+        "John Blanchard"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Blanchard"
+      ]
+    },
+    "Thomas Tracy": {
+      "aliases": [
+        "Thomas Tracy",
+        "Sir Thomas Tracy"
+      ],
+      "source": "curated",
+      "basis": "Distinct from William Tracy.",
+      "name_groups": [
+        "Thomas Tracy"
+      ]
+    },
+    "Robert Oldisworth": {
+      "aliases": [
+        "Robert Oldisworth",
+        "Robt Oldisworth"
+      ],
+      "source": "curated",
+      "basis": "Spelling variants.",
+      "name_groups": [
+        "Robert Oldisworth",
+        "Robt Oldisworth"
+      ]
+    },
+    "Maurice Berkeley": {
+      "aliases": [
+        "Maurice Berkeley",
+        "Maurice Barkley",
+        "Mr. Maurice Barkley",
+        "Sir Maurice Barkley",
+        "Maurice Berkley",
+        "m' Maurice Berkley",
+        "m* Maurice Berkley"
+      ],
+      "source": "curated",
+      "basis": "Sir Maurice Berkeley, MP and Company member.",
+      "name_groups": [
+        "Maurice Barkley",
+        "Maurice Berkley"
+      ]
+    },
+    "William Jones": {
+      "aliases": [
+        "William Jones",
+        "Sir William Jones"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Jones"
+      ]
+    },
+    "Thomas Kiteley": {
+      "aliases": [
+        "Thomas Kiteley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet; possibly Keightley, kept separate.",
+      "name_groups": [
+        "Thomas Kiteley"
+      ]
+    },
+    "Thomas Shepheard": {
+      "aliases": [
+        "Thomas Shepheard"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Shepheard"
+      ]
+    },
+    "Edward Hackett": {
+      "aliases": [
+        "Edward Hackett"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Hackett"
+      ]
+    },
+    "Edward Cecil": {
+      "aliases": [
+        "Edward Cecil",
+        "Generall Cesill",
+        "Generall Cecill",
+        "Edward Cecill",
+        "Sir Edward Cecill"
+      ],
+      "source": "curated",
+      "basis": "Sir Edward Cecil, general in the Low Countries.",
+      "name_groups": [
+        "Edward Cecill",
+        "Generall Cesill",
+        "Generall Cecill"
+      ]
+    },
+    "Augustine Steward": {
+      "aliases": [
+        "Augustine Steward"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Augustine Steward"
+      ]
+    },
+    "Stephen Sparrow": {
+      "aliases": [
+        "Stephen Sparrow",
+        "M’ Stephen Sparrow"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Stephen Sparrow"
+      ]
+    },
+    "Peter Arundell": {
+      "aliases": [
+        "Peter Arundell",
+        "m’ Peter Arundell"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Peter Arundell"
+      ]
+    },
+    "Robert Mansell": {
+      "aliases": [
+        "Robert Mansell",
+        "Sir Robert Mansell"
+      ],
+      "source": "curated",
+      "basis": "Sir Robert Mansell, admiral.",
+      "name_groups": [
+        "Robert Mansell"
+      ]
+    },
+    "William Fleetwood": {
+      "aliases": [
+        "William Fleetwood",
+        "Sir William Fleetwood"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Fleetwood"
+      ]
+    },
+    "Nicholas Hyde": {
+      "aliases": [
+        "Nicholas Hyde",
+        "Nicholas Hide",
+        "Nicolas Hydes",
+        "M* Nicolas Hydes",
+        "M' Nicolas Hydes"
+      ],
+      "source": "curated",
+      "basis": "Nicholas Hyde, lawyer (later Lord Chief Justice).",
+      "name_groups": [
+        "Nicholas Hide",
+        "Nicolas Hydes"
+      ]
+    },
+    "John Zouch": {
+      "aliases": [
+        "John Zouch",
+        "M'* John Zouch",
+        "m* John Zouch"
+      ],
+      "source": "curated",
+      "basis": "Sir John Zouch; distinct from Edward, Lord Zouch.",
+      "name_groups": [
+        "John Zouch"
+      ]
+    },
+    "Thomas Wale": {
+      "aliases": [
+        "Thomas Wale"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Wale"
+      ]
+    },
+    "Edward Harrison": {
+      "aliases": [
+        "Edward Harrison"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Harrison"
+      ]
+    },
+    "Thomas Wood": {
+      "aliases": [
+        "Thomas Wood",
+        "Thome Wood"
+      ],
+      "source": "curated",
+      "basis": "English and Latin forms; distinct from Ambrose Wood.",
+      "name_groups": [
+        "Thomas Wood",
+        "Thome Wood"
+      ]
+    },
+    "Henry Rowland": {
+      "aliases": [
+        "Henry Rowland",
+        "M' Henry Rowland"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Rowland"
+      ]
+    },
+    "Henry Rolfe": {
+      "aliases": [
+        "Henry Rolfe",
+        "m’ Henry Rolfe",
+        "m' Henry Rolfe"
+      ],
+      "source": "curated",
+      "basis": "Brother of John Rolfe.",
+      "name_groups": [
+        "Henry Rolfe"
+      ]
+    },
+    "Theodore Wadsworth": {
+      "aliases": [
+        "Theodore Wadsworth"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Theodore Wadsworth"
+      ]
+    },
+    "John Harrison": {
+      "aliases": [
+        "John Harrison"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Harrison"
+      ]
+    },
+    "Roger Twisden": {
+      "aliases": [
+        "Roger Twisden"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Roger Twisden"
+      ]
+    },
+    "Robert Harley": {
+      "aliases": [
+        "Robert Harley",
+        "m’ Robert Harley",
+        "Sir Robert Harley"
+      ],
+      "source": "curated",
+      "basis": "Sir Robert Harley.",
+      "name_groups": [
+        "Robert Harley"
+      ]
+    },
+    "John Bourchier": {
+      "aliases": [
+        "John Bourchier",
+        "Iohn Bourchier"
+      ],
+      "source": "curated",
+      "basis": "Sir John Bourchier.",
+      "name_groups": [
+        "Iohn Bourchier"
+      ]
+    },
+    "John Procter": {
+      "aliases": [
+        "John Procter",
+        "Iohn Procter",
+        "m* Iohn Procter"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Iohn Procter"
+      ]
+    },
+    "John Burgh": {
+      "aliases": [
+        "John Burgh",
+        "Iohn Burgh",
+        "m* Iohn Burgh"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Iohn Burgh"
+      ]
+    },
+    "Richard Humble": {
+      "aliases": [
+        "Richard Humble"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Humble"
+      ]
+    },
+    "Richard Norwood": {
+      "aliases": [
+        "Richard Norwood",
+        "m* Richard Norwood"
+      ],
+      "source": "curated",
+      "basis": "Surveyor of Bermuda.",
+      "name_groups": [
+        "Richard Norwood"
+      ]
+    },
+    "Thomas Newton": {
+      "aliases": [
+        "Thomas Newton",
+        "M' Thomas Newton"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Newton"
+      ]
+    },
+    "Matthew Somers": {
+      "aliases": [
+        "Matthew Somers",
+        "Mathew Summers",
+        "Captain Mathew Summers",
+        "Mathew Somers",
+        "Captaine Mathew Somers",
+        "Capt Mathew Somers",
+        "Captain Mathew Somers"
+      ],
+      "source": "curated",
+      "basis": "Nephew and heir of Sir George Somers; distinct person.",
+      "name_groups": [
+        "Mathew Summers",
+        "Mathew Somers"
+      ]
+    },
+    "Edward Barkley": {
+      "aliases": [
+        "Edward Barkley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Barkley"
+      ]
+    },
+    "John Eldred": {
+      "aliases": [
+        "John Eldred"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Eldred"
+      ]
+    },
+    "Richard Partridge": {
+      "aliases": [
+        "Richard Partridge"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Partridge"
+      ]
+    },
+    "Thomas Denton": {
+      "aliases": [
+        "Thomas Denton",
+        "Sir Thomas Denton"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Denton"
+      ]
+    },
+    "Thomas Thorpe": {
+      "aliases": [
+        "Thomas Thorpe"
+      ],
+      "source": "curated",
+      "basis": "Distinct from George Thorpe.",
+      "name_groups": [
+        "Thomas Thorpe"
+      ]
+    },
+    "George Coppin": {
+      "aliases": [
+        "George Coppin",
+        "Sir George Coppin"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "George Coppin"
+      ]
+    },
+    "Amias Preston": {
+      "aliases": [
+        "Amias Preston",
+        "Sir Amias Preston"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Amias Preston"
+      ]
+    },
+    "Robert Parkhurst": {
+      "aliases": [
+        "Robert Parkhurst"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Parkhurst"
+      ]
+    },
+    "George Robins": {
+      "aliases": [
+        "George Robins"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "George Robins"
+      ]
+    },
+    "Thomas Kemis": {
+      "aliases": [
+        "Thomas Kemis"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Kemis"
+      ]
+    },
+    "Isaac Madison": {
+      "aliases": [
+        "Isaac Madison",
+        "Isack Maddison",
+        "Capt Isack Maddison",
+        "Captaine Isack Maddison"
+      ],
+      "source": "curated",
+      "basis": "Captain Isaac Madison.",
+      "name_groups": [
+        "Isack Maddison"
+      ]
+    },
+    "John Carter": {
+      "aliases": [
+        "John Carter"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Francis Carter.",
+      "name_groups": [
+        "John Carter"
+      ]
+    },
+    "Richard Tomlins": {
+      "aliases": [
+        "Richard Tomlins",
+        "Richard Tomlyns"
+      ],
+      "source": "curated",
+      "basis": "Spelling variants.",
+      "name_groups": [
+        "Richard Tomlyns",
+        "Richard Tomlins"
+      ]
+    },
+    "Edward Harwood": {
+      "aliases": [
+        "Edward Harwood"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Harwood"
+      ]
+    },
+    "Anthony Aucher": {
+      "aliases": [
+        "Anthony Aucher",
+        "Sir Anthony Aucher"
+      ],
+      "source": "curated",
+      "basis": "Sir Anthony Aucher.",
+      "name_groups": [
+        "Anthony Aucher"
+      ]
+    },
+    "James Swifte": {
+      "aliases": [
+        "James Swifte",
+        "m* James Swifte"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "James Swifte"
+      ]
+    },
+    "John Archer": {
+      "aliases": [
+        "John Archer",
+        "Iohn Archer"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Iohn Archer"
+      ]
+    },
+    "George Tucker": {
+      "aliases": [
+        "George Tucker",
+        "Mr George Tucker"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Daniel and William Tucker.",
+      "name_groups": [
+        "George Tucker"
+      ]
+    },
+    "Marmaduke Rayner": {
+      "aliases": [
+        "Marmaduke Rayner"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Marmaduke Rayner"
+      ]
+    },
+    "William Waller": {
+      "aliases": [
+        "William Waller"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Waller"
+      ]
+    },
+    "James Bagg": {
+      "aliases": [
+        "James Bagg",
+        "Iames Bagg",
+        "m’ Iames Bagg",
+        "m' Iames Bagg"
+      ],
+      "source": "curated",
+      "basis": "Sir James Bagg.",
+      "name_groups": [
+        "Iames Bagg"
+      ]
+    },
+    "John Gray": {
+      "aliases": [
+        "John Gray",
+        "Iohn Gray",
+        "Sir Iohn Gray"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Iohn Gray"
+      ]
+    },
+    "William Mounson": {
+      "aliases": [
+        "William Mounson"
+      ],
+      "source": "curated",
+      "basis": "Sir William Monson.",
+      "name_groups": [
+        "William Mounson"
+      ]
+    },
+    "Luke Burden": {
+      "aliases": [
+        "Luke Burden"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Luke Burden"
+      ]
+    },
+    "Richard Grobham": {
+      "aliases": [
+        "Richard Grobham",
+        "Sir Richard Grobham"
+      ],
+      "source": "curated",
+      "basis": "Sir Richard Grobham.",
+      "name_groups": [
+        "Richard Grobham"
+      ]
+    },
+    "Gabriel Wisher": {
+      "aliases": [
+        "Gabriel Wisher",
+        "Gabriell Wisher"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Gabriell Wisher"
+      ]
+    },
+    "Thomas Sandys": {
+      "aliases": [
+        "Thomas Sandys"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Edwin, George and Samuel Sandys.",
+      "name_groups": [
+        "Thomas Sandys"
+      ]
+    },
+    "Richard Bulkley": {
+      "aliases": [
+        "Richard Bulkley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Bulkley"
+      ]
+    },
+    "Christopher Davison": {
+      "aliases": [
+        "Christopher Davison",
+        "Secretary Dauison",
+        "m’ Secretary Dauison",
+        "Secré Dauison",
+        "m* Secré Dauison",
+        "m’ Secré Dauison",
+        "Davison Seer",
+        "Davison Secr"
+      ],
+      "source": "curated",
+      "basis": "Christopher Davison, Secretary of the colony 1621-1623.",
+      "name_groups": [
+        "Secretary Dauison",
+        "Secré Dauison",
+        "Davison Seer",
+        "Davison Secr"
+      ]
+    },
+    "Thomas Webb": {
+      "aliases": [
+        "Thomas Webb"
+      ],
+      "source": "curated",
+      "basis": "Distinct from William Webb.",
+      "name_groups": [
+        "Thomas Webb"
+      ]
+    },
+    "Clement Wilmer": {
+      "aliases": [
+        "Clement Wilmer",
+        "M’ Clement Wilmer"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Clement Wilmer"
+      ]
+    },
+    "George Wilmer": {
+      "aliases": [
+        "George Wilmer"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "George Wilmer"
+      ]
+    },
+    "Martin Pring": {
+      "aliases": [
+        "Martin Pring",
+        "Martin Prin",
+        "Capt Martin Prin",
+        "Captaine Martin Prin"
+      ],
+      "source": "curated",
+      "basis": "Captain Martin Pring.",
+      "name_groups": [
+        "Martin Prin"
+      ]
+    },
+    "Mary Tue": {
+      "aliases": [
+        "Mary Tue"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Mary Tue"
+      ]
+    },
+    "Edward Palmer": {
+      "aliases": [
+        "Edward Palmer",
+        "m' Edward Palmer"
+      ],
+      "source": "curated",
+      "basis": "Distinct from William Palmer.",
+      "name_groups": [
+        "Edward Palmer"
+      ]
+    },
+    "Arthur Leuellis": {
+      "aliases": [
+        "Arthur Leuellis",
+        "m* Arthur Leuellis",
+        "M' Arthur Leuellis"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Arthur Leuellis"
+      ]
+    },
+    "Humphrey Handford": {
+      "aliases": [
+        "Humphrey Handford",
+        "Humfrey Handford"
+      ],
+      "source": "curated",
+      "basis": "Spelling standardized.",
+      "name_groups": [
+        "Humfrey Handford"
+      ]
+    },
+    "James Butler": {
+      "aliases": [
+        "James Butler",
+        "m’ James Butler"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Nathaniel Butler.",
+      "name_groups": [
+        "James Butler"
+      ]
+    },
+    "Thomas Culpepper": {
+      "aliases": [
+        "Thomas Culpepper",
+        "m’ Thomas Culpepper"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Culpepper"
+      ]
+    },
+    "Edward Spencer": {
+      "aliases": [
+        "Edward Spencer",
+        "M' Edward Spencer"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Spencer"
+      ]
+    },
+    "Edward Horwood": {
+      "aliases": [
+        "Edward Horwood"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Horwood"
+      ]
+    },
+    "John Prynn": {
+      "aliases": [
+        "John Prynn",
+        "Iohn Prynn",
+        "m* Iohn Prynn"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Iohn Prynn"
+      ]
+    },
+    "Richard Perry": {
+      "aliases": [
+        "Richard Perry"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Perry"
+      ]
+    },
+    "Richard Wither": {
+      "aliases": [
+        "Richard Wither",
+        "m* Richard Wither",
+        "m’ Richard Wither"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Wither"
+      ]
+    },
+    "Lionel Cranfield, Earl of Middlesex": {
+      "aliases": [
+        "Lionel Cranfield, Earl of Middlesex",
+        "Treasurer Middlesex",
+        "Lord Treasurer Middlesex"
+      ],
+      "source": "curated",
+      "basis": "Lord Treasurer Middlesex, 1621-1624.",
+      "name_groups": [
+        "Treasurer Middlesex"
+      ]
+    },
+    "Henry Montagu, Viscount Mandeville": {
+      "aliases": [
+        "Henry Montagu, Viscount Mandeville",
+        "President Mandeville",
+        "Lord President Mandeville"
+      ],
+      "source": "curated",
+      "basis": "Lord President of the Council from 1621.",
+      "name_groups": [
+        "President Mandeville"
+      ]
+    },
+    "John Tavernor": {
+      "aliases": [
+        "John Tavernor",
+        "M’ John Tavernor"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Tavernor"
+      ]
+    },
+    "Elizabeth I": {
+      "aliases": [
+        "Elizabeth I",
+        "Queene Elizabeth"
+      ],
+      "source": "curated",
+      "basis": "Queen Elizabeth.",
+      "name_groups": [
+        "Queene Elizabeth"
+      ]
+    },
+    "Nicholas Wheeler": {
+      "aliases": [
+        "Nicholas Wheeler"
+      ],
+      "source": "curated",
+      "basis": "Distinct from John Wheeler.",
+      "name_groups": [
+        "Nicholas Wheeler"
+      ]
+    },
+    "Edward Woller": {
+      "aliases": [
+        "Edward Woller"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Woller"
+      ]
+    },
+    "Elias Roberts": {
+      "aliases": [
+        "Elias Roberts"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Elias Roberts"
+      ]
+    },
+    "John Trevor": {
+      "aliases": [
+        "John Trevor",
+        "Sir John Trevor"
+      ],
+      "source": "curated",
+      "basis": "Sir John Trevor.",
+      "name_groups": [
+        "John Trevor"
+      ]
+    },
+    "William Atkinson": {
+      "aliases": [
+        "William Atkinson"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Atkinson"
+      ]
+    },
+    "Thomas Allen": {
+      "aliases": [
+        "Thomas Allen"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Allen"
+      ]
+    },
+    "Robert Bowyer": {
+      "aliases": [
+        "Robert Bowyer"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Bowyer"
+      ]
+    },
+    "George Butler": {
+      "aliases": [
+        "George Butler"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Nathaniel Butler.",
+      "name_groups": [
+        "George Butler"
+      ]
+    },
+    "Richard Champion": {
+      "aliases": [
+        "Richard Champion"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Champion"
+      ]
+    },
+    "Henry Cromwell": {
+      "aliases": [
+        "Henry Cromwell"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Cromwell"
+      ]
+    },
+    "John Cooper": {
+      "aliases": [
+        "John Cooper"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Cooper"
+      ]
+    },
+    "John Cooke": {
+      "aliases": [
+        "John Cooke",
+        "Capt John Cooke",
+        "Captaine John Cooke",
+        "Captain John Cooke"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Cooke"
+      ]
+    },
+    "Robert Hill": {
+      "aliases": [
+        "Robert Hill"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Hill"
+      ]
+    },
+    "Francis Leigh": {
+      "aliases": [
+        "Francis Leigh",
+        "Sir Francis Leigh"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Francis Leigh"
+      ]
+    },
+    "Peter Latham": {
+      "aliases": [
+        "Peter Latham"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Peter Latham"
+      ]
+    },
+    "John Mericke": {
+      "aliases": [
+        "John Mericke"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Mericke"
+      ]
+    },
+    "Arthur Mannering": {
+      "aliases": [
+        "Arthur Mannering",
+        "Sir Arthur Mannering"
+      ],
+      "source": "curated",
+      "basis": "Sir Arthur Mainwaring.",
+      "name_groups": [
+        "Arthur Mannering"
+      ]
+    },
+    "Henry Nevill": {
+      "aliases": [
+        "Henry Nevill",
+        "Sir Henry Nevill"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Nevill"
+      ]
+    },
+    "Henry Price": {
+      "aliases": [
+        "Henry Price"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Price"
+      ]
+    },
+    "Henry Robinson": {
+      "aliases": [
+        "Henry Robinson"
+      ],
+      "source": "curated",
+      "basis": "Distinct from John Robinson.",
+      "name_groups": [
+        "Henry Robinson"
+      ]
+    },
+    "John Russell": {
+      "aliases": [
+        "John Russell"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Russell"
+      ]
+    },
+    "Robert Robinson": {
+      "aliases": [
+        "Robert Robinson"
+      ],
+      "source": "curated",
+      "basis": "Distinct from John Robinson.",
+      "name_groups": [
+        "Robert Robinson"
+      ]
+    },
+    "Henry Shelley": {
+      "aliases": [
+        "Henry Shelley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Henry Shelley"
+      ]
+    },
+    "Walter Shelley": {
+      "aliases": [
+        "Walter Shelley",
+        "Mr. Walter Shelley"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Walter Shelley"
+      ]
+    },
+    "Charles Towler": {
+      "aliases": [
+        "Charles Towler"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Charles Towler"
+      ]
+    },
+    "Edward Webb": {
+      "aliases": [
+        "Edward Webb"
+      ],
+      "source": "curated",
+      "basis": "Distinct from William Webb.",
+      "name_groups": [
+        "Edward Webb"
+      ]
+    },
+    "Edward Welch": {
+      "aliases": [
+        "Edward Welch"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Welch"
+      ]
+    },
+    "Walter Hampton": {
+      "aliases": [
+        "Walter Hampton"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Walter Hampton"
+      ]
+    },
+    "Thomas Peirse": {
+      "aliases": [
+        "Thomas Peirse"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Peirse"
+      ]
+    },
+    "Edward Williams": {
+      "aliases": [
+        "Edward Williams"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Edward Williams"
+      ]
+    },
+    "John Taylor": {
+      "aliases": [
+        "John Taylor",
+        "Tohn Taylor"
+      ],
+      "source": "curated",
+      "basis": "OCR T for J.",
+      "name_groups": [
+        "Tohn Taylor"
+      ]
+    },
+    "Miles Bankes": {
+      "aliases": [
+        "Miles Bankes"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Miles Bankes"
+      ]
+    },
+    "Henry Cary": {
+      "aliases": [
+        "Henry Cary",
+        "Sir Henry Cary"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Philip Carew.",
+      "name_groups": [
+        "Henry Cary"
+      ]
+    },
+    "William Garway": {
+      "aliases": [
+        "William Garway",
+        "William Garaway",
+        "Sir William Garaway"
+      ],
+      "source": "curated",
+      "basis": "Sir William Garway, customs farmer.",
+      "name_groups": [
+        "William Garaway.-.-"
+      ],
+      "extra_aliases": [
+        "William Garaway"
+      ]
+    },
+    "Thomas Lever": {
+      "aliases": [
+        "Thomas Lever",
+        "Thomas Leuer"
+      ],
+      "source": "curated",
+      "basis": "u/v spelling standardized.",
+      "name_groups": [
+        "Thomas Leuer"
+      ]
+    },
+    "Arthur Mouse": {
+      "aliases": [
+        "Arthur Mouse"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Arthur Mouse"
+      ]
+    },
+    "Millicent Ramsden": {
+      "aliases": [
+        "Millicent Ramsden"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Millicent Ramsden"
+      ]
+    },
+    "Nicholas Salter": {
+      "aliases": [
+        "Nicholas Salter",
+        "Sir Nicholas Salter"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Nicholas Salter"
+      ]
+    },
+    "Arnold Oldisworth": {
+      "aliases": [
+        "Arnold Oldisworth"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Arnold Oldisworth"
+      ]
+    },
+    "Robert Bisaker": {
+      "aliases": [
+        "Robert Bisaker",
+        "Robt Bisaker"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robt Bisaker"
+      ]
+    },
+    "Richard Hopkins": {
+      "aliases": [
+        "Richard Hopkins"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Hopkins"
+      ]
+    },
+    "Mary Tracy": {
+      "aliases": [
+        "Mary Tracy"
+      ],
+      "source": "curated",
+      "basis": "Distinct from William Tracy.",
+      "name_groups": [
+        "Mary Tracy"
+      ]
+    },
+    "Arthur Kemis": {
+      "aliases": [
+        "Arthur Kemis"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Arthur Kemis"
+      ]
+    },
+    "George Keene": {
+      "aliases": [
+        "George Keene"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "George Keene"
+      ]
+    },
+    "Elizabeth Webbe": {
+      "aliases": [
+        "Elizabeth Webbe"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Elizabeth Webbe"
+      ]
+    },
+    "Richard Holland": {
+      "aliases": [
+        "Richard Holland"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Holland"
+      ]
+    },
+    "Richard Dutton": {
+      "aliases": [
+        "Richard Dutton"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Dutton"
+      ]
+    },
+    "Richard Rowles": {
+      "aliases": [
+        "Richard Rowles"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Richard Rowles"
+      ]
+    },
+    "Thomas Baugh": {
+      "aliases": [
+        "Thomas Baugh"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Baugh"
+      ]
+    },
+    "Giles Wilkins": {
+      "aliases": [
+        "Giles Wilkins"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Giles Wilkins"
+      ]
+    },
+    "George Harrison": {
+      "aliases": [
+        "George Harrison"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "George Harrison"
+      ]
+    },
+    "Jabez Whitaker": {
+      "aliases": [
+        "Jabez Whitaker",
+        "Liuetennt Whittakers",
+        "Lieutenant Whitaker"
+      ],
+      "source": "curated",
+      "basis": "Lieutenant Jabez Whitaker, commander at Kecoughtan.",
+      "name_groups": [
+        "Liuetennt Whittakers"
+      ],
+      "extra_aliases": [
+        "Lieutenant Whitaker"
+      ]
+    },
+    "Robert Joakly": {
+      "aliases": [
+        "Robert Joakly"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Joakly"
+      ]
+    },
+    "John Packsall": {
+      "aliases": [
+        "John Packsall"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Packsall"
+      ]
+    },
+    "Richard Weston": {
+      "aliases": [
+        "Richard Weston",
+        "Sir Richard Weston"
+      ],
+      "source": "curated",
+      "basis": "Sir Richard Weston, Chancellor of the Exchequer.",
+      "name_groups": [
+        "Richard Weston"
+      ]
+    },
+    "John Huddleston": {
+      "aliases": [
+        "John Huddleston"
+      ],
+      "source": "curated",
+      "basis": "Ship captain who relieved the colony in 1622.",
+      "name_groups": [
+        "John Huddleston"
+      ]
+    },
+    "Thomas Hobson": {
+      "aliases": [
+        "Thomas Hobson"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Thomas Hobson"
+      ]
+    },
+    "William Payne": {
+      "aliases": [
+        "William Payne"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Payne"
+      ]
+    },
+    "John Dike": {
+      "aliases": [
+        "John Dike"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Dike"
+      ]
+    },
+    "John Badger": {
+      "aliases": [
+        "John Badger"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "John Badger"
+      ]
+    },
+    "Nicholas Elford": {
+      "aliases": [
+        "Nicholas Elford"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Nicholas Elford"
+      ]
+    },
+    "Robert Benet": {
+      "aliases": [
+        "Robert Benet"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Robert Benet"
+      ]
+    },
+    "William Douglas": {
+      "aliases": [
+        "William Douglas",
+        "M' William Douglas",
+        "M* William Douglas"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Douglas"
+      ]
+    },
+    "Gilbert Peppett": {
+      "aliases": [
+        "Gilbert Peppett"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "Gilbert Peppett"
+      ]
+    },
+    "Greville Pooley": {
+      "aliases": [
+        "Greville Pooley",
+        "Grivell Pooley",
+        "M* Grivell Pooley",
+        "m’ Grivell Pooley",
+        "M' Pooley"
+      ],
+      "source": "curated",
+      "basis": "Minister Greville Pooley; only Pooley in the records.",
+      "name_groups": [
+        "Grivell Pooley",
+        "M' Pooley"
+      ]
+    },
+    "Samuel Mathews": {
+      "aliases": [
+        "Samuel Mathews",
+        "Samuell Mathews",
+        "Capt Samuell Mathews",
+        "CapTaIN SAMUELL MaTHEws"
+      ],
+      "source": "curated",
+      "basis": "Planter, later councillor.",
+      "name_groups": [
+        "Samuell Mathews"
+      ]
+    },
+    "William Nicholls": {
+      "aliases": [
+        "William Nicholls",
+        "Willelmus Nicholls"
+      ],
+      "source": "curated",
+      "basis": "English and Latin forms.",
+      "name_groups": [
+        "William Nicholls",
+        "Willelmus Nicholls"
+      ]
+    },
+    "Edmund Morgan": {
+      "aliases": [
+        "Edmund Morgan",
+        "Edmundus Morgan"
+      ],
+      "source": "curated",
+      "basis": "English and Latin forms.",
+      "name_groups": [
+        "Edmund Morgan",
+        "Edmundus Morgan"
+      ]
+    },
+    "John Johnson": {
+      "aliases": [
+        "John Johnson"
+      ],
+      "source": "curated",
+      "basis": "Distinct from Robert Johnson.",
+      "name_groups": [
+        "John Johnson"
+      ]
+    },
+    "Jane Dickenson": {
+      "aliases": [
+        "Jane Dickenson"
+      ],
+      "source": "curated",
+      "basis": "Captive after the 1622 attack.",
+      "name_groups": [
+        "Jane Dickenson"
+      ]
+    },
+    "Julius Caesar": {
+      "aliases": [
+        "Julius Caesar",
+        "Julius Cesar",
+        "Sir Julius Cesar"
+      ],
+      "source": "curated",
+      "basis": "Sir Julius Caesar, Master of the Rolls.",
+      "name_groups": [
+        "Julius Cesar"
+      ]
+    },
+    "William Pitt": {
+      "aliases": [
+        "William Pitt",
+        "Sir William Pitt"
+      ],
+      "source": "curated",
+      "basis": "As on the sheet.",
+      "name_groups": [
+        "William Pitt"
+      ]
+    }
+  },
+  "excluded": {
+    "M’ Deputy": "Office; held by John then Nicholas Ferrar.",
+    "M’ Deputie": "Office.",
+    "Deputy Ferrar": "Office held by both John and Nicholas Ferrar.",
+    "M’ Treasuror": "Office.",
+    "D. C.": "Modern imprint.",
+    "Manchester Papers": "Archive collection.",
+    "Magdalene College": "Institution/archive.",
+    "Autograph Letter": "Document type.",
+    "Ferrar Papers": "Archive collection.",
+    "Brown Library": "Archive.",
+    "Newberry Library": "Archive.",
+    "James Citty": "Place.",
+    "James Cittie": "Place.",
+    "James Cyttie": "Place.",
+    "James Cyty": "Place.",
+    "James Cittye": "Place.",
+    "James Cytie": "Place.",
+    "James City": "Place.",
+    "James Towne": "Place.",
+    "James Town": "Place.",
+    "James River": "Place.",
+    "James Riuer": "Place.",
+    "Charles Citty": "Place.",
+    "Charles Cittie": "Place.",
+    "Charles Citie": "Place.",
+    "Charles Hundred": "Place.",
+    "Elizabeth Cittie": "Place.",
+    "Somers Islands": "Place.",
+    "Bermuda Hundred": "Place.",
+    "Martin Brandon": "Place (Martin's Brandon).",
+    "Martin’s Hundred": "Place.",
+    "Cape Cod": "Place.",
+    "Sithes Lane": "Place.",
+    "Bona Nova": "Ship.",
+    "Bona Noua": "Ship.",
+    "Bonny Bess": "Ship.",
+    "London Merchant": "Ship.",
+    "Bona Speranza": "Ship/cape.",
+    "Iohn Smith": "Several John Smiths; mostly Captain John Smith but not reliably.",
+    "John Smith": "Bare/'Mr' John Smith is not reliably Captain John Smith; titled Captain forms are already aliases.",
+    "M’ Smith": "Several Smiths.",
+    "M' Smyth": "Several Smyths.",
+    "Io Smith": "Several Smiths.",
+    "M' Thorpe": "George or Thomas Thorpe.",
+    "M' Tracy": "William, Thomas or Mary Tracy.",
+    "M' Rich": "Robert or Nathaniel Rich.",
+    "M' Berkley": "Several Berkeleys.",
+    "M' Carter": "Several Carters.",
+    "M’ Roberts": "Several Roberts.",
+    "M' Wrott": "Wrote or Wroth.",
+    "De Lawar": "Henry, 4th Lord De La Warr, or Lady Cicely; not Thomas.",
+    "Richard Sherife": "Two people (the elder and the younger).",
+    "John Baptist": "Feast of St John Baptist.",
+    "M' Thier": "Unidentified.",
+    "M' Thfer": "Unidentified.",
+    "St Thomas": "'Sir Thomas', ambiguous.",
+    "St Tho": "Ambiguous.",
+    "Sr Thomas": "Ambiguous.",
+    "St John": "Ambiguous.",
+    "St Iohn": "Ambiguous.",
+    "St George": "Ambiguous.",
+    "St Edward": "Ambiguous.",
+    "St Edw": "Ambiguous.",
+    "St E.": "Ambiguous.",
+    "St Francis": "Ambiguous.",
+    "St Willm": "Ambiguous.",
+    "St William": "Ambiguous.",
+    "St Henry": "Ambiguous.",
+    "St Samuell": "Ambiguous.",
+    "My Lo": "Title only.",
+    "The Lo": "Title only.",
+    "His Lo": "Title only.",
+    "The Earle": "Title only.",
+    "Lo Padgett": "Title fragment; unresolved.",
+    "Henry Earle": "Truncated; see Henry Wriothesley extra alias.",
+    "Robert Earle": "Truncated; see Robert Rich extra alias.",
+    "AND COUNCIL": "Heading.",
+    "C. O": "Archive reference.",
+    "Quo Warranto": "Legal writ.",
+    "Quarter Courte": "Meeting.",
+    "Christian Religion": "Phrase.",
+    "Treasuror Counsell": "Bodies.",
+    "M’ Iohn": "Fragment.",
+    "M' W": "Fragment.",
+    "M' Jo": "Fragment.",
+    "M' John": "Fragment.",
+    "Iohn De": "Fragment.",
+    "Captayne Iohn": "Fragment.",
+    "Virginia Companie": "Institution.",
+    "Yor Mat": "'Your Majesty'.",
+    "His Ma": "'His Majesty'.",
+    "Excellent Ma": "'Excellent Majesty'.",
+    "Atturney Generall": "Office.",
+    "High Treasuror": "Office.",
+    "High Treasurer": "Office.",
+    "Knight Governo": "Fragment.",
+    "Marshall Lawe": "Phrase.",
+    "Martiall Law": "Phrase.",
+    "Ireland Defendo": "Royal style fragment.",
+    "God King": "Royal style fragment.",
+    "A. B": "Placeholder initials.",
+    "IN VIRGINIA.": "Heading.",
+    "Colony Seale": "Object.",
+    "Comon Seale": "Object.",
+    "Cranmer. S'": "Fragment.",
+    "Bull. S'": "Fragment.",
+    "Pagett. S'": "Fragment.",
+    "South- My": "Fragment.",
+    "Privy Counsell": "Body.",
+    "Sole Importaéon": "Phrase.",
+    "Michaelmas Term": "Law term.",
+    "Common Prayer": "Phrase.",
+    "England Scotland": "Places.",
+    "ARGALL. Commission": "Document heading.",
+    "Argalls Shippe": "Ship reference.",
+    "Wrotes Proiect": "Document.",
+    "Ensigne Harrison": "Several Harrisons.",
+    "Goodman Jackson": "Given name unknown.",
+    "M’ Binge": "Given name unknown.",
+    "M' Cranmer": "Given name unknown.",
+    "M’ Caninge": "Given name unknown.",
+    "M’ Woodall": "Given name unknown.",
+    "M' Covell": "Given name unknown.",
+    "D' Anthony": "Ambiguous.",
+    "Sancte Trinitatis": "Latin phrase.",
+    "Mat Carew": "Ambiguous fragment."
+  }
 }

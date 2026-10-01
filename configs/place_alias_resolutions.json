@@ -1,0 +1,378 @@
+{
+  "description": "Curated resolution of place_discovery_queue.csv rows into standardized place keys. 'forms' are display_form values from the queue; all of that row's observed spellings become aliases. 'extra_aliases' are literal spellings that only occur inside junk-prefixed rows (e.g. 'Called Hoge Island'). Keys for existing authority places use the seed preferred_name.",
+  "existing": {
+    "Virginia": {
+      "forms": ["Vireinta", "Vircinia", "Vireinia", "Virginta", "Virarnta", "Vircinta", "Virgynia", "Virointa", "Virornta", "Virsinia", "Virainta", "Virainia"],
+      "basis": "OCR misreadings of Virginia."
+    },
+    "James City": {
+      "forms": ["Iames Citty", "Iames Cittie", "Jaines Cittie", "Jains Cittie", "Janes Cittie", "Janes City", "Tames Citty", "Tames City"],
+      "basis": "I/J and OCR variants of James City."
+    },
+    "Jamestown": {
+      "forms": ["Iames Towne", "Janes Town", "Tames Towne", "James Fort", "James forte"],
+      "basis": "Spelling variants; James Fort was the palisaded fort at Jamestown."
+    },
+    "James River": {
+      "forms": ["Iames Riuer", "James Riuer", "King James River", "Kinges Riuer", "Kings river"],
+      "basis": "The James was also called the King's River (the 1620s grants say 'Kinge James Riuer')."
+    },
+    "Chesapeake Bay": {
+      "forms": ["Bay of Chesepiock", "Bay of Chesipiack", "Chesepiacke Bay"],
+      "extra_aliases": ["Bay of Chesapeack"],
+      "basis": "Spelling variants of Chesapeake."
+    },
+    "Point Comfort": {
+      "forms": ["Cape Comforte", "Point Comforte"],
+      "basis": "Spelling variants."
+    },
+    "Henricus": {
+      "forms": ["Henrico City", "Henerico"],
+      "basis": "Henrico / City of Henricus."
+    },
+    "Charles City": {
+      "forms": ["Charles Cittie"],
+      "basis": "Spelling variant."
+    },
+    "Elizabeth City": {
+      "forms": ["Elizabeth Cittie", "Ehzabeth City", "Elsabeth Citty", "Elzabeth Citty", "Llzabeth citty", "Kiccowtan", "Kicotan", "Kiquotan", "Keyeotan", "Kicoughtan", "Kiecowtan"],
+      "basis": "Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan."
+    },
+    "Warrosquyoake": {
+      "forms": ["Warrasquoake plantacon", "Wareskoyack Bay"],
+      "basis": "Spelling variants of Warrosquyoake."
+    },
+    "Bermuda / Somers Islands": {
+      "forms": ["Sumer Iland", "Somer Island", "Summer Island", "Somer Iland", "Sufier Iland", "Summer Iland", "Suffer Iland", "Sofier Iland", "Sofier Island", "Soier Island", "Soiier Island", "Soiner Island", "Sommer Iland", "Sommer Island", "Sonier Island", "Sufer Iland", "Suiier Iland", "Sumer Island", "Sufier Ilands Plantation"],
+      "basis": "Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+    },
+    "Flowerdew Hundred": {
+      "forms": ["Flowerdieu Hundred", "Flourdieu Hundred", "Flouredieu hundred", "Flowerdei hundred", "Flowerdien Hundred"],
+      "basis": "Spelling variants."
+    },
+    "West and Shirley Hundred": {
+      "forms": ["Sherley hundred"],
+      "basis": "Shirley Hundred."
+    },
+    "Bermuda Hundred": {
+      "forms": ["Bermuda hund"],
+      "basis": "Abbreviation."
+    },
+    "Peirsey's Hundred": {
+      "forms": ["Perseys hundred"],
+      "basis": "Spelling variant."
+    },
+    "Appomattox River": {
+      "forms": ["Apomattucke River"],
+      "extra_aliases": ["Apamatucke River"],
+      "basis": "Spelling variants."
+    },
+    "Southampton Hundred": {
+      "forms": ["Southton Hundred", "Sowthampton hundred", "Suthamptone hundred", "Smiths hundred", "Smythes Hundred", "Smyths Hundred", "Smithe Hundred", "Smyth hundred", "Smythe hundred", "Sniyths hundred"],
+      "extra_aliases": ["Smith’s Hundred", "SmyTHES HUNDRED"],
+      "basis": "Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+    },
+    "Isle of Wight": {
+      "forms": ["Ile of Wight", "Isle of Waight"],
+      "basis": "The English Isle of Wight, where Company ships waited (e.g. 'his Shipp in a readines ... at the Ile of Wight')."
+    },
+    "London": {
+      "forms": ["Cittie of Lendon", "Cittie of Lon", "Cittie of Loudon", "City of Londou", "City of Loudon", "Londen"],
+      "basis": "OCR variants of (City of) London."
+    },
+    "Bristol": {
+      "forms": ["Bristoll", "City of Bristoll", "Cittie of Bristoll"],
+      "basis": "Spelling variants."
+    },
+    "England": {
+      "forms": ["Anglia", "Eneland", "Mngland"],
+      "basis": "Latin Anglia and OCR variants."
+    }
+  },
+  "new": {
+    "Martin's Hundred": {
+      "forms": ["Martins Hundred", "Martine Hundred", "Martyns Hundred", "Martynes Hundred"],
+      "place_type": "plantation/hundred", "world_region": "New World",
+      "basis": "Particular plantation of the Society of Martin's Hundred, named for Richard Martin; on the James below Jamestown."
+    },
+    "Wolstenholme Towne": {
+      "forms": ["Wolster-Holmes Towne"],
+      "place_type": "settlement", "world_region": "New World",
+      "basis": "Chief settlement of Martin's Hundred, named for Sir John Wolstenholme."
+    },
+    "Martin's Brandon": {
+      "forms": ["Captain John Martin’s plantation", "Captaine Martins Plantation", "John Martin’s Plantation", "Martins Plantation"],
+      "place_type": "plantation", "world_region": "New World",
+      "basis": "Captain John Martin's patented plantation (distinct from Martin's Hundred); the 'Capt: Martins Plantation' of the records."
+    },
+    "Berkeley Hundred": {
+      "forms": ["Berkley Hundred", "Berkeley Hundred", "Berkleys Hundred", "Berkley’s Plantation", "Captaine Berckleys Plantation", "Bartley Hundred", "Bartlett Hundred"],
+      "place_type": "plantation/hundred", "world_region": "New World",
+      "basis": "Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+    },
+    "Charles Hundred": {
+      "forms": ["Charles Hundred"],
+      "place_type": "hundred", "world_region": "New World",
+      "basis": "Hundred named in the records (e.g. 'Samuell Jordan of Charles Hundred')."
+    },
+    "Bermuda City": {
+      "forms": ["Bermuda City"],
+      "place_type": "settlement", "world_region": "New World",
+      "basis": "Dale's 1613 town at the Bermuda Hundred settlements; later absorbed into the Charles City corporation. Kept separate pending review."
+    },
+    "Digges Hundred": {
+      "forms": ["Diggs Hundred"],
+      "place_type": "hundred", "world_region": "New World",
+      "basis": "Hundred named for Sir Dudley Digges ('Diggs his Hundred')."
+    },
+    "Argall's Town": {
+      "forms": ["Argall Town", "Argall Towne", "Argall’s towne", "Argal’s towne"],
+      "place_type": "settlement", "world_region": "New World",
+      "basis": "Argall's Gift / Argall Town, laid out by Governor Samuel Argall near Jamestown (1617)."
+    },
+    "Maydes Towne": {
+      "forms": ["Maydes Towne", "Mayds Towne"],
+      "place_type": "proposed town", "world_region": "New World",
+      "basis": "Town the adventurers for the maids asked to have 'called by the name of Maydes Towne' (1621)."
+    },
+    "Isle of Wight Plantation": {
+      "forms": ["Isle of Wight Plantation", "Wight Plantation", "Wight Plantaéon", "Lawnes’ hundred", "Captain Lawne’s plantation"],
+      "place_type": "plantation", "world_region": "New World",
+      "basis": "Christopher Lawne's 1619 plantation at Lawne's Creek, continued by his associates as the Isle of Wight Plantation (not West and Shirley Hundred, despite the spelling match)."
+    },
+    "Bennett's Plantation": {
+      "forms": ["Edward Bennets Plantation"],
+      "place_type": "plantation", "world_region": "New World",
+      "basis": "Edward Bennett's plantation at Warrosquyoake (1621)."
+    },
+    "Smith's Island": {
+      "forms": ["Smiths Iland", "Smyths Iland"],
+      "place_type": "island", "world_region": "New World",
+      "basis": "Smith's Isles off Cape Charles, site of the Eastern Shore salt works ('Salt workes ... in Smiths Iland')."
+    },
+    "Mulberry Island": {
+      "forms": ["Mulberry Island"],
+      "extra_aliases": ["Mulbery Iland"],
+      "place_type": "island", "world_region": "New World",
+      "basis": "Mulberry Island on the James at the mouth of the Warwick River."
+    },
+    "Hog Island": {
+      "forms": ["Hogg Island", "Hogg Iland"],
+      "extra_aliases": ["Hoge Island"],
+      "place_type": "island", "world_region": "New World",
+      "basis": "Hog Island on the James opposite Jamestown."
+    },
+    "Blunt Point": {
+      "forms": ["Blunt point", "Blunts Point"],
+      "extra_aliases": ["Blunt’s Point"],
+      "place_type": "point", "world_region": "New World",
+      "basis": "Point on the James near the Warwick River."
+    },
+    "Dancing Point": {
+      "forms": ["Dauncing Point", "Dancinge Point", "Daneing Point"],
+      "place_type": "point", "world_region": "New World",
+      "basis": "Point on the James at the mouth of the Chickahominy."
+    },
+    "Falling Creek": {
+      "forms": ["Falling Creeke", "Falling Creek"],
+      "place_type": "creek/ironworks", "world_region": "New World",
+      "basis": "Site of the Company ironworks destroyed in 1622."
+    },
+    "Queen's Creek": {
+      "forms": ["Queens Creek"],
+      "place_type": "creek", "world_region": "New World",
+      "basis": "Creek named in the records."
+    },
+    "Chippokes Creek": {
+      "forms": ["Choapooks Creek", "Chapoks Creek", "Chapoks creeke"],
+      "place_type": "creek", "world_region": "New World",
+      "basis": "Creek on the south side of the James named for the Quiyoughcohannock leader Choapock."
+    },
+    "Elizabeth River": {
+      "forms": ["Elizabeth Riuer", "Elizabeth River"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "River on the south side of Hampton Roads."
+    },
+    "Chickahominy River": {
+      "forms": ["Chicahominy River", "Chickahomini River", "Chickahominie river", "Chieahomini River"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Spelling variants."
+    },
+    "Pamunkey River": {
+      "forms": ["Pamunkey River", "Pacomunky River", "Pamaouke river", "Pamaunkey river", "Pamounkey Riuer", "Pomaunkey River", "Pomonkey ryver", "Riuer of Pamaouke", "Riuer of Pamunke", "Queenes Riuer"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'."
+    },
+    "Potomac River": {
+      "forms": ["Patomack Riuer", "Patawamack River", "Patomeck Riuer", "Patomeck River", "Potomack River", "Potomacke Ryver", "Riuer of Patomack", "Riuer of Potomack", "River of Potomak"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Spelling variants."
+    },
+    "Rappahannock River": {
+      "forms": ["River of Rapahanock"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Spelling variant."
+    },
+    "Mattaponi River": {
+      "forms": ["Matepany River"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Matapanient / Mattaponi, tributary of the York."
+    },
+    "Chowan River": {
+      "forms": ["Choanocki River", "Riuer of Choanocki"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Choanoke (Chawanoac), the Roanoke-era name for the Chowan."
+    },
+    "Moyompo River": {
+      "forms": ["Moyomps River", "Riuer of Moyompo"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Named as on the sheet; modern identification uncertain."
+    },
+    "Okanahone River": {
+      "forms": ["Okanahone Riuer", "Okanahone River"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Named as on the sheet; modern identification uncertain."
+    },
+    "Bolus River": {
+      "forms": ["Bolus River"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Named as on the sheet; modern identification uncertain."
+    },
+    "Mapcock Creek": {
+      "forms": ["Mapcock Creek"],
+      "place_type": "creek", "world_region": "New World",
+      "basis": "Index entry; named as on the sheet."
+    },
+    "Opechancanough's Island": {
+      "forms": ["Opichankanos Island"],
+      "place_type": "island", "world_region": "New World",
+      "basis": "'Opichankanos Island in Pamaunkey river', named for Opechancanough."
+    },
+    "Delaware River": {
+      "forms": ["Delaware River", "De La Ware River", "Delawarr Riuer"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Named for Lord De La Warr."
+    },
+    "Hudson River": {
+      "forms": ["Hudson River", "Hudsen River"],
+      "place_type": "river", "world_region": "New World",
+      "basis": "Spelling variants."
+    },
+    "Hudson Bay": {
+      "forms": ["Hudsons Bay", "Hudson Bay", "Master Hudsons Bay"],
+      "place_type": "bay", "world_region": "New World",
+      "basis": "Spelling variants."
+    },
+    "New England": {"forms": ["New England"], "place_type": "region", "world_region": "New World", "basis": "Region of the Northern (Plymouth) colony."},
+    "Newfoundland": {"forms": ["Newfoundland", "Newfowndland"], "place_type": "island/fishery", "world_region": "New World", "basis": "Spelling variants."},
+    "Canada": {"forms": ["Canada"], "place_type": "region", "world_region": "New World", "basis": "Region name."},
+    "Florida": {"forms": ["Florida", "Cape Florida", "Cape of Florida"], "place_type": "region/cape", "world_region": "New World", "basis": "Florida and its cape."},
+    "West Indies": {"forms": ["West Indies", "West Indyes"], "place_type": "region", "world_region": "New World", "basis": "Spelling variants."},
+    "Mexico": {"forms": ["Mexico"], "place_type": "region", "world_region": "New World", "basis": "Region name."},
+    "Peru": {"forms": ["Peru"], "place_type": "region", "world_region": "New World", "basis": "Region name."},
+    "California": {"forms": ["California", "Cape of California"], "place_type": "region", "world_region": "New World", "basis": "Region name."},
+    "Cape Mendocino": {"forms": ["Cape Mendocino"], "place_type": "cape", "world_region": "New World", "basis": "Pacific cape."},
+    "America": {"forms": ["America"], "place_type": "continent", "world_region": "New World", "basis": "Continent name."},
+    "Cape of Good Hope": {"forms": ["Cape of Good Hope", "Cape of Bona Speranza", "Cape Bona Speranza", "Cape Bona"], "place_type": "cape", "world_region": "Africa", "basis": "Cabo da Boa Esperança; East India voyage route."},
+    "East Indies": {"forms": ["East India", "East Indies"], "place_type": "region", "world_region": "Asia", "basis": "Spelling variants."},
+    "Cambay": {"forms": ["Cambaya"], "place_type": "port/region", "world_region": "Asia", "basis": "Cambay (Khambhat), Gujarat."},
+    "China": {"forms": ["China"], "place_type": "kingdom", "world_region": "Asia", "basis": "Country name."},
+    "Persia": {"forms": ["Persia"], "place_type": "kingdom", "world_region": "Asia", "basis": "Country name."},
+    "Azores": {"forms": ["Island of Assorees", "Island of the Asseraes"], "place_type": "island group", "world_region": "Atlantic", "basis": "Spelling variants of the Azores."},
+    "South Sea": {"forms": ["South Sea"], "place_type": "ocean", "world_region": "New World", "basis": "Contemporary name for the Pacific."},
+    "Great Britain": {"forms": ["Iland of Great Britayne"], "place_type": "island/kingdom", "world_region": "Old World", "basis": "Spelling variant."},
+    "Scotland": {"forms": ["Scotland", "Seotland", "Scottland"], "place_type": "kingdom", "world_region": "Old World", "basis": "Spelling variants."},
+    "Ireland": {"forms": ["Ireland", "Irland"], "place_type": "kingdom", "world_region": "Old World", "basis": "Spelling variants."},
+    "Wales": {"forms": ["Wales"], "place_type": "principality", "world_region": "Old World", "basis": "Country name."},
+    "Holland": {"forms": ["Holland"], "place_type": "province/country", "world_region": "Old World", "basis": "The Dutch province / United Provinces."},
+    "Germany": {"forms": ["Germany"], "place_type": "region", "world_region": "Old World", "basis": "Country name."},
+    "Italy": {"forms": ["Italy", "Italie"], "place_type": "region", "world_region": "Old World", "basis": "Spelling variants."},
+    "Poland": {"forms": ["Poland"], "place_type": "kingdom", "world_region": "Old World", "basis": "Source of pitch, tar and potash workers."},
+    "Denmark": {"forms": ["Denmarke"], "place_type": "kingdom", "world_region": "Old World", "basis": "Spelling variant."},
+    "Norway": {"forms": ["Norway"], "place_type": "kingdom", "world_region": "Old World", "basis": "Country name."},
+    "Sweden": {"forms": ["Sweadland"], "place_type": "kingdom", "world_region": "Old World", "basis": "Swedeland, i.e. Sweden."},
+    "Russia": {"forms": ["Russia"], "place_type": "country", "world_region": "Old World", "basis": "Country name."},
+    "Turkey": {"forms": ["Turkey"], "place_type": "empire", "world_region": "Old World", "basis": "Ottoman Empire."},
+    "Greece": {"forms": ["Greece"], "place_type": "region", "world_region": "Old World", "basis": "Region name."},
+    "Europe": {"forms": ["Europe"], "place_type": "continent", "world_region": "Old World", "basis": "Continent name."},
+    "Rome": {"forms": ["Rome"], "place_type": "city", "world_region": "Old World", "basis": "City name."},
+    "Naples": {"forms": ["Naples"], "place_type": "city/kingdom", "world_region": "Old World", "basis": "City name."},
+    "Amsterdam": {"forms": ["Amsterdam"], "place_type": "city", "world_region": "Old World", "basis": "City name."},
+    "Antwerp": {"forms": ["Antwerp"], "place_type": "city", "world_region": "Old World", "basis": "City name."},
+    "Hamburg": {"forms": ["Hamburg", "Hambrough"], "place_type": "city", "world_region": "Old World", "basis": "Spelling variants."},
+    "Flushing": {"forms": ["Flushinge"], "place_type": "port", "world_region": "Old World", "basis": "Vlissingen, Zeeland."},
+    "Bay of Biscay": {"forms": ["Biscay"], "place_type": "sea/region", "world_region": "Old World", "basis": "Biscay."},
+    "Belfast": {"forms": ["Belfast"], "place_type": "town", "world_region": "Old World", "basis": "Town name."},
+    "County Wexford": {"forms": ["County of Washford"], "place_type": "county", "world_region": "Old World", "basis": "Washford was the English name for Wexford."},
+    "River Thames": {"forms": ["Riuer of Thames"], "place_type": "river", "world_region": "Old World", "basis": "Spelling variant."},
+    "The Downs": {"forms": ["Downes"], "place_type": "anchorage", "world_region": "Old World", "basis": "Anchorage off Kent where outbound ships waited ('came not into the Downes'). Also a surname; contextual."},
+    "Isle of Ely": {"forms": ["Isle of Ely"], "place_type": "district", "world_region": "Old World", "basis": "Cambridgeshire district."},
+    "Cambridge": {"forms": ["Cambridge"], "place_type": "town/university", "world_region": "Old World", "basis": "e.g. 'fellowe of Clare hall in Cambridge'."},
+    "Chichester": {"forms": ["City of Chichester"], "place_type": "city", "world_region": "Old World", "basis": "City name."},
+    "Salisbury": {"forms": ["City of Salisbury"], "place_type": "city", "world_region": "Old World", "basis": "City form only; bare 'Salisbury' is usually the Earl."},
+    "Ipswich": {"forms": ["Ipswich"], "place_type": "town", "world_region": "Old World", "basis": "Town name."},
+    "Croydon": {"forms": ["Croydon"], "place_type": "town", "world_region": "Old World", "basis": "Town name."},
+    "Tilbury": {"forms": ["Tilbury"], "place_type": "port", "world_region": "Old World", "basis": "Thames port."},
+    "Oxford": {"forms": ["Oxford"], "place_type": "town/university", "world_region": "Old World", "basis": "Town name."},
+    "East Greenwich": {"forms": ["East Greenwich"], "place_type": "manor", "world_region": "Old World", "basis": "Charter tenure 'as of our manor of East Greenwich'."},
+    "Whitehall": {"forms": ["White hall"], "place_type": "palace", "world_region": "Old World", "basis": "Royal palace, Westminster."},
+    "Westminster Hall": {"forms": ["Westminster Hall"], "place_type": "building", "world_region": "Old World", "basis": "Seat of the royal courts."},
+    "Knole Park": {"forms": ["Knole Park"], "place_type": "estate", "world_region": "Old World", "basis": "Sackville seat in Kent where the Sackville papers were held."},
+    "Gloucestershire": {"forms": ["County of Glou", "County of Glocester"], "place_type": "county", "world_region": "Old World", "basis": "County of Gloucester."},
+    "Buckinghamshire": {"forms": ["County of Buck", "County of Bucke"], "extra_aliases": ["County of Buckingham"], "place_type": "county", "world_region": "Old World", "basis": "County of Buckingham."},
+    "Kent": {"forms": ["Countie of Kent", "County of Kent"], "place_type": "county", "world_region": "Old World", "basis": "County name."},
+    "Middlesex": {"forms": ["Countie of Midde", "Countie of Middlesex", "County of Midd", "County of Middlesex"], "place_type": "county", "world_region": "Old World", "basis": "County name and abbreviations."},
+    "Norfolk": {"forms": ["Countie of Norfolke", "County of Norff"], "place_type": "county", "world_region": "Old World", "basis": "County name and abbreviation."},
+    "Suffolk": {"forms": ["Countie of Suffolke", "County of Suff"], "place_type": "county", "world_region": "Old World", "basis": "County name and abbreviation."},
+    "Hampshire": {"forms": ["Countie of Southton"], "place_type": "county", "world_region": "Old World", "basis": "'County of Southampton' (Southton.) is Hampshire."},
+    "Anglesey": {"forms": ["County of Anglesy", "County of Anglice"], "place_type": "county", "world_region": "Old World", "basis": "Spelling variants."},
+    "Brecknockshire": {"forms": ["County of Breck"], "place_type": "county", "world_region": "Old World", "basis": "Abbreviation of Brecknock."},
+    "Devon": {"forms": ["County of Devon"], "place_type": "county", "world_region": "Old World", "basis": "County name."},
+    "Dorset": {"forms": ["County of Dorsett"], "place_type": "county", "world_region": "Old World", "basis": "Spelling variant."},
+    "Nottinghamshire": {"forms": ["County of Nottingham"], "place_type": "county", "world_region": "Old World", "basis": "County of Nottingham."},
+    "Sussex": {"forms": ["County of Sussex"], "place_type": "county", "world_region": "Old World", "basis": "County name."},
+    "Somerset": {"forms": ["Somersett sheire", "Somiersett sheire"], "place_type": "county", "world_region": "Old World", "basis": "Spelling variants."},
+    "Worcestershire": {"forms": ["Wocter shire"], "place_type": "county", "world_region": "Old World", "basis": "OCR of Worcester shire."}
+  },
+  "excluded": {
+    "Cape Marchant": "Office of the Company's cape merchant (keeper of the store), not a cape.",
+    "Cape Mercht": "Abbreviation of cape merchant (office).",
+    "Cape Mar": "Truncated cape merchant (office).",
+    "Christian Plantation": "Descriptive ('that Christian Plantation'), not a name.",
+    "Christian Plantacon": "Descriptive.",
+    "Christian Plantaéon": "Descriptive.",
+    "Northern Plantation": "Descriptive term for the northern colony; see New England.",
+    "Northerne plantation": "Descriptive term.",
+    "Sotherne Plantacon": "Descriptive term.",
+    "Southerne plantation": "Descriptive term.",
+    "Royall plantation": "Descriptive.",
+    "Noble plantation": "Descriptive.",
+    "Private PLANTATION": "Descriptive.",
+    "Pryvate Plantaéon": "Descriptive.",
+    "Ruinated Plantaéon": "Descriptive.",
+    "Citty of God": "Theological phrase.",
+    "City of God": "Theological phrase.",
+    "Honourable City": "Descriptive.",
+    "Eauerie Sheire": "'every shire'.",
+    "Euerie Sheire": "'every shire'.",
+    "Maine River": "'main river', descriptive.",
+    "Mayne Riuer": "'main river', descriptive.",
+    "Southward Riuer": "Directional, descriptive.",
+    "Sofier": "OCR of 'Somer' (the summer season).",
+    "Washington": "Modern publication imprint (Government Printing Office).",
+    "D.C": "Modern publication imprint.",
+    "Washington, D.C": "Modern publication imprint.",
+    "New York": "Modern archival/publication reference.",
+    "Richmond": "Modern archival reference (Virginia Historical Society, Richmond).",
+    "Buckingham": "Usually the Marquis of Buckingham (a person).",
+    "Salisbury": "Usually the Earl of Salisbury; only 'City of Salisbury' is kept.",
+    "Osnaburg": "Osnaburg linen (a cloth), not the place.",
+    "Henrico and Charles Citty": "Compound of two existing places.",
+    "Henrico & Charles Citty": "Compound of two existing places.",
+    "Southampton and Martins Hundred": "Compound of two places.",
+    "Southampton & Martins Hundred": "Compound of two places.",
+    "Southampton & Martyns Hundred": "Compound of two places.",
+    "Lawarr and Hudsons Riuer": "Compound of two rivers.",
+    "Virginia and Sumer Iland": "Compound of two places."
+  }
+}

@@ -575,14 +575,51 @@ def filter_queue(
     return len(matches)
 
 
+def deduplicate_exact_rows(source: Path, output: Path) -> tuple[int, int]:
+    """Collapse only rows that are identical in every CSV column.
+
+    Conflicting rows that share an occurrence ID are deliberately preserved
+    for the later reconciliation pass.
+    """
+    with source.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        fieldnames = list(reader.fieldnames or [])
+        rows = list(reader)
+
+    seen: set[tuple[str, ...]] = set()
+    kept: list[dict[str, str]] = []
+    for row in rows:
+        signature = tuple(row.get(field, "") for field in fieldnames)
+        if signature in seen:
+            continue
+        seen.add(signature)
+        kept.append(row)
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(kept)
+    return len(rows), len(kept)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("source", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--remainder-output", type=Path)
     parser.add_argument("--place-authority", type=Path)
-    args = parser.parse_args()
-    print(
-        f"Exported {filter_queue(args.source, args.output, args.remainder_output, args.place_authority)} "
-        "filtered rows"
+    parser.add_argument(
+        "--deduplicate-exact",
+        action="store_true",
+        help="Collapse only completely identical rows; preserve conflicting duplicate IDs.",
     )
+    args = parser.parse_args()
+    if args.deduplicate_exact:
+        before, after = deduplicate_exact_rows(args.source, args.output)
+        print(f"Kept {after} of {before} rows; removed {before - after} exact duplicates")
+    else:
+        print(
+            f"Exported {filter_queue(args.source, args.output, args.remainder_output, args.place_authority)} "
+            "filtered rows"
+        )

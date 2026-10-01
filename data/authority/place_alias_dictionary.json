@@ -1,0 +1,795 @@
+{
+  "Virginia": [
+    "Virginia",
+    "Virginea",
+    "Vireinta",
+    "Vircinia",
+    "Vireinia",
+    "Virginta",
+    "Virarnta",
+    "Vircinta",
+    "Virgynia",
+    "Virointa",
+    "Virornta",
+    "Virsinia",
+    "Virainta",
+    "Virainia"
+  ],
+  "Jamestown": [
+    "Jamestown",
+    "James Towne",
+    "James Town",
+    "James Towne Island",
+    "Jamestown Island",
+    "Iames Towne",
+    "Janes Town",
+    "Tames Towne",
+    "James Fort",
+    "James forte"
+  ],
+  "James City": [
+    "James City",
+    "James Citty",
+    "James Cittie",
+    "James City Shire",
+    "Iames Citty",
+    "Iames Cittie",
+    "Jaines Cittie",
+    "Jains Cittie",
+    "Janes Cittie",
+    "Janes City",
+    "Tames Citty",
+    "Tames City"
+  ],
+  "James River": [
+    "James River",
+    "James his River",
+    "Jameses River",
+    "Iames Riuer",
+    "James Riuer",
+    "King James River",
+    "Kinges Riuer",
+    "Kings river"
+  ],
+  "Chesapeake Bay": [
+    "Chesapeake Bay",
+    "Chesapeak Bay",
+    "Bay of Chesapeake",
+    "Bay of Chesepiock",
+    "Bay of Chesipiack",
+    "Chesepiacke Bay",
+    "Bay of Chesapeack"
+  ],
+  "Cape Henry": [
+    "Cape Henry",
+    "Cape Henrie"
+  ],
+  "Cape Charles": [
+    "Cape Charles"
+  ],
+  "Cape Cod": [
+    "Cape Cod",
+    "Cape Code",
+    "Cape Codd",
+    "Cape Codde",
+    "Cape Cod-fish",
+    "Cape Codd-fish",
+    "Cape Cod fish"
+  ],
+  "Hampton Roads": [
+    "Hampton Roads",
+    "Hampton Roades"
+  ],
+  "Point Comfort": [
+    "Point Comfort",
+    "Cape Comfort",
+    "Old Point Comfort",
+    "Cape Comforte",
+    "Point Comforte"
+  ],
+  "Henricus": [
+    "Henricus",
+    "Henrico",
+    "City of Henricus",
+    "Henrico City",
+    "Henerico"
+  ],
+  "Charles City": [
+    "Charles City",
+    "Charles Citty",
+    "Charles City Shire",
+    "Charles Cittie"
+  ],
+  "Elizabeth City": [
+    "Elizabeth City",
+    "Elizabeth Citty",
+    "Kecoughtan",
+    "Keghoughtan",
+    "Elizabeth Cittie",
+    "Ehzabeth City",
+    "Elsabeth Citty",
+    "Elzabeth Citty",
+    "Llzabeth citty",
+    "Kiccowtan",
+    "Kicotan",
+    "Kiquotan",
+    "Keyeotan",
+    "Kicoughtan",
+    "Kiecowtan"
+  ],
+  "Warwick River": [
+    "Warwick River",
+    "Warwicke River"
+  ],
+  "Warrosquyoake": [
+    "Warrosquyoake",
+    "Warraskoyack",
+    "Warrosquoyacke",
+    "Warrasquoyack",
+    "Warrasquoake plantacon",
+    "Wareskoyack Bay"
+  ],
+  "Charles River": [
+    "Charles River"
+  ],
+  "Accawmack": [
+    "Accawmack",
+    "Accowmack",
+    "Accomack",
+    "Accomacke",
+    "Accawmacke"
+  ],
+  "Nansemond River": [
+    "Nansemond River",
+    "Nansemond"
+  ],
+  "York River": [
+    "York River",
+    "Yorke River"
+  ],
+  "Appomattox River": [
+    "Appomattox River",
+    "Appamattox River",
+    "Apamatuck River",
+    "Apomattucke River",
+    "Apamatucke River"
+  ],
+  "Bermuda / Somers Islands": [
+    "Bermuda",
+    "Somers Islands",
+    "Somers Isles",
+    "Summer Islands",
+    "Bermoodes",
+    "Sumer Iland",
+    "Somer Island",
+    "Summer Island",
+    "Somer Iland",
+    "Sufier Iland",
+    "Summer Iland",
+    "Suffer Iland",
+    "Sofier Iland",
+    "Sofier Island",
+    "Soier Island",
+    "Soiier Island",
+    "Soiner Island",
+    "Sommer Iland",
+    "Sommer Island",
+    "Sonier Island",
+    "Sufer Iland",
+    "Suiier Iland",
+    "Sumer Island",
+    "Sufier Ilands Plantation"
+  ],
+  "Flowerdew Hundred": [
+    "Flowerdew Hundred",
+    "Flower dewe Hundred",
+    "Flowerdew's Hundred",
+    "Flowerdieu Hundred",
+    "Flourdieu Hundred",
+    "Flouredieu hundred",
+    "Flowerdei hundred",
+    "Flowerdien Hundred"
+  ],
+  "West and Shirley Hundred": [
+    "West and Shirley Hundred",
+    "West Hundred",
+    "Shirley Hundred",
+    "West & Shirley Hundred",
+    "Sherley hundred"
+  ],
+  "Bermuda Hundred": [
+    "Bermuda Hundred",
+    "Bermuda Nether Hundred",
+    "Bermuda Upper Hundred",
+    "Bermuda hund"
+  ],
+  "Jordan's Journey": [
+    "Jordan's Journey",
+    "Jordans Journey",
+    "Jordans Jorney",
+    "Jordan's Jorney"
+  ],
+  "Peirsey's Hundred": [
+    "Peirsey's Hundred",
+    "Piersey's Hundred",
+    "Peirsey's Hund red",
+    "Pierseys Hundred",
+    "Perseys hundred"
+  ],
+  "City Point": [
+    "City Point",
+    "Citty Point"
+  ],
+  "Neck of Land": [
+    "Neck of Land",
+    "Neck of the Land"
+  ],
+  "Roanoke Island": [
+    "Roanoke Island",
+    "Roanoke"
+  ],
+  "Sagadahoc": [
+    "Sagadahoc",
+    "Sagadahock",
+    "Popham Colony",
+    "Kennebec River"
+  ],
+  "Tsenacomoco": [
+    "Tsenacomoco",
+    "Tsenacommacah",
+    "Powhatan Country",
+    "Powhatan's Country",
+    "Powhatanes Country"
+  ],
+  "Werowocomoco": [
+    "Werowocomoco",
+    "Werowocomoco Town",
+    "Werowacomoco"
+  ],
+  "Southampton Hundred": [
+    "Southampton Hundred",
+    "Southampton Hund",
+    "Southampton-Hundred",
+    "Southampton Plantation",
+    "Southton Hundred",
+    "Sowthampton hundred",
+    "Suthamptone hundred",
+    "Smiths hundred",
+    "Smythes Hundred",
+    "Smythe’s Hundred",
+    "Smythe's Hundred",
+    "Smyths Hundred",
+    "Smithe Hundred",
+    "Smyth hundred",
+    "Smythe hundred",
+    "Sniyths hundred",
+    "Smith’s Hundred"
+  ],
+  "Southampton River": [
+    "Southampton River",
+    "Southampton Riuer",
+    "Southampton Ryver"
+  ],
+  "London": [
+    "London",
+    "City of London",
+    "Cittie of Lendon",
+    "Cittie of Lon",
+    "Cittie of Loudon",
+    "City of Londou",
+    "City of Loudon",
+    "Londen"
+  ],
+  "Philpott Lane": [
+    "Philpott Lane",
+    "Philpot Lane"
+  ],
+  "St Swithin's Lane": [
+    "St. Swithin's Lane",
+    "St Swithin's Lane",
+    "St. Sithes Lane",
+    "St Sithes Lane",
+    "St. Sythes Lane"
+  ],
+  "Westminster": [
+    "Westminster",
+    "Westmynster"
+  ],
+  "Bristol": [
+    "Bristol",
+    "Brystol",
+    "Bristoll",
+    "City of Bristoll",
+    "Cittie of Bristoll"
+  ],
+  "Exeter": [
+    "Exeter",
+    "Exetter"
+  ],
+  "Plymouth": [
+    "Plymouth",
+    "Plimouth",
+    "Plymoth"
+  ],
+  "Southampton": [
+    "Southampton",
+    "Southampton Port"
+  ],
+  "Isle of Wight": [
+    "Isle of Wight",
+    "Isle of Wight Island",
+    "Ile of Wight",
+    "Isle of Waight"
+  ],
+  "Gravesend": [
+    "Gravesend",
+    "Graves-end"
+  ],
+  "England": [
+    "England",
+    "Englande",
+    "Ingland",
+    "Anglia",
+    "Eneland",
+    "Mngland"
+  ],
+  "France": [
+    "France",
+    "Fraunce"
+  ],
+  "Spain": [
+    "Spain",
+    "Spaine",
+    "Spayne"
+  ],
+  "Martin's Hundred": [
+    "Martin's Hundred",
+    "Martins Hundred",
+    "Martin’s Hundred",
+    "Martine Hundred",
+    "Martyns Hundred",
+    "Martynes Hundred"
+  ],
+  "Wolstenholme Towne": [
+    "Wolstenholme Towne",
+    "Wolster-Holmes Towne"
+  ],
+  "Martin's Brandon": [
+    "Martin's Brandon",
+    "Captain John Martin’s plantation",
+    "Captaine Martins Plantation",
+    "John Martin’s Plantation",
+    "Martins Plantation"
+  ],
+  "Berkeley Hundred": [
+    "Berkeley Hundred",
+    "Berkley Hundred",
+    "Berkleys Hundred",
+    "Berkley’s Plantation",
+    "Captaine Berckleys Plantation",
+    "Bartley Hundred",
+    "Bartlett Hundred"
+  ],
+  "Charles Hundred": [
+    "Charles Hundred"
+  ],
+  "Bermuda City": [
+    "Bermuda City"
+  ],
+  "Digges Hundred": [
+    "Digges Hundred",
+    "Diggs Hundred"
+  ],
+  "Argall's Town": [
+    "Argall's Town",
+    "Argall Town",
+    "Argall Towne",
+    "Argall’s towne",
+    "Argal’s towne"
+  ],
+  "Maydes Towne": [
+    "Maydes Towne",
+    "Mayds Towne"
+  ],
+  "Isle of Wight Plantation": [
+    "Isle of Wight Plantation",
+    "Wight Plantation",
+    "Wight Plantaéon",
+    "Lawnes’ hundred",
+    "Lawnes Hundred",
+    "Captain Lawne’s plantation"
+  ],
+  "Bennett's Plantation": [
+    "Bennett's Plantation",
+    "Edward Bennets Plantation"
+  ],
+  "Smith's Island": [
+    "Smith's Island",
+    "Smiths Iland",
+    "Smyths Iland"
+  ],
+  "Mulberry Island": [
+    "Mulberry Island",
+    "Mulbery Iland"
+  ],
+  "Hog Island": [
+    "Hog Island",
+    "Hogg Island",
+    "Hogg Iland",
+    "Hoge Island"
+  ],
+  "Blunt Point": [
+    "Blunt Point",
+    "Blunts Point",
+    "Blunt's Point",
+    "Blunt’s Point"
+  ],
+  "Dancing Point": [
+    "Dancing Point",
+    "Dauncing Point",
+    "Dancinge Point",
+    "Daneing Point"
+  ],
+  "Falling Creek": [
+    "Falling Creek",
+    "Falling Creeke"
+  ],
+  "Queen's Creek": [
+    "Queen's Creek",
+    "Queens Creek"
+  ],
+  "Chippokes Creek": [
+    "Chippokes Creek",
+    "Choapooks Creek",
+    "Chapoks Creek",
+    "Chapoks creeke"
+  ],
+  "Elizabeth River": [
+    "Elizabeth River",
+    "Elizabeth Riuer"
+  ],
+  "Chickahominy River": [
+    "Chickahominy River",
+    "Chicahominy River",
+    "Chickahomini River",
+    "Chickahominie river",
+    "Chieahomini River"
+  ],
+  "Pamunkey River": [
+    "Pamunkey River",
+    "Pacomunky River",
+    "Pamaouke river",
+    "Pamaunkey river",
+    "Pamounkey Riuer",
+    "Pomaunkey River",
+    "Pomonkey ryver",
+    "Riuer of Pamaouke",
+    "Riuer of Pamunke",
+    "Queenes Riuer"
+  ],
+  "Potomac River": [
+    "Potomac River",
+    "Patomack Riuer",
+    "Patawamack River",
+    "Patomeck Riuer",
+    "Patomeck River",
+    "Potomack River",
+    "Potomacke Ryver",
+    "Riuer of Patomack",
+    "Riuer of Potomack",
+    "River of Potomak"
+  ],
+  "Rappahannock River": [
+    "Rappahannock River",
+    "River of Rapahanock"
+  ],
+  "Mattaponi River": [
+    "Mattaponi River",
+    "Matepany River"
+  ],
+  "Chowan River": [
+    "Chowan River",
+    "Choanocki River",
+    "Riuer of Choanocki"
+  ],
+  "Moyompo River": [
+    "Moyompo River",
+    "Moyomps River",
+    "Riuer of Moyompo"
+  ],
+  "Okanahone River": [
+    "Okanahone River",
+    "Okanahone Riuer"
+  ],
+  "Bolus River": [
+    "Bolus River"
+  ],
+  "Mapcock Creek": [
+    "Mapcock Creek"
+  ],
+  "Opechancanough's Island": [
+    "Opechancanough's Island",
+    "Opichankanos Island"
+  ],
+  "Delaware River": [
+    "Delaware River",
+    "De La Ware River",
+    "Delawarr Riuer"
+  ],
+  "Hudson River": [
+    "Hudson River",
+    "Hudsen River"
+  ],
+  "Hudson Bay": [
+    "Hudson Bay",
+    "Hudsons Bay",
+    "Master Hudsons Bay"
+  ],
+  "New England": [
+    "New England",
+    "New-England"
+  ],
+  "Newfoundland": [
+    "Newfoundland",
+    "Newfowndland"
+  ],
+  "Canada": [
+    "Canada"
+  ],
+  "Florida": [
+    "Florida",
+    "Cape Florida",
+    "Cape of Florida"
+  ],
+  "West Indies": [
+    "West Indies",
+    "West Indyes"
+  ],
+  "Mexico": [
+    "Mexico"
+  ],
+  "Peru": [
+    "Peru"
+  ],
+  "California": [
+    "California",
+    "Cape of California"
+  ],
+  "Cape Mendocino": [
+    "Cape Mendocino"
+  ],
+  "America": [
+    "America"
+  ],
+  "Cape of Good Hope": [
+    "Cape of Good Hope",
+    "Cape of Bona Speranza",
+    "Cape Bona Speranza",
+    "Cape Bona-Speranza",
+    "Cape Bona"
+  ],
+  "East Indies": [
+    "East Indies",
+    "East India"
+  ],
+  "Cambay": [
+    "Cambay",
+    "Cambaya"
+  ],
+  "China": [
+    "China"
+  ],
+  "Persia": [
+    "Persia"
+  ],
+  "Azores": [
+    "Azores",
+    "Island of Assorees",
+    "Island of the Asseraes"
+  ],
+  "South Sea": [
+    "South Sea"
+  ],
+  "Great Britain": [
+    "Great Britain",
+    "Iland of Great Britayne"
+  ],
+  "Scotland": [
+    "Scotland",
+    "Seotland",
+    "Scottland"
+  ],
+  "Ireland": [
+    "Ireland",
+    "Irland"
+  ],
+  "Wales": [
+    "Wales"
+  ],
+  "Holland": [
+    "Holland"
+  ],
+  "Germany": [
+    "Germany"
+  ],
+  "Italy": [
+    "Italy",
+    "Italie"
+  ],
+  "Poland": [
+    "Poland"
+  ],
+  "Denmark": [
+    "Denmark",
+    "Denmarke"
+  ],
+  "Norway": [
+    "Norway"
+  ],
+  "Sweden": [
+    "Sweden",
+    "Sweadland"
+  ],
+  "Russia": [
+    "Russia"
+  ],
+  "Turkey": [
+    "Turkey"
+  ],
+  "Greece": [
+    "Greece"
+  ],
+  "Europe": [
+    "Europe"
+  ],
+  "Rome": [
+    "Rome"
+  ],
+  "Naples": [
+    "Naples"
+  ],
+  "Amsterdam": [
+    "Amsterdam"
+  ],
+  "Antwerp": [
+    "Antwerp"
+  ],
+  "Hamburg": [
+    "Hamburg",
+    "Hambrough"
+  ],
+  "Flushing": [
+    "Flushing",
+    "Flushinge"
+  ],
+  "Bay of Biscay": [
+    "Bay of Biscay",
+    "Biscay"
+  ],
+  "Belfast": [
+    "Belfast"
+  ],
+  "County Wexford": [
+    "County Wexford",
+    "County of Washford"
+  ],
+  "River Thames": [
+    "River Thames",
+    "Riuer of Thames"
+  ],
+  "The Downs": [
+    "The Downs",
+    "Downes"
+  ],
+  "Isle of Ely": [
+    "Isle of Ely"
+  ],
+  "Cambridge": [
+    "Cambridge"
+  ],
+  "Chichester": [
+    "Chichester",
+    "City of Chichester"
+  ],
+  "Salisbury": [
+    "Salisbury",
+    "City of Salisbury"
+  ],
+  "Ipswich": [
+    "Ipswich"
+  ],
+  "Croydon": [
+    "Croydon"
+  ],
+  "Tilbury": [
+    "Tilbury"
+  ],
+  "Oxford": [
+    "Oxford"
+  ],
+  "East Greenwich": [
+    "East Greenwich"
+  ],
+  "Whitehall": [
+    "Whitehall",
+    "White hall",
+    "White Hall 14°"
+  ],
+  "Westminster Hall": [
+    "Westminster Hall"
+  ],
+  "Knole Park": [
+    "Knole Park"
+  ],
+  "Gloucestershire": [
+    "Gloucestershire",
+    "County of Glou",
+    "County of Glocester"
+  ],
+  "Buckinghamshire": [
+    "Buckinghamshire",
+    "County of Buck",
+    "County of Bucke",
+    "County of Buckingham"
+  ],
+  "Kent": [
+    "Kent",
+    "Countie of Kent",
+    "County of Kent"
+  ],
+  "Middlesex": [
+    "Middlesex",
+    "Countie of Midde",
+    "Countie of Middlesex",
+    "County of Midd",
+    "County of Middlesex"
+  ],
+  "Norfolk": [
+    "Norfolk",
+    "Countie of Norfolke",
+    "County of Norff"
+  ],
+  "Suffolk": [
+    "Suffolk",
+    "Countie of Suffolke",
+    "County of Suff"
+  ],
+  "Hampshire": [
+    "Hampshire",
+    "Countie of Southton"
+  ],
+  "Anglesey": [
+    "Anglesey",
+    "County of Anglesy",
+    "County of Anglice"
+  ],
+  "Brecknockshire": [
+    "Brecknockshire",
+    "County of Breck"
+  ],
+  "Devon": [
+    "Devon",
+    "County of Devon"
+  ],
+  "Dorset": [
+    "Dorset",
+    "County of Dorsett"
+  ],
+  "Nottinghamshire": [
+    "Nottinghamshire",
+    "County of Nottingham"
+  ],
+  "Sussex": [
+    "Sussex",
+    "County of Sussex"
+  ],
+  "Somerset": [
+    "Somerset",
+    "Somersett sheire",
+    "Somiersett sheire"
+  ],
+  "Worcestershire": [
+    "Worcestershire",
+    "Wocter shire"
+  ]
+}

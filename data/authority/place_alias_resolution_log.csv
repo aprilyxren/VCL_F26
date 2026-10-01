@@ -1,0 +1,336 @@
+candidate_key,display_form,occurrence_count,action,place_key,place_type,world_region,aliases_added,basis
+vireinta,Vireinta,8,existing_key,Virginia,,,Vireinta,OCR misreadings of Virginia.
+vircinia,Vircinia,4,existing_key,Virginia,,,Vircinia,OCR misreadings of Virginia.
+vireinia,Vireinia,4,existing_key,Virginia,,,Vireinia,OCR misreadings of Virginia.
+virginta,Virginta,4,existing_key,Virginia,,,Virginta,OCR misreadings of Virginia.
+virarnta,Virarnta,2,existing_key,Virginia,,,Virarnta,OCR misreadings of Virginia.
+vircinta,Vircinta,2,existing_key,Virginia,,,Vircinta,OCR misreadings of Virginia.
+virgynia,Virgynia,2,existing_key,Virginia,,,Virgynia,OCR misreadings of Virginia.
+virointa,Virointa,2,existing_key,Virginia,,,Virointa,OCR misreadings of Virginia.
+virornta,Virornta,2,existing_key,Virginia,,,Virornta,OCR misreadings of Virginia.
+virsinia,Virsinia,2,existing_key,Virginia,,,Virsinia,OCR misreadings of Virginia.
+virainta,Virainta,7,existing_key,Virginia,,,Virainta,OCR misreadings of Virginia.
+virainia,Virainia,3,existing_key,Virginia,,,Virainia,OCR misreadings of Virginia.
+iames citty,Iames Citty,11,existing_key,James City,,,Iames Citty,I/J and OCR variants of James City.
+iames cittie,Iames Cittie,2,existing_key,James City,,,Iames Cittie,I/J and OCR variants of James City.
+jaines cittie,Jaines Cittie,1,existing_key,James City,,,Jaines Cittie,I/J and OCR variants of James City.
+jains cittie,Jains Cittie,1,existing_key,James City,,,Jains Cittie,I/J and OCR variants of James City.
+janes cittie,Janes Cittie,1,existing_key,James City,,,Janes Cittie,I/J and OCR variants of James City.
+janes city,Janes City,1,existing_key,James City,,,Janes City,I/J and OCR variants of James City.
+tames citty,Tames Citty,2,existing_key,James City,,,Tames Citty,I/J and OCR variants of James City.
+tames city,Tames City,1,existing_key,James City,,,Tames City,I/J and OCR variants of James City.
+iames towne,Iames Towne,3,existing_key,Jamestown,,,Iames Towne,Spelling variants; James Fort was the palisaded fort at Jamestown.
+janes town,Janes Town,1,existing_key,Jamestown,,,Janes Town,Spelling variants; James Fort was the palisaded fort at Jamestown.
+tames towne,Tames Towne,1,existing_key,Jamestown,,,Tames Towne,Spelling variants; James Fort was the palisaded fort at Jamestown.
+james fort,James Fort,1,existing_key,Jamestown,,,James Fort,Spelling variants; James Fort was the palisaded fort at Jamestown.
+james forte,James forte,1,existing_key,Jamestown,,,James forte,Spelling variants; James Fort was the palisaded fort at Jamestown.
+iames riuer,Iames Riuer,1,existing_key,James River,,,Iames Riuer,The James was also called the King's River (the 1620s grants say 'Kinge James Riuer').
+james riuer,James Riuer,4,existing_key,James River,,,James Riuer,The James was also called the King's River (the 1620s grants say 'Kinge James Riuer').
+king james river,King James River,1,existing_key,James River,,,King James River,The James was also called the King's River (the 1620s grants say 'Kinge James Riuer').
+kinges riuer,Kinges Riuer,1,existing_key,James River,,,Kinges Riuer,The James was also called the King's River (the 1620s grants say 'Kinge James Riuer').
+kings river,Kings river,2,existing_key,James River,,,Kings river,The James was also called the King's River (the 1620s grants say 'Kinge James Riuer').
+bay of chesepiock,Bay of Chesepiock,1,existing_key,Chesapeake Bay,,,Bay of Chesepiock,Spelling variants of Chesapeake.
+bay of chesipiack,Bay of Chesipiack,1,existing_key,Chesapeake Bay,,,Bay of Chesipiack,Spelling variants of Chesapeake.
+chesepiacke bay,Chesepiacke Bay,1,existing_key,Chesapeake Bay,,,Chesepiacke Bay,Spelling variants of Chesapeake.
+,,,existing_key_extra_alias,Chesapeake Bay,,,Bay of Chesapeack,Spelling variants of Chesapeake.
+cape comforte,Cape Comforte,5,existing_key,Point Comfort,,,Cape Comforte,Spelling variants.
+point comforte,Point Comforte,3,existing_key,Point Comfort,,,Point Comforte,Spelling variants.
+henrico city,Henrico City,1,existing_key,Henricus,,,Henrico City,Henrico / City of Henricus.
+henerico,Henerico,3,existing_key,Henricus,,,Henerico,Henrico / City of Henricus.
+charles cittie,Charles Cittie,6,existing_key,Charles City,,,Charles Cittie,Spelling variant.
+elizabeth cittie,Elizabeth Cittie,3,existing_key,Elizabeth City,,,Elizabeth Cittie,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+ehzabeth city,Ehzabeth City,1,existing_key,Elizabeth City,,,Ehzabeth City,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+elsabeth citty,Elsabeth Citty,1,existing_key,Elizabeth City,,,Elsabeth Citty,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+elzabeth citty,Elzabeth Citty,1,existing_key,Elizabeth City,,,Elzabeth Citty,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+llzabeth citty,Llzabeth citty,1,existing_key,Elizabeth City,,,Llzabeth citty,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+kiccowtan,Kiccowtan,4,existing_key,Elizabeth City,,,Kiccowtan,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+kicotan,Kicotan,3,existing_key,Elizabeth City,,,Kicotan,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+kiquotan,Kiquotan,3,existing_key,Elizabeth City,,,Kiquotan,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+keyeotan,Keyeotan,2,existing_key,Elizabeth City,,,Keyeotan,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+kicoughtan,Kicoughtan,2,existing_key,Elizabeth City,,,Kicoughtan,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+kiecowtan,Kiecowtan,2,existing_key,Elizabeth City,,,Kiecowtan,Elizabeth City was the 1619 renaming of Kecoughtan; Kiccowtan etc. are spellings of Kecoughtan.
+warrasquoake plantacon,Warrasquoake plantacon,1,existing_key,Warrosquyoake,,,Warrasquoake plantacon,Spelling variants of Warrosquyoake.
+wareskoyack bay,Wareskoyack Bay,1,existing_key,Warrosquyoake,,,Wareskoyack Bay,Spelling variants of Warrosquyoake.
+sumer iland,Sumer Iland,28,existing_key,Bermuda / Somers Islands,,,Sumer Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+somer island,Somer Island,14,existing_key,Bermuda / Somers Islands,,,Somer Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+summer island,Summer Island,8,existing_key,Bermuda / Somers Islands,,,Summer Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+somer iland,Somer Iland,7,existing_key,Bermuda / Somers Islands,,,Somer Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sufier iland,Sufier Iland,5,existing_key,Bermuda / Somers Islands,,,Sufier Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+summer iland,Summer Iland,5,existing_key,Bermuda / Somers Islands,,,Summer Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+suffer iland,Suffer Iland,4,existing_key,Bermuda / Somers Islands,,,Suffer Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sofier iland,Sofier Iland,1,existing_key,Bermuda / Somers Islands,,,Sofier Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sofier island,Sofier Island,1,existing_key,Bermuda / Somers Islands,,,Sofier Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+soier island,Soier Island,1,existing_key,Bermuda / Somers Islands,,,Soier Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+soiier island,Soiier Island,1,existing_key,Bermuda / Somers Islands,,,Soiier Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+soiner island,Soiner Island,1,existing_key,Bermuda / Somers Islands,,,Soiner Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sommer iland,Sommer Iland,1,existing_key,Bermuda / Somers Islands,,,Sommer Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sommer island,Sommer Island,1,existing_key,Bermuda / Somers Islands,,,Sommer Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sonier island,Sonier Island,1,existing_key,Bermuda / Somers Islands,,,Sonier Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sufer iland,Sufer Iland,1,existing_key,Bermuda / Somers Islands,,,Sufer Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+suiier iland,Suiier Iland,1,existing_key,Bermuda / Somers Islands,,,Suiier Iland,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sumer island,Sumer Island,1,existing_key,Bermuda / Somers Islands,,,Sumer Island,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+sufier ilands plantation,Sufier Ilands Plantation,1,existing_key,Bermuda / Somers Islands,,,Sufier Ilands Plantation,"Somers (Summer) Islands, i.e. Bermuda; Sufier/Sofier/Soier are OCR of Sumer."
+flowerdieu hundred,Flowerdieu Hundred,3,existing_key,Flowerdew Hundred,,,Flowerdieu Hundred,Spelling variants.
+flourdieu hundred,Flourdieu Hundred,1,existing_key,Flowerdew Hundred,,,Flourdieu Hundred,Spelling variants.
+flouredieu hundred,Flouredieu hundred,1,existing_key,Flowerdew Hundred,,,Flouredieu hundred,Spelling variants.
+flowerdei hundred,Flowerdei hundred,1,existing_key,Flowerdew Hundred,,,Flowerdei hundred,Spelling variants.
+flowerdien hundred,Flowerdien Hundred,1,existing_key,Flowerdew Hundred,,,Flowerdien Hundred,Spelling variants.
+sherley hundred,Sherley hundred,4,existing_key,West and Shirley Hundred,,,Sherley hundred,Shirley Hundred.
+bermuda hund,Bermuda hund,1,existing_key,Bermuda Hundred,,,Bermuda hund,Abbreviation.
+perseys hundred,Perseys hundred,1,existing_key,Peirsey's Hundred,,,Perseys hundred,Spelling variant.
+apomattucke river,Apomattucke River,1,existing_key,Appomattox River,,,Apomattucke River,Spelling variants.
+,,,existing_key_extra_alias,Appomattox River,,,Apamatucke River,Spelling variants.
+southton hundred,Southton Hundred,1,existing_key,Southampton Hundred,,,Southton Hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+sowthampton hundred,Sowthampton hundred,1,existing_key,Southampton Hundred,,,Sowthampton hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+suthamptone hundred,Suthamptone hundred,1,existing_key,Southampton Hundred,,,Suthamptone hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+smiths hundred,Smiths hundred,15,existing_key,Southampton Hundred,,,Smiths hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+smythes hundred,Smythes Hundred,15,existing_key,Southampton Hundred,,,Smythes Hundred|Smythe’s Hundred|Smythe's Hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+smyths hundred,Smyths Hundred,5,existing_key,Southampton Hundred,,,Smyths Hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+smithe hundred,Smithe Hundred,4,existing_key,Southampton Hundred,,,Smithe Hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+smyth hundred,Smyth hundred,1,existing_key,Southampton Hundred,,,Smyth hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+smythe hundred,Smythe hundred,1,existing_key,Southampton Hundred,,,Smythe hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+sniyths hundred,Sniyths hundred,1,existing_key,Southampton Hundred,,,Sniyths hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+,,,existing_key_extra_alias,Southampton Hundred,,,Smith’s Hundred,"Smythe's (Smith's) Hundred, founded 1617-18 and named for Sir Thomas Smythe, was renamed Southampton Hundred in 1620."
+ile of wight,Ile of Wight,11,existing_key,Isle of Wight,,,Ile of Wight,"The English Isle of Wight, where Company ships waited (e.g. 'his Shipp in a readines ... at the Ile of Wight')."
+isle of waight,Isle of Waight,1,existing_key,Isle of Wight,,,Isle of Waight,"The English Isle of Wight, where Company ships waited (e.g. 'his Shipp in a readines ... at the Ile of Wight')."
+cittie of lendon,Cittie of Lendon,1,existing_key,London,,,Cittie of Lendon,OCR variants of (City of) London.
+cittie of lon,Cittie of Lon,1,existing_key,London,,,Cittie of Lon,OCR variants of (City of) London.
+cittie of loudon,Cittie of Loudon,1,existing_key,London,,,Cittie of Loudon,OCR variants of (City of) London.
+city of londou,City of Londou,1,existing_key,London,,,City of Londou,OCR variants of (City of) London.
+city of loudon,City of Loudon,1,existing_key,London,,,City of Loudon,OCR variants of (City of) London.
+londen,Londen,2,existing_key,London,,,Londen,OCR variants of (City of) London.
+bristoll,Bristoll,48,existing_key,Bristol,,,Bristoll,Spelling variants.
+city of bristoll,City of Bristoll,2,existing_key,Bristol,,,City of Bristoll,Spelling variants.
+cittie of bristoll,Cittie of Bristoll,1,existing_key,Bristol,,,Cittie of Bristoll,Spelling variants.
+anglia,Anglia,10,existing_key,England,,,Anglia,Latin Anglia and OCR variants.
+eneland,Eneland,4,existing_key,England,,,Eneland,Latin Anglia and OCR variants.
+mngland,Mngland,4,existing_key,England,,,Mngland,Latin Anglia and OCR variants.
+martins hundred,Martins Hundred,75,new_key,Martin's Hundred,plantation/hundred,New World,Martins Hundred|Martin’s Hundred,"Particular plantation of the Society of Martin's Hundred, named for Richard Martin; on the James below Jamestown."
+martine hundred,Martine Hundred,5,new_key,Martin's Hundred,plantation/hundred,New World,Martine Hundred,"Particular plantation of the Society of Martin's Hundred, named for Richard Martin; on the James below Jamestown."
+martyns hundred,Martyns Hundred,3,new_key,Martin's Hundred,plantation/hundred,New World,Martyns Hundred,"Particular plantation of the Society of Martin's Hundred, named for Richard Martin; on the James below Jamestown."
+martynes hundred,Martynes Hundred,1,new_key,Martin's Hundred,plantation/hundred,New World,Martynes Hundred,"Particular plantation of the Society of Martin's Hundred, named for Richard Martin; on the James below Jamestown."
+wolster holmes towne,Wolster-Holmes Towne,1,new_key,Wolstenholme Towne,settlement,New World,Wolster-Holmes Towne,"Chief settlement of Martin's Hundred, named for Sir John Wolstenholme."
+captain john martins plantation,Captain John Martin’s plantation,1,new_key,Martin's Brandon,plantation,New World,Captain John Martin’s plantation,Captain John Martin's patented plantation (distinct from Martin's Hundred); the 'Capt: Martins Plantation' of the records.
+captaine martins plantation,Captaine Martins Plantation,1,new_key,Martin's Brandon,plantation,New World,Captaine Martins Plantation,Captain John Martin's patented plantation (distinct from Martin's Hundred); the 'Capt: Martins Plantation' of the records.
+john martins plantation,John Martin’s Plantation,1,new_key,Martin's Brandon,plantation,New World,John Martin’s Plantation,Captain John Martin's patented plantation (distinct from Martin's Hundred); the 'Capt: Martins Plantation' of the records.
+martins plantation,Martins Plantation,1,new_key,Martin's Brandon,plantation,New World,Martins Plantation,Captain John Martin's patented plantation (distinct from Martin's Hundred); the 'Capt: Martins Plantation' of the records.
+berkley hundred,Berkley Hundred,13,new_key,Berkeley Hundred,plantation/hundred,New World,Berkley Hundred,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+berkeley hundred,Berkeley Hundred,4,new_key,Berkeley Hundred,plantation/hundred,New World,,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+berkleys hundred,Berkleys Hundred,1,new_key,Berkeley Hundred,plantation/hundred,New World,Berkleys Hundred,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+berkleys plantation,Berkley’s Plantation,1,new_key,Berkeley Hundred,plantation/hundred,New World,Berkley’s Plantation,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+captaine berckleys plantation,Captaine Berckleys Plantation,1,new_key,Berkeley Hundred,plantation/hundred,New World,Captaine Berckleys Plantation,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+bartley hundred,Bartley Hundred,1,new_key,Berkeley Hundred,plantation/hundred,New World,Bartley Hundred,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+bartlett hundred,Bartlett Hundred,1,new_key,Berkeley Hundred,plantation/hundred,New World,Bartlett Hundred,"Plantation of Berkeley, Thorpe, Throckmorton and Smyth of Nibley (1619). 'Bartley'/'Bartlett' Hundred appear in the same Roe/Smyth context and index entries."
+charles hundred,Charles Hundred,7,new_key,Charles Hundred,hundred,New World,,Hundred named in the records (e.g. 'Samuell Jordan of Charles Hundred').
+bermuda city,Bermuda City,3,new_key,Bermuda City,settlement,New World,,Dale's 1613 town at the Bermuda Hundred settlements; later absorbed into the Charles City corporation. Kept separate pending review.
+diggs hundred,Diggs Hundred,1,new_key,Digges Hundred,hundred,New World,Diggs Hundred,Hundred named for Sir Dudley Digges ('Diggs his Hundred').
+argall town,Argall Town,1,new_key,Argall's Town,settlement,New World,Argall Town,"Argall's Gift / Argall Town, laid out by Governor Samuel Argall near Jamestown (1617)."
+argall towne,Argall Towne,1,new_key,Argall's Town,settlement,New World,Argall Towne,"Argall's Gift / Argall Town, laid out by Governor Samuel Argall near Jamestown (1617)."
+argalls towne,Argall’s towne,1,new_key,Argall's Town,settlement,New World,Argall’s towne,"Argall's Gift / Argall Town, laid out by Governor Samuel Argall near Jamestown (1617)."
+argals towne,Argal’s towne,1,new_key,Argall's Town,settlement,New World,Argal’s towne,"Argall's Gift / Argall Town, laid out by Governor Samuel Argall near Jamestown (1617)."
+maydes towne,Maydes Towne,1,new_key,Maydes Towne,proposed town,New World,,Town the adventurers for the maids asked to have 'called by the name of Maydes Towne' (1621).
+mayds towne,Mayds Towne,1,new_key,Maydes Towne,proposed town,New World,Mayds Towne,Town the adventurers for the maids asked to have 'called by the name of Maydes Towne' (1621).
+isle of wight plantation,Isle of Wight Plantation,1,new_key,Isle of Wight Plantation,plantation,New World,,"Christopher Lawne's 1619 plantation at Lawne's Creek, continued by his associates as the Isle of Wight Plantation (not West and Shirley Hundred, despite the spelling match)."
+wight plantation,Wight Plantation,1,new_key,Isle of Wight Plantation,plantation,New World,Wight Plantation,"Christopher Lawne's 1619 plantation at Lawne's Creek, continued by his associates as the Isle of Wight Plantation (not West and Shirley Hundred, despite the spelling match)."
+wight plantaéon,Wight Plantaéon,1,new_key,Isle of Wight Plantation,plantation,New World,Wight Plantaéon,"Christopher Lawne's 1619 plantation at Lawne's Creek, continued by his associates as the Isle of Wight Plantation (not West and Shirley Hundred, despite the spelling match)."
+lawnes hundred,Lawnes’ hundred,2,new_key,Isle of Wight Plantation,plantation,New World,Lawnes’ hundred|Lawnes Hundred,"Christopher Lawne's 1619 plantation at Lawne's Creek, continued by his associates as the Isle of Wight Plantation (not West and Shirley Hundred, despite the spelling match)."
+captain lawnes plantation,Captain Lawne’s plantation,1,new_key,Isle of Wight Plantation,plantation,New World,Captain Lawne’s plantation,"Christopher Lawne's 1619 plantation at Lawne's Creek, continued by his associates as the Isle of Wight Plantation (not West and Shirley Hundred, despite the spelling match)."
+edward bennets plantation,Edward Bennets Plantation,1,new_key,Bennett's Plantation,plantation,New World,Edward Bennets Plantation,Edward Bennett's plantation at Warrosquyoake (1621).
+smiths iland,Smiths Iland,1,new_key,Smith's Island,island,New World,Smiths Iland,"Smith's Isles off Cape Charles, site of the Eastern Shore salt works ('Salt workes ... in Smiths Iland')."
+smyths iland,Smyths Iland,1,new_key,Smith's Island,island,New World,Smyths Iland,"Smith's Isles off Cape Charles, site of the Eastern Shore salt works ('Salt workes ... in Smiths Iland')."
+mulberry island,Mulberry Island,3,new_key,Mulberry Island,island,New World,,Mulberry Island on the James at the mouth of the Warwick River.
+,,,new_key_extra_alias,Mulberry Island,,,Mulbery Iland,Mulberry Island on the James at the mouth of the Warwick River.
+hogg island,Hogg Island,4,new_key,Hog Island,island,New World,Hogg Island,Hog Island on the James opposite Jamestown.
+hogg iland,Hogg Iland,1,new_key,Hog Island,island,New World,Hogg Iland,Hog Island on the James opposite Jamestown.
+,,,new_key_extra_alias,Hog Island,,,Hoge Island,Hog Island on the James opposite Jamestown.
+blunt point,Blunt point,4,new_key,Blunt Point,point,New World,,Point on the James near the Warwick River.
+blunts point,Blunts Point,2,new_key,Blunt Point,point,New World,Blunts Point|Blunt's Point,Point on the James near the Warwick River.
+,,,new_key_extra_alias,Blunt Point,,,Blunt’s Point,Point on the James near the Warwick River.
+dauncing point,Dauncing Point,2,new_key,Dancing Point,point,New World,Dauncing Point,Point on the James at the mouth of the Chickahominy.
+dancinge point,Dancinge Point,1,new_key,Dancing Point,point,New World,Dancinge Point,Point on the James at the mouth of the Chickahominy.
+daneing point,Daneing Point,1,new_key,Dancing Point,point,New World,Daneing Point,Point on the James at the mouth of the Chickahominy.
+falling creeke,Falling Creeke,2,new_key,Falling Creek,creek/ironworks,New World,Falling Creeke,Site of the Company ironworks destroyed in 1622.
+falling creek,Falling Creek,1,new_key,Falling Creek,creek/ironworks,New World,,Site of the Company ironworks destroyed in 1622.
+queens creek,Queens Creek,3,new_key,Queen's Creek,creek,New World,Queens Creek,Creek named in the records.
+choapooks creek,Choapooks Creek,2,new_key,Chippokes Creek,creek,New World,Choapooks Creek,Creek on the south side of the James named for the Quiyoughcohannock leader Choapock.
+chapoks creek,Chapoks Creek,1,new_key,Chippokes Creek,creek,New World,Chapoks Creek,Creek on the south side of the James named for the Quiyoughcohannock leader Choapock.
+chapoks creeke,Chapoks creeke,1,new_key,Chippokes Creek,creek,New World,Chapoks creeke,Creek on the south side of the James named for the Quiyoughcohannock leader Choapock.
+elizabeth riuer,Elizabeth Riuer,1,new_key,Elizabeth River,river,New World,Elizabeth Riuer,River on the south side of Hampton Roads.
+elizabeth river,Elizabeth River,1,new_key,Elizabeth River,river,New World,,River on the south side of Hampton Roads.
+chicahominy river,Chicahominy River,1,new_key,Chickahominy River,river,New World,Chicahominy River,Spelling variants.
+chickahomini river,Chickahomini River,1,new_key,Chickahominy River,river,New World,Chickahomini River,Spelling variants.
+chickahominie river,Chickahominie river,1,new_key,Chickahominy River,river,New World,Chickahominie river,Spelling variants.
+chieahomini river,Chieahomini River,1,new_key,Chickahominy River,river,New World,Chieahomini River,Spelling variants.
+pamunkey river,Pamunkey River,2,new_key,Pamunkey River,river,New World,,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+pacomunky river,Pacomunky River,1,new_key,Pamunkey River,river,New World,Pacomunky River,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+pamaouke river,Pamaouke river,1,new_key,Pamunkey River,river,New World,Pamaouke river,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+pamaunkey river,Pamaunkey river,1,new_key,Pamunkey River,river,New World,Pamaunkey river,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+pamounkey riuer,Pamounkey Riuer,1,new_key,Pamunkey River,river,New World,Pamounkey Riuer,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+pomaunkey river,Pomaunkey River,1,new_key,Pamunkey River,river,New World,Pomaunkey River,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+pomonkey ryver,Pomonkey ryver,1,new_key,Pamunkey River,river,New World,Pomonkey ryver,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+riuer of pamaouke,Riuer of Pamaouke,1,new_key,Pamunkey River,river,New World,Riuer of Pamaouke,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+riuer of pamunke,Riuer of Pamunke,1,new_key,Pamunkey River,river,New World,Riuer of Pamunke,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+queenes riuer,Queenes Riuer,1,new_key,Pamunkey River,river,New World,Queenes Riuer,Spelling variants; the records call it 'the Queenes Riuer alias Pacomunky'.
+patomack riuer,Patomack Riuer,2,new_key,Potomac River,river,New World,Patomack Riuer,Spelling variants.
+patawamack river,Patawamack River,1,new_key,Potomac River,river,New World,Patawamack River,Spelling variants.
+patomeck riuer,Patomeck Riuer,1,new_key,Potomac River,river,New World,Patomeck Riuer,Spelling variants.
+patomeck river,Patomeck River,1,new_key,Potomac River,river,New World,Patomeck River,Spelling variants.
+potomack river,Potomack River,1,new_key,Potomac River,river,New World,Potomack River,Spelling variants.
+potomacke ryver,Potomacke Ryver,1,new_key,Potomac River,river,New World,Potomacke Ryver,Spelling variants.
+riuer of patomack,Riuer of Patomack,1,new_key,Potomac River,river,New World,Riuer of Patomack,Spelling variants.
+riuer of potomack,Riuer of Potomack,1,new_key,Potomac River,river,New World,Riuer of Potomack,Spelling variants.
+river of potomak,River of Potomak,1,new_key,Potomac River,river,New World,River of Potomak,Spelling variants.
+river of rapahanock,River of Rapahanock,1,new_key,Rappahannock River,river,New World,River of Rapahanock,Spelling variant.
+matepany river,Matepany River,1,new_key,Mattaponi River,river,New World,Matepany River,"Matapanient / Mattaponi, tributary of the York."
+choanocki river,Choanocki River,1,new_key,Chowan River,river,New World,Choanocki River,"Choanoke (Chawanoac), the Roanoke-era name for the Chowan."
+riuer of choanocki,Riuer of Choanocki,1,new_key,Chowan River,river,New World,Riuer of Choanocki,"Choanoke (Chawanoac), the Roanoke-era name for the Chowan."
+moyomps river,Moyomps River,1,new_key,Moyompo River,river,New World,Moyomps River,Named as on the sheet; modern identification uncertain.
+riuer of moyompo,Riuer of Moyompo,1,new_key,Moyompo River,river,New World,Riuer of Moyompo,Named as on the sheet; modern identification uncertain.
+okanahone riuer,Okanahone Riuer,1,new_key,Okanahone River,river,New World,Okanahone Riuer,Named as on the sheet; modern identification uncertain.
+okanahone river,Okanahone River,1,new_key,Okanahone River,river,New World,,Named as on the sheet; modern identification uncertain.
+bolus river,Bolus River,1,new_key,Bolus River,river,New World,,Named as on the sheet; modern identification uncertain.
+mapcock creek,Mapcock Creek,1,new_key,Mapcock Creek,creek,New World,,Index entry; named as on the sheet.
+opichankanos island,Opichankanos Island,1,new_key,Opechancanough's Island,island,New World,Opichankanos Island,"'Opichankanos Island in Pamaunkey river', named for Opechancanough."
+delaware river,Delaware River,2,new_key,Delaware River,river,New World,,Named for Lord De La Warr.
+de la ware river,De La Ware River,1,new_key,Delaware River,river,New World,De La Ware River,Named for Lord De La Warr.
+delawarr riuer,Delawarr Riuer,1,new_key,Delaware River,river,New World,Delawarr Riuer,Named for Lord De La Warr.
+hudson river,Hudson River,5,new_key,Hudson River,river,New World,,Spelling variants.
+hudsen river,Hudsen River,1,new_key,Hudson River,river,New World,Hudsen River,Spelling variants.
+hudsons bay,Hudsons Bay,2,new_key,Hudson Bay,bay,New World,Hudsons Bay,Spelling variants.
+hudson bay,Hudson Bay,1,new_key,Hudson Bay,bay,New World,,Spelling variants.
+master hudsons bay,Master Hudsons Bay,1,new_key,Hudson Bay,bay,New World,Master Hudsons Bay,Spelling variants.
+new england,New England,18,new_key,New England,region,New World,New-England,Region of the Northern (Plymouth) colony.
+newfoundland,Newfoundland,6,new_key,Newfoundland,island/fishery,New World,,Spelling variants.
+newfowndland,Newfowndland,2,new_key,Newfoundland,island/fishery,New World,Newfowndland,Spelling variants.
+canada,Canada,11,new_key,Canada,region,New World,,Region name.
+florida,Florida,6,new_key,Florida,region/cape,New World,,Florida and its cape.
+cape florida,Cape Florida,1,new_key,Florida,region/cape,New World,Cape Florida,Florida and its cape.
+cape of florida,Cape of Florida,1,new_key,Florida,region/cape,New World,Cape of Florida,Florida and its cape.
+west indies,West Indies,8,new_key,West Indies,region,New World,,Spelling variants.
+west indyes,West Indyes,3,new_key,West Indies,region,New World,West Indyes,Spelling variants.
+mexico,Mexico,3,new_key,Mexico,region,New World,,Region name.
+peru,Peru,5,new_key,Peru,region,New World,,Region name.
+california,California,2,new_key,California,region,New World,,Region name.
+cape of california,Cape of California,2,new_key,California,region,New World,Cape of California,Region name.
+cape mendocino,Cape Mendocino,1,new_key,Cape Mendocino,cape,New World,,Pacific cape.
+america,America,26,new_key,America,continent,New World,,Continent name.
+cape of good hope,Cape of Good Hope,1,new_key,Cape of Good Hope,cape,Africa,,Cabo da Boa Esperança; East India voyage route.
+cape of bona speranza,Cape of Bona Speranza,1,new_key,Cape of Good Hope,cape,Africa,Cape of Bona Speranza,Cabo da Boa Esperança; East India voyage route.
+cape bona speranza,Cape Bona Speranza,3,new_key,Cape of Good Hope,cape,Africa,Cape Bona Speranza|Cape Bona-Speranza,Cabo da Boa Esperança; East India voyage route.
+cape bona,Cape Bona,8,new_key,Cape of Good Hope,cape,Africa,Cape Bona,Cabo da Boa Esperança; East India voyage route.
+east india,East India,9,new_key,East Indies,region,Asia,East India,Spelling variants.
+east indies,East Indies,2,new_key,East Indies,region,Asia,,Spelling variants.
+cambaya,Cambaya,2,new_key,Cambay,port/region,Asia,Cambaya,"Cambay (Khambhat), Gujarat."
+china,China,6,new_key,China,kingdom,Asia,,Country name.
+persia,Persia,4,new_key,Persia,kingdom,Asia,,Country name.
+island of assorees,Island of Assorees,1,new_key,Azores,island group,Atlantic,Island of Assorees,Spelling variants of the Azores.
+island of the asseraes,Island of the Asseraes,1,new_key,Azores,island group,Atlantic,Island of the Asseraes,Spelling variants of the Azores.
+south sea,South Sea,3,new_key,South Sea,ocean,New World,,Contemporary name for the Pacific.
+iland of great britayne,Iland of Great Britayne,1,new_key,Great Britain,island/kingdom,Old World,Iland of Great Britayne,Spelling variant.
+scotland,Scotland,54,new_key,Scotland,kingdom,Old World,,Spelling variants.
+seotland,Seotland,5,new_key,Scotland,kingdom,Old World,Seotland,Spelling variants.
+scottland,Scottland,2,new_key,Scotland,kingdom,Old World,Scottland,Spelling variants.
+ireland,Ireland,108,new_key,Ireland,kingdom,Old World,,Spelling variants.
+irland,Irland,2,new_key,Ireland,kingdom,Old World,Irland,Spelling variants.
+wales,Wales,4,new_key,Wales,principality,Old World,,Country name.
+holland,Holland,20,new_key,Holland,province/country,Old World,,The Dutch province / United Provinces.
+germany,Germany,4,new_key,Germany,region,Old World,,Country name.
+italy,Italy,6,new_key,Italy,region,Old World,,Spelling variants.
+italie,Italie,2,new_key,Italy,region,Old World,Italie,Spelling variants.
+poland,Poland,8,new_key,Poland,kingdom,Old World,,"Source of pitch, tar and potash workers."
+denmarke,Denmarke,2,new_key,Denmark,kingdom,Old World,Denmarke,Spelling variant.
+norway,Norway,2,new_key,Norway,kingdom,Old World,,Country name.
+sweadland,Sweadland,3,new_key,Sweden,kingdom,Old World,Sweadland,"Swedeland, i.e. Sweden."
+russia,Russia,2,new_key,Russia,country,Old World,,Country name.
+turkey,Turkey,2,new_key,Turkey,empire,Old World,,Ottoman Empire.
+greece,Greece,3,new_key,Greece,region,Old World,,Region name.
+europe,Europe,5,new_key,Europe,continent,Old World,,Continent name.
+rome,Rome,3,new_key,Rome,city,Old World,,City name.
+naples,Naples,2,new_key,Naples,city/kingdom,Old World,,City name.
+amsterdam,Amsterdam,4,new_key,Amsterdam,city,Old World,,City name.
+antwerp,Antwerp,3,new_key,Antwerp,city,Old World,,City name.
+hamburg,Hamburg,2,new_key,Hamburg,city,Old World,,Spelling variants.
+hambrough,Hambrough,2,new_key,Hamburg,city,Old World,Hambrough,Spelling variants.
+flushinge,Flushinge,2,new_key,Flushing,port,Old World,Flushinge,"Vlissingen, Zeeland."
+biscay,Biscay,2,new_key,Bay of Biscay,sea/region,Old World,Biscay,Biscay.
+belfast,Belfast,2,new_key,Belfast,town,Old World,,Town name.
+county of washford,County of Washford,1,new_key,County Wexford,county,Old World,County of Washford,Washford was the English name for Wexford.
+riuer of thames,Riuer of Thames,5,new_key,River Thames,river,Old World,Riuer of Thames,Spelling variant.
+downes,Downes,9,new_key,The Downs,anchorage,Old World,Downes,Anchorage off Kent where outbound ships waited ('came not into the Downes'). Also a surname; contextual.
+isle of ely,Isle of Ely,2,new_key,Isle of Ely,district,Old World,,Cambridgeshire district.
+cambridge,Cambridge,69,new_key,Cambridge,town/university,Old World,,e.g. 'fellowe of Clare hall in Cambridge'.
+city of chichester,City of Chichester,1,new_key,Chichester,city,Old World,City of Chichester,City name.
+city of salisbury,City of Salisbury,1,new_key,Salisbury,city,Old World,City of Salisbury,City form only; bare 'Salisbury' is usually the Earl.
+ipswich,Ipswich,3,new_key,Ipswich,town,Old World,,Town name.
+croydon,Croydon,2,new_key,Croydon,town,Old World,,Town name.
+tilbury,Tilbury,2,new_key,Tilbury,port,Old World,,Thames port.
+oxford,Oxford,2,new_key,Oxford,town/university,Old World,,Town name.
+east greenwich,East Greenwich,3,new_key,East Greenwich,manor,Old World,,Charter tenure 'as of our manor of East Greenwich'.
+white hall,White hall,3,new_key,Whitehall,palace,Old World,White hall|White Hall 14°,"Royal palace, Westminster."
+westminster hall,Westminster Hall,2,new_key,Westminster Hall,building,Old World,,Seat of the royal courts.
+knole park,Knole Park,13,new_key,Knole Park,estate,Old World,,Sackville seat in Kent where the Sackville papers were held.
+county of glou,County of Glou,4,new_key,Gloucestershire,county,Old World,County of Glou,County of Gloucester.
+county of glocester,County of Glocester,1,new_key,Gloucestershire,county,Old World,County of Glocester,County of Gloucester.
+county of buck,County of Buck,1,new_key,Buckinghamshire,county,Old World,County of Buck,County of Buckingham.
+county of bucke,County of Bucke,1,new_key,Buckinghamshire,county,Old World,County of Bucke,County of Buckingham.
+,,,new_key_extra_alias,Buckinghamshire,,,County of Buckingham,County of Buckingham.
+countie of kent,Countie of Kent,1,new_key,Kent,county,Old World,Countie of Kent,County name.
+county of kent,County of Kent,1,new_key,Kent,county,Old World,County of Kent,County name.
+countie of midde,Countie of Midde,1,new_key,Middlesex,county,Old World,Countie of Midde,County name and abbreviations.
+countie of middlesex,Countie of Middlesex,1,new_key,Middlesex,county,Old World,Countie of Middlesex,County name and abbreviations.
+county of midd,County of Midd,1,new_key,Middlesex,county,Old World,County of Midd,County name and abbreviations.
+county of middlesex,County of Middlesex,1,new_key,Middlesex,county,Old World,County of Middlesex,County name and abbreviations.
+countie of norfolke,Countie of Norfolke,1,new_key,Norfolk,county,Old World,Countie of Norfolke,County name and abbreviation.
+county of norff,County of Norff,1,new_key,Norfolk,county,Old World,County of Norff,County name and abbreviation.
+countie of suffolke,Countie of Suffolke,1,new_key,Suffolk,county,Old World,Countie of Suffolke,County name and abbreviation.
+county of suff,County of Suff,1,new_key,Suffolk,county,Old World,County of Suff,County name and abbreviation.
+countie of southton,Countie of Southton,1,new_key,Hampshire,county,Old World,Countie of Southton,'County of Southampton' (Southton.) is Hampshire.
+county of anglesy,County of Anglesy,1,new_key,Anglesey,county,Old World,County of Anglesy,Spelling variants.
+county of anglice,County of Anglice,1,new_key,Anglesey,county,Old World,County of Anglice,Spelling variants.
+county of breck,County of Breck,1,new_key,Brecknockshire,county,Old World,County of Breck,Abbreviation of Brecknock.
+county of devon,County of Devon,1,new_key,Devon,county,Old World,County of Devon,County name.
+county of dorsett,County of Dorsett,1,new_key,Dorset,county,Old World,County of Dorsett,Spelling variant.
+county of nottingham,County of Nottingham,1,new_key,Nottinghamshire,county,Old World,County of Nottingham,County of Nottingham.
+county of sussex,County of Sussex,1,new_key,Sussex,county,Old World,County of Sussex,County name.
+somersett sheire,Somersett sheire,1,new_key,Somerset,county,Old World,Somersett sheire,Spelling variants.
+somiersett sheire,Somiersett sheire,1,new_key,Somerset,county,Old World,Somiersett sheire,Spelling variants.
+wocter shire,Wocter shire,1,new_key,Worcestershire,county,Old World,Wocter shire,OCR of Worcester shire.
+cape marchant,Cape Marchant,15,excluded,,,,,"Office of the Company's cape merchant (keeper of the store), not a cape."
+cape mercht,Cape Mercht,1,excluded,,,,,Abbreviation of cape merchant (office).
+cape mar,Cape Mar,1,excluded,,,,,Truncated cape merchant (office).
+christian plantation,Christian Plantation,2,excluded,,,,,"Descriptive ('that Christian Plantation'), not a name."
+christian plantacon,Christian Plantacon,1,excluded,,,,,Descriptive.
+christian plantaéon,Christian Plantaéon,1,excluded,,,,,Descriptive.
+northern plantation,Northern Plantation,2,excluded,,,,,Descriptive term for the northern colony; see New England.
+northerne plantation,Northerne plantation,1,excluded,,,,,Descriptive term.
+sotherne plantacon,Sotherne Plantacon,1,excluded,,,,,Descriptive term.
+southerne plantation,Southerne plantation,1,excluded,,,,,Descriptive term.
+royall plantation,Royall plantation,1,excluded,,,,,Descriptive.
+noble plantation,Noble plantation,1,excluded,,,,,Descriptive.
+private plantation,Private PLANTATION,1,excluded,,,,,Descriptive.
+pryvate plantaéon,Pryvate Plantaéon,1,excluded,,,,,Descriptive.
+ruinated plantaéon,Ruinated Plantaéon,1,excluded,,,,,Descriptive.
+citty of god,Citty of God,1,excluded,,,,,Theological phrase.
+city of god,City of God,1,excluded,,,,,Theological phrase.
+honourable city,Honourable City,1,excluded,,,,,Descriptive.
+eauerie sheire,Eauerie Sheire,1,excluded,,,,,'every shire'.
+euerie sheire,Euerie Sheire,1,excluded,,,,,'every shire'.
+maine river,Maine River,1,excluded,,,,,"'main river', descriptive."
+mayne riuer,Mayne Riuer,1,excluded,,,,,"'main river', descriptive."
+southward riuer,Southward Riuer,1,excluded,,,,,"Directional, descriptive."
+sofier,Sofier,2,excluded,,,,,OCR of 'Somer' (the summer season).
+washington,Washington,128,excluded,,,,,Modern publication imprint (Government Printing Office).
+d c,D.C,20,excluded,,,,,Modern publication imprint.
+washington d c,"Washington, D.C",4,excluded,,,,,Modern publication imprint.
+new york,New York,5,excluded,,,,,Modern archival/publication reference.
+richmond,Richmond,4,excluded,,,,,"Modern archival reference (Virginia Historical Society, Richmond)."
+buckingham,Buckingham,5,excluded,,,,,Usually the Marquis of Buckingham (a person).
+salisbury,Salisbury,5,excluded,,,,,Usually the Earl of Salisbury; only 'City of Salisbury' is kept.
+osnaburg,Osnaburg,2,excluded,,,,,"Osnaburg linen (a cloth), not the place."
+henrico and charles citty,Henrico and Charles Citty,4,excluded,,,,,Compound of two existing places.
+henrico charles citty,Henrico & Charles Citty,2,excluded,,,,,Compound of two existing places.
+southampton and martins hundred,Southampton and Martins Hundred,1,excluded,,,,,Compound of two places.
+southampton martins hundred,Southampton & Martins Hundred,1,excluded,,,,,Compound of two places.
+southampton martyns hundred,Southampton & Martyns Hundred,1,excluded,,,,,Compound of two places.
+lawarr and hudsons riuer,Lawarr and Hudsons Riuer,1,excluded,,,,,Compound of two rivers.
+virginia and sumer iland,Virginia and Sumer Iland,1,excluded,,,,,Compound of two places.
