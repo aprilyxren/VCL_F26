@@ -1,4 +1,39 @@
 review_decision,manual_place_name,review_note,place_id,preferred_name,matched_alias,person_occurrence_id,observed_span,name_string,label,mention_kind,page_id,section_id,source_id,span_start,span_end,sentence_text,place_match_scope,matching_policy
+,,,OW-039,The Downs,Downes,V01-P0260-M01256-01265,m' Downes,Downes,PERSON_REF,title_surname,V01-P0260,V01-PRIMARY,V01-OCR-78,1256,1265,"m' Peire 2 shares The Court vpon like request passed these other ||shares|| following viz‘.
+to m' Barbor. 9 & : e 3
+mt Downes -3: 2: Shares from m* Lott Peire to m‘* Barbo'.
+
+shares to m' lohn 3° shares from m' Downes to m‘ Iohn Smith
+Smith.
+
+",observed_span_or_name_string,ambiguous_contextual
+,,,OW-016,Ireland,Ireland,V01-P0305-M02108-02119,"m'
+
+Ireland",Ireland,PERSON_REF,title_surname,V01-P0305,V01-PRIMARY,V01-OCR-123,2108,2119,"Martin
+
+mn Tho: Iadwint
+mnvcon thought
+Very reasunable
+
+M’ Deputy signified of a letter hee had receaved from m‘ Gookin of 4 tre: from m'
+
+Ireland who desyred y‘ a Clause in the Contract between him and the
+Company touchinge Cattle w hee had vndertaken to transport to
+Virginia after the rate of eleven pounds the Heiffer and Shee Goate
+
+Gookin,
+",observed_span_or_name_string,contextual_alias
+,,,OW-031,Amsterdam,Amsterdam,V01-P0330-M01279-01288,Amsterdam,Amsterdam,PERSON_REF,surname_only,V01-P0330,V01-PRIMARY,V01-OCR-148,1279,1288,"A Compt: madeto M' Deputy signified y* the occasion of ecallinge this Courte was to
+erg At ‘ac, aequainte them that aceordinge to a message receaved from the LL:
+vpatrade at Am- of the Counsell some of the Virginia Company had appeared before
+aaa their Lo”: the 12"" of this present monneth, vnto whome the LL’:
+declared y' itt was complayned vnto that Boord y*‘ this Company had
+sett vpp a trade att Amsterdam and brought thither all their Comodi-
+ties from Virginia, they therfore now required to know the Com-
+panies answere wheither or noe they would bringe all their Comodities
+into this Kingdom or continue their Trade there att Amsterdam.
+
+",observed_span_or_name_string,contextual_alias
 ,,,OW-008,Southampton,Southampton,V02-P0171-M01728-01739,Southampton,Southampton,PERSON_REF,surname_only,V02-P0171,V02-PRIMARY,V02-OCR-170,1728,1739,"[land¢ Court all thinge
 must be againe repeated to the Virginia Court afterward, for w™ the
 day would searce suffice: wherevpon it was ordered that the Sumer
@@ -6,6 +41,29 @@ lands Co should be suspended for a while but to be continued so
 longe after 6, of y® Clocke as occasion should require and the Ea: of
 Southampton was desired to take the Chaire and to begin a Virginia
 Court w™ accordingly his Ip: did.",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V02-P0305-M00493-00502,m’ Downes,Downes,PERSON_REF,title_surname,V02-P0305,V02-PRIMARY,V02-OCR-304,493,502,"m’ Downes.
+",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V02-P0382-M00544-00553,m* Downes,Downes,PERSON_REF,title_surname,V02-P0382,V02-PRIMARY,V02-OCR-381,544,553,"m* Downes.
+",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V02-P0385-M00603-00612,m* Downes,Downes,PERSON_REF,title_surname,V02-P0385,V02-PRIMARY,V02-OCR-384,603,612,m* Downes.,observed_span_or_name_string,ambiguous_contextual
+,,,OW-018,Holland,Holland,V02-P0410-M00885-00904,Captaine of Holland,of Holland,PERSON_REF,title_surname,V02-P0410,V02-PRIMARY,V02-OCR-409,885,904,"As for the Allegaton that divers of the Antient Adventurers and Planters
+conceive them selvs to have been iniured abused & oppressed itt cannott be
+shewne that the lustice w™ was in the power of the Court€ to give, hath been
+denyed to any man much less by pryvate dyrectons and vnderhand tres have
+the goods of some particuler psonns in y* Plantatons been taken vyolently
+from them contrary to course of Lawe & consigned into the possession of
+their Potent adversaries, As hath lately happened in the case of Cap‘ Miles
+Kendall who was spoyled by Cap‘ Butler of 14 Negroes graunted to him by a
+Captaine of Holland havinge Comission from the Prince of Orange vnder a
+bare and false pretence y‘ they belonged toa Ship called the Treasuror sett
+out from Virginia by S*",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V02-P0465-M00106-00115,m’ Downes,Downes,PERSON_REF,title_surname,V02-P0465,V02-PRIMARY,V02-OCR-464,106,115,"m’ Downes.
+",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V02-P0479-M01091-01100,m’ Downes,Downes,PERSON_REF,title_surname,V02-P0479,V02-PRIMARY,V02-OCR-478,1091,1100,"Moorewood.
+
+m’ Downes.
+
+",observed_span_or_name_string,ambiguous_contextual
 ,,,OW-011,England,England,V02-P0516-M00986-01011,"Lord the Kinge
 of England","Lord the Kinge
 of England",PERSON_NAME,explicit_name,V02-P0516,V02-PRIMARY,V02-OCR-515,986,1011,"And in the years of the raigne of our Soveraigne Lord the Kinge
@@ -24,8 +82,14 @@ ordered by the last Court to be drawen vpp was now presented and
 read and beinge approved was ordered to be sealled.
 
 ",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V02-P0588-M00295-00301,Downes,Downes,PERSON_REF,surname_only,V02-P0588,V02-PRIMARY,V02-OCR-587,295,301,"Downes, Edward.
+",observed_span_or_name_string,ambiguous_contextual
+,,,OW-044,Ipswich,Ipswich,V02-P0596-M01376-01383,Ipswich,Ipswich,PERSON_REF,surname_only,V02-P0596,V02-PRIMARY,V02-OCR-595,1376,1383,"Ipswich, town of.
+",observed_span_or_name_string,contextual_alias
 ,,,NW-002,Jamestown,Jamestown,V02-P0597-M00078-00087,Jamestown,Jamestown,PERSON_REF,surname_only,V02-P0597,V02-PRIMARY,V02-OCR-596,78,87,"Jamestown, II, 400.
 ",observed_span_or_name_string,high_confidence_alias
+,,,NW-069,Newfoundland,Newfoundland,V02-P0605-M01508-01520,Newfoundland,Newfoundland,PERSON_REF,surname_only,V02-P0605,V02-PRIMARY,V02-OCR-604,1508,1520,"Newfoundland, I, 257, 575.
+",observed_span_or_name_string,contextual_alias
 ,,,NW-001,Virginia,Virginia,V02-P0609-M01520-01540,governor of Virginia,of Virginia,PERSON_REF,title_surname,V02-P0609,V02-PRIMARY,V02-OCR-608,1520,1540,"To the governor of Virginia, I, 160, 163, 169,
 171,
 To Kine:
@@ -142,6 +206,15 @@ Virginia and who have seu%ally adventured for their seu%all shares here-
 after menéoned and for cu9y of the said shares, either they or those whose
 estates they nowe have or shall have, have payd or are to pay within one
 yeare after the date hereof—xij''",observed_span_or_name_string,ambiguous_contextual
+,,,NW-012,Elizabeth City,Kiecowtan,V03-P0165-M00861-00870,Kiecowtan,Kiecowtan,PERSON_REF,surname_only,V03-P0165,V03-PRIMARY,V03-OCR-191,861,870,"The fifte Petition is to beseeche the Treasurer, Counse'l and Company that,
+towards the erecting of the University and Colledge, they will sende, when
+they shall thinke it most convenient, workmen of al! sortes, fitt for that
+purpose,
+
+The sixte and laste is, they wilbe pleased to change the savage name of
+Kiecowtan, and to give that Incorporation a new name.
+
+",observed_span_or_name_string,high_confidence_alias
 ,,,NW-001,Virginia,Virginia,V03-P0194-M00261-00286,"governor of
 Virginia.
 
@@ -293,6 +366,23 @@ and of Scotland the fiue & fiftith & y° fifteenth yeare of this Plantaéon
 Anno 1621.
 
 CCVIII.",observed_span_or_name_string,ambiguous_contextual
+,,,NW-001,Virginia,Vircinta,V03-P0555-M01297-01305,Vircinta,Vircinta,PERSON_REF,surname_only,V03-P0555,V03-PRIMARY,V03-OCR-581,1297,1305,"The Countrey called Vircinta (so named by the late Virgin-Quceene Hliza-
+beth of blessed memory) being the rightfull inheritance of his Maiesty, as
+being first discouered at the costs and charges of that most prudent Prince
+of famous memory, King Henry the Seauenth, his Maiesties great Grand-
+father; The Patent whereof still extant to be seene, was granted to John
+Cabot and diuers other of his subiects, who went thither with sixe Saile
+of Ships, and discouered as farre as from Cape Florida to New-found-land,
+all along the Coast, and tooke possession thereof to the Kings vse, about
+that time when Ferdinando and Isabella discouered the Westerne Indies:
+(by which title of first discouery the King of Portugal and Spaine hold
+and enioy their ample and rich Kingdomes in their Jndies Kast & West:)
+",observed_span_or_name_string,ambiguous_contextual
+,,,NW-074,Peru,Peru,V03-P0570-M00863-00875,king of Peru,of Peru,PERSON_REF,title_surname,V03-P0570,V03-PRIMARY,V03-OCR-596,863,875,"After the death of Guainacapa king of Peru, his sonnes
+Attabalippa and Gascar falling to war about the kingdom, & each of thé
+striuing to make the Spaniard to his friend, Francis Pizzarro managing
+those their diuisions onely to his owne ends, easily stripped them both of
+that rich Kingdome, and became Master of Peru.",observed_span_or_name_string,contextual_alias
 ,,,OW-001,London,London,V03-P0607-M00531-00551,the George of London,the George of London,PERSON_NAME,explicit_name,V03-P0607,V03-PRIMARY,V03-OCR-633,531,551,"Whereas wee the Treasuro* Counsell and Companie for the better advance-
 
 ment and supporte of that Plantaton haue furnished out one good Shippehane ginen leaue
@@ -306,6 +396,7 @@ Throught the Iniurie y' is often done to y® owneres of boates by such as
 take boates w""out leaue & for y® stealing of Oar€ yt is ordred by me 5°
 Francis Wyatt knight Gou9nor & Capt Generall of Virginia & y°® rest of
 y® Counsell.",observed_span_or_name_string,ambiguous_contextual
+,,,NW-001,Virginia,Vircinta,V03-P0712-M00311-00319,Vircinta,Vircinta,PERSON_REF,surname_only,V03-P0712,V03-PRIMARY,V03-OCR-738,311,319,Governor or Vircinta.,observed_span_or_name_string,ambiguous_contextual
 ,,,NW-001,Virginia,Virginia,V03-P0729-M00163-00194,"Governor of Virginia.
 
 Argall’s","Governor of Virginia.
@@ -345,6 +436,10 @@ De Lawar, Thomas, Lord, Governor of Virginia,
 421, 422, 521.
 
 Accounts, 97.
+",observed_span_or_name_string,ambiguous_contextual
+,,,OW-039,The Downs,Downes,V03-P0743-M02590-02596,Downes,Downes,PERSON_REF,surname_only,V03-P0743,V03-PRIMARY,V03-OCR-769,2590,2596,"Downes, John, 82, 323, 568.
+Downes, Nicholas, 66.
+
 ",observed_span_or_name_string,ambiguous_contextual
 ,,,OW-011,England,England,V03-P0745-M00424-00450,Lord Chancellor of England,Chancellor of England,PERSON_REF,title_surname,V03-P0745,V03-PRIMARY,V03-OCR-771,424,450,"Lord Chancellor of England, 34, 49.
 ",observed_span_or_name_string,ambiguous_contextual
@@ -474,6 +569,113 @@ Document in Library of Congress, Washington, D. C.
 List of Records No. 566
 
 ",observed_span_or_name_string,ambiguous_contextual
+,,,OW-041,Cambridge,Cambridge,V04-P0315-M00539-00551,de Cambridge,de Cambridge,PERSON_NAME,explicit_name,V04-P0315,V04-PRIMARY,V04-OCR-341,539,551,"NOVEMBER 4, 1623, TO MAY 24, 1624 307
+
+Laurencio Campe, draper, Adamo Perkins, grocer, Ricardo Sheepheard,
+preacher, Willelmo Shekeley, haberdasher, Willelmo Tayler, haberdasher,
+Edwardo Lukyn, generoso, Johanni ffrancklyn, haberdasher, Johanni
+Southicke, Petro Peate, Georgio Isham, Ironmonger, Georgio Yardley,
+generoso, Henrico Shelley, Johanni Pratt, Thome Church, draper, Willelmo
+Powell, generoso, Ricardo ffrith, generoso, Thome Wheeler, draper,
+ffrancisco Hasellrigg, generoso, Hugoni Shipley, generoso, Johanni An-
+drews, seniori de Cambridge, ffrancisco Whister, generoso, Johanni Vassell,
+generoso, Ricardo Howle, Edwardo Barkley, generoso, Ricardo Knaris-
+brough, generoso, Nicholao Exton, draper, Willelmo Bennett, ffyshmonger,
+Jacobo Haywood, mercatori, Nicholao Isacke, mercatori, Willelmo Gibbs,
+mercatori, 1 Bushop, Barnard Michell, Isack Mighell, Johanni Streate,
+Edwardo Gale, Johanni Martine, generoso, Thome ffox, Luke Lodge,
+Johanni Woodlife, generoso, Riceo Webb, Vincent Lowe, Samueli Burnand,
+Edmundo Pears, haberdasher, Josue Gouge, Johanni St. John, Edwardo
+Vaughan, Willelmo Dun, Thome Alcocke, Johanni Andrewes, juniori de
+Cambridge, Samueli Smyth, Samueli Smyth [szc], Thome Gerrard, Thome
+Whittingham, Willehno Canninge, Paulo Cannyng, Georgio Chandler,
+Henrico Vincent, Thome Keitley, Jacobo Skelton, Jacobo Mawtam, Georgio
+Webb, generoso, Josepho Newrough Smyth, Josie Maude, Radulfo Hamor,
+juniori, Edwardo Brewster filio Willelmi Brewster, Leonardo Harwood,
+mereer, Philippo Dreverdent, Willelmo Carpenter, Roberto Cookes, grocer,
+Laurencio Greene, grocer, Danieli Wynch, grocer, Humfrido Stike, grocer,
+Avery Dransfeild grocer, Johanni Hodges, grocer, Edwardo Beale, grocer,
+Thome Cutler, grocer, Radulfo Bisby, grocer, Johanni Whittingham,
+grocer, Johanni Hide, grocer, Matheo Shepheard, grocer, Thome Allen,
+grocer, Ricardo Hocker, grocer, Laurencio Mouncks, grocer, Johanni Tan-
+ner, grocer, Petro Gate, grocer, Johanni Blunt, grocer, Roberto Phillips,
+grocer, Roberto Berrisford, grocer, Thome Wells, generoso, Johanni Ellis,
+grocer, Henrico Colthurst, grocer, Johanni Crannedge, grocer, Thome
+Jenings, grocer, Edmundo Peshall, grocer, Timotheo Bathurst, grocer,
+Egidio Parslowe, grocer, Roberto Mildmay, grocer, Roberto Johnson,
+grocer, Willelmo Jansen, vintner, Ezechieli Smyth, Ricardo Murreton,
+Willelmo Sharpe, Roberto Ritch, Willelmo Stannard, inholder, Johanni
+Stockin, Willelmo Strachy, generoso, Georgio ffarmer, generoso, Thome
+
+1 Blank in MS.
+",observed_span_or_name_string,contextual_alias
+,,,OW-041,Cambridge,Cambridge,V04-P0315-M01141-01161,"juniori de
+Cambridge","juniori de
+Cambridge",PERSON_NAME,explicit_name,V04-P0315,V04-PRIMARY,V04-OCR-341,1141,1161,"NOVEMBER 4, 1623, TO MAY 24, 1624 307
+
+Laurencio Campe, draper, Adamo Perkins, grocer, Ricardo Sheepheard,
+preacher, Willelmo Shekeley, haberdasher, Willelmo Tayler, haberdasher,
+Edwardo Lukyn, generoso, Johanni ffrancklyn, haberdasher, Johanni
+Southicke, Petro Peate, Georgio Isham, Ironmonger, Georgio Yardley,
+generoso, Henrico Shelley, Johanni Pratt, Thome Church, draper, Willelmo
+Powell, generoso, Ricardo ffrith, generoso, Thome Wheeler, draper,
+ffrancisco Hasellrigg, generoso, Hugoni Shipley, generoso, Johanni An-
+drews, seniori de Cambridge, ffrancisco Whister, generoso, Johanni Vassell,
+generoso, Ricardo Howle, Edwardo Barkley, generoso, Ricardo Knaris-
+brough, generoso, Nicholao Exton, draper, Willelmo Bennett, ffyshmonger,
+Jacobo Haywood, mercatori, Nicholao Isacke, mercatori, Willelmo Gibbs,
+mercatori, 1 Bushop, Barnard Michell, Isack Mighell, Johanni Streate,
+Edwardo Gale, Johanni Martine, generoso, Thome ffox, Luke Lodge,
+Johanni Woodlife, generoso, Riceo Webb, Vincent Lowe, Samueli Burnand,
+Edmundo Pears, haberdasher, Josue Gouge, Johanni St. John, Edwardo
+Vaughan, Willelmo Dun, Thome Alcocke, Johanni Andrewes, juniori de
+Cambridge, Samueli Smyth, Samueli Smyth [szc], Thome Gerrard, Thome
+Whittingham, Willehno Canninge, Paulo Cannyng, Georgio Chandler,
+Henrico Vincent, Thome Keitley, Jacobo Skelton, Jacobo Mawtam, Georgio
+Webb, generoso, Josepho Newrough Smyth, Josie Maude, Radulfo Hamor,
+juniori, Edwardo Brewster filio Willelmi Brewster, Leonardo Harwood,
+mereer, Philippo Dreverdent, Willelmo Carpenter, Roberto Cookes, grocer,
+Laurencio Greene, grocer, Danieli Wynch, grocer, Humfrido Stike, grocer,
+Avery Dransfeild grocer, Johanni Hodges, grocer, Edwardo Beale, grocer,
+Thome Cutler, grocer, Radulfo Bisby, grocer, Johanni Whittingham,
+grocer, Johanni Hide, grocer, Matheo Shepheard, grocer, Thome Allen,
+grocer, Ricardo Hocker, grocer, Laurencio Mouncks, grocer, Johanni Tan-
+ner, grocer, Petro Gate, grocer, Johanni Blunt, grocer, Roberto Phillips,
+grocer, Roberto Berrisford, grocer, Thome Wells, generoso, Johanni Ellis,
+grocer, Henrico Colthurst, grocer, Johanni Crannedge, grocer, Thome
+Jenings, grocer, Edmundo Peshall, grocer, Timotheo Bathurst, grocer,
+Egidio Parslowe, grocer, Roberto Mildmay, grocer, Roberto Johnson,
+grocer, Willelmo Jansen, vintner, Ezechieli Smyth, Ricardo Murreton,
+Willelmo Sharpe, Roberto Ritch, Willelmo Stannard, inholder, Johanni
+Stockin, Willelmo Strachy, generoso, Georgio ffarmer, generoso, Thome
+
+1 Blank in MS.
+",observed_span_or_name_string,contextual_alias
+,,,OW-005,Bristol,Bristoll,V04-P0316-M01186-01208,Aldermanno de Bristoll,Aldermanno de Bristoll,PERSON_NAME,explicit_name,V04-P0316,V04-PRIMARY,V04-OCR-342,1186,1208,"Thome Norineott, clothworker, Ricardo Venn, haberdiasher,
+Thome Scott, generose, Thome Jackson, merchant tayler, Georgio Hankyn-
+son, Thome Leyre, generoso, Matheo Cooper, Georgio Butler, generoso,
+Thome Lawson, generoso, Edwardo Smyth, haberdasher, Stephano Spar-
+rowe, Johann Jones, merchant, Reynold Brewer, Thome Plomer, merehant,
+Jacobo Duppa, brewer, Rowland Coytmore, Willelmo southerne, Georgio
+Wlitmore, haberdasher, Anthonio Gosnold, juniori, Johanni Allen, ffish-
+mouger, Simoni Yeomans, flishmonger, Launceloto Davis, gencreso,
+Johanni Topkins, Aldermanno de Bristoll, Jahanni Keatleby, gencroso,
+Rieardo Cheny, goldsmith, Georgio Hooker, gencroso, et Roberto Shen-
+inge, yeoman et allis in eixdem litteris patentibus nominatis et talibus et
+tot, quales et quot ipsi tune imposterum admittent coniungi eis sub mode
+in cisdem litterix potentibus expresso utrum illf migrarent in) personis
+sus esxe plantateres ibidem in plantaecione predieta vel non migrarent sed
+periclitarentur pecunias, bona vel catall sua quod ipsi essent unum corpus
+vel commmunitas perpetua et haberent perpetuam suecessionem et unum
+connnune sigillum deseryiendam eident corporl vel communitatt et quod
+Ipsi et sneessores sul cognoxcercniur, voearentur et incorporatt easent per
+nomen thesuurani et socictatis periclitaturum et plantatorum civitatis
+Londonie pro prima colonia in Virginia et quod ipsi ct suecesxores sui extune
+in perpetutim essent habiles eapere, aequirere et perquirere, Anglice,
+purchase, per predictumm nomen (ieeneia adinde ab eodem: domino Rege,
+heredibus et suceessoribus suis prius habita et obtenta) qualiacunque
+ferras, tenementa ef hereditaimenta, bona et catalla infra regnum ipsius
+domint Regis Auglic ot dominium",observed_span_or_name_string,high_confidence_alias
 ,,,NW-001,Virginia,Virginia,V04-P0319-M01403-01429,predietam oram de Virginia,predietam oram de Virginia,PERSON_NAME,explicit_name,V04-P0319,V04-PRIMARY,V04-OCR-345,1403,1429,"Et quod ipsi potuis-
 sent incipere eorum primam plantacionem et locum prime commoracionis et
 inhabitacionis suarum in aliquo loco super predietam oram de Virginia vel
@@ -802,6 +1004,44 @@ and Company, their successors and assigns, to hold of our same lord the King, hi
 heirs and successors, as of his manor of Eastgreenewich, in free and common socage
 and not in chief, returning and paying for the same to our aforesaid Jord the King,
 his heirs and successors, only a filth part of all the ore.",observed_span_or_name_string,ambiguous_contextual
+,,,NW-001,Virginia,Virsinia,V04-P0382-M01044-01073,lord the King culled Virsinia,the King culled Virsinia,PERSON_REF,title_surname,V04-P0382,V04-PRIMARY,V04-OCR-408,1044,1073,"[ef a/.] say that our lord James who now is King of England was seised of those
+muny lands, countries, and territories of our said lord the King culled Virsinia specitied,
+in the information aforesaid, in his demesne as of fee, and our lord the King himself
+being thus seised of them, our same lord the Ning, hefore the aforesaid Une speeified
+in the aforesaid information, to wit, on the aforesaid twenty-third day of Mav in the
+aforesaid seventh year of the reign of our said lord the King who now is of England,
+etc., by his aforesaid letters patent bearing date at Westminster on the aforesaid
+twenty-third day of May in the aforesaid seventh vear of his reign, of his special grace,
+certain knowledge and mere motion, gave, granted, and confirmed to the aforesaid
+Treasurer and Company and their successors, under the reservations, limitations, and
+declarations in the same letters patent hereafter specified, all those lands, countries,
+and territories situated, lying, and being in that part of America called Virsinia from
+the point of land called Cape or Point Comforte along the sea coast towards the north
+for two hundred miles and from the same point of Innd called Cape Comforte along
+the sea coast towards the south for two hundred miles, and al! that space and cireum-
+ference of land lying from the coast of the aforesaid boundary further inland through-
+out, from sea to sea towards the west and northwest, and also all the islands lyvi
+within a hundred miles along the sea coast of each sea from the boundary afore:
+together with all that soil, land, harbors, mines, both royal mines of gold and silver
+and other minerals, gems and precious stones, quarries, woods, rivers, waters, fish-
+eries, commodities, jurisdictions, regalities, privileges, franchises, and pre-eminences
+within the same territories and precincts of the same, and either in any way belonging
+or pertaining to the same or being about them either by sea or by land, which our
+same lord the King by his letters patent could grant and in as ample a manner and
+form as our same lord the King by his letters patent could grant and in as ample a
+manner and form as our same lord the King or any of his progenitors previously had
+granted to any Society, body politic or corporate, or to any adventurer or any adven-
+turers taking upon himself or themselves any discoveries, plantations, or commerce
+of, into or [sie, for ‘or into”’] any lands remote or foreien whatsoever, mn as large and
+ample a manner as if the same had been particularly mentioned and expressed, to
+have and to hold, to possess and enjoy all and singular the aforesaid lands, countries,
+and territories with all and singular other premises above by the same letters patent
+granted or mentioned to be granted, to the same aforesaid Treasurer and Company,
+their successors and assigns for ever, for the sole and proper use of the same Treasurer
+and Company, their successors and assigns, to hold of our same lord the King, his
+heirs and successors, as of his manor of Eastgreenewich, in free and common socage
+and not in chief, returning and paying for the same to our aforesaid Jord the King,
+his heirs and successors, only a filth part of all the ore.",observed_span_or_name_string,ambiguous_contextual
 ,,,NW-001,Virginia,Virginia,V04-P0386-M00383-00412,lord the King called Virginia,the King called Virginia,PERSON_REF,title_surname,V04-P0386,V04-PRIMARY,V04-OCR-412,383,412,"pee
 
 o
@@ -828,6 +1068,25 @@ granted, as mentioned, by the aforesaid several letters patent, the same Nichola
 ffarrer [et a?.] entirely disclaim and disavow.
 
 ",observed_span_or_name_string,ambiguous_contextual
+,,,OW-011,England,Eneland,V04-P0389-M01316-01340,lord the King of Eneland,the King of Eneland,PERSON_REF,title_surname,V04-P0389,V04-PRIMARY,V04-OCR-415,1316,1340,"NOVEMBER 4, 1623, TO MAY 24, 1624 381
+
+plantation, as, the manner of governing from time to time to be used, the order and
+disposition and possession and setfling and establishment of commerce there or of
+such like, there should be held and had every year on the last Wednesday of the terms
+of Saint Hilary, Easter, Holy Trinity, and Saint Michael for ever a greal veneral
+and solemn assembly, which four several assemblies shall be styled and called the
+our great and general courts of the council and Company of Adventures for Virginia,
+in all and singular of which aforesaid great general courts thus assembled the mind
+and will of our lord the King himself were, and our same lord the King for himeelf,
+his heirs and Jhis successors for ever, gave und granted to the aforesaid Treasurer aud
+Company and their suecessors for ever by the same letters patent that the ‘Treasurer
+and Company themselves or the majority of them so assembled should have full
+ower and authority from time to time and for all times then for ever to ordain and
+make such laws and ordinances for the good and welfare of the aforesaid plantation
+as from time to time should be considered by them to be necessary and suitable,
+provided that these laws and ordinances should not be contrary to the laws and
+statutes of the realm of our said lord the King of Eneland, as by the aforesaid letters
+patent among other things is fully made clear and apparent.",observed_span_or_name_string,ambiguous_contextual
 ,,,NW-001,Virginia,Virginia,V04-P0390-M03293-03322,lord the King called Virginia,the King called Virginia,PERSON_REF,title_surname,V04-P0390,V04-PRIMARY,V04-OCR-416,3293,3322,"And as to the following liberties, privileges, and franchises, namely, that the same
 Nicholas ffarrer [eé ad,] at their own proper pleasure export and transport outside this
 realm of England into the parts across the sea aforesaid whatsoever persons it shall
@@ -1074,6 +1333,12 @@ aforesaid Thomas Coventrye, who sues, ete., and the aforesaid Nicholas flarrer [
 by their attorney aforesaid.
 
 ",observed_span_or_name_string,contextual_alias
+,,,NW-069,Newfoundland,Newfoundland,V04-P0463-M01491-01503,Newfoundland,Newfoundland,PERSON_REF,surname_only,V04-P0463,V04-PRIMARY,V04-OCR-489,1491,1503,"The Humble Petition of Wm Ganey
+
+[21] Most humblie sheweth, y* whereas for the space of these tow yeres I
+haue been Employed by Cap' Thomas Nuce late deceased, as well for
+Newfoundland as fer other trading voyages, himselfe alloweing yo"" pe-
+",observed_span_or_name_string,contextual_alias
 ,,,OW-008,Southampton,Southampton,V04-P0479-M00450-00461,Southampton,Southampton,PERSON_REF,surname_only,V04-P0479,V04-PRIMARY,V04-OCR-505,450,461,"Whereas after yo"" peticioner bad this morning aboard his shipp the
 Southampton published his Comission for the admyrallty of New England,
 that part of the shipps Company that adheareth te Guyver & White, did
@@ -1114,6 +1379,12 @@ them lived in [miserable and lamentable necessitye and Wante but the
 ecountrie (for any thing appered to the saide Coffilssioners to the contrary)
 they conceived to be fruitfull and healthfull after our people had heene some
 tyme there and that yf industrie Were vsed yt",observed_span_or_name_string,ambiguous_contextual
+,,,OW-016,Ireland,Ireland,V04-P0513-M00478-00485,Ireland,Ireland,PERSON_REF,surname_only,V04-P0513,V04-PRIMARY,V04-OCR-539,478,485,"No. 2
+Document in Publie Record Office, London
+List of Records No, 720
+
+James by the grace of God King of England Scotland ffrance and Ireland Dr Com? sia?
+",observed_span_or_name_string,contextual_alias
 ,,,NW-003,James City,James Citty,V04-P0567-M00838-00855,"James Citty
 
 Jobn","James Citty

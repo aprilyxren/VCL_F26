@@ -573,7 +573,6 @@
     "East India"
   ],
   "Cambay": [
-    "Cambay",
     "Cambaya"
   ],
   "China": [
@@ -583,7 +582,6 @@
     "Persia"
   ],
   "Azores": [
-    "Azores",
     "Island of Assorees",
     "Island of the Asseraes"
   ],
@@ -620,14 +618,12 @@
     "Poland"
   ],
   "Denmark": [
-    "Denmark",
     "Denmarke"
   ],
   "Norway": [
     "Norway"
   ],
   "Sweden": [
-    "Sweden",
     "Sweadland"
   ],
   "Russia": [
@@ -659,7 +655,6 @@
     "Hambrough"
   ],
   "Flushing": [
-    "Flushing",
     "Flushinge"
   ],
   "Bay of Biscay": [
@@ -688,11 +683,9 @@
     "Cambridge"
   ],
   "Chichester": [
-    "Chichester",
     "City of Chichester"
   ],
   "Salisbury": [
-    "Salisbury",
     "City of Salisbury"
   ],
   "Ipswich": [
@@ -711,7 +704,6 @@
     "East Greenwich"
   ],
   "Whitehall": [
-    "Whitehall",
     "White hall",
     "White Hall 14°"
   ],
@@ -722,74 +714,59 @@
     "Knole Park"
   ],
   "Gloucestershire": [
-    "Gloucestershire",
     "County of Glou",
     "County of Glocester"
   ],
   "Buckinghamshire": [
-    "Buckinghamshire",
     "County of Buck",
     "County of Bucke",
     "County of Buckingham"
   ],
   "Kent": [
-    "Kent",
     "Countie of Kent",
     "County of Kent"
   ],
   "Middlesex": [
-    "Middlesex",
     "Countie of Midde",
     "Countie of Middlesex",
     "County of Midd",
     "County of Middlesex"
   ],
   "Norfolk": [
-    "Norfolk",
     "Countie of Norfolke",
     "County of Norff"
   ],
   "Suffolk": [
-    "Suffolk",
     "Countie of Suffolke",
     "County of Suff"
   ],
   "Hampshire": [
-    "Hampshire",
     "Countie of Southton"
   ],
   "Anglesey": [
-    "Anglesey",
     "County of Anglesy",
     "County of Anglice"
   ],
   "Brecknockshire": [
-    "Brecknockshire",
     "County of Breck"
   ],
   "Devon": [
-    "Devon",
     "County of Devon"
   ],
   "Dorset": [
-    "Dorset",
     "County of Dorsett"
   ],
   "Nottinghamshire": [
-    "Nottinghamshire",
     "County of Nottingham"
   ],
   "Sussex": [
-    "Sussex",
     "County of Sussex"
   ],
   "Somerset": [
-    "Somerset",
     "Somersett sheire",
     "Somiersett sheire"
   ],
   "Worcestershire": [
-    "Worcestershire",
     "Wocter shire"
   ]
 }

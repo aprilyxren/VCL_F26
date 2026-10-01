@@ -75,3 +75,9 @@ def test_longest_alias_wins_across_line_break():
 def test_person_queue_skips_titled_span():
     assert untitled_alias_match("Southampton", SOUTHAMPTON, "Lord of Southampton", "of Southampton") is None
     assert untitled_alias_match("Southampton", SOUTHAMPTON, "Southampton howse", "Southampton howse")
+
+
+def test_underscore_leaders_do_not_block_matches():
+    chichester = Place("OW-X", "Chichester", "city", "Old World", ("City of Chichester",), "high_confidence_alias")
+    matches = page_matches("Company of Clothworkers.. City of Chichester______--__- Robert", [chichester])
+    assert [place.place_id for _, _, place, _ in matches] == ["OW-X"]

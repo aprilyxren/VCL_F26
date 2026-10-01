@@ -51,6 +51,10 @@ yeilded to itt:"
 ,,,V01-P0113-T02092-02109,my Lord of London,my Lord of,lord,OW-001,London,London,PERSON_REF,territorial_title,"John King, Bishop of London",suggested,london_bishop_v1,"John King was Bishop of London 1611-March 1621, the span of Volume I.",V01-P0113,V01-PRIMARY,V01-OCR-547,1,2092,2109,"Hee allso acquainted my Lord of London of the Companies intent for
 the sendinge ouer Mynisters, and their request vuto his Lo"": for his
 good furtherance and assistance therin together w"" what mainte-"
+,,,V01-P0113-T02458-02475,My Lord of Londen,My Lord of,lord,OW-001,London,Londen,PERSON_REF,territorial_title,"John King, Bishop of London",suggested,london_bishop_v1,"John King was Bishop of London 1611-March 1621, the span of Volume I.",V01-P0113,V01-PRIMARY,V01-OCR-547,1,2458,2475,"My Lord of Londen
+made acquainted
+of vw Comp*: intent
+tosend Mynisters."
 ,,,V01-P0119-T00103-00122,Lord of Southampton,Lord of,lord,OW-008,Southampton,Southampton,PERSON_REF,territorial_title,Henry Wriothesley,suggested,southampton_peerage,"Henry Wriothesley, 3rd Earl of Southampton; Company treasurer 1620-1624.",V01-P0119,V01-PRIMARY,V01-OCR-553,1,103,122,y® Right Hono™: The Lord of Southampton.
 ,,,V01-P0131-T00212-00228,Maior of Plymoth,Maior of,mayor,OW-007,Plymouth,Plymoth,PERSON_REF,role_reference,,unresolved,,,V01-P0131,V01-PRIMARY,V01-OCR-565,1,212,228,"more slavery then if they were vnder the Turke, therfore for the curb -
 inge of his turbulent spirite, itt was agreed that a Tre in the naime + _ ~~ on a
@@ -1859,6 +1863,11 @@ solued and concluded to imploy all good meanes in this present yeare,
 ,,,V03-P0331-T00736-00751,Earle of Exeter,Earle of,earl,OW-006,Exeter,Exeter,PERSON_REF,territorial_title,"Thomas Cecil, Earl of Exeter",suggested,exeter_peerage,"Thomas Cecil, 1st Earl of Exeter (earl 1605-1623); named in the 1609 charter.",V03-P0331,V03-PRIMARY,V03-OCR-357,3,736,751,"Thomas, Earle of Exeter
 Sir Thomas Euerfield____."
 ,,,V03-P0341-T00025-00045,Earle of Southampton,Earle of,earl,OW-008,Southampton,Southampton,PERSON_REF,territorial_title,Henry Wriothesley,suggested,southampton_peerage,"Henry Wriothesley, 3rd Earl of Southampton; Company treasurer 1620-1624.",V03-P0341,V03-PRIMARY,V03-OCR-367,3,25,45,"Henry, Earle of Southampton."
+,,,V03-P0406-T02051-02068,"mayor of
+Bristoll",mayor of,mayor,OW-005,Bristol,Bristoll,PERSON_REF,role_reference,,unresolved,,,V03-P0406,V03-PRIMARY,V03-OCR-432,3,2051,2068,"Your care also must be to peure a certificat from the gou9nor and secre-
+tary of the arryvall of the fifty psons (or more) w*"" we nowe ship for
+plantaéon, and are pticularly menéoned in the certifieat of the mayor of
+Bristoll, wherof Mt Tracy hath a copy;"
 ,,,V03-P0432-T00211-00230,EarL oF SOUTHAMPTON,EarL oF,earl,OW-008,Southampton,Southampton,PERSON_REF,territorial_title,Henry Wriothesley,suggested,southampton_peerage,"Henry Wriothesley, 3rd Earl of Southampton; Company treasurer 1620-1624.",V03-P0432,V03-PRIMARY,V03-OCR-458,3,211,230,"Sim Grorck YEARDLEY AND THE CouNncIL In Virainia, A
 Lerrer To THE EarL oF SOUTHAMPTON AND THE COUNCIL AND
 ComPANY FOR VIRGINIA"

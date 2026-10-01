@@ -122,7 +122,9 @@ def alias_pattern(alias: str) -> re.Pattern[str]:
     # aliases ending in a letter.  These guards avoid matching inside words.
     # Multi-word aliases may be split across OCR line breaks.
     body = r"\s+".join(re.escape(part) for part in alias.split())
-    return re.compile(rf"(?<![\w]){body}(?![\w])", re.IGNORECASE)
+    # ``[^\W_]`` is a letter or digit: underscore leaders (``Chichester____``)
+    # in the printed lists must not block a match.
+    return re.compile(rf"(?<![^\W_]){body}(?![^\W_])", re.IGNORECASE)
 
 
 def sentence_context(text: str, start: int, end: int) -> str:
