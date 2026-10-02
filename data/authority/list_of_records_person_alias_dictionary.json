@@ -3095,12 +3095,40 @@
         "Isaac Madison",
         "Isack Maddison",
         "Capt Isack Maddison",
-        "Captaine Isack Maddison"
+        "Captaine Isack Maddison",
+        "Captaine Maddison",
+        "Captain Maddison",
+        "Captaine Madison",
+        "Captain Madison",
+        "Capt Madison",
+        "Capt Maddison",
+        "Capt. Madison",
+        "Capt. Maddison",
+        "Cap' Maddison",
+        "Cap’ Maddison",
+        "Cap*: Maddison",
+        "Cap: Maddison",
+        "Cap. Maddison"
       ],
       "source": "curated",
-      "basis": "Captain Isaac Madison.",
+      "basis": "Captain Isaac Madison; commanded expeditions to the Potomac (e.g. 'Cap: Maddison sent vnto him with 30 English', 1622).",
       "name_groups": [
         "Isack Maddison"
+      ],
+      "extra_aliases": [
+        "Captaine Maddison",
+        "Captain Maddison",
+        "Captaine Madison",
+        "Captain Madison",
+        "Capt Madison",
+        "Capt Maddison",
+        "Capt. Madison",
+        "Capt. Maddison",
+        "Cap' Maddison",
+        "Cap’ Maddison",
+        "Cap*: Maddison",
+        "Cap: Maddison",
+        "Cap. Maddison"
       ]
     },
     "John Carter": {
@@ -4406,5 +4434,34 @@
     "D' Anthony": "Ambiguous.",
     "Sancte Trinitatis": "Latin phrase.",
     "Mat Carew": "Ambiguous fragment."
-  }
+  },
+  "contextual_aliases": [
+    {
+      "forms": [
+        "Capt Smith",
+        "Capt. Smith",
+        "Capt: Smith",
+        "Cap' Smith",
+        "Cap’ Smith",
+        "Cap: Smith",
+        "Cap. Smith",
+        "Capten Smith",
+        "Captain Smith",
+        "Captaine Smith",
+        "Captayne Smith",
+        "Capt Smyth",
+        "Capt. Smyth",
+        "Cap' Smyth",
+        "Captain Smyth",
+        "Captaine Smyth"
+      ],
+      "by_volume": {
+        "1": "John Smith",
+        "2": "John Smith",
+        "3": "Roger Smith",
+        "4": "Roger Smith"
+      },
+      "basis": "Captain John Smith left Virginia in 1609; the London Court Book (Vols I-II) mentions of 'Capt Smith' are taken as him. Captain Roger Smith commanded in Virginia in the 1620s, and the Virginia letters in Vols III-IV use 'Capt Smith' for him (e.g. the 1622 commission for removing the people from Henrico; Warrascoyack, 1623)."
+    }
+  ]
 }

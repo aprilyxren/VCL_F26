@@ -32,7 +32,9 @@ EDITORIAL_LINE_RE = re.compile(
     r"(?im)^[^\n]*(?:Document\s+in\s+(?:the\s+)?(?:Library|Public|British|Virginia|Ferrar|Manchester)"
     r"|Manuscript\s+Records\s+Virginia\s+Company|List\s+of\s+Records,?\s+No"
     r"|Washington,?\s+D\.?\s*C|Autograph\s+(?:Letter|Signatures?)|Colonial\s+Office|Ferrar\s+Papers"
-    r"|Manchester\s+Papers|Magdalene\s+College)[^\n]*$"
+    r"|Manchester\s+Papers|Magdalene\s+College|Manu\w{3,8}\s+Records|Public\s+Record\s+Office"
+    r"|British\s+Museum|Privy\s+Council\s+Register|Patent\s+Roll|Bodleian|Lambeth"
+    r"|RECORDS\s+OF\s+T[HI]E\s+VIRGINIA\s+COMPANY)[^\n]*$"
 )
 RECORDS_HEAD_RE = re.compile(r"(?i)RECORDS\s+OF\s+T[HI]E\s+VIRGINIA")
 

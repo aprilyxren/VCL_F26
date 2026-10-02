@@ -1,0 +1,615 @@
+{
+  "description": "Indigenous peoples, individuals, titles, and collective terms in the Virginia Company records (c. 1606-1626). 'seeds' are known spellings; the finder also accepts close OCR/early-modern variants for review. 'homonym' marks names shared with a river, an English settlement or shire, or a person, so a bare singular form is ambiguous; plural forms, 'King/weroance of X', and 'X Indians' read as the people. 'plural_only' groups are read as the people only in plural form (singular is the English settlement/shire/bay). 'exact_only' names are short or English-looking, so no fuzzy matching.",
+  "groups": {
+    "IG-001": {
+      "name": "Powhatan",
+      "type": "paramount chiefdom",
+      "homonym": "person (Wahunsenacawh, the paramount chief) and town",
+      "seeds": [
+        "Powhatan",
+        "Powhatans",
+        "Powhatanes",
+        "Pohatan",
+        "Pouhatan",
+        "Powhaton",
+        "Powhatan's"
+      ],
+      "basis": "The paramount chiefdom of Tidewater Virginia (Tsenacomoco); also the title of its chief."
+    },
+    "IG-002": {
+      "name": "Tanx Powhatan",
+      "type": "town/district",
+      "seeds": [
+        "Tanx Powhatan",
+        "Tanx Powhatans",
+        "Tanxpowhatan"
+      ],
+      "basis": "'Little Powhatan', the town near the falls of the James, attacked in the 1622-23 reprisals."
+    },
+    "IG-003": {
+      "name": "Pamunkey",
+      "type": "chiefdom",
+      "homonym": "river (Pamunkey River)",
+      "seeds": [
+        "Pamunkey",
+        "Pamunkeys",
+        "Pamaunkey",
+        "Pamounkey",
+        "Pamaunke",
+        "Pomonkey",
+        "Pamunkies"
+      ],
+      "basis": "Core Powhatan chiefdom on the Pamunkey River; Opechancanough's people."
+    },
+    "IG-004": {
+      "name": "Chickahominy",
+      "type": "tribe",
+      "homonym": "river (Chickahominy River)",
+      "seeds": [
+        "Chickahominy",
+        "Chickahominies",
+        "Chicahominy",
+        "Chickahomini",
+        "Chikahomynies",
+        "Chickahominie",
+        "Chocohominy"
+      ],
+      "basis": "Autonomous people allied with the English by the 1614 treaty; on the Chickahominy River."
+    },
+    "IG-005": {
+      "name": "Weyanoke",
+      "type": "tribe",
+      "homonym": "land (Weyanoke, granted to Yeardley)",
+      "seeds": [
+        "Weyanoke",
+        "Weyanock",
+        "Weynock",
+        "Weynoack",
+        "Wyanoke",
+        "Wyanokes",
+        "Weyenock",
+        "Winocke",
+        "Wynoke"
+      ],
+      "basis": "Powhatan people on the south side of the upper James; their lands were granted to Sir George Yeardley."
+    },
+    "IG-006": {
+      "name": "Paspahegh",
+      "type": "tribe",
+      "homonym": "territory (Paspahegh, around Jamestown)",
+      "seeds": [
+        "Paspahegh",
+        "Paspaheigh",
+        "Paspahey",
+        "Paspahay",
+        "Paspaheys",
+        "Paspeheies",
+        "Paspehayes",
+        "Paspaheighe"
+      ],
+      "basis": "Powhatan people on whose land Jamestown stood; destroyed in 1610 but the name persisted for the territory."
+    },
+    "IG-007": {
+      "name": "Kecoughtan",
+      "type": "tribe",
+      "homonym": "English settlement (renamed Elizabeth City in 1619)",
+      "seeds": [
+        "Kecoughtans",
+        "Kicoughtans"
+      ],
+      "basis": "Native town seized in 1610; singular 'Kecoughtan/Kiccowtan' in these records is the English settlement, so only plural forms are read as the people.",
+      "plural_only": true
+    },
+    "IG-008": {
+      "name": "Appamattuck",
+      "type": "tribe",
+      "homonym": "river (Appomattox River)",
+      "seeds": [
+        "Appamattuck",
+        "Appamattucks",
+        "Apomattucke",
+        "Apomatuckes",
+        "Apomatacks",
+        "Apamatucke"
+      ],
+      "basis": "Powhatan people at the mouth of the Appomattox."
+    },
+    "IG-009": {
+      "name": "Arrohateck",
+      "type": "tribe",
+      "seeds": [
+        "Arrohateck",
+        "Arrohattoc",
+        "Arrahattock",
+        "Arrohatecks"
+      ],
+      "basis": "Powhatan people on the James below the falls."
+    },
+    "IG-010": {
+      "name": "Quiyoughcohannock",
+      "type": "tribe",
+      "seeds": [
+        "Quiyoughcohannock",
+        "Quiyoughcohanock",
+        "Quiyoughcohannocks"
+      ],
+      "basis": "Powhatan people on the south side of the James opposite Jamestown."
+    },
+    "IG-011": {
+      "name": "Warraskoyack",
+      "type": "tribe",
+      "homonym": "English shire/plantation (Warrosquyoake)",
+      "seeds": [
+        "Warraskoyacks",
+        "Warrascoyacks",
+        "Warraskoyaks"
+      ],
+      "basis": "Powhatan people of the lower James; singular forms in these records mostly name the English shire, so only plural forms are read as the people.",
+      "plural_only": true
+    },
+    "IG-012": {
+      "name": "Nansemond",
+      "type": "tribe",
+      "homonym": "river (Nansemond River)",
+      "seeds": [
+        "Nansemond",
+        "Nansemonds",
+        "Nansamund",
+        "Nansemomes",
+        "Nansamunds"
+      ],
+      "basis": "People on the Nansemond River, south of Hampton Roads."
+    },
+    "IG-013": {
+      "name": "Chesapeake",
+      "type": "tribe",
+      "homonym": "bay (Chesapeake Bay)",
+      "seeds": [
+        "Chesapeakes",
+        "Chesepians",
+        "Chesapeacks",
+        "Chesepiacks"
+      ],
+      "basis": "People at the mouth of the Bay; only plural/people forms are read as the people.",
+      "plural_only": true
+    },
+    "IG-014": {
+      "name": "Accomac",
+      "type": "tribe",
+      "homonym": "English shire (Accomack)",
+      "seeds": [
+        "Accomacks",
+        "Accawmackes",
+        "Accomacke Indians"
+      ],
+      "basis": "Eastern Shore people under the 'Laughing King'; singular forms are usually the English shire.",
+      "plural_only": true
+    },
+    "IG-015": {
+      "name": "Rappahannock",
+      "type": "tribe",
+      "homonym": "river (Rappahannock River)",
+      "seeds": [
+        "Rappahannock",
+        "Rappahannocks",
+        "Rapahanock",
+        "Rapahanocke",
+        "Rapahanocks"
+      ],
+      "basis": "People on the Rappahannock River."
+    },
+    "IG-016": {
+      "name": "Patawomeck",
+      "type": "tribe",
+      "homonym": "river (Potomac River)",
+      "seeds": [
+        "Patawomeck",
+        "Patawomecks",
+        "Patowomeck",
+        "Patawamack",
+        "Patowamack",
+        "Patowamach",
+        "Potomack",
+        "Pottawomeck"
+      ],
+      "basis": "People on the Potomac; Japazaws's people, where Pocahontas was taken in 1613; trading partners in the 1620s."
+    },
+    "IG-017": {
+      "name": "Mattaponi",
+      "type": "tribe",
+      "homonym": "river (Mattaponi River)",
+      "seeds": [
+        "Mattapanient",
+        "Mattaponi",
+        "Mattapanients",
+        "Matapanient"
+      ],
+      "basis": "People on the Mattaponi River."
+    },
+    "IG-018": {
+      "name": "Chiskiack",
+      "type": "tribe",
+      "seeds": [
+        "Chiskiack",
+        "Kiskiack",
+        "Chiskiacks",
+        "Kiskiacks"
+      ],
+      "basis": "Powhatan people on the York River."
+    },
+    "IG-019": {
+      "name": "Youghtanund",
+      "type": "tribe",
+      "seeds": [
+        "Youghtanund",
+        "Youghtanunds"
+      ],
+      "basis": "Powhatan people on the upper Pamunkey."
+    },
+    "IG-020": {
+      "name": "Monacan",
+      "type": "nation",
+      "seeds": [
+        "Monacan",
+        "Monacans",
+        "Monacon",
+        "Monakins"
+      ],
+      "basis": "Siouan people above the falls of the James; enemies of the Powhatans."
+    },
+    "IG-021": {
+      "name": "Mannahoac",
+      "type": "nation",
+      "seeds": [
+        "Mannahoac",
+        "Mannahoacks",
+        "Mannahoke"
+      ],
+      "basis": "Siouan people of the northern Piedmont."
+    },
+    "IG-022": {
+      "name": "Massawomeck",
+      "type": "nation",
+      "seeds": [
+        "Massawomeck",
+        "Massawomecks",
+        "Massawomekes"
+      ],
+      "basis": "Northern people raiding the Chesapeake; identity debated."
+    },
+    "IG-023": {
+      "name": "Susquehannock",
+      "type": "nation",
+      "seeds": [
+        "Susquehannock",
+        "Susquehannocks",
+        "Sasquesahanough",
+        "Sasquesahanocks"
+      ],
+      "basis": "Iroquoian people at the head of the Bay."
+    },
+    "IG-024": {
+      "name": "Piscataway",
+      "type": "nation",
+      "seeds": [
+        "Piscataway",
+        "Piscataways",
+        "Moyaone"
+      ],
+      "basis": "Algonquian people on the north side of the Potomac."
+    },
+    "IG-025": {
+      "name": "Nacotchtank",
+      "type": "tribe",
+      "seeds": [
+        "Nacotchtank",
+        "Nacotchtanck",
+        "Anacostans",
+        "Nacostines"
+      ],
+      "basis": "Potomac people (Anacostans) who killed Henry Spelman in 1623."
+    },
+    "IG-026": {
+      "name": "Chowanoke",
+      "type": "nation",
+      "seeds": [
+        "Chowanokes",
+        "Choanokes",
+        "Chawanooks"
+      ],
+      "basis": "Algonquian people of the Chowan River; plural forms only (the river is a place).",
+      "plural_only": true
+    }
+  },
+  "people": {
+    "IP-001": {
+      "name": "Wahunsenacawh (Powhatan)",
+      "group": "IG-001",
+      "role": "paramount chief, d. 1618",
+      "seeds": [
+        "Wahunsenacawh",
+        "Wahunsonacock",
+        "Wahunsonacock",
+        "the great Powhatan",
+        "old Powhatan"
+      ],
+      "basis": "Paramount chief known to the English as Powhatan; father of Pocahontas."
+    },
+    "IP-002": {
+      "name": "Opechancanough",
+      "group": "IG-003",
+      "role": "paramount chief after c. 1618; led the 1622 and 1644 attacks",
+      "seeds": [
+        "Opechancanough",
+        "Opechankanough",
+        "Opachankeno",
+        "Apochankeno",
+        "Opichankanoe",
+        "Opichankano",
+        "Opachancano",
+        "Opechankeno",
+        "Opechancano",
+        "Mangopeesomon",
+        "Mangopeso"
+      ],
+      "basis": "Weroance of Pamunkey, later paramount chief; took the name Mangopeesomon in 1621."
+    },
+    "IP-003": {
+      "name": "Opitchapam (Sasawpen)",
+      "group": "IG-001",
+      "role": "paramount chief c. 1618",
+      "seeds": [
+        "Opitchapam",
+        "Itoyatan",
+        "Otiotan",
+        "Sasawpen",
+        "Sansapen"
+      ],
+      "basis": "Powhatan's successor; later called Sasawpen."
+    },
+    "IP-004": {
+      "name": "Pocahontas",
+      "group": "IG-001",
+      "role": "daughter of Powhatan, d. 1617",
+      "seeds": [
+        "Pocahontas",
+        "Pokahontas",
+        "Matoaka",
+        "Amonute"
+      ],
+      "basis": "Also in the person dictionary."
+    },
+    "IP-005": {
+      "name": "Nemattanew (Jack of the Feathers)",
+      "group": "IG-001",
+      "role": "war leader, killed 1622",
+      "seeds": [
+        "Nemattanew",
+        "Nenemachanew",
+        "Nemattanow",
+        "Jack of the Feathers",
+        "Jacke of the Feathers"
+      ],
+      "basis": "Warrior whose killing preceded the 1622 attack."
+    },
+    "IP-006": {
+      "name": "Chanco",
+      "group": "",
+      "role": "warned Jamestown of the 1622 attack",
+      "seeds": [
+        "Chanco",
+        "Chauco"
+      ],
+      "basis": "Christianized Powhatan youth credited with warning Richard Pace.",
+      "exact_only": true
+    },
+    "IP-007": {
+      "name": "Japazaws",
+      "group": "IG-016",
+      "role": "Patawomeck leader",
+      "seeds": [
+        "Japazaws",
+        "Iapazaws",
+        "Japazous",
+        "Japazons",
+        "Iopassus",
+        "Iapassus"
+      ],
+      "basis": "Patawomeck leader involved in the 1613 capture of Pocahontas."
+    },
+    "IP-008": {
+      "name": "Namontack",
+      "group": "IG-001",
+      "role": "envoy to England",
+      "seeds": [
+        "Namontack",
+        "Namontacke"
+      ],
+      "basis": "Powhatan envoy taken to England in 1608."
+    },
+    "IP-009": {
+      "name": "Uttamatomakkin (Tomocomo)",
+      "group": "IG-001",
+      "role": "priest/councillor, sent to England 1616",
+      "seeds": [
+        "Uttamatomakkin",
+        "Tomocomo",
+        "Tomakin"
+      ],
+      "basis": "Accompanied Pocahontas to England.",
+      "exact_only": true
+    },
+    "IP-010": {
+      "name": "Esmy Shichans (Laughing King of Accomac)",
+      "group": "IG-014",
+      "role": "weroance of Accomac",
+      "seeds": [
+        "Esmy Shichans",
+        "Laughing King",
+        "Debedeavon",
+        "Kiptopeke"
+      ],
+      "basis": "Eastern Shore weroance who granted land to the English."
+    },
+    "IP-011": {
+      "name": "Tassore",
+      "group": "IG-001",
+      "role": "messenger",
+      "seeds": [
+        "Tassore"
+      ],
+      "basis": "Powhatan messenger in the 1620s negotiations.",
+      "exact_only": true
+    },
+    "IP-012": {
+      "name": "Kemps",
+      "group": "IG-001",
+      "role": "captive/guide",
+      "seeds": [
+        "Kemps"
+      ],
+      "basis": "Powhatan man held at Jamestown in 1609-10. Short and English-looking: exact seed only.",
+      "exact_only": true
+    }
+  },
+  "titles": {
+    "weroance": {
+      "seeds": [
+        "weroance",
+        "weroances",
+        "werowance",
+        "werowances",
+        "weroans",
+        "werowans"
+      ],
+      "basis": "Powhatan district chief."
+    },
+    "weroansqua": {
+      "seeds": [
+        "weroansqua",
+        "werowansqua"
+      ],
+      "basis": "Female weroance."
+    },
+    "cockarouse": {
+      "seeds": [
+        "cockarouse",
+        "cawcawwassough"
+      ],
+      "basis": "Councillor or senior man."
+    },
+    "quiyoughcosough": {
+      "seeds": [
+        "quiyoughcosough",
+        "quiyoughcosoughs"
+      ],
+      "basis": "Priest."
+    }
+  },
+  "collective_terms": {
+    "Indians": {
+      "seeds": [
+        "Indian",
+        "Indians",
+        "Indyan",
+        "Indyans",
+        "Indianes"
+      ],
+      "context_required": false,
+      "basis": "Most common English term. Excludes East/West Indies and 'Indian corne/wheat'."
+    },
+    "savages": {
+      "seeds": [
+        "savage",
+        "savages",
+        "salvage",
+        "salvages",
+        "sauage",
+        "sauages",
+        "saluage",
+        "saluages"
+      ],
+      "context_required": false,
+      "basis": "Pejorative English term for Native people (noun use)."
+    },
+    "heathen": {
+      "seeds": [
+        "heathen",
+        "heathens",
+        "heathan",
+        "heathans"
+      ],
+      "context_required": false,
+      "basis": "Religious term for non-Christian Natives."
+    },
+    "infidels": {
+      "seeds": [
+        "infidel",
+        "infidels",
+        "infidell",
+        "infidells",
+        "infidelle",
+        "infideles",
+        "infidelles"
+      ],
+      "context_required": false,
+      "basis": "Religious term; in these records it nearly always means the Natives."
+    },
+    "natives": {
+      "seeds": [
+        "natives",
+        "natiues",
+        "naturals",
+        "naturalls"
+      ],
+      "context_required": true,
+      "basis": "Used for Native people, but also 'natives of England'; excluded when followed by 'of England/this kingdom'."
+    },
+    "barbarians": {
+      "seeds": [
+        "barbarians",
+        "barbarian"
+      ],
+      "context_required": false,
+      "basis": "Pejorative noun; the adjective 'barbarous' is not counted."
+    },
+    "pagans": {
+      "seeds": [
+        "pagan",
+        "pagans"
+      ],
+      "context_required": false,
+      "basis": "Religious term."
+    },
+    "country people": {
+      "seeds": [
+        "country people",
+        "people of the country",
+        "people of the Countrey",
+        "Countrey people"
+      ],
+      "context_required": true,
+      "basis": "Can mean Natives or the English colonists; flagged for review."
+    }
+  },
+  "collective_exclusions": [
+    "East Indian",
+    "East Indians",
+    "East Indies",
+    "West Indian",
+    "West Indians",
+    "West Indies",
+    "Indian corne",
+    "Indian corn",
+    "Indian wheat",
+    "Indian wheate",
+    "Indian meale",
+    "Indian graine",
+    "Indian pease",
+    "natives of England",
+    "natiues of England",
+    "natives of this",
+    "natiues of this",
+    "natives of the Kingdome"
+  ]
+}

@@ -14,8 +14,15 @@ Shape::
           "skip_aliases": [...]                       # optional, spellings never to add
         }
       },
-      "excluded": {"M’ Deputy": "Office; held by John then Nicholas Ferrar."}
+      "excluded": {"M’ Deputy": "Office; held by John then Nicholas Ferrar."},
+      "contextual_aliases": [
+        {"forms": ["Capt Smith", ...], "by_volume": {"1": "John Smith", "3": "Roger Smith"},
+         "basis": "..."}
+      ]
     }
+
+A contextual alias resolves to a different person depending on the volume,
+and takes precedence over any plain alias with the same spelling.
 
 Aliases are only ever appended; existing people and aliases are never removed.
 """
@@ -40,6 +47,7 @@ def load(path: Path) -> dict:
     if "people" not in data:
         raise ValueError(f"{path} is not in the people/excluded format")
     data.setdefault("excluded", {})
+    data.setdefault("contextual_aliases", [])
     return data
 
 
@@ -54,7 +62,18 @@ def save(path: Path, data: dict) -> None:
         for name, entry in data["people"].items()
     }
     output = {"description": data.get("description", DESCRIPTION), "people": people, "excluded": data["excluded"]}
+    if data.get("contextual_aliases"):
+        output["contextual_aliases"] = data["contextual_aliases"]
     path.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def contextual_person(data: dict, form_key: str, volume: int, key=None) -> str | None:
+    """Person for a contextual alias in ``volume``; ``key`` normalizes forms."""
+    for rule in data.get("contextual_aliases", []):
+        forms = {key(f) if key else f.casefold() for f in rule["forms"]}
+        if form_key in forms:
+            return rule["by_volume"].get(str(volume))
+    return None
 
 
 def aliases_by_person(data: dict) -> dict[str, list[str]]:

@@ -46,7 +46,7 @@ from filter_person_review_queue import (
     normalized_phrase,
     requires_contextual_person_review,
 )
-from link_mentions import Locator, person_index, resolve_person
+from link_mentions import Locator, contextual_index, person_index, resolve_person
 from source_loader import load_primary_pages
 from territorial_titles import UNRESOLVED_NOTES, signature_allowed, suggest_person, territorial_title_before
 
@@ -160,6 +160,11 @@ class AuthorityMatcher:
 def build_entries(dictionary: dict, authority: Path, place_resolutions: Path) -> tuple[list, Counter]:
     entries: list[tuple[str, str, str]] = []
     stats: Counter = Counter()
+    # Contextual aliases go first so they win over a plain alias of the same spelling.
+    for number, rule in enumerate(dictionary.get("contextual_aliases", [])):
+        for form in rule["forms"]:
+            entries.append(("PERSON", f"CONTEXT:{number}", " ".join(form.split())))
+            stats["person_contextual"] += 1
     for person, entry in dictionary["people"].items():
         for alias in {" ".join(a.split()) for a in [person, *entry.get("aliases", [])]}:
             if len(alias.split()) == 1 and alias.casefold() not in SINGLE_WORD_PEOPLE:
@@ -223,6 +228,7 @@ def extract(
     pages: list[dict], nlp, dictionary: dict, places: dict, locator: Locator, roles: dict[str, str],
 ) -> tuple[list[dict], Counter]:
     index, excluded = person_index(dictionary)
+    contextual = contextual_index(dictionary)
     surnames = surname_set(dictionary)
     stats: Counter = Counter()
     blocked: Counter = Counter()
@@ -272,6 +278,11 @@ def extract(
                         continue
                     row.update(label="PLACE", entity_key=place["place_id"], entity_name=place["preferred_name"],
                                source=f"ruler_place:{place['matching_policy']}")
+            elif ent.label_ == "PERSON" and ent.kb_id_.startswith("CONTEXT:"):
+                rule = dictionary["contextual_aliases"][int(ent.kb_id_.split(":")[1])]
+                person = rule["by_volume"].get(str(page["volume"]), "")
+                row.update(label="PERSON", entity_key=person, entity_name=person,
+                           source="contextual_alias", link_note=f"volume {page['volume']}")
             elif ent.label_ == "PERSON" and ent.kb_id_:
                 row.update(label="PERSON", entity_key=ent.kb_id_, entity_name=ent.kb_id_, source="ruler_person")
             elif ent.label_ == "PERSON":
@@ -281,7 +292,8 @@ def extract(
                     start = start - (len(text[max(0, start - 24):start]) - title.start(1))
                 observed = text[start:end]
                 person, method, note = resolve_person(
-                    {"observed_span": observed, "name_string": ent.text}, index, excluded)
+                    {"observed_span": observed, "name_string": ent.text}, index, excluded,
+                    contextual, page["volume"])
                 shaped = bool(person) or looks_like_person(observed, bool(title))
                 row.update(span_start=start, observed_span=observed,
                            label="PERSON" if shaped else "PERSON_CANDIDATE", entity_key=person,

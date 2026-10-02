@@ -110,14 +110,32 @@ def person_index(dictionary: dict) -> tuple[dict[str, set[str]], set[str]]:
     return index, excluded
 
 
-def resolve_person(row: dict[str, str], index: dict[str, set[str]], excluded: set[str]) -> tuple[str, str, str]:
+def contextual_index(dictionary: dict) -> dict[str, tuple[dict[str, str], str]]:
+    """Normalized contextual-alias form -> (person by volume, basis)."""
+    index = {}
+    for rule in dictionary.get("contextual_aliases", []):
+        for form in rule["forms"]:
+            index[match_key(form)] = (rule["by_volume"], rule.get("basis", ""))
+    return index
+
+
+def resolve_person(
+    row: dict[str, str], index: dict[str, set[str]], excluded: set[str],
+    contextual: dict[str, tuple[dict[str, str], str]] | None = None, volume: int | None = None,
+) -> tuple[str, str, str]:
     """Return ``(person, method, note)``.
 
-    A titled span (``Captaine John Smith``) is tried first; an excluded bare
-    name (``John Smith``) then stops resolution before the bare name is tried.
+    A contextual alias (``Capt Smith``: John Smith in Vols I-II, Roger Smith
+    in III-IV) wins first. Then a titled span (``Captaine John Smith``) is
+    tried; an excluded bare name (``John Smith``) stops resolution before the
+    bare name is tried.
     """
     observed = match_key(row.get("observed_span", ""))
     name = match_key(row.get("name_string", ""))
+    if contextual and volume is not None and observed in contextual:
+        by_volume, basis = contextual[observed]
+        person = by_volume.get(str(volume), "")
+        return person, "contextual_alias" if person else "unresolved", basis
     for field, key in (("observed_span", observed), ("name_string", name)):
         if not key:
             continue
@@ -135,6 +153,7 @@ def link_people(
     people_csv: Path, titled_csv: Path, dictionary: dict, locator: Locator,
 ) -> list[dict[str, str]]:
     index, excluded = person_index(dictionary)
+    contextual = contextual_index(dictionary)
     rows: list[dict[str, str]] = []
     seen: set[tuple[str, int, int]] = set()
     for row in read_csv(people_csv):
@@ -143,7 +162,7 @@ def link_people(
         if key in seen:  # exact duplicates awaiting reconciliation upstream
             continue
         seen.add(key)
-        person, method, note = resolve_person(row, index, excluded)
+        person, method, note = resolve_person(row, index, excluded, contextual, int(row["page_id"][1:3]))
         rows.append({
             "mention_id": row["occurrence_id"], "entity_type": "person",
             "entity_key": person, "entity_name": person, "link_method": method, "link_note": note,
