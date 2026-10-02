@@ -106,3 +106,13 @@ def test_company_and_court_uses_of_a_place():
     assert COMPANY_BEFORE_RE.search("the two Companies of Virginia and the ")
     assert COMPANY_BEFORE_RE.search("The Companie of ")
     assert not COMPANY_BEFORE_RE.search("whole Company of Adventurers here in ")
+
+
+def test_royal_style_variants_and_regnal_years():
+    matcher = AuthorityMatcher([("PLACE", "OW-S", "Scotland"), ("PLACE", "OW-I", "Ireland"), ("PLACE", "OW-E", "England")])
+    text = ("Kinge of England Scotland firaunce and Ireland Defendor ... raigne of England ffraunce and Ireland "
+            "the nyneteenth and of Scotland the fiue and fiftith ... of Greate Brittaine Fraunce & Ireland ... "
+            "of England Scot- land ffrance and Ireland kinge ... and of Scotland the luj'* Betwene ... "
+            "stayed in Ireland")
+    places = [text[s:e] for s, e, label, _ in matcher.find(text) if label == "PLACE"]
+    assert places == ["Ireland"]  # only the real place at the end

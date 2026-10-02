@@ -88,6 +88,8 @@ GIVEN_NAMES = {
     "chr": "christopher", "xpofer": "christopher", "xfopher": "christopher",
     "humfrey": "humphrey", "humphry": "humphrey", "iames": "james", "jam": "james",
     "maurice": "morris", "morrice": "morris",
+    "henrico": "henry", "henricus": "henry", "johannes": "john", "iohannes": "john",
+    "thoma": "thomas", "willelmo": "william", "willelmus": "william", "ricardo": "richard", "ricardus": "richard",
 }
 
 

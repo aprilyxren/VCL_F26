@@ -76,7 +76,7 @@ GENERIC_NON_ENTITIES = [
 ROYAL_STYLE_FORMS = {
     "england": ["england", "englande", "ingland", "eneland", "mngland"],
     "scotland": ["scotland", "scottland", "seotland"],
-    "france": ["france", "fraunce", "ffrance", "ffraunce"],
+    "france": ["france", "fraunce", "ffrance", "ffraunce", "firaunce", "firance", "frannce"],
     "ireland": ["ireland", "irland"],
 }
 # ``dno Henrico Marten milite`` is Latin for "to Sir Henry Marten", not Henrico;
@@ -98,8 +98,29 @@ NON_NAME_WORDS = {
     "treasuror", "treasurer", "deputy", "deputie", "auditor", "auditors", "recorder", "chancellor",
     "keeper", "secretary", "secretarie", "present", "item", "juris", "gd", "the", "king", "kinge",
     "majesty", "maiestie", "silke", "silk", "madder", "crop", "coddes", "corne", "tobacco",
-    "sassafras", "wine", "pitch", "tarre", "sope", "potashes", "iron",
+    "sassafras", "wine", "pitch", "tarre", "sope", "potashes", "iron", "dated", "datum",
+    "january", "ianuary", "february", "march", "april", "aprill", "iune", "june", "iuly", "july",
+    "august", "september", "october", "november", "nouember", "december",
+    "account", "accompt", "accounts", "accompts", "bill", "debt", "debts", "receipt",
 }
+# Given names (with OCR and Latin forms) that make ``Given Surname`` a name
+# even when the model and the title pass both miss it.
+GIVEN_NAMES = {
+    "john", "iohn", "tohn", "thon", "jhon", "ihon", "johannes", "iohannes", "thomas", "thome", "tho", "william",
+    "willm", "wm", "willelmus", "richard", "ricardus", "robert", "robt", "henry", "henrie", "george", "edward",
+    "james", "iames", "francis", "frauncis", "nicholas", "samuel", "samuell", "christopher", "anthony",
+    "anthonie", "anthonium", "humphrey", "humfrey", "humphry", "daniel", "daniell", "peter", "walter", "ralph",
+    "raphe", "roger", "arthur", "edmund", "edmond", "hugh", "gabriel", "gabriell", "matthew", "mathew", "philip",
+    "phillip", "michael", "stephen", "lawrence", "laurence", "maurice", "morris", "nathaniel", "nathaniell",
+    "abraham", "isaac", "isack", "jeremy", "josias", "martin", "miles", "oliver", "leonard", "simon", "benjamin",
+    "charles", "clement", "giles", "gilbert", "joseph", "toby", "zachary", "allen", "alexander", "andrew",
+    "elizabeth", "mary", "anne", "ann", "jane", "joan", "susan", "margaret", "alice", "katherine", "ellen",
+}
+PLACE_OR_ORG_WORDS = {
+    "citty", "cittie", "city", "towne", "town", "river", "riuer", "hundred", "island", "iland", "fort", "creek",
+    "creeke", "bay", "point", "plantation", "company", "companie", "court", "courte", "counsell", "councell",
+}
+GIVEN_SURNAME_RE = re.compile(r"(?<![A-Za-z])([A-Z][a-z]{1,10})[ \t]+([A-Z][a-z’']{2,}|ff[a-z]{2,})(?![A-Za-z])")
 # ``the feast of St Michaell``: a saint's day, not a person.
 FEAST_BEFORE_RE = re.compile(r"(?i)\bfeast\s+of\s+(?:the\s+)?$")
 # Truncated names: ``m’ Nich? ffarrar``, ``m’ Dan: Peeker``, ``William Throk- mortun``.
@@ -115,6 +136,41 @@ COMPANY_BEFORE_RE = re.compile(
     r"(?i)\bcompan(?:y|ie|ies)\s+of\s+(?:adventurers\s+(?:for|to|of)\s+)?(?:the\s+)?"
     r"(?:[\w-]+\s+and\s+(?:the\s+)?)?$"
 )
+
+
+# List entries run into leaders, amounts, or the next paragraph:
+# ``John Whittingham___.-.__-``, ``Henry Spranger_.__----- 12``.
+SPAN_CUT_RE = re.compile(r"_{1,}|\s*\n\s*\n|\s+\d|[-.~]{3,}|\s*[-—–]{2,}")
+TITLE_START_RE = re.compile(
+    r"(?i)^(?:captain|captaine|captayne|capt\.?|cap[’'*:.]+|sir|st\.?|s[’'*]|lady|lord|lo:|doctor|dr\.?|"
+    r"d[’'*]|master|mistress|mr\.?|mrs\.?|m[’'*ᵣ]+)\s")
+# Title + name pass carried over from the old extraction: ``M’ Baldwin``,
+# ``Cap’ Bargraue``, ``m’ Iohn Porter``. Names may be ff-initial (``m' ffarrar``).
+NAME_WORD = r"(?:ff[a-z]{2,}|[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]+)"
+TITLE_NAME_RE = re.compile(
+    r"(?<![A-Za-z])(?i:captain|captaine|captayne|capt\.?|cap[’'*:.]+|sir|s[’'*]|lady|doctor|dr\.?|d[’'*]|"
+    r"master|mistress|mr\.?|mrs\.?|m[’'*ᵣ]+)[ \t]*[,;:\-—–]?[ \t]*(" + NAME_WORD
+    + r"(?:[:.?]?[ \t]+" + NAME_WORD + r")?)"  # ``m’ Tho: Gibbes``, ``m’ Ald: Iohnson``
+)
+# Capitalized prose words a two-word title match can swallow (``M' Pory Concerning``).
+PROSE_WORDS = {
+    "concerning", "touching", "whereas", "wheras", "wherevpon", "whervppon", "who", "which", "being", "beinge",
+    "and", "that", "the", "for", "to", "of", "in", "with", "by", "his", "her", "their", "was", "were", "is",
+    "hath", "had", "did", "said", "also", "allso", "moued", "moved", "signified", "desired", "acquainted",
+    "deputy", "treasuror", "treasurer", "knight", "esquire", "esq", "gent", "present",
+}
+# A surname broken across a line: ``John Swineho-\nwe``.
+SURNAME_HYPHEN_RE = re.compile(r"^-[ \t]*\n?[ \t]*([a-z]{2,})")
+LATIN_HENRY_RE = re.compile(r"^\s+([A-Z][a-z]{2,})\b")
+
+
+def trim_model_span(text: str, start: int, end: int) -> int:
+    cut = SPAN_CUT_RE.search(text, start, end)
+    if cut and cut.start() > start:
+        end = cut.start()
+    while end > start and text[end - 1] in " .,:;'’":
+        end -= 1
+    return end
 
 
 def extend_truncated_name(text: str, start: int, end: int, has_title: bool) -> int:
@@ -162,10 +218,20 @@ def form_regex(form: str) -> str:
     return r"\s+".join(re.escape(part) for part in form.split())
 
 
+_ROYAL_COUNTRIES = "|".join(
+    [r"gr[e]?a[e]?te?\s+brit+[ae]?[iy]?n+e?",  # Great Britain (post-1604 style)
+     r"s[ce]ot-\s*t?land", r"eng-\s*[lj]and", r"ire-\s*land"]  # split across a line
+    + sorted({f for forms in ROYAL_STYLE_FORMS.values() for f in forms}, key=len, reverse=True)
+)
 ROYAL_STYLE_RE = re.compile(
-    r"(?i)(?<![^\W_])(?:{c})(?:[\s,;.&]+(?:and\s+)?(?:{c})){{2,3}}(?![^\W_])".format(
-        c="|".join(sorted({f for forms in ROYAL_STYLE_FORMS.values() for f in forms}, key=len, reverse=True))
-    )
+    r"(?i)(?<![^\W_])(?:{c})(?:[\s,;.&]+(?:and\s+)?(?:{c})){{2,3}}(?![^\W_])".format(c=_ROYAL_COUNTRIES)
+)
+# Regnal years split the style: ``...and Ireland the nyneteenth and of
+# Scotland the fiue and fiftith``.
+REGNAL_RE = re.compile(
+    r"(?i)(?<![^\W_])(?:and\s+)?of\s+(?:{c})\s+the\s+(?:[a-z]+[\s-]+){{0,4}}?"
+    r"(?:[a-z]*(?:th|first|second|third|tieth|ith)|\d+(?:th|st|nd|rd)?|[ivxlhuyj]{{2,6}}[’'*™]*)(?![^\W_])"
+    .format(c=_ROYAL_COUNTRIES)
 )
 
 
@@ -198,6 +264,10 @@ class AuthorityMatcher:
         first, then the longest match wins."""
         claimed: list[tuple[int, int, str, str]] = [
             (m.start(), m.end(), "NOT_ENTITY", "royal_style") for m in ROYAL_STYLE_RE.finditer(text)
+        ]
+        claimed += [
+            (m.start(), m.end(), "NOT_ENTITY", "regnal_year") for m in REGNAL_RE.finditer(text)
+            if not any(s < m.end() and m.start() < e for s, e, _, _ in claimed)
         ]
         candidates = []
         for regex in self.regexes.values():
@@ -293,6 +363,7 @@ def extract(
     texts = (page["text"].replace("\n", " ") for page in record_pages)
     for page, doc in zip(record_pages, nlp.pipe(texts, batch_size=16)):
         text = page["text"]
+        page_start = len(rows)
         offsets = doc.user_data.get("authority_offsets", {})
         for ent in doc.ents:
             start, end = offsets.get(ent.start, (ent.start_char, ent.end_char)) if ent.kb_id_ or \
@@ -323,6 +394,17 @@ def extract(
                 elif LATIN_ADDRESS_RE.search(text[max(0, start - 12):start]):
                     stats["place_dropped_latin_personal_name"] += 1
                     continue
+                elif ent.text.casefold() in {"henrico", "henricus"} and LATIN_HENRY_RE.match(text[end:end + 20]) \
+                        and LATIN_HENRY_RE.match(text[end:end + 20]).group(1).casefold() not in {
+                            "river", "riuer", "citty", "cittie", "city", "island", "iland", "college", "colledge"}:
+                    # Latin ``Henrico Cromewell`` is Henry Cromwell, not the town.
+                    end = end + LATIN_HENRY_RE.match(text[end:end + 20]).end(1)
+                    observed = text[start:end]
+                    person, method, note = resolve_person(
+                        {"observed_span": observed, "name_string": observed}, index, excluded, contextual, page["volume"])
+                    row.update(span_end=end, observed_span=observed, label="PERSON", entity_key=person,
+                               entity_name=person, source=f"latin_given_name:{method}", link_note=note)
+                    stats["place_to_latin_person"] += 1
                 elif SHIP_AFTER_RE.search(text[end:end + 30]):
                     stats["place_dropped_ship_name"] += 1
                     continue
@@ -348,6 +430,8 @@ def extract(
                 title = TITLE_BEFORE_PERSON_RE.search(text[max(0, start - 24):start])
                 if title:
                     start = start - (len(text[max(0, start - 24):start]) - title.start(1))
+                end = trim_model_span(text, start, end)
+                title = title or TITLE_START_RE.match(text[start:end])
                 end = extend_truncated_name(text, start, end, bool(title) or bool(
                     re.match(r"(?i)(?:sir|s['’*]|m['’*]+|mr\.?|capt\w*|lord|lo:?)\s", text[start:end])))
                 row["span_end"] = end
@@ -376,6 +460,61 @@ def extract(
             row["mention_id"] = f"{page['page_id']}-N{row['span_start']:05d}-{row['span_end']:05d}"
             rows.append(row)
             stats[row["source"].split(":")[0]] += 1
+        # Title + name forms the model missed (``M’ Baldwin``, ``Cap’ Bargraue``).
+        taken = [(r["span_start"], r["span_end"]) for r in rows[page_start:]]
+        taken += [(ent.start_char, ent.end_char) for ent in doc.ents]
+        for match in TITLE_NAME_RE.finditer(text):
+            start, end = match.start(), match.end()
+            words = re.findall(r"[A-Za-z’']+", match.group(1))
+            if len(words) == 2 and words[1].casefold() in PROSE_WORDS:
+                end = match.start(1) + match.group(1).find(words[0]) + len(words[0])
+            hyphen = SURNAME_HYPHEN_RE.match(text[end:end + 30])
+            if hyphen:
+                end += hyphen.end(1)
+            if any(s < end and start < e for s, e in taken):
+                continue
+            observed = text[start:end]
+            if not looks_like_person(observed, True):
+                continue
+            person, method, note = resolve_person(
+                {"observed_span": observed, "name_string": match.group(1)}, index, excluded, contextual, page["volume"])
+            if method == "excluded":
+                continue
+            row = {"page_id": page["page_id"], "span_start": start, "span_end": end, "observed_span": observed,
+                   "sentence_text": " ".join(text[max(0, start - 120):end + 120].split()),
+                   "label": "PERSON", "entity_key": person, "entity_name": person,
+                   "source": f"title_name:{method}", "link_note": note}
+            row.update(locator.locate(page["page_id"], start, end))
+            row["mention_id"] = f"{page['page_id']}-N{start:05d}-{end:05d}"
+            rows.append(row)
+            taken.append((start, end))
+            stats["title_name"] += 1
+        for match in GIVEN_SURNAME_RE.finditer(text):
+            given, surname = match.group(1), match.group(2)
+            if given.casefold() not in GIVEN_NAMES or surname.casefold().strip("’'") in PLACE_OR_ORG_WORDS:
+                continue
+            start, end = match.start(), match.end()
+            hyphen = SURNAME_HYPHEN_RE.match(text[end:end + 30])
+            if hyphen:
+                end += hyphen.end(1)
+            if any(s < end and start < e for s, e in taken):
+                continue
+            observed = text[start:end]
+            if not looks_like_person(observed, False):
+                continue
+            person, method, note = resolve_person(
+                {"observed_span": observed, "name_string": observed}, index, excluded, contextual, page["volume"])
+            if method == "excluded":
+                continue
+            row = {"page_id": page["page_id"], "span_start": start, "span_end": end, "observed_span": observed,
+                   "sentence_text": " ".join(text[max(0, start - 120):end + 120].split()),
+                   "label": "PERSON", "entity_key": person, "entity_name": person,
+                   "source": f"given_surname:{method}", "link_note": note}
+            row.update(locator.locate(page["page_id"], start, end))
+            row["mention_id"] = f"{page['page_id']}-N{start:05d}-{end:05d}"
+            rows.append(row)
+            taken.append((start, end))
+            stats["given_surname"] += 1
     stats["top_blocked"] = dict(blocked.most_common(12))
     stats["dropped_places"] = dict(dropped)
     return rows, stats
