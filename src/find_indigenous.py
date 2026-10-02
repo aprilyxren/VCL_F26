@@ -107,8 +107,14 @@ class Lexicon:
             for seed in entry["seeds"]:
                 self.collective.append((term, seed, entry["context_required"]))
         self.exclusions = [e.casefold() for e in config["collective_exclusions"]]
+        # Spellings a reviewer rejected never match, under any entity.
+        self.rejected = {
+            spelling.casefold() for spellings in config.get("rejected_spellings", {}).values() for spelling in spellings
+        }
 
     def match_word(self, word: str) -> tuple[dict, str, float] | None:
+        if word.casefold() in self.rejected:
+            return None
         key = skeleton(word)
         if key in self.by_skeleton:
             candidates = self.by_skeleton[key]
@@ -250,6 +256,26 @@ def spelling_review(rows: list[dict]) -> list[dict]:
     return out
 
 
+def apply_review(review_path: Path, authority_path: Path) -> int:
+    """Add every reviewed spelling not marked ``reject`` to its entity's seeds."""
+    config = json.loads(authority_path.read_text(encoding="utf-8"))
+    sections = {"group": "groups", "person": "people", "title": "titles"}
+    added = 0
+    with review_path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row["review_decision"].strip().casefold() == "reject":
+                rejected = config.setdefault("rejected_spellings", {}).setdefault(row["entity_id"], [])
+                if row["spelling"] not in rejected:
+                    rejected.append(row["spelling"])
+                continue
+            entry = config[sections[row["category"]]][row["entity_id"]]
+            if row["spelling"].casefold() not in {seed.casefold() for seed in entry["seeds"]}:
+                entry["seeds"].append(row["spelling"])
+                added += 1
+    authority_path.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return added
+
+
 def write(path: Path, fields: list[str], rows: list[dict]) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
@@ -266,7 +292,11 @@ def main() -> None:
     parser.add_argument("--editorial-spans", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--review-output", type=Path, required=True)
+    parser.add_argument("--apply-review", type=Path,
+                        help="Before matching, add spellings from this reviewed list (except 'reject') to the seeds.")
     args = parser.parse_args()
+    if args.apply_review:
+        print(f"Added {apply_review(args.apply_review, args.authority)} reviewed spellings to {args.authority}")
 
     lexicon = Lexicon(json.loads(args.authority.read_text(encoding="utf-8")))
     locator = Locator(args.segments, args.page_roles, args.editorial_spans)
@@ -274,6 +304,13 @@ def main() -> None:
     rows.sort(key=lambda row: (row["page_id"], row["span_start"]))
     write(args.output, FIELDS, rows)
     review = spelling_review(rows)
+    if args.review_output.exists():
+        with args.review_output.open(encoding="utf-8-sig", newline="") as handle:
+            previous = {(r["entity_id"], r["spelling"].casefold()): r for r in csv.DictReader(handle)}
+        for group in review:
+            old = previous.get((group["entity_id"], group["spelling"].casefold()))
+            if old:
+                group["review_decision"], group["review_note"] = old["review_decision"], old["review_note"]
     write(args.review_output, REVIEW_FIELDS, review)
 
     print(f"{len(rows)} mentions on record pages")

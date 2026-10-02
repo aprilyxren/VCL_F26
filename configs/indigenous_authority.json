@@ -1,5 +1,5 @@
 {
-  "description": "Indigenous peoples, individuals, titles, and collective terms in the Virginia Company records (c. 1606-1626). 'seeds' are known spellings; the finder also accepts close OCR/early-modern variants for review. 'homonym' marks names shared with a river, an English settlement or shire, or a person, so a bare singular form is ambiguous; plural forms, 'King/weroance of X', and 'X Indians' read as the people. 'plural_only' groups are read as the people only in plural form (singular is the English settlement/shire/bay). 'exact_only' names are short or English-looking, so no fuzzy matching.",
+  "description": "Indigenous peoples, individuals, titles, and collective terms in the Virginia Company records (c. 1606-1626). 'seeds' are known spellings; the finder also accepts close OCR/early-modern variants for review. 'homonym' marks names shared with a river, an English settlement or shire, or a person, so a bare singular form is ambiguous; plural forms, 'King/weroance of X', and 'X Indians' read as the people. 'plural_only' groups are read as the people only in plural form (singular is the English settlement/shire/bay). 'exact_only' names are short or English-looking, so no fuzzy matching. 'rejected_spellings' never match (reviewer rejections).",
   "groups": {
     "IG-001": {
       "name": "Powhatan",
@@ -12,7 +12,12 @@
         "Pohatan",
         "Pouhatan",
         "Powhaton",
-        "Powhatan's"
+        "Powhatan's",
+        "Pohaton",
+        "Powsatan",
+        "Powhawtan",
+        "Powhatan’s",
+        "Powhatons"
       ],
       "basis": "The paramount chiefdom of Tidewater Virginia (Tsenacomoco); also the title of its chief."
     },
@@ -37,7 +42,20 @@
         "Pamounkey",
         "Pamaunke",
         "Pomonkey",
-        "Pamunkies"
+        "Pamunkies",
+        "Pamaouke",
+        "Pomunkeys",
+        "Pacomunky",
+        "Pamunke",
+        "Pamiunkey",
+        "Pamaunkok",
+        "Pomunckeys",
+        "Pomaunkey",
+        "Pamunky",
+        "Pamunckey",
+        "Pomunkie",
+        "Pomuckeys",
+        "Pomukeys"
       ],
       "basis": "Core Powhatan chiefdom on the Pamunkey River; Opechancanough's people."
     },
@@ -52,7 +70,12 @@
         "Chickahomini",
         "Chikahomynies",
         "Chickahominie",
-        "Chocohominy"
+        "Chocohominy",
+        "Chekohomini",
+        "Chicohomini",
+        "Chicaominy",
+        "Chickohuomini",
+        "Checkohomint"
       ],
       "basis": "Autonomous people allied with the English by the 1614 treaty; on the Chickahominy River."
     },
@@ -69,7 +92,10 @@
         "Wyanokes",
         "Weyenock",
         "Winocke",
-        "Wynoke"
+        "Wynoke",
+        "Weyonoke",
+        "Weyonoek",
+        "Wayonoke"
       ],
       "basis": "Powhatan people on the south side of the upper James; their lands were granted to Sir George Yeardley."
     },
@@ -85,7 +111,11 @@
         "Paspaheys",
         "Paspeheies",
         "Paspehayes",
-        "Paspaheighe"
+        "Paspaheighe",
+        "Passbehay",
+        "Paspaheigho",
+        "Paspehay",
+        "Pasbehaighes"
       ],
       "basis": "Powhatan people on whose land Jamestown stood; destroyed in 1610 but the name persisted for the territory."
     },
@@ -95,7 +125,21 @@
       "homonym": "English settlement (renamed Elizabeth City in 1619)",
       "seeds": [
         "Kecoughtans",
-        "Kicoughtans"
+        "Kicoughtans",
+        "Kiccowtan",
+        "Kiccoutan",
+        "Kequohtan",
+        "Keqnoughton",
+        "Kiquoughtan",
+        "Kiecowtan",
+        "Kicowtan",
+        "Kickoghtan",
+        "Kicoughtan",
+        "Kiquotan",
+        "Keycotan",
+        "Kicotan",
+        "Kicecowtan",
+        "Kicawtan"
       ],
       "basis": "Native town seized in 1610; singular 'Kecoughtan/Kiccowtan' in these records is the English settlement, so only plural forms are read as the people.",
       "plural_only": true
@@ -142,7 +186,20 @@
       "seeds": [
         "Warraskoyacks",
         "Warrascoyacks",
-        "Warraskoyaks"
+        "Warraskoyaks",
+        "Wariscoyack",
+        "Warascoacke",
+        "Warasquoak",
+        "Wariscoyake",
+        "Wareskoyack",
+        "Warasquiack",
+        "Wariscoyacks",
+        "Warrasquoake",
+        "Wariseoyack",
+        "Warresquiacke",
+        "Warrscovicke",
+        "Waresquokes",
+        "Wariscoyacque"
       ],
       "basis": "Powhatan people of the lower James; singular forms in these records mostly name the English shire, so only plural forms are read as the people.",
       "plural_only": true
@@ -156,7 +213,9 @@
         "Nansemonds",
         "Nansamund",
         "Nansemomes",
-        "Nansamunds"
+        "Nansamunds",
+        "Nansamums",
+        "Nansamum"
       ],
       "basis": "People on the Nansemond River, south of Hampton Roads."
     },
@@ -168,7 +227,15 @@
         "Chesapeakes",
         "Chesepians",
         "Chesapeacks",
-        "Chesepiacks"
+        "Chesepiacks",
+        "Cheskeak",
+        "Chesepiock",
+        "Chesepiacke",
+        "Chesipiack",
+        "Chesepiocks",
+        "Chesapieke",
+        "Chesapeack",
+        "Cheskacke"
       ],
       "basis": "People at the mouth of the Bay; only plural/people forms are read as the people.",
       "plural_only": true
@@ -180,7 +247,8 @@
       "seeds": [
         "Accomacks",
         "Accawmackes",
-        "Accomacke Indians"
+        "Accomacke Indians",
+        "Accomack"
       ],
       "basis": "Eastern Shore people under the 'Laughing King'; singular forms are usually the English shire.",
       "plural_only": true
@@ -210,7 +278,16 @@
         "Patowamack",
         "Patowamach",
         "Potomack",
-        "Pottawomeck"
+        "Pottawomeck",
+        "Patomack",
+        "Patomacks",
+        "Patomecke",
+        "Pataomeek",
+        "Potomacke",
+        "Potomak",
+        "Patomeck",
+        "Patomecks",
+        "Patomeche"
       ],
       "basis": "People on the Potomac; Japazaws's people, where Pocahontas was taken in 1613; trading partners in the 1620s."
     },
@@ -233,9 +310,14 @@
         "Chiskiack",
         "Kiskiack",
         "Chiskiacks",
-        "Kiskiacks"
+        "Kiskiacks",
+        "Chischiack",
+        "Kiskiek",
+        "Cheseack",
+        "Chescack",
+        "Chesceak"
       ],
-      "basis": "Powhatan people on the York River."
+      "basis": "Powhatan people on the York River. 'Chescack/Cheseack' in the plan for a pale between Martin's Hundred and Chiskiack across the peninsula."
     },
     "IG-019": {
       "name": "Youghtanund",
@@ -253,7 +335,10 @@
         "Monacan",
         "Monacans",
         "Monacon",
-        "Monakins"
+        "Monakins",
+        "Monocon",
+        "Monecon",
+        "Monecans"
       ],
       "basis": "Siouan people above the falls of the James; enemies of the Powhatans."
     },
@@ -263,7 +348,8 @@
       "seeds": [
         "Mannahoac",
         "Mannahoacks",
-        "Mannahoke"
+        "Mannahoke",
+        "Manahockes"
       ],
       "basis": "Siouan people of the northern Piedmont."
     },
@@ -273,7 +359,8 @@
       "seeds": [
         "Massawomeck",
         "Massawomecks",
-        "Massawomekes"
+        "Massawomekes",
+        "Masawoymekes"
       ],
       "basis": "Northern people raiding the Chesapeake; identity debated."
     },
@@ -315,7 +402,8 @@
       "seeds": [
         "Chowanokes",
         "Choanokes",
-        "Chawanooks"
+        "Chawanooks",
+        "Choanocki"
       ],
       "basis": "Algonquian people of the Chowan River; plural forms only (the river is a place).",
       "plural_only": true
@@ -350,7 +438,29 @@
         "Opechankeno",
         "Opechancano",
         "Mangopeesomon",
-        "Mangopeso"
+        "Mangopeso",
+        "Opochancano",
+        "Apochancono",
+        "Apochankano",
+        "Opochancano’s",
+        "Opachancamo",
+        "Opachaneano",
+        "Opaihankano",
+        "Opuchankeno",
+        "Opochancanough",
+        "Opoechancanough",
+        "Opichikano",
+        "Apochaukeno",
+        "Apochancon",
+        "Appochankano",
+        "Opechanekano",
+        "Opachankan",
+        "Opachankano",
+        "Oppachancano",
+        "Opichankanos",
+        "Opochaneano",
+        "Opochankino",
+        "Apochanzion"
       ],
       "basis": "Weroance of Pamunkey, later paramount chief; took the name Mangopeesomon in 1621."
     },
@@ -363,7 +473,9 @@
         "Itoyatan",
         "Otiotan",
         "Sasawpen",
-        "Sansapen"
+        "Sansapen",
+        "Jtoyatin",
+        "Sacawpen"
       ],
       "basis": "Powhatan's successor; later called Sasawpen."
     },
@@ -388,7 +500,8 @@
         "Nenemachanew",
         "Nemattanow",
         "Jack of the Feathers",
-        "Jacke of the Feathers"
+        "Jacke of the Feathers",
+        "Nenemathanewes"
       ],
       "basis": "Warrior whose killing preceded the 1622 attack."
     },
@@ -413,7 +526,9 @@
         "Japazous",
         "Japazons",
         "Iopassus",
-        "Iapassus"
+        "Iapassus",
+        "Japasons",
+        "Jupasons"
       ],
       "basis": "Patawomeck leader involved in the 1613 capture of Pocahontas."
     },
@@ -611,5 +726,16 @@
     "natives of this",
     "natiues of this",
     "natives of the Kingdome"
-  ]
+  ],
+  "rejected_spellings": {
+    "IG-026": [
+      "Choapooks",
+      "Chapoks"
+    ],
+    "IG-013": [
+      "Cheseack",
+      "Chescack",
+      "Chesceak"
+    ]
+  }
 }

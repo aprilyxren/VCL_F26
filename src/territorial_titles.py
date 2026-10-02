@@ -37,7 +37,7 @@ TITLE_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     )),
     ("peer", re.compile(
         r"(?i)\b(?:duke|marquess|marquesse|marques|viscount|vyscount|"
-        r"countess|countesse)\s+(?:of\s+)?$"
+        r"countess|countesse|baron|barron|baronesse)\s+(?:of\s+)?$"
     )),
 )
 

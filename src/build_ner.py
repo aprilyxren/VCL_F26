@@ -19,6 +19,9 @@ Pipeline (spaCy ``en_core_web_sm`` plus an authority matcher placed before ``ner
 4. Index pages are skipped; mentions in running heads and editorial lines
    are kept but marked not usable for association.
 5. Each mention carries its meeting segment and date.
+6. Optionally, Indigenous groups, individuals, titles, and collective terms
+   from ``find_indigenous.py`` are merged in (``INDIGENOUS_GROUP``, ``PERSON``,
+   ``INDIGENOUS_TITLE``, ``INDIGENOUS_COLLECTIVE``).
 
 Line breaks are read as spaces (same length, so offsets are unchanged) so
 names split across OCR lines still match.
@@ -87,10 +90,61 @@ TITLE_BEFORE_PERSON_RE = re.compile(
 )
 
 
+# Words that make a model PERSON span an office, heading, commodity, or
+# fragment rather than a name (found in the hand review: ``m* Atturney``,
+# ``lord Presiden``, ``PRESENT Lo``, ``Silke Coddes``, ``Madder Crop``).
+NON_NAME_WORDS = {
+    "attorney", "atturney", "attourney", "attorny", "president", "presiden", "presidente",
+    "treasuror", "treasurer", "deputy", "deputie", "auditor", "auditors", "recorder", "chancellor",
+    "keeper", "secretary", "secretarie", "present", "item", "juris", "gd", "the", "king", "kinge",
+    "majesty", "maiestie", "silke", "silk", "madder", "crop", "coddes", "corne", "tobacco",
+    "sassafras", "wine", "pitch", "tarre", "sope", "potashes", "iron",
+}
+# ``the feast of St Michaell``: a saint's day, not a person.
+FEAST_BEFORE_RE = re.compile(r"(?i)\bfeast\s+of\s+(?:the\s+)?$")
+# Truncated names: ``m’ Nich? ffarrar``, ``m’ Dan: Peeker``, ``William Throk- mortun``.
+ABBREVIATED_GIVEN_RE = re.compile(
+    r"(?i)\b(?:nich|nicho|ed|edw|dan|tho|io|jo|wm|geo|ro|rob|rich|sam|hen|fra|chr|nath|will|willm)$")
+CONTINUATION_RE = re.compile(r"^[?:.’']*\s*((?:ff|[A-Z])[A-Za-z’']{2,})")
+HYPHEN_CONTINUATION_RE = re.compile(r"^\s+([a-z]{2,})")
+SURNAME_AFTER_RE = re.compile(r"^\s+([A-Z][a-z]{2,})\b")
+# A place used inside a company or court name: ``the Virginia Court``,
+# ``the Companies of Virginia and the Sumer Ilands``.
+COMPANY_AFTER_RE = re.compile(r"(?i)^\W{0,4}(?:court|courte|co\b|comp|compa|company|companie|companies|societie|society)")
+COMPANY_BEFORE_RE = re.compile(
+    r"(?i)\bcompan(?:y|ie|ies)\s+of\s+(?:adventurers\s+(?:for|to|of)\s+)?(?:the\s+)?"
+    r"(?:[\w-]+\s+and\s+(?:the\s+)?)?$"
+)
+
+
+def extend_truncated_name(text: str, start: int, end: int, has_title: bool) -> int:
+    """Return a new end offset when the model cut a name short."""
+    observed = text[start:end].rstrip()
+    after = text[end:end + 40]
+    if observed.endswith("-"):
+        match = HYPHEN_CONTINUATION_RE.match(after)
+        return end + match.end(1) if match else end
+    if ABBREVIATED_GIVEN_RE.search(observed):
+        match = CONTINUATION_RE.match(after)
+        if match and match.group(1).casefold() not in NON_NAME_WORDS:
+            return end + match.end(1)
+    name_tokens = re.findall(r"[A-Za-z’']{2,}", observed)
+    if has_title and len(name_tokens) == 2:  # ``Sir Humfry`` -> ``Sir Humfry May``
+        match = SURNAME_AFTER_RE.match(after)
+        if match and match.group(1).casefold() not in NON_NAME_WORDS and "\n\n" not in after[:match.end()]:
+            return end + match.end(1)
+    return end
+
+
 def looks_like_person(observed: str, has_title: bool) -> bool:
     """Shape gate for model-only PERSON spans, using the person filter's rules:
     a title plus a capitalized name, or a clean two-part capitalized name."""
     flat = " ".join(observed.split())
+    words = re.findall(r"[A-Za-z’']+", flat)
+    if any(word.casefold().strip("’'") in NON_NAME_WORDS for word in words[1 if has_title else 0:]):
+        return False
+    if all(len(word) <= 2 for word in words[1 if has_title else 0:]):  # initials only: ``T. Ro``
+        return False
     if has_title:
         return bool(re.search(r"\s[A-ZÀ-ÖØ-Þ][\w'’.-]+", flat))
     match = NAME_PATTERN.fullmatch(flat.rstrip(" .,:;"))
@@ -262,6 +316,10 @@ def extract(
                         link_note=rule.note if rule else UNRESOLVED_NOTES.get((place["place_id"], title.title_class), ""),
                     )
                     stats["place_to_titled_person"] += 1
+                elif COMPANY_AFTER_RE.search(text[end:end + 12]) or COMPANY_BEFORE_RE.search(
+                        " ".join(text[max(0, start - 60):start].split()) + " "):
+                    stats["place_dropped_company_use"] += 1
+                    continue
                 elif LATIN_ADDRESS_RE.search(text[max(0, start - 12):start]):
                     stats["place_dropped_latin_personal_name"] += 1
                     continue
@@ -290,7 +348,18 @@ def extract(
                 title = TITLE_BEFORE_PERSON_RE.search(text[max(0, start - 24):start])
                 if title:
                     start = start - (len(text[max(0, start - 24):start]) - title.start(1))
+                end = extend_truncated_name(text, start, end, bool(title) or bool(
+                    re.match(r"(?i)(?:sir|s['’*]|m['’*]+|mr\.?|capt\w*|lord|lo:?)\s", text[start:end])))
+                row["span_end"] = end
                 observed = text[start:end]
+                if FEAST_BEFORE_RE.search(text[max(0, start - 20):start]):
+                    row.update(span_start=start, observed_span=observed, label="PERSON_CANDIDATE",
+                               entity_key="", entity_name="", source="model_person:feast_day", link_note="")
+                    row.update(locator.locate(page["page_id"], row["span_start"], row["span_end"]))
+                    row["mention_id"] = f"{page['page_id']}-N{row['span_start']:05d}-{row['span_end']:05d}"
+                    rows.append(row)
+                    stats["model_person"] += 1
+                    continue
                 person, method, note = resolve_person(
                     {"observed_span": observed, "name_string": ent.text}, index, excluded,
                     contextual, page["volume"])
@@ -312,6 +381,60 @@ def extract(
     return rows, stats
 
 
+INDIGENOUS_LABELS = {
+    "group": "INDIGENOUS_GROUP", "group_or_homonym": "INDIGENOUS_GROUP", "person": "PERSON",
+    "collective": "INDIGENOUS_COLLECTIVE", "contextual": "INDIGENOUS_COLLECTIVE", "title": "INDIGENOUS_TITLE",
+}
+STRONG_INDIGENOUS_READINGS = {"group", "person", "collective", "title"}
+
+
+def merge_indigenous(rows: list[dict], indigenous_csv: Path) -> Counter:
+    """Merge ``find_indigenous.py`` output into the NER rows.
+
+    An Indigenous match replaces overlapping candidate or unlinked rows; a row
+    already linked to a person/place is kept unless the Indigenous reading is
+    unambiguous. River/settlement homonyms are left to the place matcher.
+    """
+    stats: Counter = Counter()
+    by_page: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        by_page[row["page_id"]].append(row)
+    with indigenous_csv.open(encoding="utf-8", newline="") as handle:
+        indigenous = list(csv.DictReader(handle))
+    removed: set[int] = set()
+    added: list[dict] = []
+    for hit in indigenous:
+        label = INDIGENOUS_LABELS.get(hit["reading"])
+        if label is None:
+            stats["indigenous_place_homonym_skipped"] += 1
+            continue
+        start, end = int(hit["span_start"]), int(hit["span_end"])
+        overlaps = [r for r in by_page[hit["page_id"]]
+                    if r["span_start"] < end and start < r["span_end"] and id(r) not in removed]
+        linked = [r for r in overlaps if r.get("entity_key") and r["label"] in {"PERSON", "PLACE"}]
+        if linked and hit["reading"] not in STRONG_INDIGENOUS_READINGS:
+            stats["indigenous_kept_existing_link"] += 1
+            continue
+        for r in overlaps:
+            removed.add(id(r))
+        stats[f"indigenous_{label.lower()}"] += 1
+        added.append({
+            "mention_id": hit["mention_id"], "label": label,
+            "entity_key": hit["entity_name"] if hit["category"] == "person" else hit["entity_id"],
+            "entity_name": hit["entity_name"],
+            "source": f"indigenous:{hit['match_type']}:{hit['reading']}", "link_note": hit["matched_form"],
+            "observed_span": hit["observed_span"], "page_id": hit["page_id"],
+            "span_start": start, "span_end": end,
+            "segment_id": hit["segment_id"], "date_start": hit["date_start"], "date_end": hit["date_end"],
+            "date_source": "", "date_confidence": hit["date_confidence"], "page_role": hit["page_role"],
+            "editorial_span": hit["editorial_span"], "usable_for_association": hit["usable_for_association"],
+            "sentence_text": hit["context"],
+        })
+    stats["indigenous_replaced_rows"] = len(removed)
+    rows[:] = [r for r in rows if id(r) not in removed] + added
+    return stats
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, required=True)
@@ -322,6 +445,7 @@ def main() -> None:
     parser.add_argument("--page-roles", type=Path, required=True)
     parser.add_argument("--editorial-spans", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--indigenous", type=Path, help="Output of find_indigenous.py to merge in.")
     parser.add_argument("--model", default="en_core_web_sm")
     args = parser.parse_args()
 
@@ -336,6 +460,8 @@ def main() -> None:
     locator = Locator(args.segments, args.page_roles, args.editorial_spans)
     pages = load_primary_pages(args.source)
     rows, stats = extract(pages, nlp, dictionary, load_places(args.authority), locator, locator.roles)
+    if args.indigenous:
+        stats.update(merge_indigenous(rows, args.indigenous))
     rows.sort(key=lambda row: (row["page_id"], row["span_start"]))
     with args.output.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=FIELDS, lineterminator="\n")
