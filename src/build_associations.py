@@ -18,8 +18,9 @@ Virginia, England, and London are flagged ``background``: they co-occur with
 almost everyone. ``lift`` compares how often a pair shares a meeting with
 what their separate frequencies would predict (above 1 = more than chance).
 
-Outputs: one row per pair (``person_place_links.csv``) and one row per pair
-per meeting with the closest text as evidence (``person_place_evidence.csv``).
+Outputs: one row per pair (``person_place_links.csv``), one row per pair per
+meeting with the closest text as evidence (``person_place_evidence.csv``), and
+optionally one row per year, person, and target (``person_place_by_year.csv``).
 """
 
 from __future__ import annotations
@@ -42,6 +43,11 @@ LINK_FIELDS = [
     "person", "target_id", "target_name", "target_type", "background", "meetings", "close_meetings",
     "near_meetings", "min_distance", "lift", "first_date", "last_date", "volumes", "example",
 ]
+BY_YEAR_FIELDS = [
+    "year", "person", "target_name", "target_type", "background", "meetings", "close_meetings",
+    "min_distance", "date_confidence", "first_date", "last_date", "example",
+]
+CONFIDENCE_RANK = {"high": 0, "medium": 1, "low": 2, "none": 3, "": 3}
 EVIDENCE_FIELDS = [
     "person", "target_id", "target_name", "target_type", "meeting_id", "date_start", "date_end",
     "date_confidence", "proximity", "distance", "page_id", "person_span", "target_span", "snippet",
@@ -174,6 +180,32 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
     return links, evidence
 
 
+def by_year(evidence: list[dict]) -> list[dict]:
+    """One row per (year, person, target). A meeting's year is its start date's
+    year; ``date_confidence`` is the best confidence among that year's meetings."""
+    groups: dict[tuple[str, str, str], list] = defaultdict(list)
+    for row in evidence:
+        if row["date_start"]:
+            groups[(row["date_start"][:4], row["person"], row["target_id"])].append(row)
+    out = []
+    for (year, person, _), rows in groups.items():
+        distances = [r["distance"] for r in rows if r["distance"] != ""]
+        closest = min(rows, key=lambda r: r["distance"] if r["distance"] != "" else 10 ** 9)
+        dates = sorted(r["date_start"] for r in rows)
+        out.append({
+            "year": year, "person": person, "target_name": rows[0]["target_name"],
+            "target_type": rows[0]["target_type"],
+            "background": "yes" if rows[0]["target_id"] in BACKGROUND else "",
+            "meetings": len({r["meeting_id"] for r in rows}),
+            "close_meetings": len({r["meeting_id"] for r in rows if r["proximity"] == "close"}),
+            "min_distance": min(distances) if distances else "",
+            "date_confidence": min((r["date_confidence"] for r in rows), key=lambda c: CONFIDENCE_RANK.get(c, 3)),
+            "first_date": dates[0], "last_date": dates[-1], "example": closest["snippet"][:300],
+        })
+    out.sort(key=lambda r: (r["year"], -r["close_meetings"], -r["meetings"], r["person"], r["target_name"]))
+    return out
+
+
 def write(path: Path, fields: list[str], rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -189,6 +221,7 @@ def main() -> None:
     parser.add_argument("--segments", type=Path, required=True)
     parser.add_argument("--links-output", type=Path, required=True)
     parser.add_argument("--evidence-output", type=Path, required=True)
+    parser.add_argument("--by-year-output", type=Path, help="One row per year, person, and target.")
     args = parser.parse_args()
 
     texts = {page["page_id"]: page["text"] for page in load_primary_pages(args.source)}
@@ -196,6 +229,10 @@ def main() -> None:
     links, evidence = build(read_csv(args.mentions), meetings, texts)
     write(args.links_output, LINK_FIELDS, links)
     write(args.evidence_output, EVIDENCE_FIELDS, evidence)
+    if args.by_year_output:
+        yearly = by_year(evidence)
+        write(args.by_year_output, BY_YEAR_FIELDS, yearly)
+        print(f"{len(yearly)} year-level rows in {args.by_year_output}")
     print(f"{len({m['meeting_id'] for m in meetings.values()})} meetings/units; "
           f"{len(links)} person-target links from {len(evidence)} meeting-level co-occurrences")
     for kind in ("place", "indigenous_group", "indigenous_collective"):
