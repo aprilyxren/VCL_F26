@@ -75,7 +75,7 @@ class Locator:
 
 # Given-name spellings and abbreviations that differ only orthographically.
 GIVEN_NAMES = {
-    "iohn": "john", "jhon": "john", "ihon": "john", "jo": "john", "io": "john",
+    "iohn": "john", "ohn": "john", "lohn": "john", "jhon": "john", "ihon": "john", "jo": "john", "io": "john",
     "frauncis": "francis", "fraunces": "francis", "fra": "francis",
     "robt": "robert", "robte": "robert", "rob": "robert", "ro": "robert",
     "willm": "william", "wm": "william", "wiltm": "william", "wilm": "william", "will": "william",

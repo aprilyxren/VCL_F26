@@ -1,6 +1,8 @@
 """Add frequent person names to the List of Records person alias dictionary.
 
-Name groups in the definite-people CSV (grouped by normalized ``name_string``)
+Reads the NER output (``ner_mentions.csv``): every usable ``PERSON`` mention,
+with its name taken from the observed span minus a leading title (``m*``,
+``Capt.``, ``S'``, ``Lo:`` ...). Name groups (grouped by the normalized name)
 that occur at least ``--min-count`` times are resolved, most frequent first:
 
 * a group listed in a person's ``name_groups`` is appended to that person;
@@ -21,7 +23,34 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 import person_dictionary
+import re
+
 from filter_person_review_queue import normalized_phrase
+
+# A leading title in an observed span: ``m* Seaward``, ``Capt. Tucker``, ``S': ffra: Wyate``.
+LEADING_TITLE_RE = re.compile(
+    r"(?i)^(?:(?:captain|captaine|captayne|capt\.?|cap[’'*:.]+|sir|s[’'*:]+|lady|lord|lo[:.]|doctor|dr\.?|"
+    r"d[’'*:]+|master|mistress|mr\.?|mrs\.?|m[’'*ᵣ\"”™]+|mt)\s*[,;:\-—–]?\s*)+")
+
+
+def name_of(row: dict[str, str]) -> str:
+    """The person's name: ``name_string`` when present, else the span minus its
+    title when a first name and surname remain (``m’ Abraham Chamberlyn``).
+    A title with only a surname (``m* Wrote``) keeps the title, as the curated
+    name groups do; punctuation is ignored when grouping, so it matches ``M’ Wrote``."""
+    if row.get("name_string"):
+        return row["name_string"]
+    span = " ".join(row.get("observed_span", "").split())
+    bare = LEADING_TITLE_RE.sub("", span)
+    return bare if len(re.findall(r"[A-Za-z]{2,}", bare)) >= 2 else span
+
+
+def person_rows(source: Path):
+    with source.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if "label" in row and (row["label"] != "PERSON" or row.get("usable_for_association") != "yes"):
+                continue
+            yield row
 
 
 MAX_FORMS = 8
@@ -32,7 +61,8 @@ LOG_FIELDS = [
 
 
 def clean(value: str) -> str:
-    return " ".join(value.split()).strip(" ,.;:-'’")
+    # § and || mark the editor's insertions in the edition; they are not part of a name.
+    return " ".join(value.replace("§", "").replace("||", "").split()).strip(" ,.;:-'’")
 
 
 def append_unique(values: list[str], new_values: list[str]) -> list[str]:
@@ -51,20 +81,21 @@ def extend(source: Path, dictionary_path: Path, log_output: Path, min_count: int
     counts: Counter[str] = Counter()
     names: dict[str, Counter[str]] = defaultdict(Counter)
     forms: dict[str, Counter[str]] = defaultdict(Counter)
-    with source.open(encoding="utf-8-sig", newline="") as handle:
-        for row in csv.DictReader(handle):
-            key, _ = normalized_phrase(row.get("name_string", ""))
-            if not key:
-                continue
-            counts[key] += 1
-            names[key][clean(row["name_string"])] += 1
-            forms[key][clean(row["name_string"])] += 1
-            forms[key][clean(row.get("observed_span", ""))] += 1
+    for row in person_rows(source):
+        name = name_of(row)
+        key, _ = normalized_phrase(name)
+        if not key:
+            continue
+        counts[key] += 1
+        names[key][clean(name)] += 1
+        forms[key][clean(name)] += 1
+        forms[key][clean(row.get("observed_span", ""))] += 1
 
     data = person_dictionary.load(dictionary_path)
     people = data["people"]
     alias_index: dict[str, set[str]] = defaultdict(set)
     curated: dict[str, tuple[str, str, str]] = {}
+    missing_groups: list[str] = []
     for person, entry in people.items():
         for alias in [person, *entry.get("aliases", [])]:
             phrase, _ = normalized_phrase(alias)
@@ -74,7 +105,7 @@ def extend(source: Path, dictionary_path: Path, log_output: Path, min_count: int
         for form in entry.get("name_groups", []):
             key, _ = normalized_phrase(form)
             if key not in counts:
-                raise KeyError(f"{person}: name group {form!r} is not a name_string in {source}")
+                missing_groups.append(f"{person}: {form}")  # spelled differently in the current text
             curated[key] = (action, person, entry.get("basis", ""))
     for form, reason in data["excluded"].items():
         key, _ = normalized_phrase(form)
@@ -123,6 +154,9 @@ def extend(source: Path, dictionary_path: Path, log_output: Path, min_count: int
     for action, count in summary.most_common():
         print(f"  {action}: {count}")
     print(f"Dictionary has {len(people)} people")
+    if missing_groups:
+        print(f"{len(missing_groups)} curated name groups do not occur in this text (kept, nothing appended), e.g. "
+              + "; ".join(missing_groups[:5]))
 
 
 if __name__ == "__main__":

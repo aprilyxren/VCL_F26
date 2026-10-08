@@ -28,6 +28,8 @@ INDEX_ENTRY_RE = re.compile(
     r"(?:\s*[,;]\s*(?:[IV]{1,3}[,.]\s*)?\d{1,3}(?:\s*[-–]\s*\d{1,3})?)*\s*[.;,]?\s*$"
 )
 INDEX_RATIO = 0.3
+MAX_INDEX_GAP = 2      # near-blank pages (plates, blank leaves) allowed inside the index run
+MAX_GAP_CHARS = 400
 EDITORIAL_LINE_RE = re.compile(
     r"(?im)^[^\n]*(?:Document\s+in\s+(?:the\s+)?(?:Library|Public|British|Virginia|Ferrar|Manchester)"
     r"|Manuscript\s+Records\s+Virginia\s+Company|List\s+of\s+Records,?\s+No"
@@ -52,12 +54,17 @@ def page_roles(pages: list[dict]) -> dict[str, str]:
     for volume in sorted({page["volume"] for page in pages}):
         volume_pages = [page for page in pages if page["volume"] == volume]
         run: list[str] = []
+        gap: list[str] = []
         for page in reversed(volume_pages):
             text = page["text"]
             if not text.strip() or index_ratio(text) >= INDEX_RATIO:
+                run.extend(gap)   # a short break inside the index (a plate or blank leaf)
+                gap = []
                 run.append(page["page_id"])
-                continue
-            break
+            elif len(gap) < MAX_INDEX_GAP and run and len(text.strip()) < MAX_GAP_CHARS:
+                gap.append(page["page_id"])
+            else:
+                break
         # Require real index content, not just trailing blank pages.
         if any(index_ratio(next(p["text"] for p in volume_pages if p["page_id"] == pid)) >= INDEX_RATIO
                for pid in run):

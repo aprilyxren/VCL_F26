@@ -1,606 +1,1076 @@
 rank,name_key,display_name,occurrence_count,action,person_key,aliases_added,basis
-1,edwin sandys,Edwin Sandys,284,matched_existing_alias,Edwin Sandys,,
-2,m deputy,M’ Deputy,119,excluded,,,Office; held by John then Nicholas Ferrar.
-3,francis wyatt,Francis Wyatt,111,matched_existing_alias,Francis Wyatt,,
-4,george yeardley,George Yeardley,98,matched_existing_alias,George Yeardley,,
-5,thomas smith,Thomas Smith,96,matched_existing_alias,Thomas Smythe,,
-6,d c,D. C,86,excluded,,,Modern imprint.
-7,epwin sanpys,Epwin Sanpys,80,matched_existing_alias,Edwin Sandys,,
-8,john smyth,John Smyth,67,existing_key,John Smyth of Nibley,,"Named with Berkeley, Thorpe, Throckmorton and Yeardley in the Berkeley Hundred grants and indentures."
-9,george thorpe,George Thorpe,66,matched_existing_alias,George Thorpe,,
-10,manchester papers,Manchester Papers,64,excluded,,,Archive collection.
-11,magdalene college,Magdalene College,63,excluded,,,Institution/archive.
-12,john ferrar,John Ferrar,62,matched_existing_alias,John Ferrar,,
-13,george sandys,George Sandys,62,matched_existing_alias,George Sandys,,
-14,autograph letter,Autograph Letter,59,excluded,,,Document type.
-15,nicholas ferrar,Nicholas Ferrar,56,matched_existing_alias,Nicholas Ferrar,,
-16,nathaniel rich,Nathaniel Rich,51,matched_existing_alias,Nathaniel Rich,,
-17,edwin sandis,Edwin Sandis,48,matched_existing_alias,Edwin Sandys,,
-18,james citty,James Citty,46,excluded,,,Place.
-19,james cittie,James Cittie,40,excluded,,,Place.
-20,james i,James I,37,matched_existing_alias,James I,,
-21,alderman iohnson,Alderman Iohnson,36,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
-22,m wrote,M’ Wrote,34,existing_key,Samuel Wrote,,Mr Samuel Wrote of the 1623 Company disputes; no other Wrote in the records.
-23,alderman johnson,Alderman Johnson,33,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
-24,john smith,John Smith,33,excluded,,,Bare/'Mr' John Smith is not reliably Captain John Smith; titled Captain forms are already aliases.
-25,george yardley,George Yardley,29,matched_existing_alias,George Yeardley,,
-26,john woodleefe,John Woodleefe,29,matched_existing_alias,John Woodlief,,
-27,iohn smith,Iohn Smith,28,excluded,,,Several John Smiths; mostly Captain John Smith but not reliably.
-28,thomas smiths,Thomas Smiths,27,matched_existing_alias,Thomas Smythe,,
-29,m deputie,M’ Deputie,27,excluded,,,Office.
-30,raph hamor,Raph Hamor,27,matched_existing_alias,Ralph Hamor,,
-31,st thomas,St Thomas,26,excluded,,,"'Sir Thomas', ambiguous."
-32,thomas collett,Thomas Collett,26,curated_key,Thomas Collett,,Company member; Ferrar family connection.
-33,my lo,My Lo,25,excluded,,,Title only.
-34,robert smith,Robert Smith,25,matched_existing_alias,Robert Smith,,
-35,edward sackuill,Edward Sackuill,25,matched_existing_alias,Edward Sackville,,
-36,george smith,George Smith,24,matched_existing_alias,George Smith,,
-37,thomas wroth,Thomas Wroth,23,matched_existing_alias,Thomas Wroth,,
-38,walter earle,Walter Earle,23,matched_existing_alias,Walter Earle,,
-39,roger smith,Roger Smith,22,matched_existing_alias,Roger Smith,,
-40,iohn smyth,Iohn Smyth,22,existing_key,John Smyth of Nibley,,"Named with Berkeley, Thorpe, Throckmorton and Yeardley in the Berkeley Hundred grants and indentures."
-41,richard berkeley,Richard Berkeley,22,matched_existing_alias,Richard Berkeley,,
-42,thomas dale,Thomas Dale,21,matched_existing_alias,Thomas Dale,,
-43,william tucker,William Tucker,21,matched_existing_alias,William Tucker,,
-44,thomas smyth,Thomas Smyth,21,matched_existing_alias,Thomas Smythe,,
-45,dudley diggs,Dudley Diggs,20,matched_existing_alias,Dudley Digges,,
-46,henry earle,Henry Earle,20,excluded,,,Truncated; see Henry Wriothesley extra alias.
-47,iohn wroth,Iohn Wroth,20,matched_existing_alias,John Wroth,,
-48,m thier,M' Thier,20,excluded,,,Unidentified.
-49,thomas roe,Thomas Roe,20,matched_existing_alias,Thomas Roe,,
-50,james cyttie,James Cyttie,20,excluded,,,Place.
-51,iohn wolstenholme,Iohn Wolstenholme,19,matched_existing_alias,John Wolstenholme,,
-52,somers islands,Somers Islands,19,excluded,,,Place.
-53,john bargrave,John Bargrave,19,matched_existing_alias,John Bargrave,,
-54,aldfan iohnson,Aldfan Iohnson,18,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
-55,edwyn sandys,Edwyn Sandys,18,matched_existing_alias,Edwin Sandys,,
-56,francis carter,Francis Carter,17,matched_existing_alias,Francis Carter,,
-57,thomas coventrye,Thomas Coventrye,17,matched_existing_alias,Thomas Coventry,,
-58,john wroth,John Wroth,16,matched_existing_alias,John Wroth,,
-59,thomas gates,Thomas Gates,16,matched_existing_alias,Thomas Gates,,
-60,the earle,The Earle,15,excluded,,,Title only.
-61,henry rainsford,Henry Rainsford,15,matched_existing_alias,Henry Rainsford,,
-62,edward brewster,Edward Brewster,15,matched_existing_alias,Edward Brewster,,
-63,nicholas ferrars,Nicholas Ferrar’s,15,matched_existing_alias,Nicholas Ferrar,,
-64,and council,AND COUNCIL,15,excluded,,,Heading.
-65,the lo,The Lo,14,excluded,,,Title only.
-66,john pory,John Pory,14,matched_existing_alias,John Pory,,
-67,john martin,John Martin,14,matched_existing_alias,John Martin,,
-68,richard caswell,Richard Caswell,13,matched_existing_alias,Richard Caswell,,
-69,richard bull,Richard Bull,13,matched_existing_alias,Richard Bull,,
-70,thomas gibbs,Thomas Gibbs,12,matched_existing_alias,Thomas Gibbs,,
-71,john wolstenholme,John Wolstenholme,12,matched_existing_alias,John Wolstenholme,,
-72,william leveson,William Leveson,12,matched_existing_alias,William Leveson,,
-73,st john,St John,12,excluded,,,Ambiguous.
-74,richard berkley,Richard Berkley,12,matched_existing_alias,Richard Berkeley,,
-75,wiltm tracy,Wiltm Tracy,12,matched_existing_alias,William Tracy,,
-76,samuell argoll,Samuell Argoll,11,matched_existing_alias,Samuel Argall,,
-77,iohn martin,Iohn Martin,11,matched_existing_alias,John Martin,,
-78,iohn dauers,Iohn Dauers,11,matched_existing_alias,John Danvers,,
-79,frauncis wyatt,Frauncis Wyatt,11,matched_existing_alias,Francis Wyatt,,
-80,george somers,George Somers,11,matched_existing_alias,George Somers,,
-81,william newce,William Newce,11,matched_existing_alias,William Newce,,
-82,lo cauendish,Lo Cauendish,11,curated_key,"William Cavendish, Lord Cavendish",,"William, Lord Cavendish (later 2nd Earl of Devonshire), leading Sandys-party member."
-83,owen arthur,Owen Arthur,11,curated_key,Owen Arthur,,As on the sheet.
-84,c o,C. O,11,excluded,,,Archive reference.
-85,robert guyar,Robert Guyar,11,curated_key,Robert Guyar,,As on the sheet.
-86,quo warranto,Quo Warranto,11,excluded,,,Legal writ.
-87,william tracy,William Tracy,10,matched_existing_alias,William Tracy,,
-88,edward sackvill,Edward Sackvill,10,matched_existing_alias,Edward Sackville,,
-89,st george,St George,10,excluded,,,Ambiguous.
-90,william ewens,William Ewens,10,matched_existing_alias,William Ewens,,
-91,arthur ingram,Arthur Ingram,10,matched_existing_alias,Arthur Ingram,,
-92,william wye,William Wye,10,matched_existing_alias,William Wye,,
-93,gabriel barber,Gabriel Barber,10,matched_existing_alias,Gabriel Barber,,
-94,william powell,William Powell,10,matched_existing_alias,William Powell,,
-95,francis wyatr,Francis Wyatr,10,matched_existing_alias,Francis Wyatt,,
-96,william webb,William Webb,9,matched_existing_alias,William Webb,,
-97,thomas wheatley,Thomas Wheatley,9,curated_key,Thomas Wheatley,,As on the sheet.
-98,john bargraue,John Bargraue,9,matched_existing_alias,John Bargrave,,
-99,quarter courte,Quarter Courte,9,excluded,,,Meeting.
-100,thomas smithe,Thomas Smithe,9,matched_existing_alias,Thomas Smythe,,
-101,christian religion,Christian Religion,9,excluded,,,Phrase.
-102,john farrar,John Farrar,9,matched_existing_alias,John Ferrar,,
-103,george sandis,George Sandis,9,matched_existing_alias,George Sandys,,
-104,thomas morris,Thomas Morris,9,curated_key,Thomas Morris,,As on the sheet.
-105,richard sherife,Richard Sherife,9,excluded,,,Two people (the elder and the younger).
-106,st edward,St Edward,8,excluded,,,Ambiguous.
-107,henry briggs,Henry Briggs,8,matched_existing_alias,Henry Briggs,,
-108,m treasuror,M’ Treasuror,8,excluded,,,Office.
-109,thomas gibbes,Thomas Gibbes,8,matched_existing_alias,Thomas Gibbs,,
-110,nathaniell rich,Nathaniell Rich,8,matched_existing_alias,Nathaniel Rich,,
-111,m caswell,M’ Caswell,8,existing_key,Richard Caswell,,Only Caswell in the records.
-112,henry rainsforde,Henry Rainsforde,8,matched_existing_alias,Henry Rainsford,,
-113,samuell wrote,Samuell Wrote,8,matched_existing_alias,Samuel Wrote,,
-114,charles citty,Charles Citty,8,excluded,,,Place.
-115,john brooke,John Brooke,8,matched_existing_alias,John Brooke,,
-116,anthony withers,Anthony Withers,8,matched_existing_alias,Anthony Withers,,
-117,bona nova,Bona Nova,8,excluded,,,Ship.
-118,thomas rowe,Thomas Rowe,8,matched_existing_alias,Thomas Roe,,
-119,james towne,James Towne,8,excluded,,,Place.
-120,john bonnall,John Bonnall,8,matched_existing_alias,John Bonnall,,
-121,francis west,Francis West,8,matched_existing_alias,Francis West,,
-122,m thorpe,M' Thorpe,8,excluded,,,George or Thomas Thorpe.
-123,richard smyth,Richard Smyth,8,curated_key,Richard Smyth,,As on the sheet.
-124,john haruey,John Haruey,8,matched_existing_alias,John Harvey,,
-125,nicholas tufton,Nicholas Tufton,7,matched_existing_alias,Nicholas Tufton,,
-126,d winstone,D’ Winstone,7,curated_key,Thomas Winston,,"Dr Thomas Winston, physician and Company member."
-127,thomas mellinge,Thomas Mellinge,7,matched_existing_alias,Thomas Melling,,
-128,st tho,St Tho,7,excluded,,,Ambiguous.
-129,john delbridge,John Delbridge,7,matched_existing_alias,John Delbridge,,
-130,nicholas leate,Nicholas Leate,7,matched_existing_alias,Nicholas Leate,,
-131,georg smith,Georg Smith,7,matched_existing_alias,George Smith,,
-132,edward bennett,Edward Bennett,7,matched_existing_alias,Edward Bennett,,
-133,edward collingwood,Edward Collingwood,7,curated_key,Edward Collingwood,,Company secretary.
-134,st edwin,St Edwin,7,existing_key,Edwin Sandys,,'S' Edwin' (Sir Edwin) in the records is Sir Edwin Sandys.
-135,adam dixon,Adam Dixon,7,matched_existing_alias,Adam Dixon,,
-136,martin brandon,Martin Brandon,7,excluded,,,Place (Martin's Brandon).
-137,edward ryder,Edward Ryder,7,curated_key,Edward Ryder,,English and Latin forms.
-138,martins hundred,Martin’s Hundred,7,excluded,,,Place.
-139,samuel sandys,Samuel Sandys,7,matched_existing_alias,Samuel Sandys,,
-140,la warr,La Warr,7,matched_existing_alias,"Thomas West, Lord De La Warr",,
-141,baptist hicks,Baptist Hicks,7,matched_existing_alias,Baptist Hicks,,
-142,george yardly,George Yardly,7,matched_existing_alias,George Yeardley,,
-143,james town,James Town,7,excluded,,,Place.
-144,william browne,William Browne,7,curated_key,William Browne,,As on the sheet.
-145,george calvert,George Calvert,7,matched_existing_alias,George Calvert,,
-146,john langley,John Langley,7,curated_key,John Langley,,As on the sheet.
-147,thomas white,Thomas White,7,curated_key,Thomas White,,As on the sheet.
-148,john rolfe,John Rolfe,7,matched_existing_alias,John Rolfe,,
-149,wiltm wye,Wiltm Wye,7,matched_existing_alias,William Wye,,
-150,james cyty,James Cyty,7,excluded,,,Place.
-151,ferrar papers,Ferrar Papers,7,excluded,,,Archive collection.
-152,thomas winston,Thomas Winston,7,curated_key,Thomas Winston,,"Dr Thomas Winston, physician and Company member."
-153,john white,John White,7,curated_key,John White,,As on the sheet.
-154,morris abbott,Morris Abbott,6,matched_existing_alias,Morris Abbott,,
-155,bona noua,Bona Noua,6,excluded,,,Ship.
-156,abraham cartwright,Abraham Cartwright,6,matched_existing_alias,Abraham Cartwright,,
-157,richard wiseman,Richard Wiseman,6,matched_existing_alias,Richard Wiseman,,
-158,lawrence hide,Lawrence Hide,6,curated_key,Lawrence Hyde,,Lawyer and Company counsel; spelling variants.
-159,henry mansell,Henry Mansell,6,curated_key,Henry Mansell,,As on the sheet.
-160,robert killigrew,Robert Killigrew,6,matched_existing_alias,Robert Killigrew,,
-161,george scott,George Scott,6,matched_existing_alias,George Scott,,
-162,charles cittie,Charles Cittie,6,excluded,,,Place.
-163,phillip cary,Phillip Cary,6,matched_existing_alias,Philip Carew,,
-164,george yeardly,George Yeardly,6,matched_existing_alias,George Yeardley,,
-165,arthur swayne,Arthur Swayne,6,matched_existing_alias,Arthur Swayne,,
-166,samuell argall,Samuell Argall,6,matched_existing_alias,Samuel Argall,,
-167,de lawne,De Lawne,6,curated_key,Abraham De Lawne,,"Index entry 'De Lawne, Abraham'."
-168,henry mildmay,Henry Mildmay,6,matched_existing_alias,Henry Mildmay,,
-169,m binge,M’ Binge,6,excluded,,,Given name unknown.
-170,lawrence hyde,Lawrence Hyde,6,curated_key,Lawrence Hyde,,Lawyer and Company counsel; spelling variants.
-171,john dennis,John Dennis,6,curated_key,John Dennis,,As on the sheet.
-172,treasuror counsell,Treasuror Counsell,6,excluded,,,Bodies.
-173,patrick copeland,Patrick Copeland,6,curated_key,Patrick Copland,,East India Company chaplain who raised funds for the East India School; only Copland in the records.
-174,gilbert morewood,Gilbert Morewood,6,curated_key,Gilbert Morewood,,English and Latin forms.
-175,dudley carleton,Dudley Carleton,6,matched_existing_alias,Dudley Carleton,,
-176,de lawar,De Lawar,6,excluded,,,"Henry, 4th Lord De La Warr, or Lady Cicely; not Thomas."
-177,brown library,Brown Library,6,excluded,,,Archive.
-178,james carter,James Carter,6,curated_key,James Carter,,Distinct from Francis Carter.
-179,edward barnes,Edward Barnes,6,curated_key,Edward Barnes,,As on the sheet.
-180,thomas davis,Thomas Davis,6,curated_key,Thomas Davis,,As on the sheet.
-181,richard godfry,Richard Godfry,6,curated_key,Richard Godfry,,As on the sheet.
-182,richard george,Richard George,6,curated_key,Richard George,,As on the sheet.
-183,willm tracy,Willm Tracy,6,matched_existing_alias,William Tracy,,
-184,robert pawlet,Robert Pawlet,6,curated_key,Robert Pawlett,,Spelling variants.
-185,arthur guy,Arthur Guy,6,matched_existing_alias,Arthur Guy,,
-186,joun porr,Joun Porr,6,matched_existing_alias,John Pory,,
-187,john kirrell,John Kirrell,6,curated_key,John Kirrell,,As on the sheet.
-188,john baptist,John Baptist,6,excluded,,,Feast of St John Baptist.
-189,john danvers,John Danvers,6,matched_existing_alias,John Danvers,,
-190,m iohn,M’ Iohn,5,excluded,,,Fragment.
-191,daniell tucker,Daniell Tucker,5,matched_existing_alias,Daniel Tucker,,
-192,george swinhowe,George Swinhowe,5,curated_key,George Swinhowe,,As on the sheet.
-193,george chambers,George Chambers,5,matched_existing_alias,George Chambers,,
-194,thomas keightley,Thomas Keightley,5,matched_existing_alias,Thomas Keightley,,
-195,abraham persey,Abraham Persey,5,matched_existing_alias,Abraham Piersey,,
-196,m thfer,M' Thfer,5,excluded,,,Unidentified.
-197,m mellinge,M’ Mellinge,5,existing_key,Thomas Melling,,Only Melling in the records.
-198,robert heath,Robert Heath,5,matched_existing_alias,Robert Heath,,
-199,iohn ferrar,Iohn Ferrar,5,matched_existing_alias,John Ferrar,,
-200,christopher brooke,Christopher Brooke,5,matched_existing_alias,Christopher Brooke,,
-201,edward lawley,Edward Lawley,5,curated_key,Edward Lawley,,As on the sheet.
-202,thomas nuce,Thomas Nuce,5,matched_existing_alias,Thomas Newce,,
-203,st iohn,St Iohn,5,excluded,,,Ambiguous.
-204,christopher lawne,Christopher Lawne,5,curated_key,Christopher Lawne,,Founder of Lawne's plantation (Isle of Wight Plantation).
-205,peter humble,Peter Humble,5,curated_key,Peter Humble,,As on the sheet.
-206,m smith,M’ Smith,5,excluded,,,Several Smiths.
-207,george summers,George Summers,5,matched_existing_alias,George Somers,,
-208,iohn de,Iohn De,5,excluded,,,Fragment.
-209,widdowe smalley,Widdowe Smalley,5,curated_key,Elizabeth Smalley,,The widow Smalley.
-210,charles north,Charles North,5,curated_key,Charles North,,As on the sheet.
-211,henry southey,Henry Southey,5,curated_key,Henry Southey,,As on the sheet.
-212,robert barker,Robert Barker,5,curated_key,Robert Barker,,As on the sheet.
-213,raph hamer,Raph Hamer,5,matched_existing_alias,Ralph Hamor,,
-214,virginia companie,Virginia Companie,5,excluded,,,Institution.
-215,edward waterhouse,Edward Waterhouse,5,curated_key,Edward Waterhouse,,"Company secretary, author of the 1622 massacre Declaration."
-216,edward hurd,Edward Hurd,5,curated_key,Edward Hurd,,As on the sheet.
-217,m w,M' W,5,excluded,,,Fragment.
-218,robert killigrewe,Robert Killigrewe,5,matched_existing_alias,Robert Killigrew,,
-219,de lawarr,De Lawarr,5,matched_existing_alias,"Thomas West, Lord De La Warr",,
-220,nicholas farrar,Nicholas Farrar,5,matched_existing_alias,Nicholas Ferrar,,
-221,john martine,John Martine,5,matched_existing_alias,John Martin,,
-222,henry peyton,Henry Peyton,5,curated_key,Henry Peyton,,As on the sheet.
-223,robert johnson,Robert Johnson,5,matched_existing_alias,Robert Johnson,,
-224,st francis,St Francis,5,excluded,,,Ambiguous.
-225,m barbor,M' Barbor,5,existing_key,Gabriel Barber,,"Gabriel Barbor/Barber, Company lottery manager."
-226,thomas jones,Thomas Jones,5,curated_key,Thomas Jones,,As on the sheet.
-227,thomas button,Thomas Button,5,curated_key,Thomas Button,,"Sir Thomas Button, naval commander."
-228,robert bateman,Robert Bateman,5,matched_existing_alias,Robert Bateman,,
-229,rich berkeley,Rich Berkeley,5,matched_existing_alias,Richard Berkeley,,
-230,john boys,John Boys,5,curated_key,John Boys,,As on the sheet.
-231,robert poole,Robert Poole,5,curated_key,Robert Poole,,Interpreter in Virginia.
-232,thomas coopy,Thomas Coopy,5,curated_key,Thomas Coopy,,As on the sheet.
-233,john cole,John Cole,5,curated_key,John Cole,,As on the sheet.
-234,captayne woodleefe,Captayne Woodleefe,5,existing_key,John Woodlief,,Captain John Woodlief of Berkeley Hundred.
-235,john blanchard,John Blanchard,5,curated_key,John Blanchard,,As on the sheet.
-236,iohn woodleefe,Iohn Woodleefe,5,matched_existing_alias,John Woodlief,,
-237,walter cope,Walter Cope,5,matched_existing_alias,Walter Cope,,
-238,thomas tracy,Thomas Tracy,5,curated_key,Thomas Tracy,,Distinct from William Tracy.
-239,robert oldisworth,Robert Oldisworth,5,curated_key,Robert Oldisworth,,Spelling variants.
-240,john farrer,John Farrer,5,matched_existing_alias,John Ferrar,,
-241,john pountis,John Pountis,5,matched_existing_alias,John Pountis,,
-242,maurice barkley,Maurice Barkley,5,curated_key,Maurice Berkeley,,"Sir Maurice Berkeley, MP and Company member."
-243,roger smyth,Roger Smyth,5,existing_key,Roger Smith,,Spelling variant of Captain Roger Smith.
-244,nathaniel rieh,Nathaniel Rieh,5,matched_existing_alias,Nathaniel Rich,,
-245,william jones,William Jones,5,curated_key,William Jones,,As on the sheet.
-246,yor mat,Yor Mat,5,excluded,,,'Your Majesty'.
-247,thomas kiteley,Thomas Kiteley,5,curated_key,Thomas Kiteley,,"As on the sheet; possibly Keightley, kept separate."
-248,thomas shepheard,Thomas Shepheard,5,curated_key,Thomas Shepheard,,As on the sheet.
-249,edward hackett,Edward Hackett,5,curated_key,Edward Hackett,,As on the sheet.
-250,anthony abdy,Anthony Abdy,4,matched_existing_alias,Anthony Abdy,,
-251,generall cesill,Generall Cesill,4,curated_key,Edward Cecil,,"Sir Edward Cecil, general in the Low Countries."
-252,atturney generall,Atturney Generall,4,excluded,,,Office.
-253,marshall lawe,Marshall Lawe,4,excluded,,,Phrase.
-254,s argoll,S. Argoll,4,existing_key,Samuel Argall,,Governor Samuel Argall.
-255,robt smith,Robt Smith,4,matched_existing_alias,Robert Smith,,
-256,thomas smithes,Thomas Smithes,4,matched_existing_alias,Thomas Smythe,,
-257,secretary caluert,Secretary Caluert,4,existing_key,George Calvert,,"Sir George Calvert, Secretary of State 1619-1625."
-258,augustine steward,Augustine Steward,4,curated_key,Augustine Steward,,As on the sheet.
-259,william palmer,William Palmer,4,matched_existing_alias,William Palmer,,
-260,stephen sparrow,Stephen Sparrow,4,curated_key,Stephen Sparrow,,As on the sheet.
-261,john dauers,John Dauers,4,matched_existing_alias,John Danvers,,
-262,m gibbs,M' Gibbs,4,existing_key,Thomas Gibbs,,Only Gibbs among Company members in the records.
-263,m cranmer,M' Cranmer,4,excluded,,,Given name unknown.
-264,peter arundell,Peter Arundell,4,curated_key,Peter Arundell,,As on the sheet.
-265,robert mansell,Robert Mansell,4,curated_key,Robert Mansell,,"Sir Robert Mansell, admiral."
-266,william fleetwood,William Fleetwood,4,curated_key,William Fleetwood,,As on the sheet.
-267,nicholas hide,Nicholas Hide,4,curated_key,Nicholas Hyde,,"Nicholas Hyde, lawyer (later Lord Chief Justice)."
-268,samuel wrote,Samuel Wrote,4,matched_existing_alias,Samuel Wrote,,
-269,robert bell,Robert Bell,4,matched_existing_alias,Robert Bell,,
-270,martiall law,Martiall Law,4,excluded,,,Phrase.
-271,john zouch,John Zouch,4,curated_key,John Zouch,,"Sir John Zouch; distinct from Edward, Lord Zouch."
-272,thomas wale,Thomas Wale,4,curated_key,Thomas Wale,,As on the sheet.
-273,m casewell,M’ Casewell,4,existing_key,Richard Caswell,,Only Caswell in the records.
-274,edward harrison,Edward Harrison,4,curated_key,Edward Harrison,,As on the sheet.
-275,thomas wood,Thomas Wood,4,curated_key,Thomas Wood,,English and Latin forms; distinct from Ambrose Wood.
-276,henry rowland,Henry Rowland,4,curated_key,Henry Rowland,,As on the sheet.
-277,henry rolfe,Henry Rolfe,4,curated_key,Henry Rolfe,,Brother of John Rolfe.
-278,george sumers,George Sumers,4,matched_existing_alias,George Somers,,
-279,arthur swaine,Arthur Swaine,4,matched_existing_alias,Arthur Swayne,,
-280,m copland,M’ Copland,4,curated_key,Patrick Copland,,East India Company chaplain who raised funds for the East India School; only Copland in the records.
-281,elizabeth smalley,Elizabeth Smalley,4,curated_key,Elizabeth Smalley,,The widow Smalley.
-282,theodore wadsworth,Theodore Wadsworth,4,curated_key,Theodore Wadsworth,,As on the sheet.
-283,john harrison,John Harrison,4,curated_key,John Harrison,,As on the sheet.
-284,iohn berkley,Iohn Berkley,4,existing_key,John Berkeley,,Spelling variant.
-285,excellent ma,Excellent Ma,4,excluded,,,'Excellent Majesty'.
-286,high treasuror,High Treasuror,4,excluded,,,Office.
-287,lo padgett,Lo Padgett,4,excluded,,,Title fragment; unresolved.
-288,edward conway,Edward Conway,4,matched_existing_alias,Edward Conway,,
-289,m bennett,M’ Bennett,4,existing_key,Edward Bennett,,"Edward Bennett, merchant and planter."
-290,roger twisden,Roger Twisden,4,curated_key,Roger Twisden,,As on the sheet.
-291,m bland,M’ Bland,4,existing_key,John Bland,,"John Bland, merchant."
-292,henry mildmayes,Henry Mildmayes,4,matched_existing_alias,Henry Mildmay,,
-293,robert harley,Robert Harley,4,curated_key,Robert Harley,,Sir Robert Harley.
-294,secré caluert,Secré Caluert,4,existing_key,George Calvert,,"Sir George Calvert, Secretary of State 1619-1625."
-295,st edw,St Edw,4,excluded,,,Ambiguous.
-296,geo smith,Geo Smith,4,matched_existing_alias,George Smith,,
-297,iohn bourchier,Iohn Bourchier,4,curated_key,John Bourchier,,Sir John Bourchier.
-298,iohn procter,Iohn Procter,4,curated_key,John Procter,,As on the sheet.
-299,iohn bland,Iohn Bland,4,existing_key,John Bland,,"John Bland, merchant."
-300,iohn burgh,Iohn Burgh,4,curated_key,John Burgh,,As on the sheet.
-301,richard humble,Richard Humble,4,curated_key,Richard Humble,,As on the sheet.
-302,richard norwood,Richard Norwood,4,curated_key,Richard Norwood,,Surveyor of Bermuda.
-303,thomas newton,Thomas Newton,4,curated_key,Thomas Newton,,As on the sheet.
-304,ireland defendo,Ireland Defendo,4,excluded,,,Royal style fragment.
-305,richard casewell,Richard Casewell,4,matched_existing_alias,Richard Caswell,,
-306,maurice berkley,Maurice Berkley,4,curated_key,Maurice Berkeley,,"Sir Maurice Berkeley, MP and Company member."
-307,gabriel barbor,Gabriel Barbor,4,matched_existing_alias,Gabriel Barber,,
-308,mathew summers,Mathew Summers,4,curated_key,Matthew Somers,,Nephew and heir of Sir George Somers; distinct person.
-309,bermuda hundred,Bermuda Hundred,4,excluded,,,Place.
-310,edmond boyd,Edmond Boyd,4,matched_existing_alias,Edmond Boyd,,
-311,edward sackville,Edward Sackville,4,matched_existing_alias,Edward Sackville,,
-312,nathaniel butlers,Nathaniel Butler’s,4,existing_key,Nathaniel Butler,,Possessive form.
-313,ralph winwood,Ralph Winwood,4,matched_existing_alias,Ralph Winwood,,
-314,nathaniel butler,Nathaniel Butler,4,matched_existing_alias,Nathaniel Butler,,
-315,robert rich,Robert Rich,4,matched_existing_alias,Robert Rich,,
-316,mat carew,Mat Carew,4,excluded,,,Ambiguous fragment.
-317,thomas harris,Thomas Harris,4,matched_existing_alias,Thomas Harris,,
-318,argall commission,ARGALL. Commission,4,excluded,,,Document heading.
-319,edward barkley,Edward Barkley,4,curated_key,Edward Barkley,,As on the sheet.
-320,john eldred,John Eldred,4,curated_key,John Eldred,,As on the sheet.
-321,god king,God King,4,excluded,,,Royal style fragment.
-322,m jo,M' Jo,4,excluded,,,Fragment.
-323,m smyth,M' Smyth,4,excluded,,,Several Smyths.
-324,knight governo,Knight Governo,4,excluded,,,Fragment.
-325,joun pory,Joun Pory,4,matched_existing_alias,John Pory,,
-326,john martins,John Martin’s,4,matched_existing_alias,John Martin,,
-327,richard partridge,Richard Partridge,4,curated_key,Richard Partridge,,As on the sheet.
-328,st willm,St Willm,4,excluded,,,Ambiguous.
-329,m carter,M' Carter,4,excluded,,,Several Carters.
-330,thomas denton,Thomas Denton,4,curated_key,Thomas Denton,,As on the sheet.
-331,thomas thorpe,Thomas Thorpe,4,curated_key,Thomas Thorpe,,Distinct from George Thorpe.
-332,richard berk,Richard Berk,4,matched_existing_alias,Richard Berkeley,,
-333,a b,A. B,4,excluded,,,Placeholder initials.
-334,wii tracy,Wii Tracy,4,matched_existing_alias,William Tracy,,
-335,george coppin,George Coppin,4,curated_key,George Coppin,,As on the sheet.
-336,amias preston,Amias Preston,4,curated_key,Amias Preston,,As on the sheet.
-337,robert parkhurst,Robert Parkhurst,4,curated_key,Robert Parkhurst,,As on the sheet.
-338,george robins,George Robins,4,curated_key,George Robins,,As on the sheet.
-339,thomas shipton,Thomas Shipton,4,matched_existing_alias,Thomas Shipton,,
-340,thomas kemis,Thomas Kemis,4,curated_key,Thomas Kemis,,As on the sheet.
-341,robt oldisworth,Robt Oldisworth,4,curated_key,Robert Oldisworth,,Spelling variants.
-342,james cittye,James Cittye,4,excluded,,,Place.
-343,nicolas hydes,Nicolas Hydes,4,curated_key,Nicholas Hyde,,"Nicholas Hyde, lawyer (later Lord Chief Justice)."
-344,in virginia,IN VIRGINIA,4,excluded,,,Heading.
-345,john bounall,John Bounall,4,matched_existing_alias,John Bonnall,,
-346,isack maddison,Isack Maddison,4,curated_key,Isaac Madison,,Captain Isaac Madison.
-347,john carter,John Carter,4,curated_key,John Carter,,Distinct from Francis Carter.
-348,colony seale,Colony Seale,4,excluded,,,Object.
-349,nathaniel richs,Nathaniel Rich’s,4,matched_existing_alias,Nathaniel Rich,,
-350,james river,James River,4,excluded,,,Place.
-351,franeis wyatt,Franeis Wyatt,4,matched_existing_alias,Francis Wyatt,,
-352,ricardus bull,Ricardus Bull,4,existing_key,Richard Bull,,Latin form.
-353,edwardus ryder,Edwardus Ryder,4,curated_key,Edward Ryder,,English and Latin forms.
-354,richard tomlyns,Richard Tomlyns,4,curated_key,Richard Tomlins,,Spelling variants.
-355,john harvey,John Harvey,4,matched_existing_alias,John Harvey,,
-356,secretarie caluert,Secretarie Caluert,3,existing_key,George Calvert,,"Sir George Calvert, Secretary of State 1619-1625."
-357,edward harwood,Edward Harwood,3,curated_key,Edward Harwood,,As on the sheet.
-358,gabriell barbor,Gabriell Barbor,3,existing_key,Gabriel Barber,,"Gabriel Barbor/Barber, Company lottery manager."
-359,alder iohnson,Alder Iohnson,3,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
-360,edward ditchfield,Edward Ditchfield,3,matched_existing_alias,Edward Ditchfield,,
-361,generall cecill,Generall Cecill,3,curated_key,Edward Cecil,,"Sir Edward Cecil, general in the Low Countries."
-362,robert earle,Robert Earle,3,excluded,,,Truncated; see Robert Rich extra alias.
-363,xo brooke,Xo Brooke,3,matched_existing_alias,Christopher Brooke,,
-364,s iohn dauers,S'Iohn Dauers,3,matched_existing_alias,John Danvers,,
-365,d anthony,D' Anthony,3,excluded,,,Ambiguous.
-366,iohn delbridge,Iohn Delbridge,3,existing_key,John Delbridge,,Spelling variant.
-367,cranmer s,Cranmer. S,3,excluded,,,Fragment.
-368,anthony aucher,Anthony Aucher,3,curated_key,Anthony Aucher,,Sir Anthony Aucher.
-369,m rich,M' Rich,3,excluded,,,Robert or Nathaniel Rich.
-370,james swifte,James Swifte,3,curated_key,James Swifte,,As on the sheet.
-371,m caninge,M’ Caninge,3,excluded,,,Given name unknown.
-372,m keightley,M' Keightley,3,existing_key,Thomas Keightley,,Only Keightley in the records.
-373,iohn archer,Iohn Archer,3,curated_key,John Archer,,As on the sheet.
-374,bull s,Bull. S,3,excluded,,,Fragment.
-375,abraham chamberlyn,Abraham Chamberlyn,3,matched_existing_alias,Abraham Chamberlaine,,
-376,dudley digge,Dudley Digge,3,matched_existing_alias,Dudley Digges,,
-377,george tucker,George Tucker,3,curated_key,George Tucker,,Distinct from Daniel and William Tucker.
-378,ferdinando gorge,Ferdinando Gorge,3,matched_existing_alias,Ferdinando Gorges,,
-379,marmaduke rayner,Marmaduke Rayner,3,curated_key,Marmaduke Rayner,,As on the sheet.
-380,iohn bargraue,Iohn Bargraue,3,existing_key,John Bargrave,,Captain John Bargrave.
-381,abraham peirsey,Abraham Peirsey,3,matched_existing_alias,Abraham Piersey,,
-382,elizabeth cittie,Elizabeth Cittie,3,excluded,,,Place.
-383,henry brigs,Henry Brigs,3,matched_existing_alias,Henry Briggs,,
-384,cap argoll,Cap Argoll,3,existing_key,Samuel Argall,,Governor Samuel Argall.
-385,george ruggle,George Ruggle,3,matched_existing_alias,George Ruggle,,
-386,pagett s,Pagett. S,3,excluded,,,Fragment.
-387,st henry,St Henry,3,excluded,,,Ambiguous.
-388,william waller,William Waller,3,curated_key,William Waller,,As on the sheet.
-389,dudley digs,Dudley Digs,3,matched_existing_alias,Dudley Digges,,
-390,iames bagg,Iames Bagg,3,curated_key,James Bagg,,Sir James Bagg.
-391,iohn gray,Iohn Gray,3,curated_key,John Gray,,As on the sheet.
-392,william mounson,William Mounson,3,curated_key,William Mounson,,Sir William Monson.
-393,phillip carey,Phillip Carey,3,matched_existing_alias,Philip Carew,,
-394,luke burden,Luke Burden,3,curated_key,Luke Burden,,As on the sheet.
-395,south my,South- My,3,excluded,,,Fragment.
-396,his lo,His Lo,3,excluded,,,Title only.
-397,abraham chamberlin,Abraham Chamberlin,3,matched_existing_alias,Abraham Chamberlaine,,
-398,mathew somers,Mathew Somers,3,curated_key,Matthew Somers,,Nephew and heir of Sir George Somers; distinct person.
-399,richard grobham,Richard Grobham,3,curated_key,Richard Grobham,,Sir Richard Grobham.
-400,gabriell wisher,Gabriell Wisher,3,curated_key,Gabriel Wisher,,As on the sheet.
-401,thomas sandys,Thomas Sandys,3,curated_key,Thomas Sandys,,"Distinct from Edwin, George and Samuel Sandys."
-402,richard bulkley,Richard Bulkley,3,curated_key,Richard Bulkley,,As on the sheet.
-403,thomas newce,Thomas Newce,3,matched_existing_alias,Thomas Newce,,
-404,john berkly,John Berkly,3,matched_existing_alias,John Berkeley,,
-405,edwin sandye,Edwin Sandye,3,matched_existing_alias,Edwin Sandys,,
-406,st william,St William,3,excluded,,,Ambiguous.
-407,secretary dauison,Secretary Dauison,3,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
-408,ambrose wood,Ambrose Wood,3,matched_existing_alias,Ambrose Wood,,
-409,georg sandys,Georg Sandys,3,matched_existing_alias,George Sandys,,
-410,deputy ferrar,Deputy Ferrar,3,excluded,,,Office held by both John and Nicholas Ferrar.
-411,thomas webb,Thomas Webb,3,curated_key,Thomas Webb,,Distinct from William Webb.
-412,bona speranza,Bona Speranza,3,excluded,,,Ship/cape.
-413,m woodall,M’ Woodall,3,excluded,,,Given name unknown.
-414,abraham chamberlen,Abraham Chamberlen,3,matched_existing_alias,Abraham Chamberlaine,,
-415,secré dauison,Secré Dauison,3,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
-416,m waterhowse,M’ Waterhowse,3,curated_key,Edward Waterhouse,,"Company secretary, author of the 1622 massacre Declaration."
-417,abraham chamblen,Abraham Chamblen,3,matched_existing_alias,Abraham Chamberlaine,,
-418,patrick copland,Patrick Copland,3,curated_key,Patrick Copland,,East India Company chaplain who raised funds for the East India School; only Copland in the records.
-419,george mole,George Mole,3,matched_existing_alias,George Mole,,
-420,clement wilmer,Clement Wilmer,3,curated_key,Clement Wilmer,,As on the sheet.
-421,george wilmer,George Wilmer,3,curated_key,George Wilmer,,As on the sheet.
-422,m roberts,M’ Roberts,3,excluded,,,Several Roberts.
-423,io smith,Io Smith,3,excluded,,,Several Smiths.
-424,captayne argoll,Captayne Argoll,3,existing_key,Samuel Argall,,Governor Samuel Argall.
-425,robert ihonson,Robert Ihonson,3,matched_existing_alias,Robert Johnson,,
-426,argalls shippe,Argalls Shippe,3,excluded,,,Ship reference.
-427,martin prin,Martin Prin,3,curated_key,Martin Pring,,Captain Martin Pring.
-428,mary tue,Mary Tue,3,curated_key,Mary Tue,,As on the sheet.
-429,edward palmer,Edward Palmer,3,curated_key,Edward Palmer,,Distinct from William Palmer.
-430,m john,M' John,3,excluded,,,Fragment.
-431,arthur leuellis,Arthur Leuellis,3,curated_key,Arthur Leuellis,,As on the sheet.
-432,wrotes proiect,Wrotes Proiect,3,excluded,,,Document.
-433,humfrey handford,Humfrey Handford,3,curated_key,Humphrey Handford,,Spelling standardized.
-434,st samuell,St Samuell,3,excluded,,,Ambiguous.
-435,privy counsell,Privy Counsell,3,excluded,,,Body.
-436,sole importaéon,Sole Importaéon,3,excluded,,,Phrase.
-437,james butler,James Butler,3,curated_key,James Butler,,Distinct from Nathaniel Butler.
-438,thomas culpepper,Thomas Culpepper,3,curated_key,Thomas Culpepper,,As on the sheet.
-439,edward spencer,Edward Spencer,3,curated_key,Edward Spencer,,As on the sheet.
-440,edward horwood,Edward Horwood,3,curated_key,Edward Horwood,,As on the sheet.
-441,n rich,N. Rich,3,matched_existing_alias,Nathaniel Rich,,
-442,william nuce,William Nuce,3,matched_existing_alias,William Newce,,
-443,iohn prynn,Iohn Prynn,3,curated_key,John Prynn,,As on the sheet.
-444,richard perry,Richard Perry,3,curated_key,Richard Perry,,As on the sheet.
-445,michaelmas term,Michaelmas Term,3,excluded,,,Law term.
-446,m berkley,M' Berkley,3,excluded,,,Several Berkeleys.
-447,richard wither,Richard Wither,3,curated_key,Richard Wither,,As on the sheet.
-448,william capps,William Capps,3,matched_existing_alias,William Capps,,
-449,ed sandys,Ed. Sandys,3,matched_existing_alias,Edwin Sandys,,
-450,common prayer,Common Prayer,3,excluded,,,Phrase.
-451,cape cod,Cape Cod,3,excluded,,,Place.
-452,charles hundred,Charles Hundred,3,excluded,,,Place.
-453,treasurer middlesex,Treasurer Middlesex,3,curated_key,"Lionel Cranfield, Earl of Middlesex",,"Lord Treasurer Middlesex, 1621-1624."
-454,president mandeville,President Mandeville,3,curated_key,"Henry Montagu, Viscount Mandeville",,Lord President of the Council from 1621.
-455,thomas smythe,Thomas Smythe,3,matched_existing_alias,Thomas Smythe,,
-456,newberry library,Newberry Library,3,excluded,,,Archive.
-457,william throckmorton,William Throckmorton,3,matched_existing_alias,William Throckmorton,,
-458,bonny bess,Bonny Bess,3,excluded,,,Ship.
-459,london merchant,London Merchant,3,excluded,,,Ship.
-460,high treasurer,High Treasurer,3,excluded,,,Office.
-461,john tavernor,John Tavernor,3,curated_key,John Tavernor,,As on the sheet.
-462,capten newport,Capten Newport,3,existing_key,Christopher Newport,,Captain Christopher Newport.
-463,queene elizabeth,Queene Elizabeth,3,curated_key,Elizabeth I,,Queen Elizabeth.
-464,james bryarley,James Bryarley,3,matched_existing_alias,James Bryarley,,
-465,nicholas wheeler,Nicholas Wheeler,3,curated_key,Nicholas Wheeler,,Distinct from John Wheeler.
-466,raphe hamor,Raphe Hamor,3,matched_existing_alias,Ralph Hamor,,
-467,edward woller,Edward Woller,3,curated_key,Edward Woller,,As on the sheet.
-468,elias roberts,Elias Roberts,3,curated_key,Elias Roberts,,As on the sheet.
-469,john trevor,John Trevor,3,curated_key,John Trevor,,Sir John Trevor.
-470,william atkinson,William Atkinson,3,curated_key,William Atkinson,,As on the sheet.
-471,thomas allen,Thomas Allen,3,curated_key,Thomas Allen,,As on the sheet.
-472,robert bowyer,Robert Bowyer,3,curated_key,Robert Bowyer,,As on the sheet.
-473,george butler,George Butler,3,curated_key,George Butler,,Distinct from Nathaniel Butler.
-474,richard champion,Richard Champion,3,curated_key,Richard Champion,,As on the sheet.
-475,henry cromwell,Henry Cromwell,3,curated_key,Henry Cromwell,,As on the sheet.
-476,john cooper,John Cooper,3,curated_key,John Cooper,,As on the sheet.
-477,john cooke,John Cooke,3,curated_key,John Cooke,,As on the sheet.
-478,thomas coventry,Thomas Coventry,3,matched_existing_alias,Thomas Coventry,,
-479,robert hill,Robert Hill,3,curated_key,Robert Hill,,As on the sheet.
-480,francis leigh,Francis Leigh,3,curated_key,Francis Leigh,,As on the sheet.
-481,peter latham,Peter Latham,3,curated_key,Peter Latham,,As on the sheet.
-482,john mericke,John Mericke,3,curated_key,John Mericke,,As on the sheet.
-483,arthur mannering,Arthur Mannering,3,curated_key,Arthur Mannering,,Sir Arthur Mainwaring.
-484,henry nevill,Henry Nevill,3,curated_key,Henry Nevill,,As on the sheet.
-485,henry price,Henry Price,3,curated_key,Henry Price,,As on the sheet.
-486,henry robinson,Henry Robinson,3,curated_key,Henry Robinson,,Distinct from John Robinson.
-487,john russell,John Russell,3,curated_key,John Russell,,As on the sheet.
-488,robert robinson,Robert Robinson,3,curated_key,Robert Robinson,,Distinct from John Robinson.
-489,henry shelley,Henry Shelley,3,curated_key,Henry Shelley,,As on the sheet.
-490,walter shelley,Walter Shelley,3,curated_key,Walter Shelley,,As on the sheet.
-491,charles towler,Charles Towler,3,curated_key,Charles Towler,,As on the sheet.
-492,richard tomlins,Richard Tomlins,3,curated_key,Richard Tomlins,,Spelling variants.
-493,edward webb,Edward Webb,3,curated_key,Edward Webb,,Distinct from William Webb.
-494,edward welch,Edward Welch,3,curated_key,Edward Welch,,As on the sheet.
-495,william cradock,William Cradock,3,matched_existing_alias,William Cradock,,
-496,m bargrave,M’ Bargrave,3,existing_key,John Bargrave,,Captain John Bargrave.
-497,england scotland,England Scotland,3,excluded,,,Places.
-498,ensigne harrison,Ensigne Harrison,3,excluded,,,Several Harrisons.
-499,thomas dales,Thomas Dales,3,matched_existing_alias,Thomas Dale,,
-500,walter hampton,Walter Hampton,3,curated_key,Walter Hampton,,As on the sheet.
-501,thomas peirse,Thomas Peirse,3,curated_key,Thomas Peirse,,As on the sheet.
-502,captayne iohn,Captayne Iohn,3,excluded,,,Fragment.
-503,edward williams,Edward Williams,3,curated_key,Edward Williams,,As on the sheet.
-504,tohn taylor,Tohn Taylor,3,curated_key,John Taylor,,OCR T for J.
-505,george yeardleys,George Yeardleys,3,matched_existing_alias,George Yeardley,,
-506,st e,St E,3,excluded,,,Ambiguous.
-507,james cytie,James Cytie,3,excluded,,,Place.
-508,edwin sands,Edwin Sands,3,matched_existing_alias,Edwin Sandys,,
-509,charles citie,Charles Citie,3,excluded,,,Place.
-510,miles bankes,Miles Bankes,3,curated_key,Miles Bankes,,As on the sheet.
-511,william brewster,William Brewster,3,matched_existing_alias,William Brewster,,
-512,henry cary,Henry Cary,3,curated_key,Henry Cary,,Distinct from Philip Carew.
-513,edward cecill,Edward Cecill,3,curated_key,Edward Cecil,,"Sir Edward Cecil, general in the Low Countries."
-514,john digby,John Digby,3,matched_existing_alias,John Digby,,
-515,william garaway,William Garaway,3,curated_key,William Garway,,"Sir William Garway, customs farmer."
-516,robert killegrew,Robert Killegrew,3,matched_existing_alias,Robert Killigrew,,
-517,thomas leuer,Thomas Leuer,3,curated_key,Thomas Lever,,u/v spelling standardized.
-518,thomas mildmay,Thomas Mildmay,3,matched_existing_alias,Thomas Mildmay,,
-519,arthur mouse,Arthur Mouse,3,curated_key,Arthur Mouse,,As on the sheet.
-520,millicent ramsden,Millicent Ramsden,3,curated_key,Millicent Ramsden,,As on the sheet.
-521,william sharpe,William Sharpe,3,matched_existing_alias,William Sharpe,,
-522,nicholas salter,Nicholas Salter,3,curated_key,Nicholas Salter,,As on the sheet.
-523,comon seale,Comon Seale,3,excluded,,,Object.
-524,sithes lane,Sithes Lane,3,excluded,,,Place.
-525,arnold oldisworth,Arnold Oldisworth,3,curated_key,Arnold Oldisworth,,As on the sheet.
-526,m tracy,M' Tracy,3,excluded,,,"William, Thomas or Mary Tracy."
-527,robt bisaker,Robt Bisaker,3,curated_key,Robert Bisaker,,As on the sheet.
-528,richard hopkins,Richard Hopkins,3,curated_key,Richard Hopkins,,As on the sheet.
-529,mary tracy,Mary Tracy,3,curated_key,Mary Tracy,,Distinct from William Tracy.
-530,arthur kemis,Arthur Kemis,3,curated_key,Arthur Kemis,,As on the sheet.
-531,george keene,George Keene,3,curated_key,George Keene,,As on the sheet.
-532,elizabeth webbe,Elizabeth Webbe,3,curated_key,Elizabeth Webbe,,As on the sheet.
-533,richard holland,Richard Holland,3,curated_key,Richard Holland,,As on the sheet.
-534,richard dutton,Richard Dutton,3,curated_key,Richard Dutton,,As on the sheet.
-535,richard rowles,Richard Rowles,3,curated_key,Richard Rowles,,As on the sheet.
-536,thomas baugh,Thomas Baugh,3,curated_key,Thomas Baugh,,As on the sheet.
-537,giles wilkins,Giles Wilkins,3,curated_key,Giles Wilkins,,As on the sheet.
-538,edward bruister,Edward Bruister,3,matched_existing_alias,Edward Brewster,,
-539,robert pawlett,Robert Pawlett,3,curated_key,Robert Pawlett,,Spelling variants.
-540,george harrison,George Harrison,3,curated_key,George Harrison,,As on the sheet.
-541,james city,James City,3,excluded,,,Place.
-542,george thorp,George Thorp,3,matched_existing_alias,George Thorpe,,
-543,secretarie calvert,Secretarie Calvert,3,existing_key,George Calvert,,"Sir George Calvert, Secretary of State 1619-1625."
-544,james riuer,James Riuer,3,excluded,,,Place.
-545,liuetennt whittakers,Liuetennt Whittakers,3,curated_key,Jabez Whitaker,,"Lieutenant Jabez Whitaker, commander at Kecoughtan."
-546,richard pace,Richard Pace,3,matched_existing_alias,Richard Pace,,
-547,arthur guye,Arthur Guye,3,matched_existing_alias,Arthur Guy,,
-548,robert joakly,Robert Joakly,3,curated_key,Robert Joakly,,As on the sheet.
-549,john packsall,John Packsall,3,curated_key,John Packsall,,As on the sheet.
-550,richard weston,Richard Weston,3,curated_key,Richard Weston,,"Sir Richard Weston, Chancellor of the Exchequer."
-551,john huddleston,John Huddleston,3,curated_key,John Huddleston,,Ship captain who relieved the colony in 1622.
-552,m patrick,M. Patrick,3,curated_key,Patrick Copland,,East India Company chaplain who raised funds for the East India School; only Copland in the records.
-553,thomas hobson,Thomas Hobson,3,curated_key,Thomas Hobson,,As on the sheet.
-554,william payne,William Payne,3,curated_key,William Payne,,As on the sheet.
-555,john dike,John Dike,3,curated_key,John Dike,,As on the sheet.
-556,john badger,John Badger,3,curated_key,John Badger,,As on the sheet.
-557,davison seer,Davison Seer,3,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
-558,davison secr,Davison Secr,3,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
-559,nicholas farrer,Nicholas Farrer,3,matched_existing_alias,Nicholas Ferrar,,
-560,nicholas elford,Nicholas Elford,3,curated_key,Nicholas Elford,,As on the sheet.
-561,robert benet,Robert Benet,3,curated_key,Robert Benet,,As on the sheet.
-562,jonn martin,Jonn Martin,3,matched_existing_alias,John Martin,,
-563,sr thomas,Sr Thomas,3,excluded,,,Ambiguous.
-564,aldran johnson,Aldran Johnson,3,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
-565,his ma,His Ma,3,excluded,,,'His Majesty'.
-566,goodman jackson,Goodman Jackson,3,excluded,,,Given name unknown.
-567,grorce sanpys,Grorce Sanpys,3,matched_existing_alias,George Sandys,,
-568,m wrott,M' Wrott,3,excluded,,,Wrote or Wroth.
-569,g sandys,G. Sandys,3,existing_key,George Sandys,,Initialled form.
-570,john worstenholme,John Worstenholme,3,matched_existing_alias,John Wolstenholme,,
-571,thomas styles,Thomas Styles,3,matched_existing_alias,Thomas Styles,,
-572,anthony abdye,Anthony Abdye,3,matched_existing_alias,Anthony Abdy,,
-573,william douglas,William Douglas,3,curated_key,William Douglas,,As on the sheet.
-574,gilbert peppett,Gilbert Peppett,3,curated_key,Gilbert Peppett,,As on the sheet.
-575,grivell pooley,Grivell Pooley,3,curated_key,Greville Pooley,,Minister Greville Pooley; only Pooley in the records.
-576,m pooley,M' Pooley,3,curated_key,Greville Pooley,,Minister Greville Pooley; only Pooley in the records.
-577,john cuffe,John Cuffe,3,matched_existing_alias,John Cuffe,,
-578,samuell mathews,Samuell Mathews,3,curated_key,Samuel Mathews,,"Planter, later councillor."
-579,m covell,M' Covell,3,excluded,,,Given name unknown.
-580,john hart,John Hart,3,matched_existing_alias,John Hart,,
-581,johannes danvers,Johannes Danvers,3,matched_existing_alias,John Danvers,,
-582,ricardus caswell,Ricardus Caswell,3,matched_existing_alias,Richard Caswell,,
-583,georgius seott,Georgius Seott,3,matched_existing_alias,George Scott,,
-584,willelmus nicholls,Willelmus Nicholls,3,curated_key,William Nicholls,,English and Latin forms.
-585,willelmus ewens,Willelmus Ewens,3,matched_existing_alias,William Ewens,,
-586,gilbertus morewood,Gilbertus Morewood,3,curated_key,Gilbert Morewood,,English and Latin forms.
-587,edmundus morgan,Edmundus Morgan,3,curated_key,Edmund Morgan,,English and Latin forms.
-588,roberto johnson,Roberto Johnson,3,matched_existing_alias,Robert Johnson,,
-589,thome wood,Thome Wood,3,curated_key,Thomas Wood,,English and Latin forms; distinct from Ambrose Wood.
-590,sancte trinitatis,Sancte Trinitatis,3,excluded,,,Latin phrase.
-591,thome coventrye,Thome Coventrye,3,existing_key,Thomas Coventry,,Latin genitive of Thomas Coventry.
-592,william nicholls,William Nicholls,3,curated_key,William Nicholls,,English and Latin forms.
-593,george smyth,George Smyth,3,existing_key,George Smith,,Spelling variant.
-594,edmund morgan,Edmund Morgan,3,curated_key,Edmund Morgan,,English and Latin forms.
-595,george seott,George Seott,3,matched_existing_alias,George Scott,,
-596,edward maria,Edward Maria,3,existing_key,Edward Maria Wingfield,,Truncated 'Edward Maria Wingfield'.
-597,john johnson,John Johnson,3,curated_key,John Johnson,,Distinct from Robert Johnson.
-598,ralph hamor,Ralph Hamor,3,matched_existing_alias,Ralph Hamor,,
-599,nicholas marrer,Nicholas Marrer,3,matched_existing_alias,Nicholas Ferrar,,
-600,win tucker,Win Tucker,3,matched_existing_alias,William Tucker,,
-601,john marttin,John Marttin,3,matched_existing_alias,John Martin,,
-602,jane dickenson,Jane Dickenson,3,curated_key,Jane Dickenson,,Captive after the 1622 attack.
-603,julius cesar,Julius Cesar,3,curated_key,Julius Caesar,,"Sir Julius Caesar, Master of the Rolls."
-604,james r,James R,3,existing_key,James I,,Royal signature 'James R.' (Rex).
-605,william pitt,William Pitt,3,curated_key,William Pitt,,As on the sheet.
+1,m wrote,m’ Wrote,334,existing_key,Samuel Wrote,m* Wrote|m™ Wrote|m'* Wrote|m*™ Wrote,Mr Samuel Wrote of the 1623 Company disputes; no other Wrote in the records.
+2,edwin sandys,Edwin Sandys,304,matched_existing_alias,Edwin Sandys,,
+3,m gibbs,m’ Gibbs,133,existing_key,Thomas Gibbs,m* Gibbs|m'* Gibbs|m’* Gibbs|m'’ Gibbs|m™ Gibbs,Only Gibbs among Company members in the records.
+4,m caswell,m* Caswell,131,existing_key,Richard Caswell,m* Caswell|m'* Caswell|m’* Caswell|m'’ Caswell,Only Caswell in the records.
+5,iohn dauers,Iohn Dauers,127,matched_existing_alias,John Danvers,Iohn: Dauers|S' Iohn: Dauers,
+6,thomas smith,Thomas Smith,126,matched_existing_alias,Thomas Smythe,,
+7,george yeardley,George Yeardley,120,matched_existing_alias,George Yeardley,,
+8,m mellinge,m’ Mellinge,108,existing_key,Thomas Melling,m* Mellinge|m’* Mellinge|m'* Mellinge|m'’ Mellinge,Only Melling in the records.
+9,ea of southampton,Ea: of Southampton,100,matched_existing_alias,Henry Wriothesley,,
+10,m meuerell,m* Meuerell,88,unreviewed,,,
+11,francis wyatt,Francis Wyatt,87,matched_existing_alias,Francis Wyatt,,
+12,m bull,m’ Bull,85,unreviewed,,,
+13,george thorpe,George Thorpe,83,matched_existing_alias,George Thorpe,George §Thorpe§,
+14,m wiseman,m* Wiseman,78,unreviewed,,,
+15,george sandys,George Sandys,75,matched_existing_alias,George Sandys,,
+16,m berblock,m’ Berblock,74,unreviewed,,,
+17,m bland,m’ Bland,74,existing_key,John Bland,m* Bland|m’* Bland|m'* Bland|m'’ Bland,"John Bland, merchant."
+18,john ferrar,John Ferrar,72,matched_existing_alias,John Ferrar,,
+19,m cuffe,m’ Cuffe,72,unreviewed,,,
+20,io dauers,Io: Dauers,67,unreviewed,,,
+21,geo smith,Geo: Smith,66,matched_existing_alias,George Smith,Geo: Smith|m’ Geo: Smith|m' Geo: Smith|m* Geo: Smith|Geo. Smith|m'* Geo: Smith|m* Geo. Smith,
+22,m widdowes,m’ Widdowes,66,unreviewed,,,
+23,john smyth,John Smyth,63,existing_key,John Smyth of Nibley,,"Named with Berkeley, Thorpe, Throckmorton and Yeardley in the Berkeley Hundred grants and indentures."
+24,m barbo,m’ Barbo,62,unreviewed,,,
+25,smyth of nibley,Smyth of Nibley,60,matched_existing_alias,John Smyth of Nibley,,
+26,alderman johnson,Alderman Johnson,58,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
+27,edwin sandis,Edwin Sandis,56,matched_existing_alias,Edwin Sandys,,
+28,m rogers,m’ Rogers,55,unreviewed,,,
+29,m withers,m’ Withers,54,unreviewed,,,
+30,m bennett,m* Bennett,53,existing_key,Edward Bennett,"m* Bennett|m'* Bennett|m’* Bennett|m"" Bennett","Edward Bennett, merchant and planter."
+31,m casewell,m’ Casewell,51,existing_key,Richard Caswell,m* Casewell|m'* Casewell|m’* Casewell|m'’ Casewell,Only Caswell in the records.
+32,capt bargraue,Capt: Bargraue,50,unreviewed,,,
+33,ro smith,Ro: Smith,50,unreviewed,,,
+34,m tomlins,m’ Tomlins,49,unreviewed,,,
+35,m couell,m* Couell,49,unreviewed,,,
+36,m palmer,m* Palmer,49,unreviewed,,,
+37,st edwin,St Edwin,49,existing_key,Edwin Sandys,,'S' Edwin' (Sir Edwin) in the records is Sir Edwin Sandys.
+38,m hackett,m* Hackett,49,unreviewed,,,
+39,m copland,m’ Copland,47,curated_key,Patrick Copland,m* Copland|m’* Copland|m'* Copland,East India Company chaplain who raised funds for the East India School; only Copland in the records.
+40,francis wyatt knight,Francis Wyatt knight,47,matched_existing_alias,Francis Wyatt,,
+41,m woodall,m’ Woodall,46,excluded,,,Given name unknown.
+42,george yardley,George Yardley,46,matched_existing_alias,George Yeardley,,
+43,earle of southampton,Earle of Southampton,45,matched_existing_alias,Henry Wriothesley,,
+44,m barbor,m’ Barbor,45,existing_key,Gabriel Barber,M* Barbor|m’* Barbor|m'* Barbor,"Gabriel Barbor/Barber, Company lottery manager."
+45,nath rich,Nath: Rich,44,matched_existing_alias,Nathaniel Rich,Nath: Rich|S' Nath: Rich|S’ Nath: Rich|S* Nath: Rich,
+46,m newport,m* Newport,44,unreviewed,,,
+47,capt martin,Capt: Martin,44,unreviewed,,,
+48,m keightley,m’ Keightley,42,existing_key,Thomas Keightley,"m* Keightley|m'* Keightley|m"" Keightley",Only Keightley in the records.
+49,m roberte,m* Roberte,42,unreviewed,,,
+50,m baynham,m* Baynham,42,unreviewed,,,
+51,epwin sanpys,Epwin Sanpys,41,matched_existing_alias,Edwin Sandys,,
+52,m webb,m* Webb,41,unreviewed,,,
+53,m scott,m' Scott,41,unreviewed,,,
+54,m sparrowe,m’ Sparrowe,40,unreviewed,,,
+55,john smith,John Smith,40,excluded,,,Bare/'Mr' John Smith is not reliably Captain John Smith; titled Captain forms are already aliases.
+56,m ley,m’ Ley,39,unreviewed,,,
+57,captaine argoll,Captaine Argoll,37,matched_existing_alias,Samuel Argall,,
+58,thomas gates,Thomas Gates,37,matched_existing_alias,Thomas Gates,,
+59,m sheppard,m’ Sheppard,37,unreviewed,,,
+60,m essington,m* Essington,36,unreviewed,,,
+61,alderman iohnson,Alderman Iohnson,35,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
+62,m bromefeild,m’ Bromefeild,35,unreviewed,,,
+63,edwyn sandys,Edwyn Sandys,35,matched_existing_alias,Edwin Sandys,,
+64,john fferrar,John fferrar,34,matched_existing_alias,John Ferrar,,
+65,nicholas ferrar,Nicholas Ferrar,34,matched_existing_alias,Nicholas Ferrar,,
+66,edward sackuill,Edward Sackuill,34,matched_existing_alias,Edward Sackville,,
+67,captaine argall,Captaine Argall,34,unreviewed,,,
+68,m white,m’ White,34,unreviewed,,,
+69,tho wroth,Tho: Wroth,33,unreviewed,,,
+70,james i,James I,33,matched_existing_alias,James I,,
+71,io wolstenholme,Io: Wolstenholme,32,matched_existing_alias,John Wolstenholme,,
+72,my lord of southampton,my Lord of Southampton,32,matched_existing_alias,Henry Wriothesley,,
+73,iohn smyth,Iohn Smyth,32,existing_key,John Smyth of Nibley,,"Named with Berkeley, Thorpe, Throckmorton and Yeardley in the Berkeley Hundred grants and indentures."
+74,nicho ffarrar,Nicho: ffarrar,32,unreviewed,,,
+75,m berblocke,m’ Berblocke,31,unreviewed,,,
+76,m webbe,m* Webbe,31,unreviewed,,,
+77,roger smith,Roger Smith,31,matched_existing_alias,Roger Smith,,
+78,raph hamor,Raph Hamor,31,matched_existing_alias,Ralph Hamor,,
+79,m ditchfeild,m’ Ditchfeild,30,unreviewed,,,
+80,m moorer,m* Moorer,30,unreviewed,,,
+81,m wroth,m’ Wroth,30,unreviewed,,,
+82,m rider,m’ Rider,30,unreviewed,,,
+83,m darnelly,m’ Darnelly,29,unreviewed,,,
+84,m gibbes,m’ Gibbes,29,unreviewed,,,
+85,m ewens,m* Ewens,29,unreviewed,,,
+86,m ayres,m’ Ayres,29,unreviewed,,,
+87,nich ffarrar,Nich: ffarrar,29,unreviewed,,,
+88,m wilmer,m* Wilmer,29,unreviewed,,,
+89,m wheatley,m* Wheatley,28,unreviewed,,,
+90,robert smith,Robert Smith,28,matched_existing_alias,Robert Smith,,
+91,m barker,m’ Barker,28,unreviewed,,,
+92,john woodleefe,John Woodleefe,28,matched_existing_alias,John Woodlief,,
+93,my lo of southampton,my Lo: of Southampton,27,matched_existing_alias,Henry Wriothesley,,
+94,capt argall,Capt: Argall,27,matched_existing_alias,Samuel Argall,Capt: Argall|Capt Argall,
+95,m roberté,m’ Roberté,27,unreviewed,,,
+96,m ffelgate,m’ ffelgate,27,unreviewed,,,
+97,richard berkeley,Richard Berkeley,27,matched_existing_alias,Richard Berkeley,,
+98,m wheatly,m’ Wheatly,26,unreviewed,,,
+99,m steward,m’ Steward,26,unreviewed,,,
+100,capt tucker,Capt Tucker,26,unreviewed,,,
+101,m herbert,m’ Herbert,26,unreviewed,,,
+102,captaine martin,Captaine Martin,26,unreviewed,,,
+103,m roberts,m’ Roberts,25,excluded,,,Several Roberts.
+104,thomas dale,Thomas Dale,25,matched_existing_alias,Thomas Dale,,
+105,m seaward,m’ Seaward,25,unreviewed,,,
+106,m waterhowse,m’ Waterhowse,25,curated_key,Edward Waterhouse,m* Waterhowse|m’* Waterhowse|m*’ Waterhowse,"Company secretary, author of the 1622 massacre Declaration."
+107,edw sackuill,Edw: Sackuill,25,unreviewed,,,
+108,m kirby,m’ Kirby,25,unreviewed,,,
+109,nathaniel rich,Nathaniel Rich,25,matched_existing_alias,Nathaniel Rich,,
+110,thomas smiths,Thomas Smiths,24,matched_existing_alias,Thomas Smythe,,
+111,d winstone,D* Winstone,24,curated_key,Thomas Winston,D* Winstone|D*: Winstone|D': Winstone,"Dr Thomas Winston, physician and Company member."
+112,m balmford,m’ Balmford,24,unreviewed,,,
+113,m whitley,m’ Whitley,24,unreviewed,,,
+114,george smith,George Smith,24,matched_existing_alias,George Smith,,
+115,nicholas fferrar,Nicholas fferrar,24,matched_existing_alias,Nicholas Ferrar,,
+116,m leuer,m* Leuer,24,unreviewed,,,
+117,m paulavicine,m’ Paulavicine,24,unreviewed,,,
+118,io brooke,Io: Brooke,24,unreviewed,,,
+119,thomas smyth,Thomas Smyth,24,matched_existing_alias,Thomas Smythe,,
+120,william tucker,William Tucker,24,matched_existing_alias,William Tucker,,
+121,tho smith,Tho: Smith,23,unreviewed,,,
+122,nathaniell rich,Nathaniell Rich,23,matched_existing_alias,Nathaniel Rich,,
+123,m edwards,m’ Edwards,23,unreviewed,,,
+124,thomas roe,Thomas Roe,23,matched_existing_alias,Thomas Roe,,
+125,m deputies,m* Deputies,23,unreviewed,,,
+126,m bolton,m’ Bolton,23,unreviewed,,,
+127,m shippard,m’ Shippard,23,unreviewed,,,
+128,thomas wroth,Thomas Wroth,22,matched_existing_alias,Thomas Wroth,,
+129,m alderman,m* Alderman,22,unreviewed,,,
+130,nicho ferrar,Nicho: Ferrar,22,unreviewed,,,
+131,walter earle,Walter Earle,22,matched_existing_alias,Walter Earle,,
+132,dudley diggs,Dudley Diggs,21,matched_existing_alias,Dudley Digges,,
+133,iohn wroth,Iohn Wroth,21,matched_existing_alias,John Wroth,,
+134,m edwarde,m’ Edwarde,21,unreviewed,,,
+135,m collett,m’ Collett,21,unreviewed,,,
+136,m viner,m* Viner,21,unreviewed,,,
+137,samuell argall,Samuell Argall,21,matched_existing_alias,Samuel Argall,,
+138,thomas coventrye,Thomas Coventrye,21,matched_existing_alias,Thomas Coventry,,
+139,john wolstenholme,John Wolstenholme,20,matched_existing_alias,John Wolstenholme,,
+140,iohn wolstenholme,Iohn Wolstenholme,20,matched_existing_alias,John Wolstenholme,,
+141,m thier,m’ Thier,20,excluded,,,Unidentified.
+142,captaine bargraue,Captaine Bargraue,20,unreviewed,,,
+143,m ffreake,m' ffreake,20,unreviewed,,,
+144,m chambers,m* Chambers,19,unreviewed,,,
+145,m briggs,m’ Briggs,19,unreviewed,,,
+146,captaine brewster,Captaine Brewster,19,unreviewed,,,
+147,tho gates,Tho: Gates,19,unreviewed,,,
+148,m smith,m’ Smith,19,excluded,,,Several Smiths.
+149,m swinhoe,m’ Swinhoe,19,unreviewed,,,
+150,m procter,m’ Procter,19,unreviewed,,,
+151,m wrotes,m’ Wrotes,19,unreviewed,,,
+152,lord james,Lord James,19,unreviewed,,,
+153,lord lawarr,Lord Lawarr,18,unreviewed,,,
+154,m dike,m’ Dike,18,unreviewed,,,
+155,m morewood,m’ Morewood,18,unreviewed,,,
+156,m nicholls,m’ Nicholls,18,unreviewed,,,
+157,m paulson,m’ Paulson,17,unreviewed,,,
+158,capt butler,Capt Butler,17,matched_existing_alias,Nathaniel Butler,Capt Butler|Capt: Butler,
+159,m newporte,m* Newporte,17,unreviewed,,,
+160,m robert,m’ Robert,17,unreviewed,,,
+161,m jadwin,m* Jadwin,17,unreviewed,,,
+162,m truloue,m’ Truloue,17,unreviewed,,,
+163,m sheldon,m’ Sheldon,17,unreviewed,,,
+164,m hobbs,m* Hobbs,17,unreviewed,,,
+165,la warre,la Warre,17,matched_existing_alias,"Thomas West, Lord De La Warr",,
+166,francis carter,Francis Carter,17,matched_existing_alias,Francis Carter,,
+167,henry rainsford,Henry Rainsford,16,matched_existing_alias,Henry Rainsford,,
+168,nich fferrar,Nich: fferrar,16,matched_existing_alias,Nicholas Ferrar,Nich: fferrar|m’ Nich: fferrar|m' Nich: fferrar|Nich? fferrar|m’ Nich? fferrar|m* Nich? fferrar,
+169,henry earle of southampton,Henry Earle of Southampton,16,matched_existing_alias,Henry Wriothesley,,
+170,lady lawarr,Lady Lawarr,16,unreviewed,,,
+171,m bearblock,m’ Bearblock,16,unreviewed,,,
+172,m delbridge,m’ Delbridge,16,unreviewed,,,
+173,georg smith,Georg Smith,16,matched_existing_alias,George Smith,,
+174,m swinhow,m’ Swinhow,16,unreviewed,,,
+175,george yeardly,George Yeardly,16,matched_existing_alias,George Yeardley,,
+176,m gookin,m* Gookin,16,unreviewed,,,
+177,m swayne,m’ Swayne,16,unreviewed,,,
+178,john martin,John Martin,16,matched_existing_alias,John Martin,,
+179,m wolstenholme,m* Wolstenholme,16,unreviewed,,,
+180,richard caswell,Richard Caswell,15,matched_existing_alias,Richard Caswell,,
+181,s george,S' George,15,unreviewed,,,
+182,m blande,m' Blande,15,unreviewed,,,
+183,m martin,m’* Martin,15,unreviewed,,,
+184,m palavicine,m’ Palavicine,15,unreviewed,,,
+185,m pountis,m' Pountis,15,unreviewed,,,
+186,henry mildmay,Henry Mildmay,15,matched_existing_alias,Henry Mildmay,,
+187,wiltm tracy,Wiltm Tracy,15,matched_existing_alias,William Tracy,,
+188,robert guyar,Robert Guyar,15,curated_key,Robert Guyar,,As on the sheet.
+189,tho gibbs,Tho: Gibbs,14,unreviewed,,,
+190,samuell argoll,Samuell Argoll,14,matched_existing_alias,Samuel Argall,,
+191,m cartwright,m’ Cartwright,14,unreviewed,,,
+192,of southampton,of Southampton,14,unreviewed,,,
+193,tho gibbes,Tho: Gibbes,14,unreviewed,,,
+194,samuell wrote,Samuell Wrote,14,matched_existing_alias,Samuel Wrote,,
+195,m brooke,m* Brooke,14,unreviewed,,,
+196,m norwood,m' Norwood,14,unreviewed,,,
+197,richard bull,Richard Bull,14,matched_existing_alias,Richard Bull,,
+198,m harrison,m’ Harrison,14,unreviewed,,,
+199,m mole,m’ Mole,14,unreviewed,,,
+200,arthur ingram,Arthur Ingram,14,matched_existing_alias,Arthur Ingram,,
+201,george sandis,George Sandis,14,matched_existing_alias,George Sandys,,
+202,john bargrave,JOHN BARGRAVE,14,matched_existing_alias,John Bargrave,,
+203,john white,John White,14,curated_key,John White,,As on the sheet.
+204,m swinhowe,m* Swinhowe,13,unreviewed,,,
+205,john wroth,John Wroth,13,matched_existing_alias,John Wroth,,
+206,geo yeardley,Geo: Yeardley,13,matched_existing_alias,George Yeardley,Geo: Yeardley|S' Geo: Yeardley|S* Geo: Yeardley|S’ Geo: Yeardley,
+207,edw sandis,Edw: Sandis,13,unreviewed,,,
+208,m bamforde,m' Bamforde,13,unreviewed,,,
+209,sam wrote,Sam: Wrote,13,matched_existing_alias,Samuel Wrote,Sam: Wrote|m' Sam: Wrote|m™' Sam: Wrote|m* Sam: Wrote|m'Sam: Wrote,
+210,lo cauendish,Lo Cauendish,13,curated_key,"William Cavendish, Lord Cavendish",,"William, Lord Cavendish (later 2nd Earl of Devonshire), leading Sandys-party member."
+211,phillip cary,Phillip Cary,13,matched_existing_alias,Philip Carew,,
+212,george sumers,George Sumers,13,matched_existing_alias,George Somers,,
+213,m kightly,m’ Kightly,13,unreviewed,,,
+214,m blany,m’ Blany,13,unreviewed,,,
+215,m balmeford,m’ Balmeford,13,unreviewed,,,
+216,iohn brooke,Iohn Brooke,13,unreviewed,,,
+217,m addison,m* Addison,13,unreviewed,,,
+218,john brooke,John Brooke,13,matched_existing_alias,John Brooke,,
+219,opachankano,Opachankano,13,unreviewed,,,
+220,m stone,m’ Stone,13,unreviewed,,,
+221,wiltm wye,Wiltm Wye,13,matched_existing_alias,William Wye,,
+222,m douglas,m™ Douglas,13,unreviewed,,,
+223,aldfan iohnson,Aldfan Iohnson,12,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
+224,thomas gibbs,Thomas Gibbs,12,matched_existing_alias,Thomas Gibbs,,
+225,d gulstone,D* Gulstone,12,unreviewed,,,
+226,m abdy,m’ Abdy,12,unreviewed,,,
+227,m melling,m* Melling,12,unreviewed,,,
+228,m ferrar,m' Ferrar,12,unreviewed,,,
+229,iohn smith,Iohn Smith,12,excluded,,,Several John Smiths; mostly Captain John Smith but not reliably.
+230,m porter,m’ Porter,12,unreviewed,,,
+231,m penistone,m’ Penistone,12,unreviewed,,,
+232,george somers,George Somers,12,matched_existing_alias,George Somers,,
+233,m cuff,m’ Cuff,12,unreviewed,,,
+234,edward collingwood,Edward Collingwood,12,curated_key,Edward Collingwood,,Company secretary.
+235,captaine norton,Captaine Norton,12,unreviewed,,,
+236,m hart,m’ Hart,12,unreviewed,,,
+237,m copeland,m'* Copeland,12,unreviewed,,,
+238,capt nuce,Capt Nuce,12,unreviewed,,,
+239,m tatam,m’ Tatam,12,unreviewed,,,
+240,ka of southampton,Ka: of Southampton,12,matched_existing_alias,Henry Wriothesley,,
+241,edw waterhowse,Edw: Waterhowse,12,unreviewed,,,
+242,gabriel barber,Gabriel Barber,12,matched_existing_alias,Gabriel Barber,,
+243,governor argall,Governor ARGALL,12,matched_existing_alias,Samuel Argall,,
+244,thomas morris,Thomas Morris,12,curated_key,Thomas Morris,,As on the sheet.
+245,john pory,John Pory,12,matched_existing_alias,John Pory,,
+246,m barnard,m* Barnard,11,unreviewed,,,
+247,thomas wheatley,Thomas Wheatley,11,curated_key,Thomas Wheatley,,As on the sheet.
+248,m iacobb,m* Iacobb,11,unreviewed,,,
+249,lawrence hide,Lawrence Hide,11,curated_key,Lawrence Hyde,,Lawyer and Company counsel; spelling variants.
+250,edw sandys,Edw: Sandys,11,unreviewed,,,
+251,edward brewster,Edward Brewster,11,matched_existing_alias,Edward Brewster,,
+252,edward sackvill,Edward Sackvill,11,matched_existing_alias,Edward Sackville,,
+253,frauncis wyatt,Frauncis Wyatt,11,matched_existing_alias,Francis Wyatt,,
+254,m swaine,m’ Swaine,11,unreviewed,,,
+255,sam sandys,Sam: Sandys,11,unreviewed,,,
+256,m wrots,m* Wrots,11,unreviewed,,,
+257,owen arthur,Owen Arthur,11,curated_key,Owen Arthur,,As on the sheet.
+258,francis west,Francis West,11,matched_existing_alias,Francis West,,
+259,richard george,Richard George,11,curated_key,Richard George,,As on the sheet.
+260,nicholas tufton,Nicholas Tufton,10,matched_existing_alias,Nicholas Tufton,,
+261,aldfan johnson,Aldfan Johnson,10,unreviewed,,,
+262,henry briggs,Henry Briggs,10,matched_existing_alias,Henry Briggs,,
+263,m threr,m* Threr,10,unreviewed,,,
+264,m buckeridge,m’ Buckeridge,10,unreviewed,,,
+265,capt argoll,Capt Argoll,10,unreviewed,,,
+266,thomas smithes,Thomas Smithes,10,matched_existing_alias,Thomas Smythe,,
+267,cap argoll,Cap' Argoll,10,existing_key,Samuel Argall,CaP’ Argoll,Governor Samuel Argall.
+268,william tracy,William Tracy,10,matched_existing_alias,William Tracy,,
+269,george scott,George Scott,10,matched_existing_alias,George Scott,,
+270,m wood,m* Wood,10,unreviewed,,,
+271,m tucker,m’ Tucker,10,unreviewed,,,
+272,nicho fferrar,Nicho: fferrar,10,unreviewed,,,
+273,m whitly,m* Whitly,10,unreviewed,,,
+274,william newce,William Newce,10,matched_existing_alias,William Newce,,
+275,m peirce,m’ Peirce,10,unreviewed,,,
+276,m biddolph,m’ Biddolph,10,unreviewed,,,
+277,m lambe,m* Lambe,10,unreviewed,,,
+278,tho waterhowse,Tho: Waterhowse,10,unreviewed,,,
+279,m john,m’ John,10,excluded,,,Fragment.
+280,m johnson,m’ Johnson,10,unreviewed,,,
+281,hen mildmay,Hen: Mildmay,10,unreviewed,,,
+282,m hurd,m’ Hurd,10,unreviewed,,,
+283,thomas collett,Thomas Collett,10,curated_key,Thomas Collett,,Company member; Ferrar family connection.
+284,m pooley,"M"" Pooley",10,curated_key,Greville Pooley,"M"" Pooley|M* Pooley|M'* Pooley",Minister Greville Pooley; only Pooley in the records.
+285,mr thier,mr. Thier,9,unreviewed,,,
+286,s tho,S' Tho,9,unreviewed,,,
+287,thomas gibbes,Thomas Gibbes,9,matched_existing_alias,Thomas Gibbs,,
+288,doctor bohune,Doctor Bohune,9,unreviewed,,,
+289,m baldwin,m’ Baldwin,9,unreviewed,,,
+290,m bromfeild,m’ Bromfeild,9,unreviewed,,,
+291,m gough,m’ Gough,9,unreviewed,,,
+292,ferdinando gorges,Ferdinando Gorges,9,matched_existing_alias,Ferdinando Gorges,,
+293,m zouch,M* Zouch,9,unreviewed,,,
+294,captaine warde,Captaine Warde,9,unreviewed,,,
+295,m vyner,m* Vyner,9,unreviewed,,,
+296,m barkham,m* Barkham,9,unreviewed,,,
+297,m leauer,m'* Leauer,9,unreviewed,,,
+298,m waterhouse,m* Waterhouse,9,unreviewed,,,
+299,m tomlyns,m’ Tomlyns,9,unreviewed,,,
+300,m budge,m’ Budge,9,unreviewed,,,
+301,m bennet,m’ Bennet,9,unreviewed,,,
+302,capt each,Capt Each,9,unreviewed,,,
+303,jo ffarrar,Jo: ffarrar,9,unreviewed,,,
+304,m morris,m’ Morris,9,unreviewed,,,
+305,m wither,m* Wither,9,unreviewed,,,
+306,m taylo,m’ Taylo,9,unreviewed,,,
+307,m ryder,m’ Ryder,9,unreviewed,,,
+308,gilbert morewood,Gilbert Morewood,9,curated_key,Gilbert Morewood,,English and Latin forms.
+309,george yardly,George Yardly,9,matched_existing_alias,George Yeardley,,
+310,thomas smithe,Thomas Smithe,9,matched_existing_alias,Thomas Smythe,,
+311,e sandys,E. Sandys,9,matched_existing_alias,Edwin Sandys,,
+312,his majesty,his Majesty,9,matched_existing_alias,James I,,
+313,richard berkley,Richard Berkley,9,matched_existing_alias,Richard Berkeley,,
+314,captayne woodleefe,Captayne Woodleefe,9,existing_key,John Woodlief,,Captain John Woodlief of Berkeley Hundred.
+315,iohn woodleefe,Iohn Woodleefe,9,matched_existing_alias,John Woodlief,,
+316,john bargraue,John Bargraue,9,matched_existing_alias,John Bargrave,,
+317,secretary conway,Secretary Conway,9,matched_existing_alias,Edward Conway,,
+318,john harvey,John Harvey,9,matched_existing_alias,John Harvey,,
+319,m fferrar,m’ fferrar,8,unreviewed,,,
+320,tho smiths,Tho: Smiths,8,unreviewed,,,
+321,tho roe,Tho: Roe,8,unreviewed,,,
+322,henry rainsforde,Henry Rainsforde,8,matched_existing_alias,Henry Rainsford,,
+323,lord pagett,Lord Pagett,8,unreviewed,,,
+324,m spruson,m’ Spruson,8,unreviewed,,,
+325,m tomlyné,m' Tomlyné,8,unreviewed,,,
+326,m chamberlyn,m* Chamberlyn,8,unreviewed,,,
+327,baptist hicks,Baptist Hicks,8,matched_existing_alias,Baptist Hicks,,
+328,m moore,m’ Moore,8,unreviewed,,,
+329,thomas wood,Thomas Wood,8,curated_key,Thomas Wood,,English and Latin forms; distinct from Ambrose Wood.
+330,geo sandys,Geo: Sandys,8,unreviewed,,,
+331,m lawrence,m* Lawrence,8,unreviewed,,,
+332,m sandys,m’ Sandys,8,unreviewed,,,
+333,s phil,S' Phil,8,unreviewed,,,
+334,william ewens,William Ewens,8,matched_existing_alias,William Ewens,,
+335,m taylor,m'* Taylor,8,unreviewed,,,
+336,m berkeley,m' Berkeley,8,unreviewed,,,
+337,widdowe smalley,Widdowe Smalley,8,curated_key,Elizabeth Smalley,,The widow Smalley.
+338,m nicholas,m’ Nicholas,8,unreviewed,,,
+339,amias preston,Amias Preston,8,curated_key,Amias Preston,,As on the sheet.
+340,m eldred,m’ Eldred,8,unreviewed,,,
+341,m hacket,m* Hacket,8,unreviewed,,,
+342,de lawne,De Lawne,8,curated_key,Abraham De Lawne,,"Index entry 'De Lawne, Abraham'."
+343,capt gifford,Capt: Gifford,8,unreviewed,,,
+344,john farrar,John Farrar,8,matched_existing_alias,John Ferrar,,
+345,captain argall,Captain Argall,8,matched_existing_alias,Samuel Argall,,
+346,m perry,m’ Perry,8,unreviewed,,,
+347,m garrett,m’ Garrett,8,unreviewed,,,
+348,edw horwood,Edw: Horwood,8,unreviewed,,,
+349,anthony withers,Anthony Withers,8,matched_existing_alias,Anthony Withers,,
+350,john cuffe,John Cuffe,8,matched_existing_alias,John Cuffe,,
+351,william leveson,William Leveson,8,matched_existing_alias,William Leveson,,
+352,john langley,John Langley,8,curated_key,John Langley,,As on the sheet.
+353,st wiltm throkm ton,St Wiltm Throkm9ton,8,unreviewed,,,
+354,ed sandys,Ed. Sandys,8,matched_existing_alias,Edwin Sandys,,
+355,thomas davis,Thomas Davis,8,curated_key,Thomas Davis,,As on the sheet.
+356,richard godfry,Richard Godfry,8,curated_key,Richard Godfry,,As on the sheet.
+357,wiltm throkm ton,Wiltm Throkm9ton,8,unreviewed,,,
+358,sir george,Sir George,8,unreviewed,,,
+359,m tracy,m' Tracy,8,excluded,,,"William, Thomas or Mary Tracy."
+360,richard smyth,Richard Smyth,8,curated_key,Richard Smyth,,As on the sheet.
+361,roger smyth,Roger Smyth,8,existing_key,Roger Smith,,Spelling variant of Captain Roger Smith.
+362,governor wyatt,GOVERNOR WYATT,8,matched_existing_alias,Francis Wyatt,,
+363,john haruey,John Haruey,8,matched_existing_alias,John Harvey,,
+364,generall cecill,Generall Cecill,7,curated_key,Edward Cecil,,"Sir Edward Cecil, general in the Low Countries."
+365,io wroth,Io: Wroth,7,unreviewed,,,
+366,m shepherd,m’* Shepherd,7,unreviewed,,,
+367,capt brewster,Capt: Brewster,7,unreviewed,,,
+368,m kightley,m* Kightley,7,unreviewed,,,
+369,abraham cartwright,Abraham Cartwright,7,matched_existing_alias,Abraham Cartwright,,
+370,thomas mellinge,Thomas Mellinge,7,matched_existing_alias,Thomas Melling,,
+371,m stiles,m’ Stiles,7,unreviewed,,,
+372,m arundell,m’ Arundell,7,unreviewed,,,
+373,nicholas leate,Nicholas Leate,7,matched_existing_alias,Nicholas Leate,,
+374,m sparrow,m'* Sparrow,7,unreviewed,,,
+375,m harbert,m* Harbert,7,unreviewed,,,
+376,iohn ferrar,Iohn Ferrar,7,matched_existing_alias,John Ferrar,Iohn: Ferrar|m' Iohn: Ferrar,
+377,m leat,m* Leat,7,unreviewed,,,
+378,m leate,m* Leate,7,unreviewed,,,
+379,henry mansell,Henry Mansell,7,curated_key,Henry Mansell,,As on the sheet.
+380,m wye,m* Wye,7,unreviewed,,,
+381,m challoner,m’ Challoner,7,unreviewed,,,
+382,m more,m* More,7,unreviewed,,,
+383,m rolfe,m* Rolfe,7,unreviewed,,,
+384,m clarke,m' Clarke,7,unreviewed,,,
+385,doctor anthony,Doctor Anthony,7,unreviewed,,,
+386,m seward,m' Seward,7,unreviewed,,,
+387,william webb,William Webb,7,matched_existing_alias,William Webb,,
+388,m newland,m* Newland,7,unreviewed,,,
+389,edw lawly,Edw: Lawly,7,unreviewed,,,
+390,arthur swayne,Arthur Swayne,7,matched_existing_alias,Arthur Swayne,,
+391,m harte,m’ Harte,7,unreviewed,,,
+392,m bynge,m’ Bynge,7,unreviewed,,,
+393,m tracyes,M* Tracyes,7,unreviewed,,,
+394,m hawes,m* Hawes,7,unreviewed,,,
+395,m risely,m’ Risely,7,unreviewed,,,
+396,m trueloue,m’ Trueloue,7,unreviewed,,,
+397,m carter,m’ Carter,7,excluded,,,Several Carters.
+398,m winne,m* Winne,7,unreviewed,,,
+399,m d lawne,m’ D’Lawne,7,unreviewed,,,
+400,m kirrell,m’ Kirrell,7,unreviewed,,,
+401,m russell,m* Russell,7,unreviewed,,,
+402,m browne,m* Browne,7,unreviewed,,,
+403,m rossingham,m* Rossingham,7,unreviewed,,,
+404,lawrence hyde,Lawrence Hyde,7,curated_key,Lawrence Hyde,,Lawyer and Company counsel; spelling variants.
+405,sam argall,Sam: Argall,7,unreviewed,,,
+406,m bing,m’ Bing,7,unreviewed,,,
+407,opochancano,Opochancano,7,unreviewed,,,
+408,nicholas farrar,Nicholas Farrar,7,matched_existing_alias,Nicholas Ferrar,,
+409,patrick copeland,Patrick Copeland,7,curated_key,Patrick Copland,,East India Company chaplain who raised funds for the East India School; only Copland in the records.
+410,edward ryder,Edward Ryder,7,curated_key,Edward Ryder,,English and Latin forms.
+411,la warr,La Warr,7,matched_existing_alias,"Thomas West, Lord De La Warr",,
+412,john bonnall,John Bonnall,7,matched_existing_alias,John Bonnall,,
+413,william browne,William Browne,7,curated_key,William Browne,,As on the sheet.
+414,thomas white,Thomas White,7,curated_key,Thomas White,,As on the sheet.
+415,capt thorpe,Capt Thorpe,7,unreviewed,,,
+416,rich berkeley,Rich Berkeley,7,matched_existing_alias,Richard Berkeley,,
+417,earl of southampton,EARL OF SOUTHAMPTON,7,matched_existing_alias,Henry Wriothesley,,
+418,jo pory,Jo: Pory,7,matched_existing_alias,John Pory,,
+419,wilfm tracy,Wilfm Tracy,7,unreviewed,,,
+420,john carter,John Carter,7,curated_key,John Carter,,Distinct from Francis Carter.
+421,captaine maddison,Captaine Maddison,7,matched_existing_alias,Isaac Madison,,
+422,john pountis,John Pountis,7,matched_existing_alias,John Pountis,,
+423,arthur guy,Arthur Guy,7,matched_existing_alias,Arthur Guy,,
+424,john kirrell,John Kirrell,7,curated_key,John Kirrell,,As on the sheet.
+425,john danvers,John Danvers,7,matched_existing_alias,John Danvers,,
+426,m jordan,M* Jordan,7,unreviewed,,,
+427,gabriell barbor,Gabriell Barbor,6,existing_key,Gabriel Barber,,"Gabriel Barbor/Barber, Company lottery manager."
+428,geo thorpe,Geo: Thorpe,6,matched_existing_alias,George Thorpe,Geo: Thorpe|m’ Geo: Thorpe|m’* Geo: Thorpe|m*’ Geo: Thorpe|m* Geo: Thorpe,
+429,generall cesill,Generall Cesill,6,curated_key,Edward Cecil,,"Sir Edward Cecil, general in the Low Countries."
+430,george chambers,George Chambers,6,matched_existing_alias,George Chambers,,
+431,thomas keightley,Thomas Keightley,6,matched_existing_alias,Thomas Keightley,,
+432,m ther,m* Ther,6,unreviewed,,,
+433,richard wiseman,Richard Wiseman,6,matched_existing_alias,Richard Wiseman,,
+434,iohn fferrar,Iohn fferrar,6,unreviewed,,,
+435,abraham persey,Abraham Persey,6,matched_existing_alias,Abraham Piersey,,
+436,secretary caluert,Secretary Caluert,6,existing_key,George Calvert,,"Sir George Calvert, Secretary of State 1619-1625."
+437,tho dale,Tho: Dale,6,unreviewed,,,
+438,m lawne,m* Lawne,6,unreviewed,,,
+439,john delbridge,John Delbridge,6,matched_existing_alias,John Delbridge,,
+440,lohn dauers,lohn Dauers,6,unreviewed,,,
+441,robert heath,Robert Heath,6,matched_existing_alias,Robert Heath,,
+442,iohn martin,Iohn Martin,6,matched_existing_alias,John Martin,,
+443,ferdinando gorge,Ferdinando Gorge,6,matched_existing_alias,Ferdinando Gorges,,
+444,iohn bargraue,Iohn Bargraue,6,existing_key,John Bargrave,,Captain John Bargrave.
+445,rob smith,Rob‘ Smith,6,unreviewed,,,
+446,edward lawley,Edward Lawley,6,curated_key,Edward Lawley,,As on the sheet.
+447,m stewarde,m’ Stewarde,6,unreviewed,,,
+448,john porey,John Porey,6,matched_existing_alias,John Pory,,
+449,robert killigrew,Robert Killigrew,6,matched_existing_alias,Robert Killigrew,,
+450,m bagwell,m’ Bagwell,6,unreviewed,,,
+451,m bateman,m* Bateman,6,unreviewed,,,
+452,john dauers,John Dauers,6,matched_existing_alias,John Danvers,,
+453,st tho smith,St Tho: Smith,6,unreviewed,,,
+454,nich ferrar,Nich: Ferrar,6,matched_existing_alias,Nicholas Ferrar,Nich: Ferrar|m’ Nich: Ferrar|m* Nich: Ferrar|m' Nich: Ferrar|m'* Nich: Ferrar,
+455,karle of southampton,Karle of Southampton,6,matched_existing_alias,Henry Wriothesley,,
+456,m bernard,m’ Bernard,6,unreviewed,,,
+457,m boothbie,m’ Boothbie,6,unreviewed,,,
+458,m edwardeé,m* Edwardeé,6,unreviewed,,,
+459,m baynam,m* Baynam,6,unreviewed,,,
+460,s thomas,S' Thomas,6,unreviewed,,,
+461,georg sandys,Georg Sandys,6,matched_existing_alias,George Sandys,,
+462,de lawarr,De Lawarr,6,matched_existing_alias,"Thomas West, Lord De La Warr",,
+463,captain tucker,Captain Tucker,6,unreviewed,,,
+464,capt smith,Capt Smith,6,unreviewed,,,
+465,m rugles,m’ Rugles,6,unreviewed,,,
+466,edward bennett,Edward Bennett,6,matched_existing_alias,Edward Bennett,,
+467,m smyth,m' Smyth,6,excluded,,,Several Smyths.
+468,m challon,m’ Challon,6,unreviewed,,,
+469,capt norton,Capt Norton,6,unreviewed,,,
+470,lady dale,Lady Dale,6,matched_existing_alias,Elizabeth Dale,,
+471,iohn bland,Iohn Bland,6,existing_key,John Bland,,"John Bland, merchant."
+472,m whittakers,M' Whittakers,6,unreviewed,,,
+473,thomas webb,Thomas Webb,6,curated_key,Thomas Webb,,Distinct from William Webb.
+474,captaine welden,Captaine Welden,6,unreviewed,,,
+475,m edward,M' Edward,6,unreviewed,,,
+476,theodore wadsworth,Theodore Wadsworth,6,curated_key,Theodore Wadsworth,,As on the sheet.
+477,capt lawne,Capt Lawne,6,unreviewed,,,
+478,m dennis,m* Dennis,6,unreviewed,,,
+479,bowyer worsly,Bowyer Worsly,6,unreviewed,,,
+480,tho shippard,Tho: Shippard,6,unreviewed,,,
+481,m gold,m’ Gold,6,unreviewed,,,
+482,edward hurd,Edward Hurd,6,curated_key,Edward Hurd,,As on the sheet.
+483,m nich,m’ Nich,6,unreviewed,,,
+484,ro killigrue,Ro: Killigrue,6,unreviewed,,,
+485,roger twisden,Roger Twisden,6,curated_key,Roger Twisden,,As on the sheet.
+486,m ffothergill,m’ ffothergill,6,unreviewed,,,
+487,edw waterhouse,Edw: Waterhouse,6,unreviewed,,,
+488,m morgan,m’ Morgan,6,unreviewed,,,
+489,m proctor,m’ Proctor,6,unreviewed,,,
+490,john dennis,John Dennis,6,curated_key,John Dennis,,As on the sheet.
+491,m pory,M* Pory,6,unreviewed,,,
+492,captaine butler,Captaine Butler,6,unreviewed,,,
+493,m balmforde,m’ Balmforde,6,unreviewed,,,
+494,robert johnson,Robert Johnson,6,matched_existing_alias,Robert Johnson,"Robert ""Johnson|Sir Robert ""Johnson",
+495,john hart,John Hart,6,matched_existing_alias,John Hart,,
+496,william powell,William Powell,6,matched_existing_alias,William Powell,,
+497,lord zouch,Lord Zouch,6,matched_existing_alias,"Edward la Zouche, Lord Zouch",,
+498,george calvert,George Calvert,6,matched_existing_alias,George Calvert,,
+499,william throckmorton,WILLIAM THROCKMORTON,6,matched_existing_alias,William Throckmorton,,
+500,john boys,John Boys,6,curated_key,John Boys,,As on the sheet.
+501,captaine martine,Captaine Martine,6,unreviewed,,,
+502,thomas coopy,Thomas Coopy,6,curated_key,Thomas Coopy,,As on the sheet.
+503,richard sherife,Richard Sherife,6,excluded,,,Two people (the elder and the younger).
+504,m woodleefe,m* Woodleefe,6,unreviewed,,,
+505,richard berk,Richard Berk,6,matched_existing_alias,Richard Berkeley,,
+506,willm tracy,Willm Tracy,6,matched_existing_alias,William Tracy,,
+507,robert pawlet,Robert Pawlet,6,curated_key,Robert Pawlett,,Spelling variants.
+508,lord sackville,Lord Sackville,6,unreviewed,,,
+509,wiltm tuckar,Wiltm Tuckar,6,matched_existing_alias,William Tucker,,
+510,joun porr,Joun Porr,6,matched_existing_alias,John Pory,,
+511,thomas kiteley,Thomas Kiteley,6,curated_key,Thomas Kiteley,,"As on the sheet; possibly Keightley, kept separate."
+512,thomas shepheard,Thomas Shepheard,6,curated_key,Thomas Shepheard,,As on the sheet.
+513,thomas winston,Thomas Winston,6,curated_key,Thomas Winston,,"Dr Thomas Winston, physician and Company member."
+514,william nicholls,William Nicholls,6,curated_key,William Nicholls,,English and Latin forms.
+515,richard tomlyns,Richard Tomlyns,6,curated_key,Richard Tomlins,,Spelling variants.
+516,edmund morgan,Edmund Morgan,6,curated_key,Edmund Morgan,,English and Latin forms.
+517,wm tucker,Wm Tucker,6,matched_existing_alias,William Tucker,,
+518,m caning,m* Caning,5,unreviewed,,,
+519,morris abbott,Morris Abbott,5,matched_existing_alias,Morris Abbott,,
+520,anthony abdy,Anthony Abdy,5,matched_existing_alias,Anthony Abdy,,
+521,e samuell argoll,e Samuell Argoll,5,unreviewed,,,
+522,m tier,m' Tier,5,unreviewed,,,
+523,geo sandis,Geo: Sandis,5,unreviewed,,,
+524,io ferrar,Io: Ferrar,5,unreviewed,,,
+525,george swinhowe,George Swinhowe,5,curated_key,George Swinhowe,,As on the sheet.
+526,geo chambers,Geo: Chambers,5,unreviewed,,,
+527,robt smith,Robt Smith,5,matched_existing_alias,Robert Smith,Robt: Smith|m’ Robt: Smith,
+528,s iohn,S' Iohn,5,unreviewed,,,
+529,iohn delbridge,Iohn Delbridge,5,existing_key,John Delbridge,,Spelling variant.
+530,m oxenbridge,m’ Oxenbridge,5,unreviewed,,,
+531,m swifte,m' Swifte,5,unreviewed,,,
+532,william palmer,William Palmer,5,matched_existing_alias,William Palmer,,
+533,christopher brooke,Christopher Brooke,5,matched_existing_alias,Christopher Brooke,,
+534,tho smithe,Tho: Smithe,5,unreviewed,,,
+535,captaine powell,Captaine Powell,5,unreviewed,,,
+536,nicholas hide,Nicholas Hide,5,curated_key,Nicholas Hyde,,"Nicholas Hyde, lawyer (later Lord Chief Justice)."
+537,tho sheppard,Tho: Sheppard,5,unreviewed,,,
+538,m porey,m’ Porey,5,unreviewed,,,
+539,m rob,m’ Rob,5,unreviewed,,,
+540,christopher lawne,Christopher Lawne,5,curated_key,Christopher Lawne,,Founder of Lawne's plantation (Isle of Wight Plantation).
+541,peter humble,Peter Humble,5,curated_key,Peter Humble,,As on the sheet.
+542,m edwardé,m' Edwardé,5,unreviewed,,,
+543,m stubbs,m* Stubbs,5,unreviewed,,,
+544,edward harrison,Edward Harrison,5,curated_key,Edward Harrison,,As on the sheet.
+545,m barkley,m* Barkley,5,unreviewed,,,
+546,m gibbe,m'* Gibbe,5,unreviewed,,,
+547,samuell sandys,Samuell Sandys,5,unreviewed,,,
+548,ffrancis wyate,ffrancis Wyate,5,unreviewed,,,
+549,william nuce,William Nuce,5,matched_existing_alias,William Newce,,
+550,m dawes,m' Dawes,5,unreviewed,,,
+551,m ffarrars,m’ ffarrars,5,unreviewed,,,
+552,capt leeke,Capt: Leeke,5,unreviewed,,,
+553,henry southey,Henry Southey,5,curated_key,Henry Southey,,As on the sheet.
+554,robert barker,Robert Barker,5,curated_key,Robert Barker,,As on the sheet.
+555,patrick copland,Patrick Copland,5,curated_key,Patrick Copland,,East India Company chaplain who raised funds for the East India School; only Copland in the records.
+556,raph hamer,Raph Hamer,5,matched_existing_alias,Ralph Hamor,,
+557,adam dixon,Adam Dixon,5,matched_existing_alias,Adam Dixon,,
+558,st tho smiths,St Tho: Smiths,5,unreviewed,,,
+559,capt martins,Capt: Martins,5,unreviewed,,,
+560,edward waterhouse,Edward Waterhouse,5,curated_key,Edward Waterhouse,,"Company secretary, author of the 1622 massacre Declaration."
+561,m ffogge,m' ffogge,5,unreviewed,,,
+562,m langley,m* Langley,5,unreviewed,,,
+563,m risly,m’ Risly,5,unreviewed,,,
+564,m stephens,m’ Stephens,5,unreviewed,,,
+565,m butler,m’ Butler,5,unreviewed,,,
+566,edward conway,Edward Conway,5,matched_existing_alias,Edward Conway,,
+567,john davers,John Davers,5,matched_existing_alias,John Danvers,,
+568,m wrott,M' Wrott,5,excluded,,,Wrote or Wroth.
+569,io ffarrar,Io: ffarrar,5,unreviewed,,,
+570,m ffoxten,m’ ffoxten,5,unreviewed,,,
+571,capt rossingham,Capt: Rossingham,5,unreviewed,,,
+572,ffran waterhowse,ffran: Waterhowse,5,unreviewed,,,
+573,robert killigrewe,Robert Killigrewe,5,matched_existing_alias,Robert Killigrew,,
+574,m witherall,m’ Witherall,5,unreviewed,,,
+575,sam argoll,Sam: Argoll,5,unreviewed,,,
+576,m watson,m* Watson,5,unreviewed,,,
+577,m mullins,m’ Mullins,5,unreviewed,,,
+578,capt haruey,Capt Haruey,5,unreviewed,,,
+579,richard norwood,Richard Norwood,5,curated_key,Richard Norwood,,Surveyor of Bermuda.
+580,richard humble,Richard Humble,5,curated_key,Richard Humble,,As on the sheet.
+581,thomas newton,Thomas Newton,5,curated_key,Thomas Newton,,As on the sheet.
+582,m sharrowe,m’ Sharrowe,5,unreviewed,,,
+583,richard casewell,Richard Casewell,5,matched_existing_alias,Richard Caswell,,
+584,walter cope,Walter Cope,5,matched_existing_alias,Walter Cope,,
+585,william hall,WILLIAM HALL,5,matched_existing_alias,William Hall,,
+586,raphe hamor,Raphe Hamor,5,matched_existing_alias,Ralph Hamor,,
+587,john martine,John Martine,5,matched_existing_alias,John Martin,,
+588,edwine sandis,Edwine Sandis,5,matched_existing_alias,Edwin Sandys,,
+589,thomas jones,Thomas Jones,5,curated_key,Thomas Jones,,As on the sheet.
+590,james carter,James Carter,5,curated_key,James Carter,,Distinct from Francis Carter.
+591,robert bateman,Robert Bateman,5,matched_existing_alias,Robert Bateman,,
+592,samuel sandys,Samuel Sandys,5,matched_existing_alias,Samuel Sandys,,
+593,capt ward,Capt Ward,5,unreviewed,,,
+594,william wye,William Wye,5,matched_existing_alias,William Wye,,
+595,robert poole,Robert Poole,5,curated_key,Robert Poole,,Interpreter in Virginia.
+596,walter hampton,Walter Hampton,5,curated_key,Walter Hampton,,As on the sheet.
+597,m ffarrar,"m"" ffarrar",5,unreviewed,,,
+598,joun pory,Joun Pory,5,matched_existing_alias,John Pory,,
+599,thomas shipton,Thomas Shipton,5,matched_existing_alias,Thomas Shipton,,
+600,robert oldisworth,Robert Oldisworth,5,curated_key,Robert Oldisworth,,Spelling variants.
+601,robt oldisworth,Robt Oldisworth,5,curated_key,Robert Oldisworth,,Spelling variants.
+602,maurice barkley,Maurice Barkley,5,curated_key,Maurice Berkeley,,"Sir Maurice Berkeley, MP and Company member."
+603,davison secr,Davison Secr,5,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
+604,isack maddison,Isack Maddison,5,curated_key,Isaac Madison,,"Captain Isaac Madison; commanded expeditions to the Potomac (e.g. 'Cap: Maddison sent vnto him with 30 English', 1622)."
+605,grorce sanpys,Grorce Sanpys,5,matched_existing_alias,George Sandys,,
+606,grivell pooley,Grivell Pooley,5,curated_key,Greville Pooley,,Minister Greville Pooley; only Pooley in the records.
+607,georgius scott,Georgius Scott,5,unreviewed,,,
+608,capt sands,Capt Sand's,5,unreviewed,,,
+609,rich rogers,Rich: Rogers,4,unreviewed,,,
+610,m tyer,M* Tyer,4,unreviewed,,,
+611,edward harwood,Edward Harwood,4,curated_key,Edward Harwood,,As on the sheet.
+612,lady lawarre,Lady Lawarre,4,unreviewed,,,
+613,morrice abbott,Morrice Abbott,4,unreviewed,,,
+614,m iadwin,m* Iadwin,4,unreviewed,,,
+615,rich bull,Rich: Bull,4,unreviewed,,,
+616,m morer,m' Morer,4,unreviewed,,,
+617,nath riche,Nath: Riche,4,unreviewed,,,
+618,tho wainman,Tho: Wainman,4,unreviewed,,,
+619,rich wiseman,Rich: Wiseman,4,unreviewed,,,
+620,s edward,S' Edward,4,unreviewed,,,
+621,tho keightley,Tho: Keightley,4,unreviewed,,,
+622,m cranmore,m* Cranmore,4,unreviewed,,,
+623,augustine steward,Augustine Steward,4,curated_key,Augustine Steward,,As on the sheet.
+624,tho mellinge,Tho: Mellinge,4,unreviewed,,,
+625,tho gibbe,Tho Gibbe,4,unreviewed,,,
+626,m canninge,m'* Canninge,4,unreviewed,,,
+627,m leauor,m* Leauor,4,unreviewed,,,
+628,m ferrars,m* Ferrars,4,unreviewed,,,
+629,m reignolde,m’ Reignolde,4,unreviewed,,,
+630,peter arundell,Peter Arundell,4,curated_key,Peter Arundell,,As on the sheet.
+631,m ditchfeilde,m' Ditchfeilde,4,unreviewed,,,
+632,george tucker,George Tucker,4,curated_key,George Tucker,,Distinct from Daniel and William Tucker.
+633,m arundle,m’ Arundle,4,unreviewed,,,
+634,m palauicine,m’* Palauicine,4,unreviewed,,,
+635,nicho tufton,Nicho: Tufton,4,unreviewed,,,
+636,robert mansell,Robert Mansell,4,curated_key,Robert Mansell,,"Sir Robert Mansell, admiral."
+637,robert bell,Robert Bell,4,matched_existing_alias,Robert Bell,,
+638,m combes,m* Combes,4,unreviewed,,,
+639,thomas nuce,Thomas Nuce,4,matched_existing_alias,Thomas Newce,,
+640,tho nuce,Tho: Nuce,4,matched_existing_alias,Thomas Newce,,
+641,m nuce,m™ Nuce,4,unreviewed,,,
+642,e edward brewster,e Edward Brewster,4,unreviewed,,,
+643,m ditehfeild,m' Ditehfeild,4,unreviewed,,,
+644,captaine nuse,Captaine Nuse,4,unreviewed,,,
+645,m gifford,m’ Gifford,4,unreviewed,,,
+646,m horwood,"m"" Horwood",4,unreviewed,,,
+647,m karle,m' Karle,4,unreviewed,,,
+648,john blande,John Blande,4,matched_existing_alias,John Bland,,
+649,thomas wale,Thomas Wale,4,curated_key,Thomas Wale,,As on the sheet.
+650,m dep,m' Dep,4,unreviewed,,,
+651,m chamberlyne,m* Chamberlyne,4,unreviewed,,,
+652,captaine newce,Captaine Newce,4,unreviewed,,,
+653,captaine hamor,Captaine Hamor,4,unreviewed,,,
+654,m jefferson,M' Jefferson,4,unreviewed,,,
+655,captaine tucker,Captaine Tucker,4,unreviewed,,,
+656,m maisterson,m’ Maisterson,4,unreviewed,,,
+657,captaine smith,Captaine Smith,4,matched_existing_alias,John Smith,,
+658,m wheately,m’ Wheately,4,unreviewed,,,
+659,m keightly,m’ Keightly,4,unreviewed,,,
+660,lady berkley,Lady Berkley,4,unreviewed,,,
+661,m wale,m* Wale,4,unreviewed,,,
+662,capt newce,Capt Newce,4,unreviewed,,,
+663,mathewe sumers,Mathewe Sumers,4,unreviewed,,,
+664,m tomkins,m* Tomkins,4,unreviewed,,,
+665,m berkly,m’ Berkly,4,unreviewed,,,
+666,m franck,m* Franck,4,unreviewed,,,
+667,m earle,m’ Earle,4,unreviewed,,,
+668,ambrose wood,Ambrose Wood,4,matched_existing_alias,Ambrose Wood,,
+669,m colethurst,m’ Colethurst,4,unreviewed,,,
+670,arthur swaine,Arthur Swaine,4,matched_existing_alias,Arthur Swayne,,
+671,doctor gulstone,Doctor Gulstone,4,unreviewed,,,
+672,m shepparde,m' Shepparde,4,unreviewed,,,
+673,cop land,Cop- land,4,unreviewed,,,
+674,elizabeth smalley,Elizabeth Smalley,4,curated_key,Elizabeth Smalley,,The widow Smalley.
+675,m elkin,m’ Elkin,4,unreviewed,,,
+676,m birkett,m’ Birkett,4,unreviewed,,,
+677,m damport,m* Damport,4,unreviewed,,,
+678,charles north,Charles North,4,curated_key,Charles North,,As on the sheet.
+679,abraham chamberlen,Abraham Chamberlen,4,matched_existing_alias,Abraham Chamberlaine,,
+680,m baron,m* Baron,4,unreviewed,,,
+681,secré dauison,Secré Dauison,4,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
+682,m jermyn,m’ Jermyn,4,unreviewed,,,
+683,captain martin,Captain Martin,4,unreviewed,,,
+684,tho smithes,Tho: Smithes,4,unreviewed,,,
+685,m thorp,m* Thorp,4,unreviewed,,,
+686,m leigh,m* Leigh,4,unreviewed,,,
+687,iohn berkley,Iohn Berkley,4,existing_key,John Berkeley,,Spelling variant.
+688,dan tucker,Dan: Tucker,4,unreviewed,,,
+689,clement wilmer,Clement Wilmer,4,curated_key,Clement Wilmer,,As on the sheet.
+690,m groce,m' Groce,4,unreviewed,,,
+691,geo scott,Geo: Scott,4,unreviewed,,,
+692,m bell,m’ Bell,4,unreviewed,,,
+693,m wentworth,m* Wentworth,4,unreviewed,,,
+694,m boothby,m’* Boothby,4,unreviewed,,,
+695,lo padgett,Lo Padgett,4,excluded,,,Title fragment; unresolved.
+696,edw palmer,Edw: Palmer,4,unreviewed,,,
+697,m bond,m’ Bond,4,unreviewed,,,
+698,m wilmott,m* Wilmott,4,unreviewed,,,
+699,m chetley,m* Chetley,4,unreviewed,,,
+700,m lake,m'* Lake,4,unreviewed,,,
+701,iohn ffarrar,Iohn ffarrar,4,unreviewed,,,
+702,m percy,m’ Percy,4,unreviewed,,,
+703,m woodnorth,m’ Woodnorth,4,unreviewed,,,
+704,m robins,m’ Robins,4,unreviewed,,,
+705,m iohnson,M’ Iohnson,4,unreviewed,,,
+706,m robbins,m’ Robbins,4,unreviewed,,,
+707,henry mildmayes,Henry Mildmayes,4,matched_existing_alias,Henry Mildmay,,
+708,io ogle,Io: Ogle,4,unreviewed,,,
+709,m langly,m' Langly,4,unreviewed,,,
+710,christofer brooke,Christofer Brooke,4,matched_existing_alias,Christopher Brooke,,
+711,m hardinge,m* Hardinge,4,unreviewed,,,
+712,geo garrett,Geo: Garrett,4,unreviewed,,,
+713,st edw sandis,St Edw: Sandis,4,unreviewed,,,
+714,m ditehfield,m’ Ditehfield,4,unreviewed,,,
+715,m mease,m’ Mease,4,unreviewed,,,
+716,iohn bourchier,Iohn Bourchier,4,curated_key,John Bourchier,,Sir John Bourchier.
+717,iohn procter,Iohn Procter,4,curated_key,John Procter,,As on the sheet.
+718,ed bennett,Ed: Bennett,4,unreviewed,,,
+719,capt butlers,Capt Butlers,4,unreviewed,,,
+720,capt argalls,Capt Argalls,4,unreviewed,,,
+721,m rawleigh,m* Rawleigh,4,unreviewed,,,
+722,iohn burgh,Iohn Burgh,4,curated_key,John Burgh,,As on the sheet.
+723,edward horwood,Edward Horwood,4,curated_key,Edward Horwood,,As on the sheet.
+724,m sharrow,m' Sharrow,4,unreviewed,,,
+725,m purchas,m’ Purchas,4,unreviewed,,,
+726,maurice berkley,Maurice Berkley,4,curated_key,Maurice Berkeley,,"Sir Maurice Berkeley, MP and Company member."
+727,gabriel barbor,Gabriel Barbor,4,matched_existing_alias,Gabriel Barber,,
+728,william capps,William Capps,4,matched_existing_alias,William Capps,,
+729,henry peyton,Henry Peyton,4,curated_key,Henry Peyton,,As on the sheet.
+730,james bryarley,JAMES BRYARLEY,4,matched_existing_alias,James Bryarley,,
+731,queene elizabeth,Queene Elizabeth,4,curated_key,Elizabeth I,,Queen Elizabeth.
+732,thomas smythe,Thomas Smythe,4,matched_existing_alias,Thomas Smythe,,
+733,thomas harris,Thomas Harris,4,matched_existing_alias,Thomas Harris,,
+734,capt hamor,Capt Hamor,4,unreviewed,,,
+735,john badger,John Badger,4,curated_key,John Badger,,As on the sheet.
+736,thomas button,Thomas Button,4,curated_key,Thomas Button,,"Sir Thomas Button, naval commander."
+737,george coppin,George Coppin,4,curated_key,George Coppin,,As on the sheet.
+738,john eldred,John Eldred,4,curated_key,John Eldred,,As on the sheet.
+739,nicholas farrer,Nicholas Farrer,4,matched_existing_alias,Nicholas Ferrar,,
+740,arthur mouse,Arthur Mouse,4,curated_key,Arthur Mouse,,As on the sheet.
+741,richard tomlins,Richard Tomlins,4,curated_key,Richard Tomlins,,Spelling variants.
+742,william cradock,William Cradock,4,matched_existing_alias,William Cradock,,
+743,john rolfe,John Rolfe,4,matched_existing_alias,John Rolfe,,
+744,capt powell,Capt Powell,4,matched_existing_alias,William Powell,Capt Powell,
+745,e william powell,e William Powell,4,unreviewed,,,
+746,john cole,John Cole,4,curated_key,John Cole,,As on the sheet.
+747,thomas peirse,Thomas Peirse,4,curated_key,Thomas Peirse,,As on the sheet.
+748,m thorpes,M* Thorpes,4,unreviewed,,,
+749,richard partridge,Richard Partridge,4,curated_key,Richard Partridge,,As on the sheet.
+750,john blanchard,John Blanchard,4,curated_key,John Blanchard,,As on the sheet.
+751,opachancano,Opachancano,4,unreviewed,,,
+752,georce yeardley,Georce YEARDLEY,4,matched_existing_alias,George Yeardley,,
+753,edwin sands,Edwin Sands,4,matched_existing_alias,Edwin Sandys,,
+754,sir epwin,Sir Epwin,4,unreviewed,,,
+755,robert parkhurst,Robert Parkhurst,4,curated_key,Robert Parkhurst,,As on the sheet.
+756,richard turner,Richard Turner,4,unreviewed,,,
+757,thomas rowe,Thomas Rowe,4,matched_existing_alias,Thomas Roe,,
+758,george harrison,George Harrison,4,curated_key,George Harrison,,As on the sheet.
+759,john farrer,John Farrer,4,matched_existing_alias,John Ferrar,,
+760,nicolas hydes,Nicolas Hydes,4,curated_key,Nicholas Hyde,,"Nicholas Hyde, lawyer (later Lord Chief Justice)."
+761,m powntis,m* Powntis,4,unreviewed,,,
+762,john bounall,John Bounall,4,matched_existing_alias,John Bonnall,,
+763,robert benet,Robert Benet,4,curated_key,Robert Benet,,As on the sheet.
+764,john robinson,John Robinson,4,matched_existing_alias,John Robinson,,
+765,apochancono,Apochancono,4,unreviewed,,,
+766,francis wyatr,Francis Wyatr,4,matched_existing_alias,Francis Wyatt,,
+767,g sandys,G. Sandys,4,existing_key,George Sandys,,Initialled form.
+768,thomas styles,Thomas Styles,4,matched_existing_alias,Thomas Styles,,
+769,opichankano,Opichankano,4,unreviewed,,,
+770,samuell mathews,SAMUELL MATHEWS,4,curated_key,Samuel Mathews,,"Planter, later councillor."
+771,ricardus caswell,Ricardus Caswell,4,matched_existing_alias,Richard Caswell,,
+772,willelmus webb,Willelmus Webb,4,unreviewed,,,
+773,ricardus bull,Ricardus Bull,4,existing_key,Richard Bull,,Latin form.
+774,willelmus nicholls,Willelmus Nicholls,4,curated_key,William Nicholls,,English and Latin forms.
+775,edwardus brewster,Edwardus Brewster,4,unreviewed,,,
+776,willelmus ewens,Willelmus Ewens,4,matched_existing_alias,William Ewens,,
+777,edwardus ryder,Edwardus Ryder,4,curated_key,Edward Ryder,,English and Latin forms.
+778,regis anglie,Regis Anglie,4,unreviewed,,,
+779,john johnson,John Johnson,4,curated_key,John Johnson,,Distinct from Robert Johnson.
+780,aldian johnson,Aldian Johnson,3,unreviewed,,,
+781,edw ditchfield,Edw: Ditchfield,3,unreviewed,,,
+782,e daniell tucker,e Daniell Tucker,3,unreviewed,,,
+783,alder johnson,Alder Johnson,3,unreviewed,,,
+784,m treasuro,m’ Treasuro,3,unreviewed,,,
+785,hen reignold,Hen: Reignold,3,unreviewed,,,
+786,m bamford,m* Bamford,3,unreviewed,,,
+787,rich tomlins,Rich: Tomlins,3,unreviewed,,,
+788,m ditchfield,m'* Ditchfield,3,unreviewed,,,
+789,m thiers,m' Thiers,3,unreviewed,,,
+790,edw harwood,Edw: Harwood,3,unreviewed,,,
+791,m lewson,m* Lewson,3,unreviewed,,,
+792,alder man,Alder- man,3,unreviewed,,,
+793,abraham chamberlaine,Abraham Chamberlaine,3,matched_existing_alias,Abraham Chamberlaine,,
+794,nath butler,Nath: Butler,3,matched_existing_alias,Nathaniel Butler,Nath: Butler|Capt Nath: Butler,
+795,m d winstone,m' D' Winstone,3,matched_existing_alias,Thomas Winston,m’ D': Winstone,
+796,m thfrer,m' Thfrer,3,unreviewed,,,
+797,m meverell,m* Meverell,3,unreviewed,,,
+798,nicho hide,Nicho: Hide,3,unreviewed,,,
+799,m kempton,m* Kempton,3,unreviewed,,,
+800,christ brooke,Christ: Brooke,3,unreviewed,,,
+801,my lord of london,my Lord of London,3,matched_existing_alias,"John King, Bishop of London",,
+802,s edw,S* Edw,3,unreviewed,,,
+803,james swifte,James Swifte,3,curated_key,James Swifte,,As on the sheet.
+804,captain bargraue,Captain Bargraue,3,unreviewed,,,
+805,stephen sparrow,Stephen Sparrow,3,curated_key,Stephen Sparrow,,As on the sheet.
+806,dudley digge,Dudley Digge,3,matched_existing_alias,Dudley Digges,,
+807,abraham chamberlyn,Abraham Chamberlyn,3,matched_existing_alias,Abraham Chamberlaine,,
+808,m holloway,m' Holloway,3,unreviewed,,,
+809,m casswell,m* Casswell,3,unreviewed,,,
+810,thomas dales,Thomas Dales,3,matched_existing_alias,Thomas Dale,,
+811,dep uty,Dep- uty,3,unreviewed,,,
+812,m pallavicine,m’* Pallavicine,3,unreviewed,,,
+813,marmaduke rayner,Marmaduke Rayner,3,curated_key,Marmaduke Rayner,,As on the sheet.
+814,walter eldred,Walter Eldred,3,unreviewed,,,
+815,henry brigs,Henry Brigs,3,matched_existing_alias,Henry Briggs,,
+816,william canninge,William Canninge,3,unreviewed,,,
+817,william fleetwood,William Fleetwood,3,curated_key,William Fleetwood,,As on the sheet.
+818,natha rich,Natha: Rich,3,unreviewed,,,
+819,m barron,m' Barron,3,unreviewed,,,
+820,daniell tucker,Daniell Tucker,3,matched_existing_alias,Daniel Tucker,,
+821,m morrice,m* Morrice,3,unreviewed,,,
+822,m meuerall,m* Meuerall,3,unreviewed,,,
+823,m foxton,m* Foxton,3,unreviewed,,,
+824,m englebert,m' Englebert,3,unreviewed,,,
+825,william waller,William Waller,3,curated_key,William Waller,,As on the sheet.
+826,iohn budge,Iohn Budge,3,unreviewed,,,
+827,m palauacine,m’ Palauacine,3,unreviewed,,,
+828,m pountus,m’ Pountus,3,unreviewed,,,
+829,m bluett,m' Bluett,3,unreviewed,,,
+830,james bagg,James Bagg,3,matched_existing_alias,James Bagg,,
+831,john zouch,John Zouch,3,curated_key,John Zouch,,"Sir John Zouch; distinct from Edward, Lord Zouch."
+832,ed sandis,Ed: Sandis,3,unreviewed,,,
+833,hdwin sandys,Hdwin Sandys,3,unreviewed,,,
+834,william cranmer,William Cranmer,3,unreviewed,,,
+835,daniell darnelly,Daniell Darnelly,3,unreviewed,,,
+836,william mounson,William Mounson,3,curated_key,William Mounson,,Sir William Monson.
+837,phillip carey,Phillip Carey,3,matched_existing_alias,Philip Carew,,
+838,m ayscough,m’ Ayscough,3,unreviewed,,,
+839,captaine lawne,Captaine Lawne,3,unreviewed,,,
+840,tohn dauers,Tohn Dauers,3,matched_existing_alias,John Danvers,,
+841,robert phillips,Robert Phillips,3,unreviewed,,,
+842,captaine somers,Captaine Somers,3,unreviewed,,,
+843,gabriell wisher,Gabriell Wisher,3,curated_key,Gabriel Wisher,,As on the sheet.
+844,richard grobham,Richard Grobham,3,curated_key,Richard Grobham,,Sir Richard Grobham.
+845,henry rowland,Henry Rowland,3,curated_key,Henry Rowland,,As on the sheet.
+846,m wyddowes,m’ Wyddowes,3,unreviewed,,,
+847,george yeardleys,George Yeardleys,3,matched_existing_alias,George Yeardley,,
+848,thomas sandys,Thomas Sandys,3,curated_key,Thomas Sandys,,"Distinct from Edwin, George and Samuel Sandys."
+849,richard bulkly,Richard Bulkly,3,unreviewed,,,
+850,edward lawly,Edward Lawly,3,unreviewed,,,
+851,m chamberlen,m’ Chamberlen,3,unreviewed,,,
+852,m chris,m' Chris,3,unreviewed,,,
+853,m moone,m* Moone,3,unreviewed,,,
+854,richard bulkley,Richard Bulkley,3,curated_key,Richard Bulkley,,As on the sheet.
+855,m parker,m’ Parker,3,unreviewed,,,
+856,m combs,m' Combs,3,unreviewed,,,
+857,henry rolfe,Henry Rolfe,3,curated_key,Henry Rolfe,,Brother of John Rolfe.
+858,m raph,m’ Raph,3,unreviewed,,,
+859,m capps,M* Capps,3,unreviewed,,,
+860,iohn rolfe,Iohn Rolfe,3,matched_existing_alias,John Rolfe,,
+861,ffra wyate,ffra: Wyate,3,unreviewed,,,
+862,m moones,M’ Moones,3,unreviewed,,,
+863,george summers,George Summers,3,matched_existing_alias,George Somers,,
+864,captaine baylie,Captaine Baylie,3,unreviewed,,,
+865,edw gibbs,Edw: Gibbs,3,unreviewed,,,
+866,richard worsley,Richard Worsley,3,unreviewed,,,
+867,s edwyn,S' Edwyn,3,unreviewed,,,
+868,mathew somers,Mathew Somers,3,curated_key,Matthew Somers,,Nephew and heir of Sir George Somers; distinct person.
+869,edw lawley,Edw: Lawley,3,unreviewed,,,
+870,secretary dauison,Secretary Dauison,3,curated_key,Christopher Davison,,"Christopher Davison, Secretary of the colony 1621-1623."
+871,m risley,m’ Risley,3,unreviewed,,,
+872,m abrah,m* Abrah,3,unreviewed,,,
+873,cap maddison,Cap*: Maddison,3,matched_existing_alias,Isaac Madison,,
+874,m leech,m’ Leech,3,unreviewed,,,
+875,hugh wirrall,Hugh Wirrall,3,unreviewed,,,
+876,m gosnold,m’ Gosnold,3,unreviewed,,,
+877,hen maynwaringe,Hen: Maynwaringe,3,unreviewed,,,
+878,m phesie,m* Phesie,3,unreviewed,,,
+879,abraham chamblen,Abraham Chamblen,3,matched_existing_alias,Abraham Chamberlaine,,
+880,st tho dale,St Tho: Dale,3,unreviewed,,,
+881,captaine hazell,Captaine Hazell,3,unreviewed,,,
+882,e iohn martin,e Iohn Martin,3,unreviewed,,,
+883,john harrison,John Harrison,3,curated_key,John Harrison,,As on the sheet.
+884,m harris,m’ Harris,3,unreviewed,,,
+885,m hickford,m’ Hickford,3,unreviewed,,,
+886,m wynn,m* Wynn,3,unreviewed,,,
+887,m winch,m* Winch,3,unreviewed,,,
+888,m peirs,m* Peirs,3,unreviewed,,,
+889,henry wentworth,Henry Wentworth,3,unreviewed,,,
+890,lady wyatt,Lady Wyatt,3,unreviewed,,,
+891,tho bulkly,Tho: Bulkly,3,unreviewed,,,
+892,m pureas,m’ Pureas,3,unreviewed,,,
+893,nich hide,Nich: Hide,3,unreviewed,,,
+894,m wheat,m* Wheat,3,unreviewed,,,
+895,ohn ffarrar,[ohn ffarrar,3,unreviewed,,,
+896,tho addison,Tho: Addison,3,unreviewed,,,
+897,io smith,Io Smith,3,excluded,,,Several Smiths.
+898,capt hazell,Capt: Hazell,3,unreviewed,,,
+899,geo sumers,Geo: Sumers,3,unreviewed,,,
+900,mathew sumers,Mathew Sumers,3,unreviewed,,,
+901,capt baylie,Capt: Baylie,3,unreviewed,,,
+902,captayne argoll,Captayne Argoll,3,existing_key,Samuel Argall,,Governor Samuel Argall.
+903,mary tue,Mary Tue,3,curated_key,Mary Tue,,As on the sheet.
+904,daniell gookin,Daniell Gookin,3,unreviewed,,,
+905,edward palmer,Edward Palmer,3,curated_key,Edward Palmer,,Distinct from William Palmer.
+906,st edw sackuill,St Edw: Sackuill,3,unreviewed,,,
+907,m nichollé,m’ Nichollé,3,unreviewed,,,
+908,s michaell,S* Michaell,3,unreviewed,,,
+909,s arthur,S' Arthur,3,unreviewed,,,
+910,m bowater,m'* Bowater,3,unreviewed,,,
+911,m masterson,m' Masterson,3,unreviewed,,,
+912,m strange,m’ Strange,3,unreviewed,,,
+913,iohn taylor,Iohn Taylor,3,unreviewed,,,
+914,arthur leuellis,Arthur Leuellis,3,curated_key,Arthur Leuellis,,As on the sheet.
+915,m harvy,m’ Harvy,3,unreviewed,,,
+916,capt harvy,Capt Harvy,3,unreviewed,,,
+917,humfrey handford,Humfrey Handford,3,curated_key,Humphrey Handford,,Spelling standardized.
+918,m neuill,m’* Neuill,3,unreviewed,,,
+919,m careles,m’ Careles,3,unreviewed,,,
+920,gabriell barbo,Gabriell Barbo,3,unreviewed,,,
+921,richard quaile,Richard Quaile,3,unreviewed,,,
+922,m harding,m* Harding,3,unreviewed,,,
+923,m thaire,m’ Thaire,3,unreviewed,,,
+924,m gideon,M'* Gideon,3,unreviewed,,,
+925,m ffletcher,m' ffletcher,3,unreviewed,,,
+926,secré caluert,Secré Caluert,3,existing_key,George Calvert,,"Sir George Calvert, Secretary of State 1619-1625."
+927,m chancello,m* Chancello,3,unreviewed,,,
+928,henry sandys,Henry Sandys,3,unreviewed,,,
+929,m chauncello,m’ Chauncello,3,unreviewed,,,
+930,ffra waterhouse,ffra Waterhouse,3,unreviewed,,,
+931,m woodnott,m’ Woodnott,3,unreviewed,,,
+932,john seuerne,John Seuerne,3,unreviewed,,,
+933,thomas culpepper,Thomas Culpepper,3,curated_key,Thomas Culpepper,,As on the sheet.
+934,walter dauies,Walter Dauies,3,unreviewed,,,
+935,m dupper,m’ Dupper,3,unreviewed,,,
+936,richard perry,Richard Perry,3,curated_key,Richard Perry,,As on the sheet.
+937,m freake,m'’ Freake,3,unreviewed,,,
+938,tho waterhouse,Tho: Waterhouse,3,unreviewed,,,
+939,m woodnutt,m* Woodnutt,3,unreviewed,,,
+940,m mace,m'* Mace,3,unreviewed,,,
+941,john bland,John Bland,3,matched_existing_alias,John Bland,,
+942,m wheate,m' Wheate,3,unreviewed,,,
+943,garrett weston,Garrett Weston,3,unreviewed,,,
+944,lord treasuro,Lord Treasuro,3,unreviewed,,,
+945,captaine bernard,Captaine Bernard,3,unreviewed,,,
+946,johes havercome,Johes Havercome,3,unreviewed,,,
+947,en newport,en Newport,3,unreviewed,,,
+948,mathewe de quester,MATHEWE DE QUESTER,3,matched_existing_alias,Matthew de Quester,,
+949,thomas mildmay,Thomas Mildmay,3,matched_existing_alias,Thomas Mildmay,,
+950,thomas mildmaye,THomas MILDMAYE,3,matched_existing_alias,Thomas Mildmay,,
+951,john sammes,JoHN SAMMES,3,matched_existing_alias,John Sammes,,
+952,elias roberts,Elias Roberts,3,curated_key,Elias Roberts,,As on the sheet.
+953,edward woller,Edward Woller,3,curated_key,Edward Woller,,As on the sheet.
+954,john trevor,John Trevor,3,curated_key,John Trevor,,Sir John Trevor.
+955,tomakin,Tomakin,3,unreviewed,,,
+956,m wickham,"m"" Wickham",3,unreviewed,,,
+957,capt madison,Capt Madison,3,matched_existing_alias,Isaac Madison,,
+958,de la warr,De La Warr,3,matched_existing_alias,"Thomas West, Lord De La Warr",,
+959,william atkinson,William Atkinson,3,curated_key,William Atkinson,,As on the sheet.
+960,edward barkley,Edward Barkley,3,curated_key,Edward Barkley,,As on the sheet.
+961,henry cary,Henry Cary,3,curated_key,Henry Cary,,Distinct from Philip Carew.
+962,edward cecill,Edward Cecill,3,curated_key,Edward Cecil,,"Sir Edward Cecil, general in the Low Countries."
+963,thomas carpenter,Thomas Carpenter,3,unreviewed,,,
+964,richard champion,Richard Champion,3,curated_key,Richard Champion,,As on the sheet.
+965,henry cromwell,Henry Cromwell,3,curated_key,Henry Cromwell,,As on the sheet.
+966,thomas church,Thomas Church,3,unreviewed,,,
+967,thomas draper,Thomas Draper,3,unreviewed,,,
+968,john fletcher,John Fletcher,3,unreviewed,,,
+969,martin freeman,Martin Freeman,3,unreviewed,,,
+970,robert hill,Robert Hill,3,curated_key,Robert Hill,,As on the sheet.
+971,john harris,John Harris,3,unreviewed,,,
+972,richard ironside,Richard Ironside,3,unreviewed,,,
+973,arthur mannering,Arthur Mannering,3,curated_key,Arthur Mannering,,Sir Arthur Mainwaring.
+974,richard morer,Richard Morer,3,matched_existing_alias,Richard Morer,,
+975,john taverner,John Taverner,3,unreviewed,,,
+976,charles towler,Charles Towler,3,curated_key,Charles Towler,,As on the sheet.
+977,thomas watson,Thomas Watson,3,unreviewed,,,
+978,m bargrave,"M"" Bargrave",3,existing_key,John Bargrave,"M"" Bargrave|M Bargrave",Captain John Bargrave.
+979,lord zouche,lord Zouche,3,matched_existing_alias,"Edward la Zouche, Lord Zouch",,
+980,m chester,M* Chester,3,unreviewed,,,
+981,m threasurer,M' Threasurer,3,unreviewed,,,
+982,ensigne harrison,Ensigne Harrison,3,excluded,,,Several Harrisons.
+983,charles coyfe,Charles Coyfe,3,unreviewed,,,
+984,m smythes,M' Smythes,3,unreviewed,,,
+985,humphry plant,Humphry Plant,3,unreviewed,,,
+986,thomas thorpe,Thomas Thorpe,3,curated_key,Thomas Thorpe,,Distinct from George Thorpe.
+987,thomas denton,Thomas Denton,3,curated_key,Thomas Denton,,As on the sheet.
+988,epwin sandys,EpwIN SANDYS,3,unreviewed,,,
+989,willm wye,Willm Wye,3,unreviewed,,,
+990,wii tracy,Wii Tracy,3,matched_existing_alias,William Tracy,,
+991,m ffarar,m’ ffarar,3,unreviewed,,,
+992,william brewster,William Brewster,3,matched_existing_alias,William Brewster,,
+993,john dyke,John Dyke,3,matched_existing_alias,John Dyke,,
+994,thomas johnson,Thomas Johnson,3,unreviewed,,,
+995,robert rich,Robert Rich,3,matched_existing_alias,Robert Rich,,
+996,richard williamson,Richard Williamson,3,unreviewed,,,
+997,sir thomas,Sir Thomas,3,unreviewed,,,
+998,captain nuce,Captain Nuce,3,unreviewed,,,
+999,arnold oldisworth,Arnold Oldisworth,3,curated_key,Arnold Oldisworth,,As on the sheet.
+1000,robt bisaker,Robt Bisaker,3,curated_key,Robert Bisaker,,As on the sheet.
+1001,richard hopkins,Richard Hopkins,3,curated_key,Richard Hopkins,,As on the sheet.
+1002,mary tracy,Mary Tracy,3,curated_key,Mary Tracy,,Distinct from William Tracy.
+1003,thomas tracy,Thomas Tracy,3,curated_key,Thomas Tracy,,Distinct from William Tracy.
+1004,george keene,George Keene,3,curated_key,George Keene,,As on the sheet.
+1005,nicholas came,Nicholas Came,3,unreviewed,,,
+1006,elizabeth webbe,Elizabeth Webbe,3,curated_key,Elizabeth Webbe,,As on the sheet.
+1007,walter prosser,Walter Prosser,3,unreviewed,,,
+1008,richard rowles,Richard Rowles,3,curated_key,Richard Rowles,,As on the sheet.
+1009,thomas kemis,Thomas Kemis,3,curated_key,Thomas Kemis,,As on the sheet.
+1010,thomas baugh,Thomas Baugh,3,curated_key,Thomas Baugh,,As on the sheet.
+1011,giles wilkins,Giles Wilkins,3,curated_key,Giles Wilkins,,As on the sheet.
+1012,iohn howlet,Iohn Howlet,3,unreviewed,,,
+1013,edward bruister,Edward Bruister,3,matched_existing_alias,Edward Brewster,,
+1014,george yeardlie,George Yeardlie,3,matched_existing_alias,George Yeardley,,
+1015,richard bucke,Richard Bucke,3,matched_existing_alias,Richard Bucke,,
+1016,george thorp,George Thorp,3,matched_existing_alias,George Thorpe,,
+1017,nicolas hyde,Nicolas Hyde,3,unreviewed,,,
+1018,francis wyate,Francis Wyate,3,matched_existing_alias,Francis Wyatt,,
+1019,doctor potts,Doctor Potts,3,unreviewed,,,
+1020,john berkley,John Berkley,3,matched_existing_alias,John Berkeley,,
+1021,m harwood,M' Harwood,3,unreviewed,,,
+1022,liuetennt whittakers,Liuetennt Whittakers,3,curated_key,Jabez Whitaker,,"Lieutenant Jabez Whitaker, commander at Kecoughtan."
+1023,richard pace,Richard Pace,3,matched_existing_alias,Richard Pace,,
+1024,arthur guye,Arthur Guye,3,matched_existing_alias,Arthur Guy,,
+1025,robert joakly,Robert Joakly,3,curated_key,Robert Joakly,,As on the sheet.
+1026,john packsall,John Packsall,3,curated_key,John Packsall,,As on the sheet.
+1027,richard weston,Richard Weston,3,curated_key,Richard Weston,,"Sir Richard Weston, Chancellor of the Exchequer."
+1028,daniell gat,Daniell Gat,3,unreviewed,,,
+1029,john huddleston,John Huddleston,3,curated_key,John Huddleston,,Ship captain who relieved the colony in 1622.
+1030,felix kyngston,Felix Kyngston,3,unreviewed,,,
+1031,thomas hobson,Thomas Hobson,3,curated_key,Thomas Hobson,,As on the sheet.
+1032,john brewer,John Brewer,3,unreviewed,,,
+1033,m thresurer,m' Thresurer,3,unreviewed,,,
+1034,william payne,William Payne,3,curated_key,William Payne,,As on the sheet.
+1035,edward barnes,Edward Barnes,3,curated_key,Edward Barnes,,As on the sheet.
+1036,george robins,George Robins,3,curated_key,George Robins,,As on the sheet.
+1037,john dike,John Dike,3,curated_key,John Dike,,As on the sheet.
+1038,e raph hamor,e Raph Hamor,3,unreviewed,,,
+1039,john bourchier,John Bourchier,3,matched_existing_alias,John Bourchier,,
+1040,tho barwick,Tho: Barwick,3,unreviewed,,,
+1041,james r,JAMES R,3,existing_key,James I,James R9,Royal signature 'James R.' (Rex).
+1042,nicholas elford,Nicholas Elford,3,curated_key,Nicholas Elford,,As on the sheet.
+1043,nenemachanew,Nenemachanew,3,unreviewed,,,
+1044,aldran johnson,Aldran Johnson,3,existing_key,Robert Johnson,,"Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe."
+1045,goodman jackson,Goodman Jackson,3,excluded,,,Given name unknown.
+1046,captaine whitacres,Captaine Whitacres,3,unreviewed,,,
+1047,m farrar,M* Farrar,3,unreviewed,,,
+1048,john worstenholme,John Worstenholme,3,matched_existing_alias,John Wolstenholme,,
+1049,anthony abdye,Anthony Abdye,3,matched_existing_alias,Anthony Abdy,,
+1050,william douglas,William Douglas,3,curated_key,William Douglas,,As on the sheet.
+1051,john porr,JoHn Porr,3,unreviewed,,,
+1052,captaine nuce,Captaine Nuce,3,unreviewed,,,
+1053,humfry may,Humfry May,3,unreviewed,,,
+1054,st t smithes,St T. Smithes,3,unreviewed,,,
+1055,george sandyes,George Sandyes,3,matched_existing_alias,George Sandys,,
+1056,gilbert peppett,Gilbert Peppett,3,curated_key,Gilbert Peppett,,As on the sheet.
+1057,edward conwey,Edward Conwey,3,unreviewed,,,
+1058,william pierce,WILLIAM PIERCE,3,unreviewed,,,
+1059,john pott,John Pott,3,unreviewed,,,
+1060,johannes danvers,Johannes Danvers,3,matched_existing_alias,John Danvers,,
+1061,ricardus tomlyns,Ricardus Tomlyns,3,unreviewed,,,
+1062,georgius swinhowe,Georgius Swinhowe,3,unreviewed,,,
+1063,gilbertus morewood,Gilbertus Morewood,3,curated_key,Gilbert Morewood,,English and Latin forms.
+1064,edmundus morgan,Edmundus Morgan,3,curated_key,Edmund Morgan,,English and Latin forms.
+1065,johannes cuffe,Johannes Cuffe,3,unreviewed,,,
+1066,roberto johnson,Roberto Johnson,3,matched_existing_alias,Robert Johnson,,
+1067,thome wood,Thome Wood,3,curated_key,Thomas Wood,,English and Latin forms; distinct from Ambrose Wood.
+1068,thome coventrye,Thome Coventrye,3,existing_key,Thomas Coventry,,Latin genitive of Thomas Coventry.
+1069,edward hackett,Edward Hackett,3,curated_key,Edward Hackett,,As on the sheet.
+1070,george smyth,George Smyth,3,existing_key,George Smith,,Spelling variant.
+1071,jonn harvey,Jonn Harvey,3,unreviewed,,,
+1072,mt dennis,mt Dennis,3,unreviewed,,,
+1073,john suckling,John Suckling,3,matched_existing_alias,John Suckling,,
+1074,abraham percey,Abraham Percey,3,matched_existing_alias,Abraham Piersey,,
+1075,william jones,William Jones,3,curated_key,William Jones,,As on the sheet.

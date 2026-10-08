@@ -78,6 +78,7 @@ tbody tr.main{cursor:pointer} tbody tr.main:hover td{background:var(--accent-sof
 .k-indigenous_collective{background:var(--col-soft);color:var(--col)}
 .bgchip{background:var(--bg-chip);color:var(--bg-chip-ink);margin-left:6px}
 .low{color:var(--muted);font-size:12px}
+.rel{font-size:13px;font-weight:600;color:var(--ink)}
 tr.ev td{background:var(--paper);color:var(--muted);font-size:13.5px;line-height:1.55}
 tr.ev q{color:var(--ink);quotes:"“" "”"}
 .more{display:flex;justify-content:center;padding:10px}
@@ -119,6 +120,8 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
       <label class="chk" for="hidebg"><input type="checkbox" id="hidebg" checked> Hide Virginia, England, London</label>
       <label class="chk" for="close"><input type="checkbox" id="close"> Only close mentions (within ~300 characters)</label>
       <label class="chk" for="nolow"><input type="checkbox" id="nolow"> Skip low-confidence dates</label>
+      <label class="chk" for="withrel"><input type="checkbox" id="withrel"> Only links with a stated relationship</label>
+      <label class="chk" for="present"><input type="checkbox" id="present"> Include people who were only in the attendance list</label>
     </div>
   </section>
 
@@ -132,6 +135,8 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
         <th>Kind</th>
         <th class="num"><button data-sort="m" type="button">Meetings</button></th>
         <th class="num"><button data-sort="c" type="button">Close</button></th>
+        <th class="num"><button data-sort="pm" type="button">Present</button></th>
+        <th><button data-sort="r" type="button">Relationship</button></th>
         <th class="num"><button data-sort="d" type="button">Nearest</button></th>
         <th><button data-sort="y" type="button">Years</button></th>
       </tr></thead>
@@ -141,7 +146,7 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
   </div>
 
   <footer>
-    <p><b>Meetings</b> counts court meetings or dated documents where both are named. <b>Close</b> counts those where the two names fall within about 300 characters, usually the same sentence or entry. <b>Nearest</b> is the shortest distance in characters. A year is the meeting's start date. Court Book dates are converted from Old Style, so January to March 24 count toward the following year. Click a row to see the text.</p>
+    <p><b>Meetings</b> counts court meetings or dated documents where the person is named in the text of the entry along with the place. <b>Present</b> counts meetings where the person appears only in the attendance list; those never count as close. <b>Close</b> counts meetings where the two names fall within about 300 characters, usually the same sentence or entry. <b>Relationship</b> shows a stated link found in the same sentence, such as an office ("Governor and Captaine generall of"), land ("two shares of land in"), a house ("his house in"), or travel ("sent to"). <b>Nearest</b> is the shortest distance in characters. A year is the meeting's start date. Court Book dates are converted from Old Style, so January to March 24 count toward the following year. Click a row to see the text.</p>
   </footer>
 </div>
 
@@ -151,6 +156,9 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
   const RAW = JSON.parse(document.getElementById('data').textContent);
   const F = RAW.fields, rows = RAW.rows.map(r => Object.fromEntries(F.map((f, i) => [f, r[i]])));
   const KIND = {place:'Place', indigenous_group:'Indigenous people', indigenous_collective:'Collective term'};
+  const REL = {office_in:'office', commands:'command', property_at:'house / plantation', land_at:'land',
+    travel_to:'went to', travel_from:'came from', resident_of:'of / dwelling', killed_at:'killed at', people_at:'his people at',
+    action_against:'action against', trade_with:'trade with', peace_with:'peace with'};
   const years = [...new Set(rows.map(r => r.y))].sort();
   const $ = id => document.getElementById(id);
   const state = {from:'1622', to:'1622', sort:'c', dir:-1, shown:200, open:new Set()};
@@ -161,14 +169,16 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
   function filters() {
     const person = $('person').value.trim().toLowerCase();
     const place = $('place').value.trim().toLowerCase();
-    return {person, place, kind:$('kind').value, hidebg:$('hidebg').checked, close:$('close').checked, nolow:$('nolow').checked};
+    return {person, place, kind:$('kind').value, hidebg:$('hidebg').checked, close:$('close').checked,
+            nolow:$('nolow').checked, withrel:$('withrel').checked, present:$('present').checked};
   }
   function base(f, ignoreYears) {
     return rows.filter(r =>
       (ignoreYears || (r.y >= state.from && r.y <= state.to)) &&
       (!f.person || r.p.toLowerCase().includes(f.person)) &&
       (!f.place || r.t.toLowerCase().includes(f.place)) &&
-      (!f.kind || r.k === f.kind) && !(f.hidebg && r.bg) && !(f.close && !r.c) && !(f.nolow && r.q === 'low'));
+      (!f.kind || r.k === f.kind) && !(f.hidebg && r.bg) && !(f.close && !r.c) && !(f.nolow && r.q === 'low') &&
+      (f.present || r.m > 0) && !(f.withrel && !r.rel));
   }
   function strip(f) {
     const counts = {}; for (const r of base(f, true)) counts[r.y] = (counts[r.y] || 0) + 1;
@@ -184,10 +194,16 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
     for (const r of list) {
       const key = r.p + '\u0000' + r.t;
       let a = m.get(key);
-      if (!a) m.set(key, a = {p:r.p, t:r.t, k:r.k, bg:r.bg, m:0, c:0, d:null, ys:new Set(), ex:'', exd:null, exy:''});
-      a.m += r.m; a.c += r.c; a.ys.add(r.y);
+      if (!a) m.set(key, a = {p:r.p, t:r.t, k:r.k, bg:r.bg, m:0, c:0, pm:0, rels:{}, d:null, ys:new Set(), ex:'', exd:null, exy:''});
+      a.m += r.m; a.c += r.c; a.pm += r.pm; a.ys.add(r.y);
+      for (const part of (r.rel ? r.rel.split('; ') : [])) {
+        const [name, n] = part.split('×'); a.rels[name] = (a.rels[name] || 0) + (n ? +n : 1);
+      }
       if (r.d !== null && (a.d === null || r.d < a.d)) a.d = r.d;
       if (r.ex && (a.exd === null || (r.d !== null && r.d < a.exd))) { a.ex = r.ex; a.exd = r.d; a.exy = r.fd; }
+    }
+    for (const a of m.values()) {
+      a.r = Object.entries(a.rels).sort((x, y) => y[1] - x[1]).map(([n, c]) => REL[n] ? REL[n] + (c > 1 ? ` ×${c}` : '') : n).join(', ');
     }
     return [...m.values()];
   }
@@ -197,8 +213,10 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
     const f = filters(); strip(f);
     const list = aggregate(base(f, false));
     const s = state.sort, dir = state.dir;
+    if (s === 'r') list.forEach(a => a._r = a.r || '\uffff');
     list.sort((a, b) => {
-      const v = s === 'y' ? [[...a.ys].sort()[0], [...b.ys].sort()[0]] : s === 'd' ? [a.d ?? 1e9, b.d ?? 1e9] : [a[s], b[s]];
+      const v = s === 'y' ? [[...a.ys].sort()[0], [...b.ys].sort()[0]] : s === 'd' ? [a.d ?? 1e9, b.d ?? 1e9]
+        : s === 'r' ? [a._r, b._r] : [a[s], b[s]];
       return (v[0] < v[1] ? -1 : v[0] > v[1] ? 1 : 0) * dir || b.m - a.m;
     });
     const people = new Set(list.map(a => a.p)).size, targets = new Set(list.map(a => a.t)).size;
@@ -213,10 +231,12 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
         <td class="who">${esc(a.p)}</td>
         <td>${esc(a.t)}${a.bg ? '<span class="chip bgchip">background</span>' : ''}</td>
         <td><span class="chip k-${a.k}">${KIND[a.k]}</span></td>
-        <td class="num">${a.m}</td><td class="num">${a.c || '<span class="low">0</span>'}</td>
+        <td class="num">${a.m || '<span class="low">0</span>'}</td><td class="num">${a.c || '<span class="low">0</span>'}</td>
+        <td class="num">${a.pm || '<span class="low">0</span>'}</td>
+        <td>${a.r ? `<span class="rel">${esc(a.r)}</span>` : '<span class="low">none stated</span>'}</td>
         <td class="num">${a.d === null ? '<span class="low">other page</span>' : a.d}</td>
-        <td>${yr}</td></tr>` + (open ? `<tr class="ev"><td colspan="7">${a.ex ? `<q>${esc(a.ex)}</q> <span class="low">(${esc(a.exy)})</span>` : 'Named on different pages of the same meeting.'}</td></tr>` : '');
-    }).join('') : `<tr><td colspan="7" class="empty">No links match. Try another year, clear a search, or include background places.</td></tr>`;
+        <td>${yr}</td></tr>` + (open ? `<tr class="ev"><td colspan="9">${a.ex ? `<q>${esc(a.ex)}</q> <span class="low">(${esc(a.exy)})</span>` : 'Named on different pages of the same meeting.'}</td></tr>` : '');
+    }).join('') : `<tr><td colspan="9" class="empty">No links match. Try another year, clear a search, or include background places.</td></tr>`;
     $('morebox').hidden = list.length <= state.shown;
     $('more').textContent = `Show more (${(list.length - state.shown).toLocaleString()} left)`;
   }
@@ -229,11 +249,11 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
   toSel.addEventListener('change', () => { state.to = toSel.value; if (state.from > state.to) state.from = state.to; state.shown = 200; render(); });
   $('all').addEventListener('click', () => { state.from = years[0]; state.to = years[years.length - 1]; state.shown = 200; render(); });
   for (const id of ['person', 'place']) $(id).addEventListener('input', () => { state.shown = 200; render(); });
-  for (const id of ['kind', 'hidebg', 'close', 'nolow']) $(id).addEventListener('change', () => { state.shown = 200; render(); });
+  for (const id of ['kind', 'hidebg', 'close', 'nolow', 'withrel', 'present']) $(id).addEventListener('change', () => { state.shown = 200; render(); });
   $('more').addEventListener('click', () => { state.shown += 200; render(); });
   document.querySelector('thead').addEventListener('click', e => {
     const b = e.target.closest('button[data-sort]'); if (!b) return;
-    const s = b.dataset.sort; state.dir = state.sort === s ? -state.dir : (s === 'p' || s === 't' || s === 'y' ? 1 : -1);
+    const s = b.dataset.sort; state.dir = state.sort === s ? -state.dir : (['p', 't', 'y', 'r'].includes(s) ? 1 : -1);
     state.sort = s; render();
   });
   const toggle = tr => { const k = tr.dataset.key.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
@@ -251,13 +271,13 @@ def main() -> None:
     parser.add_argument("by_year_csv", type=Path)
     parser.add_argument("output", type=Path)
     args = parser.parse_args()
-    fields = ["y", "p", "t", "k", "bg", "m", "c", "d", "q", "fd", "ex"]
+    fields = ["y", "p", "t", "k", "bg", "m", "c", "pm", "rel", "d", "q", "fd", "ex"]
     rows = []
     with args.by_year_csv.open(encoding="utf-8", newline="") as handle:
         for r in csv.DictReader(handle):
             rows.append([
                 r["year"], r["person"], r["target_name"], r["target_type"], 1 if r["background"] else 0,
-                int(r["meetings"]), int(r["close_meetings"]),
+                int(r["meetings"]), int(r["close_meetings"]), int(r["present_meetings"]), r["relations"],
                 int(r["min_distance"]) if r["min_distance"] != "" else None,
                 r["date_confidence"], r["first_date"], r["example"][:260],
             ])

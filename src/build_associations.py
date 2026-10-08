@@ -12,7 +12,13 @@ the same page gives a character distance and a proximity class:
 
 * ``close``: within 300 characters (usually the same sentence or entry);
 * ``near``: within 1,000 characters;
-* ``same_meeting``: further apart, or on different pages of the meeting.
+* ``same_meeting``: further apart, or on different pages of the meeting;
+* ``present_only``: the person is only in the meeting's attendance list
+  (``mention_role=present``), so the pair is counted in ``present_meetings``
+  and never as close.
+
+``relations`` lists typed relations from ``extract_relations.py`` (e.g.
+``office_in``, ``land_at``) found for the pair in the same meeting.
 
 Virginia, England, and London are flagged ``background``: they co-occur with
 almost everyone. ``lift`` compares how often a pair shares a meeting with
@@ -41,16 +47,18 @@ COLLECTIVE_KEY = "INDIGENOUS (collective reference)"
 
 LINK_FIELDS = [
     "person", "target_id", "target_name", "target_type", "background", "meetings", "close_meetings",
-    "near_meetings", "min_distance", "lift", "first_date", "last_date", "volumes", "example",
+    "near_meetings", "present_meetings", "relations", "min_distance", "lift", "first_date", "last_date",
+    "volumes", "example",
 ]
 BY_YEAR_FIELDS = [
     "year", "person", "target_name", "target_type", "background", "meetings", "close_meetings",
-    "min_distance", "date_confidence", "first_date", "last_date", "example",
+    "present_meetings", "relations", "min_distance", "date_confidence", "first_date", "last_date", "example",
 ]
 CONFIDENCE_RANK = {"high": 0, "medium": 1, "low": 2, "none": 3, "": 3}
 EVIDENCE_FIELDS = [
     "person", "target_id", "target_name", "target_type", "meeting_id", "date_start", "date_end",
-    "date_confidence", "proximity", "distance", "page_id", "person_span", "target_span", "snippet",
+    "date_confidence", "person_role", "proximity", "distance", "relations", "page_id", "person_span",
+    "target_span", "snippet",
 ]
 
 
@@ -88,7 +96,28 @@ def distance(a: dict, b: dict) -> int | None:
     return max(0, max(a0, b0) - min(a1, b1))
 
 
-def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]) -> tuple[list, list]:
+def relation_index(relations: list[dict], meetings: dict[str, dict]) -> dict[tuple[str, str, str], list[str]]:
+    """(meeting, person key, target key) -> relation types found in that meeting."""
+    index: dict[tuple[str, str, str], list[str]] = defaultdict(list)
+    for row in relations:
+        meeting = meetings.get(row["segment_id"])
+        if meeting and row["subject_key"] and row["object_key"] and row["subject_type"] == "person":
+            index[(meeting["meeting_id"], row["subject_key"], row["object_key"])].append(row["relation"])
+    return index
+
+
+def summarize(relations: list[str]) -> str:
+    counts: dict[str, int] = defaultdict(int)
+    for relation in relations:
+        counts[relation] += 1
+    return "; ".join(f"{name}×{n}" if n > 1 else name for name, n in sorted(counts.items(), key=lambda kv: -kv[1]))
+
+
+def build(
+    mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str],
+    relations: dict[tuple[str, str, str], list[str]] | None = None,
+) -> tuple[list, list]:
+    relations = relations or {}
     people: dict[str, list] = defaultdict(list)    # meeting -> person mentions
     targets: dict[str, list] = defaultdict(list)   # meeting -> target mentions
     for row in mentions:
@@ -106,6 +135,7 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
     meeting_info = {m["meeting_id"]: m for m in meetings.values()}
 
     evidence = []
+    pair_relations: dict[tuple[str, str], list[str]] = defaultdict(list)
     for meeting, person_rows in people.items():
         by_person: dict[str, list] = defaultdict(list)
         for row in person_rows:
@@ -114,10 +144,15 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
         for row in targets.get(meeting, []):
             by_target[row["entity_key"]].append(row)
         info = meeting_info[meeting]
-        for person, p_rows in by_person.items():
+        for person, all_rows in by_person.items():
+            # Attendance-list mentions say the person was there, not that they
+            # were discussed with the place: they never count toward closeness.
+            mentioned = [r for r in all_rows if r.get("mention_role", "mentioned") != "present"]
+            role = "mentioned" if mentioned else "present"
+            p_rows = mentioned or all_rows
             for target, t_rows in by_target.items():
                 best = None
-                for p in p_rows:
+                for p in (p_rows if role == "mentioned" else []):
                     for t in t_rows:
                         d = distance(p, t)
                         if d is not None and (best is None or d < best[0]):
@@ -126,19 +161,22 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
                     d, p, t = None, p_rows[0], t_rows[0]
                 else:
                     d, p, t = best
-                proximity = "same_meeting" if d is None or d > NEAR else "near" if d > CLOSE else "close"
+                proximity = ("present_only" if role == "present"
+                             else "same_meeting" if d is None or d > NEAR else "near" if d > CLOSE else "close")
                 snippet = ""
                 if d is not None:
                     text = texts[p["page_id"]]
                     lo = min(int(p["span_start"]), int(t["span_start"]))
                     hi = max(int(p["span_end"]), int(t["span_end"]))
                     snippet = " ".join(text[max(0, lo - 60): min(hi + 60, lo + 700)].split())
+                pair_relations[(person, target)].extend(relations.get((meeting, person, target), []))
                 evidence.append({
                     "person": person, "target_id": target, "target_name": t["entity_name"],
                     "target_type": t["target_type"], "meeting_id": meeting,
                     "date_start": info["date_start"], "date_end": info["date_end"],
-                    "date_confidence": info["date_confidence"], "proximity": proximity,
-                    "distance": "" if d is None else d, "page_id": p["page_id"],
+                    "date_confidence": info["date_confidence"], "person_role": role, "proximity": proximity,
+                    "distance": "" if d is None else d,
+                    "relations": summarize(relations.get((meeting, person, target), [])), "page_id": p["page_id"],
                     "person_span": " ".join(p["observed_span"].split()),
                     "target_span": " ".join(t["observed_span"].split()), "snippet": snippet,
                 })
@@ -149,7 +187,8 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
     target_meetings: dict[str, set] = defaultdict(set)
     for meeting, rows in people.items():
         for row in rows:
-            person_meetings[row["entity_key"]].add(meeting)
+            if row.get("mention_role", "mentioned") != "present":
+                person_meetings[row["entity_key"]].add(meeting)
     for meeting, rows in targets.items():
         for row in rows:
             target_meetings[row["entity_key"]].add(meeting)
@@ -157,8 +196,12 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
     for row in evidence:
         pairs[(row["person"], row["target_id"])].append(row)
     links = []
-    for (person, target), rows in pairs.items():
-        meetings_together = len({r["meeting_id"] for r in rows})
+    for (person, target), all_rows in pairs.items():
+        rows = [r for r in all_rows if r["person_role"] == "mentioned"]
+        present = {r["meeting_id"] for r in all_rows if r["person_role"] == "present"}
+        if not rows:
+            rows = all_rows
+        meetings_together = len({r["meeting_id"] for r in rows if r["person_role"] == "mentioned"})
         expected = len(person_meetings[person]) * len(target_meetings[target]) / max(1, total_meetings)
         distances = [r["distance"] for r in rows if r["distance"] != ""]
         closest = min(rows, key=lambda r: r["distance"] if r["distance"] != "" else 10 ** 9)
@@ -169,8 +212,10 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
             "meetings": meetings_together,
             "close_meetings": len({r["meeting_id"] for r in rows if r["proximity"] == "close"}),
             "near_meetings": len({r["meeting_id"] for r in rows if r["proximity"] in {"close", "near"}}),
+            "present_meetings": len(present),
+            "relations": summarize(pair_relations[(person, target)]),
             "min_distance": min(distances) if distances else "",
-            "lift": round(meetings_together / expected, 2) if expected else "",
+            "lift": round(meetings_together / expected, 2) if expected and meetings_together else "",
             "first_date": dates[0] if dates else "", "last_date": dates[-1] if dates else "",
             "volumes": ",".join(sorted({r["page_id"][1:3].lstrip("0") for r in rows})),
             "example": closest["snippet"][:300],
@@ -178,6 +223,15 @@ def build(mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str]
     links.sort(key=lambda r: (-r["close_meetings"], -r["meetings"], r["person"], r["target_name"]))
     evidence.sort(key=lambda r: (r["person"], r["target_name"], r["date_start"], r["meeting_id"]))
     return links, evidence
+
+
+def merge_summaries(parts: list[str]) -> str:
+    """Combine ``office_in×2`` style parts into one summary."""
+    expanded = []
+    for part in parts:
+        name, _, count = part.partition("×")
+        expanded.extend([name] * (int(count) if count else 1))
+    return summarize(expanded)
 
 
 def by_year(evidence: list[dict]) -> list[dict]:
@@ -190,14 +244,17 @@ def by_year(evidence: list[dict]) -> list[dict]:
     out = []
     for (year, person, _), rows in groups.items():
         distances = [r["distance"] for r in rows if r["distance"] != ""]
+        year_relations = [part for r in rows for part in r["relations"].split("; ") if part]
         closest = min(rows, key=lambda r: r["distance"] if r["distance"] != "" else 10 ** 9)
         dates = sorted(r["date_start"] for r in rows)
         out.append({
             "year": year, "person": person, "target_name": rows[0]["target_name"],
             "target_type": rows[0]["target_type"],
             "background": "yes" if rows[0]["target_id"] in BACKGROUND else "",
-            "meetings": len({r["meeting_id"] for r in rows}),
+            "meetings": len({r["meeting_id"] for r in rows if r["person_role"] == "mentioned"}),
             "close_meetings": len({r["meeting_id"] for r in rows if r["proximity"] == "close"}),
+            "present_meetings": len({r["meeting_id"] for r in rows if r["person_role"] == "present"}),
+            "relations": merge_summaries(year_relations),
             "min_distance": min(distances) if distances else "",
             "date_confidence": min((r["date_confidence"] for r in rows), key=lambda c: CONFIDENCE_RANK.get(c, 3)),
             "first_date": dates[0], "last_date": dates[-1], "example": closest["snippet"][:300],
@@ -222,11 +279,13 @@ def main() -> None:
     parser.add_argument("--links-output", type=Path, required=True)
     parser.add_argument("--evidence-output", type=Path, required=True)
     parser.add_argument("--by-year-output", type=Path, help="One row per year, person, and target.")
+    parser.add_argument("--relations", type=Path, help="extract_relations.py output, attached to each link.")
     args = parser.parse_args()
 
     texts = {page["page_id"]: page["text"] for page in load_primary_pages(args.source)}
     meetings = meeting_ids(read_csv(args.segments))
-    links, evidence = build(read_csv(args.mentions), meetings, texts)
+    relations = relation_index(read_csv(args.relations), meetings) if args.relations else {}
+    links, evidence = build(read_csv(args.mentions), meetings, texts, relations)
     write(args.links_output, LINK_FIELDS, links)
     write(args.evidence_output, EVIDENCE_FIELDS, evidence)
     if args.by_year_output:

@@ -18,7 +18,8 @@ Pipeline (spaCy ``en_core_web_sm`` plus an authority matcher placed before ``ner
    take an adjacent title and are linked by dictionary alias when possible.
 4. Index pages are skipped; mentions in running heads and editorial lines
    are kept but marked not usable for association.
-5. Each mention carries its meeting segment and date.
+5. Each mention carries its meeting segment and date, and a ``mention_role``:
+   ``present`` inside a meeting's attendance list, otherwise ``mentioned``.
 6. Optionally, Indigenous groups, individuals, titles, and collective terms
    from ``find_indigenous.py`` are merged in (``INDIGENOUS_GROUP``, ``PERSON``,
    ``INDIGENOUS_TITLE``, ``INDIGENOUS_COLLECTIVE``).
@@ -41,6 +42,7 @@ from spacy.language import Language
 from spacy.util import filter_spans
 
 import person_dictionary
+from attendance import attendance_blocks, in_blocks
 from filter_person_review_queue import (
     NAME_PATTERN,
     NON_NAME_LAST_TOKENS,
@@ -58,7 +60,7 @@ FIELDS = [
     "mention_id", "label", "entity_key", "entity_name", "source", "link_note",
     "observed_span", "page_id", "span_start", "span_end",
     "segment_id", "date_start", "date_end", "date_source", "date_confidence",
-    "page_role", "editorial_span", "usable_for_association", "sentence_text",
+    "page_role", "editorial_span", "usable_for_association", "mention_role", "sentence_text",
 ]
 MODEL_PLACE_LABELS = {"GPE", "LOC", "FAC"}
 # Single-word person aliases that are distinctive enough to match alone.
@@ -86,7 +88,7 @@ LATIN_ADDRESS_RE = re.compile(r"(?i)\b(?:dno|dño|domino|dominum|dominus|dom)\.?
 SHIP_AFTER_RE = re.compile(r"(?i)^\W{0,3}(?:being\s+a\s+(?:new\s+)?(?:ship|shipp|pinnace)|ship|shipp)\b")
 TITLE_BEFORE_PERSON_RE = re.compile(
     r"(?i)(?:^|[^\w])((?:captain|captaine|capt\.?|sir|lady|lord|chief|king|queen|weroance|doctor|dr\.?|"
-    r"master|mistress|mr\.?|mrs\.?|governor|[mMsS][’'*ᵣ]+))\s*[,;:\-—–]?\s*$"
+    r"master|mistress|mr\.?|mrs\.?|governor|[mMsS][’'*ᵣ\"”™]+|mt))\s*[,;:\-—–]?\s*$"
 )
 
 
@@ -96,7 +98,7 @@ TITLE_BEFORE_PERSON_RE = re.compile(
 NON_NAME_WORDS = {
     "attorney", "atturney", "attourney", "attorny", "president", "presiden", "presidente",
     "treasuror", "treasurer", "deputy", "deputie", "auditor", "auditors", "recorder", "chancellor",
-    "keeper", "secretary", "secretarie", "present", "item", "juris", "gd", "the", "king", "kinge",
+    "keeper", "secretary", "secretarie", "present", "item", "juris", "gd", "the", "king", "kinge", "generall",
     "majesty", "maiestie", "silke", "silk", "madder", "crop", "coddes", "corne", "tobacco",
     "sassafras", "wine", "pitch", "tarre", "sope", "potashes", "iron", "dated", "datum",
     "january", "ianuary", "february", "march", "april", "aprill", "iune", "june", "iuly", "july",
@@ -143,14 +145,17 @@ COMPANY_BEFORE_RE = re.compile(
 SPAN_CUT_RE = re.compile(r"_{1,}|\s*\n\s*\n|\s+\d|[-.~]{3,}|\s*[-—–]{2,}")
 TITLE_START_RE = re.compile(
     r"(?i)^(?:captain|captaine|captayne|capt\.?|cap[’'*:.]+|sir|st\.?|s[’'*]|lady|lord|lo:|doctor|dr\.?|"
-    r"d[’'*]|master|mistress|mr\.?|mrs\.?|m[’'*ᵣ]+)\s")
+    r"d[’'*]|master|mistress|mr\.?|mrs\.?|m[’'*ᵣ\"”™]+|mt)\s")
 # Title + name pass carried over from the old extraction: ``M’ Baldwin``,
 # ``Cap’ Bargraue``, ``m’ Iohn Porter``. Names may be ff-initial (``m' ffarrar``).
-NAME_WORD = r"(?:ff[a-z]{2,}|[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]+)"
+# "[ohn" / "lohn" = Iohn with the I misread as [ or l
+NAME_WORD = r"(?:ff[a-z]{2,}|\[ohn|lohn|[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]+)"
 TITLE_NAME_RE = re.compile(
     r"(?<![A-Za-z])(?i:captain|captaine|captayne|capt\.?|cap[’'*:.]+|sir|s[’'*]|lady|doctor|dr\.?|d[’'*]|"
-    r"master|mistress|mr\.?|mrs\.?|m[’'*ᵣ]+)[ \t]*[,;:\-—–]?[ \t]*(" + NAME_WORD
-    + r"(?:[:.?]?[ \t]+" + NAME_WORD + r")?)"  # ``m’ Tho: Gibbes``, ``m’ Ald: Iohnson``
+    r"master|mistress|mr\.?|mrs\.?|m[’'*ᵣ\"”™]+|mt)[ \t]*[,;:\-—–]?[ \t]*(" + NAME_WORD
+    # ``m’ Tho: Gibbes``, ``m’ Ald: Iohnson``; the second word may not start the next entry (``S'``, ``m*``).
+    + r"(?:[:.?]?[ \t]+(?!(?i:s[’'*:]|m[’'*\"”™]|mt\b|capt|cap[’'*:.]|sir\b|lo[:.]|dr\b|d[’'*]))"
+    + NAME_WORD + r")?)"
 )
 # Capitalized prose words a two-word title match can swallow (``M' Pory Concerning``).
 PROSE_WORDS = {
@@ -171,6 +176,14 @@ def trim_model_span(text: str, start: int, end: int) -> int:
     while end > start and text[end - 1] in " .,:;'’":
         end -= 1
     return end
+
+
+TRADES = {
+    "carpenter", "carpenters", "labourer", "laborer", "gent", "gentleman", "esq", "esquire", "merchant",
+    "grocer", "mariner", "sawyer", "yeoman", "husbandman", "joyner", "joiner", "bricklayer", "clothier",
+    "haberdasher", "vintner", "draper", "minister", "preacher", "surgeon", "chirurgion", "apothecary",
+    "boatswain", "shipwright", "sailor", "saylor", "planter", "servant", "seruant", "boy", "maid", "widow",
+}
 
 
 def extend_truncated_name(text: str, start: int, end: int, has_title: bool) -> int:
@@ -196,13 +209,17 @@ def looks_like_person(observed: str, has_title: bool) -> bool:
     """Shape gate for model-only PERSON spans, using the person filter's rules:
     a title plus a capitalized name, or a clean two-part capitalized name."""
     flat = " ".join(observed.split())
+    # ``Iohn White Carpenter``: a trailing trade or rank is not part of the name.
+    parts = flat.split()
+    if len(parts) >= 3 and parts[-1].casefold().strip(".,") in TRADES:
+        flat = " ".join(parts[:-1])
     words = re.findall(r"[A-Za-z’']+", flat)
     if any(word.casefold().strip("’'") in NON_NAME_WORDS for word in words[1 if has_title else 0:]):
         return False
     if all(len(word) <= 2 for word in words[1 if has_title else 0:]):  # initials only: ``T. Ro``
         return False
     if has_title:
-        return bool(re.search(r"\s[A-ZÀ-ÖØ-Þ][\w'’.-]+", flat))
+        return bool(re.search(r"\s(?:[A-ZÀ-ÖØ-Þ][\w'’.-]+|ff[a-z]{2,}|\[ohn|lohn)", flat))
     match = NAME_PATTERN.fullmatch(flat.rstrip(" .,:;"))
     if not match or match.group("title"):
         return False
@@ -430,6 +447,10 @@ def extract(
                 title = TITLE_BEFORE_PERSON_RE.search(text[max(0, start - 24):start])
                 if title:
                     start = start - (len(text[max(0, start - 24):start]) - title.start(1))
+                # Tesseract reads the superscript in "mʳ" as "*": spaCy then tags
+                # "* Seaward" and leaves the "m" behind. Pull the title marker back in.
+                if not title and start > 0 and text[start] in "*’'\"”™" and text[start - 1] in "mMsSdD":
+                    start -= 1
                 end = trim_model_span(text, start, end)
                 title = title or TITLE_START_RE.match(text[start:end])
                 end = extend_truncated_name(text, start, end, bool(title) or bool(
@@ -461,8 +482,9 @@ def extract(
             rows.append(row)
             stats[row["source"].split(":")[0]] += 1
         # Title + name forms the model missed (``M’ Baldwin``, ``Cap’ Bargraue``).
+        # Avoid final (trimmed) spans and authority/blocked matches, not untrimmed model spans.
         taken = [(r["span_start"], r["span_end"]) for r in rows[page_start:]]
-        taken += [(ent.start_char, ent.end_char) for ent in doc.ents]
+        taken += [(ent.start_char, ent.end_char) for ent in doc.ents if ent.kb_id_ or ent.label_ == "NOT_ENTITY"]
         for match in TITLE_NAME_RE.finditer(text):
             start, end = match.start(), match.end()
             words = re.findall(r"[A-Za-z’']+", match.group(1))
@@ -601,6 +623,14 @@ def main() -> None:
     rows, stats = extract(pages, nlp, dictionary, load_places(args.authority), locator, locator.roles)
     if args.indigenous:
         stats.update(merge_indigenous(rows, args.indigenous))
+    # People in a meeting's attendance list are "present"; everyone else is "mentioned".
+    blocks = attendance_blocks(pages)
+    for row in rows:
+        row["mention_role"] = (
+            "present" if in_blocks(blocks.get(row["page_id"], []), int(row["span_start"]), int(row["span_end"]))
+            else "mentioned"
+        )
+    stats["present_mentions"] = sum(1 for r in rows if r["mention_role"] == "present" and r["label"] == "PERSON")
     rows.sort(key=lambda row: (row["page_id"], row["span_start"]))
     with args.output.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=FIELDS, lineterminator="\n")

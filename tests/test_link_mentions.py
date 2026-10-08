@@ -38,11 +38,15 @@ def test_unknown_name_is_unresolved():
 def test_index_pages_are_the_trailing_run_only():
     pages = [
         {"page_id": "V03-P0001", "volume": 3, "text": "JUNE 22, 1620 337\nAndrew Willmer____., 25.\nClement Willmer__., 25.\n"},
-        {"page_id": "V03-P0002", "volume": 3, "text": "A letter of business\nconcerning the colony\nand its supplies\n"},
+        {"page_id": "V03-P0002", "volume": 3,
+         "text": "A letter of business concerning the colony and its supplies.\n" * 10},  # a real page of prose
+        {"page_id": "V03-P0002b", "volume": 3, "text": ""},  # a blank leaf inside the index is allowed
         {"page_id": "V03-P0003", "volume": 3, "text": "Index\nAbbot, George, 81, 320.\nAccounts, I, 83.\n"},
-        {"page_id": "V03-P0004", "volume": 3, "text": ""},
+        {"page_id": "V03-P0003b", "volume": 3, "text": "PLATE"},
+        {"page_id": "V03-P0004", "volume": 3, "text": "Ashley, John, 12, 14.\nBargrave, John, 201.\n"},
     ]
     assert index_ratio(pages[0]["text"]) >= 0.3  # a shareholder list looks index-like...
     roles = page_roles(pages)
     assert roles["V03-P0001"] == "record"        # ...but is not in the trailing run
-    assert roles["V03-P0003"] == roles["V03-P0004"] == "index"
+    assert roles["V03-P0002"] == "record"
+    assert roles["V03-P0003"] == roles["V03-P0003b"] == roles["V03-P0004"] == "index"

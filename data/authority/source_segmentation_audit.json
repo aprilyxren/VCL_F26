@@ -45,5 +45,17 @@
     "page_id": "V{volume:02d}-P{sequential primary page number:04d}",
     "section_id": "V{volume:02d}-PRIMARY",
     "source_id": "V{volume:02d}-OCR-{original source page key}"
+  },
+  "reocr": {
+    "description": "Primary text re-OCR'd with Tesseract 5 (--psm 1, hOCR) from the Internet Archive scans of the 1906-1935 Kingsbury edition (recordsofvirgini01virg ... 04virg), then split by word positions into running head, body, margin notes, and footnotes (src/ocr_layout.py). Page IDs are unchanged; each page was matched by printed page number and verified by word overlap (src/build_primary_text_from_reocr.py).",
+    "text_field": "running head (first line) + body. Margin notes and footnotes are in their own fields; the previous OCR is kept in original_text.",
+    "pages": {
+      "tesseract_reocr": 2430,
+      "original": 33,
+      "duplicate": 11
+    },
+    "duplicates": "The original scans repeated some Volume II pages; the second copies are emptied (ocr_source=duplicate, duplicate_of=<page_id>): V02-P0051, V02-P0137, V02-P0138, V02-P0139, V02-P0140, V02-P0143, V02-P0144, V02-P0145, V02-P0146, V02-P0151, V02-P0152.",
+    "kept_original": "Mostly facsimile plates of handwriting (OCR is noise either way), plus seven Volume III shareholder-list pages with dotted leaders and one Volume IV letter where no re-OCR page verified.",
+    "layout_files": "data/raw/reocr/vol{1-4}_tesseract_layout.json; mapping in data/raw/reocr/page_mapping.csv"
   }
 }

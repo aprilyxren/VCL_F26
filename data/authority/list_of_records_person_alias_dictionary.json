@@ -32,7 +32,10 @@
         "Capt. S. Argoll",
         "Cap Argoll",
         "Cap' Argoll",
-        "Captayne Argoll"
+        "Captayne Argoll",
+        "Capt: Argall",
+        "Capt Argall",
+        "CaP’ Argoll"
       ],
       "source": "list_of_records",
       "basis": "Governor Samuel Argall.",
@@ -186,7 +189,11 @@
         "Sir Greorce Yrarpiey",
         "Grorck Yrearptey",
         "Grorck Yrearptey.",
-        "Sir Grorck Yrearptey"
+        "Sir Grorck Yrearptey",
+        "Geo: Yeardley",
+        "S' Geo: Yeardley",
+        "S* Geo: Yeardley",
+        "S’ Geo: Yeardley"
       ],
       "source": "list_of_records"
     },
@@ -389,7 +396,9 @@
         "Mr John Ferrar",
         "M’ John Ferrar",
         "m' John Ferrar",
-        "m’ John Ferrar"
+        "m’ John Ferrar",
+        "Iohn: Ferrar",
+        "m' Iohn: Ferrar"
       ],
       "source": "list_of_records"
     },
@@ -424,7 +433,18 @@
         "M' Nicholas Ferrar",
         "m' Nicholas Ferrar",
         "m* Nicholas Ferrar",
-        "m’ Nicholas Ferrar"
+        "m’ Nicholas Ferrar",
+        "Nich: fferrar",
+        "m’ Nich: fferrar",
+        "m' Nich: fferrar",
+        "Nich? fferrar",
+        "m’ Nich? fferrar",
+        "m* Nich? fferrar",
+        "Nich: Ferrar",
+        "m’ Nich: Ferrar",
+        "m* Nich: Ferrar",
+        "m' Nich: Ferrar",
+        "m'* Nich: Ferrar"
       ],
       "source": "list_of_records"
     },
@@ -444,7 +464,12 @@
         "George Thorps",
         "Grorce THoorre",
         "George Thrope",
-        "Grorce THorrr"
+        "Grorce THorrr",
+        "Geo: Thorpe",
+        "m’ Geo: Thorpe",
+        "m’* Geo: Thorpe",
+        "m*’ Geo: Thorpe",
+        "m* Geo: Thorpe"
       ],
       "source": "list_of_records"
     },
@@ -515,7 +540,11 @@
         "Nathaniel Butler’s",
         "Nathaniel Butler's",
         "Captain Nathaniel Butler’s",
-        "Captain Nathaniel Butler's"
+        "Captain Nathaniel Butler's",
+        "Capt Butler",
+        "Capt: Butler",
+        "Nath: Butler",
+        "Capt Nath: Butler"
       ],
       "source": "list_of_records",
       "basis": "Possessive form.",
@@ -537,7 +566,11 @@
         "Nathaniell Rich",
         "Nathaniel Rich",
         "Nathaniel Rich's",
-        "Sir Nathaniel Rich's"
+        "Sir Nathaniel Rich's",
+        "Nath: Rich",
+        "S' Nath: Rich",
+        "S’ Nath: Rich",
+        "S* Nath: Rich"
       ],
       "source": "list_of_records"
     },
@@ -563,7 +596,9 @@
         "John Bargrave",
         "Iohn Bargraue",
         "M’ Bargrave",
-        "M' Bargrave"
+        "M' Bargrave",
+        "M\" Bargrave",
+        "M Bargrave"
       ],
       "source": "list_of_records",
       "basis": "Captain John Bargrave.",
@@ -623,7 +658,8 @@
         "Capt. Powell",
         "William Powell",
         "Captain William Powell",
-        "Captaine William Powell"
+        "Captaine William Powell",
+        "Capt Powell"
       ],
       "source": "list_of_records"
     },
@@ -656,7 +692,9 @@
         "Tohn Dauers",
         "Joun Davrrs",
         "Jolin Dianyers",
-        "Thon Dauer"
+        "Thon Dauer",
+        "Iohn: Dauers",
+        "S' Iohn: Dauers"
       ],
       "source": "list_of_records"
     },
@@ -916,7 +954,8 @@
         "James I, King",
         "His Majesty",
         "James I",
-        "James R"
+        "James R",
+        "James R9"
       ],
       "source": "list_of_records",
       "basis": "Royal signature 'James R.' (Rex).",
@@ -1207,7 +1246,12 @@
         "Thomas Gibé",
         "m' Thomas Gibé",
         "M' Gibbs",
-        "M’ Gibbs"
+        "M’ Gibbs",
+        "m* Gibbs",
+        "m'* Gibbs",
+        "m’* Gibbs",
+        "m'’ Gibbs",
+        "m™ Gibbs"
       ],
       "source": "list_of_records",
       "basis": "Only Gibbs among Company members in the records.",
@@ -1264,7 +1308,15 @@
         "M’ Caswell",
         "M' Caswell",
         "M’ Casewell",
-        "M' Casewell"
+        "M' Casewell",
+        "m* Caswell",
+        "m'* Caswell",
+        "m’* Caswell",
+        "m'’ Caswell",
+        "m* Casewell",
+        "m'* Casewell",
+        "m’* Casewell",
+        "m'’ Casewell"
       ],
       "source": "list_of_records",
       "basis": "Only Caswell in the records.",
@@ -1305,7 +1357,11 @@
         "Edward Bennit",
         "M' Edward Bennit",
         "M’ Bennett",
-        "M' Bennett"
+        "M' Bennett",
+        "m* Bennett",
+        "m'* Bennett",
+        "m’* Bennett",
+        "m\" Bennett"
       ],
       "source": "list_of_records",
       "basis": "Edward Bennett, merchant and planter.",
@@ -1461,7 +1517,10 @@
         "Thomas Keightly",
         "m*’ Thomas Keightly",
         "M' Keightley",
-        "M’ Keightley"
+        "M’ Keightley",
+        "m* Keightley",
+        "m'* Keightley",
+        "m\" Keightley"
       ],
       "source": "list_of_records",
       "basis": "Only Keightley in the records.",
@@ -1585,7 +1644,9 @@
         "m' Alder Iohnson",
         "Aldran Johnson",
         "Mr Aldran Johnson",
-        "M* Aldran Johnson"
+        "M* Aldran Johnson",
+        "Robert \"Johnson",
+        "Sir Robert \"Johnson"
       ],
       "source": "list_of_records",
       "basis": "Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe.",
@@ -1605,7 +1666,11 @@
         "M’ Bland",
         "M' Bland",
         "Iohn Bland",
-        "m’ Iohn Bland"
+        "m’ Iohn Bland",
+        "m* Bland",
+        "m’* Bland",
+        "m'* Bland",
+        "m'’ Bland"
       ],
       "source": "list_of_records",
       "basis": "John Bland, merchant.",
@@ -1661,7 +1726,11 @@
         "Thomas Mellinge",
         "m' Thomas Mellinge",
         "M’ Mellinge",
-        "M' Mellinge"
+        "M' Mellinge",
+        "m* Mellinge",
+        "m’* Mellinge",
+        "m'* Mellinge",
+        "m'’ Mellinge"
       ],
       "source": "list_of_records",
       "basis": "Only Melling in the records.",
@@ -1707,7 +1776,9 @@
         "m’ Robt Smith",
         "Robte Smith",
         "m' Robte Smith",
-        "m’ Robte Smith"
+        "m’ Robte Smith",
+        "Robt: Smith",
+        "m’ Robt: Smith"
       ],
       "source": "list_of_records"
     },
@@ -1746,7 +1817,14 @@
         "m' George Smith",
         "m* George Smith",
         "m’ George Smith",
-        "George Smyth"
+        "George Smyth",
+        "Geo: Smith",
+        "m’ Geo: Smith",
+        "m' Geo: Smith",
+        "m* Geo: Smith",
+        "Geo. Smith",
+        "m'* Geo: Smith",
+        "m* Geo. Smith"
       ],
       "source": "list_of_records",
       "basis": "Spelling variant.",
@@ -1765,7 +1843,16 @@
         "m* Samuell Wrote",
         "m’ Samuell Wrote",
         "M’ Wrote",
-        "M' Wrote"
+        "M' Wrote",
+        "m* Wrote",
+        "m™ Wrote",
+        "m'* Wrote",
+        "m*™ Wrote",
+        "Sam: Wrote",
+        "m' Sam: Wrote",
+        "m™' Sam: Wrote",
+        "m* Sam: Wrote",
+        "m'Sam: Wrote"
       ],
       "source": "list_of_records",
       "basis": "Mr Samuel Wrote of the 1623 Company disputes; no other Wrote in the records.",
@@ -1937,7 +2024,10 @@
         "M' Barbor",
         "M’ Barbor",
         "Gabriell Barbor",
-        "m' Gabriell Barbor"
+        "m' Gabriell Barbor",
+        "M* Barbor",
+        "m’* Barbor",
+        "m'* Barbor"
       ],
       "source": "list_of_records",
       "basis": "Gabriel Barbor/Barber, Company lottery manager.",
@@ -2197,7 +2287,11 @@
         "D' Winstone",
         "m' D' Winstone",
         "m' D’ Winstone",
-        "Doctor Thomas Winston"
+        "Doctor Thomas Winston",
+        "D* Winstone",
+        "D*: Winstone",
+        "D': Winstone",
+        "m’ D': Winstone"
       ],
       "source": "curated",
       "basis": "Dr Thomas Winston, physician and Company member.",
@@ -2325,7 +2419,10 @@
         "M’ Copland",
         "M' Copland",
         "M* Patrick Copland",
-        "M. Patrick"
+        "M. Patrick",
+        "m* Copland",
+        "m’* Copland",
+        "m'* Copland"
       ],
       "source": "curated",
       "basis": "East India Company chaplain who raised funds for the East India School; only Copland in the records.",
@@ -2517,7 +2614,10 @@
         "m’ Edward Waterhouse",
         "m' Edward Waterhouse",
         "M’ Waterhowse",
-        "M' Waterhowse"
+        "M' Waterhowse",
+        "m* Waterhowse",
+        "m’* Waterhowse",
+        "m*’ Waterhowse"
       ],
       "source": "curated",
       "basis": "Company secretary, author of the 1622 massacre Declaration.",
@@ -4217,7 +4317,10 @@
         "Grivell Pooley",
         "M* Grivell Pooley",
         "m’ Grivell Pooley",
-        "M' Pooley"
+        "M' Pooley",
+        "M\" Pooley",
+        "M* Pooley",
+        "M'* Pooley"
       ],
       "source": "curated",
       "basis": "Minister Greville Pooley; only Pooley in the records.",
