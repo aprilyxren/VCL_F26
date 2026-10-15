@@ -1,0 +1,415 @@
+page_id,note_index,note_kind,label,entity_key,entity_name,observed_span,span_start,span_end,date_start,date_end,date_confidence,note_text
+V01-P0062,0,summary,PERSON,,,Mr. Threr,0,9,1619-11-17,1619-11-17,medium,Mr. Threr bin w% my Lord Maior.
+V01-P0064,4,summary,PERSON,,,mt Secrt. Caluerte,48,66,1619-11-17,1619-11-17,medium,M' Thfer to drawe the Answere and deliuer it to mt Secrt. Caluerte.
+V01-P0064,6,summary,PERSON,,,Mr. Thiers Complaint,0,20,1619-11-17,1619-11-17,medium,Mr. Thiers Complaint of y* loss susteynd by mt Tacobb The comp: to be exhibited to y* Councell Table
+V01-P0067,0,summary,PERSON,,,Sirlohn Dauers,120,134,1619-11-22,1619-11-22,high,"100"" to be giuen extraordinary in gross besides the ordinary allowance of six pound a man. The Kn* Marshalle promise to Sirlohn Dauers."
+V01-P0067,1,summary,PERSON,,,M' Trer,0,7,1619-11-22,1619-11-22,high,M' Trer€: purpose to Acquaint y* Lord@ of the Tobacco deteyned by Mr’ Iacobb
+V01-P0067,4,summary,PERSON,,,m' Threr,18,26,1619-11-22,1619-11-22,high,A Tre shewed ynto m' Threr written by a frend to m* Bland; touchinge y® Barroness of y* soyle in Virginia
+V01-P0067,4,summary,PERSON,John Bland,John Bland,m* Bland,49,57,1619-11-22,1619-11-22,high,A Tre shewed ynto m' Threr written by a frend to m* Bland; touchinge y® Barroness of y* soyle in Virginia
+V01-P0067,4,summary,PLACE,NW-001,Virginia,Virginia,97,105,1619-11-22,1619-11-22,high,A Tre shewed ynto m' Threr written by a frend to m* Bland; touchinge y® Barroness of y* soyle in Virginia
+V01-P0069,1,summary,PERSON,,,M' TIacobb,0,10,1619-12-01,1619-12-01,low,M' TIacobb not
+V01-P0069,2,summary,PERSON,John Delbridge,John Delbridge,M* Delbridge,0,12,1619-12-01,1619-12-01,low,M* Delbridge desire to fish at Cape
+V01-P0069,3,summary,PERSON,Ferdinando Gorges,Ferdinando Gorges,Ferdinando Gorges,26,43,1619-12-01,1619-12-01,low,His request opposed by S* Ferdinando Gorges.
+V01-P0069,5,summary,PERSON,,,Sir Ferdinando Georges,0,22,1619-12-01,1619-12-01,low,Sir Ferdinando Georges reply.
+V01-P0069,7,summary,PERSON,,,Mr Deputies,0,11,1619-12-01,1619-12-01,low,Mr Deputies sig-
+V01-P0077,0,summary,PERSON,Edwin Sandys,Edwin Sandys,S* Edw: Sandys,21,35,1619-12-15,1619-12-15,high,A petiéon deliu9d by S* Edw: Sandys to ye If touchinge m’ Iacobb.
+V01-P0077,0,summary,PERSON,Abraham Jacob,Abraham Jacob,m’ Iacobb,55,64,1619-12-15,1619-12-15,high,A petiéon deliu9d by S* Edw: Sandys to ye If touchinge m’ Iacobb.
+V01-P0077,2,summary,PERSON,Abraham Jacob,Abraham Jacob,M* Iacobb,0,9,1619-12-15,1619-12-15,high,M* Iacobb to deliuer the Tobacco
+V01-P0080,0,summary,PERSON,,,Capt Argolle,0,12,1619-12-15,1619-12-15,medium,Capt Argolle desire toanswersuch Crimes as are imputed to him. Mr’ Thfer¢ reporte of their proceedings with him.
+V01-P0080,1,summary,PERSON,Samuel Argall,Samuel Argall,Capt Argoll,53,64,1619-12-15,1619-12-15,medium,"The buisines to be referrd to a Lawyere &a Marchan"". Capt Argoll to entertaine a Councello'."
+V01-P0082,0,summary,PERSON,Thomas Winston,Thomas Winston,D* Winstone,65,76,1619-12-15,1619-12-23,medium,The moGon approued of and y° drawing of itt referd to m' Thfer & D* Winstone.
+V01-P0082,1,summary,PERSON,,,Mr Keightleys,0,13,1619-12-15,1619-12-23,medium,Mr Keightleys reporte touchinge y°® Magazine Acc°®
+V01-P0082,2,summary,PERSON,S Thier,S Thier,Mr Thier,0,8,1619-12-15,1619-12-23,medium,Mr Thier moued for 3: things to be considered of
+V01-P0089,2,summary,PERSON,,,M* Threr,0,8,1620-01-12,1620-01-12,high,M* Threr & M' Deputie their report touchinge y* 100 Children to be sent to Virginia
+V01-P0089,2,summary,PLACE,NW-001,Virginia,Virginia,75,83,1620-01-12,1620-01-12,high,M* Threr & M' Deputie their report touchinge y* 100 Children to be sent to Virginia
+V01-P0093,1,summary,PLACE,NW-001,Virginia,Virginia,57,65,1620-01-26,1620-01-26,low,The Comittees agrem! for 2 Ships to transporte Cattle to Virginia: allowed of.
+V01-P0096,1,summary,PLACE,NW-001,Virginia,Virginia,73,81,1620-01-26,1620-02-02,medium,The Coppy of y* Citties demaunde touchinge y° 100: Children to besent to Virginia rectified.
+V01-P0096,2,summary,PERSON,John Archer,John Archer,Iohn Archer,20,31,1620-01-26,1620-02-02,medium,2 Shares allowed to Iohn Archer.
+V01-P0096,3,summary,PERSON,Stephen Sparrow,Stephen Sparrow,Stephen Sparrow,0,15,1620-01-26,1620-02-02,medium,Stephen Sparrow: 1: Share to Iohn Hope.
+V01-P0096,3,summary,PERSON,,,Iohn Hope,29,38,1620-01-26,1620-02-02,medium,Stephen Sparrow: 1: Share to Iohn Hope.
+V01-P0104,0,summary,PERSON,,,D' Bohunes,0,10,1620-02-02,1620-02-16,medium,D' Bohunes = request to passe.
+V01-P0104,1,summary,PERSON,,,Cap' Powell,58,69,1620-02-02,1620-02-16,medium,To write to y® Gouernor to sett out 400 Acres of Land for Cap' Powell & m' Io: Smith
+V01-P0104,1,summary,PERSON,,,m' Io: Smith,72,84,1620-02-02,1620-02-16,medium,To write to y® Gouernor to sett out 400 Acres of Land for Cap' Powell & m' Io: Smith
+V01-P0104,2,summary,PERSON,,,Frauncis Cartere,0,16,1620-02-02,1620-02-16,medium,Frauncis Cartere Petiéon referd to y° Audito™.
+V01-P0108,3,summary,PERSON,,,Cap' Bargraues Comission,0,24,1620-02-16,1620-02-22,medium,Cap' Bargraues Comission to be sealed.
+V01-P0108,4,summary,PERSON,,,M' Markham,0,10,1620-02-16,1620-02-22,medium,M' Markham presented 4 books and 4+ Rolls.
+V01-P0109,0,summary,PERSON,Thomas Gates,Thomas Gates,S' Tho: Gates,0,13,1620-02-22,1620-02-22,high,S' Tho: Gates desyred to write pryuate Tres of direcons
+V01-P0111,0,summary,PERSON,John Holloway,John Holloway,M' Holloway,0,11,1620-02-22,1620-02-22,high,M' Holloway made free bygiueing him a single share.
+V01-P0111,2,summary,PERSON,,,Richard Francks,35,50,1620-02-22,1620-02-22,high,"200 Acres of Land tobelaydoutforM"" Richard Francks two Sonns."
+V01-P0113,0,summary,PERSON,Thomas Gates,Thomas Gates,Tho: Gates,3,13,1620-03-02,1620-03-02,low,"St Tho: Gates, & S' Nath: Rich their reporte from Generall Ceesill touchinge Engineers"
+V01-P0113,0,summary,PERSON,Nathaniel Rich,Nathaniel Rich,S' Nath: Rich,17,30,1620-03-02,1620-03-02,low,"St Tho: Gates, & S' Nath: Rich their reporte from Generall Ceesill touchinge Engineers"
+V01-P0113,2,summary,PLACE,OW-001,London,London,10,16,1620-03-02,1620-03-02,low,MyLord of London made acquainted of y* Comp*: intent to send Mynisters.
+V01-P0114,0,summary,PLACE,NW-032,Southampton Hundred,Smithe hundred,0,14,1620-02-22,1620-03-15,medium,"Smithe hundred content to giue 100"" to be discharged from y* charge of y* Infidles Children."
+V01-P0121,0,summary,PERSON,John Ferrar,John Ferrar,M* Ferrar,24,33,1620-03-20,1620-03-20,high,The Garland sett out by M* Ferrar and his Associate
+V01-P0121,1,summary,PERSON,William Wye,William Wye,M' Wye,0,6,1620-03-20,1620-03-20,high,M' Wye beinge to touch at y* Sumer Iland@ and so to peeed diuerted his Course from Virginia and lefte his men & prouision? at y* 8:1:
+V01-P0121,1,summary,PLACE,NW-020,Bermuda / Somers Islands,Sumer Iland,29,40,1620-03-20,1620-03-20,high,M' Wye beinge to touch at y* Sumer Iland@ and so to peeed diuerted his Course from Virginia and lefte his men & prouision? at y* 8:1:
+V01-P0121,1,summary,PLACE,NW-001,Virginia,Virginia,83,91,1620-03-20,1620-03-20,high,M' Wye beinge to touch at y* Sumer Iland@ and so to peeed diuerted his Course from Virginia and lefte his men & prouision? at y* 8:1:
+V01-P0121,2,summary,PLACE,NW-001,Virginia,Virginia,51,59,1620-03-20,1620-03-20,high,The readinge of y* Act€ of y® generall assembly in Virginia and m!* Yeardleys Tre in behalfe of his brother be referrd.
+V01-P0122,0,summary,PLACE,NW-001,Virginia,Virginia,2,10,1620-03-20,1620-03-29,medium,A Virginia Courte dismiste in respect therwas held one for y® So: Ilandé.
+V01-P0122,1,summary,PERSON,Nathaniel Rich,Nathaniel Rich,Nath: Rich,2,12,1620-03-20,1620-03-29,medium,S Nath: Rich his reporte from Generall Cecill touching an Engineer.
+V01-P0122,1,summary,PERSON,Edward Cecil,Edward Cecil,Generall Cecill,30,45,1620-03-20,1620-03-29,medium,S Nath: Rich his reporte from Generall Cecill touching an Engineer.
+V01-P0124,0,summary,PERSON,Abraham Jacob,Abraham Jacob,M' Iacobb,0,9,1620-03-29,1620-03-29,medium,M' Iacobb to prosecute itt
+V01-P0124,1,attendance_fragment,PERSON,Abraham Jacob,Abraham Jacob,m™ Iacobb,64,73,1620-03-29,1620-03-29,medium,mytegaéon of imposi¢on m! Alder: Iohnson & m* Cranmer to goe to m™ Iacobb.
+V01-P0125,2,summary,PERSON,,,S* Clement Edmondeé,27,46,1620-03-29,1620-03-29,high,The Secretary to repare to S* Clement Edmondeé.
+V01-P0125,3,summary,PERSON,George Yeardley,George Yeardley,S* Georg Yeardley,24,41,1620-03-29,1620-03-29,high,a Charter to be sent to S* Georg Yeardley inge read was ratitied
+V01-P0125,4,summary,PERSON,,,M' Trers,0,8,1620-03-29,1620-03-29,high,M' Trers answere to an laide vppon for deteyninge matter from y* Company «& impartinge them to y* Councell.
+V01-P0126,3,summary,PERSON,Thomas Gibbs,Thomas Gibbs,Tho: Gibbes,0,11,1620-03-29,1620-04-03,medium,Tho: Gibbes 2 shares to two of his sonnes.
+V01-P0126,4,summary,PERSON,,,Robert Briggs,33,46,1620-03-29,1620-04-03,medium,"Cap"" Io: Bargraue 2 shares to m‘ Robert Briggs."
+V01-P0126,5,summary,PERSON,,,M* Aliano Lupo,0,14,1620-03-29,1620-04-03,medium,M* Aliano Lupo to be made free & to haue 100 Acres of Land.
+V01-P0126,6,summary,PERSON,Stephen Sparrow,Stephen Sparrow,m' Sparrow,29,39,1620-03-29,1620-04-03,medium,and for 3 men transported by m' Sparrow 150 Acres.
+V01-P0126,7,summary,PERSON,John Eldred,John Eldred,Walter Eldred,0,13,1620-03-29,1620-04-03,medium,Walter Eldred 3 shares confirmed to him & made a free brother.
+V01-P0127,0,summary,PLACE,NW-034,Martin's Hundred,Martins hundred,0,15,1620-04-03,1620-04-03,high,Martins hundred
+V01-P0129,2,summary,PERSON,,,M’ Trers,0,8,1620-04-03,1620-04-03,high,M’ Trers request for collectinge & framinge of Laws graunted.
+V01-P0129,3,summary,PERSON,"Thomas West, Lord De La Warr","Thomas West, Lord De La Warr",Lady Lawarr,3,14,1620-04-03,1620-04-03,high,Y° Lady Lawarr passed 25: Shares to Antho: Browne.
+V01-P0130,0,summary,PERSON,,,Elizabeth Percy,0,15,1620-04-03,1620-04-08,medium,Elizabeth Percy her PetiGon.
+V01-P0130,1,summary,PERSON,,,M' Deuerell,52,63,1620-04-03,1620-04-08,medium,Fra: Baldwins Peti¢on to be comended to y* Gou9nor. M' Deuerell¢ request for Barth: Lawton.
+V01-P0130,2,summary,PERSON,,,m* James,16,24,1620-04-03,1620-04-08,medium,A Tre read from m* James of Plymoth.
+V01-P0130,2,summary,PLACE,OW-007,Plymouth,Plymoth,28,35,1620-04-03,1620-04-08,medium,A Tre read from m* James of Plymoth.
+V01-P0131,0,summary,PLACE,OW-007,Plymouth,Plymoth,35,42,1620-04-08,1620-04-08,high,A Tre to be written to y* Maior of Plymoth.
+V01-P0131,1,summary,PERSON,Nicholas Ferrar,Nicholas Ferrar,m* Nicho: Ferrar,15,31,1620-04-08,1620-04-08,high,"300"": giuen by m* Nicho: Ferrar thelder."
+V01-P0131,4,summary,PERSON,,,George Berk,18,29,1620-04-08,1620-04-08,high,"400"" demaunded xy George Berk-"
+V01-P0135,1,summary,PLACE,OW-039,The Downs,Downes,31,37,1620-05-11,1620-05-11,high,The Bona Venture cam not to y* Downes till sunday last.
+V01-P0135,3,summary,PERSON,,,S* Horatio Veer,0,15,1620-05-11,1620-05-11,high,S* Horatio Veer very willinge to assist y* Comp*:
+V01-P0139,1,summary,PERSON,,,Captaine Brusters,16,33,1620-05-15,1620-05-15,high,The hearinge of Captaine Brusters cause deferred.
+V01-P0147,3,summary,PERSON,,,S' Henry Crofte,11,26,1620-05-17,1620-05-17,high,1 share to S' Henry Crofte.
+V01-P0148,0,summary,PERSON,,,m' Abra: Cartwright,0,19,1620-05-17,1620-05-17,medium,m' Abra: Cartwright 1 share to m’ Challoner.
+V01-P0148,0,summary,PERSON,Thomas Challoner,Thomas Challoner,m’ Challoner,31,43,1620-05-17,1620-05-17,medium,m' Abra: Cartwright 1 share to m’ Challoner.
+V01-P0148,2,summary,PERSON,,,S' Frauncis Nethersole,0,22,1620-05-17,1620-05-17,medium,S' Frauncis Nethersole to sett in Courte.
+V01-P0148,5,summary,PERSON,"John King, Bishop of London","John King, Bishop of London",Lo: Bishop of London,20,40,1620-05-17,1620-05-17,medium,St W™ Cockaine & y° Lo: Bishop of London mad free t& of y* Counsell.
+V01-P0160,0,summary,PERSON,Samuel Argall,Samuel Argall,Capt Argoll,0,11,1620-05-23,1620-05-23,medium,Capt Argoll and Capt Brewster their Cause heard.
+V01-P0160,0,summary,PERSON,,,Capt Brewster,16,29,1620-05-23,1620-05-23,medium,Capt Argoll and Capt Brewster their Cause heard.
+V01-P0160,1,summary,PERSON,,,Capt Brewsteré,36,50,1620-05-23,1620-05-23,medium,The sentence of y° Courte touchinge Capt Brewsteré€ Condempnaéon:
+V01-P0163,0,summary,PERSON,Samuel Argall,Samuel Argall,Capt Argoll,0,11,1620-05-23,1620-05-23,high,Capt Argoll
+V01-P0167,0,summary,PERSON,Samuel Wrote,Samuel Wrote,m*’ Wrote,17,26,1620-05-31,1620-05-31,high,A bond sealed to m*’ Wrote & m'‘ Bearblock.
+V01-P0167,1,summary,PERSON,,,M* Threre,0,9,1620-05-31,1620-05-31,high,M* Threre€ Declaracon of y°Summer Ilandé of y* daunger it stands in
+V01-P0170,0,summary,PERSON,Jabez Whitaker,Jabez Whitaker,m' Whittakers,0,13,1620-06-23,1620-06-23,medium,m' Whittakers and m’ Huddleston Comended.
+V01-P0170,0,summary,PERSON,,,m’ Huddleston Comended,18,40,1620-06-23,1620-06-23,medium,m' Whittakers and m’ Huddleston Comended.
+V01-P0170,1,summary,PERSON,,,"m"" Somerscales Proiect",32,54,1620-06-23,1620-06-23,medium,"The Comittees reporte touchinge m"" Somerscales Proiect"
+V01-P0170,2,summary,PERSON,,,mt More,31,38,1620-06-23,1620-06-23,medium,The Comittees reporte touching mt More.
+V01-P0170,3,summary,PERSON,,,m' Crashawe,16,27,1620-06-23,1620-06-23,medium,A writinge from m' Crashawe.
+V01-P0171,0,summary,PERSON,,,Capt: Nuse,49,59,1620-06-23,1620-06-23,high,The Gouermt of y* Comp*: Land put to the Care of Capt: Nuse.
+V01-P0172,0,summary,PERSON,Thomas Wroth,Thomas Wroth,Tho: Wroth,35,45,1620-06-23,1620-06-26,medium,A former order of Courte wherin S‘ Tho: Wroth dissented in opinion said to be vntruly sett downe
+V01-P0172,1,summary,PLACE,NW-001,Virginia,Virginia,31,39,1620-06-23,1620-06-26,medium,The Comittee for y* safftie of Virginia & So: Ilands desired to meet
+V01-P0172,2,summary,PERSON,Richard Berblock,Richard Berblock,"m"" Berblock",39,50,1620-06-23,1620-06-26,medium,"The Comittees for y* Orders jInted: by m"" Berblock to meet mony p* into m' Thfer"
+V01-P0174,0,summary,PERSON,Richard Edwards,Richard Edwards,S' Edward,3,12,1620-06-26,1620-06-26,medium,to S' Edward Sack-
+V01-P0175,1,summary,PERSON,John Zouch,John Zouch,Iohn Zouch,0,10,1620-06-26,1620-06-26,high,Iohn Zouch Pattent.
+V01-P0175,4,summary,PERSON,Samuel Argall,Samuel Argall,Capt Argoll,41,52,1620-06-26,1620-06-26,high,The proceedinge of y* Counsell touchinge Capt Argoll€ Peticon drawne by S* Nath Rich.
+V01-P0175,4,summary,PERSON,Nathaniel Rich,Nathaniel Rich,S* Nath Rich,72,84,1620-06-26,1620-06-26,high,The proceedinge of y* Counsell touchinge Capt Argoll€ Peticon drawne by S* Nath Rich.
+V01-P0179,1,summary,PLACE,NW-001,Virginia,Virginia,24,32,1620-06-28,1620-06-28,high,Supply of Councello™ in Virginia
+V01-P0180,1,summary,PERSON,James Bagg,James Bagg,James Bagg,21,31,1620-06-28,1620-06-28,medium,5 Shares giuen to m' James Bagg
+V01-P0180,2,summary,PERSON,William Wye,William Wye,m’ Wye,27,33,1620-06-28,1620-06-28,medium,Touchinge the sute against m’ Wye.
+V01-P0180,5,summary,PLACE,OW-008,Southampton,Southampton,0,11,1620-06-28,1620-06-28,medium,Southampton Pattent
+V01-P0185,1,summary,PERSON,,,m* Cran,6,13,1620-06-28,1620-06-28,high,riggs m* Cran-
+V01-P0186,0,summary,PERSON,,,m' AbTho: Smith,10,25,1620-06-28,1620-07-07,medium,Hamford & m' AbTho: Smith.
+V01-P0189,0,summary,PERSON,,,Capt Argollé,0,12,1620-07-07,1620-07-07,high,Capt Argollé buisines.
+V01-P0197,0,summary,PERSON,Thomas Smythe,Thomas Smythe,Tho: Smiths,28,39,1620-07-07,1620-07-07,high,difficulties or errors in S Tho: Smiths Accompt¢ are to be imparted Audito‘™ chosen for him.
+V01-P0197,1,summary,PERSON,Thomas Wroth,Thomas Wroth,S' Tho: Wroth,0,13,1620-07-07,1620-07-07,high,S' Tho: Wroth excepConé against y* pening of y* Order by S' Edward Sackvill C*
+V01-P0197,1,summary,PERSON,Richard Edwards,Richard Edwards,S' Edward,57,66,1620-07-07,1620-07-07,high,S' Tho: Wroth excepConé against y* pening of y* Order by S' Edward Sackvill C*
+V01-P0197,3,summary,PLACE,NW-007A,Cape Cod,Cape Codd,65,74,1620-07-07,1620-07-07,high,Comittee fordrawi * generall Tre Mat cerning a free fishinge att Cape Codd.
+V01-P0200,1,summary,PERSON,,,Thomas Selsby,0,13,1620-07-12,1620-07-12,medium,Thomas Selsby to returne for England.
+V01-P0200,1,summary,PLACE,OW-011,England,England,29,36,1620-07-12,1620-07-12,medium,Thomas Selsby to returne for England.
+V01-P0200,2,summary,PERSON,,,m’ Peirce,0,9,1620-07-12,1620-07-12,medium,m’ Peirce his petiGon referd to y* Audito™
+V01-P0200,3,summary,PERSON,Luke Burden,Luke Burden,Luke Burden,0,11,1620-07-12,1620-07-12,medium,Luke Burden to com for England
+V01-P0200,3,summary,PLACE,OW-011,England,England,23,30,1620-07-12,1620-07-12,medium,Luke Burden to com for England
+V01-P0201,0,summary,PERSON,,,m’ Ayskough,0,11,1620-07-12,1620-07-12,high,m’ Ayskough referrd to y® Auditors.
+V01-P0203,0,summary,PERSON,,,Capt Brewster,7,20,1620-07-12,1620-07-12,high,self & Capt Brewster
+V01-P0204,3,summary,PERSON,Henry Wriothesley,Henry Wriothesley,my Lo: of Southampton,0,21,1620-07-12,1620-07-18,medium,my Lo: of Southampton request to y* Company to goe on cherfully C'.
+V01-P0207,1,summary,PERSON,Richard Edwards,Richard Edwards,M' Edward,0,9,1620-07-18,1620-07-18,high,M' Edward Kirbie allowed to be made ffree.
+V01-P0210,1,summary,PLACE,OW-009,Isle of Wight,Ile of Wight,41,53,1620-11-04,1620-11-04,medium,The Abigall to take in her people att y* Ile of Wight
+V01-P0210,3,summary,PERSON,John Delbridge,John Delbridge,m' Delbridge,0,12,1620-11-04,1620-11-04,medium,m' Delbridge desire to fish vppon y* N°: Seas.
+V01-P0210,4,summary,PERSON,Ferdinando Gorges,Ferdinando Gorges,Ferdinando Gorges,26,43,1620-11-04,1620-11-04,medium,"A new Patent peured by S! Ferdinando Gorges,"
+V01-P0211,3,summary,PERSON,Thomas Roe,Thomas Roe,S' Tho: Roe,0,11,1620-11-04,1620-11-04,high,S' Tho: Roe desired to plsent itt.
+V01-P0220,0,summary,PERSON,George Yeardley,George Yeardley,S' Georg Yeardley,0,17,1620-11-13,1620-11-15,medium,S' Georg Yeardley to bestowe some
+V01-P0220,1,summary,PLACE,NW-020,Bermuda / Somers Islands,Somer Iland,41,52,1620-11-13,1620-11-15,medium,thing on him A moéon in the behalfe of y*Somer Iland¢ Compa:
+V01-P0220,2,summary,PERSON,Gabriel Wisher,Gabriel Wisher,Gabriell Wisher,24,39,1620-11-13,1620-11-15,medium,A writinge exhibited by Gabriell Wisher
+V01-P0220,3,summary,PERSON,,,Mt Woodeé,0,9,1620-11-13,1620-11-15,medium,Mt Woodeé aunswere returned.
+V01-P0223,1,summary,PERSON,Edwin Sandys,Edwin Sandys,Edw: Sandys,3,14,1620-11-15,1620-11-15,high,St Edw: Sandys reported y' the Colony desired no more meale but rather some trifling Comodi: to truck w y* Natiues.
+V01-P0223,2,summary,PERSON,Gabriel Wisher,Gabriel Wisher,Gabriell Wisher,0,15,1620-11-15,1620-11-15,high,"Gabriell Wisher to haue 100"": Cr."
+V01-P0224,0,summary,PERSON,Richard Caswell,Richard Caswell,m' Caswell,0,10,1620-11-15,1620-11-15,medium,m' Caswell mocon for soliciting y°® Lo: Maior for y* like number of children as formerly they had.
+V01-P0224,4,summary,PERSON,John Jefferson,John Jefferson,M' Jefferson,0,12,1620-11-15,1620-11-15,medium,M' Jefferson referred to St Edw: Sandys & M Deputy.
+V01-P0224,4,summary,PERSON,Edwin Sandys,Edwin Sandys,Edw: Sandys,28,39,1620-11-15,1620-11-15,medium,M' Jefferson referred to St Edw: Sandys & M Deputy.
+V01-P0225,0,summary,PLACE,NW-001,Virginia,Virginia,59,67,1620-11-15,1620-11-15,high,The Sumer Ilande Jomp*: moéon for a good poréon of Land in Virginia
+V01-P0225,3,summary,PERSON,,,Cap' Somers,0,11,1620-11-15,1620-11-15,high,Cap' Somers to prepare his proofs Cc
+V01-P0225,4,summary,PERSON,,,m* Kelly,41,49,1620-11-15,1620-11-15,high,The La: Lawarre request in y* behalfe of m* Kelly assented ynto.
+V01-P0226,0,summary,PERSON,,,m' Hen: Rowlands,0,16,1620-11-15,1620-11-15,medium,m' Hen: Rowlands assignment Confirmed & a Personall Share allowed him for y° Aduenture of his brother€ person
+V01-P0227,0,summary,PERSON,,,Capt Tucker,25,36,1620-11-15,1620-11-15,high,15 shares bestowed vppon Capt Tucker.
+V01-P0227,2,summary,PLACE,NW-001,Virginia,Virginia,36,44,1620-11-15,1620-11-15,high,A Comittee for takinge care of y* 2 Virginia Maydes.
+V01-P0230,3,summary,PLACE,OW-024,Sweden,Sweadland,54,63,1620-12-13,1620-12-13,medium,Ga: Wisheré desire to haue his Ma Tres to y* Kinge of Sweadland for peuringe of men.
+V01-P0232,0,summary,PERSON,,,m* Jasper Stallenge,0,19,1620-12-13,1620-12-13,medium,m* Jasper Stallenge seruant goe to Virg: for breedinge y* Wormes.
+V01-P0233,0,summary,PERSON,Edwin Sandys,Edwin Sandys,S' Edwin Sandys,0,15,1620-12-13,1620-12-13,high,S' Edwin Sandys mo¢éon for bringing ou? of Sassaphras
+V01-P0233,1,summary,PERSON,Edwin Sandys,Edwin Sandys,S' Edwin Sandys,0,15,1620-12-13,1620-12-13,high,S' Edwin Sandys desired to drawe y* Generall Tre.
+V01-P0233,2,summary,PERSON,Roger Smith,Roger Smith,Capt Roger Smith,0,16,1620-12-13,1620-12-13,high,"Capt Roger Smith to haue 30"": & y* Comaund of 50 persons vnder him"
+V01-P0236,1,summary,PERSON,George Sandys,George Sandys,m' George Sandys,0,16,1621-01-29,1621-01-29,medium,m' George Sandys I
+V01-P0238,2,summary,PERSON,,,S' Willm Mounsons,0,17,1621-01-29,1621-01-29,medium,S' Willm Mounsons Patent read.
+V01-P0240,0,summary,PERSON,,,m' Markhams,0,11,1621-01-29,1621-02-22,medium,m' Markhams reward respited.
+V01-P0240,2,summary,PERSON,,,S' ffrauncis Wyate,0,18,1621-01-29,1621-02-22,medium,S' ffrauncis Wyate chosen Gouernor
+V01-P0240,3,summary,PERSON,,,S' ffrancis Wyate,0,17,1621-01-29,1621-02-22,medium,"S' ffrancis Wyate acknowlegm' of thanks Cr,"
+V01-P0240,4,summary,PERSON,,,S' ffrancis Wyate,0,17,1621-01-29,1621-02-22,medium,S' ffrancis Wyate to be of y* Counsell.
+V01-P0244,1,summary,PERSON,,,Capt Bargraues,21,35,1621-02-22,1621-04-12,low,A Comittee to peruse Capt Bargraues treatise.
+V01-P0245,0,summary,PERSON,Edwin Sandys,Edwin Sandys,Edwyn Sandys,3,15,1621-04-12,1621-04-12,high,St Edwyn Sandys report of what had been done about the new Patent.
+V01-P0246,0,summary,PERSON,Edward Bennett,Edward Bennett,m' Edward Bennett,0,17,1621-04-12,1621-04-12,medium,m' Edward Bennett made free.
+V01-P0246,1,summary,PERSON,William Newce,William Newce,Capt Wiltm Newce,0,16,1621-04-12,1621-04-12,medium,Capt Wiltm Newce offer to transport 1000 persons
+V01-P0246,3,summary,PLACE,NW-001,Virginia,Virginia,40,48,1621-04-12,1621-04-12,medium,his request for y* place of Marshall in Virginia
+V01-P0247,1,summary,PERSON,William Newce,William Newce,Willm Newce,37,48,1621-04-12,1621-04-12,high,The place of Marshall graunted to S* Willm Newce.
+V01-P0248,1,summary,PERSON,,,m* Oulsworth,0,12,1621-04-12,1621-04-12,medium,m* Oulsworth to be one of y* Counsell of State in Virginia.
+V01-P0249,0,summary,PERSON,,,Capt. Somer,0,11,1621-04-12,1621-04-12,high,Capt. Somer peticon referred.
+V01-P0250,1,summary,PERSON,George Sandys,George Sandys,m' George Sandys,0,16,1621-04-12,1621-04-12,medium,m' George Sandys named for Treasuro’.
+V01-P0250,3,summary,PLACE,NW-001,Virginia,Virginia,19,27,1621-04-12,1621-04-12,medium,y' y°® Gouerno' of Virginia may be questioned in Eng: Cr
+V01-P0251,0,summary,PERSON,,,m* AtturneyGenerall,15,34,1621-04-12,1621-04-12,high,The opinion of m* AtturneyGenerall.
+V01-P0253,1,summary,PERSON,,,Capt Newce,0,10,1621-04-30,1621-04-30,high,Capt Newce for the place of Marshall.
+V01-P0253,2,summary,PERSON,,,m' Sandys,0,9,1621-04-30,1621-04-30,high,m' Sandys for y* place of Treasuror.
+V01-P0254,0,summary,PERSON,John Danvers,John Danvers,S* Io: Dauers,19,32,1621-04-30,1621-04-30,medium,It was reported by S* Io: Dauers yt y® Comittees had
+V01-P0254,3,summary,PERSON,Thomas Newce,Thomas Newce,Thomas Newce,5,17,1621-04-30,1621-04-30,medium,Capt Thomas Newce 10 persons.
+V01-P0255,0,summary,PERSON,,,Capt. Tho: Newce,28,44,1621-04-30,1621-04-30,high,The Priviledges graunted to Capt. Tho: Newce to be likewise granted to these officers (viz) Cr.
+V01-P0255,5,summary,PERSON,,,m*' Wysemans,0,12,1621-04-30,1621-04-30,high,m*' Wysemans offer.
+V01-P0256,1,summary,PERSON,John Danvers,John Danvers,Iohn Dauers,3,14,1621-04-30,1621-04-30,medium,"S' Iohn Dauers mocon for casting and alotting all y* Gou9no""™ and other officers Tennte into y* number of the Publique:"
+V01-P0257,0,summary,PERSON,Samuel Wrote,Samuel Wrote,m* Wrotes,0,9,1621-04-30,1621-04-30,high,m* Wrotes moton of the neglect of Gou9nors in not buildinge howses. Cr.
+V01-P0258,0,summary,PERSON,,,m* Deputies,0,11,1621-04-30,1621-04-30,medium,m* Deputies request to respitt his Accounteé.
+V01-P0258,1,summary,PERSON,Edwin Sandys,Edwin Sandys,Edwyn Sandys,11,23,1621-04-30,1621-04-30,medium,touching S'Edwyn Sandys Account.
+V01-P0258,2,summary,PERSON,Gilbert Morewood,Gilbert Morewood,m* Morewood,0,11,1621-04-30,1621-04-30,medium,m* Morewood referred to y* Comittees to be treated with.
+V01-P0259,1,summary,PERSON,,,m’ Bonnell,23,33,1621-04-30,1621-04-30,high,Two Shares bestowed on m’ Bonnell & admitted to be free.
+V01-P0270,0,summary,PERSON,John Danvers,John Danvers,Iohn Dauers,3,14,1621-05-02,1621-05-02,medium,S' Iohn Dauers mocon that officers Tefint€ might be cast into y* Company
+V01-P0270,1,summary,PERSON,,,mt Ewens,22,30,1621-05-02,1621-05-02,medium,The bargaine made wt® mt Ewens.
+V01-P0271,0,summary,PERSON,,,Willm Mounsons,4,18,1621-05-02,1621-05-02,high,S8* Willm Mounsons Patent sealed.
+V01-P0273,0,summary,PERSON,Edwin Sandys,Edwin Sandys,S' Edwyn,23,31,1621-05-02,1621-05-02,low,20: Sharee bestowed on S' Edwyn Sandys.
+V01-P0273,3,summary,PERSON,Robert Newland,Robert Newland,m* Newland,13,23,1621-05-02,1621-05-02,low,5. shares to m* Newland
+V01-P0274,1,summary,PERSON,,,m': Deputies,0,12,1621-05-02,1621-05-02,medium,m': Deputies report conc'ning his Account.
+V01-P0274,2,summary,PERSON,Edwin Sandys,Edwin Sandys,S' Edwyn,9,17,1621-05-02,1621-05-02,medium,Touching S' Edwyn Sandys Account.
+V01-P0275,1,summary,PERSON,William Capps,William Capps,m’ Capps,0,8,1621-05-02,1621-05-02,high,m’ Capps to haue the passage of .5. men free.
+V01-P0275,2,summary,PERSON,Henry Wriothesley,Henry Wriothesley,My Lo: of Southampton,0,21,1621-05-02,1621-05-02,high,My Lo: of Southampton chosen Treasuror.
+V01-P0276,0,summary,PERSON,John Berkeley,John Berkeley,m' Io: Berkly,0,13,1621-05-02,1621-05-02,medium,m' Io: Berkly comended for Iron workes.
+V01-P0276,2,summary,PERSON,,,m'’ Norwood Surveyor,0,20,1621-05-02,1621-05-02,medium,m'’ Norwood Surveyor.
+V01-P0279,1,summary,PERSON,,,m’ Berklyes,0,11,1621-05-12,1621-05-12,high,m’ Berklyes offer.
+V01-P0280,0,summary,PERSON,John Berkeley,John Berkeley,Iohn Berkly,17,28,1621-05-12,1621-06-11,medium,Allowance to mf‘ Iohn Berkly.
+V01-P0282,1,summary,PLACE,NW-001,Virginia,Virginia,44,52,1621-06-11,1621-06-11,medium,the establishing of y* Counsell of State in Virginia considered of.
+V01-P0282,3,summary,PERSON,George Sandys,George Sandys,M' Geo: Sandys,0,14,1621-06-11,1621-06-11,medium,M' Geo: Sandys & St W™ Newce for y° places of Trer & Marshall M' Porey.
+V01-P0282,3,summary,PERSON,John Pory,John Pory,M' Porey,62,70,1621-06-11,1621-06-11,medium,M' Geo: Sandys & St W™ Newce for y° places of Trer & Marshall M' Porey.
+V01-P0282,4,summary,PLACE,NW-001,Virginia,Virginia,37,45,1621-06-11,1621-06-11,medium,4 named for y* place of Secretary in Virginia
+V01-P0282,5,summary,PERSON,Edward Waterhouse,Edward Waterhouse,m' Waterhouse,0,13,1621-06-11,1621-06-11,medium,m' Waterhouse comended by S&S Iohn Dauers.
+V01-P0282,5,summary,PERSON,John Danvers,John Danvers,Iohn Dauers,30,41,1621-06-11,1621-06-11,medium,m' Waterhouse comended by S&S Iohn Dauers.
+V01-P0283,0,summary,PLACE,NW-001,Virginia,Virginia,24,32,1621-06-11,1621-06-11,high,The Counsell o State in Virginia toassem ble 4times in a yeare.
+V01-P0284,0,summary,PERSON,,,m'* Casewe Gon,0,14,1621-06-11,1621-06-11,medium,m'* Casewe Gon to stir Companys London.
+V01-P0284,0,summary,PLACE,OW-001,London,London,32,38,1621-06-11,1621-06-11,medium,m'* Casewe Gon to stir Companys London.
+V01-P0284,1,summary,PERSON,Geveh Edw,Geveh Edw,S* Edw,0,6,1621-06-11,1621-06-11,medium,S* Edw: declaraéon Kingé disp
+V01-P0286,1,summary,PLACE,OW-039,The Downs,Downes,36,42,1621-06-11,1621-06-11,medium,y° Duty returned and attended in y* Downes. ordergiuen tosend her to Flushinge.
+V01-P0286,1,summary,PLACE,OW-034,Flushing,Flushinge,69,78,1621-06-11,1621-06-11,medium,y° Duty returned and attended in y* Downes. ordergiuen tosend her to Flushinge.
+V01-P0286,2,summary,PERSON,Arthur Swayne,Arthur Swayne,m' Arthur Swaine,0,16,1621-06-11,1621-06-11,medium,m' Arthur Swaine to be their ffactor.
+V01-P0286,3,summary,PLACE,OW-016,Ireland,Ireland,17,24,1621-06-11,1621-06-11,medium,a Ship aryved in Ireland.
+V01-P0286,4,summary,PERSON,,,S' Wm: Newee,21,33,1621-06-11,1621-06-11,medium,A Patent graunted to S' Wm: Newee.
+V01-P0287,1,summary,PERSON,Elizabeth Dale,Elizabeth Dale,Lady Dale,15,24,1621-06-11,1621-06-11,high,a Patent to my Lady Dale
+V01-P0287,2,summary,PERSON,Dudley Digges,Dudley Digges,Dudley Diggs,16,28,1621-06-11,1621-06-11,high,A Patent for S° Dudley Diggs.
+V01-P0287,3,summary,PERSON,,,S'Iohn Bourchere,12,28,1621-06-11,1621-06-11,high,A Patent to S'Iohn Bourchere.
+V01-P0287,5,summary,PERSON,,,m* Cleyborne,0,12,1621-06-11,1621-06-11,high,m* Cleyborne to be further treated w® by y* Comittee
+V01-P0288,2,summary,PERSON,,,Cap' Norton,0,11,1621-06-11,1621-06-11,medium,Cap' Norton.
+V01-P0289,2,summary,PERSON,,,S* Richard Bulkey,0,17,1621-06-11,1621-06-11,high,S* Richard Bulkey to haue his Lande alloted att Eliz: Cittie
+V01-P0289,3,summary,PERSON,,,m' Webbs,0,8,1621-06-11,1621-06-11,high,m' Webbs mocon or y® 2 Indian Maydes.
+V01-P0289,4,summary,PERSON,,,m’ Francks,0,10,1621-06-11,1621-06-11,high,m’ Francks request
+V01-P0291,0,summary,PERSON,Edwin Sandys,Edwin Sandys,Edwin Sandye,3,15,1621-06-13,1621-06-13,high,8S Edwin Sandye thankfull accepta@on of y* 20: Shares bestowed vppoo him
+V01-P0291,1,summary,PERSON,,,m* Deputies,0,11,1621-06-13,1621-06-13,high,m* Deputies reasons why hee presented not an Accomp* of y* laste years Disbursmente.
+V01-P0291,2,summary,PERSON,Edwin Sandys,Edwin Sandys,S' Edwin Sandys,0,15,1621-06-13,1621-06-13,high,S' Edwin Sandys Accomp* respited.
+V01-P0292,0,summary,PLACE,NW-001,Virginia,Virginia,9,17,1621-06-13,1621-06-13,medium,State in Virginia to meet 4 times a
+V01-P0292,2,summary,PLACE,NW-001,Virginia,Virginia,30,38,1621-06-13,1621-06-13,medium,An Addiéon to y*® Counsell in Virginia
+V01-P0292,3,summary,PERSON,Francis Wyatt,Francis Wyatt,Frauncis Wyatt,3,17,1621-06-13,1621-06-13,medium,St Frauncis Wyatt Gouernor.
+V01-P0293,0,summary,PERSON,,,m’ Dauison,0,10,1621-06-13,1621-06-13,high,m’ Dauison chosen Secretarie
+V01-P0293,1,summary,PERSON,,,m’ Dauison,0,10,1621-06-13,1621-06-13,high,m’ Dauison made free & of the Counsell in Virginia
+V01-P0293,1,summary,PLACE,NW-001,Virginia,Virginia,42,50,1621-06-13,1621-06-13,high,m’ Dauison made free & of the Counsell in Virginia
+V01-P0293,2,summary,PLACE,NW-001,Virginia,Virginia,27,35,1621-06-13,1621-06-13,high,Poore people to be sent to Virginia.
+V01-P0295,0,summary,PERSON,,,m™ Kathern Binions,0,18,1621-06-13,1621-06-13,high,m™ Kathern Binions PetiGon.
+V01-P0296,0,summary,PERSON,,,m' Hamer,21,29,1621-06-13,1621-06-13,medium,A Patent graunted to m' Hamer.
+V01-P0298,0,summary,PERSON,,,m* Cleyborne,34,46,1621-06-13,1621-06-13,medium,The Comittees reporte concerninge m* Cleyborne
+V01-P0299,3,summary,PERSON,,,m' Webb,0,7,1621-06-13,1621-06-13,high,m' Webb to Carry the Role Magazine to be
+V01-P0303,0,summary,PERSON,George Sandys,George Sandys,m* Geo: Sandys,0,14,1621-06-25,1621-06-25,high,m* Geo: Sandys offer to take y* Italians to himselfe in lieue of those y' are to be allowed him by
+V01-P0303,3,summary,PERSON,William Norton,William Norton,Captaine Norton,0,15,1621-06-25,1621-06-25,high,Captaine Norton.
+V01-P0304,1,summary,PERSON,Raph Fogge,Raph Fogge,Raph Fogge,3,13,1621-06-25,1621-07-02,medium,m' Raph Fogge 5 shares to be confirmed yvnder y* Seale.
+V01-P0306,0,summary,PERSON,Daniel Gookin,Daniel Gookin,m' Gookin,17,26,1621-07-02,1621-07-10,medium,A Ere written to m' Gookin.
+V01-P0306,1,summary,PLACE,NW-001,Virginia,Virginia,43,51,1621-07-02,1621-07-10,medium,A tre written to y° Gouerno' & Counsell of Virginia to this effect
+V01-P0306,2,summary,PERSON,,,m' Kettlebie,0,12,1621-07-02,1621-07-10,medium,m' Kettlebie to be recomended to y*
+V01-P0308,0,summary,PERSON,,,m’ Marmaduk Reyno',32,50,1621-07-10,1621-07-10,medium,3 Seuerall Voyadges made one by m’ Marmaduk Reyno'
+V01-P0308,1,summary,PERSON,,,m' Dirmer,32,41,1621-07-10,1621-07-10,medium,a 21 by Ensigne Sauage. a 37 by m' Dirmer.
+V01-P0310,1,summary,PERSON,John Pountis,John Pountis,m' Iohn Pountice,0,16,1621-07-10,1621-07-10,medium,m' Iohn Pountice to be Vice Admirall.
+V01-P0310,2,summary,PERSON,,,m' Peirce Accompte,21,39,1621-07-10,1621-07-10,medium,Comittees to examine m' Peirce Accompte.
+V01-P0310,3,summary,PERSON,William Ewens,William Ewens,m' Ewens,16,24,1621-07-10,1621-07-10,medium,The Contract w” m' Ewens to be sealed
+V01-P0311,0,summary,PERSON,William Norton,William Norton,Capt Norton,0,11,1621-07-10,1621-07-10,high,Capt Norton presentinge his bill ig referred to y*Comittee
+V01-P0311,1,summary,PERSON,,,Lady Lawarrs,3,15,1621-07-10,1621-07-10,high,My Lady Lawarrs request to graunt her a Connission
+V01-P0312,1,summary,PERSON,Isaac Madison,Isaac Madison,Capt Madison,0,12,1621-07-10,1621-07-10,medium,"Capt Madison «& his wife to haue their passage free, & 2shares of Land and to haue 2 Boys sent him"
+V01-P0312,2,summary,PERSON,Jabez Whitaker,Jabez Whitaker,m'’ Whittakers,21,35,1621-07-10,1621-07-10,medium,"2 Boys to be sent to m'’ Whittakers, and to haue y° reward of Tobacco confirmed vnto him."
+V01-P0312,3,summary,PERSON,Cutbert Essington,Cutbert Essington,Cutbert Essington,3,20,1621-07-10,1621-07-10,medium,m’ Cutbert Essington to be sett free and to haue his passage free to England.
+V01-P0312,3,summary,PLACE,OW-011,England,England,69,76,1621-07-10,1621-07-10,medium,m’ Cutbert Essington to be sett free and to haue his passage free to England.
+V01-P0313,0,summary,PERSON,,,S' Fra: Wyatt,0,13,1621-07-10,1621-07-10,high,"S' Fra: Wyatt to sett out 32 shares of Land for m*™ Newporte, and 3 whole shares for 6 men transported."
+V01-P0313,0,summary,PERSON,Christopher Newport,Christopher Newport,m*™ Newporte,48,60,1621-07-10,1621-07-10,high,"S' Fra: Wyatt to sett out 32 shares of Land for m*™ Newporte, and 3 whole shares for 6 men transported."
+V01-P0314,1,summary,PERSON,William Norton,William Norton,Captaine Norton,0,15,1621-07-10,1621-07-12,medium,Captaine Norton.
+V01-P0319,1,summary,PERSON,Edward Blany,Edward Blany,m' Blany,0,8,1621-07-16,1621-07-16,high,m' Blany to be their Factor.
+V01-P0320,0,summary,PERSON,,,m* Pott,0,7,1621-07-16,1621-07-16,medium,m* Pott€ entertayned for y* Phisicons place.
+V01-P0320,1,summary,PERSON,,,S' Fraunces Wyatt,0,17,1621-07-16,1621-07-16,medium,S' Fraunces Wyatt brother entertayned for Mynister
+V01-P0321,0,summary,PERSON,,,Capt Welden,0,11,1621-07-16,1621-07-16,high,Capt Welden@é moCon to take out his Tobacco brought home in y* Duty paying his fraight
+V01-P0321,1,summary,PERSON,Samuel Wrote,Samuel Wrote,m’ Wrote,0,8,1621-07-16,1621-07-16,high,m’ Wrote offered to yt Comp*: such of his conceptions
+V01-P0321,2,summary,PLACE,NW-001,Virginia,Virginia,20,28,1621-07-16,1621-07-16,high,"Diu9s Comodities in Virginia of good Value in themselues to be appropriated to y* Comp"":"
+V01-P0323,0,summary,PERSON,,,m' Wrot,0,7,1621-07-16,1621-07-16,high,m' Wrot¢ declaraGon of y* synister Courses & iniuries Calumnies w® w® this Comp*: hath been abused
+V01-P0324,1,summary,PERSON,,,m* Oulsworth,47,59,1621-07-16,1621-07-24,medium,"Counsello™ chosen in y* steed of Doct: Bohune, m* Oulsworth and m‘* Tracye."
+V01-P0324,3,summary,PERSON,Richard Morer,Richard Morer,m' Morer,63,71,1621-07-16,1621-07-24,medium,The mony for payinge y® Tryalle fraight attached by mr’ Couell m' Morer contented that defalcacon should be made ynto him
+V01-P0327,0,summary,PERSON,Henry Wriothesley,Henry Wriothesley,My Lo: of Southampton,0,21,1621-07-02,1621-07-02,low,"My Lo: of Southampton subscribed, 200"" to y* Rolls S' Edwin Sandys y* like sum"
+V01-P0327,0,summary,PERSON,Edwin Sandys,Edwin Sandys,S' Edwin Sandys,51,66,1621-07-02,1621-07-02,low,"My Lo: of Southampton subscribed, 200"" to y* Rolls S' Edwin Sandys y* like sum"
+V01-P0327,2,summary,PERSON,,,Richard Toppinge,30,46,1621-07-02,1621-07-02,low,A request in y* behalfe of m‘ Richard Toppinge
+V01-P0336,0,summary,PERSON,Patrick Copland,Patrick Copland,m’ Copeland,16,27,1621-10-17,1621-10-31,medium,"70"" procured by m’ Copeland C’."
+V01-P0336,1,summary,PERSON,Patrick Copland,Patrick Copland,m*’ Copeland,0,12,1621-10-17,1621-10-31,medium,m*’ Copeland admitted to be free.
+V01-P0337,0,summary,PERSON,Edward Waterhouse,Edward Waterhouse,m* Waterhouse,0,13,1621-10-24,1621-10-24,low,m* Waterhouse entertayned for Collectinge in of subscriptons
+V01-P0338,3,summary,PERSON,Rowland Trueloue,Rowland Trueloue,m* Trueloue,13,24,1621-10-17,1621-10-31,medium,A Patent for m* Trueloue
+V01-P0340,0,summary,PERSON,,,Robert Gaile,83,95,1621-10-17,1621-10-31,medium,Direction to be giuen to y*® Gouernor to cause lohn Burros to make sattisfacéon to Robert Gaile.
+V01-P0341,0,summary,PLACE,OW-011,England,England,77,84,1621-10-31,1621-10-31,high,m’ Deputy gaue notice of y* Lorde Comaund tobringe in all their Tobacco into England.
+V01-P0388,0,attendance_fragment,PERSON,Thomas Gibbs,Thomas Gibbs,m’ Gibbs,11,19,1622-01-28,1622-01-30,medium,m* Deputy. m’ Gibbs. m‘' Wrote. m' Io: Smith. m’ Ro: Smith. m' Keightley.
+V01-P0388,0,attendance_fragment,PERSON,,,m' Io: Smith,32,44,1622-01-28,1622-01-30,medium,m* Deputy. m’ Gibbs. m‘' Wrote. m' Io: Smith. m’ Ro: Smith. m' Keightley.
+V01-P0388,0,attendance_fragment,PERSON,Robert Smith,Robert Smith,m’ Ro: Smith,46,58,1622-01-28,1622-01-30,medium,m* Deputy. m’ Gibbs. m‘' Wrote. m' Io: Smith. m’ Ro: Smith. m' Keightley.
+V01-P0388,0,attendance_fragment,PERSON,Thomas Keightley,Thomas Keightley,m' Keightley,60,72,1622-01-28,1622-01-30,medium,m* Deputy. m’ Gibbs. m‘' Wrote. m' Io: Smith. m’ Ro: Smith. m' Keightley.
+V01-P0388,1,summary,PERSON,Nicholas Ferrar,Nicholas Ferrar,m’ Nich: ffarrar,0,16,1622-01-28,1622-01-30,medium,m’ Nich: ffarrar.
+V01-P0388,2,attendance_fragment,PERSON,Richard Tomlins,Richard Tomlins,m' Tomlins,0,10,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Richard Rogers,Richard Rogers,m'* Rogers,12,22,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Gabriel Barber,Gabriel Barber,m' Barbo,24,32,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Thomas Ayres,Thomas Ayres,m'* Ayres,35,44,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Richard Caswell,Richard Caswell,m' Caswell,46,56,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Richard Wiseman,Richard Wiseman,m' Wiseman,58,68,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,George Swinhowe,George Swinhowe,m' Swinhow,70,80,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,,,m’ ffaucet,82,92,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Thomas Jadwin,Thomas Jadwin,m’ Jadwin,94,103,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Edward Waterhouse,Edward Waterhouse,m’ Waterhowse,105,118,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,,,m' Elkington,120,132,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Francis Meuerell,Francis Meuerell,m' Meuerell,134,145,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Arthur Bromfeild,Arthur Bromfeild,m' Bromfeild,147,159,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,James Berbloke,James Berbloke,m* Berblocke,161,173,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,,,m* Grey,186,193,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,,,m’ Gardiner,195,206,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Richard Widowes,Richard Widowes,m' Widdowes,208,219,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Thomas Viner,Thomas Viner,m’ Viner,221,229,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,,,m* Weston,244,253,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,Thomas Melling,Thomas Melling,m' Mellinge,255,266,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0388,2,attendance_fragment,PERSON,John Hart,John Hart,m* Hart,268,275,1622-01-28,1622-01-30,medium,m' Tomlins. m'* Rogers. m' Barbo'. m'* Ayres. m' Caswell. m' Wiseman. m' Swinhow. m’ ffaucet. m’ Jadwin. m’ Waterhowse. m' Elkington. m' Meuerell. m' Bromfeild. m* Berblocke. m'‘ Binge. m* Grey. m’ Gardiner. m' Widdowes. m’ Viner. m'‘ Shipton. m* Weston. m' Mellinge. m* Hart.
+V01-P0389,0,attendance_fragment,PERSON,John Taylor,John Taylor,m’ Taylo,0,8,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,0,attendance_fragment,PERSON,Christopher Newport,Christopher Newport,m’ Newport,11,21,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,0,attendance_fragment,PERSON,,,m* Man,23,29,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,0,attendance_fragment,PERSON,John Martin,John Martin,m* Martin,31,40,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,0,attendance_fragment,PERSON,,,m’ Stubbe,42,51,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,0,attendance_fragment,PERSON,,,m' Brewer,53,62,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,0,attendance_fragment,PERSON,Thomas Wheatley,Thomas Wheatley,m* Wheatley,64,75,1622-01-30,1622-01-30,high,m’ Taylo’. m’ Newport. m* Man. m* Martin. m’ Stubbe. m' Brewer. m* Wheatley.
+V01-P0389,1,attendance_fragment,PERSON,,,m' fflaxton,0,11,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,George Smith,George Smith,m' Geo: Smith,13,26,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,Richard Boothbie,Richard Boothbie,m’ Boothby,28,38,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,,,m* Harrison,40,51,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,Edward Hackett,Edward Hackett,m’* Hacket,53,63,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,William Felgate,William Felgate,m’ ffelgate,65,76,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,Patrick Copland,Patrick Copland,m* Copland,78,88,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,,,m’ Balmford,90,101,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,,,m* Barker,115,124,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,,,m'* Moor,126,134,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,,,m’* Matson,137,147,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,,,m’ Lilly,149,157,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,Richard Bull,Richard Bull,m’ Bull,159,166,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,Thomas Couell,Thomas Couell,m’ Couell,168,177,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0389,1,attendance_fragment,PERSON,Henry Bagwell,Henry Bagwell,m’ Bagwell,179,189,1622-01-30,1622-01-30,high,"m' fflaxton. m' Geo: Smith. m’ Boothby. m* Harrison. m’* Hacket. m’ ffelgate. m* Copland. m’ Balmford. m* Woodall. m* Barker. m'* Moor"". m’* Matson. m’ Lilly. m’ Bull. m’ Couell. m’ Bagwell."
+V01-P0416,0,summary,PERSON,Thomas Gibbs,Thomas Gibbs,m'* Gibbs,0,9,1622-02-27,1622-03-13,medium,m'* Gibbs. m’ Wrote.
+V01-P0416,0,summary,PERSON,Samuel Wrote,Samuel Wrote,m’ Wrote,11,19,1622-02-27,1622-03-13,medium,m'* Gibbs. m’ Wrote.
+V01-P0416,1,attendance_fragment,PERSON,Augustine Steward,Augustine Steward,m' Steward,0,10,1622-02-27,1622-03-13,medium,m' Steward. m1’ Binge. m' Tomlins. m' Scott. m'’ Palmer. m’ Bennett. m* Barbo'.
+V01-P0416,1,attendance_fragment,PERSON,Richard Tomlins,Richard Tomlins,m' Tomlins,23,33,1622-02-27,1622-03-13,medium,m' Steward. m1’ Binge. m' Tomlins. m' Scott. m'’ Palmer. m’ Bennett. m* Barbo'.
+V01-P0416,1,attendance_fragment,PERSON,George Scott,George Scott,m' Scott,35,43,1622-02-27,1622-03-13,medium,m' Steward. m1’ Binge. m' Tomlins. m' Scott. m'’ Palmer. m’ Bennett. m* Barbo'.
+V01-P0416,1,attendance_fragment,PERSON,,,m'’ Palmer,45,55,1622-02-27,1622-03-13,medium,m' Steward. m1’ Binge. m' Tomlins. m' Scott. m'’ Palmer. m’ Bennett. m* Barbo'.
+V01-P0416,1,attendance_fragment,PERSON,Edward Bennett,Edward Bennett,m’ Bennett,57,67,1622-02-27,1622-03-13,medium,m' Steward. m1’ Binge. m' Tomlins. m' Scott. m'’ Palmer. m’ Bennett. m* Barbo'.
+V01-P0416,1,attendance_fragment,PERSON,Gabriel Barber,Gabriel Barber,m* Barbo,69,77,1622-02-27,1622-03-13,medium,m' Steward. m1’ Binge. m' Tomlins. m' Scott. m'’ Palmer. m’ Bennett. m* Barbo'.
+V02-P0157,1,summary,PERSON,Thomas Gibbs,Thomas Gibbs,m’ Gibbs,0,8,1622-11-22,1622-11-27,medium,m’ Gibbs. m' Zouch.
+V02-P0157,1,summary,PERSON,,,m' Zouch,10,18,1622-11-22,1622-11-27,medium,m’ Gibbs. m' Zouch.
+V02-P0257,0,attendance_fragment,PERSON,,,m'’ Moorewood,0,13,1623-02-05,1623-02-05,medium,m'’ Moorewood. m’ Peake. m* Colet. m* Hurd.
+V02-P0257,0,attendance_fragment,PERSON,,,m’ Peake,15,23,1623-02-05,1623-02-05,medium,m'’ Moorewood. m’ Peake. m* Colet. m* Hurd.
+V02-P0257,0,attendance_fragment,PERSON,,,m* Colet,25,33,1623-02-05,1623-02-05,medium,m'’ Moorewood. m’ Peake. m* Colet. m* Hurd.
+V02-P0257,0,attendance_fragment,PERSON,Edward Hurd,Edward Hurd,m* Hurd,35,42,1623-02-05,1623-02-05,medium,m'’ Moorewood. m’ Peake. m* Colet. m* Hurd.
+V02-P0257,1,summary,PERSON,Phillip Gifford,Phillip Gifford,m’ Gifford,0,10,1623-02-05,1623-02-05,medium,"m’ Gifford. m"" Hobbs."
+V02-P0257,1,summary,PERSON,,,"m"" Hobbs",12,20,1623-02-05,1623-02-05,medium,"m’ Gifford. m"" Hobbs."
+V02-P0274,0,summary,PERSON,John Brooke,John Brooke,Io: Brooke,4,14,1623-02-12,1623-02-12,high,"S'* Io: Brooke. S* Io: Dauers. S' Tho: Wroth. S* Nath: Rich. S"" Lawr: Hide. S' Sam: Argall. m’ Pheasaunt."
+V02-P0274,0,summary,PERSON,John Danvers,John Danvers,S* Io: Dauers,16,29,1623-02-12,1623-02-12,high,"S'* Io: Brooke. S* Io: Dauers. S' Tho: Wroth. S* Nath: Rich. S"" Lawr: Hide. S' Sam: Argall. m’ Pheasaunt."
+V02-P0274,0,summary,PERSON,Thomas Wroth,Thomas Wroth,S' Tho: Wroth,31,44,1623-02-12,1623-02-12,high,"S'* Io: Brooke. S* Io: Dauers. S' Tho: Wroth. S* Nath: Rich. S"" Lawr: Hide. S' Sam: Argall. m’ Pheasaunt."
+V02-P0274,0,summary,PERSON,Nathaniel Rich,Nathaniel Rich,S* Nath: Rich,46,59,1623-02-12,1623-02-12,high,"S'* Io: Brooke. S* Io: Dauers. S' Tho: Wroth. S* Nath: Rich. S"" Lawr: Hide. S' Sam: Argall. m’ Pheasaunt."
+V02-P0274,0,summary,PERSON,Samuel Argall,Samuel Argall,S' Sam: Argall,76,90,1623-02-12,1623-02-12,high,"S'* Io: Brooke. S* Io: Dauers. S' Tho: Wroth. S* Nath: Rich. S"" Lawr: Hide. S' Sam: Argall. m’ Pheasaunt."
+V02-P0274,0,summary,PERSON,,,m’ Pheasaunt,92,104,1623-02-12,1623-02-12,high,"S'* Io: Brooke. S* Io: Dauers. S' Tho: Wroth. S* Nath: Rich. S"" Lawr: Hide. S' Sam: Argall. m’ Pheasaunt."
+V02-P0274,1,attendance_fragment,PERSON,John Ferrar,John Ferrar,Jo: ffarrar,3,14,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,John Brooke,John Brooke,m’* Brooke,16,26,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,Thomas Gibbs,Thomas Gibbs,m’ Gibbs,28,36,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,Nicholas Hyde,Nicholas Hyde,m’ Nicho Hide,38,51,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,,,m’ Bromefeld,53,65,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,,,m’* Butler,78,88,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,Robert Smith,Robert Smith,m’* Ro: Smith,90,103,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0274,1,attendance_fragment,PERSON,Richard Tomlins,Richard Tomlins,m* Tomlins,105,115,1623-02-12,1623-02-12,high,m* Jo: ffarrar. m’* Brooke. m’ Gibbs. m’ Nicho Hide. m’ Bromefeld. m’* Binge. m’* Butler. m’* Ro: Smith. m* Tomlins.
+V02-P0349,0,attendance_fragment,PERSON,Thomas Gibbs,Thomas Gibbs,m' Gibbs,11,19,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,,,m'* Phesaunt,21,33,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,George Scott,George Scott,m' Scott,35,43,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,,,m’ Dike,57,64,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,Richard Morer,Richard Morer,m* Moorer,66,75,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,John Bland,John Bland,m* Bland,77,85,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,Gabriel Barber,Gabriel Barber,m’ Barbo,87,95,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PERSON,Thomas Melling,Thomas Melling,m’ Mellinge,98,109,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0349,0,attendance_fragment,PLACE,OW-039,The Downs,Downes,114,120,1623-03-19,1623-03-24,medium,m’ Deputy. m' Gibbs. m'* Phesaunt. m' Scott. m’ Caninge. m’ Dike. m* Moorer. m* Bland. m’ Barbo'. m’ Mellinge. m* Downes.
+V02-P0385,0,attendance_fragment,PERSON,Thomas Gibbs,Thomas Gibbs,m* Gibbs,0,8,1623-04-18,1623-04-23,medium,m* Gibbs. m’ Bing. m’ Io: Smith. m’ White. m'* Palavicine. m’* Bland.
+V02-P0385,0,attendance_fragment,PERSON,Robert Byng,Robert Byng,m’ Bing,10,17,1623-04-18,1623-04-23,medium,m* Gibbs. m’ Bing. m’ Io: Smith. m’ White. m'* Palavicine. m’* Bland.
+V02-P0385,0,attendance_fragment,PERSON,,,m’ Io: Smith,19,31,1623-04-18,1623-04-23,medium,m* Gibbs. m’ Bing. m’ Io: Smith. m’ White. m'* Palavicine. m’* Bland.
+V02-P0385,0,attendance_fragment,PERSON,,,m’ White,33,41,1623-04-18,1623-04-23,medium,m* Gibbs. m’ Bing. m’ Io: Smith. m’ White. m'* Palavicine. m’* Bland.
+V02-P0385,0,attendance_fragment,PERSON,Edward Paulavicine,Edward Paulavicine,m'* Palavicine,43,57,1623-04-18,1623-04-23,medium,m* Gibbs. m’ Bing. m’ Io: Smith. m’ White. m'* Palavicine. m’* Bland.
+V02-P0385,0,attendance_fragment,PERSON,John Bland,John Bland,m’* Bland,59,68,1623-04-18,1623-04-23,medium,m* Gibbs. m’ Bing. m’ Io: Smith. m’ White. m'* Palavicine. m’* Bland.
+V02-P0385,1,summary,PERSON,Edward Ditchfield,Edward Ditchfield,m’ Ditchfield,0,13,1623-04-18,1623-04-23,medium,m’ Ditchfield. m’ Withers.
+V02-P0385,1,summary,PERSON,,,m’ Withers,15,25,1623-04-18,1623-04-23,medium,m’ Ditchfield. m’ Withers.
+V02-P0385,2,attendance_fragment,PERSON,Isaac Madison,Isaac Madison,m'* Addison,0,11,1623-04-18,1623-04-23,medium,m'* Addison. m’ Balmford. m'* Copland.
+V02-P0385,2,attendance_fragment,PERSON,,,m’ Balmford,13,24,1623-04-18,1623-04-23,medium,m'* Addison. m’ Balmford. m'* Copland.
+V02-P0385,2,attendance_fragment,PERSON,Patrick Copland,Patrick Copland,m'* Copland,26,37,1623-04-18,1623-04-23,medium,m'* Addison. m’ Balmford. m'* Copland.
+V02-P0437,0,attendance_fragment,PERSON,,,m’ Zouch,0,8,1623-05-12,1623-05-14,medium,m’ Zouch. m’ Bynge. m’ White.
+V02-P0437,0,attendance_fragment,PERSON,,,m’ Bynge,10,18,1623-05-12,1623-05-14,medium,m’ Zouch. m’ Bynge. m’ White.
+V02-P0437,0,attendance_fragment,PERSON,,,m’ White,20,28,1623-05-12,1623-05-14,medium,m’ Zouch. m’ Bynge. m’ White.
+V02-P0508,0,attendance_fragment,PERSON,Samuel Wrote,Samuel Wrote,m' Wrote,0,8,1623-11-19,1623-11-19,high,m' Wrote. m' White. m’ Bynge. m' Ryder.
+V02-P0508,0,attendance_fragment,PERSON,,,m' White,10,18,1623-11-19,1623-11-19,high,m' Wrote. m' White. m’ Bynge. m' Ryder.
+V02-P0508,0,attendance_fragment,PERSON,,,m’ Bynge,20,28,1623-11-19,1623-11-19,high,m' Wrote. m' White. m’ Bynge. m' Ryder.
+V02-P0508,0,attendance_fragment,PERSON,Edward Ryder,Edward Ryder,m' Ryder,30,38,1623-11-19,1623-11-19,high,m' Wrote. m' White. m’ Bynge. m' Ryder.
+V02-P0510,0,summary,PLACE,NW-001,Virginia,Virginia,103,111,1623-11-19,1623-11-19,high,Endorsed. To right honob* Earle of Sout ampton w® oth y* L® & to y*r of yt Noble min ed Adventurers y® Virginia Co pany.
+V02-P0535,0,attendance_fragment,PERSON,,,m' White,0,8,1624-02-02,1624-02-04,medium,m' White. m' Binge. m' Bull.
+V02-P0535,0,attendance_fragment,PERSON,Richard Bull,Richard Bull,m' Bull,20,27,1624-02-02,1624-02-04,medium,m' White. m' Binge. m' Bull.
+V02-P0541,0,attendance_fragment,PERSON,,,m'* White,11,20,1624-02-04,1624-04-21,low,m’* Deputy m'* White. m’ Blande. m’ Scott.
+V02-P0541,0,attendance_fragment,PERSON,John Bland,John Bland,m’ Blande,22,31,1624-02-04,1624-04-21,low,m’* Deputy m'* White. m’ Blande. m’ Scott.
+V02-P0541,0,attendance_fragment,PERSON,George Scott,George Scott,m’ Scott,33,41,1624-02-04,1624-04-21,low,m’* Deputy m'* White. m’ Blande. m’ Scott.
+V02-P0557,0,attendance_fragment,PERSON,John Bland,John Bland,m' Bland,0,8,1624-04-28,1624-04-28,medium,m' Bland. m’ Brooke. m'* Hobbs. m* Alden. m’ Tucker.
+V02-P0557,0,attendance_fragment,PERSON,John Brooke,John Brooke,m’ Brooke,10,19,1624-04-28,1624-04-28,medium,m' Bland. m’ Brooke. m'* Hobbs. m* Alden. m’ Tucker.
+V02-P0557,0,attendance_fragment,PERSON,,,m'* Hobbs,21,30,1624-04-28,1624-04-28,medium,m' Bland. m’ Brooke. m'* Hobbs. m* Alden. m’ Tucker.
+V02-P0557,0,attendance_fragment,PERSON,,,m* Alden,32,40,1624-04-28,1624-04-28,medium,m' Bland. m’ Brooke. m'* Hobbs. m* Alden. m’ Tucker.
+V02-P0557,0,attendance_fragment,PERSON,,,m’ Tucker,42,51,1624-04-28,1624-04-28,medium,m' Bland. m’ Brooke. m'* Hobbs. m* Alden. m’ Tucker.
+V03-P0013,0,summary,PLACE,NW-001,Virginia,Virginia,11,19,1609-05-01,1609-05-31,high,Admiral of Virginia
+V03-P0016,1,summary,PLACE,NW-002,Jamestown,James Towne,0,11,1609-05-01,1609-05-31,medium,James Towne
+V03-P0016,2,summary,PLACE,NW-004,James River,Kings river,0,11,1609-05-01,1609-05-31,medium,Kings river
+V03-P0018,0,summary,PLACE,NW-009,Point Comfort,Cape comforte,13,26,1609-05-01,1609-05-31,medium,Small fortes Cape comforte
+V03-P0250,0,summary,PLACE,NW-001,Virginia,Virginia,1,9,1620-01-18,1620-01-31,medium,—Virginia went fur-
+V03-P0310,0,summary,PLACE,OW-011,England,England,0,7,1620-06-12,1620-06-12,medium,England and soe for Virginia these things and
+V03-P0310,0,summary,PLACE,NW-001,Virginia,Virginia,20,28,1620-06-12,1620-06-12,medium,England and soe for Virginia these things and
+V03-P0313,1,summary,PERSON,,,Mr Thorpe,8,17,1620-06-12,1620-06-12,high,tion of Mr Thorpe
+V03-P0401,0,summary,PLACE,OW-001,London,London,36,42,1620-09-01,1620-09-01,high,"This the farmers of the customes at London, will not allowe backe. Accompted for by ffelgate in July .1621. rec by m? Smyth"
+V03-P0404,6,summary,PERSON,,,m™ Joyce Tracy,8,22,1620-09-01,1620-09-10,medium,pted to m™ Joyce Tracy
+V03-P0404,9,summary,PLACE,OW-016,Ireland,Ireland,10,17,1620-09-01,1620-09-10,medium,stayed in Ireland
+V03-P0432,0,summary,PLACE,OW-011,England,England,56,63,1620-12-19,1621-01-21,low,This Coppye exactlieagreeth with the originall sent for England in the Temperance. Jn° Porey sect
+V03-P0558,0,summary,PLACE,NW-001,Virginia,Virginia,20,28,1621-12-06,1622-01-01,medium,"3570 People sent to Virginia in the three last yeares. 42 Saile of ships, 1200 Mariners imployed."
+V03-P0614,0,summary,PERSON,,,Edward Leeche,19,32,1622-01-30,1622-02-19,medium,St Robert Riche S: Edward Leeche
+V03-P0692,0,summary,PLACE,NW-001,Virginia,Virginia,0,8,1622-09-01,1622-09-01,medium,Virginia Plantaéon warrant
+V04-P0044,0,summary,PERSON,Edwin Sandys,Edwin Sandys,St Edw. Sandis,0,14,1623-03-17,1623-03-20,medium,St Edw. Sandis speech for answere to this grievance to be here entred.
+V04-P0076,0,summary,PERSON,George Sandys,George Sandys,George Sandys,0,13,1623-03-31,1623-04-01,medium,George Sandys
+V04-P0076,1,summary,PERSON,,,Capt Newce,0,10,1623-03-31,1623-04-01,medium,Capt Newce
+V04-P0187,1,summary,PLACE,OW-001,London,London,73,79,1623-05-09,1623-05-09,high,for his owne pticular. And in Sr‘ T. Smythes tyme nothing: but shares of London.
+V04-P0229,0,summary,PLACE,NW-001,Virginia,Virginia,7,15,1623-06-18,1623-06-18,low,men to Virginia. }7:18 [blank]
+V04-P0416,0,summary,PLACE,NW-001,Virginia,Virginea,320,328,1623-11-27,1623-12-07,medium,"(1) This preamble, beinge the difinicion of that wee intend to doe and framed to the attaineing of our last end, wee maie terme the contract of this our marriage, whereof I have wrytten a treatice handling everie worde of it, and shewinge that the object (to witt) To plant and governe and the subject manie families in Virginea, and the end to which the efficient, that is this pattent and authority wee have from the kinge, should bee ordained, which is to cause the plantacion naturally to depend on the sovoragnenitye of England. Theis being"
+V04-P0416,0,summary,PLACE,OW-011,England,England,525,532,1623-11-27,1623-12-07,medium,"(1) This preamble, beinge the difinicion of that wee intend to doe and framed to the attaineing of our last end, wee maie terme the contract of this our marriage, whereof I have wrytten a treatice handling everie worde of it, and shewinge that the object (to witt) To plant and governe and the subject manie families in Virginea, and the end to which the efficient, that is this pattent and authority wee have from the kinge, should bee ordained, which is to cause the plantacion naturally to depend on the sovoragnenitye of England. Theis being"
+V04-P0417,0,summary,PLACE,NW-001,Virginia,Virginia,377,385,1623-12-07,1623-12-07,high,"the esscentiall and formall differences, =I hould the worke to bee truelie defyned. Yf then the end bee it that must teach us the meanes to conduce to it, and that the right ordaineinge of the efficient bee the principall meanes to attaine our end, then the question wilbe quicklie deseyded whether it bee not better to authorize one sett forme of government both heare and in Virginia framed to the attaineing of our end, and soe leave the lawes to bee ordained accordinge to that forme, or ells that the adventurours here should give lawes and government by populer voyces to the planters in Virginia as if they were their tenantes or servantes. The said planters being aswell free subjects to the kinge, those that venture theire lives aswell as theire goodes, and those that must hould the plantacion to"
+V04-P0417,0,summary,PLACE,NW-001,Virginia,Virginia,594,602,1623-12-07,1623-12-07,high,"the esscentiall and formall differences, =I hould the worke to bee truelie defyned. Yf then the end bee it that must teach us the meanes to conduce to it, and that the right ordaineinge of the efficient bee the principall meanes to attaine our end, then the question wilbe quicklie deseyded whether it bee not better to authorize one sett forme of government both heare and in Virginia framed to the attaineing of our end, and soe leave the lawes to bee ordained accordinge to that forme, or ells that the adventurours here should give lawes and government by populer voyces to the planters in Virginia as if they were their tenantes or servantes. The said planters being aswell free subjects to the kinge, those that venture theire lives aswell as theire goodes, and those that must hould the plantacion to"
+V04-P0418,0,summary,PLACE,OW-011,England,England,0,7,1623-12-07,1623-12-07,medium,"England, if Aristotle’s rule houlde that, that right which works most to the attaineing of the politick End must be preferred, this question is by it deseyded see the word polycy."
+V04-P0426,0,summary,PLACE,OW-011,England,England,713,720,1623-12-07,1623-12-07,medium,"forces aloft in these feoffees handes that our forme shall put them, soe as frameinge all the under degrees in a dependensye on the heades of the colonies, whose order haveinge the same authoritye, nomber of forces, manner of seateing and fortifying each one of them that the other hath, whereby they wilbee brought to an equallitie. Theire jealousye one of each other will by maintaineing that equalitye keepe anie one either from usurpinge further authoritie or by increaseinge the strength and nomber of his colonie then our forme doth give him, and thus the comonweale consisting of the persons not of the place, wee by gaineing the affections of theis instrumentes by theire private intresses and estates in England, giveing them such sufficient power as shall make it a commonwealth able to maintaine it selfe by itselfe soe farre forthe"
+V04-P0429,0,summary,PLACE,OW-029,Rome,Rome,581,585,1623-12-07,1623-12-07,high,"give sentence the nomber of 3 imployes by necessitye a concludeing of it, either all 3 consenting to it, or ells two to one, which is sufficiente authoritye to carrie the cause in question. This fault therefore that is not unjustly laid uppon arristocracies that they are two longe a determyneinge the busynes of the common wealthe, whereby the monarchall forme is farre preferred before it, will by this meanes be taken awaye, this nomber of 3 addinge more authoritie to the decree then the voice of one doth, that was not for nothinge that there was sixe severall magistrates in Rome at one tyme consisting of Tryumbers. Reade in the booke termed the jeometricall motion, to which I referre them that desire to bee better instructed herein. This allowance and lymitacion of a dictatour is onely in cases of necessytie because des-"
+V04-P0552,0,summary,PLACE,NW-001,Virginia,Virginia,4,12,1625-04-01,1626-04-30,low,for Virginia out
+V04-P0564,0,summary,PERSON,,,John Petterson,0,14,1625-05-01,1625-05-31,medium,John Petterson John Procter Thomas Tracy John Hilliard ffrancis Weston John Price
+V04-P0564,0,summary,PERSON,John Procter,John Procter,John Procter,15,27,1625-05-01,1625-05-31,medium,John Petterson John Procter Thomas Tracy John Hilliard ffrancis Weston John Price
+V04-P0564,0,summary,PERSON,Thomas Tracy,Thomas Tracy,Thomas Tracy,28,40,1625-05-01,1625-05-31,medium,John Petterson John Procter Thomas Tracy John Hilliard ffrancis Weston John Price
+V04-P0564,0,summary,PERSON,,,John Hilliard,41,54,1625-05-01,1625-05-31,medium,John Petterson John Procter Thomas Tracy John Hilliard ffrancis Weston John Price
+V04-P0564,1,summary,PERSON,,,Peter Neinmart,0,14,1625-05-01,1625-05-31,medium,Peter Neinmart William Perry John Blower Edward Hudson
+V04-P0564,1,summary,PERSON,,,William Perry,15,28,1625-05-01,1625-05-31,medium,Peter Neinmart William Perry John Blower Edward Hudson
+V04-P0564,1,summary,PERSON,,,John Blower,29,40,1625-05-01,1625-05-31,medium,Peter Neinmart William Perry John Blower Edward Hudson
+V04-P0564,1,summary,PERSON,,,Edward Hudson,41,54,1625-05-01,1625-05-31,medium,Peter Neinmart William Perry John Blower Edward Hudson
+V04-P0564,2,summary,PERSON,,,Robert Aukland,0,14,1625-05-01,1625-05-31,medium,Robert Aukland
+V04-P0564,3,summary,PERSON,,,John Griffin,0,12,1625-05-01,1625-05-31,medium,John Griffin
+V04-P0564,4,summary,PERSON,,,Peter Neinmart,0,14,1625-05-01,1625-05-31,medium,Peter Neinmart Thomas Tindall Thomas Read
+V04-P0564,4,summary,PERSON,,,Thomas Tindall,15,29,1625-05-01,1625-05-31,medium,Peter Neinmart Thomas Tindall Thomas Read
+V04-P0564,4,summary,PERSON,,,Thomas Read,30,41,1625-05-01,1625-05-31,medium,Peter Neinmart Thomas Tindall Thomas Read

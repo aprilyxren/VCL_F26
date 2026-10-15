@@ -113,6 +113,34 @@ def summarize(relations: list[str]) -> str:
     return "; ".join(f"{name}×{n}" if n > 1 else name for name, n in sorted(counts.items(), key=lambda kv: -kv[1]))
 
 
+def margin_rows(margin: list[dict], segments: list[dict]) -> list[dict]:
+    """Margin-note mentions as extra mention rows, placed in the page's main segment.
+
+    Summary notes count as mentions in the entry; attendance-list fragments
+    (a list column taken for a margin note) count as ``present``. Mentions in
+    the same summary note share a synthetic position, so they are ``close``.
+    """
+    main_segment: dict[str, dict] = {}
+    for seg in segments:
+        size = int(seg["char_end"]) - int(seg["char_start"])
+        if seg["page_id"] not in main_segment or size > main_segment[seg["page_id"]]["size"]:
+            main_segment[seg["page_id"]] = {**seg, "size": size}
+    rows = []
+    for m in margin:
+        seg = main_segment.get(m["page_id"])
+        if not seg:
+            continue
+        note_page = f"{m['page_id']}#note{m['note_index']}"  # notes are compared only within themselves
+        rows.append({
+            "page_id": note_page, "segment_id": seg["segment_id"], "label": m["label"],
+            "entity_key": m["entity_key"], "entity_name": m["entity_name"], "observed_span": m["observed_span"],
+            "span_start": m["span_start"], "span_end": m["span_end"], "usable_for_association": "yes",
+            "mention_role": "present" if m["note_kind"] == "attendance_fragment" else "mentioned",
+            "source_layer": "margin_note", "note_text": m["note_text"],
+        })
+    return rows
+
+
 def build(
     mentions: list[dict], meetings: dict[str, dict], texts: dict[str, str],
     relations: dict[tuple[str, str, str], list[str]] | None = None,
@@ -164,7 +192,9 @@ def build(
                 proximity = ("present_only" if role == "present"
                              else "same_meeting" if d is None or d > NEAR else "near" if d > CLOSE else "close")
                 snippet = ""
-                if d is not None:
+                if d is not None and p.get("source_layer") == "margin_note":
+                    snippet = "[margin note] " + p["note_text"]
+                elif d is not None:
                     text = texts[p["page_id"]]
                     lo = min(int(p["span_start"]), int(t["span_start"]))
                     hi = max(int(p["span_end"]), int(t["span_end"]))
@@ -280,12 +310,17 @@ def main() -> None:
     parser.add_argument("--evidence-output", type=Path, required=True)
     parser.add_argument("--by-year-output", type=Path, help="One row per year, person, and target.")
     parser.add_argument("--relations", type=Path, help="extract_relations.py output, attached to each link.")
+    parser.add_argument("--margin-mentions", type=Path, help="margin_notes.py output, added as an extra layer.")
     args = parser.parse_args()
 
     texts = {page["page_id"]: page["text"] for page in load_primary_pages(args.source)}
-    meetings = meeting_ids(read_csv(args.segments))
+    segments = read_csv(args.segments)
+    meetings = meeting_ids(segments)
     relations = relation_index(read_csv(args.relations), meetings) if args.relations else {}
-    links, evidence = build(read_csv(args.mentions), meetings, texts, relations)
+    mentions = read_csv(args.mentions)
+    if args.margin_mentions:
+        mentions += margin_rows(read_csv(args.margin_mentions), segments)
+    links, evidence = build(mentions, meetings, texts, relations)
     write(args.links_output, LINK_FIELDS, links)
     write(args.evidence_output, EVIDENCE_FIELDS, evidence)
     if args.by_year_output:

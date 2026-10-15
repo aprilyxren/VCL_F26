@@ -35,14 +35,31 @@
         "Captayne Argoll",
         "Capt: Argall",
         "Capt Argall",
-        "CaP’ Argoll"
+        "CaP’ Argoll",
+        "Captaine Argall",
+        "Capt Argoll",
+        "Capt: Argoll",
+        "Sam: Argall",
+        "S' Sam: Argall",
+        "S* Sam: Argall",
+        "Sam: Argoll",
+        "S' Sam: Argoll",
+        "S* Sam: Argoll",
+        "Capt Sam: Argoll",
+        "Capt Argalls"
       ],
       "source": "list_of_records",
       "basis": "Governor Samuel Argall.",
       "name_groups": [
         "S. Argoll",
         "Cap Argoll",
-        "Captayne Argoll"
+        "Captayne Argoll",
+        "Captaine Argall",
+        "Capt Argoll",
+        "Sam: Argall",
+        "e Samuell Argoll",
+        "Sam: Argoll",
+        "Capt Argalls"
       ]
     },
     "Edwin Sandys": {
@@ -74,12 +91,39 @@
         "Edwiuus Sandis",
         "Edwyn Sandes",
         "Edwin Sandys",
-        "St Edwin"
+        "St Edwin",
+        "Edw: Sandis",
+        "S' Edw: Sandis",
+        "S* Edw: Sandis",
+        "Edw. Sandis",
+        "S' Edw. Sandis",
+        "Edw: Sandys",
+        "S' Edw: Sandys",
+        "S* Edw: Sandys",
+        "Sir Edw: Sandys",
+        "S’ Edw: Sandys",
+        "St Edw: Sandis",
+        "St Edw. Sandis",
+        "Ed: Sandis",
+        "S' Ed: Sandis",
+        "Ed. Sandis",
+        "S' Ed. Sandis",
+        "S' Edwyn",
+        "S* Edwyn",
+        "EpwIN SANDYS",
+        "Sir EpwIN SANDYS",
+        "S' EpwIn SANDYS"
       ],
       "source": "list_of_records",
       "basis": "'S' Edwin' (Sir Edwin) in the records is Sir Edwin Sandys.",
       "name_groups": [
-        "St Edwin"
+        "St Edwin",
+        "Edw: Sandis",
+        "Edw: Sandys",
+        "St Edw: Sandis",
+        "Ed: Sandis",
+        "S' Edwyn",
+        "EpwIN SANDYS"
       ]
     },
     "Thomas Smythe": {
@@ -110,9 +154,36 @@
         "Thomas Smythe’s",
         "Thomas Smyth",
         "Sir THomas SMYTH",
-        "Sir Thomas Smyth"
+        "Sir Thomas Smyth",
+        "Tho: Smith",
+        "S' Tho: Smith",
+        "S* Tho: Smith",
+        "S’ Tho: Smith",
+        "Sir Tho: Smith",
+        "Tho. Smith",
+        "S* Tho. Smith",
+        "Tho: Smiths",
+        "S' Tho: Smiths",
+        "Sir Tho: Smiths",
+        "S* Tho: Smiths",
+        "St Tho: Smith",
+        "Tho: Smithe",
+        "S' Tho: Smithe",
+        "S’ Tho: Smithe",
+        "S* Tho: Smithe",
+        "Tho: Smithes",
+        "S' Tho: Smithes",
+        "Tho. Smithes",
+        "S' Tho. Smithes"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Tho: Smith",
+        "Tho: Smiths",
+        "St Tho: Smith",
+        "Tho: Smithe",
+        "Tho: Smithes"
+      ]
     },
     "John Smyth of Nibley": {
       "aliases": [
@@ -226,9 +297,13 @@
         "Francis Wiates",
         "Sir Vrancis Wratt",
         "Vrancis Wratt",
-        "Francis Wrarr"
+        "Francis Wrarr",
+        "Lady Wyatt"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Lady Wyatt"
+      ]
     },
     "Thomas West, Lord De La Warr": {
       "aliases": [
@@ -245,9 +320,19 @@
         "Lord De Lawarr",
         "Lo Lawarr",
         "D’ Lawarr",
-        "Lord D’ Lawarr"
+        "Lord D’ Lawarr",
+        "Lord Lawarr",
+        "Lady Lawarr",
+        "Captaine Warde",
+        "Lady Lawarre"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Lord Lawarr",
+        "Lady Lawarr",
+        "Captaine Warde",
+        "Lady Lawarre"
+      ]
     },
     "Thomas Gates": {
       "aliases": [
@@ -257,9 +342,17 @@
         "Thomas Gates",
         "Sir Thomas Gaties",
         "Thomas Gaties",
-        "Thomas Cattes"
+        "Thomas Cattes",
+        "Tho: Gates",
+        "S' Tho: Gates",
+        "Tho Gates",
+        "Sir Tho: Gates",
+        "S* Tho: Gates"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Tho: Gates"
+      ]
     },
     "Thomas Dale": {
       "aliases": [
@@ -269,9 +362,16 @@
         "Sir Tho Dale",
         "Thomas Dales",
         "Sir Thomas Dales",
-        "Sir Thomas Dales’"
+        "Sir Thomas Dales’",
+        "Tho: Dale",
+        "S' Tho: Dale",
+        "Tho Dale",
+        "S' Tho Dale"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Tho: Dale"
+      ]
     },
     "Elizabeth Dale": {
       "aliases": [
@@ -299,12 +399,27 @@
         "Captain Christopher Newport",
         "Christopher Newport",
         "Christofero Newporte",
-        "Capten Newport"
+        "Capten Newport",
+        "m* Newport",
+        "m’ Newport",
+        "m' Newport",
+        "m™ Newport",
+        "m’* Newport",
+        "m\" Newport",
+        "m* Newporte",
+        "m' Newporte",
+        "m’ Newporte",
+        "m'’ Newporte",
+        "m™ Newporte",
+        "m*' Newporte"
       ],
       "source": "list_of_records",
       "basis": "Captain Christopher Newport.",
       "name_groups": [
-        "Capten Newport"
+        "Capten Newport",
+        "m* Newport",
+        "m* Newporte",
+        "en Newport"
       ]
     },
     "George Percy": {
@@ -331,9 +446,15 @@
         "John Rolfes",
         "Mr. John Rolfes",
         "John Rolph",
-        "Tohn Rolf"
+        "Tohn Rolf",
+        "m* Rolfe",
+        "m’ Rolfe",
+        "m'* Rolfe"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Rolfe"
+      ]
     },
     "John Pory": {
       "aliases": [
@@ -353,9 +474,24 @@
         "Iohn Porey",
         "Zohn Porey",
         "Master Zohn Porey",
-        "Jobanni Porey"
+        "Jobanni Porey",
+        "M* Pory",
+        "m™ Pory",
+        "M’ Pory",
+        "m'™ Pory",
+        "m\" Pory",
+        "m’ Porey",
+        "m\"* Porey",
+        "m’* Porey",
+        "M* Porey",
+        "JoHn Porr"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "M* Pory",
+        "m’ Porey",
+        "JoHn Porr"
+      ]
     },
     "John Ferrar": {
       "aliases": [
@@ -398,9 +534,46 @@
         "m' John Ferrar",
         "m’ John Ferrar",
         "Iohn: Ferrar",
-        "m' Iohn: Ferrar"
+        "m' Iohn: Ferrar",
+        "m' Ferrar",
+        "M’ Ferrar",
+        "m* Ferrar",
+        "M™* Ferrar",
+        "Jo: ffarrar",
+        "m’ Jo: ffarrar",
+        "Jo ffarrar",
+        "m’ Jo ffarrar",
+        "Iohn fferrar",
+        "m' Iohn fferrar",
+        "m* Iohn fferrar",
+        "Io: Ferrar",
+        "m* Io: Ferrar",
+        "m’ Io: Ferrar",
+        "Io Ferrar",
+        "m* Io Ferrar",
+        "m'* Io: Ferrar",
+        "Io: ffarrar",
+        "M' Io: ffarrar",
+        "Io ffarrar",
+        "m* Io ffarrar",
+        "m’* Io: ffarrar",
+        "m'* Io: ffarrar",
+        "Iohn ffarrar",
+        "m' Iohn ffarrar",
+        "m'* Iohn ffarrar",
+        "[ohn ffarrar",
+        "m* [ohn ffarrar"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m' Ferrar",
+        "Jo: ffarrar",
+        "Iohn fferrar",
+        "Io: Ferrar",
+        "Io: ffarrar",
+        "Iohn ffarrar",
+        "[ohn ffarrar"
+      ]
     },
     "Nicholas Ferrar": {
       "aliases": [
@@ -444,9 +617,42 @@
         "m’ Nich: Ferrar",
         "m* Nich: Ferrar",
         "m' Nich: Ferrar",
-        "m'* Nich: Ferrar"
+        "m'* Nich: Ferrar",
+        "Nicho: ffarrar",
+        "m’ Nicho: ffarrar",
+        "m' Nicho: ffarrar",
+        "m* Nicho: ffarrar",
+        "m'’ Nicho: ffarrar",
+        "Nicho ffarrar",
+        "m' Nicho ffarrar",
+        "Nich: ffarrar",
+        "m’ Nich: ffarrar",
+        "Nich? ffarrar",
+        "m’ Nich? ffarrar",
+        "m’* Nich: ffarrar",
+        "m' Nich? ffarrar",
+        "m* Nich: ffarrar",
+        "m'’ Nich: ffarrar",
+        "Nicho: Ferrar",
+        "m’ Nicho: Ferrar",
+        "m' Nicho: Ferrar",
+        "m* Nicho: Ferrar",
+        "m'’ Nicho: Ferrar",
+        "m'* Nicho: Ferrar",
+        "m’* Nicho: Ferrar",
+        "Nicho Ferrar",
+        "Nicho: fferrar",
+        "m’ Nicho: fferrar",
+        "m* Nicho: fferrar",
+        "m' Nicho: fferrar"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Nicho: ffarrar",
+        "Nich: ffarrar",
+        "Nicho: Ferrar",
+        "Nicho: fferrar"
+      ]
     },
     "George Thorpe": {
       "aliases": [
@@ -506,9 +712,13 @@
         "Willm Tracy",
         "Wiltm Tracy",
         "William Tracy",
-        "Mr. William Tracy"
+        "Mr. William Tracy",
+        "Wilfm Tracy"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Wilfm Tracy"
+      ]
     },
     "John Woodlief": {
       "aliases": [
@@ -520,12 +730,17 @@
         "Captain John Woodleefe",
         "Captaine John Woodleefe",
         "Captayne Woodleefe",
-        "M’ Captayne Woodleefe"
+        "M’ Captayne Woodleefe",
+        "m* Woodleefe",
+        "m™ Woodleefe",
+        "m\" Woodleefe",
+        "m' Woodleefe"
       ],
       "source": "list_of_records",
       "basis": "Captain John Woodlief of Berkeley Hundred.",
       "name_groups": [
-        "Captayne Woodleefe"
+        "Captayne Woodleefe",
+        "m* Woodleefe"
       ]
     },
     "Nathaniel Butler": {
@@ -570,9 +785,20 @@
         "Nath: Rich",
         "S' Nath: Rich",
         "S’ Nath: Rich",
-        "S* Nath: Rich"
+        "S* Nath: Rich",
+        "Nath: Riche",
+        "S’ Nath: Riche",
+        "S* Nath: Riche",
+        "S' Nath: Riche",
+        "Natha: Rich",
+        "S’ Natha: Rich",
+        "S* Natha: Rich"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Nath: Riche",
+        "Natha: Rich"
+      ]
     },
     "John Chamberlain": {
       "aliases": [],
@@ -598,13 +824,21 @@
         "M’ Bargrave",
         "M' Bargrave",
         "M\" Bargrave",
-        "M Bargrave"
+        "M Bargrave",
+        "Capt: Bargraue",
+        "Capt Bargraue",
+        "Capt. Bargraue",
+        "Captaine Bargraue",
+        "Captain Bargraue"
       ],
       "source": "list_of_records",
       "basis": "Captain John Bargrave.",
       "name_groups": [
         "Iohn Bargraue",
-        "M’ Bargrave"
+        "M’ Bargrave",
+        "Capt: Bargraue",
+        "Captaine Bargraue",
+        "Captain Bargraue"
       ]
     },
     "James Brett": {
@@ -645,9 +879,34 @@
         "John Martin's",
         "Tohn Martin",
         "Jonn Martry",
-        "JuG Martin"
+        "JuG Martin",
+        "Capt: Martin",
+        "Capt Martin",
+        "Capt. Martin",
+        "Captaine Martin",
+        "m’* Martin",
+        "m’ Martin",
+        "m' Martin",
+        "m* Martin",
+        "m'’ Martin",
+        "Captaine Martine",
+        "Capt: Martins",
+        "Capt Martins",
+        "Captain Martin",
+        "Io: Martin",
+        "Captaine Io: Martin",
+        "Capt: Io: Martin"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Capt: Martin",
+        "Captaine Martin",
+        "m’* Martin",
+        "Captaine Martine",
+        "Capt: Martins",
+        "Captain Martin",
+        "e Iohn Martin"
+      ]
     },
     "William Powell": {
       "aliases": [
@@ -659,9 +918,14 @@
         "William Powell",
         "Captain William Powell",
         "Captaine William Powell",
-        "Capt Powell"
+        "Capt Powell",
+        "Captaine Powell"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Captaine Powell",
+        "e William Powell"
+      ]
     },
     "William Cradock": {
       "aliases": [
@@ -694,9 +958,27 @@
         "Jolin Dianyers",
         "Thon Dauer",
         "Iohn: Dauers",
-        "S' Iohn: Dauers"
+        "S' Iohn: Dauers",
+        "Io: Dauers",
+        "S' Io: Dauers",
+        "S* Io: Dauers",
+        "Io Dauers",
+        "S’ Io: Dauers",
+        "S* Io Dauers",
+        "S' Io Dauers",
+        "lohn Dauers",
+        "S' lohn Dauers",
+        "S* lohn Dauers",
+        "m' Dawes",
+        "m'* Dawes",
+        "m’ Dawes"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Io: Dauers",
+        "lohn Dauers",
+        "m' Dawes"
+      ]
     },
     "Robert Rich": {
       "aliases": [
@@ -707,10 +989,15 @@
         "Robert Rich",
         "Sir Robert Rich",
         "Robert Earle of Warwick",
-        "Robert Earle of Warwicke"
+        "Robert Earle of Warwicke",
+        "Tho: Barwick",
+        "Capt Tho: Barwick"
       ],
       "source": "list_of_records",
       "basis": "'Robert Earle' groups are truncated 'Robert Earle of Warwick'.",
+      "name_groups": [
+        "Tho: Barwick"
+      ],
       "extra_aliases": [
         "Robert Earle of Warwick",
         "Robert Earle of Warwicke"
@@ -745,10 +1032,14 @@
         "Kart or SouTHAMPTON",
         "HARL OF SOUTHAMPTON",
         "Farle of Southampton",
-        "Henry Earle of Southampton"
+        "Henry Earle of Southampton",
+        "of Southampton"
       ],
       "source": "list_of_records",
       "basis": "Henry Wriothesley, 3rd Earl of Southampton; Company treasurer 1620-1624. 'Henry Earle' groups are truncated 'Henry Earle of Southampton'.",
+      "name_groups": [
+        "of Southampton"
+      ],
       "extra_aliases": [
         "Henry Earle of Southampton"
       ]
@@ -764,9 +1055,14 @@
       "aliases": [
         "Secretary Conway",
         "Edward Conway",
-        "Sir Edward Conway"
+        "Sir Edward Conway",
+        "Edward Conwey",
+        "Sir Edward Conwey"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Edward Conwey"
+      ]
     },
     "Robert Naunton": {
       "aliases": [
@@ -811,9 +1107,18 @@
         "Johan Wolstenhohue",
         "John Wolstenholmes",
         "John Wostenholme",
-        "Thon Wolstenholme"
+        "Thon Wolstenholme",
+        "m* Wolstenholme",
+        "m’ Wolstenholme",
+        "M' Wolstenholme",
+        "m'* Wolstenholme",
+        "m'’ Wolstenholme",
+        "m'™ Wolstenholme"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Wolstenholme"
+      ]
     },
     "Matthew de Quester": {
       "aliases": [
@@ -872,9 +1177,14 @@
     "William Leveson": {
       "aliases": [
         "William Leveson",
-        "WILLIAM Leveson"
+        "WILLIAM Leveson",
+        "m* Lewson",
+        "m’* Lewson"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Lewson"
+      ]
     },
     "William Hall": {
       "aliases": [
@@ -915,12 +1225,17 @@
         "m'* John Delbridge",
         "Iohn Delbridge",
         "m* Iohn Delbridge",
-        "m’ Iohn Delbridge"
+        "m’ Iohn Delbridge",
+        "m’ Delbridge",
+        "m* Delbridge",
+        "m' Delbridge",
+        "m'* Delbridge"
       ],
       "source": "list_of_records",
       "basis": "Spelling variant.",
       "name_groups": [
-        "Iohn Delbridge"
+        "Iohn Delbridge",
+        "m’ Delbridge"
       ]
     },
     "Roger Dunster": {
@@ -1006,12 +1321,21 @@
         "Grorcr Sanpys",
         "Groner Saxpys",
         "G. Sandys",
-        "M* G. Sandys"
+        "M* G. Sandys",
+        "Geo: Sandys",
+        "m* Geo: Sandys",
+        "m’ Geo: Sandys",
+        "m' Geo: Sandys",
+        "Geo: Sandis",
+        "m' Geo: Sandis",
+        "M* Geo: Sandis"
       ],
       "source": "list_of_records",
       "basis": "Initialled form.",
       "name_groups": [
-        "G. Sandys"
+        "G. Sandys",
+        "Geo: Sandys",
+        "Geo: Sandis"
       ]
     },
     "Abraham Cartwright": {
@@ -1020,9 +1344,15 @@
         "Abraham Cartw",
         "Abraham Cartwright",
         "m' Abraham Cartwright",
-        "Abrahaino Cartwright"
+        "Abrahaino Cartwright",
+        "m’ Cartwright",
+        "m' Cartwright",
+        "m* Cartwright"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Cartwright"
+      ]
     },
     "Abraham Carpenter": {
       "aliases": [
@@ -1083,9 +1413,17 @@
         "M* Raphe Hamor",
         "Rare Hamer",
         "Rare Hamor",
-        "Ratew Hamour"
+        "Ratew Hamour",
+        "Captaine Hamor",
+        "Capt Hamor",
+        "Capt. Hamor"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Captaine Hamor",
+        "Capt Hamor",
+        "e Raph Hamor"
+      ]
     },
     "William Tucker": {
       "aliases": [
@@ -1124,24 +1462,42 @@
         "Wiltm Tuekar",
         "Capt Wiltm Tuekar",
         "Withn Tuekar",
-        "Capt Withn Tuekar"
+        "Capt Withn Tuekar",
+        "Richard Turner"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Richard Turner"
+      ]
     },
     "Walter Earle": {
       "aliases": [
-        "Walter Earle"
+        "Walter Earle",
+        "m’ Earle",
+        "m' Earle"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Earle"
+      ]
     },
     "Thomas Wroth": {
       "aliases": [
         "Thomas Wroth",
         "Sir Thomas Wroth",
         "m' Thomas Wroth",
-        "Thomas Wroths"
+        "Thomas Wroths",
+        "Tho: Wroth",
+        "S' Tho: Wroth",
+        "Tho Wroth",
+        "S* Tho Wroth",
+        "m' Tho: Wroth",
+        "S* Tho: Wroth"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Tho: Wroth"
+      ]
     },
     "John Wroth": {
       "aliases": [
@@ -1156,9 +1512,17 @@
         "Iohn Wroth",
         "m' Iohn Wroth",
         "m'* Iohn Wroth",
-        "m’ Iohn Wroth"
+        "m’ Iohn Wroth",
+        "Io: Wroth",
+        "m' Io: Wroth",
+        "m* Io: Wroth",
+        "m’ Io: Wroth",
+        "m'’ Io: Wroth"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Io: Wroth"
+      ]
     },
     "Dudley Digges": {
       "aliases": [
@@ -1183,9 +1547,20 @@
         "Edward Sackuill",
         "Edward Sackvill",
         "Edward Sackville",
-        "Sir Edward Sackville"
+        "Sir Edward Sackville",
+        "Edw: Sackuill",
+        "S' Edw: Sackuill",
+        "S* Edw: Sackuill",
+        "S’ Edw: Sackuill",
+        "Lord Sackville",
+        "St Edw: Sackuill"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Edw: Sackuill",
+        "Lord Sackville",
+        "St Edw: Sackuill"
+      ]
     },
     "Thomas Coventry": {
       "aliases": [
@@ -1225,12 +1600,22 @@
         "Richard Bull",
         "m' Richard Bull",
         "m’ Richard Bull",
-        "Ricardus Bull"
+        "Ricardus Bull",
+        "m’ Bull",
+        "m* Bull",
+        "m' Bull",
+        "m’* Bull",
+        "m™ Bull",
+        "Rich: Bull",
+        "m’ Rich: Bull",
+        "m' Rich: Bull"
       ],
       "source": "list_of_records",
       "basis": "Latin form.",
       "name_groups": [
-        "Ricardus Bull"
+        "Ricardus Bull",
+        "m’ Bull",
+        "Rich: Bull"
       ]
     },
     "Thomas Gibbs": {
@@ -1251,12 +1636,47 @@
         "m'* Gibbs",
         "m’* Gibbs",
         "m'’ Gibbs",
-        "m™ Gibbs"
+        "m™ Gibbs",
+        "m’ Gibbes",
+        "m' Gibbes",
+        "m'* Gibbes",
+        "m* Gibbes",
+        "m™ Gibbes",
+        "Tho: Gibbs",
+        "m' Tho: Gibbs",
+        "m’ Tho: Gibbs",
+        "Tho Gibbs",
+        "m’ Tho Gibbs",
+        "Tho: Gibbes",
+        "m' Tho: Gibbes",
+        "m’ Tho: Gibbes",
+        "Tho Gibbes",
+        "m* Tho: Gibbes",
+        "m'’ Tho: Gibbes",
+        "m' Tho Gibbes",
+        "m\" Tho Gibbes",
+        "m'* Gibbe",
+        "m’ Gibbe",
+        "m' Gibbe",
+        "Tho Gibbe",
+        "Tho: Gibbe",
+        "m' Tho: Gibbe",
+        "m’ Tho Gibbe",
+        "m™ THo: GIBBe",
+        "Edw: Gibbs",
+        "m' Edw: Gibbs",
+        "m'’ Edw: Gibbs"
       ],
       "source": "list_of_records",
       "basis": "Only Gibbs among Company members in the records.",
       "name_groups": [
-        "M' Gibbs"
+        "M' Gibbs",
+        "m’ Gibbes",
+        "Tho: Gibbs",
+        "Tho: Gibbes",
+        "m'* Gibbe",
+        "Tho Gibbe",
+        "Edw: Gibbs"
       ]
     },
     "William Newce": {
@@ -1316,13 +1736,17 @@
         "m* Casewell",
         "m'* Casewell",
         "m’* Casewell",
-        "m'’ Casewell"
+        "m'’ Casewell",
+        "m* Casswell",
+        "m'* Casswell",
+        "m' Casswell"
       ],
       "source": "list_of_records",
       "basis": "Only Caswell in the records.",
       "name_groups": [
         "M’ Caswell",
-        "M’ Casewell"
+        "M’ Casewell",
+        "m* Casswell"
       ]
     },
     "Arthur Ingram": {
@@ -1340,9 +1764,15 @@
         "m' Henry Briggs",
         "m’ Henry Briggs",
         "Henry Brigs",
-        "m’ Henry Brigs"
+        "m’ Henry Brigs",
+        "m’ Briggs",
+        "m' Briggs",
+        "m* Briggs"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Briggs"
+      ]
     },
     "Edward Bennett": {
       "aliases": [
@@ -1361,20 +1791,30 @@
         "m* Bennett",
         "m'* Bennett",
         "m’* Bennett",
-        "m\" Bennett"
+        "m\" Bennett",
+        "Ed: Bennett",
+        "m'\" Ed: Bennett",
+        "m' Ed: Bennett",
+        "Ed. Bennett",
+        "m'* Ed. Bennett"
       ],
       "source": "list_of_records",
       "basis": "Edward Bennett, merchant and planter.",
       "name_groups": [
-        "M’ Bennett"
+        "M’ Bennett",
+        "Ed: Bennett"
       ]
     },
     "William Webb": {
       "aliases": [
         "William Webb",
-        "m*’ William Webb"
+        "m*’ William Webb",
+        "Willelmus Webb"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Willelmus Webb"
+      ]
     },
     "Arthur Swayne": {
       "aliases": [
@@ -1386,9 +1826,22 @@
         "M' Arthur Swayne",
         "Master Arthur Swayne",
         "m* Arthur Swayne",
-        "m’* Arthur Swayne"
+        "m’* Arthur Swayne",
+        "m’ Swayne",
+        "m* Swayne",
+        "m’* Swayne",
+        "m'’ Swayne",
+        "M' Swayne",
+        "m’ Swaine",
+        "m' Swaine",
+        "m'’ Swaine",
+        "m’* Swaine"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Swayne",
+        "m’ Swaine"
+      ]
     },
     "Francis West": {
       "aliases": [
@@ -1422,9 +1875,17 @@
         "m' Morris Abbott",
         "m* Morris Abbott",
         "m*’ Morris Abbott",
-        "m’ Morris Abbott"
+        "m’ Morris Abbott",
+        "Morrice Abbott",
+        "m' Morrice Abbott",
+        "m’ Morrice Abbott",
+        "m* Morrice Abbott",
+        "m'* Morrice Abbott"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Morrice Abbott"
+      ]
     },
     "George Calvert": {
       "aliases": [
@@ -1460,25 +1921,58 @@
     },
     "Nicholas Tufton": {
       "aliases": [
-        "Nicholas Tufton"
+        "Nicholas Tufton",
+        "Nicho: Tufton",
+        "S’ Nicho: Tufton",
+        "S': Nicho: Tufton"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Nicho: Tufton"
+      ]
     },
     "Nicholas Leate": {
       "aliases": [
         "Nicholas Leate",
         "M' Nicholas Leate",
         "M*' Nicholas Leate",
-        "m* Nicholas Leate"
+        "m* Nicholas Leate",
+        "m* Leat",
+        "m’ Leat",
+        "m* Leate",
+        "M’ Leate",
+        "m’* Leate",
+        "m\" Leate"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Leat",
+        "m* Leate"
+      ]
     },
     "Richard Wiseman": {
       "aliases": [
         "Richard Wiseman",
-        "m’ Richard Wiseman"
+        "m’ Richard Wiseman",
+        "m* Wiseman",
+        "m’ Wiseman",
+        "m' Wiseman",
+        "m’* Wiseman",
+        "m'’ Wiseman",
+        "m™ Wiseman",
+        "m*’ Wiseman",
+        "m*™ Wiseman",
+        "Rich: Wiseman",
+        "m' Rich: Wiseman",
+        "m™ Rich: Wiseman",
+        "m’ Rich: Wiseman",
+        "m'’ Rich: Wiseman"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Wiseman",
+        "Rich: Wiseman"
+      ]
     },
     "Robert Heath": {
       "aliases": [
@@ -1497,16 +1991,36 @@
         "Sir Robert Killierue",
         "Robert Killigrew",
         "Robert Killigrewe",
-        "Sir Robert Killigrewe"
+        "Sir Robert Killigrewe",
+        "Ro: Killigrue",
+        "S' Ro: Killigrue",
+        "S’ Ro: Killigrue",
+        "Ro Killigrue",
+        "S' Ro Killigrue"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Ro: Killigrue"
+      ]
     },
     "Samuel Sandys": {
       "aliases": [
         "Samuel Sandys",
-        "Sir Samuel Sandys"
+        "Sir Samuel Sandys",
+        "Sam: Sandys",
+        "S' Sam: Sandys",
+        "S* Sam: Sandys",
+        "S’ Sam: Sandys",
+        "Samuell Sandys",
+        "S': Samuell Sandys",
+        "S* Samuell Sandys",
+        "S' Samuell Sandys"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Sam: Sandys",
+        "Samuell Sandys"
+      ]
     },
     "Thomas Keightley": {
       "aliases": [
@@ -1520,12 +2034,31 @@
         "M’ Keightley",
         "m* Keightley",
         "m'* Keightley",
-        "m\" Keightley"
+        "m\" Keightley",
+        "m’ Kightly",
+        "M' Kightly",
+        "m* Kightly",
+        "m'* Kightly",
+        "m’* Kightly",
+        "m* Kightley",
+        "m'* Kightley",
+        "M' Kightley",
+        "Tho: Keightley",
+        "m' Tho: Keightley",
+        "mr Tho: Keightley",
+        "Tho Keightley",
+        "m’ Tho Keightley",
+        "m’ Keightly",
+        "m' Keightly"
       ],
       "source": "list_of_records",
       "basis": "Only Keightley in the records.",
       "name_groups": [
-        "M' Keightley"
+        "M' Keightley",
+        "m’ Kightly",
+        "m* Kightley",
+        "Tho: Keightley",
+        "m’ Keightly"
       ]
     },
     "Henry Mildmay": {
@@ -1533,17 +2066,30 @@
         "Henry Mildemay",
         "Henry Mildmay",
         "Sir Henry Mildmay",
-        "Henry Mildmayes"
+        "Henry Mildmayes",
+        "Hen: Mildmay",
+        "S' Hen: Mildmay",
+        "S’ Hen: Mildmay",
+        "Hen Mildmay",
+        "S' Hen Mildmay"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Hen: Mildmay"
+      ]
     },
     "Thomas Styles": {
       "aliases": [
         "Thomas Styles",
         "Mr Thomas Styles",
-        "M’ Thomas Styles"
+        "M’ Thomas Styles",
+        "m’ Stiles",
+        "M' Stiles"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Stiles"
+      ]
     },
     "Ferdinando Gorges": {
       "aliases": [
@@ -1557,16 +2103,69 @@
     "Edward Ditchfield": {
       "aliases": [
         "Edward Ditchfield",
-        "m’ Edward Ditchfield"
+        "m’ Edward Ditchfield",
+        "m’ Ditchfeild",
+        "m' Ditchfeild",
+        "m* Ditchfeild",
+        "m’* Ditchfeild",
+        "m' Ditchfeilde",
+        "m’ Ditchfeilde",
+        "m’ Ditehfield",
+        "m' Ditehfield",
+        "Edw: Ditchfield",
+        "m’ Edw: Ditchfield",
+        "m* Edw: Ditchfield",
+        "m'* Ditchfield",
+        "m* Ditchfield",
+        "M’ Ditchfield"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Ditchfeild",
+        "m' Ditchfeilde",
+        "m’ Ditehfield",
+        "Edw: Ditchfield",
+        "m'* Ditchfield"
+      ]
     },
     "Richard Edwards": {
       "aliases": [
         "Richard Edwards",
-        "M' Richard Edwards"
+        "M' Richard Edwards",
+        "m’ Edwards",
+        "m* Edwards",
+        "m'* Edwards",
+        "m' Edwards",
+        "m’* Edwards",
+        "m'’ Edwards",
+        "m’ Edwarde",
+        "m* Edwarde",
+        "m' Edwarde",
+        "m'* Edwarde",
+        "m’* Edwarde",
+        "m* Edwardeé",
+        "m’ Edwardeé",
+        "m'* Edwardeé",
+        "m' Edwardeé",
+        "M' Edward",
+        "m* Edward",
+        "m\" Edward",
+        "m™ Edward",
+        "m' Edwardé",
+        "m’ Edwardé",
+        "m'* Edwardé",
+        "S' Edward",
+        "S* Edward"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Edwards",
+        "m’ Edwarde",
+        "m* Edwardeé",
+        "M' Edward",
+        "m' Edwardé",
+        "S' Edward"
+      ]
     },
     "John Dyke": {
       "aliases": [
@@ -1578,9 +2177,17 @@
       "aliases": [
         "Anthony Abdy",
         "m’ Anthony Abdy",
-        "Anthony Abdye"
+        "Anthony Abdye",
+        "m’ Abdy",
+        "m* Abdy",
+        "m™ Abdy",
+        "m*’ Abdy",
+        "m' Abdy"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Abdy"
+      ]
     },
     "William Palmer": {
       "aliases": [
@@ -1591,28 +2198,67 @@
     },
     "George Mole": {
       "aliases": [
-        "George Mole"
+        "George Mole",
+        "m’ Mole",
+        "m* Mole",
+        "m'* Mole"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Mole"
+      ]
     },
     "Richard Morer": {
       "aliases": [
-        "Richard Morer"
+        "Richard Morer",
+        "m* Moorer",
+        "m’ Moorer",
+        "m'’ Moorer",
+        "m'* Moorer",
+        "m’* Moorer",
+        "m' Moorer",
+        "m’ Moore",
+        "m'* Moore",
+        "m* Moore",
+        "m’* Moore",
+        "m* More",
+        "m’ More",
+        "m’* More",
+        "m' Morer",
+        "m'* Morer",
+        "m’ Morer",
+        "m’* Morer"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Moorer",
+        "m’ Moore",
+        "m* More",
+        "m' Morer"
+      ]
     },
     "Robert Bateman": {
       "aliases": [
         "Robert Bateman",
-        "M’ Robert Bateman"
+        "M’ Robert Bateman",
+        "m* Bateman",
+        "M' Bateman",
+        "m’ Bateman"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Bateman"
+      ]
     },
     "Martin Bond": {
       "aliases": [
-        "Martin Bond"
+        "Martin Bond",
+        "m’ Bond"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Bond"
+      ]
     },
     "Robert Johnson": {
       "aliases": [
@@ -1646,7 +2292,16 @@
         "Mr Aldran Johnson",
         "M* Aldran Johnson",
         "Robert \"Johnson",
-        "Sir Robert \"Johnson"
+        "Sir Robert \"Johnson",
+        "Aldfan Johnson",
+        "m*’ Aldfan Johnson",
+        "m’ Aldfan Johnson",
+        "m\" Aldfan Johnson",
+        "Alder Johnson",
+        "m’* Alder Johnson",
+        "m'’ Alder Johnson",
+        "Alder- man",
+        "m* Alder- man"
       ],
       "source": "list_of_records",
       "basis": "Alderman Robert Johnson, deputy treasurer under Sir Thomas Smythe.",
@@ -1655,7 +2310,10 @@
         "Alderman Johnson",
         "Aldfan Iohnson",
         "Alder Iohnson",
-        "Aldran Johnson"
+        "Aldran Johnson",
+        "Aldfan Johnson",
+        "Alder Johnson",
+        "Alder- man"
       ]
     },
     "John Bland": {
@@ -1670,22 +2328,45 @@
         "m* Bland",
         "m’* Bland",
         "m'* Bland",
-        "m'’ Bland"
+        "m'’ Bland",
+        "m' Blande",
+        "m* Blande",
+        "m’ Blande",
+        "m'* Blande",
+        "m'’ Blande",
+        "Cop- land",
+        "m* Cop- land",
+        "m\" Cop- land"
       ],
       "source": "list_of_records",
       "basis": "John Bland, merchant.",
       "name_groups": [
         "M’ Bland",
-        "Iohn Bland"
+        "Iohn Bland",
+        "m' Blande",
+        "Cop- land"
       ]
     },
     "John Hart": {
       "aliases": [
         "John Hart",
         "m' John Hart",
-        "John Harte"
+        "John Harte",
+        "m’ Hart",
+        "m* Hart",
+        "m' Hart",
+        "m” Hart",
+        "m’* Hart",
+        "m’ Harte",
+        "m* Harte",
+        "m’* Harte",
+        "m'* Harte"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Hart",
+        "m’ Harte"
+      ]
     },
     "Ambrose Wood": {
       "aliases": [
@@ -1716,9 +2397,15 @@
     "William Capps": {
       "aliases": [
         "William Capps",
-        "m’ William Capps"
+        "m’ William Capps",
+        "M* Capps",
+        "M’ Capps",
+        "m’* Capps"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "M* Capps"
+      ]
     },
     "Thomas Melling": {
       "aliases": [
@@ -1730,20 +2417,44 @@
         "m* Mellinge",
         "m’* Mellinge",
         "m'* Mellinge",
-        "m'’ Mellinge"
+        "m'’ Mellinge",
+        "m* Melling",
+        "m’ Melling",
+        "m'’ Melling",
+        "Tho: Mellinge",
+        "m' Tho: Mellinge",
+        "Tho Mellinge",
+        "m* Tho Mellinge"
       ],
       "source": "list_of_records",
       "basis": "Only Melling in the records.",
       "name_groups": [
-        "M’ Mellinge"
+        "M’ Mellinge",
+        "m* Melling",
+        "Tho: Mellinge"
       ]
     },
     "John Cuffe": {
       "aliases": [
         "John Cuff",
-        "John Cuffe"
+        "John Cuffe",
+        "m’ Cuffe",
+        "m' Cuffe",
+        "m* Cuffe",
+        "m'’ Cuffe",
+        "m'* Cuffe",
+        "m’* Cuffe",
+        "m’ Cuff",
+        "m' Cuff",
+        "m* Cuff",
+        "Johannes Cuffe"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Cuffe",
+        "m’ Cuff",
+        "Johannes Cuffe"
+      ]
     },
     "Thomas Harris": {
       "aliases": [
@@ -1778,9 +2489,29 @@
         "m' Robte Smith",
         "m’ Robte Smith",
         "Robt: Smith",
-        "m’ Robt: Smith"
+        "m’ Robt: Smith",
+        "Ro: Smith",
+        "m’ Ro: Smith",
+        "m* Ro: Smith",
+        "m' Ro: Smith",
+        "m’* Ro: Smith",
+        "Ro Smith",
+        "m'’ Ro: Smith",
+        "m\" Ro Smith",
+        "Rob‘ Smith",
+        "m’ Rob‘ Smith",
+        "Rob: Smith",
+        "m* Rob‘ Smith",
+        "m* Rob: Smith",
+        "m’ Rob: Smith",
+        "Rob’ Smith",
+        "m'* Rob’ Smith"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Ro: Smith",
+        "Rob‘ Smith"
+      ]
     },
     "Roger Smith": {
       "aliases": [
@@ -1852,12 +2583,22 @@
         "m' Sam: Wrote",
         "m™' Sam: Wrote",
         "m* Sam: Wrote",
-        "m'Sam: Wrote"
+        "m'Sam: Wrote",
+        "m’ Wrotes",
+        "m* Wrotes",
+        "m™ Wrotes",
+        "m’* Wrotes",
+        "m* Wrots",
+        "m’ Wrots",
+        "m' Wrots",
+        "m™ Wrots"
       ],
       "source": "list_of_records",
       "basis": "Mr Samuel Wrote of the 1623 Company disputes; no other Wrote in the records.",
       "name_groups": [
-        "M’ Wrote"
+        "M’ Wrote",
+        "m’ Wrotes",
+        "m* Wrots"
       ]
     },
     "John Pountis": {
@@ -1867,25 +2608,54 @@
         "John Pountis",
         "Mr. John Pountis",
         "John Pountus",
-        "M* John Pountus"
+        "M* John Pountus",
+        "m' Pountis",
+        "m* Pountis",
+        "m\" Pountis",
+        "m’ Pountis",
+        "m™ Pountis",
+        "M*' Pountis",
+        "m* Powntis",
+        "M' Powntis",
+        "m\" Powntis",
+        "m’ Pountus",
+        "m*’ Pountus"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m' Pountis",
+        "m* Powntis",
+        "m’ Pountus"
+      ]
     },
     "Robert Bell": {
       "aliases": [
         "Robert Bell",
         "M' Robert Bell",
-        "m* Robert Bell"
+        "m* Robert Bell",
+        "m’ Bell",
+        "m' Bell"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Bell"
+      ]
     },
     "William Wye": {
       "aliases": [
         "William Wye",
         "M* William Wye",
-        "Wiltm Wye"
+        "Wiltm Wye",
+        "m* Wye",
+        "m’ Wye",
+        "M' Wye",
+        "Willm Wye"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Wye",
+        "Willm Wye"
+      ]
     },
     "George Scott": {
       "aliases": [
@@ -1893,18 +2663,37 @@
         "m* George Scott",
         "m’ George Scott",
         "George Seott",
-        "Georgius Seott"
+        "Georgius Seott",
+        "m' Scott",
+        "m’ Scott",
+        "m* Scott",
+        "m\" Scott",
+        "M'* Scott",
+        "Georgius Scott",
+        "Geo: Scott",
+        "m' Geo: Scott",
+        "m* Geo: Scott",
+        "m’ Geo: Scott"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m' Scott",
+        "Georgius Scott",
+        "Geo: Scott"
+      ]
     },
     "Edward Brewster": {
       "aliases": [
         "Edward Brewster",
         "Captain Edward Brewster",
         "Captaine Edward Brewster",
-        "Edward Bruister"
+        "Edward Bruister",
+        "Captaine Brewster"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Captaine Brewster"
+      ]
     },
     "Daniel Tucker": {
       "aliases": [
@@ -1940,17 +2729,30 @@
         "George Chambers",
         "M’ George Chambers",
         "M’' George Chambers",
-        "m* George Chambers"
+        "m* George Chambers",
+        "Geo: Chambers",
+        "m* Geo: Chambers",
+        "m’ Geo: Chambers",
+        "m'’ Geo: Chambers",
+        "m' Geo: Chambers"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Geo: Chambers"
+      ]
     },
     "George Ruggle": {
       "aliases": [
         "George Ruggle",
         "m' George Ruggle",
-        "m* George Ruggle"
+        "m* George Ruggle",
+        "m’ Rugles",
+        "m* Rugles"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m’ Rugles"
+      ]
     },
     "Thomas Shipton": {
       "aliases": [
@@ -1975,9 +2777,17 @@
         "George Suiiers",
         "George Suitiers",
         "Georgio Summers",
-        "Georgius Summers"
+        "Georgius Summers",
+        "Mathewe Sumers",
+        "Geo: Sumers",
+        "S* Geo: Sumers",
+        "S’ Geo: Sumers"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Mathewe Sumers",
+        "Geo: Sumers"
+      ]
     },
     "John Harvey": {
       "aliases": [
@@ -1993,9 +2803,15 @@
         "John Harvy",
         "Joon Harvey",
         "Joun Harvey",
-        "Jouw Harvey"
+        "Jouw Harvey",
+        "Capt Haruey",
+        "John Harris"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Capt Haruey",
+        "John Harris"
+      ]
     },
     "Arthur Guy": {
       "aliases": [
@@ -2027,13 +2843,23 @@
         "m' Gabriell Barbor",
         "M* Barbor",
         "m’* Barbor",
-        "m'* Barbor"
+        "m'* Barbor",
+        "m’ Barbo",
+        "m' Barbo",
+        "m* Barbo",
+        "m’* Barbo",
+        "m'* Barbo",
+        "m\" Barbo",
+        "m'’ Barbo",
+        "Gabriell Barbo"
       ],
       "source": "list_of_records",
       "basis": "Gabriel Barbor/Barber, Company lottery manager.",
       "name_groups": [
         "M' Barbor",
-        "Gabriell Barbor"
+        "Gabriell Barbor",
+        "m’ Barbo",
+        "Gabriell Barbo"
       ]
     },
     "Thomas Roe": {
@@ -2045,23 +2871,61 @@
         "Thomas Roes",
         "Thomas Roe’s",
         "Sir Thomas Roe’s",
-        "Thome Rowe"
+        "Thome Rowe",
+        "Tho: Roe",
+        "S' Tho: Roe",
+        "S* Tho: Roe"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Tho: Roe"
+      ]
     },
     "William Ewens": {
       "aliases": [
         "Willelmus Ewens",
-        "William Ewens"
+        "William Ewens",
+        "m* Ewens",
+        "m' Ewens",
+        "m’ Ewens",
+        "m’* Ewens",
+        "m™ Ewens",
+        "m'* Ewens"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Ewens"
+      ]
     },
     "John Brooke": {
       "aliases": [
         "John Brooke",
-        "Sir John Brooke"
+        "Sir John Brooke",
+        "Io: Brooke",
+        "S' Io: Brooke",
+        "S* Io: Brooke",
+        "S’ Io: Brooke",
+        "Io Brooke",
+        "S' Io Brooke",
+        "S’ Io Brooke",
+        "m* Brooke",
+        "m\" Brooke",
+        "m'* Brooke",
+        "m’ Brooke",
+        "M' Brooke",
+        "m’* Brooke",
+        "m™ Brooke",
+        "Iohn Brooke",
+        "S* Iohn Brooke",
+        "S' Iohn Brooke",
+        "S’ Iohn Brooke"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "Io: Brooke",
+        "m* Brooke",
+        "Iohn Brooke"
+      ]
     },
     "Christopher Brooke": {
       "aliases": [
@@ -2100,9 +2964,17 @@
         "Abraham Pierce",
         "Master Abraham Pierce",
         "Abraham Piersey",
-        "Albraha Peirsey"
+        "Albraha Peirsey",
+        "m* Peirs",
+        "M’ Peirs",
+        "William Pierce",
+        "CAPTAIN WILLIAM PIERCE"
       ],
-      "source": "list_of_records"
+      "source": "list_of_records",
+      "name_groups": [
+        "m* Peirs",
+        "WILLIAM PIERCE"
+      ]
     },
     "Philip Carew": {
       "aliases": [
@@ -2230,12 +3102,15 @@
         "Owen Arthur",
         "m’ Owen Arthur",
         "m* Owen Arthur",
-        "m’* Owen Arthur"
+        "m’* Owen Arthur",
+        "S' Arthur",
+        "S’ Arthur"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Owen Arthur"
+        "Owen Arthur",
+        "S' Arthur"
       ]
     },
     "Robert Guyar": {
@@ -2251,22 +3126,45 @@
     "Thomas Wheatley": {
       "aliases": [
         "Thomas Wheatley",
-        "mr. Thomas Wheatley"
+        "mr. Thomas Wheatley",
+        "m* Wheatley",
+        "m’ Wheatley",
+        "m' Wheatley",
+        "m\" Wheatley",
+        "m'* Wheatley",
+        "m™ Wheatley",
+        "m’* Wheatley",
+        "m’ Wheatly",
+        "m* Wheatly",
+        "m' Wheatly",
+        "m’ Wheately",
+        "m* Wheately",
+        "m' Wheately",
+        "m' Wheate",
+        "m* Wheate"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Thomas Wheatley"
+        "Thomas Wheatley",
+        "m* Wheatley",
+        "m’ Wheatly",
+        "m’ Wheately",
+        "m' Wheate"
       ]
     },
     "Thomas Morris": {
       "aliases": [
-        "Thomas Morris"
+        "Thomas Morris",
+        "m’ Morris",
+        "m* Morris",
+        "m'* Morris"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Thomas Morris"
+        "Thomas Morris",
+        "m’ Morris"
       ]
     },
     "Richard Smyth": {
@@ -2315,34 +3213,61 @@
         "Edward Ryder",
         "m* Edward Ryder",
         "m’ Edward Ryder",
-        "Edwardus Ryder"
+        "Edwardus Ryder",
+        "m’ Rider",
+        "m* Rider",
+        "m’* Rider",
+        "m' Rider",
+        "m\" Rider",
+        "m'* Rider",
+        "m’ Ryder",
+        "m' Ryder",
+        "m* Ryder",
+        "m’* Ryder"
       ],
       "source": "curated",
       "basis": "English and Latin forms.",
       "name_groups": [
         "Edward Ryder",
-        "Edwardus Ryder"
+        "Edwardus Ryder",
+        "m’ Rider",
+        "m’ Ryder"
       ]
     },
     "William Browne": {
       "aliases": [
         "William Browne",
-        "Sir William Browne"
+        "Sir William Browne",
+        "Doctor Bohune",
+        "m* Browne",
+        "m'’ Browne",
+        "M’* Browne",
+        "m’ Browne",
+        "M' Browne"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "William Browne"
+        "William Browne",
+        "Doctor Bohune",
+        "m* Browne"
       ]
     },
     "John Langley": {
       "aliases": [
-        "John Langley"
+        "John Langley",
+        "m* Langley",
+        "m' Langley",
+        "m' Langly",
+        "m’ Langly",
+        "M* Langly"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "John Langley"
+        "John Langley",
+        "m* Langley",
+        "m' Langly"
       ]
     },
     "Thomas White": {
@@ -2404,12 +3329,19 @@
     },
     "John Dennis": {
       "aliases": [
-        "John Dennis"
+        "John Dennis",
+        "m* Dennis",
+        "m' Dennis",
+        "m’ Dennis",
+        "m”* Dennis",
+        "mt Dennis"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "John Dennis"
+        "John Dennis",
+        "m* Dennis",
+        "mt Dennis"
       ]
     },
     "Patrick Copland": {
@@ -2422,7 +3354,11 @@
         "M. Patrick",
         "m* Copland",
         "m’* Copland",
-        "m'* Copland"
+        "m'* Copland",
+        "m'* Copeland",
+        "m* Copeland",
+        "m’ Copeland",
+        "m’* Copeland"
       ],
       "source": "curated",
       "basis": "East India Company chaplain who raised funds for the East India School; only Copland in the records.",
@@ -2430,20 +3366,28 @@
         "Patrick Copeland",
         "Patrick Copland",
         "M’ Copland",
-        "M. Patrick"
+        "M. Patrick",
+        "m'* Copeland"
       ]
     },
     "Gilbert Morewood": {
       "aliases": [
         "Gilbert Morewood",
         "m' Gilbert Morewood",
-        "Gilbertus Morewood"
+        "Gilbertus Morewood",
+        "m’ Morewood",
+        "m* Morewood",
+        "m’* Morewood",
+        "m' Morewood",
+        "m\"™ Morewood",
+        "m\" Morewood"
       ],
       "source": "curated",
       "basis": "English and Latin forms.",
       "name_groups": [
         "Gilbert Morewood",
-        "Gilbertus Morewood"
+        "Gilbertus Morewood",
+        "m’ Morewood"
       ]
     },
     "James Carter": {
@@ -2458,23 +3402,34 @@
     },
     "Edward Barnes": {
       "aliases": [
-        "Edward Barnes"
+        "Edward Barnes",
+        "m* Baron",
+        "m' Baron",
+        "m’* Baron",
+        "m’ Baron",
+        "m' Barron",
+        "m’ Barron",
+        "m\" Barron"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Edward Barnes"
+        "Edward Barnes",
+        "m* Baron",
+        "m' Barron"
       ]
     },
     "Thomas Davis": {
       "aliases": [
         "Thomas Davis",
-        "Mr. Thomas Davis"
+        "Mr. Thomas Davis",
+        "Walter Dauies"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Thomas Davis"
+        "Thomas Davis",
+        "Walter Dauies"
       ]
     },
     "Richard Godfry": {
@@ -2511,34 +3466,66 @@
     },
     "John Kirrell": {
       "aliases": [
-        "John Kirrell"
+        "John Kirrell",
+        "m’ Kirrell"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "John Kirrell"
+        "John Kirrell",
+        "m’ Kirrell"
       ]
     },
     "George Swinhowe": {
       "aliases": [
         "George Swinhowe",
         "m* George Swinhowe",
-        "M' George Swinhowe"
+        "M' George Swinhowe",
+        "m’ Swinhoe",
+        "m' Swinhoe",
+        "m* Swinhoe",
+        "m’ Swinhow",
+        "m* Swinhow",
+        "m'* Swinhow",
+        "m' Swinhow",
+        "m’* Swinhow",
+        "m'’ Swinhow",
+        "m* Swinhowe",
+        "m’* Swinhowe",
+        "m’ Swinhowe",
+        "m'* Swinhowe",
+        "Georgius Swinhowe",
+        "doctor, Georgius Swinhowe"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "George Swinhowe"
+        "George Swinhowe",
+        "m’ Swinhoe",
+        "m’ Swinhow",
+        "m* Swinhowe",
+        "Georgius Swinhowe"
       ]
     },
     "Edward Lawley": {
       "aliases": [
-        "Edward Lawley"
+        "Edward Lawley",
+        "Edw: Lawly",
+        "S' Edw: Lawly",
+        "S': Edw: Lawly",
+        "S’ Edw: Lawly",
+        "Edward Lawly",
+        "S' Edward Lawly",
+        "Edw: Lawley",
+        "S' Edw: Lawley"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Edward Lawley"
+        "Edward Lawley",
+        "Edw: Lawly",
+        "Edward Lawly",
+        "Edw: Lawley"
       ]
     },
     "Christopher Lawne": {
@@ -2600,12 +3587,15 @@
     "Robert Barker": {
       "aliases": [
         "Robert Barker",
-        "m'’ Robert Barker"
+        "m'’ Robert Barker",
+        "m’ Parker",
+        "m* Parker"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Robert Barker"
+        "Robert Barker",
+        "m’ Parker"
       ]
     },
     "Edward Waterhouse": {
@@ -2617,13 +3607,55 @@
         "M' Waterhowse",
         "m* Waterhowse",
         "m’* Waterhowse",
-        "m*’ Waterhowse"
+        "m*’ Waterhowse",
+        "Edw: Waterhowse",
+        "m' Edw: Waterhowse",
+        "m’ Edw: Waterhowse",
+        "Edw Waterhowse",
+        "m’ Edw Waterhowse",
+        "Tho: Waterhowse",
+        "Tho Waterhowse",
+        "m' Tho: Waterhowse",
+        "m' Tho Waterhowse",
+        "m’ Tho: Waterhowse",
+        "m’ Tho Waterhowse",
+        "m* Tho Waterhowse",
+        "m'’ Tho: Waterhowse",
+        "m* Waterhouse",
+        "m’ Waterhouse",
+        "m*™ Waterhouse",
+        "m*’ Waterhouse",
+        "M'* Waterhouse",
+        "m’* Waterhouse",
+        "Edw: Waterhouse",
+        "m’ Edw: Waterhouse",
+        "m'’ Edw: Waterhouse",
+        "m' Edw: Waterhouse",
+        "ffran: Waterhowse",
+        "m’ ffran: Waterhowse",
+        "m' ffran: Waterhowse",
+        "ffra Waterhouse",
+        "m' ffra Waterhouse",
+        "ffra: Waterhouse",
+        "m’ ffra: Waterhouse",
+        "ffra. Waterhouse",
+        "m' ffra. Waterhouse",
+        "Tho: Waterhouse",
+        "m' Tho: Waterhouse",
+        "m’ Tho: Waterhouse"
       ],
       "source": "curated",
       "basis": "Company secretary, author of the 1622 massacre Declaration.",
       "name_groups": [
         "Edward Waterhouse",
-        "M’ Waterhowse"
+        "M’ Waterhowse",
+        "Edw: Waterhowse",
+        "Tho: Waterhowse",
+        "m* Waterhouse",
+        "Edw: Waterhouse",
+        "ffran: Waterhowse",
+        "ffra Waterhouse",
+        "Tho: Waterhouse"
       ],
       "skip_aliases": [
         "Sir Edward Waterhouse"
@@ -2633,12 +3665,17 @@
       "aliases": [
         "Edward Hurd",
         "m’ Edward Hurd",
-        "m* Edward Hurd"
+        "m* Edward Hurd",
+        "m’ Hurd",
+        "m* Hurd",
+        "m’* Hurd",
+        "m' Hurd"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Edward Hurd"
+        "Edward Hurd",
+        "m’ Hurd"
       ]
     },
     "Henry Peyton": {
@@ -2791,22 +3828,41 @@
     },
     "Thomas Shepheard": {
       "aliases": [
-        "Thomas Shepheard"
+        "Thomas Shepheard",
+        "m’* Shepherd",
+        "m* Shepherd",
+        "m'* Shepherd",
+        "m' Shepherd"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Thomas Shepheard"
+        "Thomas Shepheard",
+        "m’* Shepherd"
       ]
     },
     "Edward Hackett": {
       "aliases": [
-        "Edward Hackett"
+        "Edward Hackett",
+        "m* Hackett",
+        "m’ Hackett",
+        "m' Hackett",
+        "m’* Hackett",
+        "m'\" Hackett",
+        "m'’ Hackett",
+        "m'* Hackett",
+        "m* Hacket",
+        "m’* Hacket",
+        "m\" Hacket",
+        "m'* Hacket",
+        "m’ Hacket"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Edward Hackett"
+        "Edward Hackett",
+        "m* Hackett",
+        "m* Hacket"
       ]
     },
     "Edward Cecil": {
@@ -2827,34 +3883,72 @@
     },
     "Augustine Steward": {
       "aliases": [
-        "Augustine Steward"
+        "Augustine Steward",
+        "m’ Steward",
+        "m' Steward",
+        "m* Steward",
+        "m'’ Steward",
+        "m'* Steward",
+        "m’* Steward",
+        "m’ Seaward",
+        "m'* Seaward",
+        "m* Seaward",
+        "m' Seaward",
+        "m'’ Seaward",
+        "m’ Stewarde",
+        "m* Stewarde",
+        "m'* Stewarde"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Augustine Steward"
+        "Augustine Steward",
+        "m’ Steward",
+        "m’ Seaward",
+        "m’ Stewarde"
       ]
     },
     "Stephen Sparrow": {
       "aliases": [
         "Stephen Sparrow",
-        "M’ Stephen Sparrow"
+        "M’ Stephen Sparrow",
+        "m’ Sparrowe",
+        "m* Sparrowe",
+        "m' Sparrowe",
+        "m’* Sparrowe",
+        "m'* Sparrowe",
+        "m™ Sparrowe",
+        "m'* Sparrow",
+        "m* Sparrow",
+        "m’* Sparrow",
+        "m’ Sparrow",
+        "M' Sparrow"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Stephen Sparrow"
+        "Stephen Sparrow",
+        "m’ Sparrowe",
+        "m'* Sparrow"
       ]
     },
     "Peter Arundell": {
       "aliases": [
         "Peter Arundell",
-        "m’ Peter Arundell"
+        "m’ Peter Arundell",
+        "m’ Arundell",
+        "m' Arundell",
+        "m* Arundell",
+        "m’ Arundle",
+        "m* Arundle",
+        "m' Arundle"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Peter Arundell"
+        "Peter Arundell",
+        "m’ Arundell",
+        "m’ Arundle"
       ]
     },
     "Robert Mansell": {
@@ -2885,13 +3979,25 @@
         "Nicholas Hide",
         "Nicolas Hydes",
         "M* Nicolas Hydes",
-        "M' Nicolas Hydes"
+        "M' Nicolas Hydes",
+        "Nicho: Hide",
+        "m™ Nicho: Hide",
+        "m' Nicho: Hide",
+        "Nich: Hide",
+        "m’ Nich: Hide",
+        "m' Nich: Hide",
+        "m'’ Nich: Hide",
+        "Nicolas Hyde",
+        "M’ Nicolas Hyde"
       ],
       "source": "curated",
       "basis": "Nicholas Hyde, lawyer (later Lord Chief Justice).",
       "name_groups": [
         "Nicholas Hide",
-        "Nicolas Hydes"
+        "Nicolas Hydes",
+        "Nicho: Hide",
+        "Nich: Hide",
+        "Nicolas Hyde"
       ]
     },
     "John Zouch": {
@@ -3018,12 +4124,24 @@
       "aliases": [
         "John Procter",
         "Iohn Procter",
-        "m* Iohn Procter"
+        "m* Iohn Procter",
+        "m’ Procter",
+        "m' Procter",
+        "m* Procter",
+        "m'* Procter",
+        "m’* Procter",
+        "m*™ Procter",
+        "m*' Procter",
+        "m’ Proctor",
+        "m' Proctor",
+        "m* Proctor"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Iohn Procter"
+        "Iohn Procter",
+        "m’ Procter",
+        "m’ Proctor"
       ]
     },
     "John Burgh": {
@@ -3078,13 +4196,15 @@
         "Mathew Somers",
         "Captaine Mathew Somers",
         "Capt Mathew Somers",
-        "Captain Mathew Somers"
+        "Captain Mathew Somers",
+        "Mathew Sumers"
       ],
       "source": "curated",
       "basis": "Nephew and heir of Sir George Somers; distinct person.",
       "name_groups": [
         "Mathew Summers",
-        "Mathew Somers"
+        "Mathew Somers",
+        "Mathew Sumers"
       ]
     },
     "Edward Barkley": {
@@ -3099,12 +4219,19 @@
     },
     "John Eldred": {
       "aliases": [
-        "John Eldred"
+        "John Eldred",
+        "m’ Eldred",
+        "m' Eldred",
+        "m'* Eldred",
+        "m’* Eldred",
+        "Walter Eldred"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "John Eldred"
+        "John Eldred",
+        "m’ Eldred",
+        "Walter Eldred"
       ]
     },
     "Richard Partridge": {
@@ -3172,12 +4299,20 @@
     },
     "George Robins": {
       "aliases": [
-        "George Robins"
+        "George Robins",
+        "m’ Robins",
+        "m'\" Robins",
+        "m' Robins",
+        "m’ Robbins",
+        "m' Robbins",
+        "m* Robbins"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "George Robins"
+        "George Robins",
+        "m’ Robins",
+        "m’ Robbins"
       ]
     },
     "Thomas Kemis": {
@@ -3208,12 +4343,21 @@
         "Cap’ Maddison",
         "Cap*: Maddison",
         "Cap: Maddison",
-        "Cap. Maddison"
+        "Cap. Maddison",
+        "m* Addison",
+        "m’ Addison",
+        "m’* Addison",
+        "m'* Addison",
+        "Tho: Addison",
+        "m’ Tho: Addison",
+        "m'’ Tho: Addison"
       ],
       "source": "curated",
       "basis": "Captain Isaac Madison; commanded expeditions to the Potomac (e.g. 'Cap: Maddison sent vnto him with 30 English', 1622).",
       "name_groups": [
-        "Isack Maddison"
+        "Isack Maddison",
+        "m* Addison",
+        "Tho: Addison"
       ],
       "extra_aliases": [
         "Captaine Maddison",
@@ -3244,13 +4388,42 @@
     "Richard Tomlins": {
       "aliases": [
         "Richard Tomlins",
-        "Richard Tomlyns"
+        "Richard Tomlyns",
+        "m’ Tomlins",
+        "m' Tomlins",
+        "m* Tomlins",
+        "m’* Tomlins",
+        "m'’ Tomlins",
+        "m'* Tomlins",
+        "m™ Tomlins",
+        "m’ Tomlyns",
+        "m* Tomlyns",
+        "m' Tomlyns",
+        "m'* Tomlyns",
+        "m' Tomlyné",
+        "m’ Tomlyné",
+        "m* Tomlyné",
+        "m'* Tomlyné",
+        "m'’ Tomlyné",
+        "m* Tomkins",
+        "m’ Tomkins",
+        "Rich: Tomlins",
+        "m* Rich: Tomlins",
+        "m' Rich: Tomlins",
+        "m’ Rich: Tomlins",
+        "Ricardus Tomlyns"
       ],
       "source": "curated",
       "basis": "Spelling variants.",
       "name_groups": [
         "Richard Tomlyns",
-        "Richard Tomlins"
+        "Richard Tomlins",
+        "m’ Tomlins",
+        "m’ Tomlyns",
+        "m' Tomlyné",
+        "m* Tomkins",
+        "Rich: Tomlins",
+        "Ricardus Tomlyns"
       ]
     },
     "Edward Harwood": {
@@ -3277,12 +4450,16 @@
     "James Swifte": {
       "aliases": [
         "James Swifte",
-        "m* James Swifte"
+        "m* James Swifte",
+        "m' Swifte",
+        "m’ Swifte",
+        "m'* Swifte"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "James Swifte"
+        "James Swifte",
+        "m' Swifte"
       ]
     },
     "John Archer": {
@@ -3406,12 +4583,21 @@
     },
     "Richard Bulkley": {
       "aliases": [
-        "Richard Bulkley"
+        "Richard Bulkley",
+        "Richard Bulkly",
+        "S' Richard Bulkly",
+        "S'* Richard Bulkly",
+        "Tho: Bulkly",
+        "m’ Tho: Bulkly",
+        "m' Tho: Bulkly",
+        "Mr Tho: Bulkly"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Richard Bulkley"
+        "Richard Bulkley",
+        "Richard Bulkly",
+        "Tho: Bulkly"
       ]
     },
     "Christopher Davison": {
@@ -3491,12 +4677,16 @@
     "Edward Palmer": {
       "aliases": [
         "Edward Palmer",
-        "m' Edward Palmer"
+        "m' Edward Palmer",
+        "Edw: Palmer",
+        "m' Edw: Palmer",
+        "m’ Edw: Palmer"
       ],
       "source": "curated",
       "basis": "Distinct from William Palmer.",
       "name_groups": [
-        "Edward Palmer"
+        "Edward Palmer",
+        "Edw: Palmer"
       ]
     },
     "Arthur Leuellis": {
@@ -3782,12 +4972,16 @@
     "Francis Leigh": {
       "aliases": [
         "Francis Leigh",
-        "Sir Francis Leigh"
+        "Sir Francis Leigh",
+        "m* Leigh",
+        "m' Leigh",
+        "m’ Leigh"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Francis Leigh"
+        "Francis Leigh",
+        "m* Leigh"
       ]
     },
     "Peter Latham": {
@@ -3824,12 +5018,15 @@
     "Henry Nevill": {
       "aliases": [
         "Henry Nevill",
-        "Sir Henry Nevill"
+        "Sir Henry Nevill",
+        "m’* Neuill",
+        "m' Neuill"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Henry Nevill"
+        "Henry Nevill",
+        "m’* Neuill"
       ]
     },
     "Henry Price": {
@@ -3854,12 +5051,17 @@
     },
     "John Russell": {
       "aliases": [
-        "John Russell"
+        "John Russell",
+        "m* Russell",
+        "m’ Russell",
+        "m' Russell",
+        "m’* Russell"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "John Russell"
+        "John Russell",
+        "m* Russell"
       ]
     },
     "Robert Robinson": {
@@ -3956,12 +5158,23 @@
     "John Taylor": {
       "aliases": [
         "John Taylor",
-        "Tohn Taylor"
+        "Tohn Taylor",
+        "m’ Taylo",
+        "m’* Taylo",
+        "m™ Taylo",
+        "m'* Taylor",
+        "m’ Taylor",
+        "m' Taylor",
+        "m’* Taylor",
+        "Iohn Taylor"
       ],
       "source": "curated",
       "basis": "OCR T for J.",
       "name_groups": [
-        "Tohn Taylor"
+        "Tohn Taylor",
+        "m’ Taylo",
+        "m'* Taylor",
+        "Iohn Taylor"
       ]
     },
     "Miles Bankes": {
@@ -4003,12 +5216,24 @@
     "Thomas Lever": {
       "aliases": [
         "Thomas Lever",
-        "Thomas Leuer"
+        "Thomas Leuer",
+        "m* Leuer",
+        "m’ Leuer",
+        "m’* Leuer",
+        "m' Leuer",
+        "m™ Leuer",
+        "m'* Leauer",
+        "m* Leauer",
+        "m' Leauer",
+        "m'’ Leauer",
+        "m’ Leauer"
       ],
       "source": "curated",
       "basis": "u/v spelling standardized.",
       "name_groups": [
-        "Thomas Leuer"
+        "Thomas Leuer",
+        "m* Leuer",
+        "m'* Leauer"
       ]
     },
     "Arthur Mouse": {
@@ -4105,12 +5330,21 @@
     },
     "Elizabeth Webbe": {
       "aliases": [
-        "Elizabeth Webbe"
+        "Elizabeth Webbe",
+        "m* Webbe",
+        "m’ Webbe",
+        "m™ Webbe",
+        "m' Webbe",
+        "m’* Webbe",
+        "m\"™ Webbe",
+        "m\" Webbe",
+        "m*\" Webbe"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "Elizabeth Webbe"
+        "Elizabeth Webbe",
+        "m* Webbe"
       ]
     },
     "Richard Holland": {
@@ -4177,12 +5411,17 @@
       "aliases": [
         "Jabez Whitaker",
         "Liuetennt Whittakers",
-        "Lieutenant Whitaker"
+        "Lieutenant Whitaker",
+        "M' Whittakers",
+        "M* Whittakers",
+        "m’ Whittakers",
+        "M*' Whittakers"
       ],
       "source": "curated",
       "basis": "Lieutenant Jabez Whitaker, commander at Kecoughtan.",
       "name_groups": [
-        "Liuetennt Whittakers"
+        "Liuetennt Whittakers",
+        "M' Whittakers"
       ],
       "extra_aliases": [
         "Lieutenant Whitaker"
@@ -4211,12 +5450,17 @@
     "Richard Weston": {
       "aliases": [
         "Richard Weston",
-        "Sir Richard Weston"
+        "Sir Richard Weston",
+        "Garrett Weston",
+        "M’' Garrett Weston",
+        "m* Garrett Weston",
+        "m’ Garrett Weston"
       ],
       "source": "curated",
       "basis": "Sir Richard Weston, Chancellor of the Exchequer.",
       "name_groups": [
-        "Richard Weston"
+        "Richard Weston",
+        "Garrett Weston"
       ]
     },
     "John Huddleston": {
@@ -4293,12 +5537,17 @@
       "aliases": [
         "William Douglas",
         "M' William Douglas",
-        "M* William Douglas"
+        "M* William Douglas",
+        "m™ Douglas",
+        "m* Douglas",
+        "M' Douglas",
+        "m\" Douglas"
       ],
       "source": "curated",
       "basis": "As on the sheet.",
       "name_groups": [
-        "William Douglas"
+        "William Douglas",
+        "m™ Douglas"
       ]
     },
     "Gilbert Peppett": {
@@ -4345,25 +5594,41 @@
     "William Nicholls": {
       "aliases": [
         "William Nicholls",
-        "Willelmus Nicholls"
+        "Willelmus Nicholls",
+        "m’ Nicholls",
+        "m* Nicholls",
+        "m’* Nicholls",
+        "m' Nicholls",
+        "m’ Nicholas",
+        "m* Nicholas",
+        "M' Nicholas",
+        "m’ Nichollé",
+        "m' Nichollé"
       ],
       "source": "curated",
       "basis": "English and Latin forms.",
       "name_groups": [
         "William Nicholls",
-        "Willelmus Nicholls"
+        "Willelmus Nicholls",
+        "m’ Nicholls",
+        "m’ Nicholas",
+        "m’ Nichollé"
       ]
     },
     "Edmund Morgan": {
       "aliases": [
         "Edmund Morgan",
-        "Edmundus Morgan"
+        "Edmundus Morgan",
+        "m’ Morgan",
+        "m™ Morgan",
+        "M' Morgan"
       ],
       "source": "curated",
       "basis": "English and Latin forms.",
       "name_groups": [
         "Edmund Morgan",
-        "Edmundus Morgan"
+        "Edmundus Morgan",
+        "m’ Morgan"
       ]
     },
     "John Johnson": {
@@ -4407,6 +5672,1833 @@
       "basis": "As on the sheet.",
       "name_groups": [
         "William Pitt"
+      ]
+    },
+    "Francis Meuerell": {
+      "aliases": [
+        "Francis Meuerell",
+        "m* Meuerell",
+        "m’ Meuerell",
+        "m' Meuerell",
+        "m’* Meuerell",
+        "m'* Meuerell",
+        "m\" Meuerell",
+        "m'’ Meuerell",
+        "m*' Meuerell",
+        "m* Meverell",
+        "m'’ Meverell",
+        "m’ Meverell",
+        "m* Meuerall",
+        "m' Meuerall"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Meuerell': not in the dictionary; named in full as 'Fra: Meuerell' 2 times",
+      "name_groups": [
+        "m* Meuerell",
+        "m* Meverell",
+        "m* Meuerall"
+      ]
+    },
+    "Richard Berblock": {
+      "aliases": [
+        "Richard Berblock",
+        "m’ Berblock",
+        "m* Berblock",
+        "m' Berblock",
+        "m’* Berblock",
+        "m'’ Berblock",
+        "m'* Berblock",
+        "m’ Bearblock",
+        "m* Bearblock",
+        "m' Bearblock",
+        "m'’ Bearblock",
+        "m'* Bearblock",
+        "m’* Bearblock"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Berblock': not in the dictionary; named in full as 'Rich: Berblock' 2 times",
+      "name_groups": [
+        "m’ Berblock",
+        "m’ Bearblock"
+      ]
+    },
+    "Richard Widowes": {
+      "aliases": [
+        "Richard Widowes",
+        "m’ Widdowes",
+        "m* Widdowes",
+        "m' Widdowes",
+        "m™ Widdowes",
+        "m’* Widdowes",
+        "m'’ Widdowes",
+        "m\" Widdowes",
+        "m'* Widdowes",
+        "m’ Wyddowes"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Widdowes': not in the dictionary; named in full as 'Richard Widowes' 1 time",
+      "name_groups": [
+        "m’ Widdowes",
+        "m’ Wyddowes"
+      ]
+    },
+    "Richard Rogers": {
+      "aliases": [
+        "Richard Rogers",
+        "m’ Rogers",
+        "m* Rogers",
+        "m' Rogers",
+        "m'* Rogers",
+        "m'’ Rogers",
+        "m\" Rogers",
+        "m’* Rogers",
+        "Rich: Rogers",
+        "m* Rich: Rogers",
+        "m' Rich: Rogers",
+        "m’ Rich: Rogers"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Rogers': not in the dictionary; named in full as 'Rich: Rogers' 8 times",
+      "name_groups": [
+        "m’ Rogers",
+        "Rich: Rogers"
+      ]
+    },
+    "Thomas Couell": {
+      "aliases": [
+        "Thomas Couell",
+        "m* Couell",
+        "m’ Couell",
+        "m' Couell",
+        "m'* Couell",
+        "m’* Couell"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Couell': not in the dictionary; named in full as 'Tho: Couell' 2 times",
+      "name_groups": [
+        "m* Couell"
+      ]
+    },
+    "John Baynham": {
+      "aliases": [
+        "John Baynham",
+        "m* Baynham",
+        "m’ Baynham",
+        "m' Baynham",
+        "m’* Baynham"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Baynham': not in the dictionary; named in full as 'John Baynham' 4 times",
+      "name_groups": [
+        "m* Baynham"
+      ]
+    },
+    "Richard Ley": {
+      "aliases": [
+        "Richard Ley",
+        "m’ Ley",
+        "m* Ley",
+        "m'* Ley",
+        "m' Ley",
+        "m’* Ley",
+        "m\"* Ley",
+        "m\" Ley"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Ley': not in the dictionary; named in full as 'Ricardo Ley' 2 times",
+      "name_groups": [
+        "m’ Ley"
+      ]
+    },
+    "Thomas Sheppard": {
+      "aliases": [
+        "Thomas Sheppard",
+        "m’ Sheppard",
+        "m* Sheppard",
+        "m' Sheppard",
+        "m'* Sheppard",
+        "m’* Sheppard",
+        "m’ Shippard",
+        "m* Shippard",
+        "m' Shippard",
+        "m\" Shippard",
+        "m'* Shippard",
+        "Tho: Shippard",
+        "Tho Shippard",
+        "m’ Tho Shippard",
+        "m'’ Tho: Shippard",
+        "m’ Tho: Shippard",
+        "m* Tho: Shippard",
+        "m' Tho: Shippard",
+        "Tho: Sheppard",
+        "m’ Tho: Sheppard",
+        "m' Tho: Sheppard",
+        "m' Shepparde",
+        "m’ Shepparde",
+        "m'* Shepparde"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Sheppard': not in the dictionary; named in full as 'Tho: Sheppard' 12 times",
+      "name_groups": [
+        "m’ Sheppard",
+        "m’ Shippard",
+        "Tho: Shippard",
+        "Tho: Sheppard",
+        "m' Shepparde"
+      ]
+    },
+    "Cutbert Essington": {
+      "aliases": [
+        "Cutbert Essington",
+        "m* Essington",
+        "m’ Essington",
+        "m' Essington",
+        "m\" Essington",
+        "m’* Essington",
+        "m*™ Essington"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Essington': not in the dictionary; named in full as 'Cutbert Essington' 1 time",
+      "name_groups": [
+        "m* Essington"
+      ]
+    },
+    "James Berbloke": {
+      "aliases": [
+        "James Berbloke",
+        "m’ Berblocke",
+        "m' Berblocke",
+        "m* Berblocke",
+        "m'’ Berblocke"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Berblocke': not in the dictionary; named in full as 'James Berbloke' 1 time",
+      "name_groups": [
+        "m’ Berblocke"
+      ]
+    },
+    "Daniel Darnelly": {
+      "aliases": [
+        "Daniel Darnelly",
+        "m’ Darnelly",
+        "m* Darnelly",
+        "m'’ Darnelly",
+        "m'* Darnelly",
+        "m' Darnelly",
+        "m’* Darnelly",
+        "Daniell Darnelly",
+        "m' Daniell Darnelly"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Darnelly': not in the dictionary; named in full as 'Daniell Darnelly' 7 times",
+      "name_groups": [
+        "m’ Darnelly",
+        "Daniell Darnelly"
+      ]
+    },
+    "Thomas Ayres": {
+      "aliases": [
+        "Thomas Ayres",
+        "m’ Ayres",
+        "m* Ayres",
+        "m’* Ayres",
+        "m™ Ayres",
+        "m'’ Ayres",
+        "m\" Ayres"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Ayres': not in the dictionary; named in full as 'Thomas Ayres' 2 times",
+      "name_groups": [
+        "m’ Ayres"
+      ]
+    },
+    "William Felgate": {
+      "aliases": [
+        "William Felgate",
+        "m’ ffelgate",
+        "M' ffelgate",
+        "m’' ffelgate"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ ffelgate': not in the dictionary; named in full as 'William ffelgate' 2 times",
+      "name_groups": [
+        "m’ ffelgate"
+      ]
+    },
+    "Edward Herbert": {
+      "aliases": [
+        "Edward Herbert",
+        "m’ Herbert",
+        "m* Herbert",
+        "m' Herbert",
+        "m'* Herbert",
+        "M\" Herbert",
+        "m’™ Herbert",
+        "m* Harbert",
+        "m’ Harbert",
+        "m' Harbert",
+        "m'* Harbert"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Herbert': not in the dictionary; named in full as 'Edward Herbert' 4 times",
+      "name_groups": [
+        "m’ Herbert",
+        "m* Harbert"
+      ]
+    },
+    "Edward Kirby": {
+      "aliases": [
+        "Edward Kirby",
+        "m’ Kirby",
+        "m’* Kirby",
+        "m'* Kirby",
+        "m* Kirby",
+        "m' Kirby"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Kirby': not in the dictionary; named in full as 'Edward Kirby' 2 times",
+      "name_groups": [
+        "m’ Kirby"
+      ]
+    },
+    "Edward Paulavicine": {
+      "aliases": [
+        "Edward Paulavicine",
+        "m’ Paulavicine",
+        "m* Paulavicine",
+        "m' Paulavicine",
+        "m'* Paulavicine",
+        "m’ Palavicine",
+        "m' Palavicine",
+        "m* Palavicine",
+        "m’* Palauicine",
+        "m’ Palauicine",
+        "m* Palauicine",
+        "m’* Pallavicine",
+        "m' Pallavicine",
+        "m’ Pallavicine"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Paulavicine': not in the dictionary; named in full as 'Edw: Paulavicine' 4 times",
+      "name_groups": [
+        "m’ Paulavicine",
+        "m’ Palavicine",
+        "m’* Palauicine",
+        "m’* Pallavicine"
+      ]
+    },
+    "Richard Bolton": {
+      "aliases": [
+        "Richard Bolton",
+        "m’ Bolton",
+        "m* Bolton",
+        "m' Bolton",
+        "m\"™ Bolton",
+        "m'* Bolton",
+        "m*™ Bolton"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Bolton': not in the dictionary; named in full as 'Richard Bolton' 3 times",
+      "name_groups": [
+        "m’ Bolton"
+      ]
+    },
+    "Thomas Viner": {
+      "aliases": [
+        "Thomas Viner",
+        "m* Viner",
+        "m’ Viner",
+        "m'* Viner",
+        "m' Viner",
+        "m™ Viner",
+        "m’* Viner",
+        "m* Vyner",
+        "m'* Vyner"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Viner': not in the dictionary; named in full as 'Thomas Viner' 3 times",
+      "name_groups": [
+        "m* Viner",
+        "m* Vyner"
+      ]
+    },
+    "Thomas Freake": {
+      "aliases": [
+        "Thomas Freake",
+        "m' ffreake",
+        "m’ ffreake",
+        "m'’ Freake",
+        "m’ Freake"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' ffreake': not in the dictionary; named in full as 'Thomas Freake' 2 times",
+      "name_groups": [
+        "m' ffreake",
+        "m'’ Freake"
+      ]
+    },
+    "John James": {
+      "aliases": [
+        "John James",
+        "Lord James",
+        "Lord, James"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Lord James': not in the dictionary; named in full as 'Iohn James' 2 times",
+      "name_groups": [
+        "Lord James"
+      ]
+    },
+    "Richard Paulson": {
+      "aliases": [
+        "Richard Paulson",
+        "m’ Paulson",
+        "m* Paulson",
+        "m'* Paulson",
+        "m' Paulson",
+        "m'’ Paulson",
+        "m™ Paulson"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Paulson': not in the dictionary; named in full as 'Rich: Paulson' 1 time",
+      "name_groups": [
+        "m’ Paulson"
+      ]
+    },
+    "Thomas Jadwin": {
+      "aliases": [
+        "Thomas Jadwin",
+        "m* Jadwin",
+        "m’* Jadwin",
+        "m' Jadwin",
+        "m’ Jadwin",
+        "m* Iadwin",
+        "m'* Iadwin",
+        "m’* Iadwin"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Jadwin': not in the dictionary; named in full as 'Thomas Jadwin' 4 times",
+      "name_groups": [
+        "m* Jadwin",
+        "m* Iadwin"
+      ]
+    },
+    "Daniel Gookin": {
+      "aliases": [
+        "Daniel Gookin",
+        "m* Gookin",
+        "m’ Gookin",
+        "m'* Gookin",
+        "m*’ Gookin",
+        "m™ Gookin",
+        "m'’ Gookin",
+        "Daniell Gookin",
+        "m* Daniell Gookin"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Gookin': not in the dictionary; named in full as 'Daniell Gookin' 7 times",
+      "name_groups": [
+        "m* Gookin",
+        "Daniell Gookin"
+      ]
+    },
+    "Edward Blany": {
+      "aliases": [
+        "Edward Blany",
+        "m’ Blany",
+        "m™ Blany",
+        "m* Blany",
+        "M' Blany",
+        "m*™ Blany"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Blany': not in the dictionary; named in full as 'Ed: Blany' 3 times",
+      "name_groups": [
+        "m’ Blany"
+      ]
+    },
+    "William Stone": {
+      "aliases": [
+        "William Stone",
+        "m’ Stone",
+        "m' Stone",
+        "m'* Stone",
+        "m* Stone"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Stone': not in the dictionary; named in full as 'Wiltm Stone' 4 times",
+      "name_groups": [
+        "m’ Stone"
+      ]
+    },
+    "Dt Gulstone": {
+      "aliases": [
+        "Dt Gulstone",
+        "D* Gulstone",
+        "D’ Gulstone",
+        "D*: Gulstone",
+        "D': Gulstone"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'D* Gulstone': not in the dictionary; named in full as 'Dt Gulstone' 1 time",
+      "name_groups": [
+        "D* Gulstone"
+      ]
+    },
+    "John Porter": {
+      "aliases": [
+        "John Porter",
+        "m’ Porter",
+        "m' Porter",
+        "m\" Porter",
+        "m* Porter"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Porter': not in the dictionary; named in full as 'John Porter' 2 times",
+      "name_groups": [
+        "m’ Porter"
+      ]
+    },
+    "William Norton": {
+      "aliases": [
+        "William Norton",
+        "Captaine Norton",
+        "Capt Norton",
+        "Capt: Norton"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Captaine Norton': not in the dictionary; named in full as 'William Norton' 2 times",
+      "name_groups": [
+        "Captaine Norton",
+        "Capt Norton"
+      ]
+    },
+    "John Barnard": {
+      "aliases": [
+        "John Barnard",
+        "m* Barnard",
+        "m’ Barnard",
+        "m' Barnard",
+        "m'’ Barnard",
+        "m’* Barnard",
+        "m’ Bernard",
+        "m' Bernard",
+        "m* Bernard",
+        "m’* Bernard",
+        "Captaine Bernard"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Barnard': not in the dictionary; named in full as 'Io: Barnard' 2 times",
+      "name_groups": [
+        "m* Barnard",
+        "m’ Bernard",
+        "Captaine Bernard"
+      ]
+    },
+    "Abraham Jacob": {
+      "aliases": [
+        "Abraham Jacob",
+        "m* Iacobb",
+        "m\" Iacobb",
+        "m’ Iacobb",
+        "M’* Iacobb",
+        "m™ Iacobb",
+        "m' Iacobb"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Iacobb': not in the dictionary; named in full as 'Abraham Jacob' 1 time",
+      "name_groups": [
+        "m* Iacobb"
+      ]
+    },
+    "Nicholas Buckeridge": {
+      "aliases": [
+        "Nicholas Buckeridge",
+        "m’ Buckeridge",
+        "m’* Buckeridge",
+        "m* Buckeridge",
+        "M' Buckeridge"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Buckeridge': not in the dictionary; named in full as 'Nicho: Buckeridge' 1 time",
+      "name_groups": [
+        "m’ Buckeridge"
+      ]
+    },
+    "Thomas Whitly": {
+      "aliases": [
+        "Thomas Whitly",
+        "m* Whitly",
+        "m’ Whitly",
+        "m'* Whitly",
+        "m' Whitly",
+        "m’* Whitly"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Whitly': not in the dictionary; named in full as 'Tho: Whitly' 1 time",
+      "name_groups": [
+        "m* Whitly"
+      ]
+    },
+    "Anthony Biddolph": {
+      "aliases": [
+        "Anthony Biddolph",
+        "m’ Biddolph",
+        "m* Biddolph",
+        "m' Biddolph",
+        "m'* Biddolph"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Biddolph': not in the dictionary; named in full as 'Anthony Biddolph' 2 times",
+      "name_groups": [
+        "m’ Biddolph"
+      ]
+    },
+    "Richard Lambe": {
+      "aliases": [
+        "Richard Lambe",
+        "m* Lambe",
+        "m’ Lambe",
+        "m'* Lambe"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Lambe': not in the dictionary; named in full as 'Richard Lambe' 2 times",
+      "name_groups": [
+        "m* Lambe"
+      ]
+    },
+    "S Thier": {
+      "aliases": [
+        "S Thier",
+        "mr. Thier",
+        "mr Thier",
+        "m' Tier",
+        "m* Tier",
+        "M’ Tier"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'mr. Thier': not in the dictionary; named in full as 'S\" Kdwin Sandis Thier' 1 time",
+      "name_groups": [
+        "mr. Thier",
+        "m' Tier"
+      ]
+    },
+    "Francis Baldwin": {
+      "aliases": [
+        "Francis Baldwin",
+        "m’ Baldwin",
+        "m* Baldwin",
+        "M' Baldwin",
+        "m'’ Baldwin"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Baldwin': not in the dictionary; named in full as 'Francis Baldwin' 3 times",
+      "name_groups": [
+        "m’ Baldwin"
+      ]
+    },
+    "Arthur Bromfeild": {
+      "aliases": [
+        "Arthur Bromfeild",
+        "m’ Bromfeild",
+        "m' Bromfeild",
+        "m* Bromfeild",
+        "m'’ Bromfeild"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Bromfeild': not in the dictionary; named in full as 'Arthur Bromfeild' 2 times",
+      "name_groups": [
+        "m’ Bromfeild"
+      ]
+    },
+    "Edward Barkham": {
+      "aliases": [
+        "Edward Barkham",
+        "m* Barkham",
+        "m' Barkham",
+        "M’ Barkham",
+        "m'’ Barkham",
+        "m'* Barkham"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Barkham': not in the dictionary; named in full as 'Edward Barkham' 3 times",
+      "name_groups": [
+        "m* Barkham"
+      ]
+    },
+    "John Budge": {
+      "aliases": [
+        "John Budge",
+        "m’ Budge",
+        "m\" Budge",
+        "m'’ Budge",
+        "Iohn Budge",
+        "m’* Iohn Budge"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Budge': not in the dictionary; named in full as 'Iohn Budge' 6 times",
+      "name_groups": [
+        "m’ Budge",
+        "Iohn Budge"
+      ]
+    },
+    "Samuel Each": {
+      "aliases": [
+        "Samuel Each",
+        "Capt Each",
+        "Capt: Each"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Capt Each': not in the dictionary; named in full as 'Samuell Each' 5 times",
+      "name_groups": [
+        "Capt Each"
+      ]
+    },
+    "Lorde Pagett": {
+      "aliases": [
+        "Lorde Pagett",
+        "Lord Pagett"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Lord Pagett': not in the dictionary; named in full as 'Lorde Pagett' 1 time",
+      "name_groups": [
+        "Lord Pagett"
+      ]
+    },
+    "John Laurence": {
+      "aliases": [
+        "John Laurence",
+        "m* Lawrence",
+        "m’ Lawrence"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Lawrence': not in the dictionary; named in full as 'Iohn Laurence' 1 time",
+      "name_groups": [
+        "m* Lawrence"
+      ]
+    },
+    "Phillip Gifford": {
+      "aliases": [
+        "Phillip Gifford",
+        "Capt: Gifford",
+        "Capt Gifford",
+        "m’ Gifford",
+        "m' Gifford"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Capt: Gifford': not in the dictionary; named in full as 'Phillip Gifford' 1 time",
+      "name_groups": [
+        "Capt: Gifford",
+        "m’ Gifford"
+      ]
+    },
+    "George Garrett": {
+      "aliases": [
+        "George Garrett",
+        "m’ Garrett",
+        "m’* Garrett",
+        "m* Garrett",
+        "Geo: Garrett",
+        "m’ Geo: Garrett",
+        "m’* Geo: Garrett",
+        "M* Geo: Garrett"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Garrett': not in the dictionary; named in full as 'Geo: Garrett' 8 times",
+      "name_groups": [
+        "m’ Garrett",
+        "Geo: Garrett"
+      ]
+    },
+    "Thomas Challoner": {
+      "aliases": [
+        "Thomas Challoner",
+        "m’ Challoner",
+        "m' Challoner",
+        "m* Challoner",
+        "m’ Challon",
+        "m’* Challon",
+        "m'’ Challon"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Challoner': not in the dictionary; named in full as 'Thomas Challoner' 5 times",
+      "name_groups": [
+        "m’ Challoner",
+        "m’ Challon"
+      ]
+    },
+    "Edward Clarke": {
+      "aliases": [
+        "Edward Clarke",
+        "m' Clarke",
+        "M’ Clarke",
+        "m* Clarke"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' Clarke': not in the dictionary; named in full as 'Edward Clarke' 4 times",
+      "name_groups": [
+        "m' Clarke"
+      ]
+    },
+    "Robert Newland": {
+      "aliases": [
+        "Robert Newland",
+        "m* Newland",
+        "m’ Newland",
+        "m' Newland"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Newland': not in the dictionary; named in full as 'Robert Newland' 3 times",
+      "name_groups": [
+        "m* Newland"
+      ]
+    },
+    "Nicholas Hawes": {
+      "aliases": [
+        "Nicholas Hawes",
+        "m* Hawes",
+        "m’ Hawes",
+        "m' Hawes"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Hawes': not in the dictionary; named in full as 'Nicho: Hawes' 2 times",
+      "name_groups": [
+        "m* Hawes"
+      ]
+    },
+    "Thomas Risely": {
+      "aliases": [
+        "Thomas Risely",
+        "m’ Risely",
+        "m' Risely",
+        "m’ Risly",
+        "m' Risly",
+        "m’ Risley",
+        "m' Risley"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Risely': not in the dictionary; named in full as 'Tho: Risely' 2 times",
+      "name_groups": [
+        "m’ Risely",
+        "m’ Risly",
+        "m’ Risley"
+      ]
+    },
+    "Rowland Trueloue": {
+      "aliases": [
+        "Rowland Trueloue",
+        "m’ Trueloue",
+        "m' Trueloue",
+        "m'\" Trueloue",
+        "m* Trueloue",
+        "m'* Trueloue"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Trueloue': not in the dictionary; named in full as 'Rowland Trueloue' 1 time",
+      "name_groups": [
+        "m’ Trueloue"
+      ]
+    },
+    "Edmund Wynne": {
+      "aliases": [
+        "Edmund Wynne",
+        "m* Winne",
+        "m’ Winne"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Winne': not in the dictionary; named in full as 'Edmund Wynne' 2 times",
+      "name_groups": [
+        "m* Winne"
+      ]
+    },
+    "Ensigne Rosingham": {
+      "aliases": [
+        "Ensigne Rosingham",
+        "m* Rossingham",
+        "m’ Rossingham",
+        "m’* Rossingham",
+        "Capt: Rossingham",
+        "Capt Rossingham"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Rossingham': not in the dictionary; named in full as 'Ensigne Rosingham' 1 time",
+      "name_groups": [
+        "m* Rossingham",
+        "Capt: Rossingham"
+      ]
+    },
+    "Robert Byng": {
+      "aliases": [
+        "Robert Byng",
+        "m’ Bing",
+        "m' Bing"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Bing': not in the dictionary; named in full as 'Robt Byng' 1 time",
+      "name_groups": [
+        "m’ Bing"
+      ]
+    },
+    "Samuel Jordan": {
+      "aliases": [
+        "Samuel Jordan",
+        "M* Jordan",
+        "M*™ Jordan",
+        "M™* Jordan"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'M* Jordan': not in the dictionary; named in full as 'Samuel Jordan' 4 times",
+      "name_groups": [
+        "M* Jordan"
+      ]
+    },
+    "William Ther": {
+      "aliases": [
+        "William Ther",
+        "m* Ther",
+        "m’ Ther",
+        "M' Ther",
+        "m*’ Ther"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Ther': not in the dictionary; named in full as 'will ther' 1 time",
+      "name_groups": [
+        "m* Ther"
+      ]
+    },
+    "Henry Bagwell": {
+      "aliases": [
+        "Henry Bagwell",
+        "m’ Bagwell",
+        "m' Bagwell",
+        "m* Bagwell"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Bagwell': not in the dictionary; named in full as 'Henry Bagwell' 2 times",
+      "name_groups": [
+        "m’ Bagwell"
+      ]
+    },
+    "Richard Boothbie": {
+      "aliases": [
+        "Richard Boothbie",
+        "m’ Boothbie",
+        "m* Boothbie",
+        "m\" Boothbie",
+        "m’* Boothbie",
+        "m’* Boothby",
+        "m'* Boothby",
+        "m* Boothby"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Boothbie': not in the dictionary; named in full as 'Richard Boothbie' 2 times",
+      "name_groups": [
+        "m’ Boothbie",
+        "m’* Boothby"
+      ]
+    },
+    "Richard Baynam": {
+      "aliases": [
+        "Richard Baynam",
+        "m* Baynam",
+        "m’* Baynam"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Baynam': not in the dictionary; named in full as 'Richard Baynam' 2 times",
+      "name_groups": [
+        "m* Baynam"
+      ]
+    },
+    "Henry Thomas": {
+      "aliases": [
+        "Henry Thomas",
+        "S' Thomas",
+        "S* Thomas",
+        "8S‘ Thomas",
+        "Sir Thomas"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'S' Thomas': not in the dictionary; named in full as 'Henricus Thomas' 2 times",
+      "name_groups": [
+        "S' Thomas",
+        "Sir Thomas"
+      ]
+    },
+    "William Weldens": {
+      "aliases": [
+        "William Weldens",
+        "Captaine Welden"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Captaine Welden': not in the dictionary; named in full as 'William Weldens' 1 time",
+      "name_groups": [
+        "Captaine Welden"
+      ]
+    },
+    "Bowyer Worsly": {
+      "aliases": [
+        "Bowyer Worsly",
+        "S' Bowyer Worsly",
+        "S* Bowyer Worsly",
+        "Sir Bowyer Worsly"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Bowyer Worsly': not in the dictionary; named in full as 'Bowyer Worsly' 6 times",
+      "name_groups": [
+        "Bowyer Worsly"
+      ]
+    },
+    "James Fothergill": {
+      "aliases": [
+        "James Fothergill",
+        "m’ ffothergill",
+        "m* ffothergill",
+        "m' ffothergill"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ ffothergill': not in the dictionary; named in full as 'Iames ffothergill' 1 time",
+      "name_groups": [
+        "m’ ffothergill"
+      ]
+    },
+    "Wittim Canning": {
+      "aliases": [
+        "Wittim Canning",
+        "m* Caning",
+        "m' Caning",
+        "M’ Caning"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Caning': not in the dictionary; named in full as 'Wittim Canning' 1 time",
+      "name_groups": [
+        "m* Caning"
+      ]
+    },
+    "William Oxenbridge": {
+      "aliases": [
+        "William Oxenbridge",
+        "m’ Oxenbridge",
+        "m' Oxenbridge"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Oxenbridge': not in the dictionary; named in full as 'William Oxenbridge' 4 times",
+      "name_groups": [
+        "m’ Oxenbridge"
+      ]
+    },
+    "Simon Leeke": {
+      "aliases": [
+        "Simon Leeke",
+        "Capt: Leeke",
+        "Capt Leeke"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Capt: Leeke': not in the dictionary; named in full as 'Simon Leeke' 1 time",
+      "name_groups": [
+        "Capt: Leeke"
+      ]
+    },
+    "Raph Fogge": {
+      "aliases": [
+        "Raph Fogge",
+        "m' ffogge",
+        "m’ ffogge",
+        "m’' ffogge"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' ffogge': not in the dictionary; named in full as 'Raph Fogge' 1 time",
+      "name_groups": [
+        "m' ffogge"
+      ]
+    },
+    "Thomas Stephens": {
+      "aliases": [
+        "Thomas Stephens",
+        "m’ Stephens",
+        "m' Stephens",
+        "m'* Stephens"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Stephens': not in the dictionary; named in full as 'Thomas Stephens' 4 times",
+      "name_groups": [
+        "m’ Stephens"
+      ]
+    },
+    "Thomas Watson": {
+      "aliases": [
+        "Thomas Watson",
+        "m* Watson",
+        "m' Watson",
+        "m’ Watson",
+        "M\" Watson",
+        "Sir Thomas Watson"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Watson': not in the dictionary; named in full as 'Thomas Watson' 7 times",
+      "name_groups": [
+        "m* Watson",
+        "Thomas Watson"
+      ]
+    },
+    "William Ward": {
+      "aliases": [
+        "William Ward",
+        "Capt Ward",
+        "Capt: Ward"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Capt Ward': not in the dictionary; named in full as 'Wiltm Ward' 2 times",
+      "name_groups": [
+        "Capt Ward"
+      ]
+    },
+    "Thomas Wainman": {
+      "aliases": [
+        "Thomas Wainman",
+        "Tho: Wainman",
+        "S* Tho: Wainman",
+        "S' Tho: Wainman",
+        "Sir Tho: Wainman"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Tho: Wainman': not in the dictionary; named in full as 'Tho: Wainman' 10 times",
+      "name_groups": [
+        "Tho: Wainman"
+      ]
+    },
+    "William Canninge": {
+      "aliases": [
+        "William Canninge",
+        "m'* Canninge",
+        "m’ Canninge",
+        "M* Canninge",
+        "M' Canninge"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm'* Canninge': not in the dictionary; named in full as 'William Canninge' 6 times",
+      "name_groups": [
+        "m'* Canninge",
+        "William Canninge"
+      ]
+    },
+    "Henry Reignolde": {
+      "aliases": [
+        "Henry Reignolde",
+        "m’ Reignolde",
+        "m' Reignolde",
+        "m* Reignolde",
+        "Hen: Reignold",
+        "m' Hen: Reignold",
+        "m’ Hen: Reignold"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Reignolde': not in the dictionary; named in full as 'Hen: Reignolde' 3 times",
+      "name_groups": [
+        "m’ Reignolde",
+        "Hen: Reignold"
+      ]
+    },
+    "Thomas Combes": {
+      "aliases": [
+        "Thomas Combes",
+        "m* Combes",
+        "m'* Combes",
+        "m’ Combes",
+        "m' Combs",
+        "m’ Combs"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Combes': not in the dictionary; named in full as 'Thomas Combes' 2 times",
+      "name_groups": [
+        "m* Combes",
+        "m' Combs"
+      ]
+    },
+    "Walter Karle": {
+      "aliases": [
+        "Walter Karle",
+        "m' Karle",
+        "m* Karle",
+        "m’ Karle"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' Karle': not in the dictionary; named in full as 'Walter Karle' 2 times",
+      "name_groups": [
+        "m' Karle"
+      ]
+    },
+    "John Jefferson": {
+      "aliases": [
+        "John Jefferson",
+        "M' Jefferson",
+        "m’' Jefferson"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'M' Jefferson': not in the dictionary; named in full as 'John Jefferson' 4 times",
+      "name_groups": [
+        "M' Jefferson"
+      ]
+    },
+    "Lawrence Maisterson": {
+      "aliases": [
+        "Lawrence Maisterson",
+        "m’ Maisterson",
+        "m'* Maisterson"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Maisterson': not in the dictionary; named in full as 'Lawrence Maisterson' 2 times",
+      "name_groups": [
+        "m’ Maisterson"
+      ]
+    },
+    "Thomas Colethurst": {
+      "aliases": [
+        "Thomas Colethurst",
+        "m’ Colethurst",
+        "m* Colethurst",
+        "M' Colethurst"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Colethurst': not in the dictionary; named in full as 'Thomas Colethurst' 4 times",
+      "name_groups": [
+        "m’ Colethurst"
+      ]
+    },
+    "Johanni Elkyn": {
+      "aliases": [
+        "Johanni Elkyn",
+        "m’ Elkin",
+        "m* Elkin"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Elkin': not in the dictionary; named in full as 'Johanni Elkyn' 1 time",
+      "name_groups": [
+        "m’ Elkin"
+      ]
+    },
+    "Thomas Iermyn": {
+      "aliases": [
+        "Thomas Iermyn",
+        "m’ Jermyn",
+        "m'* Jermyn",
+        "m’* Jermyn"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Jermyn': not in the dictionary; named in full as 'Thomas Iermyn' 1 time",
+      "name_groups": [
+        "m’ Jermyn"
+      ]
+    },
+    "Henry Wentworth": {
+      "aliases": [
+        "Henry Wentworth",
+        "m* Wentworth",
+        "m’ Wentworth",
+        "m* Henry Wentworth"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Wentworth': not in the dictionary; named in full as 'Henry Wentworth' 6 times",
+      "name_groups": [
+        "m* Wentworth",
+        "Henry Wentworth"
+      ]
+    },
+    "Charles Wilmot": {
+      "aliases": [
+        "Charles Wilmot",
+        "m* Wilmott",
+        "m’ Wilmott",
+        "m’* Wilmott"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Wilmott': not in the dictionary; named in full as 'Charles Wilmot' 2 times",
+      "name_groups": [
+        "m* Wilmott"
+      ]
+    },
+    "John Lake": {
+      "aliases": [
+        "John Lake",
+        "m'* Lake",
+        "m* Lake",
+        "m’ Lake"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm'* Lake': not in the dictionary; named in full as 'John Lake' 2 times",
+      "name_groups": [
+        "m'* Lake"
+      ]
+    },
+    "John Ogle": {
+      "aliases": [
+        "John Ogle",
+        "Io: Ogle",
+        "S* Io: Ogle",
+        "S’ Io: Ogle"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Io: Ogle': not in the dictionary; named in full as 'Io: Ogle' 9 times",
+      "name_groups": [
+        "Io: Ogle"
+      ]
+    },
+    "Mathias Hardinge": {
+      "aliases": [
+        "Mathias Hardinge",
+        "m* Hardinge",
+        "m’ Hardinge",
+        "m' Hardinge"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Hardinge': not in the dictionary; named in full as 'Mathias Hardinge' 2 times",
+      "name_groups": [
+        "m* Hardinge"
+      ]
+    },
+    "William Mease": {
+      "aliases": [
+        "William Mease",
+        "m’ Mease",
+        "m' Mease",
+        "M\" Mease"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Mease': not in the dictionary; named in full as 'William Mease' 3 times",
+      "name_groups": [
+        "m’ Mease"
+      ]
+    },
+    "Walter Rawleigh": {
+      "aliases": [
+        "Walter Rawleigh",
+        "m* Rawleigh",
+        "m' Rawleigh",
+        "m’ Rawleigh"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Rawleigh': not in the dictionary; named in full as 'Walter Rawleigh' 2 times",
+      "name_groups": [
+        "m* Rawleigh"
+      ]
+    },
+    "Samuel Purchas": {
+      "aliases": [
+        "Samuel Purchas",
+        "m’ Purchas",
+        "m'* Purchas",
+        "m* Purchas"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Purchas': not in the dictionary; named in full as 'Samuel. Purchas' 1 time",
+      "name_groups": [
+        "m’ Purchas"
+      ]
+    },
+    "Regis Anglie": {
+      "aliases": [
+        "Regis Anglie"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Regis Anglie': not in the dictionary; named in full as 'Regis Anglie' 4 times",
+      "name_groups": [
+        "Regis Anglie"
+      ]
+    },
+    "Bull Treasuro": {
+      "aliases": [
+        "Bull Treasuro",
+        "m’ Treasuro",
+        "m’* Treasuro",
+        "m' Treasuro",
+        "Lord Treasuro"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Treasuro': not in the dictionary; named in full as 'Bull Treasuro' 1 time",
+      "name_groups": [
+        "m’ Treasuro",
+        "Lord Treasuro"
+      ]
+    },
+    "Geveh Edw": {
+      "aliases": [
+        "Geveh Edw",
+        "S* Edw"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'S* Edw': not in the dictionary; named in full as 'GeveH Edw' 1 time",
+      "name_groups": [
+        "S* Edw"
+      ]
+    },
+    "John Holloway": {
+      "aliases": [
+        "John Holloway",
+        "m' Holloway",
+        "m* Holloway",
+        "m’ Holloway"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' Holloway': not in the dictionary; named in full as 'John Holloway' 2 times",
+      "name_groups": [
+        "m' Holloway"
+      ]
+    },
+    "Thomas Morrice": {
+      "aliases": [
+        "Thomas Morrice",
+        "m* Morrice",
+        "m’* Morrice",
+        "m'* Morrice"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Morrice': not in the dictionary; named in full as 'Thomas Morrice' 2 times",
+      "name_groups": [
+        "m* Morrice"
+      ]
+    },
+    "Toby Palauacine": {
+      "aliases": [
+        "Toby Palauacine",
+        "m’ Palauacine",
+        "m'’ Palauacine"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Palauacine': not in the dictionary; named in full as 'Toby Palauacine' 1 time",
+      "name_groups": [
+        "m’ Palauacine"
+      ]
+    },
+    "William Cranmer": {
+      "aliases": [
+        "William Cranmer",
+        "m' William Cranmer",
+        "m* William Cranmer"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'William Cranmer': not in the dictionary; named in full as 'William Cranmer' 6 times",
+      "name_groups": [
+        "William Cranmer"
+      ]
+    },
+    "James Ayscough": {
+      "aliases": [
+        "James Ayscough",
+        "m’ Ayscough",
+        "m'’ Ayscough"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Ayscough': not in the dictionary; named in full as 'James Ayscough' 4 times",
+      "name_groups": [
+        "m’ Ayscough"
+      ]
+    },
+    "Robert Phillips": {
+      "aliases": [
+        "Robert Phillips",
+        "S’ Robert Phillips",
+        "S* Robert Phillips"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Robert Phillips': not in the dictionary; named in full as 'Robert Phillips' 6 times",
+      "name_groups": [
+        "Robert Phillips"
+      ]
+    },
+    "Churchill Moone": {
+      "aliases": [
+        "Churchill Moone",
+        "m* Moone",
+        "M’ Moones",
+        "m' Moones"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Moone': not in the dictionary; named in full as 'Churchill Moone' 2 times",
+      "name_groups": [
+        "m* Moone",
+        "M’ Moones"
+      ]
+    },
+    "William Baylie": {
+      "aliases": [
+        "William Baylie",
+        "Captaine Baylie",
+        "Capt: Baylie"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Captaine Baylie': not in the dictionary; named in full as 'Wm Baylie' 2 times",
+      "name_groups": [
+        "Captaine Baylie",
+        "Capt: Baylie"
+      ]
+    },
+    "Richard Worsley": {
+      "aliases": [
+        "Richard Worsley",
+        "Sir Richard Worsley"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Richard Worsley': not in the dictionary; named in full as 'Richard Worsley' 6 times",
+      "name_groups": [
+        "Richard Worsley"
+      ]
+    },
+    "Hugh Wirrall": {
+      "aliases": [
+        "Hugh Wirrall",
+        "S' Hugh Wirrall",
+        "S* Hugh Wirrall"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Hugh Wirrall': not in the dictionary; named in full as 'Hugh Wirrall' 3 times",
+      "name_groups": [
+        "Hugh Wirrall"
+      ]
+    },
+    "Anthony Gosnold": {
+      "aliases": [
+        "Anthony Gosnold",
+        "m’ Gosnold",
+        "m* Gosnold"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Gosnold': not in the dictionary; named in full as 'Anthony Gosnold' 2 times",
+      "name_groups": [
+        "m’ Gosnold"
+      ]
+    },
+    "Henry Maynwaringe": {
+      "aliases": [
+        "Henry Maynwaringe",
+        "Hen: Maynwaringe",
+        "S' Hen: Maynwaringe",
+        "S* Hen: Maynwaringe"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Hen: Maynwaringe': not in the dictionary; named in full as 'Hen: Maynwaringe' 6 times",
+      "name_groups": [
+        "Hen: Maynwaringe"
+      ]
+    },
+    "Henry Hickford": {
+      "aliases": [
+        "Henry Hickford",
+        "m’ Hickford"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Hickford': not in the dictionary; named in full as 'Henry Hickford' 2 times",
+      "name_groups": [
+        "m’ Hickford"
+      ]
+    },
+    "Edward Wynn": {
+      "aliases": [
+        "Edward Wynn",
+        "m* Wynn"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Wynn': not in the dictionary; named in full as 'Edward Wynn' 2 times",
+      "name_groups": [
+        "m* Wynn"
+      ]
+    },
+    "Daniel Wynch": {
+      "aliases": [
+        "Daniel Wynch",
+        "m* Winch",
+        "m’ Winch"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Winch': not in the dictionary; named in full as 'Daniel Wynch' 1 time",
+      "name_groups": [
+        "m* Winch"
+      ]
+    },
+    "St Michael": {
+      "aliases": [
+        "St Michael",
+        "S* Michaell",
+        "S' Michaell"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'S* Michaell': not in the dictionary; named in full as 'St Michael' 1 time",
+      "name_groups": [
+        "S* Michaell"
+      ]
+    },
+    "John Bowater": {
+      "aliases": [
+        "John Bowater",
+        "m'* Bowater",
+        "m' Bowater",
+        "m’ Bowater"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm'* Bowater': not in the dictionary; named in full as 'Io: Bowater' 2 times",
+      "name_groups": [
+        "m'* Bowater"
+      ]
+    },
+    "Thomas Masterson": {
+      "aliases": [
+        "Thomas Masterson",
+        "m' Masterson"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' Masterson': not in the dictionary; named in full as 'Tho: Masterson' 1 time",
+      "name_groups": [
+        "m' Masterson"
+      ]
+    },
+    "John Strange": {
+      "aliases": [
+        "John Strange",
+        "m’ Strange",
+        "m' Strange"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Strange': not in the dictionary; named in full as 'Iohn Strange' 2 times",
+      "name_groups": [
+        "m’ Strange"
+      ]
+    },
+    "Robert Careles": {
+      "aliases": [
+        "Robert Careles",
+        "m’ Careles",
+        "m' Careles"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm’ Careles': not in the dictionary; named in full as 'Robt Careles' 2 times",
+      "name_groups": [
+        "m’ Careles"
+      ]
+    },
+    "Richard Quaile": {
+      "aliases": [
+        "Richard Quaile",
+        "m* Richard Quaile"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Richard Quaile': not in the dictionary; named in full as 'Richard Quaile' 5 times",
+      "name_groups": [
+        "Richard Quaile"
+      ]
+    },
+    "Christopher Harding": {
+      "aliases": [
+        "Christopher Harding",
+        "m* Harding",
+        "m' Harding",
+        "m’ Harding"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm* Harding': not in the dictionary; named in full as 'Christopher Harding' 2 times",
+      "name_groups": [
+        "m* Harding"
+      ]
+    },
+    "John Fletcher": {
+      "aliases": [
+        "John Fletcher",
+        "m' ffletcher",
+        "m’ ffletcher"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'm' ffletcher': not in the dictionary; named in full as 'John Fletcher' 3 times",
+      "name_groups": [
+        "m' ffletcher",
+        "John Fletcher"
+      ]
+    },
+    "John Seuerne": {
+      "aliases": [
+        "John Seuerne"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'John Seuerne': not in the dictionary; named in full as 'John Seuerne' 6 times",
+      "name_groups": [
+        "John Seuerne"
+      ]
+    },
+    "Johes Havercome": {
+      "aliases": [
+        "Johes Havercome"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Johes Havercome': not in the dictionary; named in full as 'Johes Havercome' 3 times",
+      "name_groups": [
+        "Johes Havercome"
+      ]
+    },
+    "Thomas Church": {
+      "aliases": [
+        "Thomas Church"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Thomas Church': not in the dictionary; named in full as 'Thomas Church' 6 times",
+      "name_groups": [
+        "Thomas Church"
+      ]
+    },
+    "Thomas Draper": {
+      "aliases": [
+        "Thomas Draper"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Thomas Draper': not in the dictionary; named in full as 'Thomas Draper' 6 times",
+      "name_groups": [
+        "Thomas Draper"
+      ]
+    },
+    "Martin Freeman": {
+      "aliases": [
+        "Martin Freeman"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Martin Freeman': not in the dictionary; named in full as 'Martin Freeman' 3 times",
+      "name_groups": [
+        "Martin Freeman"
+      ]
+    },
+    "Richard Ironside": {
+      "aliases": [
+        "Richard Ironside"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Richard Ironside': not in the dictionary; named in full as 'Richard Ironside' 6 times",
+      "name_groups": [
+        "Richard Ironside"
+      ]
+    },
+    "William Chester": {
+      "aliases": [
+        "William Chester",
+        "M* Chester"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'M* Chester': not in the dictionary; named in full as 'Wiltm Chester' 3 times",
+      "name_groups": [
+        "M* Chester"
+      ]
+    },
+    "Charles Coyfe": {
+      "aliases": [
+        "Charles Coyfe"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Charles Coyfe': not in the dictionary; named in full as 'Charles Coyfe' 3 times",
+      "name_groups": [
+        "Charles Coyfe"
+      ]
+    },
+    "Humphrey Plant": {
+      "aliases": [
+        "Humphrey Plant",
+        "Humphry Plant"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Humphry Plant': not in the dictionary; named in full as 'Humphry Plant' 7 times",
+      "name_groups": [
+        "Humphry Plant"
+      ]
+    },
+    "Richard Williamson": {
+      "aliases": [
+        "Richard Williamson",
+        "Sir Richard Williamson"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Richard Williamson': not in the dictionary; named in full as 'Richard Williamson' 6 times",
+      "name_groups": [
+        "Richard Williamson"
+      ]
+    },
+    "Nicholas Came": {
+      "aliases": [
+        "Nicholas Came"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Nicholas Came': not in the dictionary; named in full as 'Nicholas Came' 6 times",
+      "name_groups": [
+        "Nicholas Came"
+      ]
+    },
+    "Thomas Prosser": {
+      "aliases": [
+        "Thomas Prosser",
+        "Walter Prosser"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Walter Prosser': not in the dictionary; named in full as 'Thomas Prosser' 4 times",
+      "name_groups": [
+        "Walter Prosser"
+      ]
+    },
+    "John Howlet": {
+      "aliases": [
+        "John Howlet",
+        "Iohn Howlet"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Iohn Howlet': not in the dictionary; named in full as 'Iohn Howlet' 6 times",
+      "name_groups": [
+        "Iohn Howlet"
+      ]
+    },
+    "Richard Potts": {
+      "aliases": [
+        "Richard Potts",
+        "Doctor Potts"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Doctor Potts': not in the dictionary; named in full as 'Richard Potts' 2 times",
+      "name_groups": [
+        "Doctor Potts"
+      ]
+    },
+    "Daniel Gat": {
+      "aliases": [
+        "Daniel Gat",
+        "Daniell Gat"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Daniell Gat': not in the dictionary; named in full as 'Daniell Gat' 6 times",
+      "name_groups": [
+        "Daniell Gat"
+      ]
+    },
+    "Felix Kyngston": {
+      "aliases": [
+        "Felix Kyngston"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Felix Kyngston': not in the dictionary; named in full as 'Felix Kyngston' 3 times",
+      "name_groups": [
+        "Felix Kyngston"
+      ]
+    },
+    "Humphrey May": {
+      "aliases": [
+        "Humphrey May",
+        "Humfry May",
+        "S' Humfry May",
+        "sir Humfry May"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'Humfry May': not in the dictionary; named in full as 'Humfrey May' 4 times",
+      "name_groups": [
+        "Humfry May"
+      ]
+    },
+    "John Pott": {
+      "aliases": [
+        "John Pott",
+        "Dr: John Pott"
+      ],
+      "source": "curated",
+      "basis": "Confirmed from frequent form 'John Pott': not in the dictionary; named in full as 'John Pott' 4 times",
+      "name_groups": [
+        "John Pott"
       ]
     }
   },

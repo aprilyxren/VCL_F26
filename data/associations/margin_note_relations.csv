@@ -1,0 +1,5 @@
+relation,confidence,subject,subject_key,object,object_key,cue,page_id,note_index,date_start,note_text
+letter_to,high,m' Threr,,John Bland,John Bland,written by a frend to,V01-P0067,4,1619-11-22,A Tre shewed ynto m' Threr written by a frend to m* Bland; touchinge y® Barroness of y* soyle in Virginia
+travel_to,medium,M* Threr,,Virginia,NW-001,sent to,V01-P0089,2,1620-01-12,M* Threr & M' Deputie their report touchinge y* 100 Children to be sent to Virginia
+resident_of,medium,m* James,,Plymouth,OW-007,of,V01-P0130,2,1620-04-03,A Tre read from m* James of Plymoth.
+travel_to,medium,Cutbert Essington,Cutbert Essington,England,OW-011,passage free to,V01-P0312,3,1621-07-10,m’ Cutbert Essington to be sett free and to haue his passage free to England.

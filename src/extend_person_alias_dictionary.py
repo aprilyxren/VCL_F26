@@ -30,7 +30,7 @@ from filter_person_review_queue import normalized_phrase
 # A leading title in an observed span: ``m* Seaward``, ``Capt. Tucker``, ``S': ffra: Wyate``.
 LEADING_TITLE_RE = re.compile(
     r"(?i)^(?:(?:captain|captaine|captayne|capt\.?|cap[’'*:.]+|sir|s[’'*:]+|lady|lord|lo[:.]|doctor|dr\.?|"
-    r"d[’'*:]+|master|mistress|mr\.?|mrs\.?|m[’'*ᵣ\"”™]+|mt)\s*[,;:\-—–]?\s*)+")
+    r"d[’'*:]+|master|mistress|mr\.?|mrs\.?|m[’'*ᵣ\"”™]+|mt)(?![A-Za-z])\s*[,;:\-—–]?\s*)+")
 
 
 def name_of(row: dict[str, str]) -> str:

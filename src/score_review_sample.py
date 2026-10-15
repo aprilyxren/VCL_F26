@@ -83,8 +83,10 @@ def main() -> None:
         predicted = "PERSON" if "PERSON" in labels else "PLACE" if "PLACE" in labels else "NONE"
         gold = gold_label(row)
         # A reviewed fragment ("John") now inside a longer tagged name is not a false positive.
+        # ("* Sparrowe" left blank on the old OCR, now tagged in full as "m* Sparrowe").
         if gold == "NONE" and predicted != "NONE" and all(
-                int(m["span_end"]) - int(m["span_start"]) > (e - s) + 3 for m in overlapping if m["label"] == predicted):
+                int(m["span_start"]) <= s and e <= int(m["span_end"]) and int(m["span_end"]) - int(m["span_start"]) > e - s
+                for m in overlapping if m["label"] == predicted):
             fragments += 1
             continue
         confusion[(predicted, gold)] += 1
