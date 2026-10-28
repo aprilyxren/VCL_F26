@@ -85,6 +85,13 @@ KIN = (r"(?:wife|wyfe|widdow\w*|widow\w*|relict|sonne|son|daughter|daughte\w*|br
 AGENT = (r"(?:servant\w*|seruant\w*|man|men|apprentice|factor|agent|deputy|deputie|attorney|atturney|"
          r"executor|executo\w*|administrator|assigne\w*|partner|associate|tenant\w*)")
 
+ARRIVE = (r"(?:came|come|cominge|comming|arrived|arriued|returned|retourned|returninge|sett saile|set sayle|"
+          r"sailed|sayled|fled|departed|escaped|lately come|newly come)")
+SUBJECT_LEAD = r"(?:who|that|wch|which|being|beinge|lately|latelie|newly|now|nowe|is|was|were|hath|had|having|haueing|haue|then|since)"
+# A letter endorsement or heading: ``[Indorsed:] M' John Pory: from Virginia``, ``Cap. Jo. Haruy tre to me from Virginia``.
+LETTER_CONTEXT_RE = re.compile(r"\b(?:indorsed|endorsed|letter|lerrer|lettre|lre|tre|lres|tres|written|writt|writ|dated?)\b")
+WRITTEN_FROM_GAP_RE = re.compile(r"^[^;]{0,60}?\bfrom\s*(?:the\s+)?$")
+
 # (subject type, object type, relation, confidence, regex on the normalized gap)
 GAP_RULES: list[tuple[str, str, str, str, re.Pattern[str]]] = [
     (PERSON, PLACE, "office_in", "high", re.compile(
@@ -103,9 +110,11 @@ GAP_RULES: list[tuple[str, str, str, str, re.Pattern[str]]] = [
         r"\b(?:sent|sente|send|sendinge|went|goe|goinge|gone|came|come|cominge|arrived|arriued|arriving|sailed|sayled|"
         r"saile|sayle|shipped|shipt|transported|transport\w*|bound|voyage|voyadge|passage|remoued|removed|"
         r"imployed|employed)\b[^;]{0,45}?\b(?:to|vnto|unto|into|for|towards?|at|att)\s*(?:the\s+)?$")),
+    # The subject's own verb, right after the name: ``Capt. Smith lately come from Virginia``. A
+    # ``from`` without one is usually a letter's origin (see ``written_from``), or someone else's
+    # journey (``his shipping ... vpon their returne from Virginia``).
     (PERSON, PLACE, "travel_from", "medium", re.compile(
-        r"(?:\b(?:came|come|cominge|arrived|arriued|returned|retourned|sent|sett saile|set sayle|sailed|sayled|fled)\b"
-        r"[^;]{0,40}?)?\b(?:from|out of)\s*(?:the\s+)?$")),
+        rf"^[,\s]*(?:{SUBJECT_LEAD}\s+)*{ARRIVE}\b[^;:,()]{{0,30}}?\b(?:from|out of)\s*(?:the\s+)?$")),
     (PERSON, PLACE, "resident_of", "medium", re.compile(
         r"^[,\s]*(?:(?:late|nowe?|lately)\s+)?(?:(?:dwelling|dwellinge|liuing|liuinge|living|inhabitant|inhabitants|"
         r"planter|planters|resident|seated|planted|settled|abiding|borne)\s+)?(?:of|in|at|att)\s*(?:the\s+(?:cittie|citty|city|"
@@ -130,6 +139,7 @@ GAP_RULES: list[tuple[str, str, str, str, re.Pattern[str]]] = [
     (PERSON, PERSON, "married", "high", re.compile(
         r"\b(?:married|marryed|maried|marrying|marriage)\b[^;]{0,20}?\b(?:to|with|vnto|unto)\s*$")),
 ]
+GAP_RULES_BY_NAME = {rule[2]: rule[4] for rule in GAP_RULES}
 # Rules that also need the text after the object, or that read object-first.
 # ``Thomas Tracy his wife Mary Tracy``. A comma after ``wife`` is a list entry
 # (``Robert Iordan, his wife, Richard Rowles``: Jordan's unnamed wife, then
@@ -153,7 +163,21 @@ def entity(row: dict) -> tuple[str, str, str]:
     return name, row["entity_key"], TYPE_OF[row["label"]]
 
 
-def sentence_around(text: str, start: int, end: int) -> str:
+def sentence_around(text: str, start: int, end: int, marks: list[tuple[int, int]] = ()) -> str:
+    """The sentence holding ``text[start:end]``; ``marks`` are spans to put in [[brackets]]."""
+    left, right = sentence_bounds(text, start, end)
+    if right - left > 500:  # keep the related names in view
+        left = max(left, min(start - 150, right - 500))
+        right = min(right, left + 500)
+    pieces, cursor = [], left
+    for s, e in sorted(marks):
+        pieces += [text[cursor:s], "[[", text[s:e], "]]"]
+        cursor = e
+    pieces.append(text[cursor:right])
+    return " ".join("".join(pieces).split())
+
+
+def sentence_bounds(text: str, start: int, end: int) -> tuple[int, int]:
     left = max(text.rfind("\n\n", 0, start), 0)
     for match in BOUNDARY_RE.finditer(text, max(0, start - 400), start):
         if has_boundary(text[match.start():match.end() + 1]):
@@ -164,7 +188,7 @@ def sentence_around(text: str, start: int, end: int) -> str:
         if has_boundary(text[match.start():match.end() + 1]):
             right = min(right, match.start() + 1)
             break
-    return " ".join(text[left:right].split())[:500]
+    return left, right
 
 
 def relate(a: dict, b: dict, text: str) -> list[tuple[dict, dict, str, str, str]]:
@@ -192,12 +216,16 @@ def relate(a: dict, b: dict, text: str) -> list[tuple[dict, dict, str, str, str]
             found.append((b, a, "people_at", "high", f"{gap} … {PEOPLE_AT_AFTER_RE.match(after).group(0)}"))
         elif re.fullmatch(r"[,:]?", gap) and OFFICE_BEFORE_RE.search(before):
             found.append((b, a, "office_in", "high", OFFICE_BEFORE_RE.search(before).group(0)))
+    if ta == PERSON and tb == PLACE and WRITTEN_FROM_GAP_RE.match(gap) and not GAP_RULES_BY_NAME["travel_from"].search(gap):
+        # The writer, not the addressee (``From S' G. Yeardly ..., to S' Ed. Sandis. From Virginia``).
+        letter = LETTER_CONTEXT_RE.search(before + " " + gap)
+        if letter and not re.search(r"\b(?:to|vnto|unto)\s*$", before):
+            return [(a, b, "written_from", "medium", f"{letter.group(0)} … from")]
+        return []
     if not found:
         for subject_type, object_type, relation, confidence, rule in GAP_RULES:
             if (ta, tb) == (subject_type, object_type) and rule.search(gap):
                 cue = rule.search(gap).group(0)
-                if relation == "travel_from" and re.fullmatch(r"(?:from|out of)(?:\s+the)?", cue.strip()):
-                    confidence = "low"  # a bare "from" is often a letter's origin, not a journey
                 found.append((a, b, relation, confidence, cue))
                 break
     return found
@@ -244,7 +272,9 @@ def extract(pages: list[dict], mentions: list[dict]) -> list[dict]:
                         "date_start": subject["date_start"], "date_confidence": subject["date_confidence"],
                         "subject_span": " ".join(subject["observed_span"].split()),
                         "object_span": " ".join(target["observed_span"].split()),
-                        "sentence": sentence_around(text, lo, hi),
+                        "sentence": sentence_around(text, lo, hi, [
+                            (int(subject["span_start"]), int(subject["span_end"])),
+                            (int(target["span_start"]), int(target["span_end"]))]),
                     })
     return relations
 

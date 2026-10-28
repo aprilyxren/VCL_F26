@@ -68,3 +68,32 @@ def test_present_mentions_are_skipped():
     found = relations_for(text, [("Sir Francis Wyatt", "PERSON", "Francis Wyatt", "present"),
                                  ("Virginia", "PLACE", "NW-001")])
     assert not found
+
+
+def test_from_needs_the_subjects_own_verb_and_letters_give_written_from():
+    text = ("[Indorsed:] M' John Pory: from Virginia. "
+            "From S' G. Yeardly the 27 June 1621, to S' Ed. Sandis. From Bermuda. "
+            "Capt Newce 200 towarde his shipping vpon their returne from Kecoughtan. "
+            "Capt. Smith lately come from Jamestown.")
+    found = relations_for(text, [
+        ("John Pory", "PERSON", "John Pory"), ("Virginia", "PLACE", "NW-001"),
+        ("S' Ed. Sandis", "PERSON", "Edwin Sandys"), ("Bermuda", "PLACE", "NW-B"),
+        ("Capt Newce", "PERSON", "Thomas Newce"), ("Kecoughtan", "PLACE", "NW-K"),
+        ("Capt. Smith", "PERSON", "John Smith"), ("Jamestown", "PLACE", "NW-J"),
+    ])
+    assert ("John Pory", "written_from", "NW-001") in found
+    assert not any(s == "Edwin Sandys" for s, _, _ in found)  # the addressee, not the writer
+    assert not any(s == "Thomas Newce" for s, _, _ in found)
+    assert ("John Smith", "travel_from", "NW-J") in found
+
+
+def test_sentence_brackets_the_related_spans_not_the_first_match():
+    text = "M' Henry Wolstenholme of London gent passed three shares vnto m' Io: Wolstenholm of London Esquire."
+    rows = [mention(text, "M' Henry Wolstenholme", "PERSON", "Henry Wolstenholme"),
+            mention(text, "m' Io: Wolstenholm", "PERSON", "John Wolstenholme")]
+    second = text.rindex("London")
+    rows.insert(1, mention(text, "London", "PLACE", "OW-001"))
+    rows.append({**rows[1], "span_start": str(second), "span_end": str(second + 6)})
+    rels = extract([{"page_id": "V04-P0001", "text": text}], rows)
+    john = next(r for r in rels if r["subject"] == "John Wolstenholme" and r["relation"] == "resident_of")
+    assert "[[m' Io: Wolstenholm]] of [[London]] Esquire" in john["sentence"]

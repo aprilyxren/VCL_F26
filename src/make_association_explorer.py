@@ -157,7 +157,7 @@ footer{color:var(--muted);font-size:13px;max-width:80ch}
   const F = RAW.fields, rows = RAW.rows.map(r => Object.fromEntries(F.map((f, i) => [f, r[i]])));
   const KIND = {place:'Place', indigenous_group:'Indigenous people', indigenous_collective:'Collective term'};
   const REL = {office_in:'office', commands:'command', property_at:'house / plantation', land_at:'land',
-    travel_to:'went to', travel_from:'came from', resident_of:'of / dwelling', killed_at:'killed at', people_at:'his people at',
+    travel_to:'went to', travel_from:'came from', written_from:'wrote from', resident_of:'of / dwelling', killed_at:'killed at', people_at:'his people at',
     action_against:'action against', trade_with:'trade with', peace_with:'peace with'};
   const years = [...new Set(rows.map(r => r.y))].sort();
   const $ = id => document.getElementById(id);
