@@ -462,7 +462,7 @@
         "Opochankino",
         "Apochanzion"
       ],
-      "basis": "Weroance of Pamunkey, later paramount chief; took the name Mangopeesomon in 1621."
+      "basis": "Weroance of Pamunkey, later paramount chief; took the name Mangopeesomon in 1621. 'Brother of Powhatan' is not used as a seed: Opitchapam was also Powhatan's brother, and the records name him that way (V03-P0600, 'his Brother Apochankano now Mangopeesomon')."
     },
     "IP-003": {
       "name": "Opitchapam (Sasawpen)",
@@ -511,9 +511,13 @@
       "role": "warned Jamestown of the 1622 attack",
       "seeds": [
         "Chanco",
-        "Chauco"
+        "Chauco",
+        "Chancho",
+        "Perries Indian",
+        "Perrys Indian",
+        "Perry his Indian"
       ],
-      "basis": "Christianized Powhatan youth credited with warning Richard Pace.",
+      "basis": "Christianized Powhatan youth credited with warning Richard Pace. Waterhouse's 1622 relation calls him 'Perries Indian' (servant of William Perry; V03-P0567); the 1623 letter names him 'Chauco' (V04-P0100).",
       "exact_only": true
     },
     "IP-007": {
@@ -540,7 +544,7 @@
         "Namontack",
         "Namontacke"
       ],
-      "basis": "Powhatan envoy taken to England in 1608."
+      "basis": "Powhatan envoy taken to England in 1608. No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words."
     },
     "IP-009": {
       "name": "Uttamatomakkin (Tomocomo)",
@@ -585,6 +589,123 @@
       ],
       "basis": "Powhatan man held at Jamestown in 1609-10. Short and English-looking: exact seed only.",
       "exact_only": true
+    },
+    "IP-013": {
+      "name": "Comahum",
+      "group": "IG-001",
+      "role": "taken in 1623; named as an actor in the attack at Martin's Hundred",
+      "seeds": [
+        "Comahum"
+      ],
+      "exact_only": true,
+      "basis": "Council in Virginia to the Company, April 1623 (V04-P0100): 'The other (called Comahum) an Actor in the Massacre at Martins Hundred ... Wee putt in Chaines'."
+    },
+    "IP-014": {
+      "name": "Two Indian maids (Mary and Elizabeth?)",
+      "group": "IG-001",
+      "role": "two Powhatan women in London, sent to the Somers Isles 1621",
+      "seeds": [
+        "Indian Maydes",
+        "Indian Maides",
+        "Indian Maids",
+        "Indian Mayde",
+        "Virginia Maydes",
+        "Virginia Maides",
+        "Virginia Maids"
+      ],
+      "exact_only": true,
+      "basis": "Court Book: committee for 'the two Virginia maydes' in the custody of William Webb (15 Nov 1620, V01-P0227); ordered sent to the Summer Islands 'towards their preferment in marriage' (11 and 13 June 1621, V01-P0289, V01-P0300). The records here do not give their names; 'Mary and Elizabeth' comes from outside these volumes."
+    },
+    "IP-015": {
+      "name": "Thomas Rolfe",
+      "group": "IG-001",
+      "role": "son of Pocahontas and John Rolfe, b. 1615",
+      "seeds": [
+        "Thomas Rolfe",
+        "Thomas Rolf",
+        "Rolfes Child",
+        "Rolfe Child",
+        "Rolfs Child",
+        "Rolf¢ Child",
+        "Rolfes Sonne",
+        "Rolfe his sonne"
+      ],
+      "exact_only": true,
+      "basis": "Company to the Governor and Council, 1622 (V02-P0048): Opechancanough and the Natives 'haue giuen their Country to m' Rolfes Child ... till he comes of yeares'."
+    },
+    "IP-016": {
+      "name": "Indian boy brought by William Perry (1624)",
+      "group": "IG-001",
+      "role": "brought to London 1624; placed with Patrick Copland",
+      "seeds": [
+        "Indian Boy",
+        "Indian Boye",
+        "Indian youth"
+      ],
+      "exact_only": true,
+      "basis": "Court Book 26 April 1624 (V02-P0555): 'an Indian Boy by one William Perry lately come ouer from Virginia'; 28 April 1624 (V02-P0561): the Court entreats 'm' Copeland a Mynister' to take him into his care. Both entries are the same boy. Whether he is Chanco ('Perries Indian' in 1622) is not stated in the records."
+    },
+    "IP-017": {
+      "name": "Georgius Thorpe (homo Virginiae)",
+      "group": "IG-001",
+      "role": "Virginian baptized with George Thorpe's name",
+      "seeds": [
+        "Georgius Thorpe",
+        "homo Virginiae",
+        "homo Virginie"
+      ],
+      "exact_only": true,
+      "basis": "No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words. Not to be confused with the Englishman George Thorpe (people dictionary), who is named often."
+    },
+    "IP-018": {
+      "name": "Eiakintomino",
+      "group": "IG-001",
+      "role": "Powhatan in England",
+      "seeds": [
+        "Eiakintomino"
+      ],
+      "exact_only": true,
+      "basis": "No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words."
+    },
+    "IP-019": {
+      "name": "Matahan",
+      "group": "IG-001",
+      "role": "Powhatan in England",
+      "seeds": [
+        "Matahan"
+      ],
+      "exact_only": true,
+      "basis": "No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words."
+    },
+    "IP-020": {
+      "name": "Machumps",
+      "group": "IG-001",
+      "role": "Powhatan in England",
+      "seeds": [
+        "Machumps"
+      ],
+      "exact_only": true,
+      "basis": "No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words."
+    },
+    "IP-021": {
+      "name": "Nanawack",
+      "group": "IG-001",
+      "role": "Powhatan in England",
+      "seeds": [
+        "Nanawack"
+      ],
+      "exact_only": true,
+      "basis": "No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words."
+    },
+    "IP-022": {
+      "name": "Totakins",
+      "group": "IG-001",
+      "role": "Powhatan in England",
+      "seeds": [
+        "Totakins"
+      ],
+      "exact_only": true,
+      "basis": "No matches in the four volumes (searched 2026-11-01, OCR-tolerant); kept exact-only so it cannot fuzzy-match other words."
     }
   },
   "titles": {

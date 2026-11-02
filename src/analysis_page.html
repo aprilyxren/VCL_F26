@@ -1,0 +1,462 @@
+<title>Virginia Company Patterns</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: one column of record-office "registers": a tab per question, each a summary line, then its chart, then the passages. */
+:root{
+  --paper:#f2f3ef; --surface:#fbfbf9; --ink:#1f2a2c; --ink-2:#46514f; --muted:#6a7574; --rule:#d9ddd6; --grid:#e4e6e0;
+  --accent:#1d6b72; --accent-soft:#dbeae9; --focus:#1d6b72;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --other:#9a9d95;
+  --q0:#f0f2ee; --q1:#cde2fb; --q2:#9ec5f4; --q3:#6da7ec; --q4:#3987e5; --q5:#256abf; --q6:#184f95;
+  --q-ink-light:#1f2a2c; --q-ink-dark:#ffffff;
+  --display:Spectral,Georgia,"Times New Roman",serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#121a1c; --surface:#182124; --ink:#e2e8e6; --ink-2:#bcc6c4; --muted:#91a0a1; --rule:#2b3739; --grid:#243033;
+    --accent:#5fb0b8; --accent-soft:#1f3639; --focus:#5fb0b8;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --other:#6f7570;
+    --q0:#1d2729; --q1:#0d366b; --q2:#104281; --q3:#184f95; --q4:#1c5cab; --q5:#2a78d6; --q6:#5598e7;
+    --q-ink-light:#e2e8e6; --q-ink-dark:#ffffff;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#121a1c; --surface:#182124; --ink:#e2e8e6; --ink-2:#bcc6c4; --muted:#91a0a1; --rule:#2b3739; --grid:#243033;
+  --accent:#5fb0b8; --accent-soft:#1f3639; --focus:#5fb0b8;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --other:#6f7570;
+  --q0:#1d2729; --q1:#0d366b; --q2:#104281; --q3:#184f95; --q4:#1c5cab; --q5:#2a78d6; --q6:#5598e7;
+  --q-ink-light:#e2e8e6; --q-ink-dark:#ffffff;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--paper);color:var(--ink);font:15px/1.5 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 56px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;gap:20px}
+header{display:grid;gap:6px}
+h1{font:600 clamp(26px,3.6vw,34px)/1.12 var(--display);margin:0;text-wrap:balance}
+h2{font:600 22px/1.2 var(--display);margin:0;text-wrap:balance}
+h3{font:600 17px/1.25 var(--display);margin:0;text-wrap:balance}
+p{margin:0}
+.lede{color:var(--ink-2);max-width:70ch}
+.note{color:var(--muted);font-size:13px;max-width:78ch}
+.label{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tabs{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1px solid var(--rule)}
+.tab{font:600 15px/1 var(--body);color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;padding:10px 12px 9px;cursor:pointer}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tab:hover{color:var(--ink)}
+button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+section.view{display:grid;gap:18px}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px;display:grid;gap:12px;min-width:0;align-content:start}
+.row{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:5px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;border:0;background:var(--paper);color:var(--ink-2);padding:5px 10px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.scroll{overflow-x:auto;min-width:0}
+.facts{display:flex;flex-wrap:wrap;gap:6px 22px}
+.facts div{display:grid}
+.facts b{font:600 22px/1.1 var(--display)}
+.facts span{font-size:13px;color:var(--muted)}
+
+/* heat grid */
+table.grid{border-collapse:separate;border-spacing:2px;font-variant-numeric:tabular-nums;font-size:13px}
+table.grid th{font-weight:600;color:var(--muted);font-size:12px;padding:2px 6px;text-align:center}
+table.grid th.place{text-align:left;color:var(--ink);font-size:14px;white-space:nowrap;padding-right:12px}
+table.grid tr.kind th{text-align:left;padding-top:12px;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+table.grid td{width:46px;height:30px;text-align:center;border-radius:3px;cursor:pointer;background:var(--q0);color:var(--muted)}
+table.grid td.on{outline:2px solid var(--ink);outline-offset:1px}
+table.grid td.zero{cursor:default;color:transparent}
+.scale{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.scale i{display:inline-block;width:22px;height:12px;border-radius:2px}
+
+/* people list */
+.people{display:grid;gap:10px;list-style:none;margin:0;padding:0}
+.people li{display:grid;gap:3px;padding-bottom:10px;border-bottom:1px solid var(--grid)}
+.people li:last-child{border-bottom:0}
+.who{font-weight:600}
+.chip{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:1px 6px;border-radius:3px;white-space:nowrap;margin-left:6px;vertical-align:1px}
+.t4{background:var(--accent);color:var(--surface)} .t3{background:var(--accent-soft);color:var(--accent)}
+.t2,.t1{background:var(--grid);color:var(--ink-2)}
+.quote{font:italic 500 14px/1.45 var(--display);color:var(--ink-2);max-width:80ch;overflow-wrap:anywhere}
+.meta{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.more{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:5px;padding:4px 10px;cursor:pointer;justify-self:start}
+
+/* charts */
+svg text{fill:var(--muted);font:12px var(--body)}
+svg .ink{fill:var(--ink)} svg .ink2{fill:var(--ink-2)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink-2);align-items:center}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.legend .ring{border-radius:50%;border:2px solid var(--ink-2);background:var(--surface)}
+.legend .dot{border-radius:50%;background:var(--ink)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px}
+table.plain{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+table.plain th,table.plain td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.plain th{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:700}
+table.plain td.num,table.plain th.num{text-align:right}
+.mini{display:inline-block;height:8px;border-radius:2px;vertical-align:1px}
+.examples{display:grid;gap:10px}
+
+/* network */
+.netgrid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px;align-items:start}
+@media (max-width:860px){.netgrid{grid-template-columns:1fr}}
+.netbox{overflow-x:auto}
+.netbox svg{display:block;width:100%;min-width:640px;height:auto}
+.edge{stroke:var(--rule);stroke-linecap:round}
+.edge.rel{stroke:var(--ink-2);stroke-dasharray:4 3}
+.edge.hi{stroke:var(--ink)}
+.node circle{stroke:var(--surface);stroke-width:2px;cursor:pointer}
+.node text{font-size:11px;fill:var(--ink-2);pointer-events:none;paint-order:stroke;stroke:var(--surface);stroke-width:3px}
+.node.dim{opacity:.18} .edge.dim{opacity:.12}
+.node.sel circle{stroke:var(--ink);stroke-width:2.5px}
+.clusters{display:grid;gap:6px}
+.clusters button{all:unset;cursor:pointer;display:grid;grid-template-columns:14px 1fr;gap:8px;align-items:start;padding:4px 6px;border-radius:4px;font-size:13px;color:var(--ink-2)}
+.clusters button:hover,.clusters button[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink)}
+.clusters button:focus-visible{outline:2px solid var(--focus)}
+.clusters i{width:12px;height:12px;border-radius:50%;margin-top:4px}
+.ties{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:14px}
+.ties li{display:flex;justify-content:space-between;gap:8px}
+.ties button{all:unset;cursor:pointer;color:var(--accent);font-weight:600}
+.ties button:focus-visible{outline:2px solid var(--focus)}
+
+#tip{position:fixed;z-index:20;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:6px 9px;border-radius:5px;max-width:280px;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+@media (prefers-reduced-motion: no-preference){ .node circle,.edge{transition:opacity .15s} }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="label">Records of the Virginia Company of London · 1606–1626</span>
+    <h1>Virginia Company Patterns</h1>
+    <p class="lede">Three readings of the people, places and Indigenous nations named in the four volumes of the Company's records: who was tied to each Virginia settlement year by year, how the records speak of Indigenous peoples before and after the attack of 22 March 1622, and which people were named together.</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Analyses">
+    <button class="tab" role="tab" id="tab-plantations" aria-controls="view-plantations" data-view="plantations">Plantations over time</button>
+    <button class="tab" role="tab" id="tab-indigenous" aria-controls="view-indigenous" data-view="indigenous">Indigenous peoples and 1622</button>
+    <button class="tab" role="tab" id="tab-network" aria-controls="view-network" data-view="network">People network</button>
+  </nav>
+
+  <!-- PLANTATIONS -->
+  <section class="view" id="view-plantations" role="tabpanel" aria-labelledby="tab-plantations">
+    <div class="panel">
+      <div class="row" style="justify-content:space-between">
+        <h2>Who is named with each settlement</h2>
+        <div class="seg" role="group" aria-label="Link strength">
+          <button id="str-strong" aria-pressed="true" data-min="3">Direct or close</button>
+          <button id="str-all" aria-pressed="false" data-min="1">Any mention in the meeting</button>
+        </div>
+      </div>
+      <p class="note" id="strength-note"></p>
+      <div class="scroll"><table class="grid" id="heat"></table></div>
+      <div class="scale" id="heat-scale"></div>
+    </div>
+    <div class="panel" id="cell-detail"></div>
+  </section>
+
+  <!-- INDIGENOUS -->
+  <section class="view" id="view-indigenous" role="tabpanel" aria-labelledby="tab-indigenous" hidden>
+    <div class="panel">
+      <h2>Mentions of Indigenous peoples, by half-year</h2>
+      <div class="facts" id="ind-facts"></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Named nations and people (Powhatan, Pamunkey, Opechancanough …)</span><span><i style="background:var(--s2)"></i>Collective words (Indians, savages, natives …)</span></div>
+      <div class="scroll"><svg id="timeline" viewBox="0 0 900 260" role="img" aria-label="Mentions per half-year, 1616 to 1625"></svg></div>
+      <p class="note">Dated by the meeting, letter or document they appear in. News of the attack reached London in the summer of 1622, so the first half of 1622 is still mostly written in ignorance of it.</p>
+    </div>
+    <div class="two">
+      <div class="panel">
+        <h3>Which word for the people as a whole</h3>
+        <p class="note">Share of all collective words in each period.</p>
+        <div class="legend"><span><i class="ring"></i>Before 22 March 1622</span><span><i class="dot"></i>After</span></div>
+        <svg id="terms" role="img" aria-label="Share of collective words, before and after"></svg>
+      </div>
+      <div class="panel">
+        <h3>What the surrounding passage is about</h3>
+        <p class="note">Share of Indigenous mentions whose passage uses each set of words. Select a row for an example.</p>
+        <div class="legend"><span><i class="ring"></i>Before</span><span><i class="dot"></i>After</span></div>
+        <svg id="themes" role="img" aria-label="Share of passages by theme, before and after"></svg>
+        <div class="examples" id="theme-examples"></div>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>Nations named, and who is named near them</h3>
+      <p class="note">People named within 1,000 characters of the nation in the same meeting or letter. Opechancanough and other Indigenous leaders appear here too, since they are in the people dictionary.</p>
+      <div class="scroll"><table class="plain" id="groups"></table></div>
+      <div class="row" id="leaders"></div>
+    </div>
+  </section>
+
+  <!-- NETWORK -->
+  <section class="view" id="view-network" role="tabpanel" aria-labelledby="tab-network" hidden>
+    <div class="panel">
+      <h2>People named together</h2>
+      <p class="note">The 70 people named in the most meetings. A line joins two people who are named in many of the same meetings, relative to how often each is named. Each person keeps their four strongest ties. Dashed lines are direct relations from the text (letters, complaints, transfers of shares, family). Being named together includes opponents in a dispute. Clusters are computed from the ties alone.</p>
+      <div class="netgrid">
+        <div class="netbox"><svg id="net" viewBox="0 0 900 640" role="img" aria-label="Network of people named together"></svg></div>
+        <div style="display:grid;gap:16px;min-width:0">
+          <div class="clusters" id="clusters"></div>
+          <div class="panel" id="person-detail" style="padding:12px"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const NS = "http://www.w3.org/2000/svg";
+const svgEl = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+
+/* tooltip */
+const tip = $("#tip");
+function showTip(ev, html){ tip.innerHTML = html; tip.hidden = false; moveTip(ev); }
+function moveTip(ev){ const x = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8); const y = ev.clientY + 16 + tip.offsetHeight > innerHeight ? ev.clientY - tip.offsetHeight - 10 : ev.clientY + 16; tip.style.left = x + "px"; tip.style.top = y + "px"; }
+function hideTip(){ tip.hidden = true; }
+function hover(el, html){ el.addEventListener("pointerenter", e => showTip(e, typeof html === "function" ? html() : html)); el.addEventListener("pointermove", moveTip); el.addEventListener("pointerleave", hideTip); }
+
+/* tabs */
+const VIEWS = ["plantations", "indigenous", "network"];
+function openView(v){
+  if (!VIEWS.includes(v)) v = "plantations";
+  for (const id of VIEWS){ $("#view-" + id).hidden = id !== v; $("#tab-" + id).setAttribute("aria-selected", id === v); }
+  try { history.replaceState(null, "", "#" + v); } catch (e) {}
+}
+document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => openView(b.dataset.view)));
+const TIERS = {4:"Relation in text", 3:"Close (≤300 characters)", 2:"Near (≤1,000)", 1:"Same meeting"};
+
+/* ============ PLANTATIONS ============ */
+const P = DATA.plantations;
+let minTier = 3, selCell = null;
+const KIND_LABEL = {incorporation:"The four incorporations of 1619", particular:"Particular plantations and hundreds", town:"Towns and other settlements"};
+function cellPeople(place, year){ return (P.cells[place]?.[year] || []).filter(r => r[1] >= minTier); }
+function shade(n, max){
+  if (!n) return 0;
+  const steps = 6; return Math.max(1, Math.min(steps, Math.ceil(Math.sqrt(n / max) * steps)));
+}
+function renderHeat(){
+  const years = P.years.filter(y => +y >= 1616);
+  let max = 1;
+  for (const p of P.places) for (const y of years) max = Math.max(max, cellPeople(p.name, y).length);
+  const t = $("#heat"); t.innerHTML = "";
+  const head = t.insertRow(); head.appendChild(Object.assign(document.createElement("th"), {className:"place", textContent:""}));
+  years.forEach(y => head.appendChild(Object.assign(document.createElement("th"), {textContent:y})));
+  for (const kind of ["incorporation", "particular", "town"]){
+    const places = P.places.filter(p => p.kind === kind)
+      .map(p => ({...p, total: years.reduce((s, y) => s + cellPeople(p.name, y).length, 0)}))
+      .filter(p => p.total > 0).sort((a, b) => b.total - a.total);
+    if (!places.length) continue;
+    const kr = t.insertRow(); kr.className = "kind";
+    const kh = document.createElement("th"); kh.colSpan = years.length + 1; kh.textContent = KIND_LABEL[kind]; kr.appendChild(kh);
+    for (const p of places){
+      const r = t.insertRow();
+      r.appendChild(Object.assign(document.createElement("th"), {className:"place", textContent:p.name, scope:"row"}));
+      for (const y of years){
+        const n = cellPeople(p.name, y).length, td = r.insertCell(), s = shade(n, max);
+        td.textContent = n || "";
+        td.style.background = `var(--q${s})`;
+        td.style.color = s >= 4 ? "var(--q-ink-dark)" : "var(--q-ink-light)";
+        if (!n){ td.className = "zero"; continue; }
+        td.tabIndex = 0;
+        if (selCell && selCell[0] === p.name && selCell[1] === y) td.classList.add("on");
+        const pick = () => { selCell = [p.name, y]; renderHeat(); renderCell(); };
+        td.addEventListener("click", pick);
+        td.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
+        hover(td, () => `<b>${esc(p.name)}, ${y}</b><br>${n} ${n === 1 ? "person" : "people"}`);
+      }
+    }
+  }
+  const sc = $("#heat-scale"); sc.innerHTML = "<span>Fewer people</span>" + [1,2,3,4,5,6].map(i => `<i style="background:var(--q${i})"></i>`).join("") + `<span>More (up to ${max})</span>`;
+  $("#strength-note").textContent = minTier >= 3
+    ? "Counts people with a direct relation to the settlement in the text (land at, office in, of, sent to …) or named within 300 characters of it. People only in the attendance list are left out."
+    : "Counts everyone named in a meeting or letter that also names the settlement, however far apart. People only in the attendance list are left out.";
+}
+function renderCell(){
+  const box = $("#cell-detail");
+  if (!selCell){ box.innerHTML = ""; return; }
+  const [place, year] = selCell, rows = cellPeople(place, year);
+  const show = rows.slice(0, 40);
+  box.innerHTML = `<div class="row" style="justify-content:space-between"><h3>${esc(place)}, ${year}</h3><span class="meta">${rows.length} ${rows.length === 1 ? "person" : "people"}, strongest link first</span></div>
+    <ul class="people">${show.map(r => `<li><div><span class="who">${esc(r[0])}</span><span class="chip t${r[1]}">${TIERS[r[1]]}</span>${r[3] ? `<span class="meta"> · ${esc(r[3].replaceAll("_", " "))}</span>` : ""}</div>
+      <div class="quote">${esc(r[5])}</div><div class="meta">${esc(r[4])} · ${r[2]} ${r[2] === 1 ? "meeting" : "meetings"} that year</div></li>`).join("")}</ul>
+    ${rows.length > show.length ? `<p class="note">Showing the first 40 of ${rows.length}.</p>` : ""}`;
+}
+function setStrength(btn){
+  minTier = +btn.dataset.min;
+  document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b === btn));
+  if (selCell && !cellPeople(...selCell).length) selCell = null;
+  renderHeat(); renderCell();
+}
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => setStrength(b)));
+(function initCell(){
+  let best = null;
+  for (const p of P.places) for (const y of P.years){ const n = cellPeople(p.name, y).length; if (!best || n > best[2]) best = [p.name, y, n]; }
+  selCell = best ? [best[0], best[1]] : null;
+})();
+renderHeat(); renderCell();
+
+/* ============ INDIGENOUS ============ */
+const I = DATA.indigenous;
+(function facts(){
+  const t = I.totals;
+  $("#ind-facts").innerHTML = `<div><b>${t.before ?? 0}</b><span>mentions before 22 March 1622 (from 1607)</span></div>
+    <div><b>${t.after ?? 0}</b><span>mentions after (to 1626)</span></div>
+    <div><b>${I.collective.after ?? 0}</b><span>collective words after the attack, against ${I.collective.before ?? 0} before</span></div>`;
+})();
+(function timeline(){
+  const svg = $("#timeline"), W = 900, H = 260, m = {l:40, r:12, t:16, b:34};
+  const bins = I.timeline, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const max = Math.max(...bins.map(b => b.named + b.collective));
+  const top = Math.ceil(max / 20) * 20, bw = iw / bins.length, y = v => m.t + ih - v / top * ih;
+  for (let v = 0; v <= top; v += 20){
+    svgEl("line", {x1:m.l, x2:W - m.r, y1:y(v), y2:y(v), stroke:"var(--grid)"}, svg);
+    svgEl("text", {x:m.l - 6, y:y(v) + 4, "text-anchor":"end"}, svg).textContent = v;
+  }
+  bins.forEach((b, i) => {
+    const x = m.l + i * bw + 3, w = bw - 6;
+    const g = svgEl("g", {}, svg);
+    if (b.named){ svgEl("rect", {x, y:y(b.named) , width:w, height:Math.max(0, y(0) - y(b.named)), fill:"var(--s1)", rx:2}, g); }
+    if (b.collective){
+      const y0 = y(b.named) - (b.named ? 2 : 0);
+      svgEl("rect", {x, y:y0 - (y(0) - y(b.collective)), width:w, height:Math.max(0, y(0) - y(b.collective)), fill:"var(--s2)", rx:2}, g);
+    }
+    const hit = svgEl("rect", {x:m.l + i * bw, y:m.t, width:bw, height:ih, fill:"transparent"}, g);
+    const half = b.bin.endsWith("a") ? "Jan–Jun" : "Jul–Dec";
+    hover(hit, `<b>${half} ${b.bin.slice(0, 4)}</b><br>${b.named} named · ${b.collective} collective`);
+    if (b.bin.endsWith("a")) svgEl("text", {x:m.l + i * bw + bw, y:H - m.b + 18, "text-anchor":"middle"}, svg).textContent = b.bin.slice(0, 4);
+  });
+  svgEl("line", {x1:m.l, x2:W - m.r, y1:y(0), y2:y(0), stroke:"var(--muted)"}, svg);
+  const ai = bins.findIndex(b => b.bin === "1622a"), ax = m.l + ai * bw + bw * (81 / 181);
+  svgEl("line", {x1:ax, x2:ax, y1:m.t - 4, y2:y(0), stroke:"var(--ink)", "stroke-dasharray":"3 3"}, svg);
+  svgEl("text", {x:ax - 6, y:m.t + 6, "text-anchor":"end", class:"ink"}, svg).textContent = "22 March 1622";
+})();
+function dumbbell(svg, rows, opts){
+  const W = 440, rowH = 30, m = {l:opts.left, r:62, t:22, b:8}, H = m.t + rows.length * rowH + m.b;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.style.width = "100%"; svg.style.height = "auto";
+  const max = Math.max(...rows.flatMap(r => [r.b, r.a])), top = Math.ceil(max * 10) / 10 || .1;
+  const x = v => m.l + v / top * (W - m.l - m.r);
+  for (let v = 0; v <= top + 1e-9; v += top / 2){
+    svgEl("line", {x1:x(v), x2:x(v), y1:m.t - 6, y2:H - m.b, stroke:"var(--grid)"}, svg);
+    svgEl("text", {x:x(v), y:12, "text-anchor":"middle"}, svg).textContent = Math.round(v * 100) + "%";
+  }
+  rows.forEach((r, i) => {
+    const cy = m.t + i * rowH + rowH / 2, g = svgEl("g", {tabindex:opts.onPick ? 0 : -1, style:opts.onPick ? "cursor:pointer" : ""}, svg);
+    svgEl("rect", {x:0, y:cy - rowH / 2, width:W, height:rowH, fill:"transparent"}, g);
+    svgEl("text", {x:m.l - 10, y:cy + 4, "text-anchor":"end", class:"ink"}, g).textContent = r.label;
+    svgEl("line", {x1:x(r.b), x2:x(r.a), y1:cy, y2:cy, stroke:"var(--muted)", "stroke-width":2}, g);
+    svgEl("circle", {cx:x(r.b), cy, r:6, fill:"var(--surface)", stroke:"var(--ink-2)", "stroke-width":2}, g);
+    svgEl("circle", {cx:x(r.a), cy, r:6, fill:"var(--ink)", stroke:"var(--surface)", "stroke-width":2}, g);
+    svgEl("text", {x:Math.max(x(r.a), x(r.b)) + 12, y:cy + 4, class:"ink2"}, g).textContent = (r.a >= r.b ? "+" : "−") + Math.round(Math.abs(r.a - r.b) * 100) + " pts";
+    hover(g, `<b>${esc(r.label)}</b><br>Before: ${Math.round(r.b * 100)}% (${r.nb})<br>After: ${Math.round(r.a * 100)}% (${r.na})`);
+    if (opts.onPick){ g.addEventListener("click", () => opts.onPick(r)); g.addEventListener("keydown", e => { if (e.key === "Enter"){ opts.onPick(r); } }); }
+  });
+}
+(function words(){
+  const tb = I.collective.before || 1, ta = I.collective.after || 1;
+  dumbbell($("#terms"), I.terms.map(t => ({label:t.term, b:t.before / tb, a:t.after / ta, nb:t.before, na:t.after})).sort((p, q) => q.a - p.a), {left:90});
+  const nb = I.totals.before || 1, na = I.totals.after || 1;
+  const rows = I.themes.map(t => ({label:t.theme, b:t.before / nb, a:t.after / na, nb:t.before, na:t.after, ex:t.example}));
+  const show = r => { $("#theme-examples").innerHTML = `<span class="label">${esc(r.label)}</span>` + ["before", "after"].filter(k => r.ex[k]).map(k =>
+      `<div><div class="meta">${k === "before" ? "Before" : "After"} · ${esc(r.ex[k].date)}</div><div class="quote">${esc(r.ex[k].text)}</div></div>`).join(""); };
+  dumbbell($("#themes"), rows, {left:170, onPick:show});
+  show(rows.slice().sort((p, q) => (q.a - q.b) - (p.a - p.b))[0]);
+})();
+(function groups(){
+  const max = Math.max(...I.groups.map(g => Math.max(g.before, g.after)));
+  const ppl = list => list.length ? list.map(([n, c]) => `${esc(n)} <span class="meta">${c}</span>`).join(", ") : `<span class="meta">none close by</span>`;
+  $("#groups").innerHTML = `<thead><tr><th>Nation</th><th class="num">Before</th><th class="num">After</th><th>Named near them before</th><th>After</th></tr></thead><tbody>` +
+    I.groups.map(g => `<tr><td class="who">${esc(g.name)}</td>
+      <td class="num">${g.before} <span class="mini" style="width:${g.before / max * 50}px;background:var(--ink-2)"></span></td>
+      <td class="num">${g.after} <span class="mini" style="width:${g.after / max * 50}px;background:var(--ink)"></span></td>
+      <td>${ppl(g.people_before)}</td><td>${ppl(g.people_after)}</td></tr>`).join("") + "</tbody>";
+  $("#leaders").innerHTML = `<span class="label">Indigenous people named</span>` + I.leaders.map(l => `<span>${esc(l.name)} <span class="meta">${l.before} before · ${l.after} after</span></span>`).join("");
+})();
+
+/* ============ NETWORK ============ */
+const N = DATA.network;
+const COLORS = ["var(--s1)", "var(--s2)", "var(--s3)"];
+const colorOf = c => COLORS[c] || "var(--other)";
+const NOTES = {
+  "Edwin Sandys": "The Company's leadership after 1619: Sir Edwin Sandys, the Earl of Southampton and the Ferrars.",
+  "Thomas Smythe": "Sir Thomas Smythe's circle. Smythe was treasurer until 1619; with the Rich family his side later opposed the Sandys leadership.",
+  "John Smyth of Nibley": "The backers of Berkeley Hundred: Richard Berkeley, George Thorpe and John Smyth of Nibley, with its captain John Woodlief.",
+};
+let selPerson = null, selCluster = null;
+const byId = new Map(N.nodes.map((n, i) => [n.id, i]));
+const neighbours = N.nodes.map(() => []);
+N.edges.forEach(e => { neighbours[e.a].push(e); neighbours[e.b].push(e); });
+const clusters = [...new Set(N.nodes.map(n => n.c))].sort((a, b) => a - b).map(c => {
+  const members = N.nodes.filter(n => n.c === c).sort((p, q) => q.meetings - p.meetings);
+  const note = members.map(m => NOTES[m.id]).find(Boolean);
+  return {c, members, name:members.slice(0, 2).map(m => m.id).join(" · "), note};
+});
+const W = 900, H = 640, pad = 48;
+const px = n => pad + n.x * (W - 2 * pad - 90), py = n => pad + n.y * (H - 2 * pad);
+const maxM = Math.max(...N.nodes.map(n => n.meetings));
+const rad = n => 4 + Math.sqrt(n.meetings / maxM) * 14;
+const labelled = new Set([...N.nodes.slice().sort((a, b) => b.meetings - a.meetings).slice(0, 20).map(n => n.id),
+  ...clusters.flatMap(c => c.members.slice(0, 3).map(m => m.id))]);
+const svg = $("#net"), gE = svgEl("g", {}, svg), gN = svgEl("g", {}, svg);
+const edgeEls = N.edges.map(e => {
+  const a = N.nodes[e.a], b = N.nodes[e.b], rel = Object.keys(e.rel).length > 0;
+  return svgEl("line", {x1:px(a), y1:py(a), x2:px(b), y2:py(b), class:"edge" + (rel ? " rel" : ""), "stroke-width":(0.8 + e.j * 9).toFixed(2)}, gE);
+});
+const nodeEls = N.nodes.map((n, i) => {
+  const g = svgEl("g", {class:"node", tabindex:0, role:"button", "aria-label":n.id}, gN);
+  svgEl("circle", {cx:px(n), cy:py(n), r:rad(n), fill:colorOf(n.c)}, g);
+  const t = svgEl("text", {x:px(n) + rad(n) + 4, y:py(n) + 4}, g); t.textContent = n.id;
+  if (!labelled.has(n.id)) t.style.display = "none";
+  g.addEventListener("click", () => pickPerson(i));
+  g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pickPerson(i); } });
+  hover(g, () => `<b>${esc(n.id)}</b><br>Named in ${n.meetings} meetings · ${esc(n.span)}`);
+  return g;
+});
+function paint(){
+  const focus = new Set();
+  if (selPerson != null){ focus.add(selPerson); neighbours[selPerson].forEach(e => { focus.add(e.a); focus.add(e.b); }); }
+  N.nodes.forEach((n, i) => {
+    const el = nodeEls[i], inCluster = selCluster == null || n.c === selCluster, inFocus = selPerson == null || focus.has(i);
+    el.classList.toggle("dim", !(inCluster && inFocus));
+    el.classList.toggle("sel", i === selPerson);
+    el.querySelector("text").style.display = (labelled.has(n.id) && inCluster && inFocus) || (selPerson != null && focus.has(i)) || (selCluster != null && n.c === selCluster) ? "" : "none";
+  });
+  N.edges.forEach((e, k) => {
+    const on = selPerson != null ? (e.a === selPerson || e.b === selPerson) : true;
+    const inC = selCluster == null || (N.nodes[e.a].c === selCluster && N.nodes[e.b].c === selCluster);
+    edgeEls[k].classList.toggle("dim", !(on && inC));
+    edgeEls[k].classList.toggle("hi", selPerson != null && on);
+  });
+  document.querySelectorAll("#clusters button").forEach(b => b.setAttribute("aria-pressed", +b.dataset.c === selCluster));
+}
+function pickPerson(i){
+  selPerson = selPerson === i ? null : i;
+  if (selPerson != null) selCluster = null;
+  renderPerson(); paint();
+}
+const REL = {letter_to:"letter", complaint_against:"complaint", transfer_to:"shares passed", kin_of:"family", married:"married", agent_of:"agent"};
+function renderPerson(){
+  const box = $("#person-detail");
+  const i = selPerson ?? byId.get("Edwin Sandys") ?? 0, n = N.nodes[i];
+  const ties = neighbours[i].map(e => ({other:e.a === i ? e.b : e.a, e})).sort((p, q) => q.e.shared - p.e.shared);
+  const cl = clusters.find(c => c.c === n.c);
+  box.innerHTML = `<div><span class="label">${selPerson == null ? "Example · select any person" : "Selected"}</span><h3>${esc(n.id)}</h3>
+    <p class="meta">Named in ${n.meetings} meetings · ${esc(n.span)}</p>
+    <p class="meta"><i style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${colorOf(n.c)};margin-right:5px"></i>Cluster: ${esc(cl.name)}</p></div>
+    <ul class="ties">${ties.map(({other, e}) => `<li><button data-i="${other}">${esc(N.nodes[other].id)}</button><span class="meta">${e.shared ? e.shared + " shared" : ""}${Object.keys(e.rel).length ? " · " + Object.entries(e.rel).map(([k, v]) => REL[k] + (v > 1 ? " ×" + v : "")).join(", ") : ""}</span></li>`).join("")}</ul>`;
+  box.querySelectorAll("button[data-i]").forEach(b => b.addEventListener("click", () => { selPerson = null; pickPerson(+b.dataset.i); }));
+}
+(function legend(){
+  const box = $("#clusters");
+  box.innerHTML = `<span class="label">Clusters · select to highlight</span>` + clusters.map(c => `<button data-c="${c.c}" aria-pressed="false"><i style="background:${colorOf(c.c)}"></i><span><b>${esc(c.name)}</b> <span class="meta">${c.members.length} people</span>${c.note ? `<br><span class="meta">${esc(c.note)}</span>` : ""}</span></button>`).join("");
+  box.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    const c = +b.dataset.c; selCluster = selCluster === c ? null : c; selPerson = null; renderPerson(); paint();
+  }));
+})();
+renderPerson(); paint();
+
+openView((location.hash || "").slice(1));
+</script>

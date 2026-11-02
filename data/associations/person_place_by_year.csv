@@ -1293,8 +1293,8 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1620,John Smyth of Nibley,London,place,yes,18,10,0,,83,high,1620-01-28,1620-09-25,"Yardley knight Richard Berkley Esq, George Thorpe Esq, and John Smyth gefi. did pcure from the Treasorer and company of Adventurers and planters of the city of London for the first Collony in Virginia by the advise and consent"
 1620,John Smyth of Nibley,Bristol,place,,16,10,0,,92,high,1620-01-18,1620-09-22,xvilj day of September .1620. were shipped from our port of Bristoll for plantaéon in Virginia at the charges of Richard Berkeley George Thorpe Wilim Tracy and Iohn Smyth Esqs vnder the conduct of the said Wiltm Tracy appoynted Ca
 1620,Samuel Argall,Virginia,place,yes,16,10,1,office_in; resident_of,4,high,1620-01-18,1620-12-19,"ship the Tresurer, nor any of her tackle or furniture * * * Captaine Argoll at Virginia as aforesaid And he the said Captaine Argoll after the arry"
-1620,John Danvers,Virginia,place,yes,22,9,10,,21,high,1620-01-08,1620-12-13,"att pany touchinge his demaunds for his intended service in Virginia, °°** °°"" vizd S™: Iohn Dauers, and m’‘ Gibbes. S' Edwin Sandis desired this Courte to ta"
 1620,Richard Berkeley,Virginia,place,yes,17,9,0,,19,high,1620-01-28,1620-10-28,20. were shipped from our port of Bristoll for plantaéon in Virginia at the charges of Richard Berkeley George Thorpe Wilim Tracy and Iohn Smyth Esqs vnder the con
+1620,John Danvers,Virginia,place,yes,22,8,10,,21,high,1620-01-08,1620-12-13,"att pany touchinge his demaunds for his intended service in Virginia, °°** °°"" vizd S™: Iohn Dauers, and m’‘ Gibbes. S' Edwin Sandis desired this Courte to ta"
 1620,John Ferrar,Virginia,place,yes,18,8,4,,45,high,1620-01-12,1620-10-28,"the patent¢ touching this point. [Indorsed:] Opinion vpon virginia patent. CVI. Str Epwin Sanpys. A Lerrer To JOHN FERRAR May 1, 1620 Ferrar Papers Document in Magdalene College, C"
 1620,"Thomas West, Lord De La Warr",Virginia,place,yes,15,8,0,,8,high,1620-01-18,1620-12-19,"to one Henry igen apa to Dauies who did goe the Voyadge to Virginia w"" the Lord Lawarr in (""ican Danses 1616 and att six moneths after his landing"
 1620,William Wye,Virginia,place,yes,11,8,0,,53,high,1620-03-20,1620-07-18,[parts] of Virginia aforesaid for * * * and to the * * * of Virginia aforesaid Et ponit vt supra Item That the foresaid Wiltm Wye * * * the power and authority aforesaid was made and ordeyn
@@ -1640,7 +1640,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1620,William Waller,England,place,yes,1,1,0,,246,high,1620-05-31,1620-05-31,"m her Ladiships Accompt and past to the Accompt of the said William Waller, w™ y® Courte willingly assented vnto and confirmed. eae el M’ Thier signified vnto the Courte that m* Deputy had procured elk ™° Duteh Carpenters from Hamborough men skillfull for the erectinge of Sawinge Mills who were shor"
 1620,William Waller,London,place,yes,1,1,0,resident_of,4,high,1620-05-31,1620-05-31,"r was now to be passed to m: Ted signifyinge that wheras m* William Waller of London Marchant had Adventured xij"" x* w™ her Lord 6 or7 years sit"
 1620,William Waller,Virginia,place,yes,1,1,0,,269,high,1620-05-31,1620-05-31,"m her Ladiships Accompt and past to the Accompt of the said William Waller, w™ y® Courte willingly assented vnto and confirmed. eae el M’ Thier signified vnto the Courte that m* Deputy had procured elk ™° Duteh Carpenters from Hamborough men skillfull for the erectinge of Sawinge Mills who were shor"
-1620,William Webb,Virginia,place,yes,1,1,0,,43,high,1620-11-15,1620-11-15,ptain Tucker. These were appoynted to take care of the two Virginia maydes remayn- inge in the Custodie of m* William Webb the husband vizd m' Case-
 1620,William Wye,Chickahominy,indigenous_group,,1,1,0,,94,medium,1620-05-17,1620-05-17,"he governot of the said place * * * delivered vnto the said Willm Wye, and comitted * * * Wye was made acquainted of the banishment of * * * * * * Item That the Chekohomini or sa * * * people * * * and sent and before comitted * * *"
 1620,Henry Wriothesley,London,place,yes,9,0,0,,373,high,1620-01-12,1620-12-13,"Accounts may be made clere & perfect. I would be glad that my L. of Southampton knew the necessitie of this my stay here, to stop such suggestions as my unfrends may make. So w* hartiest commendation to y"" & all yo"", I rest also Yor® assured Epwin SANDYS Northborn 1. Maij: 1620. [Indorsed by Nich Fe"
 1620,John Danvers,London,place,yes,9,0,3,,302,high,1620-01-12,1620-12-13,"ne time this Courte have nomi- nated S' Edward Sackuill, 8‘ Iohn Dauers, m™ Thomas Gibbs, m* Deputy, D’ Winstone, m’ Wrote, and m* Berblock to repayre vnto the Lords att such time as they know S’ Tho: Smithe resoluéon. [122] : peveeree lena Sir Thomas Gates by two seuerall bills assigned 3 Shares to"
@@ -2766,6 +2765,12 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1620,Thomas Wroth,Elizabeth City,place,,1,0,0,,,high,1620-04-01,1620-04-01,
 1620,Thomas Wroth,Plymouth,place,,1,0,1,,,high,1620-04-01,1620-04-03,
 1620,Thomas Wroth,The Downs,place,,1,0,0,,,high,1620-04-01,1620-04-01,
+1620,Two Indian maids (Mary and Elizabeth?),England,place,yes,1,0,0,,,high,1620-11-15,1620-11-15,
+1620,Two Indian maids (Mary and Elizabeth?),INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1620-11-15,1620-11-15,
+1620,Two Indian maids (Mary and Elizabeth?),New England,place,,1,0,0,,,high,1620-11-15,1620-11-15,
+1620,Two Indian maids (Mary and Elizabeth?),Poland,place,,1,0,0,,,high,1620-11-15,1620-11-15,
+1620,Two Indian maids (Mary and Elizabeth?),Sweden,place,,1,0,0,,,high,1620-11-15,1620-11-15,
+1620,Two Indian maids (Mary and Elizabeth?),Virginia,place,yes,1,0,0,,1697,high,1620-11-15,1620-11-15,"ould please to graunt him some Competent portion of Land in Virginia, aswell in recompence of his service there, so well knowne to this Companey in vndertakinge the Charge of all the muniéon and pro- vision belonginge to the Collony beinge allsoe sworne of his Ma*: Counsell there, and shortlie after"
 1620,Walter Earle,Elizabeth City,place,,1,0,1,,,high,1620-04-01,1620-05-17,
 1620,Walter Earle,England,place,yes,1,0,1,,826,high,1620-05-23,1620-11-13,"knight, S' Tho: Wils- ford knight, 8S‘ Tho: Wroth knight S* Walter Earle knight, S' ohn Wolstenholme knight, 8’ Henrie Maynwaringe knight, S"" Edward Lawley knight, Thomas Gibbes esqr George Sandys esquire, Samuell Wrote Esqr M’* [ohn Ferrar Deputy and a great nomber of the gener- allitie of the said"
 1620,Walter Earle,London,place,yes,1,0,1,,,high,1620-05-17,1620-05-23,
@@ -2816,6 +2821,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1620,William Webb,New England,place,,1,0,0,,,high,1620-11-15,1620-11-15,
 1620,William Webb,Poland,place,,1,0,0,,,high,1620-11-15,1620-11-15,
 1620,William Webb,Sweden,place,,1,0,0,,,high,1620-11-15,1620-11-15,
+1620,William Webb,Virginia,place,yes,1,0,0,,1748,high,1620-11-15,1620-11-15,"ould please to graunt him some Competent portion of Land in Virginia, aswell in recompence of his service there, so well knowne to this Companey in vndertakinge the Charge of all the muniéon and pro- vision belonginge to the Collony beinge allsoe sworne of his Ma*: Counsell there, and shortlie after"
 1620,William Weldens,Dancing Point,place,,1,0,0,,1959,medium,1620-01-18,1620-01-18,"of Victuall@ brought for those 100. men fell so short, that Captaine Welden and M* Whitaker€ were forced (notwthstanding o' plenty) to putt out 50. or thereabouté for a yere, by the Governo™ and Councell€ advise. ffor whom they are to receyue the next yere, 3. barrell¢ of corne and 55"" of tobacco fo"
 1620,William Weldens,Henricus,place,,1,0,0,,579,medium,1620-01-18,1620-01-18,"of Victuall@ brought for those 100. men fell so short, that Captaine Welden and M* Whitaker€ were forced (notwthstanding o' plenty) to putt out 50. or thereabouté for a yere, by the Governo™ and Councell€ advise. ffor whom they are to receyue the next yere, 3. barrell¢ of corne and 55"" of tobacco fo"
 1620,William Weldens,Southampton Hundred,place,,1,0,0,,1909,medium,1620-01-18,1620-01-18,"of Victuall@ brought for those 100. men fell so short, that Captaine Welden and M* Whitaker€ were forced (notwthstanding o' plenty) to putt out 50. or thereabouté for a yere, by the Governo™ and Councell€ advise. ffor whom they are to receyue the next yere, 3. barrell¢ of corne and 55"" of tobacco fo"
@@ -3718,7 +3724,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Edward Bennett,Virginia,place,yes,5,2,2,,8,high,1621-02-22,1621-11-14,"een att a verie great charge for transportinge of people to Virginia namely m* Bennett who now ioynes himselfe in this buisines w™ m’ Wiseman, and"
 1621,Gabriel Barber,England,place,yes,5,2,1,,228,high,1621-05-01,1621-11-21,"l. m’ Webb. m* Rogers. m’* Couell. m’* Fogge. m* Edwards. m* Barbor. W"" Divers Others. The aunswere of the Virginia Company to the Right honorable the Tt of his Ma*: pryvy Counsell touchinge their tt: proposiéons for vi bringinge in or not bringinge in of all their Tobacco from Virginia into England"
 1621,Henry Wriothesley,London,place,yes,5,2,1,,25,high,1621-01-21,1621-10-24,"inge else: wherefore in that regard, as also that the noble Earle of Southampton, is not yet returned to London nor those eminent psons, wttout whose Councell, and authori"
-1621,John Bland,INDIGENOUS (collective reference),indigenous_collective,,5,2,0,,39,high,1621-05-01,1621-11-21,"of m’ Blany to be their ffacto"" or Agent to trade with the Indians for Furrs, and for this purpose allso m’ Bland hath vndertaken to peure one to ioyne with him that is veri"
 1621,John Pory,England,place,yes,5,2,0,,44,high,1621-05-03,1621-12-23,"Sandys, in answer to that of M’ Nicolas Hyde, &c. sent for England by the Bona noua, 16 May 1621. [Copied by John Pory.]"
 1621,Richard Edwards,Virginia,place,yes,5,2,8,,225,high,1621-01-31,1621-12-19,". m’* Caswell. m’ Webb. m* Rogers. m’* Couell. m’* Fogge. m* Edwards. m* Barbor. W"" Divers Others. The aunswere of the Virginia Company to the Right honorable the Tt of his Ma*: pryvy Counsell touchinge their tt: proposiéons for vi bringinge in or not bringinge in of all their Tobacco from Virginia "
 1621,Richard Widowes,Virginia,place,yes,5,2,9,,261,high,1621-01-29,1621-11-21,Newce. m' Wheatly. m’ Rugles. m' Geo: Sandys. m' Boothby. m' Widdowes. Doctor Anthony. m' Barbor. m' Baynam. m' Smith. m* Couell. m' Kwens. m' Shepperd. m' Combs. m' Steward. m' Bull. Captain Tucker. m' Casewell. Whereas it hath been taken into consideratéon howe importantly necessary it is to estab
@@ -3763,9 +3768,9 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Edwin Sandys,England,place,yes,15,1,0,,53,high,1621-04-12,1621-12-23,"sed by John Pory:] Copie of Sir G. Yeardleyes letter to Si* Edwin Sandys, in answer to that of M’ Nicolas Hyde, &c. sent for England by the Bona noua, 16 May 1621. [Copied by John Pory.]"
 1621,George Smith,Virginia,place,yes,8,1,6,,91,high,1621-04-12,1621-11-21,reparaéon might be made accordingly. Atv A CouURT HELD FOR VIRGINIA ON WEDENSDAY THE 4™ DECEMBER i621 m’ Deputy. m’ Wiseman. m' Cuffe. m' Gibbs. m’* Bland. m’ Geo: Smith. m'* Wrote. m'‘ Mellinge. m’ Webbe. m* Shippard. m* Meuere
 1621,Edwin Sandys,Ireland,place,,7,1,0,,191,high,1621-04-12,1621-12-23,there by building of some Towne as they had alredie done in Ireland to their good proffitt w moéon was well approved of and thought fitt to be prose- cuted to effect. Touchinge Tobacco w™ hath been allwaies so generally affected by the Planters in Virginia St Edwin Sandys signifyed how extreamly dis
-1621,George Yeardley,INDIGENOUS (collective reference),indigenous_collective,,7,1,0,,300,high,1621-01-21,1621-12-23,"ie of glass and bead@ be vilified by to Comon a sale to the Indians And wee canot forbeare to deliu’ vnto you the good opinion the Company has received of Liuetennt Whittakers for the good accompt given by him of his charge, but especially of his obedience to theire direcéons, in erectinge a guest h"
 1621,Richard Caswell,London,place,yes,7,1,1,,88,high,1621-04-30,1621-11-21,wished the Company to consider of against the next Courte. M' Casewell likewise moved that some course might be thought on to stirr vpp the Companies here in London that had adventured monny towards the PlantaGon in Virginia
 1621,Thomas Melling,Virginia,place,yes,7,1,12,,254,high,1621-01-29,1621-12-19,"DECEMBER 19, 1621 571 At A CoURT HELD FOR VIRGINIA THE 19™ oF DECEMBER 1621 PRESENT S* Io Dauers. Capt: Bargraue. S* Walter Karle. m’ Barbo'. S' Edw: Lawly. m"" Ayres. m'’ Deputy. m’* Leuer. m'* Gibbs. m’ Paulavicine. m’ Wrote. m* Copland. m* Jo: Smith. m’ Baynham. m’ Ro: Smith. m’ ffelgate. m’* Wrot"
+1621,George Yeardley,INDIGENOUS (collective reference),indigenous_collective,,6,1,0,,300,high,1621-01-21,1621-12-23,"ie of glass and bead@ be vilified by to Comon a sale to the Indians And wee canot forbeare to deliu’ vnto you the good opinion the Company has received of Liuetennt Whittakers for the good accompt given by him of his charge, but especially of his obedience to theire direcéons, in erectinge a guest h"
 1621,John Pountis,England,place,yes,6,1,0,,274,high,1621-06-18,1621-12-23,"first aunsweare was made that the Companie did not conceaue m* Pountis to be any way engaged vnto them but rather had receaued much preiv- dice by their failinge him of their promised Supplies whereby he could effect nothinge for want of meanes, where it did appeare he was so much dishartned as it m"
 1621,Nicholas Ferrar,INDIGENOUS (collective reference),indigenous_collective,,6,1,0,,39,high,1621-05-01,1621-12-23,"ds, to be disposed of for the education of children of the Infidels, in Christian religion and ciuility. Master Nicholas Farrar of London, deceased, hath by his Will giuen, 300 li. to th"
 1621,Richard Caswell,Ireland,place,,6,1,0,,231,high,1621-06-11,1621-11-21,wished the Company to consider of against the next Courte. M' Casewell likewise moved that some course might be thought on to stirr vpp the Companies here in London that had adventured monny towards the PlantaGon in Virginia to doe the like there by building of some Towne as they had alredie done in
@@ -3776,9 +3781,9 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Abraham Chamberlaine,Virginia,place,yes,5,1,0,travel_to,158,high,1621-10-24,1621-12-19,"einge there. M’ Robert Staples a Minister comended much by m* Abraham Cham- berlen and by Certificate from many Diuines resident in this Citty reportinge him to be of honest conversaéon and a good Scholler: beinge desirous to goe to Virginia did nowe make request, that the Companie would please to e"
 1621,Henry Wriothesley,England,place,yes,5,1,0,,192,high,1621-01-21,1621-10-24,"all hono’: and welfare of the Plantation, was to entreat of my lord of Southampton & the Counsell: that in the said Patent (if no such [198] addiéon of power were therein inserted) authority might be given to the quarter Court¢, to question the Gouerno' of Virginia here in England if the ill merritt"
 1621,John Bargrave,England,place,yes,5,1,3,,189,high,1621-05-01,1621-11-21,. m’ Baynham. m’* Swinhowe. m’ Abraham Chamblen. wm’ Viner. Capt: Bargraue. m’ Woodall. Whereas b¥ the last Quarter Court appointed a great Comittee to take into consideratéon the Propositions of the Lords of the Counsell for bringing in all their Tobacco into England concerninge w™ the said Comitte
+1621,John Bland,INDIGENOUS (collective reference),indigenous_collective,,5,1,0,,39,high,1621-05-01,1621-11-21,"of m’ Blany to be their ffacto"" or Agent to trade with the Indians for Furrs, and for this purpose allso m’ Bland hath vndertaken to peure one to ioyne with him that is veri"
 1621,Richard Bolton,Virginia,place,yes,5,1,2,,204,high,1621-06-11,1621-11-21,"he Right Honorable the Ea: of Southamptons recomendaéons of m* Bolton Minister for his honestie and sufficiencie in Learninge, and to yvndertake the care and charge of the Mynistry, The Company have been pleased to entertaine him for their Mynister in some vacant place in Virginia and have therfore "
 1621,Richard Bull,London,place,yes,5,1,0,,281,high,1621-04-30,1621-11-21,"the Accounts in m’ Essingtois hand@ and to giue warrant to m' Richard Bull to paye what shall appeare to be due to euery man, the Broke for non payment¢€ at due times beinge allowed accordinge to the orders of the Magazine vnto w warranté one of the last yeares auditors at least is appointed to sett"
-1621,Richard Caswell,INDIGENOUS (collective reference),indigenous_collective,,5,1,0,,95,high,1621-05-01,1621-11-21,have added vnto them— m* Ayres. m'* Mellinge m’ Bland. and m’ Casewell. m' Cuffe. Itt beinge referred to this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Comp
 1621,Thomas Smythe,England,place,yes,5,1,0,,264,high,1621-05-01,1621-12-23,"Tiranicall goiment ymposed vpon the people in Virginia ete Thomas Smyth sayth that the Comissions giuen by him as Trever & the ves{# rest of his Matis Counsell for Virginia vnto St Thomas Gates «& other the Goiino™ sent to Virginia were neuer otherwise, but expresslye to rule and gouerne so neer as "
 1621,Abraham Chamberlaine,England,place,yes,4,1,0,,216,high,1621-10-24,1621-11-21,ddowes. m* Barbo’. m' Rogers. m’ Baynham. m’* Swinhowe. m’ Abraham Chamblen. wm’ Viner. Capt: Bargraue. m’ Woodall. Whereas b¥ the last Quarter Court appointed a great Comittee to take into consideratéon the Propositions of the Lords of the Counsell for bringing in all their Tobacco into England con
 1621,Francis Wyatt,INDIGENOUS (collective reference),indigenous_collective,,4,1,0,,195,high,1621-06-13,1621-12-23,"e shipped for want of time and Tunnage; wee haue desired St Francis Wyatt to supply them w'"", w*"" he shalbe repaid: and thus supplied wee hope they wilbe encoraged to bringe that so much desired worke to its pfecton Wee exeedingly approue yo"" course in takinge in of Indian families as beinge a great"
@@ -3791,7 +3796,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Nicholas Hyde,England,place,yes,4,1,0,travel_to,15,high,1621-05-01,1621-11-21,"Yeardleyes letter to Si* Edwin Sandys, in answer to that of M’ Nicolas Hyde, &c. sent for England by the Bona noua, 16 May 1621. [Copied by John Pory.]"
 1621,Richard Widowes,England,place,yes,4,1,2,,286,high,1621-05-01,1621-11-21,Newport. m* Edwards. m’ Morewood. m’ Whitely. m’* Ayres. m’ Widdowes. m* Barbo’. m' Rogers. m’ Baynham. m’* Swinhowe. m’ Abraham Chamblen. wm’ Viner. Capt: Bargraue. m’ Woodall. Whereas b¥ the last Quarter Court appointed a great Comittee to take into consideratéon the Propositions of the Lords of t
 1621,Thomas Ayres,Ireland,place,,4,1,0,,71,high,1621-06-13,1621-11-21,nter vndertak€ x° 100 psons. To Daniell Gookin of Corke in Ireland Planter x° 300 psons. To Edw: Bennett Robert Bennet Richard Bennett. Thomas Ayres Thomas Wiseman and Richard Wiseman Planters who vndertaketh
-1621,Thomas Melling,INDIGENOUS (collective reference),indigenous_collective,,4,1,0,,121,high,1621-05-01,1621-11-21,ceedingé therin the Courte have added vnto them— m* Ayres. m'* Mellinge m’ Bland. and m’ Casewell. m' Cuffe. Itt beinge referred to this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Comp
 1621,Thomas Wheatley,Virginia,place,yes,4,1,3,,236,high,1621-01-29,1621-11-21,mas Butler sett short one share in the printed booke and of m* Wheatly sett short two shares the Sec- retary was willed to take notice thereof and to enter them into the Booke for that purpose ordered to be kept. [801] Captaine Bargraue moued that for somuch as Captain Martin intends to sett forward
 1621,William Ewens,Virginia,place,yes,4,1,0,office_in,33,high,1621-04-30,1621-07-10,n m* Ewens behalfe to the Gouernor and Counsell of State in Virginia who were entreated to peure for m* Ewens what fraight they could homewards in recompence of the loss
 1621,Edward Hackett,Virginia,place,yes,3,1,1,,289,high,1621-02-22,1621-10-15,"ourt their opinions touching the same. AT A COURT HELD FOR VIRGINIA THE 12 or AprRitu 1621: PRESENT. The right hono’® The Ea: of Huntingdon. The Ea: of Southampton. S*' Edwyn Sandys. S* Iohn Dauers. S' Iohn Wolstenholme. S’ ffrancis Wyate. S' Iohn Brookes. S' Walter Earle. m' Gibbs. m"" Rogers. m* Be"
@@ -3812,7 +3816,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Patrick Copland,Cape of Good Hope,place,,3,1,0,,47,high,1621-10-01,1621-12-23,"shillings sixe pence) were disposed, which was gathered (by M. Patrick Copland, Preacher in the Royall James) at the Cape of good hope, (towards the"
 1621,Richard Edwards,England,place,yes,3,1,2,,239,high,1621-10-01,1621-11-21,". m’* Caswell. m’ Webb. m* Rogers. m’* Couell. m’* Fogge. m* Edwards. m* Barbor. W"" Divers Others. The aunswere of the Virginia Company to the Right honorable the Tt of his Ma*: pryvy Counsell touchinge their tt: proposiéons for vi bringinge in or not bringinge in of all their Tobacco from Virginia "
 1621,Richard Wiseman,Ireland,place,,3,1,0,,103,high,1621-10-15,1621-11-21,nter vndertak€ x° 100 psons. To Daniell Gookin of Corke in Ireland Planter x° 300 psons. To Edw: Bennett Robert Bennet Richard Bennett. Thomas Ayres Thomas Wiseman and Richard Wiseman Planters who vndertaketh for 200 psons. To S* Charles Nort
-1621,Thomas Ayres,INDIGENOUS (collective reference),indigenous_collective,,3,1,0,,135,high,1621-05-01,1621-11-21,their proceedingé therin the Courte have added vnto them— m* Ayres. m'* Mellinge m’ Bland. and m’ Casewell. m' Cuffe. Itt beinge referred to this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Comp
 1621,Arthur Swayne,London,place,yes,2,1,1,,16,high,1621-06-11,1621-11-21,"e Ship to send her to Flushinge and had allso agreed w'"" m’ Arthur Swayne a Marchaunt of London comended for his fidelitie & sufficyency to be their ffacto"
 1621,Churchill Moone,London,place,yes,2,1,0,,25,high,1621-04-30,1621-11-14,yeares auditors at least is appointed to sett his hand. M' Churchill Moone of the Middle Temple in London gentleman hau- inge eight shares of land in Virginia allowe
 1621,Cutbert Essington,Virginia,place,yes,2,1,1,,66,high,1621-07-10,1621-12-19,d that the reward of Tobacco allowed him by the Gouernor of Virginia shalbe confirmed vnto him. [253] Vppon the humble peticon of m‘ Cutbert Essington yt the Court would please to pay for his passage home and f
@@ -3836,7 +3839,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,James I,Virginia,place,yes,2,1,0,,293,high,1621-03-06,1621-10-24,"IBITING LOTTERY Marczu 8, 1620/21 State Papers, Domestic, James I, Volume 187. Printed, No. 89. (Proclamations from 1603 to 1624) Document in Public Record Office, London List of Records No. 233 By the King Whereas, at the humble suit and request of sundry Our louing and well disposed Subiects, inte"
 1621,John Boys,England,place,yes,2,1,0,,208,high,1621-05-16,1621-05-16,"n answer to M' Nicolas Hydes letter written to yo"" Selfe in England; and so recomending &e. I rest Yo’ very ready at your seruice G. YEARDLEY. James citty May 16. 1621. A note of the disposeing of Sir Lawrence Hydes & M' Nicolas Hydes men copied out of the handwriting of M* John Boys Warden of Marti"
 1621,John Boys,James City,place,,2,1,0,,119,high,1621-05-16,1621-05-16,ng &e. I rest Yo’ very ready at your seruice G. YEARDLEY. James citty May 16. 1621. A note of the disposeing of Sir Lawrence Hydes & M' Nicolas Hydes men copied out of the handwriting of M* John Boys Warden of Martins hundred. S' Lawrence Hyde hath one serua
-1621,John Cuffe,INDIGENOUS (collective reference),indigenous_collective,,2,1,0,,85,high,1621-06-13,1621-11-21,to them— m* Ayres. m'* Mellinge m’ Bland. and m’ Casewell. m' Cuffe. Itt beinge referred to this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Comp
 1621,John Ferrar,America,place,,2,1,0,,166,high,1621-10-24,1621-12-23,"ight hono?’ the Earle of Southampton 8"" Edwin Sandys knight John fferrar Thomas Kightly Gabriell Barbo™ and John Delbridge haue sett fourth the good Ship called the Darlinge of the burden of 40 tun for to go on fishinge vpon the Coast of America for the benifitt and suste- nance of the Colony in Vir"
 1621,John Ferrar,Scotland,place,,2,1,0,,125,medium,1621-06-18,1621-12-23,is to say of England ffrance and Ireland the Nyneteenth and Scottland the fower and fiftith. Signed by the Ea: of SourHAMPTON S* EpWIN SANDIS m'’ Nicuo: ffERRAR m'’ JOHN DAUERS Do* ANTHONY m’ JoHN ffERRAR deputy Do’ Wasson ! m'’ Tuo: GIBBS Do’ GALSTON m' Sam WROTE
 1621,John Hart,Virginia,place,yes,2,1,4,,252,high,1621-06-13,1621-07-24,"Morewood. m’ Bromfeild. m’ Bull. m* Newporte. m’ Darnelly. m'* Harte. m’ Fogge. m* Vyner. m' Palavacine. m’ Crossland. m’ Jadwin. m’ Lawne. w"" divers others. [255] Wheras att a Courte held the 12“ of this psent monneth the bargaine made w™ Captaine Norton and the Italyans for settinge vpp of a Glass"
@@ -3859,6 +3861,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,"Thomas West, Lord De La Warr",INDIGENOUS (collective reference),indigenous_collective,,2,1,0,,287,high,1621-10-24,1621-11-21,"t certaine and benificiall trade of ffurrs to be had w™ the Indians in Virginia in the lymitt€ of the Southerne Colony, it beinge credibly informed both by letters from the Gouernor and Counsell of State in Virginia as also by relaGon of others of the great Trade of ffurrs w™ is yearely made by the "
 1621,Thomas White,Virginia,place,yes,2,1,0,,57,medium,1621-09-11,1621-12-23,"s informed that there is great want of worthie Ministers in Virginia wherefore they haue enterteined, and now send along, mt Thomas White a man of good sufficiencie for learning, and recomended for"
 1621,Thomas Wood,Virginia,place,yes,2,1,0,,53,high,1621-06-13,1621-12-23,"to Capt Thomas Woode deceased (beinge his onely brother) w"" Thomas Wood adventured the some of 50"" towards the Plantaéon in Virginia Ann®: 1609 as by his bills of Adventure may appeare; Itt is"
+1621,Two Indian maids (Mary and Elizabeth?),Virginia,place,yes,2,1,0,,279,high,1621-06-11,1621-06-13,and of the Comp*: and vndertaken to plant 100 Per- sonns in Virginia for w™ they had graunted him a Pattent vnder Seale desyred the Company would please to allott him Elizab: Iland neere Cape Codd to plant vppon The Court agreed yt direcéon should be given to the Gouernor to that effect. M* Webb mov
 1621,William Capps,INDIGENOUS (collective reference),indigenous_collective,,2,1,0,,160,high,1621-05-01,1621-12-23,"or the time past is likewise confirmed by erecéon of hand. M’ Capps reward of 5. men passage free at the Companies charge, in consideraéon of his many yeares service for the Company in Virginia w"" hazard of his life amonge the Indians is likewise confirmed. After these buisinesses were thus o"
 1621,William Ewens,Isle of Wight,place,,2,1,0,,75,high,1621-04-30,1621-05-01,"ended it to the Quarter Court, and w'""all enioyned the said m' Ewens, to haue his Shipp in a readines by the first of Iuly next, either at the Ile of Wight, or where the Comittees shall appointe, whome he is require"
 1621,William Mounson,Virginia,place,yes,2,1,0,,195,high,1621-01-29,1621-05-01,"Dauers moved that accordinge to a former order of Courte S Willm Mounson aNd intimaéon by the Counsells letters vnto the Gouerno’ of a Patent intended to be granted to 8‘ W™: Mounson and his Associate, of two Comodities not yet discouered or planted by any other in Virginia: for somuch as a draft of"
@@ -3875,6 +3878,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Arthur Kemis,Virginia,place,yes,1,1,0,,128,high,1621-02-14,1621-02-14,"20/21 427 Francys his wife Alexander Broadway. Iohn Linzey Arthur Kemis gent. GEORGE YEARDLEY lo: Pory. Seer. [Indorsed:] A certificate of the arriual of fifty persons out of England at Barklay in Virginia Ian: 29 .1620. ||ffrom S"" geo: Yardley.|| CLV. Houss or Lo"
 1621,Arthur Swayne,Flushing,place,,1,1,0,,29,medium,1621-06-11,1621-06-11,"t have given order to Damiron m‘ of the Ship to send her to Flushinge and had allso agreed w'"" m’ Arthur Swayne a Marchaunt of London comended for his fidelitie & sufficye"
 1621,Arthur Swayne,The Downs,place,,1,1,0,,182,medium,1621-06-11,1621-06-11,"the Duty was now returned from Virginia and attended in the Downes for her direcéon whether to goe, the Counsell and Comittees haveinge mett aboute itt have given order to Damiron m‘ of the Ship to send her to Flushinge and had allso agreed w'"" m’ Arthur Swayne a Marchaunt of London comended for his"
+1621,Chanco,INDIGENOUS (collective reference),indigenous_collective,,1,1,0,,214,low,1621-12-23,1621-12-23,"places to finish the Execution, who failed not at the time: Perries Indian rose out of his bed and reueales it to Pace, that vsed him as a Sonne: And thus the rest of the Colony that had warning giuen them, by this meanes was saued. Such was (God bee thanked for it) the good fruit of an Infidell con"
 1621,Charles North,Ireland,place,,1,1,0,,166,high,1621-11-21,1621-11-21,nter vndertak€ x° 100 psons. To Daniell Gookin of Corke in Ireland Planter x° 300 psons. To Edw: Bennett Robert Bennet Richard Bennett. Thomas Ayres Thomas Wiseman and Richard Wiseman Planters who vndertaketh for 200 psons. To S* Charles North of Wakringham in the County of Nottingham for 100: To m*
 1621,Charles North,Nottinghamshire,place,,1,1,0,,22,high,1621-11-21,1621-11-21,hard Wiseman Planters who vndertaketh for 200 psons. To S* Charles North of Wakringham in the County of Nottingham for 100: To m* Leninge—100 So that the whole number vnder
 1621,Cutbert Essington,England,place,yes,1,1,0,,49,medium,1621-07-10,1621-07-10,[margin note] m’ Cutbert Essington to be sett free and to haue his passage free to England.
@@ -4017,6 +4021,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Thomas Wood,Falling Creek,place,,1,1,0,,198,low,1621-12-23,1621-12-23,"TIohn Dowler. Iohn Howlet, and his sonne. Laurence Dowler. Thomas Wood, and Collins Lewis Williams. his man. Richard Boscough. Ioseph Fitch Apothecary to Thomas Holland. Doctor Pots. Iohn Hunt. [36] At Master Thomas Sheffeilds Plantation, some three miles from the Falling Creeke. Master Th: Sheffeil"
 1621,Thomas Wood,Holland,place,,1,1,0,,92,low,1621-12-23,1621-12-23,"TIohn Dowler. Iohn Howlet, and his sonne. Laurence Dowler. Thomas Wood, and Collins Lewis Williams. his man. Richard Boscough. Ioseph Fitch Apothecary to Thomas Holland. Doctor Pots. Iohn Hunt. [36] At Master Thomas Sheffeilds"
 1621,Thomas Wood,Sussex,place,,1,1,0,,85,high,1621-06-13,1621-06-13,"informaéon that Ambrose Wood of Hamsey in the pea shares! County of Sussex gent is the next heir ynto Capt Thomas Woode deceased (beinge his onely brother) w"" Thomas Wood adventured the some of 50"" towards the Plantaéon in Virgini"
+1621,Two Indian maids (Mary and Elizabeth?),Cape Cod,place,,1,1,0,,151,high,1621-06-11,1621-06-11,the Company would please to allott him Elizab: Iland neere Cape Codd to plant vppon The Court agreed yt direcéon should be given to the Gouernor to that effect. M* Webb moved y‘ some course might be taken that the two Indian Maydes might be disposed of to free the Company of the weeklie cha
 1621,William Felgate,Virginia,place,yes,1,1,0,,230,high,1621-12-19,1621-12-19,"DECEMBER 19, 1621 571 At A CoURT HELD FOR VIRGINIA THE 19™ oF DECEMBER 1621 PRESENT S* Io Dauers. Capt: Bargraue. S* Walter Karle. m’ Barbo'. S' Edw: Lawly. m"" Ayres. m'’ Deputy. m’* Leuer. m'* Gibbs. m’ Paulavicine. m’ Wrote. m* Copland. m* Jo: Smith. m’ Baynham. m’ Ro: Smith. m’ ffelgate. m’* Wrot"
 1621,William Nicholls,Virginia,place,yes,1,1,0,,207,high,1621-02-22,1621-02-22,"ented a treatise w"" he had made concerning the gouerment of Virginia moved, that a Comittee might be appointed to peruse the same wherevpon the Court nominated 8° Edward Sackuill 8S‘ ffrancis Wyate m* Gibbs m* Wrote m* Deputy m’ George Sandys Captain Masters Captain Bingham m* Nicholas fferrar and m"
 1621,William Norton,Charles City,place,,1,1,0,,92,high,1621-08-12,1621-08-12,"ant himself in neare to the best inhabited towne, either in Charles Citty or Henerico, but by no meanes lower then James Cittie, nor remote from people: and in case Capt Norton shall dy we pray you m' George Sandys to vndertake the over"
@@ -4028,7 +4033,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,William Tucker,Scotland,place,,1,1,0,,232,low,1621-12-23,1621-12-23,"interchange any Com? w*out the leaue & lycence of the said Capt William Tucker. Giuen vnder my hand & the great seale the three & twentith day of December, In the nyneteenth yeare of the raigne of o' Soueraigne Lord James by the grace of God King of England ffrance & Ireland defendor of the faith &c"
 1621,William Tucker,Virginia,place,yes,1,1,0,,69,low,1621-12-23,1621-12-23,"e yee that S"" ffrancis Wyatt Kt Gouernor & Capt generall of Virginia, doe by these present¢€ giue full power & absolute authoritie, vnto Capt William Tucker, Capt of the good pinnace Called the ellnor, now riding bef"
 1621,Nicholas Ferrar,England,place,yes,13,0,2,,313,high,1621-04-12,1621-12-23,Sandys. m’ Wrote. S’ Iohn Dauers. m’ Ro: Smith. m’ Deputy. m’ Nicho: ffarrar. m’ Gibbs. m’ Caswell. After these thing were thus ordered m’ Deputy aduertized the Com- panie that he was to acquaint them with a waightie buissines namely the proceedinge of some former Court€ touchinge the Lord¢ of the P
-1621,Edwin Sandys,INDIGENOUS (collective reference),indigenous_collective,,11,0,0,,423,high,1621-04-12,1621-12-23,"rof they were desyred to consyder against the next Courte. St Edwin Sandys signified that 8"" Richard Bulkley haveinge purchased two shares of Land of the Comp*: and vndertaken to plant 100 Per- sonns in Virginia for w™ they had graunted him a Pattent vnder Seale desyred the Company would please to a"
+1621,Edwin Sandys,INDIGENOUS (collective reference),indigenous_collective,,10,0,0,,480,high,1621-04-12,1621-12-23,"COMPANY CLXV. GEorGE THORPE AND JOHN Pory. A LETTER TO Str EDWIN SANDYS May 15 anv 16, 1621 Ferrar Papers Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal List of Records No. 2438 Hobe Sr vnto whom although $I owe$ verie much and am willinge to paie some thinge, yeat soe"
 1621,Samuel Wrote,England,place,yes,9,0,1,,335,high,1621-04-12,1621-11-21,"N ffERRAR deputy Do’ Wasson ! m'’ Tuo: GIBBS Do’ GALSTON m' Sam WROTE m’ GEORGE SANDYS CLXXXIII. TreasuRER AND Company. AN ORDINANCE AND CONSTI- TUTION FOR COUNCIL AND ASSEMBLY IN VIRGINIA JuLY 24, 1621 Manuscript Records, Virginia Company, III, Part i, Pages 9a—10 Document in Library of Congress, W"
 1621,John Bland,England,place,yes,8,0,1,,443,high,1621-04-12,1621-11-21,"odi- of beinge bound to bringe in all their comodities into England w*out tics inte this fallinge into very great inconvenyencies they did agree to have these j., mm ae reasons together w™ such other as the Counsell y* morninge haveinge heads. mett have thought vppon to be drawne vp into certaine he"
 1621,John Danvers,England,place,yes,8,0,1,,357,high,1621-04-12,1621-11-21,mittee to see it donn vizt. S’ Edwin Sandys. m’ Wrote. S’ Iohn Dauers. m’ Ro: Smith. m’ Deputy. m’ Nicho: ffarrar. m’ Gibbs. m’ Caswell. After these thing were thus ordered m’ Deputy aduertized the Com- panie that he was to acquaint them with a waightie buissines namely the proceedinge of some forme
@@ -4046,6 +4051,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,John Bland,Ireland,place,,5,0,0,,597,high,1621-06-13,1621-11-21,Notice was giuen of a certaine gentleman lately come out of Ireland that offered to transport Cattle to Virginia at easie rat€: It was there- fore moued that such as were desirous to send any Cattle thither would please to acquaint m’ Deputy therewith that they might proceed to a further treaty with
 1621,John Danvers,Ireland,place,,5,0,0,,378,high,1621-06-13,1621-11-21,"ament and entreated S‘ Dudley Diggs, 8’ Edwin Sandys and S* Iohn Dauers to take some paines in the drawinge of the saide Bill. [238] A moGon was made that for soe much as the Companies of London and other Citties and Townes of this Kingdome had Adventured good Sums of monny towards the Plantacon in "
 1621,John Pory,INDIGENOUS (collective reference),indigenous_collective,,5,0,0,,510,high,1621-03-06,1621-12-23,"46 RECORDS OF THE VIRGINIA COMPANY CLXV. GEorGE THORPE AND JOHN Pory. A LETTER TO Str EDWIN SANDYS May 15 anv 16, 1621 Ferrar Papers Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal List of Records No. 2438 Hobe Sr vnto whom although $I owe$ verie much and am willinge to"
+1621,Richard Caswell,INDIGENOUS (collective reference),indigenous_collective,,5,0,0,,629,high,1621-05-01,1621-11-21,"4% July 1621____________________- JOHN BARNARD RicHarp Buu RicHARD CASWELL JoHN BLANDE CLXXXII. Virernta Company. INSTRUCTIONS TO THE GOVERNOR AND CouNCIL OF STATE IN VIRGINIA JuLy 24, 1621 Manuscript Records, Virginia Company, III, Part ii, Pages 11-14 Document in Library of Congress, Washington, D"
 1621,Samuel Wrote,INDIGENOUS (collective reference),indigenous_collective,,5,0,0,,,high,1621-05-01,1621-11-21,
 1621,Thomas Melling,England,place,yes,5,0,2,,516,high,1621-04-12,1621-11-21,m’ ones. m’ Wheatley. m* Casewell. m' Clarke. m* Darnelly. m* Melling. M' Smith signified vnto the Company that my Lady Berkley out of a desire to be a member of so hono’*: a Company and to giue some furtherance to so hopefull a Plantaéon was pleased to offer her sellf to come in vpon one share of l
 1621,Thomas Smythe,INDIGENOUS (collective reference),indigenous_collective,,5,0,0,,527,high,1621-05-01,1621-12-23,"furnish the Colonye of necessary prouisions and furnish the Indyans wth Armes, or rob them of their [2] corne, and also to approue that the afforesaid article, restrayning all men on paine of death without leaue to take & Carry shipps and vessells out of the Riuer vnder pretence of Tradeing, whereby"
@@ -4055,7 +4061,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,John Bargrave,Ireland,place,,4,0,0,,886,high,1621-06-13,1621-11-21,Notice was giuen of a certaine gentleman lately come out of Ireland that offered to transport Cattle to Virginia at easie rat€: It was there- fore moued that such as were desirous to send any Cattle thither would please to acquaint m’ Deputy therewith that they might proceed to a further treaty with
 1621,John Bargrave,London,place,yes,4,0,1,,,high,1621-06-13,1621-11-21,
 1621,John Bland,London,place,yes,4,0,1,,,high,1621-04-30,1621-11-21,
-1621,John Danvers,INDIGENOUS (collective reference),indigenous_collective,,4,0,0,,706,high,1621-05-01,1621-11-21,this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Company itt is now ordered that they shalbe furnished and sent to the Summer Ilands whether they were willinge to goe w™ one servante apeee towards their preferm‘ in marriage w™ s
+1621,John Danvers,INDIGENOUS (collective reference),indigenous_collective,,4,0,0,,,high,1621-05-01,1621-11-21,
 1621,John Ferrar,England,place,yes,4,0,0,,395,high,1621-05-01,1621-12-23,"IN SANDIS m'’ Nicuo: ffERRAR m'’ JOHN DAUERS Do* ANTHONY m’ JoHN ffERRAR deputy Do’ Wasson ! m'’ Tuo: GIBBS Do’ GALSTON m' Sam WROTE m’ GEORGE SANDYS CLXXXIII. TreasuRER AND Company. AN ORDINANCE AND CONSTI- TUTION FOR COUNCIL AND ASSEMBLY IN VIRGINIA JuLY 24, 1621 Manuscript Records, Virginia Compa"
 1621,John Ferrar,INDIGENOUS (collective reference),indigenous_collective,,4,0,0,,917,high,1621-05-01,1621-12-23,15 of December 1621. [28] To St Edwine Sandis [Indorsed by John Ferrar:] Mt Peter Arondelle from Virginia 15 Decemb: 1621. [Addressed by self:]| To the Right Worshipfull and most worthie Syr Edwine Sandis Knight at his house by Aldersgate thes At London thes. CCVII. GoveRNoR IN VIRGINIA. COMMISSION 
 1621,John Pountis,INDIGENOUS (collective reference),indigenous_collective,,4,0,0,,429,high,1621-06-18,1621-12-23,"Mt Roger Smith Mt John Berkley M* John Rolfe M’ Ralfe Hamer M* John Pountus M’ Michael Lapworth, M' Harwood Mr Samuel Macocke. Which said Counsellors and Counsell wee Harnestlie pray & desier, and in his Mat'® name strictlie charge and Comand, That all factious parcialties and sinester respects laid"
@@ -4063,6 +4069,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Richard Berblock,England,place,yes,4,0,1,,580,high,1621-05-01,1621-10-24,. m’ Deputy. m' Abra: Chamberlyne. m‘’ Widdowes. m* Gibbs. m’ Berblock. m’ Baynam. Docto: Winstone. m’ Blande. m’ Bolton. m’ Robert Smith. m’ Bull. m’ Meuerell. m’ John Smith. m* Bennett. m’* Morewoode. m'* Nich: Ferrar. m’ Ayres. m* Lambe. Captaine Bargraue. m’ Wiseman. m’ Georg Smith. m’ Tomlynis.
 1621,Richard Bull,Ireland,place,,4,0,0,,,high,1621-06-13,1621-11-21,
 1621,Thomas Gibbs,Ireland,place,,4,0,0,,587,high,1621-06-13,1621-11-21,Notice was giuen of a certaine gentleman lately come out of Ireland that offered to transport Cattle to Virginia at easie rat€: It was there- fore moued that such as were desirous to send any Cattle thither would please to acquaint m’ Deputy therewith that they might proceed to a further treaty with
+1621,Thomas Melling,INDIGENOUS (collective reference),indigenous_collective,,4,0,0,,,high,1621-05-01,1621-11-21,
 1621,Thomas Sheppard,England,place,yes,4,0,1,,419,high,1621-04-12,1621-12-23,* Bland. m’ Geo: Smith. m'* Wrote. m'‘ Mellinge. m’ Webbe. m* Shippard. m* Meuerell. m* Sparrowe. m’ Nicho: ffarrar. m'‘ Jadwin. m’* Newport. m* Edwards. m’ Morewood. m’ Whitely. m’* Ayres. m’ Widdowes. m* Barbo’. m' Rogers. m’ Baynham. m’* Swinhowe. m’ Abraham Chamblen. wm’ Viner. Capt: Bargraue. m
 1621,Thomas Smythe,London,place,yes,4,0,0,,317,high,1621-06-13,1621-12-23,Iohn Huddlestone m’ of the Bona Noua of about 200 Tun. To Tho: Smith m* of the Hopewell of 60 tun To Dan: Gate m’* of the Darlinge of 40 tun To Capt: Thom Iones m* of the Discouery of 60 tun. All w™ Comissions the Court authorised m* Deputy to seale. [295] M* Hawes moued that whereas the Companie ha
 1621,"Thomas West, Lord De La Warr",England,place,yes,4,0,0,,528,high,1621-10-24,1621-11-21,"being rightly weighed they are iustifiable by the lawes of England) yet they were not framed by S' Thomas Smyth as most vntrulye aleaged, but by those worthye Goitino™ in Virginia as the very title & printed preface to the book itselfe setts downe; w lawes and articles S' Thomas Smyth was so farr fr"
@@ -4098,7 +4105,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,George Smith,Ireland,place,,3,0,1,,608,high,1621-06-13,1621-11-21,Notice was giuen of a certaine gentleman lately come out of Ireland that offered to transport Cattle to Virginia at easie rat€: It was there- fore moued that such as were desirous to send any Cattle thither would please to acquaint m’ Deputy therewith that they might proceed to a further treaty with
 1621,George Swinhowe,Virginia,place,yes,3,0,5,,323,high,1621-06-13,1621-12-19,reparaéon might be made accordingly. Atv A CouURT HELD FOR VIRGINIA ON WEDENSDAY THE 4™ DECEMBER i621 m’ Deputy. m’ Wiseman. m' Cuffe. m' Gibbs. m’* Bland. m’ Geo: Smith. m'* Wrote. m'‘ Mellinge. m’ Webbe. m* Shippard. m* Meuerell. m* Sparrowe. m’ Nicho: ffarrar. m'‘ Jadwin. m’* Newport. m* Edwards.
 1621,George Yeardley,Ireland,place,,3,0,0,,,high,1621-06-13,1621-12-23,
-1621,John Bargrave,INDIGENOUS (collective reference),indigenous_collective,,3,0,1,,789,high,1621-05-01,1621-11-21,this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Company itt is now ordered that they shalbe furnished and sent to the Summer Ilands whether they were willinge to goe w™ one servante apeee towards their preferm‘ in marriage w™ s
+1621,John Bargrave,INDIGENOUS (collective reference),indigenous_collective,,3,0,1,,,high,1621-05-01,1621-11-21,
 1621,John Barnard,England,place,yes,3,0,0,,692,high,1621-04-12,1621-06-18,"ames of the generall Comittees are these vizt. m* Cranmer. m* Barnard. m’ Bland. m’ Bearblocke. m’ Boothby. m’ Wiseman. mo Bull, m’ Nich: fferrar. m’ Chambers. m* Geo: Smith. m’ ones. m’ Wheatley. m* Casewell. m' Clarke. m* Darnelly. m* Melling. M' Smith signified vnto the Company that my Lady Berkl"
 1621,John Barnard,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,657,high,1621-05-01,1621-06-18,"that behalfe dated the 24% July 1621____________________- JOHN BARNARD RicHarp Buu RicHARD CASWELL JoHN BLANDE CLXXXII. Virernta Company. INSTRUCTIONS TO THE GOVERNOR AND CouNCIL OF STATE IN VIRGINIA JuLy 24, 1621 Manuscript Records, Virginia Company, III, Part ii, Pages 11-14 Document in Library of"
 1621,John Berkeley,England,place,yes,3,0,0,,844,high,1621-05-01,1621-12-23,nce. 20 Item that all apparent or proued Contracts made in England or in Virginia betweene the Owners of land in Virginia and ther tenants or seruants be truly pformed and the breach of them reformed by due pun- ishment as Justice shall requier 21 Item that you suffer no Crafty or aduantageous meane
@@ -4133,6 +4140,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Robert Smith,Ireland,place,,3,0,1,,,high,1621-06-13,1621-11-21,
 1621,Samuel Wrote,Ireland,place,,3,0,0,,623,high,1621-06-13,1621-11-21,Notice was giuen of a certaine gentleman lately come out of Ireland that offered to transport Cattle to Virginia at easie rat€: It was there- fore moued that such as were desirous to send any Cattle thither would please to acquaint m’ Deputy therewith that they might proceed to a further treaty with
 1621,Samuel Wrote,Isle of Wight,place,,3,0,1,,,high,1621-04-30,1621-06-18,
+1621,Thomas Ayres,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,,high,1621-05-01,1621-11-21,
 1621,Thomas Keightley,England,place,yes,3,0,1,,786,high,1621-04-12,1621-11-21,"’ Sheppard. m’ Doc: Winston. Comittees are these m' Deputy. m’ Keightley. vizt. m’ Gibbs. The names of the generall Comittees are these vizt. m* Cranmer. m* Barnard. m’ Bland. m’ Bearblocke. m’ Boothby. m’ Wiseman. mo Bull, m’ Nich: fferrar. m’ Chambers. m* Geo: Smith. m’ ones. m’ Wheatley. m* Casew"
 1621,Thomas Keightley,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,,high,1621-05-01,1621-11-21,
 1621,Thomas Keightley,London,place,yes,3,0,0,,,high,1621-06-13,1621-11-21,
@@ -4259,6 +4267,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,John Berkeley,Southampton Hundred,place,,2,0,0,,,medium,1621-06-18,1621-12-23,
 1621,John Berkeley,West Indies,place,,2,0,0,,,medium,1621-06-18,1621-12-23,
 1621,John Bland,Isle of Wight,place,,2,0,1,,,high,1621-04-30,1621-06-18,
+1621,John Cuffe,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1621-06-13,1621-11-21,
 1621,John Cuffe,London,place,yes,2,0,0,,,high,1621-06-13,1621-11-21,
 1621,John Danvers,East Indies,place,,2,0,1,,,high,1621-10-01,1621-11-21,
 1621,John Danvers,The Downs,place,,2,0,0,,1184,high,1621-04-30,1621-09-11,"icult time for want of mony, we haue yeelded vnto, vppon S* John Davers his motion, that Capt Nuce might be so much pleasured. Wee send likewise one Miles Prickett to be employed in the Companies service and especially in making of Salt w*t we are informed he heretofore prack- tised in Virginia, he "
@@ -4292,7 +4301,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,John Pountis,Scotland,place,,2,0,0,,,medium,1621-06-18,1621-12-23,
 1621,John Pountis,West Indies,place,,2,0,0,,,medium,1621-06-18,1621-12-23,
 1621,John Rolfe,Cape Cod,place,,2,0,0,,647,high,1621-06-11,1621-06-18,the Company would please to allott him Elizab: Iland neere Cape Codd to plant vppon The Court agreed yt direcéon should be given to the Gouernor to that effect. M* Webb moved y‘ some course might be taken that the two Indian Maydes might be disposed of to free the Company of the weeklie charge that 
-1621,John Rolfe,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,460,high,1621-06-11,1621-06-18,"h Captaine Nathaniell Powell Mt Roger Smith Mt John Berkley M* John Rolfe M’ Ralfe Hamer M* John Pountus M’ Michael Lapworth, M' Harwood Mr Samuel Macocke. Which said Counsellors and Counsell wee Harnestlie pray & desier, and in his Mat'® name strictlie charge and Comand, That all factious parcialti"
 1621,John Rolfe,Isle of Wight,place,,2,0,0,,,high,1621-04-30,1621-06-18,
 1621,John Rolfe,London,place,yes,2,0,0,,,high,1621-04-30,1621-06-18,
 1621,John Smith,Ireland,place,,2,0,0,,806,high,1621-06-13,1621-10-24,"t ther were certaine sufficient men come out er grt meet of Ireland ||who|] would would vndertake to transporte manny hun- transporte Cattle dreds of Cattle to Virginia this Springe vppon the same Condiéons ©. that m*’ Gookin had donne; Itt was therfore moved that Southamp- ton Hundred, Martins Hund"
@@ -4358,7 +4366,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Thomas Couell,Isle of Wight,place,,2,0,0,,,high,1621-04-30,1621-05-01,
 1621,Thomas Couell,London,place,yes,2,0,0,,,high,1621-04-30,1621-07-24,
 1621,Thomas Gibbs,East Indies,place,,2,0,2,,,high,1621-10-01,1621-11-21,
-1621,Thomas Gibbs,INDIGENOUS (collective reference),indigenous_collective,,2,0,1,,765,high,1621-05-01,1621-11-21,this Courte to dyrect some course for the dis- pose of two Indian maydes haveing byne a long time verie chargeable to y° Company itt is now ordered that they shalbe furnished and sent to the Summer Ilands whether they were willinge to goe w™ one servante apeee towards their preferm‘ in marriage w™ s
+1621,Thomas Gibbs,INDIGENOUS (collective reference),indigenous_collective,,2,0,1,,,high,1621-05-01,1621-11-21,
 1621,Thomas Keightley,Ireland,place,,2,0,0,,,high,1621-06-13,1621-11-21,
 1621,Thomas Melling,Ireland,place,,2,0,0,,,high,1621-06-13,1621-11-21,
 1621,Thomas Newce,The Downs,place,,2,0,0,,1346,high,1621-04-30,1621-09-11,"y that haue died. There are two ffrench youths now sent to Capt Tho: Nuce part of those Ten promised him the next Springe; this anticipation although in a very difficult time for want of mony, we haue yeelded vnto, vppon S* John Davers his motion, that Capt Nuce might be so much pleasured. Wee send "
@@ -4489,6 +4497,56 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Augustine Steward,London,place,yes,1,0,2,,,high,1621-04-30,1621-11-21,
 1621,Augustine Steward,Martin's Hundred,place,,1,0,0,,,high,1621-10-24,1621-10-24,
 1621,Augustine Steward,The Downs,place,,1,0,0,,,high,1621-04-30,1621-04-30,
+1621,Chanco,America,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Bennett's Plantation,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Berkeley Hundred,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,California,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Cambay,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Canada,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Cape Mendocino,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Cape of Good Hope,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Charles City,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Chesapeake Bay,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,China,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Denmark,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,East Indies,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,England,place,yes,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Europe,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Falling Creek,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Florida,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,France,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Germany,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Gloucestershire,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Great Britain,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Henricus,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Holland,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Hudson Bay,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Ireland,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Italy,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,James City,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,London,place,yes,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Martin's Hundred,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Mexico,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,New England,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Norway,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Pamunkey River,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Persia,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Peru,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Poland,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Potomac River,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,River Thames,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Rome,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Russia,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Scotland,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,South Sea,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Southampton Hundred,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Spain,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,The Downs,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Turkey,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Virginia,place,yes,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Warraskoyack,indigenous_group,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,West Indies,place,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Chanco,Weyanoke,indigenous_group,,1,0,0,,,low,1621-12-23,1621-12-23,
 1621,Charles North,County Wexford,place,,1,0,0,,414,high,1621-11-21,1621-11-21,RDS OF THE VIRGINIA COMPANY To Iohn Crowe of Newton in the County of Washford in Ireland esquire an Aduenturer who vndertak¢€ to transport 100 psons. To Edw: Rider and his Associat€ an Aduenturer vndertakinge to transport 100 psons. To Capt Symon Leeke Planter vndertak€ x° 100 psons. To Daniell Gook
 1621,Charles North,East Indies,place,,1,0,0,,,high,1621-11-21,1621-11-21,
 1621,Charles North,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1621-11-21,1621-11-21,
@@ -5968,6 +6026,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,John Rolfe,Delaware River,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
 1621,John Rolfe,Elizabeth City,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
 1621,John Rolfe,Holland,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
+1621,John Rolfe,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,460,medium,1621-06-18,1621-06-18,"h Captaine Nathaniell Powell Mt Roger Smith Mt John Berkley M* John Rolfe M’ Ralfe Hamer M* John Pountus M’ Michael Lapworth, M' Harwood Mr Samuel Macocke. Which said Counsellors and Counsell wee Harnestlie pray & desier, and in his Mat'® name strictlie charge and Comand, That all factious parcialti"
 1621,John Rolfe,Ireland,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
 1621,John Rolfe,James City,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
 1621,John Rolfe,James River,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
@@ -6432,7 +6491,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Richard Bucke,Southampton Hundred,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
 1621,Richard Bucke,West Indies,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
 1621,Richard Bucke,Westminster,place,,1,0,0,,,medium,1621-06-18,1621-06-18,
-1621,Richard Bulkley,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,382,high,1621-06-11,1621-06-11,"against the next Courte. St Edwin Sandys signified that 8"" Richard Bulkley haveinge purchased two shares of Land of the Comp*: and vndertaken to plant 100 Per- sonns in Virginia for w™ they had graunted him a Pattent vnder Seale desyred the Company would please to allott him Elizab: Iland neere Cape"
 1621,Richard Bull,Amsterdam,place,,1,0,0,,533,high,1621-10-15,1621-10-15,p’ Bargraue. m'* Casewell. m* Webb. m’ Bynge. m’ Barnarde. m’ Bull. m* Meuerell. m’ Bolton. m’ Whitley. m* Berkeley. m’ Atkins. m' Georg Smith. m’ Swinhow. m'’ Caninge. m’ Cuffe. m’ Robert w™ others. A Compt: madeto M' Deputy signified y* the occasion of callinge this Courte was to Reet hed ue acqua
 1621,Richard Bull,Berkeley Hundred,place,,1,0,0,,,high,1621-10-24,1621-10-24,
 1621,Richard Bull,Cape of Good Hope,place,,1,0,1,,,high,1621-10-01,1621-10-24,
@@ -7312,6 +7370,10 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1621,Thomas Wood,Warraskoyack,indigenous_group,,1,0,0,,,low,1621-12-23,1621-12-23,
 1621,Thomas Wood,West Indies,place,,1,0,0,,,low,1621-12-23,1621-12-23,
 1621,Thomas Wood,Weyanoke,indigenous_group,,1,0,0,,,low,1621-12-23,1621-12-23,
+1621,Two Indian maids (Mary and Elizabeth?),INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1621-06-13,1621-06-13,
+1621,Two Indian maids (Mary and Elizabeth?),Ireland,place,,1,0,0,,,high,1621-06-13,1621-06-13,
+1621,Two Indian maids (Mary and Elizabeth?),London,place,yes,1,0,0,,,high,1621-06-13,1621-06-13,
+1621,Two Indian maids (Mary and Elizabeth?),Sussex,place,,1,0,0,,,high,1621-06-13,1621-06-13,
 1621,Walter Earle,County Wexford,place,,1,0,0,,,high,1621-11-21,1621-11-21,
 1621,Walter Earle,East Indies,place,,1,0,0,,,high,1621-11-21,1621-11-21,
 1621,Walter Earle,Isle of Wight,place,,1,0,0,,,high,1621-05-01,1621-05-01,
@@ -8201,6 +8263,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1622,Thomas Kemis,Virginia,place,yes,1,1,0,,222,medium,1622-08-01,1622-08-01,"PANY CCLIII. [Joun Smytu.] A List oF SERVANTS REMAINING IN VIRGINIA Avaust 1, 1622 Smyth of Nibley Papers, Smyth, 3 (37), Page 153 Document in New York Public Library. Autograph of John Smith List of Records No. 357 This .1. Aug. 1622. 20. Jac. remayneth to vs as servants in virginia. Thomas Kemis, "
 1622,Thomas Melling,Kent,place,,1,1,0,,31,high,1622-03-27,1622-03-27,"nter stainer................. 1 To Rich: Markham of 1 in y® County of Kent esqr.......... 1 Also ||m""|| Thomas Mellinge passed ouer two shares of land in Vir- ginia parcell of 6:"
 1622,Thomas Newton,London,place,yes,1,1,0,resident_of,4,high,1622-01-30,1622-01-30,han: Chambers Nicholas fferrar W™ Webbe John Harri- son and Thomas Newton of London Cittizens Aduenturo™ and free of the Companie aforesaid on
+1622,Thomas Rolfe,INDIGENOUS (collective reference),indigenous_collective,,1,1,0,,32,high,1622-06-19,1622-06-19,gine why you should giue vs warninge y* Opachankano and the Natiues haue giuen their Country to m* Rolf¢ Child and that they will reserue it from all others till he comes
 1622,Thomas Smythe,Brecknockshire,place,,1,1,0,,257,high,1622-03-27,1622-03-27,"assented vuto. Edmund Brudenell of Stoakemandauill in y®° County of Breck: esquire by his Assignem' vnder his hand and Seale bearinge Date the 28"" day of Aprill in the 12™ yeare of the Kings Raigne of England C’ passed ouer to ffrauncis Brudenell his sonn his two Shares of land in Vir- ginia due for"
 1622,"Thomas West, Lord De La Warr",Buckinghamshire,place,,1,1,0,,73,high,1622-02-13,1622-02-13,land in Virginia vnto 8' ffrauncis Goodwin of Oburne in the County of Bucke knight pcell of the 40 shares assigned vnto him by the right Hono’’ the Lady Lawarr. Also one share of land in Virginia vnto m’ Oliuer Morden
 1622,"Thomas West, Lord De La Warr",East Indies,place,,1,1,0,,139,high,1622-05-22,1622-05-22,"he later 40 shares assigned vnto him by the right Hono’ the Lady Lawarr. The Share likewise w*"" m’ Roberts passed to his Sonne Elias in the morninge was nowe confirmed. M' Roberts presented vnto the Court an East India box or Standish w*"" he gaue as a testimony of his loue and"
@@ -9984,6 +10047,15 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1622,Thomas Roe,Bermuda / Somers Islands,place,,1,0,0,,,high,1622-12-04,1622-12-04,
 1622,Thomas Roe,Ireland,place,,1,0,0,,,high,1622-12-04,1622-12-04,
 1622,Thomas Roe,London,place,yes,1,0,0,,,high,1622-12-04,1622-12-04,
+1622,Thomas Rolfe,Bermuda / Somers Islands,place,,1,0,0,,576,high,1622-06-19,1622-06-19,"Trade to yo"" selfe, yo"" vse our ffrigatt that came from the Sumer Iland¢€ and the other with our men to trade for yo"" owne benifitt, yo"" proclaime in the Colony that no man shall trade with the Indians nor any buy any ffurrs but yo’ selfe: It is also iustified that you take the auncient Planters of "
+1622,Thomas Rolfe,England,place,yes,1,0,0,,,high,1622-06-19,1622-06-19,
+1622,Thomas Rolfe,James City,place,,1,0,0,,,high,1622-06-19,1622-06-19,
+1622,Thomas Rolfe,Jamestown,place,,1,0,0,,1073,high,1622-06-19,1622-06-19,"le to aunsweare yo"" owne AcGons, yea yo"" owne tres dated at Iames Towne, in March i617 shall iustifie vs in some of those perticulers touchinge the Magazine wherein yo"" are contrarie to yo"" selfe. Tobacco and sassafras onely for iust causes are restrained at reasonable rat€ to the Magazine, and you "
+1622,Thomas Rolfe,London,place,yes,1,0,0,,,high,1622-06-19,1622-06-19,
+1622,Thomas Rolfe,Martin's Brandon,place,,1,0,0,,,high,1622-06-19,1622-06-19,
+1622,Thomas Rolfe,Powhatan,indigenous_group,,1,0,0,,,high,1622-06-19,1622-06-19,
+1622,Thomas Rolfe,Virginia,place,yes,1,0,0,,,high,1622-06-19,1622-06-19,
+1622,Thomas Rolfe,West Indies,place,,1,0,0,,,high,1622-06-19,1622-06-19,
 1622,Thomas Sheppard,Bristol,place,,1,0,0,,,high,1622-05-22,1622-05-22,
 1622,Thomas Sheppard,Charles City,place,,1,0,0,,,high,1622-03-13,1622-03-13,
 1622,Thomas Sheppard,East Indies,place,,1,0,0,,,high,1622-05-22,1622-05-22,
@@ -10883,6 +10955,8 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1623,Chanco,INDIGENOUS (collective reference),indigenous_collective,,1,1,0,,99,high,1623-09-01,1623-09-01,"e you to understande, yt since our laste Lre, there cam two Indians to mfartins] Hunndred, who accordinge to order were sent vp to James Cyttie, one of which Called (Chauco) who had lived much amost the English, and by revealinge yt"
 1623,Chanco,London,place,yes,1,1,0,,216,high,1623-09-01,1623-09-01,"y of Congress, Washington, D. C.; (2) Public Record Office, London List of Records No. 457 Right Hon™ May it please you to understande, yt since our laste Lre, there cam two Indians to mfartins] Hunndred, who accordinge to order were sent vp to James Cyttie, one of which Called (Chauco) who had live"
 1623,Christopher Harding,The Downs,place,,1,1,0,,288,high,1623-04-25,1623-04-25,"m’ Newport. m' Edw: Waterhouse. m' Scott. m’ Barker. m' Downes. m' Stone. m’ Bland. m* Wheatly. m' D’ Lawne iun. m’ ffelgate. m’ Etheridge. m' Swinhoe. m' Geo: Smith. m’ Jadwin. m’ ffelgate. m’ Rayner. m’ Mease. m' Prosser. m'* Seuerne. m’ Sanders. m’ Mole. \|w'"" diuers others||. Inhabs. m' Webb. m'"
+1623,Comahum,Martin's Hundred,place,,1,1,0,,30,high,1623-09-01,1623-09-01,"us to plant quietly alsoe in all places, The other (called Comahum) an Actor in the Massacre at Martins Hundred, beinge agreat man and not sent by the greate Kinge, Wee pu"
+1623,Comahum,Pamunkey,indigenous_group,,1,1,0,,234,high,1623-09-01,1623-09-01,"es, & that they desired, they might be suffred to plante at Pomunkie, and theire former Seates, w*” yf they might Peaceablely do they would send home our People (beinge aboute twenty) whom they saued alive since the massacre, and would suffer us to plant quietly alsoe in all places, The other (calle"
 1623,Daniel Gookin,The Downs,place,,1,1,0,,80,medium,1623-02-04,1623-02-04,’ Mole. m* Kightley. m’ Io: Smith. m’ Barbo’. m’ Caswell. m'’ Gookin. m’ Hobbs. m' Ditchfeild. m* Caninge. m'’ Moorer. m* Tomlins. m’ Porter. m* Downes. m’ Kirrell. m’* Meuerell. m’ Bull. m* Withers. m* Jadwin.
 1623,Dudley Digges,Henricus,place,,1,1,0,,206,low,1623-11-04,1623-11-04,"in, miles, Walterus Cope, miles, Robertus Hulligrue, miles, Henricus ffanshawe, miles, Edwinus Sandis, miles, Johannes Watts, Henricus Mountague, miles, Willelmus Romney, miles, Thomas Rowe, miles, Baptistes Hicks, miles, Ricardus Williamson, miles, Stephanus Poole, miles, Dudleus Digs, miles, Chris"
 1623,Edmund Morgan,The Downs,place,,1,1,1,,75,high,1623-04-12,1623-10-15,bbs. m* Rider. m’ Wilkins. m’ Geeringe. m’‘ Barker. m’ Abr: Downes. m* Tucker. m’ Gough. m’ Swaine. m’ Tho: ffletcher. m' Dike. m' Sparrowe. m’ Morgan. m' Ditchfeild. m' Humfrey May. m'’ Gilbert Moorewood. m’
@@ -12041,6 +12115,24 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1623,Christopher Newport,Spain,place,,1,0,0,,,high,1623-02-03,1623-02-03,
 1623,Christopher Newport,West Indies,place,,1,0,1,,,high,1623-04-12,1623-05-07,
 1623,Clement Wilmer,Cambridge,place,,1,0,0,,1027,high,1623-11-04,1623-11-04,"rocer, Thomas ‘Cannon, gentleman, William Wilby, stationer, Clement Wilmer, centleman, John Clapham, eentleman, Giles Francis, gentleman, George Walker, sadler, John Swinhowe, stationer, Edward Bushop, stationer, Leo White, gentleman, Christopher Barton, Peter Benson, Richard Smyth, George Procter, "
+1623,Comahum,Bermuda / Somers Islands,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Cape Henry,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Chickahominy,indigenous_group,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Elizabeth City,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,England,place,yes,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,758,high,1623-09-01,1623-09-01,"e you to understande, yt since our laste Lre, there cam two Indians to mfartins] Hunndred, who accordinge to order were sent vp to James Cyttie, one of which Called (Chauco) who had lived much amost the English, and by revealinge yt pl{ot] To divers vppon the day of Mas- sacre, saued theire lives, w"
+1623,Comahum,Ireland,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,James City,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Jamestown,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,London,place,yes,1,0,0,,875,high,1623-09-01,1623-09-01,"y of Congress, Washington, D. C.; (2) Public Record Office, London List of Records No. 457 Right Hon™ May it please you to understande, yt since our laste Lre, there cam two Indians to mfartins] Hunndred, who accordinge to order were sent vp to James Cyttie, one of which Called (Chauco) who had live"
+1623,Comahum,New England,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Paspahegh,indigenous_group,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Potomac River,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Powhatan,indigenous_group,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,South Sea,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,St Swithin's Lane,place,,1,0,0,,,high,1623-09-01,1623-09-01,
+1623,Comahum,Virginia,place,yes,1,0,0,,1112,high,1623-09-01,1623-09-01,"98 RECORDS OF THE VIRGINIA COMPANY CCCXIX. Councit In ViraintA. LETTER TO VIRGINIA COMPANY OF LONDON APRIL 4, 1623 (1) Manuscript Records Virginia Company, III, pt. ii, pp. 6, 6a. (2) C. O. 1, Vol. II, No. 22 Document in (1) Library of Congress, Washington, D. C.; (2) Public Record Office, London Li"
+1623,Comahum,West Indies,place,,1,0,0,,,high,1623-09-01,1623-09-01,
 1623,Cutbert Essington,Accawmack,place,,1,0,0,,,high,1623-03-17,1623-03-17,
 1623,Cutbert Essington,Elizabeth City,place,,1,0,0,,,high,1623-03-17,1623-03-17,
 1623,Cutbert Essington,France,place,,1,0,0,,,high,1623-03-17,1623-03-17,
@@ -14729,6 +14821,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John White,New England,place,,3,2,0,,93,high,1624-03-01,1624-03-01,"wstanding yo"" pétioners Commission for the Admi- rallty of New England was yesterday twice publiquly read at this Counsell board in the heareing of Robert Guyar & John White the pltended m' & masters mate of the southampton, & therby"
 1624,Robert Guyar,New England,place,,3,2,0,,78,high,1624-03-01,1624-03-01,"wstanding yo"" pétioners Commission for the Admi- rallty of New England was yesterday twice publiquly read at this Counsell board in the heareing of Robert Guyar & John White the pltended m' & masters mate of the southamp"
 1624,Edward Collingwood,Virginia,place,yes,2,2,0,,56,high,1624-04-28,1624-06-01,"Page 348 wee wanted the Gouernor and Counsells Letter from Virginia, soe that wee could §not§ compare itt; in w™ respect I Edward Collingwood haue not sett my hand to those Three Pages, butt to all the"
+1624,Indian boy brought by William Perry (1624),Virginia,place,yes,2,2,0,,35,high,1624-04-26,1624-04-28,"se might be taken for the Educaéon and bringinge vpp of the Indian boy that was lately brought ouer from Virginia by one William Perry, did thervppon entreate m' Copeland a"
 1624,Nathaniel Rich,London,place,yes,2,2,0,,16,high,1624-04-28,1624-07-15,eted:] To the hon?’ S* Nathanicll Riche knight giue these. London. [{Indorsed by Sir Nathaniel Rich:] Cap. Jo. Haruyese tre to me from Virginia dat 24. April 1
 1624,Richard Caswell,Martin's Hundred,place,,2,2,0,,167,high,1624-04-26,1624-04-28,"e what they please freely to contribute that way. [382] M' Richard Casewell made knowne to the Court that wheras Cap‘ lohn Bernard deceased had sould to m* Georg ffurzman three old Shares of 12"": 10°: 00 p share and likewise supplyed them in Martins Hundred to the value of tenn pounds p share Itt ap"
 1624,Robert Johnson,London,place,yes,2,2,0,office_in,13,high,1624-02-29,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of
@@ -14747,7 +14840,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Barnard,Virginia,place,yes,3,1,0,,40,high,1624-02-02,1624-04-28,admitted. M’ Hackett moved for passinge of one share vnto m’* Io: Barnard a verie sufficient Marriner and now in Virginia w™ share hee said was heretofore propounded in Court butt o
 1624,John Martin,London,place,yes,3,1,0,,198,high,1624-02-04,1624-12-02,"y of Congress, Washington, D. C.; (2) Public Record Office, London. Document signed List of Records No. 743 1624, Dee. 2. Right Hondble: We haue Receaued Eres from the Lords of his ma*** most Honorble. privie Counsell of especyall reecomendaéone in the behalfe of Capt John Martine, dated the xix? of"
 1624,John White,England,place,yes,3,1,0,,192,high,1624-03-01,1624-03-01,"ad at this Counsell board in the heareing of Robert Guyar & John White the pltended m' & masters mate of the southampton, & therby yo"" petitioner was Certainly knowne by all that were then present to be appointed & authorised fro’ ther Lo'ps of that Counsell in England, to goe Admirall in & aboard t"
-1624,Richard Weston,INDIGENOUS (collective reference),indigenous_collective,,3,1,0,,283,high,1624-04-21,1624-04-28,"Inheritance. M' Webb haueinge testefyed to the Court that m* Garrett Weston nA to Virginia att his owne charge his brother eo te Sffrauncis§ Weston and three servants (vizt) Wiliam Dansey, Robert Miller, and Iames Bradford, The Court ae that hee should haue the proporéon of 200 Acres allowed him for"
 1624,Robert Guyar,England,place,yes,3,1,0,,205,high,1624-03-01,1624-03-01,"ce publiquly read at this Counsell board in the heareing of Robert Guyar & John White the pltended m' & masters mate of the southampton, & therby yo"" petitioner was Certainly knowne by all that were then present to be appointed & authorised fro’ ther Lo'ps of that Counsell in England, to goe Admiral"
 1624,Thomas Morris,Virginia,place,yes,3,1,0,,216,high,1624-02-02,1624-04-28,CORDS OF THE VIRGINIA COMPANY A PREPARATIUE COURT HELD FOR VIRGINIA ON MunbDay IN Y” AFTERNOONE THE SECOND OF FEBRUARY—1623. S’ Iohn Dauers. S' Rob: Killigrue. m'‘ Deputy. D' Meddus. m' John Ferrar. m‘ White. m’ Bynge. m’ Bromfeilde. m’ Wriothsley. m’ Balmforde. m'‘ Copelande. m’ Morris. m’ Morewood
 1624,Edwin Sandys,Virginia,place,yes,2,1,1,,132,high,1624-04-21,1624-06-01,"Deputy, m‘ Casewell, m* George Smith, and further intreated St Edwin Sandys to give them his help therin. M’ Deputy acquainted the Company hee received late notice of Three Shipps newly arryved from Virginia w™ had made a very speedy pas- sage and hadd brought good n"
@@ -14755,6 +14847,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,George Mole,Virginia,place,yes,2,1,0,,246,high,1624-04-26,1624-07-15,ony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of Americ
 1624,George Smith,Virginia,place,yes,2,1,1,,164,high,1624-04-26,1624-06-01,"of this Peticon the Court appoynted m‘ Deputy, m‘ Casewell, m* George Smith, and further intreated St Edwin Sandys to give them his help therin. M’ Deputy acquainted the Company hee received late notice of Three Shipps newly arryved from Virginia w™ had made a very speedy pas- sage and hadd brought "
 1624,George Yeardley,England,place,yes,2,1,0,,91,high,1624-08-26,1624-08-26,"present Governor in Virginia, for libertie to returne into England for his owne private occasions, by reason of the Death of his ffather. And a power for 8"" George Yardley to be Governor in his stead, and vpon his death, for M* Har"
+1624,Indian boy brought by William Perry (1624),Plymouth,place,,2,1,0,,265,high,1624-04-26,1624-04-28,"se might be taken for the Educaéon and bringinge vpp of the Indian boy that was lately brought ouer from Virginia by one William Perry, did thervppon entreate m' Copeland a Mynister to take him into his care and charge: And did promise hee should haue allowance for his entertaynement. The Graunt of "
 1624,John Barnard,Martin's Hundred,place,,2,1,0,,26,high,1624-04-26,1624-04-28,"ld him by Capt Bernard, might be the same Three shares that Captaine Bernard drew in his life time in Martins Hundred as they are figured out in the generall Mapp of y‘ Societie"
 1624,John Danvers,Virginia,place,yes,2,1,2,,62,high,1624-01-14,1624-04-28,CORDS OF THE VIRGINIA COMPANY A PREPARATIUE COURT HELD FOR VIRGINIA ON MunbDay IN Y” AFTERNOONE THE SECOND OF FEBRUARY—1623. S’ Iohn Dauers. S' Rob: Killigrue. m'‘ Deputy. D' Meddus. m' John Ferrar
 1624,John Pory,England,place,yes,2,1,0,,85,high,1624-07-15,1624-07-16,Excheq’ forthwth to paie or cause to bee paied to the saied John Porye or his assignes the said some of one hundred and fiftie poundes of lawfull money of England as of our Princely reward for the saied seruice & wthout ac
@@ -14791,7 +14884,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,James Carter,Virginia,place,yes,1,1,0,,83,high,1624-01-19,1624-01-19,C. List of Records No. 609(c) By the Counsell of state in virginia Cap! Wm. Tucker Whereas you have formerly had order to stay y® goods & debts of James Carter m' of y® good shipp called y°® true love & y*® goods & debt
 1624,Jane Dickenson,Virginia,place,yes,1,1,0,,25,low,1624-03-30,1624-03-30,"o>!? right Wor"" ete. the Gouernor and Counsell of Estate in Virginia The humble Petition of Jane Dickenson Widdowe (28] Most humblie sheweth that whereas her late hu"
 1624,John Brooke,Virginia,place,yes,1,1,1,,203,high,1624-01-14,1624-04-28,"rend Richmond Lenox. Nicho: fferrar Deputy of the Carlisle: Io: Brooke. Virginia Company.’ Rich: Weston. W"" letter beinge read hee Desyred the Company would generally take notice of their GL” pleasure therin, to thend that vppd the first newes of any shipps returned from Virginia their LL” might rec"
-1624,John Danvers,INDIGENOUS (collective reference),indigenous_collective,,1,1,1,,290,high,1624-04-21,1624-04-28,"the Comission, S' Edwin Sandys that of the Contract, and S* Iohn Dauers the last: And for y° matter of Tobace® they imposed itt vppon m’ Deputy. His Lo’: very Nobly vouchsaffed to promise his pformance of their desires, and the like did the other of their parte. The Court beinge moved that some cour"
 1624,John Hart,Virginia,place,yes,1,1,0,,88,high,1624-04-21,1624-04-21,"APRIL 21, 1624 523 Marchant m’ Harte appoynted therynto by the saide Company sould the said Meale Vnto y° saide ffreemen in Virginia at excessive and ynreasonable rates as Seauenty, or eighty"
 1624,John Harvey,America,place,,1,1,0,,294,high,1624-08-26,1624-08-26,Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce a Colonie and to mak
 1624,John Harvey,Southampton,place,,1,1,0,,238,high,1624-03-01,1624-03-01,"he Counsell of Estate, the second Complaint and peticion of John Haruey esq’. [33.] Sheweth not wstanding yo"" pétioners Commission for the Admi- rallty of New England was yesterday twice publiquly read at this Counsell board in the heareing of Robert Guyar & John White the pltended m' & masters mate"
@@ -14814,7 +14906,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Nathaniel Butler,London,place,yes,1,1,0,,21,high,1624-07-15,1624-07-15,James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John
 1624,Nathaniel Rich,Exeter,place,,1,1,0,,111,high,1624-07-15,1624-07-15,ighte Sir Thomas Wroth knighte Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas
 1624,Nicholas Ferrar,London,place,yes,1,1,0,resident_of,4,medium,1624-02-04,1624-02-04,To all to whome these presents shall com Greetinge. Wheras Nicholas fferrar of London gent now Deputy of the said Company hath by one booke of Ac
-1624,Nicholas Hyde,INDIGENOUS (collective reference),indigenous_collective,,1,1,2,,211,high,1624-03-30,1624-04-28,"on Came ou"" into this Cuntry fower Yeares since, obliged to Nicholas Hide deceased for y® tearme of seauen yeares, hee only to haue for him- selfe & yo"" petitioner y°® one halfe of his labors, her said husband being slaine in the bloudy Masacre, & her selfe Caried away w™ the Cruell saluages, amongs"
+1624,Nicholas Hyde,INDIGENOUS (collective reference),indigenous_collective,,1,1,1,,211,high,1624-03-30,1624-04-21,"on Came ou"" into this Cuntry fower Yeares since, obliged to Nicholas Hide deceased for y® tearme of seauen yeares, hee only to haue for him- selfe & yo"" petitioner y°® one halfe of his labors, her said husband being slaine in the bloudy Masacre, & her selfe Caried away w™ the Cruell saluages, amongs"
 1624,Nicholas Hyde,Virginia,place,yes,1,1,2,,180,high,1624-03-30,1624-04-28,"o>!? right Wor"" ete. the Gouernor and Counsell of Estate in Virginia The humble Petition of Jane Dickenson Widdowe (28] Most humblie sheweth that whereas her late husband Ralph Dicken- son Came ou"" into this Cuntry fower Yeares since, obliged to Nicholas Hide deceased for y® tearme of seauen yeares,"
 1624,Opitchapam (Sasawpen),England,place,yes,1,1,0,,169,high,1624-12-02,1624-12-02,"elf as yett is nott arived in Virginia, but remaines in new Englande, nor hath appoynted any to Solycite her cause, Butt at her arivall shee shall finde all lawfull favor Yt hath pleased God this yeere to give us a greate Victorie over Otiotan & y® Pomunkeys, with theire Confederates, by a hand full"
 1624,Opitchapam (Sasawpen),INDIGENOUS (collective reference),indigenous_collective,,1,1,0,,215,high,1624-12-02,1624-12-02,"th pleased God this yeere to give us a greate Victorie over Otiotan & y® Pomunkeys, with theire Confederates, by a hand full, beinge in all not aboue 60 ffyghtinge men (wherof 24 were ymployde only in the Cuttinge downe of Corne) Conducted by the Gouernor, in w** was shewed w' the Indyans coulde doe"
@@ -14845,61 +14937,44 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Ryder,Virginia,place,yes,5,0,0,,479,high,1624-01-01,1624-04-28,bie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon of hands. ffor S
 1624,Francis Wyatt,England,place,yes,5,0,0,,333,high,1624-03-01,1624-08-26,"ashington, D. C. List of Records No. 678 To the hono?"": S"" Francis Wyatt knight ete and the rest of Counsell of Estate in Virginia. The humble Petion of Ralph Hamour [30] Wheras yo"" petioner as well for monies aduentured in y* generall stocke of y® comp*, as for transporting diuers seruant of his ow"
 1624,John Martin,Virginia,place,yes,5,0,0,,309,high,1624-02-04,1624-12-02,"ORDS OF THE VIRGINIA COMPANY had putt into the Magazine in Virginia about 14 yeares since, at what tyme Capt Tucker was Cape m9chant for the Company as namely a gowne prised at 40"" In plate valewed at about 100 marks, and the rest in bread, sack & meale, to a good valewe there employed & spent for t"
-1624,Henry Wriothesley,INDIGENOUS (collective reference),indigenous_collective,,4,0,0,,600,high,1624-04-21,1624-12-02,"ckett of Ters: enclosed in a Box, w™ beinge dyrected to the Earle of Southampton Treasuro’ hee sent to his Lo?: w"" his Lo?: haveinge pvsed had returned back vnto him: Since w” time noe Courts had been kept in regaurd of this buissie time of Par- lyament, and for that little or noe occasion till now,"
 1624,James I,England,place,yes,4,0,0,,303,high,1624-06-14,1624-08-26,"NcIS WYATT SEPTEMBER 15, 1624 (1) Doequet Book, Domestic, James I, Book 12 (Conway Papers), fo. 60. (2) Mise. Records, 1606-1692 (Bland Copy), 122-125! Document in (1) Public Record Office, London; (2) Library of Congress List of Records No. 722 15 September 1624 A license to S"" ffrancis Wyatt knigh"
-1624,Edward Ryder,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,,high,1624-04-21,1624-04-28,
 1624,Francis Meuerell,Virginia,place,yes,3,0,2,,353,high,1624-01-14,1624-04-28,ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon of hands. ffor Secretary—Edward Collingwood ffor Beadle—Thomas Newton The last Court beinge made acquainted by m* Deputy w™ that notice tha
 1624,Henry Thomas,Virginia,place,yes,3,0,1,,535,high,1624-01-14,1624-07-12,"F THE PRIVY CoUNCIL AND OTHERS FOR SETTLING A GOVERNMENT IN VIRGINIA JuLy 15, 1624 ! (1) Patent Roll, 22 James I, pt. 1, doc. No. 4”. (2) Additional MSS. 12496, fos. 464- 473 (Caesar Papers) Document in (1) Public Record Office, London; (2) British Museum List of Records No. 701 Mameei ore la James "
 1624,Henry Wriothesley,England,place,yes,3,0,0,,588,high,1624-04-21,1624-12-02,"624 483 & furtherance the rather in respect the Company in England by ther patent granted me under ther great seale, gaue me liberty to make Choice of any land, not actually inhabited nor laid out for perticular deuidents And I shall eu’, as I haue hitherto faithfully, Endeauo' y® good & psperytie o"
 1624,John Cuffe,Virginia,place,yes,3,0,3,,,high,1624-01-14,1624-06-01,
-1624,John Ferrar,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,,high,1624-04-21,1624-04-28,
 1624,John Martin,England,place,yes,3,0,0,,554,high,1624-02-04,1624-12-02,"e """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce"
-1624,Nathaniel Rich,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,875,high,1624-04-17,1624-07-15,"HE VIRGINIA COMPANY CDXLVII. Jonn Harvey. A LetTrer To Str NATHANIEL RICH APRIL 24, 1624 Manchester Papers, No. 400 Document in Public Record Office, London. Autograph document List of Records No. 663 Honnorable Knight I and my frends appointed, haue don our vtmost endevors for searching out the tru"
 1624,Richard Berblock,Virginia,place,yes,3,0,2,,698,high,1624-02-02,1624-04-28,e of Comittees these five of the old were dismissed namely m* Bearblock. m’ Darnelly m'* Bland. m* Wheatley m* Mellinge [3884] and in their steeds these five new were chosen (vizt) 1. m’ Roberts. 6. m™ Bull. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded
-1624,Richard Caswell,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,332,high,1624-04-21,1624-04-28,"or their psonall shares. There was brought to the Court an Indian Boy by one William Perry lately come ouer from Virginia, for whome a moéon was made for some Contribuéon toward¢ his mayntenance, wherby to bring him vp in Christianitie and some good course to live by. Whervppon itt was thought fitt "
 1624,Richard Weston,England,place,yes,3,0,0,,404,high,1624-04-21,1624-07-16,des Sir John Suckling Sir George Calverte Sir Edward Conwey Sir Richard Weston and Sir Julius Cesar to be one) full power and authoritye to take into your Consideracons the state of the saide Colony and plantaéon and to treate consulte and consider of all matters whatsoever conc9nyng the saide Colon
-1624,Samuel Argall,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,1481,high,1624-04-21,1624-07-15,te Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of Londo
 1624,Thomas Freake,Virginia,place,yes,3,0,2,,711,high,1624-01-14,1624-04-28,CORDS OF THE VIRGINIA COMPANY A PREPARATIUE COURT HELD FOR VIRGINIA ON MunbDay IN Y” AFTERNOONE THE SECOND OF FEBRUARY—1623. S’ Iohn Dauers. S' Rob: Killigrue. m'‘ Deputy. D' Meddus. m' John Ferrar. m‘ White. m’ Bynge. m’ Bromfeilde. m’ Wriothsley. m’ Balmforde. m'‘ Copelande. m’ Morris. m’ Morewood
 1624,Thomas Gibbs,Virginia,place,yes,3,0,1,,404,high,1624-01-14,1624-07-16,"on List of Records No. 702 The King@ Commission concerning Virginia dated 15% July 22 Jaé. Re. At the house of S' Thomas Smith was publikely read. The Commissions plsent were. The Lo: President of the Councell M*' Wrote Mr"" Tresero* S' Samuell Argall S' Tho: Smith Mr’ Leate M? Solicito™ Mr’ Pory S' "
 1624,Thomas Smythe,England,place,yes,3,0,0,,662,high,1624-01-05,1624-04-21,"itt at home, Soe as there may no other Tobacc’ he vented in England butt such as shalbe of the groweth of Virginia and the Sumer Islands— Edw: Waterhouse Secré: W“ beinge read there was some exception taken att the first that itt was too absolutely sett downe: for they did not doubt [361] butt Vir- "
-1624,Thomas Smythe,INDIGENOUS (collective reference),indigenous_collective,,3,0,0,,394,high,1624-04-17,1624-04-26,"shewe you, doe shrewdly prognosticate. Other- wise were the Indians driven of from infesting our people and Cattle, as with no great forces in two or 3 yeares, they might bee, then the Plantation w'"" good government would vndoutedly flourish. in February at our coming in, they were heer mett in a ge"
 1624,Abraham De Lawne,Virginia,place,yes,2,0,0,,,high,1624-01-14,1624-04-28,
 1624,Abraham Piersey,London,place,yes,2,0,0,,407,high,1624-03-02,1624-08-26,"ce soe much desired by their Lorps. JOHN HARUEY JOHN Porey. ABRAHAM PEIRSEY SAMUALL MATHEWS COMMISSIONERS TO VIRGINIA. LETTER TO THE ASSEMBLY IN VIRGINIA AND THE ANSWER OF THE ASSEMBLY; LETTER TO THE GOVERNOR AND CoUNCIL IN VIRGINIA, AND THE ANSWER OF THE ASSEMBLY Marcu 2, 1623/4 (1) Manuscript Reco"
-1624,Anthony Biddolph,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Anthony Biddolph,Virginia,place,yes,2,0,0,,431,high,1624-04-21,1624-04-28,* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon of hands. ffor Secretary—Edward Collingwood ffor Beadle—Thoma
 1624,Christopher Newport,Virginia,place,yes,2,0,4,,651,high,1624-02-02,1624-06-01,CORDS OF THE VIRGINIA COMPANY A PREPARATIUE COURT HELD FOR VIRGINIA ON MunbDay IN Y” AFTERNOONE THE SECOND OF FEBRUARY—1623. S’ Iohn Dauers. S' Rob: Killigrue. m'‘ Deputy. D' Meddus. m' John Ferrar. m‘ White. m’ Bynge. m’ Bromfeilde. m’ Wriothsley. m’ Balmforde. m'‘ Copelande. m’ Morris. m’ Morewood
-1624,Edward Bennett,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Edward Bennett,Virginia,place,yes,2,0,2,,493,high,1624-01-14,1624-04-28,ll. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon 
 1624,Edward Conway,England,place,yes,2,0,0,,423,high,1624-06-14,1624-07-15,"15, 162 495 Edmondes Sir John Suckling Sir George Calverte Sir Edward Conwey Sir Richard Weston and Sir Julius Cesar to be one) full power and authoritye to take into your Consideracons the state of the saide Colony and plantaéon and to treate consulte and consider of all matters whatsoever conc9nyn"
 1624,Edward Hackett,England,place,yes,2,0,0,,498,high,1624-02-04,1624-04-21,"reward. m’ Fothergill. m' Francis Waterhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for as much as Captaine Baly (nowe plsent) seemed not well satisfyed w"" the answeare then giuen to Captaine M"
-1624,Edward Hackett,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Edward Hackett,London,place,yes,2,0,0,,,high,1624-02-04,1624-04-21,
-1624,Edward Hurd,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Edward Hurd,Virginia,place,yes,2,0,0,,,high,1624-04-21,1624-04-28,
-1624,Edward Paulavicine,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-26,
 1624,Edward Paulavicine,Virginia,place,yes,2,0,1,,,high,1624-02-04,1624-04-26,
 1624,Edward Ryder,Martin's Hundred,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Edward Ryder,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
-1624,Edward Waterhouse,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Edward Waterhouse,London,place,yes,2,0,0,,,high,1624-02-04,1624-04-21,
-1624,Francis Meuerell,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Francis Wyatt,Bristol,place,,2,0,0,,305,high,1624-02-29,1624-08-26,"ington, D. C. List of Records No. 624 To the right Wor"" S* Francis Wyatt knight Gouernor and Captaine generall of Virginia. The Humble Petition of John Barnett [22] In all humblenes of Duty sheweth yo"" petitioner, that whereas John Clarke of London Mariner, & late deceased in this Cuntry, was hired "
 1624,Francis Wyatt,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,412,medium,1624-01-19,1624-03-09,"shall Come greeting in o* Lord eu'lasting Knowe yee yt Is"" Francis Wyatt Knight Gouernor & Capt generall of Vir- ginia. Endeuoring the suffyciencie of Corne to releiue y* necessitie€ of this o' Cuntry, doe by these pflsents giue leaue, power & authoritie vnto Capt Rawleigh Croshawe to Embarge himsel"
-1624,Gabriel Barber,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Gabriel Barber,Martin's Hundred,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Gabriel Barber,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
-1624,George Mole,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,652,high,1624-04-26,1624-07-15,ony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of Americ
 1624,George Mole,Plymouth,place,,2,0,0,,1205,high,1624-04-26,1624-07-15,ony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of Americ
+1624,Henry Wriothesley,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,600,high,1624-04-21,1624-12-02,"ckett of Ters: enclosed in a Box, w™ beinge dyrected to the Earle of Southampton Treasuro’ hee sent to his Lo?: w"" his Lo?: haveinge pvsed had returned back vnto him: Since w” time noe Courts had been kept in regaurd of this buissie time of Par- lyament, and for that little or noe occasion till now,"
 1624,Henry Wriothesley,James City,place,,2,0,0,,324,high,1624-04-21,1624-06-14,"aithfully, Endeauo' y® good & psperytie of this plantacion James Citty May the 30 1624 See the Court holden the 28 of June 1624 & the 20 of June and the last of May next filceeding CDLIII. Henry, Eart or SouTHAMPTON, AND CERTAIN OTHER LorDS APPOINTED A COUNCIL FOR VIRGINIA JUNE (?), 1624 C. O. 1, Vo"
 1624,Henry Wriothesley,Martin's Hundred,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Henry Wriothesley,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
-1624,John Barnard,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,593,high,1624-04-26,1624-04-28,"se might be taken for the Educaéon and bringinge vpp of the Indian boy that was lately brought ouer from Virginia by one William Perry, did thervppon entreate m' Copeland a Mynister to take him into his care and charge: And did promise hee should haue allowance for his entertaynement. The Graunt of "
+1624,Indian boy brought by William Perry (1624),Martin's Hundred,place,,2,0,0,,511,high,1624-04-26,1624-04-28,"or their psonall shares. There was brought to the Court an Indian Boy by one William Perry lately come ouer from Virginia, for whome a moéon was made for some Contribuéon toward¢ his mayntenance, wherby to bring him vp in Christianitie and some good course to live by. Whervppon itt was thought fitt "
 1624,John Barnard,Plymouth,place,,2,0,0,,316,high,1624-04-26,1624-04-28,taynement. The Graunt of fiue shares vnto m‘ lames Bagg of Plymouth beinge ordered by the last Court to be drawen vpp was now presented and read and beinge approved was ordered to be sealled. M' Casewell moved the Court that the two shares w™ hee had passed to m‘ ffurzman att the last Court as likew
 1624,John Cuffe,England,place,yes,2,0,1,,,high,1624-02-04,1624-06-01,
-1624,John Cuffe,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-26,
 1624,John Ferrar,Martin's Hundred,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,John Ferrar,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
-1624,John Martin,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,1040,high,1624-04-28,1624-12-02,"ivie Counsell of especyall reecomendaéone in the behalfe of Capt John Martine, dated the xix? of december. 1623. Accompened wt"" yours of the first of ffebruary. to the same effect, which, by divers reportes and rumors synce his arivall by him raysed he hath little deserved at your handes, Notw'*stan"
 1624,John Martin,Plymouth,place,,2,0,0,,941,high,1624-04-28,1624-08-26,"e """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce"
 1624,John Pountis,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,678,medium,1624-01-26,1624-03-01,"of every Corpora- tione shall falle vppon theire adioyninge Salvages as we did the last yeere, those that shalbe hurte vppon service to be cured at y® publique Charge, in case any be lamed to be mantayned by the Country accordinge to his psone and qualitie. 33 That for defrayinge of such Publique de"
 1624,John Russell,Virginia,place,yes,2,0,0,,376,high,1624-02-04,1624-04-28,"erhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for as much as Captaine Baly (nowe plsent) seemed not well satisfyed w"" the answeare then giuen to Captaine Mathewe Sumeré peticon and request, fo"
@@ -14907,37 +14982,31 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Lorde Pagett,Virginia,place,yes,2,0,1,,310,high,1624-02-04,1624-07-12,"n? of excepéon taken vnto them: It pleased y® right ho™ the Lorde Pagett at the entreaty of the Courte to putt them both to ques- tion & so passe by a genYall ereccon of hands noe one dissentinge w' order for the sealing of them, ||The copies of both w“ do here ensue.|| [370] The’ Treasuror and Comp"
 1624,Mathias Hardinge,Virginia,place,yes,2,0,0,,352,high,1624-01-01,1624-02-02,"l to m"" ffurzman. One share from m’ ffrauncis Carter to m’ Mathias Hardinge. All w™ Shares no man takinge excepéon against the passinge of any of them m’ Deputie putt them severally to the Question and the Court by erecéon of hands Confirmed them vnto the seuerall pties and ordered thervppo that the"
 1624,Maurice Berkeley,England,place,yes,2,0,0,,,high,1624-02-04,1624-06-01,
+1624,Nathaniel Rich,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,875,high,1624-04-17,1624-07-15,"HE VIRGINIA COMPANY CDXLVII. Jonn Harvey. A LetTrer To Str NATHANIEL RICH APRIL 24, 1624 Manchester Papers, No. 400 Document in Public Record Office, London. Autograph document List of Records No. 663 Honnorable Knight I and my frends appointed, haue don our vtmost endevors for searching out the tru"
 1624,Nathaniel Rich,Plymouth,place,,2,0,0,,1383,high,1624-04-28,1624-07-15,F THE VIRGINIA COMPANY Request beinge made by some that S* Nathaniell Rich might haue a Coppie of y® said Petigon Itt was by a generall erection of hands (saue two) denyed itt beinge the Custome of noe Court whatsoever. The Court takinge into Consideracéon that the matters to be delivered to the Par
-1624,Patrick Copland,INDIGENOUS (collective reference),indigenous_collective,,2,0,1,,,high,1624-04-21,1624-04-28,
 1624,Patrick Copland,Martin's Hundred,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Patrick Copland,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Patrick Copland,Virginia,place,yes,2,0,4,,,high,1624-01-14,1624-06-01,
-1624,Richard Berblock,INDIGENOUS (collective reference),indigenous_collective,,2,0,1,,,high,1624-04-21,1624-04-28,
 1624,Richard Bull,Virginia,place,yes,2,0,1,,561,high,1624-02-04,1624-06-01,steeds these five new were chosen (vizt) 1. m’ Roberts. 6. m™ Bull. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Co
 1624,Richard Caswell,England,place,yes,2,0,1,,548,high,1624-01-05,1624-06-01,"itt at home, Soe as there may no other Tobacc’ he vented in England butt such as shalbe of the groweth of Virginia and the Sumer Islands— Edw: Waterhouse Secré: W“ beinge read there was some exception taken att the first that itt was too absolutely sett downe: for they did not doubt [361] butt Vir- "
 1624,Richard Weston,Martin's Hundred,place,,2,0,0,,804,high,1624-04-26,1624-04-28,"Inheritance. M' Webb haueinge testefyed to the Court that m* Garrett Weston nA to Virginia att his owne charge his brother eo te Sffrauncis§ Weston and three servants (vizt) Wiliam Dansey, Robert Miller, and Iames Bradford, The Court ae that hee should haue the proporéon of 200 Acres allowed him for"
 1624,Richard Weston,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,Richard Wither,Virginia,place,yes,2,0,0,,521,high,1624-01-01,1624-02-02,"dward Ryder. [365] One share from S* Iohn Thornbrugh, to m‘ Richard Wither. One share from m’ Law: Maisterson to m* James ffletcher. Two shares from m’ Richard Casewell to m"" ffurzman. One share from m’ ffrauncis Carter to m’ Mathias Hardinge. All w™ Shares no man takinge excepéon against the passin"
 1624,Robert Johnson,England,place,yes,2,0,0,,1434,high,1624-06-01,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier E
-1624,Robert Johnson,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,1277,high,1624-04-28,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier E
 1624,Robert Johnson,Plymouth,place,,2,0,0,,1830,high,1624-04-28,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier E
 1624,Roger Smith,Virginia,place,yes,2,0,0,,376,high,1624-08-26,1624-08-26,"Esquier Sir George Yardley knight George """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers o"
-1624,Rowland Trueloue,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Rowland Trueloue,Virginia,place,yes,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,Samuel Argall,England,place,yes,2,0,0,,1638,high,1624-04-21,1624-07-15,te Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of Londo
+1624,Samuel Argall,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,1481,high,1624-04-21,1624-07-15,te Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of Londo
 1624,Samuel Argall,Plymouth,place,,2,0,0,,2034,high,1624-04-28,1624-07-15,te Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of Londo
 1624,Samuel Wrote,England,place,yes,2,0,0,,1151,high,1624-01-05,1624-07-15,rmayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richar
 1624,Thomas Collett,England,place,yes,2,0,0,,,high,1624-02-04,1624-06-01,
-1624,Thomas Freake,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
-1624,Thomas Gibbs,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,1016,high,1624-04-28,1624-07-15,ay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartw
 1624,Thomas Gibbs,Plymouth,place,,2,0,0,,1569,high,1624-04-28,1624-07-15,ay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartw
-1624,Thomas Morris,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
+1624,Thomas Smythe,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,394,high,1624-04-17,1624-04-21,"shewe you, doe shrewdly prognosticate. Other- wise were the Indians driven of from infesting our people and Cattle, as with no great forces in two or 3 yeares, they might bee, then the Plantation w'"" good government would vndoutedly flourish. in February at our coming in, they were heer mett in a ge"
 1624,Thomas Smythe,James City,place,,2,0,0,,508,high,1624-04-17,1624-04-21,"n and detraction, against the twelue yeares gouerment of St Thomas Smith, and in answer to Mt Alderman Jonson and Captin Butler, with a letter, petition, and other things all presented partly to his Ma and partly to the Lordes, the coppies wherof wee haue attained vnto, for your and theyr better inf"
 1624,Thomas Smythe,London,place,yes,2,0,0,,,high,1624-02-04,1624-04-21,
 1624,Thomas Styles,Virginia,place,yes,2,0,0,,318,high,1624-07-15,1624-07-16,"on List of Records No. 702 The King@ Commission concerning Virginia dated 15% July 22 Jaé. Re. At the house of S' Thomas Smith was publikely read. The Commissions plsent were. The Lo: President of the Councell M*' Wrote Mr"" Tresero* S' Samuell Argall S' Tho: Smith Mr’ Leate M? Solicito™ Mr’ Pory S' "
-1624,William Felgate,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-21,1624-04-28,
 1624,William Felgate,Virginia,place,yes,2,0,1,,415,high,1624-01-14,1624-04-28,' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon of hands. ffor Secretary—Edward Collingwood ffor Beadle—Thomas Newton The la
-1624,William Stone,INDIGENOUS (collective reference),indigenous_collective,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,William Stone,Martin's Hundred,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,William Stone,Plymouth,place,,2,0,0,,,high,1624-04-26,1624-04-28,
 1624,William Stone,Virginia,place,yes,2,0,1,,463,high,1624-01-14,1624-04-28,"APRIL 26, 1624 529 A PREPARATIUE COURTE HELDE FOR VIRGINIA ON MuNnpDAY IN THE AFTERNOONE Y"": 26: oF APRILL—1624. PRESENT S’ ohn Dauers. m’ Ryder. m' Norwood. S' Roger Twisden. m' Newporte. m'‘ Sparrowe. m' Deputie. m"" Boothbie. m* Cranmer. m' John fferrar. m'* Sheldone. m’ Huddlestone. m' Shepparde."
@@ -14949,7 +15018,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Abraham Cartwright,London,place,yes,1,0,0,,390,high,1624-07-15,1624-07-15,James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell 
 1624,Abraham Cartwright,Plymouth,place,,1,0,0,,1337,high,1624-07-15,1624-07-15,tyles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richard Edward@ m9chaunte John Dyke m9chaunte Anthony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste
 1624,Abraham Cartwright,Virginia,place,yes,1,0,0,,378,high,1624-07-15,1624-07-15,tyles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richard Edward@ m9chaunte John Dyke m9chaunte Anthony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste
-1624,Abraham De Lawne,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Abraham De Lawne,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Abraham De Lawne,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Abraham Piersey,Bristol,place,,1,0,0,,829,high,1624-08-26,1624-08-26,Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce a Colonie and to make habitacon and plantacon of sundry our peop
@@ -14965,6 +15033,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Anthony Abdy,Virginia,place,yes,1,0,0,,309,high,1624-07-15,1624-07-15,ght mIchaunte Richard Edward@ m9chaunte John Dyke m9chaunte Anthony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hi
 1624,Anthony Biddolph,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Anthony Biddolph,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Anthony Biddolph,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Anthony Biddolph,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Anthony Biddolph,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Anthony Biddolph,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -14981,7 +15050,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Arthur Swayne,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Arthur Swayne,Virginia,place,yes,1,0,2,,,high,1624-01-14,1624-04-21,
 1624,Arthur Swayne,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,Augustine Steward,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Augustine Steward,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Augustine Steward,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Augustine Steward,Virginia,place,yes,1,0,1,,384,high,1624-02-04,1624-04-28,Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon of hands. ffor Secretary—Edward Collingwood ffor Beadle—Thomas Newton The last Court beinge made acquainted b
@@ -14995,22 +15063,21 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Christopher Brooke,Virginia,place,yes,1,0,0,,,high,1624-01-14,1624-01-14,
 1624,Christopher Newport,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Christopher Newport,England,place,yes,1,0,2,,,high,1624-02-04,1624-06-01,
-1624,Christopher Newport,INDIGENOUS (collective reference),indigenous_collective,,1,0,2,,,high,1624-04-21,1624-04-28,
+1624,Christopher Newport,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Christopher Newport,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Christopher Newport,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Christopher Newport,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Christopher Newport,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Christopher Newport,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,Daniel Darnelly,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Daniel Darnelly,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Daniel Darnelly,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Daniel Darnelly,Virginia,place,yes,1,0,0,,685,high,1624-04-28,1624-04-28,these five of the old were dismissed namely m* Bearblock. m’ Darnelly m'* Bland. m* Wheatley m* Mellinge [3884] and in their steeds these five new were chosen (vizt) 1. m’ Roberts. 6. m™ Bull. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Sm
-1624,Edward Barkham,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Barkham,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Barkham,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Barkham,Virginia,place,yes,1,0,2,,,high,1624-02-02,1624-04-28,
 1624,Edward Bennett,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Bennett,England,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
+1624,Edward Bennett,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Bennett,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Bennett,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Edward Bennett,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15019,7 +15086,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Bennett,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Bennett,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Collingwood,England,place,yes,1,0,0,,,high,1624-06-01,1624-06-01,
-1624,Edward Collingwood,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Collingwood,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Collingwood,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Conway,James City,place,,1,0,0,,604,high,1624-06-14,1624-06-14,"aithfully, Endeauo' y® good & psperytie of this plantacion James Citty May the 30 1624 See the Court holden the 28 of June 1624 & the 20 of June and the last of May next filceeding CDLIII. Henry, Eart or SouTHAMPTON, AND CERTAIN OTHER LorDS APPOINTED A COUNCIL FOR VIRGINIA JUNE (?), 1624 C. O. 1, Vo"
@@ -15027,6 +15093,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Ditchfield,England,place,yes,1,0,0,,,high,1624-06-01,1624-06-01,
 1624,Edward Ditchfield,Virginia,place,yes,1,0,1,,,high,1624-04-28,1624-06-01,
 1624,Edward Hackett,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Edward Hackett,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hackett,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hackett,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Hackett,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15035,6 +15102,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Hackett,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hurd,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hurd,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Edward Hurd,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hurd,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hurd,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Hurd,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15044,6 +15112,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Hurd,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Paulavicine,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Paulavicine,England,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
+1624,Edward Paulavicine,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Paulavicine,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Paulavicine,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Edward Paulavicine,Martin's Hundred,place,,1,0,0,,,high,1624-04-26,1624-04-26,
@@ -15053,12 +15122,14 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Paulavicine,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Edward Ryder,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Ryder,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Waterhouse,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Edward Waterhouse,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Waterhouse,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Waterhouse,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Edward Waterhouse,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15066,7 +15137,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Edward Waterhouse,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edward Waterhouse,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Edwin Sandys,England,place,yes,1,0,1,,327,high,1624-04-21,1624-06-01,"er of Tobace® by the exceedinge greate care and wisedome of S' Edwin Sandys assisted with the Lord Cauendish and other worthy members of the Company had a verie happie issue. The Importaéon of fforraigne Tobace® wherin Spanish was included beinge presented to his Ma"": as one of the nyne greivances o"
-1624,Edwin Sandys,INDIGENOUS (collective reference),indigenous_collective,,1,0,1,,331,high,1624-04-21,1624-04-28,", (vizt) The Lord Cauendish the buissines of the Comission, S' Edwin Sandys that of the Contract, and S* Iohn Dauers the last: And for y° matter of Tobace® they imposed itt vppon m’ Deputy. His Lo’: very Nobly vouchsaffed to promise his pformance of their desires, and the like did the other of their"
 1624,Edwin Sandys,Martin's Hundred,place,,1,0,0,,972,high,1624-04-28,1624-04-28,", (vizt) The Lord Cauendish the buissines of the Comission, S' Edwin Sandys that of the Contract, and S* Iohn Dauers the last: And for y° matter of Tobace® they imposed itt vppon m’ Deputy. His Lo’: very Nobly vouchsaffed to promise his pformance of their desires, and the like did the other of their"
 1624,Edwin Sandys,Plymouth,place,,1,0,0,,606,high,1624-04-28,1624-04-28,", (vizt) The Lord Cauendish the buissines of the Comission, S' Edwin Sandys that of the Contract, and S* Iohn Dauers the last: And for y° matter of Tobace® they imposed itt vppon m’ Deputy. His Lo’: very Nobly vouchsaffed to promise his pformance of their desires, and the like did the other of their"
 1624,Ferdinando Gorges,America,place,,1,0,0,,1273,high,1624-07-15,1624-07-15,y GenYall Sir Roberte Heath §knight§ our Sollicitor Gen%all Sir Ferdinando Gorges knighte Sir Roberte Killigrewe knight Sir Charles Mountagu knight Sir Phillippe Carie knight Sir Francis Gofton knighte Sir Thomas Wroth knighte Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Arga
@@ -15079,6 +15149,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Ferdinando Gorges,Virginia,place,yes,1,0,0,,1296,high,1624-07-15,1624-07-15,y GenYall Sir Roberte Heath §knight§ our Sollicitor Gen%all Sir Ferdinando Gorges knighte Sir Roberte Killigrewe knight Sir Charles Mountagu knight Sir Phillippe Carie knight Sir Francis Gofton knighte Sir Thomas Wroth knighte Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Arga
 1624,Francis Meuerell,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Francis Meuerell,England,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
+1624,Francis Meuerell,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Francis Meuerell,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Francis Meuerell,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Francis Meuerell,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15100,6 +15171,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,George Mole,Bristol,place,,1,0,0,,1172,high,1624-07-15,1624-07-15,ony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of Americ
 1624,George Mole,England,place,yes,1,0,0,,809,high,1624-07-15,1624-07-15,ony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of Americ
 1624,George Mole,Exeter,place,,1,0,0,,727,high,1624-07-15,1624-07-15,rde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butl
+1624,George Mole,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,652,high,1624-07-15,1624-07-15,ony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of Americ
 1624,George Mole,London,place,yes,1,0,0,,529,high,1624-07-15,1624-07-15,James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell 
 1624,George Mole,Martin's Hundred,place,,1,0,0,,,high,1624-04-26,1624-04-26,
 1624,George Sandys,England,place,yes,1,0,0,,,high,1624-06-01,1624-06-01,
@@ -15107,7 +15179,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,George Scott,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,George Scott,Virginia,place,yes,1,0,2,,535,high,1624-02-04,1624-04-28,"FEBRUARY 4, 1624 513 m* Iadwin. m’* Faweett. m' Geo: Scott. m’ Buckeridge. m' lo: Elkin. m’ Olliuer. m* Moreward. m’ Fothergill. m' Francis Waterhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for"
 1624,George Smith,England,place,yes,1,0,0,,,high,1624-06-01,1624-06-01,
-1624,George Smith,INDIGENOUS (collective reference),indigenous_collective,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,George Smith,Martin's Hundred,place,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,George Smith,Plymouth,place,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,George Somers,London,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
@@ -15133,13 +15204,12 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Greville Pooley,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Greville Pooley,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Greville Pooley,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,Henry Thomas,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,1227,high,1624-04-26,1624-04-26,"for 3 years att once should be suspended for the present. S' Thomas Hamon brought to the Court one Sydrac Soan, and Martha his sister who made claime vnto 3 shares due vnto their Brother loseph Soan deceased by a bill of Aduenture of 37"": 10: 00 paid vnto 8S"" Thomas Smith w™ they say Ioseph Soane di"
 1624,Henry Thomas,London,place,yes,1,0,0,,627,medium,1624-06-14,1624-06-14,"s the charge &e S' Thomas Merrie [Indorsed:|—June 14 1624 S' Thomas Merrie Clerk of the Greene cloath. GOVERNOR, CoUNCIL, AND ASSEMBLY. A PETITION TO THE KING JUNE 15 (?), 1624 C.O. 1, Vol. III, No. 42 Document in Public Record Office, London List of Records No. 684 [A petition of the Governor, Coun"
 1624,Henry Thomas,Martin's Hundred,place,,1,0,0,,1748,high,1624-04-26,1624-04-26,"for 3 years att once should be suspended for the present. S' Thomas Hamon brought to the Court one Sydrac Soan, and Martha his sister who made claime vnto 3 shares due vnto their Brother loseph Soan deceased by a bill of Aduenture of 37"": 10: 00 paid vnto 8S"" Thomas Smith w™ they say Ioseph Soane di"
 1624,Henry Thomas,Plymouth,place,,1,0,0,,,high,1624-04-26,1624-04-26,
 1624,Henry Wentworth,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Henry Wentworth,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,Henry Wentworth,INDIGENOUS (collective reference),indigenous_collective,,1,0,1,,1116,high,1624-04-21,1624-04-28,23 breiflie relatinge the manner of proceedinge against the Saluages in divers places and by what Commaunders the service was pformed; And hopeth that in the generall Assembly now called in Virginia some good order wilbe taken to maynteyne an Army for securinge of the wholl Collony. M’ Deputy signif
+1624,Henry Wentworth,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,1116,high,1624-04-21,1624-04-21,23 breiflie relatinge the manner of proceedinge against the Saluages in divers places and by what Commaunders the service was pformed; And hopeth that in the generall Assembly now called in Virginia some good order wilbe taken to maynteyne an Army for securinge of the wholl Collony. M’ Deputy signif
 1624,Henry Wentworth,James City,place,,1,0,0,,1211,high,1624-04-21,1624-04-21,‘ ffrauncis Wyat the present Gouerno™ of Virginia dated att Iames Citty the Second of ffebruary 1623 breiflie relatinge the manner of proceedinge against the Saluages in divers places and by what Commaunders the service was pformed; And hopeth that in the generall Assembly now called in Virginia som
 1624,Henry Wentworth,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Henry Wentworth,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
@@ -15151,7 +15221,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Henry Wriothesley,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Henry Wriothesley,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Humphrey May,Virginia,place,yes,1,0,0,,943,medium,1624-07-12,1624-07-12,"F THE PRIVY CoUNCIL AND OTHERS FOR SETTLING A GOVERNMENT IN VIRGINIA JuLy 15, 1624 ! (1) Patent Roll, 22 James I, pt. 1, doc. No. 4”. (2) Additional MSS. 12496, fos. 464- 473 (Caesar Papers) Document in (1) Public Record Office, London; (2) British Museum List of Records No. 701 Mameei ore la James "
-1624,James Ayscough,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,James Ayscough,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,James Ayscough,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,James Ayscough,Virginia,place,yes,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15176,7 +15245,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Berkeley,England,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
 1624,John Berkeley,London,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
 1624,John Berkeley,Virginia,place,yes,1,0,0,,667,medium,1624-02-04,1624-02-04,": Acres to m' Maurice Berkley form®ly g given to him and m‘ Iohn Berkley his ffather (since Deceassed) in reward of their service vppon the Iron Workes in Vir- ginia, w Graunt beinge drawne vpp by the apoyntment of the last Court was now read approved and ordered to be sealled being as followeth. [3"
-1624,John Bland,INDIGENOUS (collective reference),indigenous_collective,,1,0,2,,,high,1624-04-21,1624-04-28,
 1624,John Bland,Martin's Hundred,place,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,John Bland,Plymouth,place,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,John Bland,Virginia,place,yes,1,0,3,,675,high,1624-01-14,1624-04-28,of the old were dismissed namely m* Bearblock. m’ Darnelly m'* Bland. m* Wheatley m* Mellinge [3884] and in their steeds these five new were chosen (vizt) 1. m’ Roberts. 6. m™ Bull. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m*
@@ -15184,6 +15252,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Budge,London,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
 1624,John Budge,Virginia,place,yes,1,0,1,,402,high,1624-01-14,1624-02-04,"thergill. m' Francis Waterhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for as much as Captaine Baly (nowe plsent) seemed not well satisfyed w"" the answeare then giuen to Captaine Mathewe Sumeré"
 1624,John Cuffe,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,John Cuffe,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Cuffe,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Cuffe,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,John Cuffe,Martin's Hundred,place,,1,0,0,,,high,1624-04-26,1624-04-26,
@@ -15204,12 +15273,12 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Dyke,Virginia,place,yes,1,0,0,,332,high,1624-07-15,1624-07-15,unte Abraham Cartwright mIchaunte Richard Edward@ m9chaunte John Dyke m9chaunte Anthony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a C
 1624,John Ferrar,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Ferrar,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,John Ferrar,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Ferrar,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Ferrar,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Ferrar,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Ferrar,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,John Ferrar,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,John Fletcher,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Fletcher,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Fletcher,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Fletcher,Virginia,place,yes,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15227,7 +15296,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Harvey,Exeter,place,,1,0,0,,900,high,1624-08-26,1624-08-26,Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce a Colonie and to mak
 1624,John Harvey,France,place,,1,0,0,,352,high,1624-03-01,1624-03-01,"fro’ the lords of his Mat'** Counsell for New England vnto Capt Haruey, Doubtlesse they would haue either willingly haue submitted themselues thervnto, or haue Craued liberty not to pceed in the voyage And now Considering yt not only Robert Guyar & John white, but also the rest of the shipps Company"
 1624,John Harvey,Plymouth,place,,1,0,0,,921,high,1624-08-26,1624-08-26,Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce a Colonie and to mak
-1624,John James,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,671,high,1624-04-26,1624-04-26,"or their psonall shares. There was brought to the Court an Indian Boy by one William Perry lately come ouer from Virginia, for whome a moéon was made for some Contribuéon toward¢ his mayntenance, wherby to bring him vp in Christianitie and some good course to live by. Whervppon itt was thought fitt "
 1624,John James,Plymouth,place,,1,0,0,,,high,1624-04-26,1624-04-26,
 1624,John James,Virginia,place,yes,1,0,0,,615,high,1624-04-26,1624-04-26,"rt an Indian Boy by one William Perry lately come ouer from Virginia, for whome a moéon was made for some Contribuéon toward¢ his mayntenance, wherby to bring him vp in Christianitie and some good course to live by. Whervppon itt was thought fitt a Role be drawne for men to vnderwrite what they plea"
 1624,John Jefferson,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
@@ -15242,6 +15310,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Martin,America,place,,1,0,0,,314,high,1624-08-26,1624-08-26,"e """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce"
 1624,John Martin,Bristol,place,,1,0,0,,897,high,1624-08-26,1624-08-26,"e """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce"
 1624,John Martin,Exeter,place,,1,0,0,,920,high,1624-08-26,1624-08-26,"e """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ intending to deduce"
+1624,John Martin,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,1040,high,1624-12-02,1624-12-02,"ivie Counsell of especyall reecomendaéone in the behalfe of Capt John Martine, dated the xix? of december. 1623. Accompened wt"" yours of the first of ffebruary. to the same effect, which, by divers reportes and rumors synce his arivall by him raysed he hath little deserved at your handes, Notw'*stan"
 1624,John Martin,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Martin,Pamunkey,indigenous_group,,1,0,0,,831,high,1624-12-02,1624-12-02,"ivie Counsell of especyall reecomendaéone in the behalfe of Capt John Martine, dated the xix? of december. 1623. Accompened wt"" yours of the first of ffebruary. to the same effect, which, by divers reportes and rumors synce his arivall by him raysed he hath little deserved at your handes, Notw'*stan"
 1624,John Pory,America,place,,1,0,0,,546,high,1624-07-15,1624-07-15,Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richard Edward@ m9chaunte Jo
@@ -15253,7 +15322,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Procter,London,place,yes,1,0,0,,346,high,1624-03-09,1624-03-09,"y man amounting to the some of 48"" 17° 92 wt money the said m'* Procter receaued of yo"" petitioner to a peny as planly shall appeare to yo"" wo'p as Concerning y® man hee puided for me named Richard Groue hee had bound him vnto himselfe, enioyning men to say anything vnto the said groue, before hee C"
 1624,John Procter,Virginia,place,yes,1,0,0,,393,medium,1624-03-03,1624-03-03,"on some former & familiar accquaintance w m' Jo"" Procter of virginia, vypon some Conference had w'"" him vnderstand- ing by him, yt hee was intended to come ou' into this Cuntry & vpon y° good report hee gaue of y° Cuntry I eu’ conceauing a good opinion of him was induced therby to come ou’ in{to] th"
 1624,John Russell,England,place,yes,1,0,0,,460,medium,1624-02-04,1624-02-04,"erhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for as much as Captaine Baly (nowe plsent) seemed not well satisfyed w"" the answeare then giuen to Captaine Mathewe Sumeré peticon and request, fo"
-1624,John Russell,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Russell,London,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
 1624,John Russell,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Russell,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15264,12 +15332,10 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,John Wolstenholme,England,place,yes,1,0,0,,1692,high,1624-07-15,1624-07-15,knight Sir Francis Gofton knighte Sir Thomas Wroth knighte Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esqui
 1624,John Wolstenholme,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,1535,high,1624-07-15,1624-07-15,knight Sir Francis Gofton knighte Sir Thomas Wroth knighte Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esqui
 1624,John Wolstenholme,Plymouth,place,,1,0,0,,2088,high,1624-07-15,1624-07-15,knight Sir Francis Gofton knighte Sir Thomas Wroth knighte Sir John Wolstenholme knight Sir Nathaniell Riche knight Sir Samuell Argall knight Sir Humfry Handforde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esqui
-1624,John Wroth,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Wroth,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Wroth,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,John Wroth,Virginia,place,yes,1,0,0,,904,high,1624-04-28,1624-04-28,"ohn fferrar and m' Keight- ley, and in regard m’ Gibbes and m’ Iohn Wroth had long discontinued from cominge to Court¢, there were chosen in their steed m’ Bland and m'‘ Scott. Proceedinge next to the choyse of Comittees these five of the old were dismissed namely m* Bearblock. m’ Darnelly m'* Bland"
 1624,Julius Caesar,England,place,yes,1,0,0,,383,medium,1624-07-15,1624-07-15,ir George Calverte Sir Edward Conwey Sir Richard Weston and Sir Julius Cesar to be one) full power and authoritye to take into your Consideracons the state of the saide Colony and plantaéon and to treate consulte and consider of all matters whatsoever conc9nyng the saide Colony and plantaéon aswell 
-1624,Lawrence Maisterson,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Lawrence Maisterson,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Lawrence Maisterson,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Lorde Pagett,England,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
@@ -15297,7 +15363,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Nicholas Buckeridge,London,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
 1624,Nicholas Buckeridge,Virginia,place,yes,1,0,0,,520,medium,1624-02-04,1624-02-04,"RUARY 4, 1624 513 m* Iadwin. m’* Faweett. m' Geo: Scott. m’ Buckeridge. m' lo: Elkin. m’ Olliuer. m* Moreward. m’ Fothergill. m' Francis Waterhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for as"
 1624,Nicholas Ferrar,England,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
-1624,Nicholas Ferrar,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Nicholas Ferrar,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Nicholas Ferrar,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Opitchapam (Sasawpen),London,place,yes,1,0,0,,1033,high,1624-12-02,1624-12-02,"y of Congress, Washington, D. C.; (2) Public Record Office, London. Document signed List of Records No. 743 1624, Dee. 2. Right Hondble: We haue Receaued Eres from the Lords of his ma*** most Honorble. privie Counsell of especyall reecomendaéone in the behalfe of Capt John Martine, dated the xix? of"
@@ -15310,6 +15375,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Ralph Hamor,Plymouth,place,,1,0,0,,961,high,1624-08-26,1624-08-26,"ardley knight George """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers our loving subiect¢€ "
 1624,Richard Berblock,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Berblock,England,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
+1624,Richard Berblock,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Berblock,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Berblock,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Richard Berblock,Martin's Hundred,place,,1,0,1,,,high,1624-04-26,1624-04-28,
@@ -15317,15 +15383,14 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Richard Berblock,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Berblock,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Berblock,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,Richard Boothbie,INDIGENOUS (collective reference),indigenous_collective,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,Richard Boothbie,Martin's Hundred,place,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,Richard Boothbie,Plymouth,place,,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,Richard Boothbie,Virginia,place,yes,1,0,1,,,high,1624-04-26,1624-04-28,
 1624,Richard Bull,England,place,yes,1,0,1,,,high,1624-02-04,1624-06-01,
-1624,Richard Bull,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Bull,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Bull,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Caswell,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Richard Caswell,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Caswell,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Caswell,London,place,yes,1,0,0,,340,high,1624-04-21,1624-04-21,"Seauenty, or eighty Pounds waight of Tobacco a Hogsheade. M’ Casewell herevppon (beinge appoynted heretofore by the Aduen- turers to buy the Meale) declared that at the time the said Meale was bought it cost 9° p bushell, w™ with Custome petty charges, and freight made itt 13° p bushell Soe that a H"
 1624,Richard Caswell,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
@@ -15339,11 +15404,11 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Richard Morer,London,place,yes,1,0,0,,555,high,1624-07-15,1624-07-15,James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell 
 1624,Richard Morer,Plymouth,place,,1,0,0,,1177,high,1624-07-15,1624-07-15,almer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard Morer greeting Whereas heretofore at the humble suite [and requeste] of divers our loving subiect¢ intending to deduce a Colony and to make hitaéon and plantaton of sundry our people in that parte of America comonly called Virginia 
 1624,Richard Potts,Virginia,place,yes,1,0,0,,638,low,1624-03-30,1624-03-30,"o>!? right Wor"" ete. the Gouernor and Counsell of Estate in Virginia The humble Petition of Jane Dickenson Widdowe (28] Most humblie sheweth that whereas her late husband Ralph Dicken- son Came ou"" into this Cuntry fower Yeares since, obliged to Nicholas Hide deceased for y® tearme of seauen yeares,"
-1624,Richard Rogers,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Rogers,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Rogers,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Rogers,Virginia,place,yes,1,0,1,,,high,1624-01-14,1624-04-28,
 1624,Richard Weston,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Richard Weston,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Weston,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Weston,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Weston,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
@@ -15358,12 +15423,10 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Richard Widowes,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Richard Widowes,Virginia,place,yes,1,0,2,,,high,1624-02-04,1624-06-01,
 1624,Richard Widowes,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
-1624,Richard Wiseman,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Wiseman,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Wiseman,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Richard Wiseman,Virginia,place,yes,1,0,3,,400,high,1624-01-14,1624-04-28,dded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelgate. 9. m™ Wiseman. 14. m’ Seaward. 5. m' Kirbie. 10. m’ Meuerell. 15. m’ Barbor. 16. m'™ Covell. were chosen by a generall ffor Husband—m* W™ Webb ereccon of hands. ffor Secretary—Edward Collingwood ffor Beadle—Thomas Newton The last Court beinge 
 1624,Robert Bell,Virginia,place,yes,1,0,0,,350,high,1624-07-16,1624-07-16,"on List of Records No. 702 The King@ Commission concerning Virginia dated 15% July 22 Jaé. Re. At the house of S' Thomas Smith was publikely read. The Commissions plsent were. The Lo: President of the Councell M*' Wrote Mr"" Tresero* S' Samuell Argall S' Tho: Smith Mr’ Leate M? Solicito™ Mr’ Pory S' "
-1624,Robert Careles,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Robert Careles,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Robert Careles,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Robert Careles,Virginia,place,yes,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15379,6 +15442,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Robert Heath,Virginia,place,yes,1,0,0,,1350,high,1624-07-15,1624-07-15,ewelhouse Sir Thomas Coventrye knighte our Attorney GenYall Sir Roberte Heath §knight§ our Sollicitor Gen%all Sir Ferdinando Gorges knighte Sir Roberte Killigrewe knight Sir Charles Mountagu knight Sir Phillippe Carie knight Sir Francis Gofton knighte Sir Thomas Wroth knighte Sir John Wolstenholme k
 1624,Robert Johnson,America,place,,1,0,0,,848,high,1624-07-15,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier E
 1624,Robert Johnson,Bristol,place,,1,0,0,,1797,high,1624-07-15,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier E
+1624,Robert Johnson,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,1277,high,1624-07-15,1624-07-15,ane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier E
 1624,Robert Johnson,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Roger Smith,America,place,,1,0,0,,353,high,1624-08-26,1624-08-26,"Esquier Sir George Yardley knight George """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers o"
 1624,Roger Smith,Bristol,place,,1,0,0,,936,high,1624-08-26,1624-08-26,"Esquier Sir George Yardley knight George """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers o"
@@ -15388,6 +15452,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Roger Smith,Plymouth,place,,1,0,0,,980,high,1624-08-26,1624-08-26,"Esquier Sir George Yardley knight George """"* Sandys Esquier Roger Smyth Esquier Raph Hamor Esquier John Martin Esquier John Harvey Esquier Samuell Mathewes Esquier Abraham Percey Esquier Isaack Maddison Esquier and William Clayborne Esquier greeting Whereas heretofore at the humble suite of divers o"
 1624,Rowland Trueloue,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Rowland Trueloue,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Rowland Trueloue,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Rowland Trueloue,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Rowland Trueloue,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Rowland Trueloue,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15416,7 +15481,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Samuel Wrote,Exeter,place,,1,0,0,,383,high,1624-07-15,1624-07-15,rde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butl
 1624,Samuel Wrote,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,994,high,1624-07-15,1624-07-15,rmayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richar
 1624,Samuel Wrote,Plymouth,place,,1,0,0,,1547,high,1624-07-15,1624-07-15,rmayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richar
-1624,Thomas Ayres,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-26,1624-04-26,
 1624,Thomas Ayres,Martin's Hundred,place,,1,0,0,,,high,1624-04-26,1624-04-26,
 1624,Thomas Ayres,Plymouth,place,,1,0,0,,,high,1624-04-26,1624-04-26,
 1624,Thomas Ayres,Virginia,place,yes,1,0,0,,453,high,1624-04-26,1624-04-26,"APRIL 26, 1624 529 A PREPARATIUE COURTE HELDE FOR VIRGINIA ON MuNnpDAY IN THE AFTERNOONE Y"": 26: oF APRILL—1624. PRESENT S’ ohn Dauers. m’ Ryder. m' Norwood. S' Roger Twisden. m' Newporte. m'‘ Sparrowe. m' Deputie. m"" Boothbie. m* Cranmer. m' John fferrar. m'* Sheldone. m’ Huddlestone. m' Shepparde."
@@ -15431,6 +15495,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Thomas Coventry,Virginia,place,yes,1,0,0,,1397,high,1624-07-15,1624-07-15,"JULY 15, 1624 491 Mildmay knight Maister of our Jewelhouse Sir Thomas Coventrye knighte our Attorney GenYall Sir Roberte Heath §knight§ our Sollicitor Gen%all Sir Ferdinando Gorges knighte Sir Roberte Killigrewe knight Sir Charles Mountagu knight Sir Phillippe Carie knight Sir Francis Gofton knighte"
 1624,Thomas Freake,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Freake,England,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
+1624,Thomas Freake,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Freake,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Freake,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Thomas Freake,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15442,16 +15507,17 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Thomas Gibbs,Bristol,place,,1,0,0,,1536,high,1624-07-15,1624-07-15,ay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartw
 1624,Thomas Gibbs,England,place,yes,1,0,0,,1173,high,1624-07-15,1624-07-15,ay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartw
 1624,Thomas Gibbs,Exeter,place,,1,0,0,,361,high,1624-07-15,1624-07-15,rde knighte Mathewe Suteliff deor of Diuinitye and Deane of Exeter Francis White deor of Divinitye and deane of Carlile Thomas Fanshawe Esquier Clerke of the Crowne Robert Johnson Alderman of London James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butl
+1624,Thomas Gibbs,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,1016,high,1624-07-15,1624-07-15,ay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell Hawes Esquier Edwarde Palavicine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartw
 1624,Thomas Gibbs,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Jadwin,England,place,yes,1,0,1,,649,high,1624-02-04,1624-06-01,"FEBRUARY 4, 1624 513 m* Iadwin. m’* Faweett. m' Geo: Scott. m’ Buckeridge. m' lo: Elkin. m’ Olliuer. m* Moreward. m’ Fothergill. m' Francis Waterhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for"
 1624,Thomas Jadwin,London,place,yes,1,0,0,,,medium,1624-02-04,1624-02-04,
 1624,Thomas Jadwin,Virginia,place,yes,1,0,2,,565,high,1624-01-14,1624-06-01,"FEBRUARY 4, 1624 513 m* Iadwin. m’* Faweett. m' Geo: Scott. m’ Buckeridge. m' lo: Elkin. m’ Olliuer. m* Moreward. m’ Fothergill. m' Francis Waterhowse. mo"" Stone. m’* Hackett. m'’ Budge. m’ Kerrill. m* Russell. w' diuers others. The piparatiue Courte of the second of this Moneth was read Wherein for"
-1624,Thomas Melling,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Melling,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Melling,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Melling,Virginia,place,yes,1,0,0,,650,high,1624-04-28,1624-04-28,ed namely m* Bearblock. m’ Darnelly m'* Bland. m* Wheatley m* Mellinge [3884] and in their steeds these five new were chosen (vizt) 1. m’ Roberts. 6. m™ Bull. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 4. m’ ffelga
 1624,Thomas Morris,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Morris,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,Thomas Morris,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Morris,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Morris,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Morris,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15460,12 +15526,11 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Thomas Morris,Spain,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Morris,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Newce,Virginia,place,yes,1,0,0,,447,high,1624-02-01,1624-02-01,"of Virginia, 1619-1658/9, pp. 23-25, from Stith, History of Virginia, pp. 307-3812, who probably took it from (2).] CDXXX. WituramM GaNney. PErEtiTIon To Sir Francis WYATT Earuy IN Fresruary, 1623/4 Manuscript Records Virginia Company, III, pt. ii, p. 60a Document in Library of Congress, Washington,"
-1624,Thomas Newton,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Newton,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Newton,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Sheppard,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Sheppard,England,place,yes,1,0,2,,,high,1624-02-04,1624-06-01,
-1624,Thomas Sheppard,INDIGENOUS (collective reference),indigenous_collective,,1,0,1,,,high,1624-04-21,1624-04-26,
+1624,Thomas Sheppard,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Sheppard,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,Thomas Sheppard,London,place,yes,1,0,1,,,high,1624-02-04,1624-04-21,
 1624,Thomas Sheppard,South Sea,place,,1,0,0,,,high,1624-04-21,1624-04-21,
@@ -15485,12 +15550,10 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Thomas Styles,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,857,high,1624-07-15,1624-07-15,icine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richard Edward@ m9chaunte John Dyke m9chaunte Anthony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard
 1624,Thomas Styles,London,place,yes,1,0,0,,322,high,1624-07-15,1624-07-15,James Cambell Alderman of London Raphe Freeman Alderman of London Morrice Abbott Esq? Nathaniell Butler Esquier George Wilmore Esquier Wilfm Hackwell Esquier John Mildmay Esquier Phillipp Jermayne Esquier Edward Johnson Esquier Thomas Gibbes Esquier Samuell Wrote Esquier John Porey Esquier Michaell 
 1624,Thomas Styles,Plymouth,place,,1,0,0,,1410,high,1624-07-15,1624-07-15,icine Esquier Roberte Bateman m9chante Martyn Bond m9chante Thomas Styles m9chante Nichas leate m9chante Roberte Bell m%chaunte Abraham Cartwright mIchaunte Richard Edward@ m9chaunte John Dyke m9chaunte Anthony Abdy m9chaunte Wiltm Palmer m9chaunte Edward Ditchfeild George Mole mIchaunte and Richard
-1624,Thomas Viner,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Viner,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Viner,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Viner,Virginia,place,yes,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Watson,Virginia,place,yes,1,0,1,,,high,1624-01-14,1624-02-04,
-1624,Thomas Wheatley,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Wheatley,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Wheatley,Plymouth,place,,1,0,0,,,high,1624-04-28,1624-04-28,
 1624,Thomas Wheatley,Virginia,place,yes,1,0,2,,662,high,1624-02-02,1624-04-28,were dismissed namely m* Bearblock. m’ Darnelly m'* Bland. m* Wheatley m* Mellinge [3884] and in their steeds these five new were chosen (vizt) 1. m’ Roberts. 6. m™ Bull. 11. m‘ Boothbie. 2. m* Morris. eee eee or Casewell. 12. m* Bennett. 3. m' Ryder. | yoreadded 8: m* Georg Smith. 13. m* Biddolph. 
@@ -15512,6 +15575,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,William Capps,West Indies,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,William Felgate,Bermuda / Somers Islands,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,William Felgate,England,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
+1624,William Felgate,INDIGENOUS (collective reference),indigenous_collective,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,William Felgate,James City,place,,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,William Felgate,London,place,yes,1,0,0,,,high,1624-04-21,1624-04-21,
 1624,William Felgate,Martin's Hundred,place,,1,0,0,,,high,1624-04-28,1624-04-28,
@@ -15536,10 +15600,10 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Daniel Gookin,England,place,yes,0,0,1,,,high,1624-06-01,1624-06-01,
 1624,Edward Barkham,England,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,Edward Barkham,London,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
-1624,Edward Ditchfield,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Edward Ditchfield,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Edward Ditchfield,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Edwin Sandys,Bermuda / Somers Islands,place,,0,0,1,,,high,1624-04-21,1624-04-21,
+1624,Edwin Sandys,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Edwin Sandys,James City,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Edwin Sandys,London,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Edwin Sandys,South Sea,place,,0,0,1,,,high,1624-04-21,1624-04-21,
@@ -15560,7 +15624,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,George Robins,London,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,George Robins,Virginia,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,George Scott,Bermuda / Somers Islands,place,,0,0,1,,,high,1624-04-21,1624-04-21,
-1624,George Scott,INDIGENOUS (collective reference),indigenous_collective,,0,0,2,,,high,1624-04-21,1624-04-28,
+1624,George Scott,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,George Scott,James City,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,George Scott,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,George Scott,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
@@ -15574,42 +15638,39 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Johanni Elkyn,Virginia,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,John Bland,Bermuda / Somers Islands,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Bland,England,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
+1624,John Bland,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Bland,James City,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Bland,London,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Bland,South Sea,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Bland,Spain,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Bland,West Indies,place,,0,0,1,,,high,1624-04-21,1624-04-21,
-1624,John Bourchier,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Bourchier,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Bourchier,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Bourchier,Virginia,place,yes,0,0,1,,,high,1624-04-28,1624-04-28,
-1624,John Brooke,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Brooke,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Brooke,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Danvers,Bermuda / Somers Islands,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Danvers,England,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
+1624,John Danvers,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Danvers,James City,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Danvers,London,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Danvers,South Sea,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Danvers,Spain,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Danvers,West Indies,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,John Smith,England,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
-1624,John Smith,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Smith,London,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,John Smith,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Smith,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Smith,Virginia,place,yes,0,0,2,,,high,1624-02-04,1624-04-28,
-1624,John Taylor,INDIGENOUS (collective reference),indigenous_collective,,0,0,2,,,high,1624-04-26,1624-04-28,
 1624,John Taylor,Martin's Hundred,place,,0,0,2,,,high,1624-04-26,1624-04-28,
 1624,John Taylor,Plymouth,place,,0,0,2,,,high,1624-04-26,1624-04-28,
 1624,John Taylor,Virginia,place,yes,0,0,2,,,high,1624-04-26,1624-04-28,
-1624,John Trevor,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Trevor,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Trevor,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,John Trevor,Virginia,place,yes,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Lawrence Hyde,Bermuda / Somers Islands,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Lawrence Hyde,England,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
-1624,Lawrence Hyde,INDIGENOUS (collective reference),indigenous_collective,,0,0,2,,,high,1624-04-21,1624-04-28,
+1624,Lawrence Hyde,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Lawrence Hyde,James City,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Lawrence Hyde,London,place,yes,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Lawrence Hyde,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
@@ -15635,6 +15696,7 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Nicholas Hyde,West Indies,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Patrick Copland,Bermuda / Somers Islands,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Patrick Copland,England,place,yes,0,0,3,,,high,1624-02-04,1624-06-01,
+1624,Patrick Copland,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Patrick Copland,James City,place,,0,0,1,,,high,1624-04-21,1624-04-21,
 1624,Patrick Copland,London,place,yes,0,0,2,,,high,1624-02-04,1624-04-21,
 1624,Patrick Copland,South Sea,place,,0,0,1,,,high,1624-04-21,1624-04-21,
@@ -15652,15 +15714,12 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Richard Tomlins,Virginia,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,Richard Wiseman,England,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,Richard Wiseman,London,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
-1624,Roger Twisden,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-26,1624-04-26,
 1624,Roger Twisden,Martin's Hundred,place,,0,0,1,,,high,1624-04-26,1624-04-26,
 1624,Roger Twisden,Plymouth,place,,0,0,1,,,high,1624-04-26,1624-04-26,
 1624,Roger Twisden,Virginia,place,yes,0,0,1,,,high,1624-04-26,1624-04-26,
-1624,Stephen Sparrow,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Stephen Sparrow,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Stephen Sparrow,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Stephen Sparrow,Virginia,place,yes,0,0,1,,,high,1624-04-28,1624-04-28,
-1624,Thomas Keightley,INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Thomas Keightley,Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Thomas Keightley,Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,Thomas Keightley,Virginia,place,yes,0,0,1,,,high,1624-04-28,1624-04-28,
@@ -15668,7 +15727,6 @@ year,person,target_name,target_type,background,meetings,close_meetings,present_m
 1624,Thomas Sheppard,Plymouth,place,,0,0,1,,,high,1624-04-26,1624-04-26,
 1624,Thomas Watson,England,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
 1624,Thomas Watson,London,place,yes,0,0,1,,,medium,1624-02-04,1624-02-04,
-1624,"Thomas West, Lord De La Warr",INDIGENOUS (collective reference),indigenous_collective,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,"Thomas West, Lord De La Warr",Martin's Hundred,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,"Thomas West, Lord De La Warr",Plymouth,place,,0,0,1,,,high,1624-04-28,1624-04-28,
 1624,"Thomas West, Lord De La Warr",Virginia,place,yes,0,0,1,,,high,1624-04-28,1624-04-28,
