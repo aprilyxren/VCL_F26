@@ -14,6 +14,9 @@ the meeting headings, so dates are layered from most to least reliable:
 4. Meeting segments: headings such as ``A COURT HELD ... 28 APRILL 1619``
    split a page; a heading date is used only when it falls within the page's
    header range (with a small tolerance), otherwise the page date is kept.
+5. Document headings (Volumes III-IV): each document opens with a numbered
+   editorial heading and its own date, which then dates the whole document
+   until the next heading, across pages.
 
 Outputs are reviewable CSVs; observed text is never altered.
 """
@@ -22,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import re
 from dataclasses import dataclass
 from datetime import date, timedelta
@@ -89,6 +93,18 @@ MEETING_HEADING_RE = re.compile(
 # Case-sensitive: lowercase "present" is prose ("shalbe present.").
 PRESENT_RE = re.compile(r"(?m)^[^\n]{0,40}\b(?:PRESENT|Present)\b\W*$")
 HEADING_LOOKBACK = 300
+# Volumes III-IV are collections of separate documents, each opened by an
+# editorial heading: ``CCLXXX. COUNCIL IN VIRGINIA. LETTER ...``, the date on
+# its own line, then the source (``Document in ...``, ``List of Records No. 400``).
+DOCUMENT_VOLUMES = {3, 4}
+DOCUMENT_HEADING_RE = re.compile(r"(?m)^[ \t]*([CLXVI]{1,12})\.\s+(?!O\.)(?=\S)")
+DOCUMENT_SOURCE_RE = re.compile(r"(?i)\b(?:Document\s+in|List\s+of\s+Rec\w*\s+Nos?\b|For\s+Reference)\b")
+DOCUMENT_SOURCE_REACH = 700
+FIRST_DOCUMENT_NUMBER = {3: 1, 4: 276}
+# OCR-damaged headings leave gaps in the numbering; a larger jump is a false
+# match (a numbered article ``XII. It shall be lawfull ...``).
+DOCUMENT_NUMBER_GAP = 15
+NUMERAL_VALUES = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
 
 
 @dataclass(frozen=True)
@@ -205,6 +221,7 @@ def parse_dates(
     year_range: tuple[int, int] = (YEAR_MIN, YEAR_MAX),
     prefer: date | None = None,
     old_style: bool = False,
+    year_only: bool = False,
 ) -> ParsedDate | None:
     """Parse month-first (``JULY 30, 31, 1619``, ``NOVEMBER 4, 1623, TO MAY 24,
     1624``), day-first (``28 APRILL 1619``, ``THE FIRST OF IVLY 1623``) and
@@ -213,7 +230,9 @@ def parse_dates(
     A year must fall in ``year_range``; an OCR-repaired reading is used only
     when the raw one does not, choosing the reading closest to ``prefer``.
     With ``old_style`` (original document dates), 1 Jan-24 Mar moves to the
-    next year unless the year was written dual-dated (``1621/2``).
+    next year unless the year was written dual-dated (``1621/2``). With
+    ``year_only``, a bare year (``1622 537``) reads as the whole year when
+    nothing more precise is found.
     """
     text = re.sub(r"(?<![A-Za-z])[iIl](?=\d)", "1", text)  # I7, i3 -> 17, 13
     text = re.sub(r"(?<![A-Za-z0-9])[iIl](?=6\d\d)", "1", text)  # i621 -> 1621
@@ -222,6 +241,7 @@ def parse_dates(
     last_day = False
     tokens = TOKEN_RE.findall(text)
     found: list[tuple[date, date]] = []
+    whole_years: list[tuple[date, date]] = []
     corrected = False
     month: int | None = None
     pending: list[tuple[int, int]] = []
@@ -248,6 +268,8 @@ def parse_dates(
                 found.extend((d, d) for d in days)
             elif month is not None and orphan_day is None:
                 found.append((date(year, month, 1), month_end(year, month)))
+            elif year_only and month is None:
+                whole_years.append((date(year, 1, 1), date(year, 12, 31)))
             pending, orphan_day, month, last_day = [], None, None, False
             continue
         if re.fullmatch(r"\d{4,5}(?:/\d{1,2})?", token):
@@ -285,6 +307,7 @@ def parse_dates(
             pending.append((month, day))
         else:
             orphan_day = day
+    found = found or whole_years
     if not found:
         return None
     return ParsedDate(min(start for start, _ in found), max(end for _, end in found), corrected)
@@ -300,7 +323,7 @@ def date_pages(pages: list[dict]) -> list[dict]:
         first = first_line(page["text"])
         is_records_head = bool(RECORDS_HEAD_RE.search(first))
         year_range = VOLUME_YEARS.get(page["volume"], (YEAR_MIN, YEAR_MAX))
-        parsed = None if is_records_head else parse_dates(first, year_range)
+        parsed = None if is_records_head else parse_dates(first, year_range, year_only=True)
         rows.append({
             "page_id": page["page_id"], "volume": page["volume"], "header_line": first[:120],
             "start": parsed.start if parsed else None, "end": parsed.end if parsed else None,
@@ -439,10 +462,64 @@ def month_line(line: str) -> bool:
     return len(line.strip()) <= 40 and any(month_of(word) for word in words)
 
 
-def meeting_segments(pages: list[dict], page_rows: list[dict]) -> list[dict]:
+def numeral_value(numeral: str) -> int:
+    values = [NUMERAL_VALUES[char] for char in numeral]
+    return sum(-v if i + 1 < len(values) and v < values[i + 1] else v for i, v in enumerate(values))
+
+
+def document_headings(pages: list[dict], overrides: dict[str, dict] | None = None,
+                      ) -> dict[str, dict[int, tuple[str, ParsedDate | None, str, int]]]:
+    """Find document headings in Volumes III-IV:
+    ``{page_id: {offset: (heading, date, confidence, end)}}``, ``end`` being
+    where the heading's title and date lines stop (its source note follows).
+
+    A heading must be followed by its source note and must continue the
+    numbering. The date is the last heading line that parses (titles may
+    contain years: ``THE VOYAGE TO VIRGINIA 1619`` above ``1619``). An
+    editor's query (``1620 (?)``) or an OCR repair makes the date medium.
+    ``overrides`` (``{numeral: {"start", "end"}}``) replace a heading's date.
+    """
+    found: dict[str, dict[int, tuple[str, ParsedDate | None, str, int]]] = {}
+    last_number: dict[int, int] = {}
+    prefer: date | None = None
+    for page in pages:
+        volume = page["volume"]
+        if volume not in DOCUMENT_VOLUMES:
+            continue
+        text = page["text"]
+        years = VOLUME_YEARS[volume]
+        for match in DOCUMENT_HEADING_RE.finditer(text):
+            number = numeral_value(match.group(1))
+            previous = last_number.get(volume, FIRST_DOCUMENT_NUMBER[volume] - 1)
+            source = DOCUMENT_SOURCE_RE.search(text, match.end(), match.end() + DOCUMENT_SOURCE_REACH)
+            if not source or not previous < number <= previous + DOCUMENT_NUMBER_GAP:
+                continue
+            last_number[volume] = number
+            block = text[match.start():source.start()]
+            lines = [line for line in block.split("\n")[1:] if line.strip()]
+            # A full date beats a bare year, which may be a source note's span (``1606-1692``).
+            date_line, parsed = next(((line, reading) for whole_year in (False, True) for line in reversed(lines)
+                                      if (reading := parse_dates(line, years, prefer=prefer, year_only=whole_year))),
+                                     (block, None))
+            parsed = parsed or parse_dates(block, years, prefer=prefer, year_only=True)
+            if parsed:
+                prefer = parsed.start
+            confidence = "medium" if parsed and (parsed.corrected or "?" in date_line) else "high"
+            if match.group(1) in (overrides or {}):
+                fixed = overrides[match.group(1)]
+                parsed = ParsedDate(date.fromisoformat(fixed["start"]), date.fromisoformat(fixed["end"]), False)
+                confidence = "medium"
+            found.setdefault(page["page_id"], {})[match.start()] = (
+                " ".join(block.split())[:160], parsed, confidence, source.start())
+    return found
+
+
+def meeting_segments(pages: list[dict], page_rows: list[dict],
+                     document_dates: dict[str, dict] | None = None) -> list[dict]:
     by_id = {row["page_id"]: row for row in page_rows}
+    documents = document_headings(pages, document_dates)
     segments = []
-    current = None  # (start, end, source, confidence) of the meeting in progress
+    current = None  # (start, end, source, confidence) of the meeting or document in progress
     current_volume = None
     last_meeting: date | None = None
     for page in pages:
@@ -464,11 +541,27 @@ def meeting_segments(pages: list[dict], page_rows: list[dict]) -> list[dict]:
                 if (reading := parse_dates(block, year_range, prefer=page_row["start"], old_style=style))
             ]
             cuts[line_start] = (" ".join(block.split())[:160], readings)
+        page_documents = documents.get(page["page_id"], {})
+        for offset in page_documents:
+            # The document heading replaces any meeting cut inside its heading block.
+            for line_start in [c for c in cuts if c and offset <= c < offset + HEADING_LOOKBACK]:
+                del cuts[line_start]
+            cuts[offset] = (page_documents[offset][0], None)
         ordered = sorted(cuts)
         page_date = (page_row["start"], page_row["end"], page_row["source"], page_row.get("confidence", "none"))
         for index, start in enumerate(ordered):
             end = ordered[index + 1] if index + 1 < len(ordered) else len(text)
             heading, readings = cuts[start]
+            if start in page_documents:
+                _, parsed, confidence, _ = page_documents[start]
+                if parsed:
+                    current = (parsed.start, parsed.end, "document_heading", confidence)
+                    value = current
+                else:
+                    current = None
+                    value = (*page_date[:2], f"{page_date[2]}; document_undated", page_date[3])
+                segments.append(segment_row(page, index, start, end, heading, value))
+                continue
             parsed = None
             if heading and readings and page_row["start"]:
                 lo = page_row["start"] - HEADING_TOLERANCE
@@ -495,18 +588,23 @@ def meeting_segments(pages: list[dict], page_rows: list[dict]) -> list[dict]:
                 current = None
                 value = (*page_date[:2], f"{page_date[2]}; heading_undated", page_date[3])
             elif start == 0 and current and page_row["start"] and (
-                page_row["start"] - HEADING_TOLERANCE <= current[0] <= page_row["end"] + HEADING_TOLERANCE
+                page_row["start"] - HEADING_TOLERANCE <= current[1] and current[0] <= page_row["end"] + HEADING_TOLERANCE
             ):
-                value = (*current[:2], "continued_meeting", current[3])
+                kind = "continued_document" if current[2] == "document_heading" else "continued_meeting"
+                value = (*current[:2], kind, current[3])
             else:
                 value = page_date
-            segments.append({
-                "segment_id": f"{page['page_id']}-S{index + 1:02d}",
-                "page_id": page["page_id"], "char_start": start, "char_end": end,
-                "heading": heading, "date_start": value[0], "date_end": value[1],
-                "date_source": value[2], "confidence": value[3],
-            })
+            segments.append(segment_row(page, index, start, end, heading, value))
     return segments
+
+
+def segment_row(page: dict, index: int, start: int, end: int, heading: str, value: tuple) -> dict:
+    return {
+        "segment_id": f"{page['page_id']}-S{index + 1:02d}",
+        "page_id": page["page_id"], "char_start": start, "char_end": end,
+        "heading": heading, "date_start": value[0], "date_end": value[1],
+        "date_source": value[2], "confidence": value[3],
+    }
 
 
 def iso(value) -> str:
@@ -528,10 +626,12 @@ def main() -> None:
     parser.add_argument("source", type=Path)
     parser.add_argument("--page-output", type=Path, required=True)
     parser.add_argument("--segment-output", type=Path, required=True)
+    parser.add_argument("--document-dates", type=Path, default=Path("configs/document_dates.json"))
     args = parser.parse_args()
     pages = load_primary_pages(args.source)
     page_rows = date_pages(pages)
-    segments = meeting_segments(pages, page_rows)
+    document_dates = json.loads(args.document_dates.read_text())["documents"] if args.document_dates.exists() else {}
+    segments = meeting_segments(pages, page_rows, document_dates)
     write_csv(args.page_output, ["page_id", "volume", "start", "end", "source", "confidence", "header_line"],
               page_rows)
     write_csv(args.segment_output, ["segment_id", "page_id", "char_start", "char_end", "date_start", "date_end",
@@ -542,7 +642,8 @@ def main() -> None:
         sources[key] = sources.get(key, 0) + 1
     print(f"Dated {len(page_rows)} pages: {dict(sorted(sources.items()))}")
     print(f"Wrote {len(segments)} segments "
-          f"({sum(1 for s in segments if s['date_source'] == 'meeting_heading')} dated by meeting heading)")
+          f"({sum(1 for s in segments if s['date_source'] == 'meeting_heading')} dated by meeting heading, "
+          f"{sum(1 for s in segments if s['date_source'] == 'document_heading')} by document heading)")
 
 
 if __name__ == "__main__":

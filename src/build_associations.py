@@ -1,9 +1,9 @@
 """Build person <-> place / Indigenous-people associations from NER mentions.
 
-Unit: a *meeting*. Segments from ``text_segments.csv`` are chained: a segment
-with a heading starts a meeting, a ``continued_meeting`` segment joins the one
-before it, and any other page is its own dated unit (most Volume III-IV
-documents). Only mentions marked ``usable_for_association`` count, and only
+Unit: a *meeting*, or in Volumes III-IV a *document*. Segments from
+``text_segments.csv`` are chained: a segment with a heading starts a unit, a
+``continued_meeting`` or ``continued_document`` segment joins the one before
+it, and any other page is its own dated unit. Only mentions marked ``usable_for_association`` count, and only
 people linked to a dictionary key (unidentified names are not nodes).
 
 For each person and target (place, Indigenous group, or Indigenous people
@@ -76,7 +76,7 @@ def meeting_ids(segments: list[dict[str, str]]) -> dict[str, dict[str, str]]:
         volume = segment["page_id"][:3]
         starts_new = (
             segment["heading"] or current is None or volume != current_volume
-            or not segment["date_source"].startswith("continued_meeting")
+            or not segment["date_source"].startswith(("continued_meeting", "continued_document"))
         )
         if starts_new:
             current = {

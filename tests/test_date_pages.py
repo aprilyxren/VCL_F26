@@ -6,7 +6,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from date_pages import date_pages, heading_starts, parse_dates  # noqa: E402
+from date_pages import date_pages, heading_starts, meeting_segments, parse_dates  # noqa: E402
 
 VOL1 = (1619, 1622)
 VOL2 = (1622, 1624)
@@ -68,3 +68,32 @@ def test_court_book_old_style_head_moves_forward_a_year():
     rows = {row["page_id"]: row for row in date_pages(pages)}
     assert rows["V01-P0002"]["start"] == date(1621, 1, 29)
     assert rows["V01-P0002"]["source"] == "running_header_old_style"
+
+
+def test_bare_year_reads_as_the_whole_year_only_when_asked():
+    assert parse_dates("1622 537", (1606, 1622)) is None
+    parsed = parse_dates("1622 537", (1606, 1622), year_only=True)
+    assert (parsed.start, parsed.end) == (date(1622, 1, 1), date(1622, 12, 31))
+    assert parse_dates("MARCH 4, 1622/3 1622", (1606, 1626), year_only=True).end == date(1623, 3, 4)
+
+
+def test_document_heading_dates_the_document_across_pages():
+    pages = [
+        {"page_id": "V03-P0001", "volume": 3, "text": (
+            "OCTOBER 24, 1621 510\n\nXIV. Privy Councit. ORDER TO THE VIRGINIA COMPANY\n\n"
+            "OcToBER 24, 1621\n\nPrivy Council Register\nList of Records No. 280\n\nAtt Whitehall the 24 of October\n")},
+        {"page_id": "V03-P0002", "volume": 3, "text": (
+            "1622 511\n\nthe rest of the order.\n\nXV. Epwarp WATERHOUSE. A RELATION OF THE\nBARBAROUS MASSACRE 1622\n\n"
+            "1622\n\nPrinted.\n\nList of Records Nos. 293, 292\n\nthe Indians fell vpon them\n")},
+        {"page_id": "V03-P0003", "volume": 3, "text": "1622 512\n\nmore of the relation\n"},
+        # A numbered article is not a document: no source note follows.
+        {"page_id": "V03-P0004", "volume": 3, "text": "1622 513\n\nXVI. It shall be lawfull at a general Court\n"},
+    ]
+    overrides = {"XV": {"start": "1622-03-22", "end": "1622-12-31"}}
+    segments = meeting_segments(pages, date_pages(pages), overrides)
+    dated = [(s["page_id"], s["date_source"], s["date_start"]) for s in segments]
+    assert ("V03-P0001", "document_heading", date(1621, 10, 24)) in dated
+    assert ("V03-P0002", "continued_document", date(1621, 10, 24)) not in dated
+    assert ("V03-P0002", "document_heading", date(1622, 3, 22)) in dated
+    assert ("V03-P0003", "continued_document", date(1622, 3, 22)) in dated
+    assert ("V03-P0004", "continued_document", date(1622, 3, 22)) in dated

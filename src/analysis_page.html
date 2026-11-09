@@ -11,6 +11,7 @@
   --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --other:#9a9d95;
   --q0:#f0f2ee; --q1:#cde2fb; --q2:#9ec5f4; --q3:#6da7ec; --q4:#3987e5; --q5:#256abf; --q6:#184f95;
   --q-ink-light:#1f2a2c; --q-ink-dark:#ffffff;
+  --water:#dde8ec; --land:#f6f5ef; --shore:#b9c4c4; --river:#9cbccb; --nation:#8a5a2b;
   --display:Spectral,Georgia,"Times New Roman",serif;
   --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
@@ -22,6 +23,7 @@
     --s1:#3987e5; --s2:#d95926; --s3:#199e70; --other:#6f7570;
     --q0:#1d2729; --q1:#0d366b; --q2:#104281; --q3:#184f95; --q4:#1c5cab; --q5:#2a78d6; --q6:#5598e7;
     --q-ink-light:#e2e8e6; --q-ink-dark:#ffffff;
+    --water:#14252b; --land:#1e2a2d; --shore:#33454a; --river:#2f5566; --nation:#d29a5e;
   }
 }
 :root[data-theme="dark"]{
@@ -31,6 +33,7 @@
   --s1:#3987e5; --s2:#d95926; --s3:#199e70; --other:#6f7570;
   --q0:#1d2729; --q1:#0d366b; --q2:#104281; --q3:#184f95; --q4:#1c5cab; --q5:#2a78d6; --q6:#5598e7;
   --q-ink-light:#e2e8e6; --q-ink-dark:#ffffff;
+  --water:#14252b; --land:#1e2a2d; --shore:#33454a; --river:#2f5566; --nation:#d29a5e;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -99,6 +102,15 @@ table.plain th{font-size:12px;letter-spacing:.05em;text-transform:uppercase;colo
 table.plain td.num,table.plain th.num{text-align:right}
 .mini{display:inline-block;height:8px;border-radius:2px;vertical-align:1px}
 .examples{display:grid;gap:10px}
+.records{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.records li{display:grid;grid-template-columns:44px 1fr;gap:4px 10px;align-items:start}
+.records .n{font:600 15px/1.3 var(--display);text-align:right;font-variant-numeric:tabular-nums}
+.records .bar{grid-column:2;height:5px;border-radius:2px;background:var(--s1)}
+.words{display:flex;flex-wrap:wrap;gap:6px}
+.words span{font-size:13px;background:var(--grid);color:var(--ink);border-radius:4px;padding:2px 7px}
+.words small{color:var(--muted);margin-left:4px;font-variant-numeric:tabular-nums}
+.bar-hit{cursor:pointer}
+.bar-hit:focus-visible{outline:none;stroke:var(--focus);stroke-width:2}
 
 /* network */
 .netgrid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px;align-items:start}
@@ -122,6 +134,17 @@ table.plain td.num,table.plain th.num{text-align:right}
 .ties button{all:unset;cursor:pointer;color:var(--accent);font-weight:600}
 .ties button:focus-visible{outline:2px solid var(--focus)}
 
+/* map */
+.mapgrid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px;align-items:start}
+@media (max-width:860px){.mapgrid{grid-template-columns:1fr}}
+.mapbox svg{display:block;width:100%;height:auto;border-radius:4px}
+.marker{cursor:pointer}
+.marker:focus-visible{outline:none}
+.marker:focus-visible circle,.marker:focus-visible rect{stroke:var(--focus);stroke-width:2.5px}
+.maplabel{font-size:11px;fill:var(--ink-2);pointer-events:none;paint-order:stroke;stroke:var(--surface);stroke-width:3px}
+.maplabel.nation{font-style:italic;fill:var(--nation)}
+input[type=range]{accent-color:var(--accent);width:min(320px,100%)}
+.legend .diamond{width:10px;height:10px;border-radius:1px;transform:rotate(45deg);background:var(--nation)}
 #tip{position:fixed;z-index:20;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:6px 9px;border-radius:5px;max-width:280px;box-shadow:0 2px 8px rgba(0,0,0,.18)}
 @media (prefers-reduced-motion: no-preference){ .node circle,.edge{transition:opacity .15s} }
 </style>
@@ -144,7 +167,7 @@ table.plain td.num,table.plain th.num{text-align:right}
     <div class="panel">
       <div class="row" style="justify-content:space-between">
         <h2>Who is named with each settlement</h2>
-        <div class="seg" role="group" aria-label="Link strength">
+        <div class="seg" role="group" aria-label="Link strength" id="str-group">
           <button id="str-strong" aria-pressed="true" data-min="3">Direct or close</button>
           <button id="str-all" aria-pressed="false" data-min="1">Any mention in the meeting</button>
         </div>
@@ -159,12 +182,20 @@ table.plain td.num,table.plain th.num{text-align:right}
   <!-- INDIGENOUS -->
   <section class="view" id="view-indigenous" role="tabpanel" aria-labelledby="tab-indigenous" hidden>
     <div class="panel">
-      <h2>Mentions of Indigenous peoples, by half-year</h2>
+      <div class="row" style="justify-content:space-between">
+        <h2>Mentions of Indigenous peoples, by half-year</h2>
+        <div class="seg" role="group" aria-label="Measure" id="tl-mode">
+          <button data-mode="count" aria-pressed="true">Mentions</button>
+          <button data-mode="rate" aria-pressed="false">Per 10,000 words of record</button>
+        </div>
+      </div>
       <div class="facts" id="ind-facts"></div>
       <div class="legend"><span><i style="background:var(--s1)"></i>Named nations and people (Powhatan, Pamunkey, Opechancanough …)</span><span><i style="background:var(--s2)"></i>Collective words (Indians, savages, natives …)</span></div>
-      <div class="scroll"><svg id="timeline" viewBox="0 0 900 260" role="img" aria-label="Mentions per half-year, 1616 to 1625"></svg></div>
-      <p class="note">Dated by the meeting, letter or document they appear in. News of the attack reached London in the summer of 1622, so the first half of 1622 is still mostly written in ignorance of it.</p>
+      <div class="scroll"><svg id="timeline" viewBox="0 0 900 260" aria-label="Mentions per half-year, 1616 to 1625. Choose a bar to see what is behind it."></svg></div>
+      <p class="note" id="tl-note"></p>
+      <p class="note">Choose a bar to see the records behind it. Dated by the court meeting (Volumes I–II) or by the document's own editorial heading (Volumes III–IV). A paper dated only by its year is placed mid-year, and one whose date could fall on either side of 22 March 1622 is left out of the before/after comparisons. News of the attack reached London in the summer of 1622, so the first half of 1622 is still mostly written in ignorance of it.</p>
     </div>
+    <div class="panel" id="peak-detail" aria-live="polite"></div>
     <div class="two">
       <div class="panel">
         <h3>Which word for the people as a whole</h3>
@@ -200,6 +231,38 @@ table.plain td.num,table.plain th.num{text-align:right}
           <div class="panel" id="person-detail" style="padding:12px"></div>
         </div>
       </div>
+    </div>
+    <div class="panel" id="map-panel">
+      <div class="row" style="justify-content:space-between">
+        <h2>Where they were tied to</h2>
+        <div class="row">
+          <div class="seg" role="group" aria-label="Link strength" id="map-strength">
+            <button data-min="2" aria-pressed="true">Close or direct</button>
+            <button data-min="1" aria-pressed="false">Any mention in the record</button>
+          </div>
+          <div class="seg" role="group" aria-label="Map extent" id="map-zoom">
+            <button data-zoom="james" aria-pressed="true">James River</button>
+            <button data-zoom="bay" aria-pressed="false">Whole Chesapeake</button>
+          </div>
+          <div class="seg" role="group" aria-label="Indigenous nations"><button id="map-nations" aria-pressed="true">Indigenous nations</button></div>
+        </div>
+      </div>
+      <p class="note" id="map-note"></p>
+      <div class="row">
+        <label for="map-year" class="label">Year</label>
+        <input type="range" id="map-year">
+        <output id="map-year-out" for="map-year" style="font:600 18px var(--display);min-width:5ch"></output>
+        <button class="more" id="map-all">All years</button>
+      </div>
+      <div class="legend"><span><i style="background:var(--accent);border-radius:50%"></i>English settlement or place, sized by people tied to it</span><span><i class="diamond"></i>Indigenous nation, at its principal town or territory</span><span><i style="background:transparent;border:1.5px dashed var(--muted);border-radius:50%"></i>No one tied to it in this selection</span></div>
+      <div class="mapgrid">
+        <div class="mapbox"><svg id="map-va" role="img" aria-label="Map of the James River, the Chesapeake and Virginia's Eastern Shore"></svg></div>
+        <div style="display:grid;gap:12px;min-width:0">
+          <div class="mapbox"><span class="label">England</span><svg id="map-en" role="img" aria-label="Map of southern England"></svg></div>
+          <div class="panel" id="map-detail" style="padding:12px" aria-live="polite"></div>
+        </div>
+      </div>
+      <p class="note">Each point is placed by the source listed for it in the project's <code>data/geo/place_coordinate_sources.csv</code>; plantations known only roughly (“approximate”) are placed within a few kilometres. Shorelines are modern: US Census 1:500,000 state boundaries, river courses © OpenStreetMap contributors, England from Natural Earth. Places outside these two frames (Bermuda, New England, the Indies) are not shown.</p>
     </div>
   </section>
 </div>
@@ -287,11 +350,11 @@ function renderCell(){
 }
 function setStrength(btn){
   minTier = +btn.dataset.min;
-  document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b === btn));
+  document.querySelectorAll("#str-group button").forEach(b => b.setAttribute("aria-pressed", b === btn));
   if (selCell && !cellPeople(...selCell).length) selCell = null;
   renderHeat(); renderCell();
 }
-document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => setStrength(b)));
+document.querySelectorAll("#str-group button").forEach(b => b.addEventListener("click", () => setStrength(b)));
 (function initCell(){
   let best = null;
   for (const p of P.places) for (const y of P.years){ const n = cellPeople(p.name, y).length; if (!best || n > best[2]) best = [p.name, y, n]; }
@@ -307,33 +370,109 @@ const I = DATA.indigenous;
     <div><b>${t.after ?? 0}</b><span>mentions after (to 1626)</span></div>
     <div><b>${I.collective.after ?? 0}</b><span>collective words after the attack, against ${I.collective.before ?? 0} before</span></div>`;
 })();
-(function timeline(){
-  const svg = $("#timeline"), W = 900, H = 260, m = {l:40, r:12, t:16, b:34};
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const fmtDate = d => `${+d.slice(8, 10)} ${MONTHS[+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
+function fmtRange(s, e){
+  if (!e || s === e) return fmtDate(s);
+  if (s.slice(0, 4) === e.slice(0, 4) && e.endsWith("-12-31")){
+    if (s.endsWith("-01-01")) return s.slice(0, 4);
+    return `after ${fmtDate(s)}`;
+  }
+  if (s.slice(0, 7) === e.slice(0, 7) && s.endsWith("-01")) return `${MONTHS[+s.slice(5, 7) - 1]} ${s.slice(0, 4)}`;
+  return `${fmtDate(s)} – ${fmtDate(e)}`;
+}
+const binName = b => `${b.endsWith("a") ? "Jan–Jun" : "Jul–Dec"} ${b.slice(0, 4)}`;
+const MIN_WORDS = 10000;  // a rate from less surviving text than this is noise
+const niceStep = v => { const p = 10 ** Math.floor(Math.log10(v || 1)); return [1, 2, 5, 10].map(k => k * p).find(s => s >= v); };
+let tlMode = "count", selBin = "1622b";
+function renderTimeline(){
+  const svg = $("#timeline"); svg.replaceChildren();
+  const W = 900, H = 260, m = {l:40, r:12, t:16, b:34};
   const bins = I.timeline, iw = W - m.l - m.r, ih = H - m.t - m.b;
-  const max = Math.max(...bins.map(b => b.named + b.collective));
-  const top = Math.ceil(max / 20) * 20, bw = iw / bins.length, y = v => m.t + ih - v / top * ih;
-  for (let v = 0; v <= top; v += 20){
+  const rate = tlMode === "rate", usable = b => !rate || b.words >= MIN_WORDS;
+  const val = (b, k) => rate ? (usable(b) ? b[k] / b.words * 1e4 : 0) : b[k];
+  const max = Math.max(...bins.map(b => val(b, "named") + val(b, "collective")));
+  const step = niceStep(max / 4), top = Math.ceil(max / step) * step, bw = iw / bins.length, y = v => m.t + ih - v / top * ih;
+  for (let v = 0; v <= top + 1e-9; v += step){
     svgEl("line", {x1:m.l, x2:W - m.r, y1:y(v), y2:y(v), stroke:"var(--grid)"}, svg);
-    svgEl("text", {x:m.l - 6, y:y(v) + 4, "text-anchor":"end"}, svg).textContent = v;
+    svgEl("text", {x:m.l - 6, y:y(v) + 4, "text-anchor":"end"}, svg).textContent = +v.toFixed(1);
   }
   bins.forEach((b, i) => {
-    const x = m.l + i * bw + 3, w = bw - 6;
-    const g = svgEl("g", {}, svg);
-    if (b.named){ svgEl("rect", {x, y:y(b.named) , width:w, height:Math.max(0, y(0) - y(b.named)), fill:"var(--s1)", rx:2}, g); }
-    if (b.collective){
-      const y0 = y(b.named) - (b.named ? 2 : 0);
-      svgEl("rect", {x, y:y0 - (y(0) - y(b.collective)), width:w, height:Math.max(0, y(0) - y(b.collective)), fill:"var(--s2)", rx:2}, g);
+    const x = m.l + i * bw + 3, w = bw - 6, named = val(b, "named"), coll = val(b, "collective");
+    const g = svgEl("g", {}, svg), total = b.named + b.collective;
+    if (named){ svgEl("rect", {x, y:y(named), width:w, height:Math.max(0, y(0) - y(named)), fill:"var(--s1)", rx:2}, g); }
+    if (coll){
+      const y0 = y(named) - (named ? 2 : 0);
+      svgEl("rect", {x, y:y0 - (y(0) - y(coll)), width:w, height:Math.max(0, y(0) - y(coll)), fill:"var(--s2)", rx:2}, g);
     }
-    const hit = svgEl("rect", {x:m.l + i * bw, y:m.t, width:bw, height:ih, fill:"transparent"}, g);
-    const half = b.bin.endsWith("a") ? "Jan–Jun" : "Jul–Dec";
-    hover(hit, `<b>${half} ${b.bin.slice(0, 4)}</b><br>${b.named} named · ${b.collective} collective`);
+    if (rate && !usable(b) && total) svgEl("text", {x:x + w / 2, y:y(0) - 6, "text-anchor":"middle"}, g).textContent = "–";
+    const stackTop = y(named + coll) - (named && coll ? 2 : 0);
+    if (b.bin === selBin && total) svgEl("rect", {x:x - 2, y:stackTop - 3, width:w + 4, height:y(0) - stackTop + 3, fill:"none", stroke:"var(--ink)", "stroke-width":1.5, rx:3}, g);
+    const hit = svgEl("rect", {x:m.l + i * bw, y:m.t, width:bw, height:ih, fill:"transparent", class:total ? "bar-hit" : ""}, g);
+    const per = b.words ? (total / b.words * 1e4).toFixed(1) : "–";
+    hover(hit, `<b>${binName(b.bin)}</b><br>${b.named} named · ${b.collective} collective<br>` +
+      (b.words >= MIN_WORDS ? `${per} per 10,000 words (${Math.round(b.words / 1000)}k words survive)` : `Too little surviving text for a rate (${b.words.toLocaleString()} words)`));
+    if (total){
+      Object.assign(hit.dataset, {bin:b.bin});
+      hit.setAttribute("tabindex", 0); hit.setAttribute("role", "button");
+      hit.setAttribute("aria-label", `${binName(b.bin)}: ${total} mentions`);
+      hit.setAttribute("aria-pressed", b.bin === selBin);
+      const pick = () => { selBin = b.bin; renderTimeline(); renderPeak(); $(`#timeline [data-bin="${b.bin}"]`).focus(); };
+      hit.addEventListener("click", pick);
+      hit.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
+    }
     if (b.bin.endsWith("a")) svgEl("text", {x:m.l + i * bw + bw, y:H - m.b + 18, "text-anchor":"middle"}, svg).textContent = b.bin.slice(0, 4);
   });
   svgEl("line", {x1:m.l, x2:W - m.r, y1:y(0), y2:y(0), stroke:"var(--muted)"}, svg);
   const ai = bins.findIndex(b => b.bin === "1622a"), ax = m.l + ai * bw + bw * (81 / 181);
   svgEl("line", {x1:ax, x2:ax, y1:m.t - 4, y2:y(0), stroke:"var(--ink)", "stroke-dasharray":"3 3"}, svg);
   svgEl("text", {x:ax - 6, y:m.t + 6, "text-anchor":"end", class:"ink"}, svg).textContent = "22 March 1622";
-})();
+  $("#tl-note").textContent = rate
+    ? "Mentions per 10,000 words of surviving record from the same half-year, so a peak is not just more paper surviving. Half-years with under 10,000 words are left blank (–)."
+    : "Raw counts. Switch to the rate to allow for how much of each half-year's record survives.";
+}
+const KIND = {document:"Document", court:"Court", page:"Pages"};
+function renderPeak(){
+  const B = I.breakdown[selBin], bin = I.timeline.find(b => b.bin === selBin), el = $("#peak-detail");
+  if (!B){ el.hidden = true; return; }
+  el.hidden = false;
+  const maxRec = Math.max(...B.records.map(r => r.named + r.collective));
+  const rateTxt = bin && bin.words >= MIN_WORDS ? `${(B.total / bin.words * 1e4).toFixed(1)}` : "–";
+  const themeMax = Math.max(1, ...B.themes.map(t => t.n));
+  el.innerHTML = `<h2>${binName(selBin)}</h2>
+    <div class="facts"><div><b>${B.total}</b><span>mentions</span></div>
+      <div><b>${rateTxt}</b><span>per 10,000 words of record</span></div>
+      <div><b>${B.records.length + B.more_records}</b><span>${B.records.length + B.more_records === 1 ? "record" : "records"} they come from</span></div></div>
+    <div class="two">
+      <div class="panel" style="border:0;padding:0">
+        <h3>Where the mentions come from</h3>
+        <ul class="records">${B.records.map(r => { const n = r.named + r.collective; return `<li>
+          <span class="n">${n}</span><div><div>${esc(r.title)}<span class="chip t2">${KIND[r.kind]}</span></div>
+          <div class="meta">${esc(fmtRange(r.date, r.date_end))} · ${esc(r.where)} · ${r.named} named, ${r.collective} collective</div></div>
+          <div class="bar" style="width:${Math.max(2, n / maxRec * 100)}%"></div></li>`; }).join("")}</ul>
+        ${B.more_records ? `<p class="note">and ${B.more_records} other ${B.more_records === 1 ? "record" : "records"} with fewer mentions.</p>` : ""}
+      </div>
+      <div class="panel" style="border:0;padding:0">
+        <h3>What the passages are about</h3>
+        <table class="plain">${B.themes.map(t => `<tr><td>${esc(t.theme)}</td><td class="num">${Math.round(t.n / B.total * 100)}%</td>
+          <td style="width:45%"><span class="mini" style="width:${t.n / themeMax * 100}%;background:var(--s1)"></span></td></tr>`).join("")}</table>
+        <p class="note">Share of this half-year's mentions whose passage uses the theme's words; a passage can have several.</p>
+        <h3>Most named</h3>
+        <p>${B.names.length ? B.names.map(([n, c]) => `${esc(n)} <span class="meta">${c}</span>`).join(" · ") : `<span class="note">Only collective words this half-year.</span>`}</p>
+        <h3>Distinctive words</h3>
+        ${B.words.length ? `<div class="words">${B.words.map(w => `<span>${esc(w.word)}<small>${w.n}</small></span>`).join("")}</div>` : `<p class="note">Too few passages to tell.</p>`}
+        <p class="note">Words found near the mentions more often in this half-year than in all others (log-odds with a Dirichlet prior, z &gt; 1.96). Names of nations and people are left out; spellings are as printed.</p>
+      </div>
+    </div>
+    <h3>Passages</h3>
+    <div class="examples">${B.examples.map(e => `<div><div class="quote">“${esc(e.text)}”</div><div class="meta">${esc(e.title)} · ${esc(fmtDate(e.date))}</div></div>`).join("")}</div>`;
+}
+document.querySelectorAll("#tl-mode button").forEach(btn => btn.addEventListener("click", () => {
+  tlMode = btn.dataset.mode;
+  document.querySelectorAll("#tl-mode button").forEach(b => b.setAttribute("aria-pressed", b === btn));
+  renderTimeline();
+}));
+renderTimeline(); renderPeak();
 function dumbbell(svg, rows, opts){
   const W = 440, rowH = 30, m = {l:opts.left, r:62, t:22, b:8}, H = m.t + rows.length * rowH + m.b;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.style.width = "100%"; svg.style.height = "auto";
@@ -431,6 +570,7 @@ function paint(){
     edgeEls[k].classList.toggle("hi", selPerson != null && on);
   });
   document.querySelectorAll("#clusters button").forEach(b => b.setAttribute("aria-pressed", +b.dataset.c === selCluster));
+  if (mapReady) renderMap();
 }
 function pickPerson(i){
   selPerson = selPerson === i ? null : i;
@@ -456,6 +596,136 @@ function renderPerson(){
     const c = +b.dataset.c; selCluster = selCluster === c ? null : c; selPerson = null; renderPerson(); paint();
   }));
 })();
+/* ============ MAP ============ */
+var mapReady = false;
+const M = DATA.map;
+const mapPeople = M.people, mapState = {year:null, minTier:2, nations:true, place:null, zoom:"james"};
+// The James River view: Henricus to Point Comfort, where most settlements were.
+const JAMES_VIEW = [-77.48, 36.86, -76.2, 37.52];
+const mapYears = M.places.flatMap(p => p.links.map(l => l[1]));
+const yearMin = Math.min(...mapYears), yearMax = Math.max(...mapYears);
+const FRAME_W = {virginia:640, england:300};
+function frameProj(name){
+  const [x0, y0, x1, y1] = M.frames[name].bbox, k = Math.cos((y0 + y1) / 2 * Math.PI / 180), W = FRAME_W[name];
+  const H = W * (y1 - y0) / ((x1 - x0) * k);
+  return {W, H, x:lon => (lon - x0) / (x1 - x0) * W, y:lat => (y1 - lat) / (y1 - y0) * H};
+}
+const mapSvgs = {virginia:$("#map-va"), england:$("#map-en")}, markerLayers = {};
+for (const name of ["virginia", "england"]){
+  const svg = mapSvgs[name], f = M.frames[name], P = frameProj(name);
+  svg.setAttribute("viewBox", `0 0 ${P.W} ${P.H.toFixed(1)}`);
+  svgEl("rect", {x:0, y:0, width:P.W, height:P.H, fill:"var(--water)"}, svg);
+  const pathOf = (pts, close) => "M" + pts.map(([lon, lat]) => `${P.x(lon).toFixed(1)},${P.y(lat).toFixed(1)}`).join("L") + (close ? "Z" : "");
+  svgEl("path", {d:f.land.map(r => pathOf(r, true)).join(""), fill:"var(--land)", stroke:"var(--shore)", "stroke-width":0.6, "fill-rule":"evenodd", "vector-effect":"non-scaling-stroke"}, svg);
+  for (const r of f.rivers || []) svgEl("path", {d:r.lines.map(l => pathOf(l, false)).join(""), fill:"none", stroke:"var(--river)", "stroke-width":1, "vector-effect":"non-scaling-stroke"}, svg);
+  markerLayers[name] = svgEl("g", {}, svg);
+}
+function activePeople(){
+  if (selPerson != null) return new Set([selPerson]);
+  if (selCluster != null) return new Set(N.nodes.flatMap((n, i) => n.c === selCluster ? [i] : []));
+  return null;
+}
+function mapColor(){
+  // Clusters past the third are grey in the network; grey would read as "no one" here.
+  const c = selPerson != null ? N.nodes[selPerson].c : selCluster;
+  return c != null && COLORS[c] ? COLORS[c] : "var(--accent)";
+}
+// Streets and buildings inside London sit on London's point; only London is labelled.
+const LONDON_PARTS = new Set(["OW-002", "OW-003", "OW-004", "OW-049", "OW-050"]);
+function placeLinks(p, active){
+  return p.links.filter(([who, year, tier]) => tier >= mapState.minTier && (mapState.year == null || year === mapState.year) && (!active || active.has(who)));
+}
+function renderMap(){
+  const active = activePeople(), color = mapColor();
+  const rows = M.places.filter(p => p.kind === "place" || mapState.nations).map(p => {
+    const links = placeLinks(p, active), people = new Map();
+    for (const [who, year, tier] of links){ const e = people.get(who) || {years:new Set(), tier:0}; e.years.add(year); e.tier = Math.max(e.tier, tier); people.set(who, e); }
+    let size = people.size;
+    if (p.kind === "nation" && !active) size = Object.entries(p.mentions || {}).reduce((s, [y, n]) => s + (mapState.year == null || +y === mapState.year ? n : 0), 0);
+    return {p, people, size};
+  });
+  const maxPlace = Math.max(1, ...rows.filter(r => r.p.kind === "place").map(r => r.size));
+  const maxNation = Math.max(1, ...rows.filter(r => r.p.kind === "nation").map(r => r.size));
+  const ranked = rows.filter(r => r.size).sort((a, b) => b.size - a.size);
+  const labelled = new Set([...ranked.filter(r => r.p.frame === "virginia" && r.p.kind === "place").slice(0, 9),
+    ...ranked.filter(r => r.p.frame === "england" && !LONDON_PARTS.has(r.p.id)).slice(0, 4), ...ranked.filter(r => r.p.kind === "nation").slice(0, 8)].map(r => r.p.id));
+  for (const name of ["virginia", "england"]){
+    const layer = markerLayers[name], P = frameProj(name);
+    // Zoomed in, the view box is smaller, so markers and labels are scaled down to keep their screen size.
+    let zoom = 1;
+    if (name === "virginia"){
+      const [x0, y0, x1, y1] = mapState.zoom === "james" ? JAMES_VIEW : M.frames.virginia.bbox;
+      const vx = P.x(x0), vy = P.y(y1), vw = P.x(x1) - vx, vh = P.y(y0) - vy;
+      mapSvgs.virginia.setAttribute("viewBox", `${vx.toFixed(1)} ${vy.toFixed(1)} ${vw.toFixed(1)} ${vh.toFixed(1)}`);
+      zoom = vw / P.W;
+    }
+    const scale = (name === "england" ? 0.7 : 1) * zoom, [vbx, , vbw] = mapSvgs[name].getAttribute("viewBox").split(" ").map(Number);
+    layer.replaceChildren();
+    // Nations underneath (English towns were often built on them), then larger before smaller.
+    const mine = rows.filter(r => r.p.frame === name).sort((a, b) => (b.p.kind === "nation") - (a.p.kind === "nation") || b.size - a.size);
+    for (const r of mine){
+      const {p} = r, x = P.x(p.lon), y = P.y(p.lat), nation = p.kind === "nation";
+      const radius = (r.size ? 3.5 + Math.sqrt(r.size / (nation ? maxNation : maxPlace)) * (nation ? 11 : 16) : 2.5) * scale;
+      const g = svgEl("g", {class:"marker", tabindex:0, role:"button", "aria-label":`${p.name}: ${r.size} ${nation && !active ? "mentions" : "people"}`}, layer);
+      if (nation){
+        const s = radius * 1.5;
+        svgEl("rect", {x:x - s / 2, y:y - s / 2, width:s, height:s, transform:`rotate(45 ${x} ${y})`, fill:r.size ? "var(--nation)" : "none",
+          "fill-opacity":r.size ? .55 : 1, stroke:"var(--nation)", "stroke-width":1.2 * scale, "stroke-dasharray":r.size ? "" : `${2 * scale} ${2 * scale}`}, g);
+      } else {
+        svgEl("circle", {cx:x, cy:y, r:radius, fill:r.size ? color : "none", "fill-opacity":r.size ? .7 : 1,
+          stroke:r.size ? "var(--surface)" : "var(--muted)", "stroke-width":(r.size ? 1.2 : 1) * scale, "stroke-dasharray":r.size ? "" : `${2 * scale} ${2 * scale}`}, g);
+      }
+      if (mapState.place === p.id) svgEl("circle", {cx:x, cy:y, r:radius + 4 * scale, fill:"none", stroke:"var(--ink)", "stroke-width":1.5 * scale}, g);
+      if (labelled.has(p.id)){
+        const right = x > vbx + vbw * 0.75;  // near the right edge, label on the left
+        svgEl("text", {x:right ? x - radius - 3 * scale : x + radius + 3 * scale, y:y + 4 * scale, "text-anchor":right ? "end" : "start",
+          class:"maplabel" + (nation ? " nation" : ""), style:`font-size:${(11 * scale).toFixed(2)}px;stroke-width:${(3 * scale).toFixed(2)}px`}, layer).textContent = p.name;
+      }
+      hover(g, () => {
+        const top = [...r.people.entries()].sort((a, b) => b[1].tier - a[1].tier || b[1].years.size - a[1].years.size).slice(0, 5).map(([w]) => esc(mapPeople[w]));
+        return `<b>${esc(p.name)}</b><br>${nation && !active ? `${r.size} mentions` : `${r.people.size} ${r.people.size === 1 ? "person" : "people"} tied to it`}${top.length ? "<br>" + top.join(", ") : ""}<br><span style="opacity:.75">${esc(p.precision.replace("_", " "))}</span>`;
+      });
+      const pick = () => { mapState.place = mapState.place === p.id ? null : p.id; renderMap(); };
+      g.addEventListener("click", pick);
+      g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
+    }
+  }
+  const who = selPerson != null ? N.nodes[selPerson].id : selCluster != null ? `the cluster ${clusters.find(c => c.c === selCluster).name}` : "everyone in the records";
+  $("#map-note").textContent = `Showing ${who}${mapState.year == null ? ", all years" : `, ${mapState.year}`}. ` +
+    (selPerson == null && selCluster == null ? "Select a person or cluster in the network above to see only their places. " : "") +
+    (mapState.nations && !active ? "Nations are sized by how often they are named." : "");
+  renderMapDetail(rows);
+}
+const TIER_WORD = {4:"relation in the text", 3:"close", 2:"near", 1:"same record"};
+function renderMapDetail(rows){
+  const box = $("#map-detail"), r = rows.find(x => x.p.id === mapState.place);
+  if (!r){ box.innerHTML = `<span class="label">Select a place</span><p class="note">Choose a point to list the people tied to it in this selection.</p>`; return; }
+  const list = [...r.people.entries()].sort((a, b) => b[1].tier - a[1].tier || b[1].years.size - a[1].years.size);
+  box.innerHTML = `<span class="label">${r.p.kind === "nation" ? "Indigenous nation" : "Place"}</span><h3>${esc(r.p.name)}</h3>
+    <p class="meta">${esc(r.p.basis)}</p>
+    ${list.length ? `<ul class="ties">${list.slice(0, 25).map(([w, e]) => `<li><span>${esc(mapPeople[w])}</span><span class="meta">${[...e.years].sort().join(", ")} · ${TIER_WORD[e.tier]}</span></li>`).join("")}</ul>
+    ${list.length > 25 ? `<p class="note">and ${list.length - 25} more.</p>` : ""}` : `<p class="note">No one in this selection is tied to it${mapState.year ? " in " + mapState.year : ""}.</p>`}`;
+}
+(function mapControls(){
+  const slider = $("#map-year"), out = $("#map-year-out");
+  Object.assign(slider, {min:yearMin, max:yearMax, step:1, value:yearMax});
+  const show = () => { out.textContent = mapState.year ?? "All"; };
+  slider.addEventListener("input", () => { mapState.year = +slider.value; show(); renderMap(); });
+  $("#map-all").addEventListener("click", () => { mapState.year = null; show(); renderMap(); });
+  document.querySelectorAll("#map-strength button").forEach(b => b.addEventListener("click", () => {
+    mapState.minTier = +b.dataset.min;
+    document.querySelectorAll("#map-strength button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    renderMap();
+  }));
+  document.querySelectorAll("#map-zoom button").forEach(b => b.addEventListener("click", () => {
+    mapState.zoom = b.dataset.zoom;
+    document.querySelectorAll("#map-zoom button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    renderMap();
+  }));
+  $("#map-nations").addEventListener("click", e => { mapState.nations = !mapState.nations; e.currentTarget.setAttribute("aria-pressed", mapState.nations); renderMap(); });
+  show();
+})();
+mapReady = true;
 renderPerson(); paint();
 
 openView((location.hash || "").slice(1));

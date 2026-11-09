@@ -1,0 +1,114 @@
+id,name,lat,lon,precision,basis
+NW-010,Henricus,37.3740,-77.3620,approximate,Wikipedia's point for the 1611 Henricus settlement on Farrar's Island (Henricus Historical Park area); the exact town site is not fixed and has partly eroded.
+NW-011,Charles City,37.3150,-77.2769,approximate,"Point for City Point (Charles City Point), the town first called Bermuda City and renamed Charles City, which gave the 1619 incorporation its name; chosen over Bermuda Hundred because the incorporation was named after this town."
+NW-023,Bermuda Hundred,37.3394,-77.2781,approximate,"Wikipedia point for the present community of Bermuda Hundred, on the neck at the James-Appomattox confluence where Dale founded it in 1613."
+NW-039,Bermuda City,37.3150,-77.2769,approximate,"Point for City Point (now Hopewell), which Wikipedia and Encyclopedia Virginia identify as Dale's 1613 Bermuda City (""Bermuda Cittie"")."
+NW-026,City Point,37.3150,-77.2769,approximate,"Wikipedia point for the former town of City Point, now part of Hopewell."
+NW-019,Appomattox River,37.3208,-77.2756,river_mouth,"Wikipedia infobox mouth coordinates, where the Appomattox joins the James at Hopewell."
+NW-022,West and Shirley Hundred,37.3419,-77.2608,site,"Shirley Plantation, on the lands first settled in 1613 as West and Sherley Hundred."
+NW-037,Berkeley Hundred,37.3217,-77.1817,site,"Berkeley Plantation, originally Berkeley Hundred, where the Margaret landed colonists in December 1619."
+NW-021,Flowerdew Hundred,37.2961,-77.1042,site,"Flowerdew Hundred Plantation archaeological site on Yeardley's original grant, south bank of the James."
+NW-024,Jordan's Journey,37.3072,-77.2206,approximate,"Wikipedia point for Jordan Point, the location of Samuel Jordan's 1620 patent and the excavated Jordan-Farrar palisaded site."
+NW-025,Peirsey's Hundred,37.2961,-77.1042,site,"Same tract as Flowerdew Hundred, which Abraham Piersey bought and renamed Piersey's Hundred."
+NW-027,Neck of Land (Charles City),,,not_located,"Left blank because sources disagree: Encyclopedia Virginia equates the Neck of Land with Bermuda Hundred at the James-Appomattox confluence, while Ransome (Historical Journal) places it near the falls, and no source with coordinates was found."
+NW-050,Falling Creek,37.4386,-77.4386,site,"Falling Creek Ironworks Archeological Site (NRHP), the 1619-22 ironworks."
+NW-036,Martin's Brandon,37.2575,-76.9934,site,"Lower Brandon Plantation, on Captain John Martin's 1616 grant, first called Martin's Brandon."
+NW-038,Charles Hundred,,,not_located,Left blank because no source found describes or locates a settlement called Charles Hundred.
+NW-040,Digges Hundred,,,not_located,"Left blank because sources only list Digges his Hundred among Dale's 1613 Bermuda-area hundreds near modern Hopewell, without a specific location."
+NW-052,Chippokes Creek,37.2435,-76.9808,river_mouth,"The records use the name for both creeks: the 1620 petition's Choapooks Creek by Hog Island is Lower Chippokes; the 1625 muster's Chapoks creek by the Treasurer's land and Southampton Hundred is Upper Chippokes, at whose mouth (Claremont, GNIS) it is placed."
+NW-054,Chickahominy River,37.2335,-76.8897,river_mouth,"GNIS point (stream mouth) for the Chickahominy where it joins the James, just east of Dancing Point."
+NW-049,Dancing Point,37.2347,-76.9183,site,"Wikipedia point for the Dancing Point historic district (NRHP/VLR), at the James-Chickahominy confluence."
+NW-042,Maydes Towne,,,not_located,Left blank because no source found mentions or locates Maydes Towne.
+NW-032,Southampton Hundred,37.3105,-76.9645,approximate,"Wikipedia point for the Sandy Point and Cherry Hall marker, on the neck that held Smith's (Southampton) Hundred between Weyanoke and the Chickahominy."
+NW-033,Southampton River,37.2335,-76.8897,river_mouth,"Same as the Chickahominy mouth (GNIS), the river the Company called the Southampton."
+NW-041,Argall's Town,37.2270,-76.7838,approximate,"DHR marker WT-5 on Jamestown Road near the 2007 find of Argall Town on the Vermillion House property, just north of Jamestown Island."
+NW-002,Jamestown,37.2092,-76.7775,site,Wikipedia's Jamestown point; OSM reverse-geocode puts it ~150 m from the Tercentenary Monument beside the excavated James Fort on Jamestown Island (not the replica fort at Jamestown Settlement).
+NW-003,James City,37.2092,-76.7775,approximate,"Uses the Jamestown fort-site point as stand-in for the 1619 borough of James City, which covered a larger area around Jamestown."
+NW-004,James River,36.9417,-76.4436,river_mouth,Wikipedia infobox mouth coordinate where the James enters Hampton Roads.
+NW-034,Martin's Hundred,37.1785,-76.6115,approximate,"Wikipedia's single point for the plantation, which ran about ten miles along the James's north shore; it lies ~3 km SE of Carter's Grove, so treat it as a tract point, not a settlement site."
+NW-035,Wolstenholme Towne,37.2070,-76.6248,approximate,"Carter's Grove NRHP point; sources place the excavated town (site 44JC115) on the Carter's Grove grounds by the James, but none I opened gives the townsite's own coordinates."
+NW-047,Hog Island,37.1777,-76.6817,approximate,"Point for the Hog Island WMA on the Surry shore, the peninsula named 'Hogg Island' in 1608 when Jamestown settlers released pigs there."
+NW-046,Mulberry Island,37.1153,-76.5903,approximate,"Wikipedia's point for Mulberry Island (now Fort Eustis), patented from 1619 and mustered in 1625."
+NW-013,Warwick River,37.0835,-76.5447,river_mouth,"GNIS stream point at 0 ft elevation, i.e. where the Warwick enters the James (GNIS records streams at their mouth)."
+NW-048,Blunt Point,37.0640,-76.5194,approximate,"Wikipedia point for Blunt Poynt on the James's north shore near Hidenwood, Newport News, named for Humphrey Blunt, killed there in 1610."
+NW-014,Warrosquyoake,37.0099,-76.5683,approximate,"Wikipedia's point for the Pagan River (the Warrosquoake River, renamed in 1637), used for the 1620s settlement near its mouth on Burwell's Bay; the page does not label it as the mouth."
+NW-043,Isle of Wight Plantation,37.1104,-76.6691,approximate,"Lawne's Neck at the mouth of Lawne's Creek: Christopher Lawne's 1619 plantation, which was renamed Isle of Wight Plantation; this is ~8 km upriver of Bennett's, though Company lists also pair 'Warraskoyak - Isle of Wight Plantacon'."
+NW-044,Bennett's Plantation,37.0099,-76.5683,approximate,"No site coordinates found; the state marker places Bennett's 1621 'Warrascoyack' plantation on the lower reaches of Burwell's Bay, so the Pagan River mouth area point is used (within a few km)."
+NW-012,Elizabeth City,37.0144,-76.3464,approximate,"Wikipedia point for Kecoughtan in modern Hampton, the native village seized in 1610 that became Elizabeth City."
+NW-009,Point Comfort,37.0018,-76.3097,approximate,Wikipedia point for Fort Algernon (1609) at Old Point Comfort; the fort's exact footprint is not documented and Fort Monroe now covers the point.
+NW-008,Hampton Roads,36.9500,-76.4000,region_centroid,Wikipedia's waterbody point for the Hampton Roads roadstead.
+NW-006,Cape Henry,36.9281,-76.0083,approximate,"Cape Henry Memorial, which commemorates the April 1607 first landing; the exact landing spot is traditional, not excavated."
+NW-007,Cape Charles,37.1492,-75.9578,approximate,Wikipedia point for the Cape Charles headland at the southern tip of the Eastern Shore.
+NW-005,Chesapeake Bay,37.8000,-76.1000,region_centroid,Wikipedia's general point for the bay.
+NW-053,Elizabeth River,36.9250,-76.3436,river_mouth,"Wikipedia's article point, which lies at the river's entrance to Hampton Roads near Sewells Point; the page does not label it as the mouth."
+NW-017,Nansemond River,36.8989,-76.4736,river_mouth,"Wikipedia's article point, near where the Nansemond enters the James/Hampton Roads; the page does not label it as the mouth."
+NW-016,Accawmack,37.2321,-76.0105,approximate,"GNIS point for Old Plantation Creek, where Dale's men settled at Dale's Gift in 1614; the settlement's exact site on the creek is unknown."
+NW-045,Smith's Island,37.1439,-75.8744,approximate,"Wikipedia point for Smith Island off Cape Charles, where Dale's 1614 party set up the salt works; the works' exact spot is unknown."
+NW-015,Charles River,37.2478,-76.3825,river_mouth,"Same point as York River: colonists first called the York the Charles; the point is Wikipedia's article coordinate in the lower York near its mouth, not a labelled mouth."
+NW-018,York River,37.2478,-76.3825,river_mouth,Wikipedia's article coordinate in the lower York near the Chesapeake Bay mouth; the infobox gives no mouth coordinate.
+NW-051,Queen's Creek,37.3018,-76.6136,river_mouth,"GNIS stream point for 'Queen Creek', York County (GNIS records streams at the mouth), on the York River; Wikipedia's point (37.2956,-76.6667) is ~5 km upstream."
+NW-031,Werowocomoco,37.4120,-76.6490,site,"Wikipedia point for the archaeological site (44GL32) on Purtan Bay, on the north side of the York in Gloucester County."
+NW-055,Pamunkey River,37.5175,-76.7914,river_mouth,"Wikipedia infobox mouth at West Point, where the Pamunkey joins the Mattaponi to form the York."
+NW-058,Mattaponi River,37.5175,-76.7917,river_mouth,Wikipedia infobox mouth at the West Point junction with the Pamunkey (no point upriver used).
+NW-056,Potomac River,38.0000,-76.3350,river_mouth,Wikipedia infobox mouth at Chesapeake Bay.
+NW-057,Rappahannock River,37.5875,-76.2892,river_mouth,Wikipedia infobox mouth at Chesapeake Bay.
+NW-059,Chowan River,36.0167,-76.6619,river_mouth,"Wikipedia's article point (36°1′0″N 76°39′43″W), near Edenton where the Chowan enters Albemarle Sound; the page does not label it as the mouth."
+NW-028,Roanoke Island,35.9386,-75.7100,site,"Fort Raleigh National Historic Site on Roanoke Island, the protected site of the 1580s Roanoke colonies."
+NW-029,Sagadahoc,43.7532,-69.7884,site,"Wikipedia point for the Popham Colony (Fort St. George, 1607) at Sabino Head, Phippsburg, Maine, confirmed archaeologically from 1994."
+NW-065,Delaware River,39.1000,-75.2000,region_centroid,"Wikipedia's general point for Delaware Bay, the estuary of the Delaware River; not the bay's ocean entrance."
+NW-066,Hudson River,40.6967,-74.0283,river_mouth,Wikipedia infobox mouth at New York Harbor.
+NW-020,Bermuda / Somers Islands,32.3819,-64.6769,approximate,"Wikipedia point for the town of St. George's, Bermuda, settled in 1612."
+NW-064,Opechancanough's Island,,,not_located,Blank: no source found using this name. One unconfirmed lead: Virginia Places puts Opechancanough's home Menmend probably at 'The Island' between Pampatike and Monquin creeks on the Pamunkey.
+NW-060,Moyompo River,,,not_located,Blank: two searches found no identification of this name.
+NW-061,Okanahone River,,,not_located,Blank: two searches found no identification of this name.
+NW-062,Bolus River,39.1800,-76.4400,river_mouth,"John Smith's 1612 map name for the Patapsco River (MD); point is the Patapsco mouth. Assumes the Records' 'Bolus' is Smith's Bolus, which I did not check against the Records text."
+NW-063,Mapcock Creek,,,not_located,"Blank: no identification found (nearest name match, Mapsico Creek in Charles City County, is not evidence of a match)."
+OW-001,London,51.5072,-0.1275,approximate,"Centre of London (Charing Cross datum), as given by Wikipedia."
+OW-002,Philpott Lane,51.5111,-0.0841,site,"The lane in the City where Sir Thomas Smythe's house, the Company's early meeting place, stood."
+OW-003,St Swithin's Lane,51.5156,-0.0931,approximate,A lane in the City of London; placed at the City of London point (no coordinates for the lane itself).
+OW-004,Westminster,51.4947,-0.1353,approximate,Centre of Westminster.
+OW-005,Bristol,51.4536,-2.5975,approximate,Centre of Bristol.
+OW-006,Exeter,50.7256,-3.5269,approximate,Centre of Exeter.
+OW-007,Plymouth,50.3714,-4.1422,approximate,Centre of Plymouth.
+OW-008,Southampton,50.9025,-1.4042,approximate,Centre of Southampton.
+OW-009,Isle of Wight,50.7,-1.3,region_centroid,Centre of the island.
+OW-010,Gravesend,51.4415,0.3685,approximate,"Centre of Gravesend, the Thames port where ships for Virginia cleared."
+OW-046,Tilbury,51.4606,0.3582,approximate,"Centre of Tilbury, opposite Gravesend."
+OW-039,The Downs,51.2226,1.4006,approximate,"The Downs is the anchorage off Deal, Kent; placed at Deal."
+OW-041,Cambridge,52.205,0.1225,approximate,Centre of Cambridge.
+OW-047,Oxford,51.7519,-1.2578,approximate,Centre of Oxford.
+OW-042,Chichester,50.8365,-0.7792,approximate,Centre of Chichester.
+OW-043,Salisbury,51.0697,-1.795,approximate,Centre of Salisbury.
+OW-044,Ipswich,52.0594,1.1556,approximate,Centre of Ipswich.
+OW-045,Croydon,51.3714,-0.1038,approximate,Centre of Croydon.
+OW-048,East Greenwich,51.48,0.0,approximate,Greenwich; East Greenwich was the manor named in royal grants.
+OW-049,Whitehall,51.5042,-0.1264,site,"Whitehall, site of the royal palace."
+OW-050,Westminster Hall,51.4999,-0.1254,site,Westminster Hall.
+OW-051,Knole Park,51.266,0.206,site,"Knole, the Sackville house near Sevenoaks."
+OW-040,Isle of Ely,52.4,0.2583,region_centroid,Centre of the Isle of Ely.
+IG-001,Powhatan,37.4120,-76.6490,site,"Point is Werowocomoco, Powhatan's capital c.1607-09 (it is not the chiefdom's whole territory), on the north bank of the York River in Gloucester County."
+IG-002,Tanx Powhatan,37.4961,-77.4136,approximate,"Parahunt's town of Powhatan just below the James falls, thought to be at modern Tree Hill Farm, SE Richmond (Virginia Places); Wikipedia instead points to nearby Powhatan Hill, about 3 km away."
+IG-003,Pamunkey,37.5747,-77.0014,region_centroid,"Point is the Pamunkey Indian Reservation in King William County, within the Pamunkey Neck core territory where the Pamunkey lived in towns along the Pamunkey River in 1607; no single principal town is placed."
+IG-004,Chickahominy,37.3965,-76.9089,approximate,"Mamanahunt (Wilcox Neck) on the Chickahominy River, Charles City County, which the Tribe and experts believe was the seat of Chickahominy government in 1607 and where the 1614 treaty was likely signed."
+IG-005,Weyanoke,37.2917,-77.0656,approximate,"Main town at Weyanoke Point on the north bank of the James, Charles City County, per Rountree as cited by Wikipedia; point is the Weyanoke, Virginia locality on that neck."
+IG-006,Paspahegh,37.2336,-76.8897,approximate,"Excavated Paspahegh town site 44JC308 lies on the east bank of the Chickahominy one-third mile above its James confluence; point is Wikipedia's Chickahominy mouth coordinate, about 1 km off."
+IG-007,Kecoughtan,37.0144,-76.3464,approximate,"Village stood on the east side of the mouth of the Hampton River (W&M Center for Archaeological Research); point is Wikipedia's Kecoughtan coordinate in Hampton, about 1-2 km away."
+IG-008,Appamattuck,37.2985,-77.3686,approximate,"Appamattuck towns near the mouth of the Appomattox, including one at Swift Creek (Coquonasum's) and one near Point of Rocks (the weroansqua's); point is Wikipedia's Swift Creek coordinate at Colonial Heights."
+IG-009,Arrohateck,37.3740,-77.3620,approximate,"Town on the north bank of the James about 13 miles below the falls; it was deserted by 1611 and lay beside Dale's Henricus, whose coordinate is used here."
+IG-010,Quiyoughcohannock,37.2273,-76.9655,approximate,"Principal village probably at Wharf Bluff, Claremont, near the mouth of Upper Chippokes Creek on the south bank of the James, Surry County."
+IG-011,Warraskoyack,36.9788,-76.6186,approximate,"Principal town (the 'king's house' on Smith's map) was on the Pagan River near modern Smithfield, Isle of Wight County."
+IG-012,Nansemond,36.8194,-76.5788,approximate,"Dumpling Island in the Nansemond River, Suffolk, the main residence of the head chief and the temple site; the Waymarking coordinate may mark the nearby Route 10 marker rather than the island."
+IG-013,Chesapeake (Chesepian),36.8995,-76.0831,approximate,"Chesepioc town at Great Neck Point east of the Lynnhaven River, Virginia Beach; Strachey reports the Chesapeake were destroyed by Powhatan around or just before 1607."
+IG-014,Accomac,37.2894,-75.9683,approximate,"Principal town Accomac near present Cheriton on Cherrystone inlet, Northampton County (Hodge via Wikipedia); historical markers place it a few km away at the mouth of Old Plantation Creek."
+IG-015,Rappahannock,37.9222,-76.8631,approximate,"Capital town Topahanocke, where Smith met the Rappahannock in December 1607, at or opposite modern Tappahannock; the king's house was on the north bank, while the modern town is on the south."
+IG-016,Patawomeck,38.3473,-77.2864,region_centroid,"Palisaded principal town Patawomeck (Indian Point, site 44ST1, now eroded) was on the north side of Potomac Creek near Accokeek Creek, Stafford County; the point is Wikipedia's general Potomac Creek coordinate, likely several km from the town."
+IG-017,Mattaponi,37.6625,-76.9147,region_centroid,"Mattaponi towns, including the capital Mattapanient, lay along the Mattaponi River; point is the present reservation (GNIS), not a located 1607 town."
+IG-018,Chiskiack,37.2411,-76.5642,approximate,"Kiskiack town on a bluff on the south bank of the York River, now within Naval Weapons Station Yorktown, about 4 miles above Yorktown; point is the colonial Kiskiack (Lee House) on the station, a few km inland from the village."
+IG-019,Youghtanund,,,not_located,"Left blank. Sources place it on the upper Pamunkey (then called the Youghtanund River) as Opechancanough's seat, but none gives a locatable town site; Menmend at 'The Island' between Pampatike and Manquin creeks (per Rountree) may be related, but its tribal attribution is unclear."
+IG-020,Monacan,37.7506,-78.1686,site,"Rassawek, the Monacan principal town on Smith's 1612 map, at the confluence of the James and Rivanna near Columbia, Fluvanna County."
+IG-021,Mannahoac,38.3682,-77.6185,region_centroid,"Mannahoac towns lay along the upper Rappahannock and Rapidan west of Fredericksburg (Mahaskahod and Hassinunga near the confluence); point is Wikipedia's Rapidan River location point, which stands for the general territory only."
+IG-022,Massawomeck,,,not_located,"Left blank: identity and homeland are disputed (upper Monongahela/Youghiogheny vs. south of Lake Ontario), and no source gives a town location."
+IG-023,Susquehannock,39.9925,-76.4675,approximate,"Large fortified town near present Washington Boro, Lancaster County, PA, occupied after the Schultz site was abandoned c.1600, during Smith's 1608 contact; point is the Washington Boro locality."
+IG-024,Piscataway,38.6960,-77.0518,site,"Moyaone, the Accokeek Creek Site in Prince George's County, MD, opposite Mount Vernon; it was the largest and last-occupied Piscataway village, a palisaded town occupied to c.1630."
+IG-025,Nacotchtank (Anacostans),38.8428,-77.0161,approximate,"Principal village Nacotchtank on the east bank of the Potomac/Anacostia at today's Joint Base Anacostia-Bolling; the largest village lay just north of the base, south of Anacostia Park."
+IG-026,Chowanoke,36.3017,-76.7917,region_centroid,"Principal town Chowanoke (Menatonon's, visited by Pory in 1622) on the Chowan River a few miles east of the state marker SE of Harrellsville, Hertford County, NC; exact site not pinpointed."

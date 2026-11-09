@@ -17,7 +17,9 @@ Pipeline (spaCy ``en_core_web_sm`` plus an authority matcher placed before ``ner
    surnames (Holland, Downes) need geographic context; model ``PERSON`` spans
    take an adjacent title and are linked by dictionary alias when possible.
 4. Index pages are skipped; mentions in running heads and editorial lines
-   are kept but marked not usable for association.
+   are kept but marked not usable for association. The editor's document
+   headings (Volumes III-IV) stay usable: their author and addressee
+   (``JOHN PORY. A LETTER TO SIR EDWIN SANDYS``) are part of the document.
 5. Each mention carries its meeting segment and date, and a ``mention_role``:
    ``present`` inside a meeting's attendance list, otherwise ``mentioned``.
 6. Optionally, Indigenous groups, individuals, titles, and collective terms
@@ -618,7 +620,7 @@ def main() -> None:
     nlp.add_pipe("authority_ruler", before="ner")
     print(f"Authority forms: {dict(pattern_stats)}")
 
-    locator = Locator(args.segments, args.page_roles, args.editorial_spans)
+    locator = Locator(args.segments, args.page_roles, args.editorial_spans, usable_kinds=frozenset({"document_heading"}))
     pages = load_primary_pages(args.source)
     rows, stats = extract(pages, nlp, dictionary, load_places(args.authority), locator, locator.roles)
     if args.indigenous:

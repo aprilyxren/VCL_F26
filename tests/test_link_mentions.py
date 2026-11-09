@@ -3,7 +3,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from flag_page_roles import index_ratio, page_roles  # noqa: E402
+from date_pages import document_headings  # noqa: E402
+from flag_page_roles import editorial_spans, index_ratio, page_roles  # noqa: E402
 from link_mentions import match_key, person_index, resolve_person  # noqa: E402
 
 DICTIONARY = {
@@ -50,3 +51,15 @@ def test_index_pages_are_the_trailing_run_only():
     assert roles["V03-P0001"] == "record"        # ...but is not in the trailing run
     assert roles["V03-P0002"] == "record"
     assert roles["V03-P0003"] == roles["V03-P0003b"] == roles["V03-P0004"] == "index"
+
+
+def test_document_heading_title_is_editorial_but_the_letter_is_not():
+    text = ("1622 565\n\nII. Joun Martin. “THe Manner Howe to BRINGE THE INDIANS INTO SUBIECTION.”\n\n"
+            "DECEMBER 15, 1622\n\nAdditional Manuscripts, 12496\nDocument in British Museum\n\n"
+            "The Indians are to be brought in subiection.\n")
+    page = {"page_id": "V03-P0001", "volume": 3, "text": text}
+    first = {"page_id": "V03-P0000", "volume": 3, "text": "I. A heading\n\n1606\n\nDocument in British Museum\n"}
+    spans = editorial_spans(page, document_headings([first, page])["V03-P0001"])
+    heading = next((s, e) for s, e, kind in spans if kind == "document_heading")
+    assert "BRINGE THE INDIANS" in text[slice(*heading)]
+    assert "The Indians are to be brought" not in text[slice(*heading)]

@@ -1023,6 +1023,7 @@ V03-P0006,156,228,editorial_metadata,"Manuscript Records of the Virginia Company
 V03-P0006,229,264,editorial_metadata,Document in the Library of Congress
 V03-P0006,265,287,editorial_metadata,"List of Records, No. 6"
 V03-P0007,0,14,running_head,"JUNE &, 1608 7"
+V03-P0007,22,179,document_heading,"IV. PopuHam vs. HAVERCOMBE. COMPLAINT AND SENTENCE CoMPLAINT, JUNE 8, 1608 SENTENCE, JUNE 23, 1608 Admiralty, Instance and Prize, Libels 73, Nos. 274, 279"
 V03-P0007,179,219,editorial_metadata,"Document in Public Record Office, London"
 V03-P0007,220,241,editorial_metadata,List of Records No. 7
 V03-P0008,0,33,running_head,8 RECORDS OF THE VIRGINIA COMPANY
@@ -1030,6 +1031,7 @@ V03-P0009,0,14,running_head,"JUNE 8, 1608 9"
 V03-P0010,0,34,running_head,10 RECORDS OF THE VIRGINIA COMPANY
 V03-P0011,0,16,running_head,"JUNE 23, 1608 11"
 V03-P0012,0,34,running_head,12 RECORDS OF THE VIRGINIA COMPANY
+V03-P0012,265,456,document_heading,"V. VireintA Councin. ‘‘INSTRUCCONS ORDERS AND CONSTITUCONS * * * to Sk THomas GATES KNIGHT GOVERNOR OF VIRGINIA” May, 1609 Ashmolean Manuscripts, 1147, folios 1"
 V03-P0012,456,503,editorial_metadata,"Document in Bodleian Library, Oxford University"
 V03-P0012,504,526,editorial_metadata,List of Records No. 10
 V03-P0013,0,12,running_head,"MAY, 1609 13"
@@ -1044,6 +1046,7 @@ V03-P0021,0,12,running_head,"MAY, 1609 21"
 V03-P0022,0,34,running_head,22 RECORDS OF THE VIRGINIA COMPANY
 V03-P0023,0,12,running_head,"MAY, 1609 23"
 V03-P0024,0,34,running_head,24 RECORDS OF THE VIRGINIA COMPANY
+V03-P0024,1482,1665,document_heading,"VI. Vireinta Counciu. ‘INSTRUCTIONS ORDERS AND CONSTITUGONS . TO ...SR Tuomas West knicut Lo: LA WaARR’’ 1609/10(?) Ashmolean Manuscripts, 1147, folios 191-205a"
 V03-P0024,1665,1712,editorial_metadata,"Document in Bodleian Library, Oxford University"
 V03-P0024,1713,1735,editorial_metadata,List of Records No. 11
 V03-P0025,0,12,running_head,1609?)/10 25
@@ -1051,15 +1054,19 @@ V03-P0026,0,34,running_head,26 RECORDS OF THE VIRGINIA COMPANY
 V03-P0027,0,13,running_head,1609(?)/10 27
 V03-P0028,0,34,running_head,28 RECORDS OF THE VIRGINIA COMPANY
 V03-P0029,0,20,running_head,"NOVEMBER 18, 1610 29"
+V03-P0029,1572,1706,document_heading,"VII. Georcre YEARDLEY. A LETTER TO Sir HENRY PEYTON NOVEMBER 18, 1610 English History Manuscripts, c. 4, new No., Ms. 29724, folio 3"
 V03-P0029,1706,1753,editorial_metadata,"Document in Bodleian Library, Oxford University"
 V03-P0029,1754,1776,editorial_metadata,List of Records No. 14
 V03-P0030,0,34,running_head,30 RECORDS OF THE VIRGINIA COMPANY
 V03-P0031,0,10,running_head,1611(?) ol
+V03-P0031,1009,1182,document_heading,"VIII. Vireinta Counciu. A Lerrer to “St RapHe WIinwoop” 1611 (?) Duke of Buccleuch and Queensberry Manuscripts, Winwood Papers, Volume 9 (Courtesy of Duke of Bu"
 V03-P0031,1209,1231,editorial_metadata,List of Records No. 16
 V03-P0032,0,34,running_head,32 RECORDS OF THE VIRGINIA COMPANY
 V03-P0033,0,14,running_head,"APRIL, 1611 33"
+V03-P0033,16,187,document_heading,"IX. Str Tuomas Smytue. A Letrer to S' RapHe WInwoop APRIL, 1611 Duke of Buccleuch and Queensberry Manuscripts, Winwood Papers, Volume 9 (Courtesy of Duke of Buc"
 V03-P0033,214,236,editorial_metadata,List of Records No. 17
 V03-P0034,0,34,running_head,34 RECORDS OF THE VIRGINIA COMPANY
+V03-P0034,36,221,document_heading,"X. VIRGINIA COMPANY vs. Sir THomas MILpMAYE, JAMES BRYARLEY, MATHEWE DE QUESTER, AND OTHERS. THE BILL OF COMPLAINT NovEMBER 25, 1612 Chancery Proceedings, James"
 V03-P0034,221,261,editorial_metadata,"Document in Public Record Office, London"
 V03-P0034,262,284,editorial_metadata,List of Records No. 20
 V03-P0035,0,20,running_head,"NOVEMBER 25, 1612 30"
@@ -1067,33 +1074,41 @@ V03-P0036,0,34,running_head,36 RECORDS OF THE VIRGINIA COMPANY
 V03-P0037,0,20,running_head,"NOVEMBER 25, 1612 37"
 V03-P0038,0,34,running_head,38 RECORDS OF THE VIRGINIA COMPANY
 V03-P0039,0,20,running_head,"DECEMBER 11, 1612 39"
+V03-P0039,1332,1521,document_heading,"XI. VireintaA Company vs. Sir THomas MILDMAYE AND OTHERS. ‘THE ANSWER OF Sir THOMAS MILDMAYE TO THE BILL OF COMPLAINT DrcEeMBER 11, 1612 Chancery Proceedings, J"
 V03-P0039,1521,1561,editorial_metadata,"Document in Public Record Office, London"
 V03-P0039,1562,1584,editorial_metadata,List of Records No. 21
 V03-P0040,0,34,running_head,40 RECORDS OF THE VIRGINIA COMPANY
 V03-P0041,0,22,running_head,"JANUARY 11, 1612/18 41"
+V03-P0041,201,408,document_heading,"XII. Vircinta Company vs. Sir THoMAs MILDMAYE AND OTHERS. THE ANSWER OF JAMES BRYARLEY AND MATHEWE DE QUESTER TO THE BILL oF COMPLAINT JANUARY 11, 1612/13 Chanc"
 V03-P0041,408,448,editorial_metadata,"Document in Public Record Office, London"
 V03-P0041,449,471,editorial_metadata,List of Records No. 22
 V03-P0042,0,34,running_head,42 RECORDS OF THE VIRGINIA COMPANY
 V03-P0043,0,17,running_head,"APRIL 28, 1613 43"
+V03-P0043,1262,1442,document_heading,"XIII. Virer1a Company vs. Sir Henry NEVILE, Str GEORGE HUNTLEYE, WILLIAM HALL, AND OTHERS. THE BILL OF COMPLAINT APRIL 28, 1613 Chancery Proceedings, James I, B"
 V03-P0043,1442,1482,editorial_metadata,"Document in Public Record Office, London"
 V03-P0043,1483,1505,editorial_metadata,List of Records No. 24
 V03-P0044,0,34,running_head,44 RECORDS OF THE VIRGINIA COMPANY
+V03-P0044,36,253,document_heading,"XIV. Vireinta Company vs. Sir Henry NEvVILE, Str GEorGE HUNTLEYE, WILLIAM HALL, AND OTHERS. THE ANSWER OF SIR GEORGE HUNT- LEY TO THE BILL OF COMPLAINT May 18, "
 V03-P0044,253,293,editorial_metadata,"Document in Public Record Office, London"
 V03-P0044,294,316,editorial_metadata,List of Records No. 25
 V03-P0045,0,19,running_head,"NOVEMBER 1, 1613 45"
+V03-P0045,21,184,document_heading,"XV. VirGiniA Company vs. Sir Epmonp Boyp, Sir Joun SAMMES, AND Oruers. THE Britt oF CompPLAINT OcroBER 8, 1613 Chancery Proceedings, James I, Bundle U, No. 2/69"
 V03-P0045,184,224,editorial_metadata,"Document in Public Record Office, London"
 V03-P0045,225,247,editorial_metadata,List of Records No. 26
+V03-P0045,838,1038,document_heading,"XVI. VirgintA ComMPAny vs. Sir EpMonp Boyp, Sir JoHN SAMMES, AND Otuers. THe ANSWER OF SIR JOHN SAMMES TO THE BILL OF OF COMPLAINT NOvEMBER 1, 1613 Chancery Pro"
 V03-P0045,1038,1078,editorial_metadata,"Document in Public Record Office, London"
 V03-P0045,1079,1101,editorial_metadata,List of Records No. 27
 V03-P0046,0,34,running_head,46 RECORDS OF THE VIRGINIA COMPANY
 V03-P0047,0,19,running_head,"NOVEMBER 1, 1613 47"
 V03-P0048,0,34,running_head,48 RECORDS OF THE VIRGINIA COMPANY
 V03-P0049,0,20,running_head,"NOVEMBER 15, 1618 49"
+V03-P0049,22,164,document_heading,"XVII. VireaintaA CoMPpANY vs. WILLIAM LEveESON. THE BILL oF CoMPLAINT NoveMBeER 15, 1613 Chancery Proceedings, James I, Bundle U, Nos. 2/55"
 V03-P0049,164,204,editorial_metadata,"Document in Public Record Office, London"
 V03-P0049,205,227,editorial_metadata,List of Records No. 28
 V03-P0050,0,34,running_head,50 RECORDS OF THE VIRGINIA COMPANY
 V03-P0051,0,20,running_head,"NOVEMBER 16, 1618 51"
 V03-P0052,0,34,running_head,52 RECORDS OF THE VIRGINIA COMPANY
+V03-P0052,631,804,document_heading,"XVIII. Viretnta Company vs. WiLtutaAM Lrveson. THE ANSWER OF WILLIAM LEVESON TO THE BILL OF COMPLAINT NovEMBER 30, 1613 Chancery Proceedings, James I, Bundle U,"
 V03-P0052,804,844,editorial_metadata,"Document in Public Record Office, London"
 V03-P0052,845,867,editorial_metadata,List of Records No. 29
 V03-P0053,0,21,running_head,"NOVEMBER 380, 1618 53"
@@ -1104,6 +1119,7 @@ V03-P0057,0,23,running_head,"FEBRUARY 16, 1613/14 57"
 V03-P0057,193,233,editorial_metadata,"Document in Public Record Office, London"
 V03-P0057,234,256,editorial_metadata,List of Records No. 31
 V03-P0058,0,34,running_head,58 RECORDS OF THE VIRGINIA COMPANY
+V03-P0058,36,150,document_heading,"XX. SHAREHOLDERS IN THE VIRGINIA COMPANY FROM 1615 To 1623 Marcu 6, 1615/16-JuNE 9, 1623 C, Ont, Vol. Ti, No. 33"
 V03-P0058,150,190,editorial_metadata,"Document in Public Record Office, London"
 V03-P0058,191,213,editorial_metadata,List of Records No. 36
 V03-P0059,0,32,running_head,"MARCH 6, 1615/16-JUNE 9, 1623 59"
@@ -1115,40 +1131,60 @@ V03-P0064,0,31,running_head,RECORDS OF THE VIRGINIA COMPANY
 V03-P0065,0,32,running_head,"MARCH 6, 1615/16-JUNE 9, 1628 65"
 V03-P0066,0,34,running_head,66 RECORDS OF THE VIRGINIA COMPANY
 V03-P0067,0,20,running_head,"DECEMBER 19, 1916 67"
+V03-P0067,22,103,document_heading,"XXI. Virernta Company. A Lerrer To THE Mayor or SaA.issury ! DECEMBER 19, 1616"
 V03-P0067,103,125,editorial_metadata,List of Records No. 37
 V03-P0068,0,34,running_head,68 RECORDS OF THE VIRGINIA COMPANY
+V03-P0068,419,551,document_heading,"XXII. “His Masrsry’s CounceLtt ror Virainia.””’ A PROCLAMATION Givine License To ANy WuHo ARE IN VIRGINIA, TO ReTuRN Home! 1616/17"
 V03-P0068,551,573,editorial_metadata,List of Records No. 38
 V03-P0069,0,15,running_head,"JUNE 7, 1617 69"
+V03-P0069,1229,1443,document_heading,"XXIII. Governor ARGALL. PROCLAMATIONS OR EDICTS JuNE 7, 1617 (1) Miscellaneous Papers, 1606-1683, quarto. (Abstract only.) (2) Manuscript Collection Virginia Hi"
 V03-P0069,1702,1724,editorial_metadata,List of Records No. 39
 V03-P0070,0,34,running_head,70 RECORDS OF THE VIRGINIA COMPANY
+V03-P0070,482,556,document_heading,"XXIV. Jonn Rotr. A Lerrer to Sir Epwin SAnpys JUNE 8, 1617 Ferrar Papers"
 V03-P0070,542,555,editorial_metadata,Ferrar Papers
 V03-P0070,556,596,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0070,597,619,editorial_metadata,List of Records No. 40
 V03-P0071,0,14,running_head,"JUNE 8, 1617 a"
 V03-P0072,0,34,running_head,72 RECORDS OF THE VIRGINIA COMPANY
 V03-P0073,0,15,running_head,"JUNE 9, 1617 73"
+V03-P0073,485,611,document_heading,"XXV. GoverNoR ArGALL. A LeETTER, PROBABLY TO His Magsgrsty’s CouNCIL FOR VIRGINIA JUNE 9, 1617 For References see No. XXIII"
 V03-P0073,611,633,editorial_metadata,List of Records No. 39
 V03-P0074,0,34,running_head,74 RECORDS OF THE VIRGINIA COMPANY
+V03-P0074,647,749,document_heading,"XXVI. GovERNOR ARGALL. PARDONS TO GEORGE WHITE, ARTHUR EDWARDS, AND Henry PoTrTerR OcToBER 20, 1617"
 V03-P0074,778,800,editorial_metadata,List of Records No. 42
+V03-P0074,1298,1357,document_heading,"XXVII. GoveRNoR ARGALL. COMMISSIONS OcroBER 20, 1617 (?)"
 V03-P0074,1386,1408,editorial_metadata,List of Records No. 43
 V03-P0075,0,19,running_head,"OCTOBER 20, 1617 75"
+V03-P0075,21,97,document_heading,"XXVIII. Governor ARGALL. APPOINTMENT OF WILLIAM POWELL OcToBER 20, 1617/?"
 V03-P0075,126,148,editorial_metadata,List of Records No. 44
+V03-P0075,308,371,document_heading,"XXIX. GovEeRNOR ARGALL. COMMISSION TO TRADE OctroBER 20, 1617"
 V03-P0075,400,422,editorial_metadata,List of Records No. 45
+V03-P0075,461,538,document_heading,"XXX. GOVERNOR ARGALL. COMMISSION TO CapTr. NATHANIEL PooL OcToBER 20, 1617"
 V03-P0075,567,589,editorial_metadata,List of Records No. 46
+V03-P0075,634,704,document_heading,"XXXI. GoverRNoR ARGALL. COMMISSION TO FRANCIS WEST OcroBER 20, 1617"
 V03-P0075,733,755,editorial_metadata,List of Records No. 47
+V03-P0075,806,878,document_heading,"XXXII. GoveRNoR ARGALL. COMMISSION TO NATHANIEL WEST OcToBER 20, 1617"
 V03-P0075,907,929,editorial_metadata,List of Records No. 48
 V03-P0076,0,34,running_head,76 RECORDS OF THE VIRGINIA COMPANY
+V03-P0076,234,306,document_heading,"XXXIII. Governor ARGALL. CONFIRMATIONS AS TO CATTLE NovEMBER 15, 1617"
 V03-P0076,335,357,editorial_metadata,List of Records No. 50
+V03-P0076,515,606,document_heading,"XXXIV. Citizens oF BERMUDA HunpRED. A LETTER TO THE GOVERNOR OF VIRGINIA NOVEMBER 27, 1617"
 V03-P0076,636,658,editorial_metadata,List of Records No. 51
+V03-P0076,882,963,document_heading,"XXXV. GOVERNOR ARGALL. LETTER TO CITIZENS OF BERMUDA HUNDRED NovEMBER 30, 1617"
 V03-P0076,992,1014,editorial_metadata,List of Records No. 52
 V03-P0077,0,21,running_head,"DECEMBER 27, 1617 ris"
+V03-P0077,23,118,document_heading,"XXXVI. Lorp De La Warr. Covenant witH Lorp Zoucu DECEMBER 27, 1617 C. O. 1, Volume I, No. 36"
 V03-P0077,118,158,editorial_metadata,"Document in Public Record Office, London"
 V03-P0077,159,181,editorial_metadata,List of Records No. 54
 V03-P0078,0,34,running_head,78 RECORDS OF THE VIRGINIA COMPANY
+V03-P0078,36,80,document_heading,XXXVII. GoveRNoR ARGALL. MEMORANDA 1617/18
 V03-P0078,109,131,editorial_metadata,List of Records No. 55
 V03-P0079,0,8,running_head,1618? 79
+V03-P0079,10,79,document_heading,XXXVIII. Governor ARGALL. LETTER TO THE COUNCIL #OR VIRGINIA 1618(?)
 V03-P0079,108,130,editorial_metadata,List of Records No. 56
+V03-P0079,731,777,document_heading,XXXIX. Governor ArGALL. Four WARRANTS 1618(?)
 V03-P0079,806,828,editorial_metadata,List of Records No. 57
+V03-P0079,1127,1285,document_heading,"XL. A Compiete List In ALPHABETICAL ORDER OF THE “ADVENTURERS To VIRGINIA,’ WITH THE SEVERAL AMOUNTS OF THEIR Ho.piINna’ 1618(?)? Manchester Papers, No. 241"
 V03-P0079,1258,1284,editorial_metadata,"Manchester Papers, No. 241"
 V03-P0079,1285,1325,editorial_metadata,"Document in Public Record Office, London"
 V03-P0079,1326,1348,editorial_metadata,List of Records No. 58
@@ -1165,16 +1201,21 @@ V03-P0089,0,8,running_head,1618? 89
 V03-P0090,0,34,running_head,90 RECORDS OF THE VIRGINIA COMPANY
 V03-P0090,1276,1298,editorial_metadata,List of Records No. 64
 V03-P0091,0,23,running_head,"FEBRUARY 20, 1617/18 91"
+V03-P0091,25,100,document_heading,"XLII. Governor ARGALL. COMMISSION TO WILLIAM CRADOCK FEBRUARY 20, 1617/18"
 V03-P0091,129,151,editorial_metadata,List of Records No. 65
 V03-P0092,0,34,running_head,92 RECORDS OF THE VIRGINIA COMPANY
+V03-P0092,36,114,document_heading,"XLIII. Governor ArGcALL. A LETTER TO THE VIRGINIA COMPANY Marcu 10, 1617/18"
 V03-P0092,143,165,editorial_metadata,List of Records No. 67
 V03-P0093,0,44,running_head,X. Seals used by members of the Virginia Cor
 V03-P0094,0,34,running_head,92 REOORDS OF THE VIRGINIA COMPANY
 V03-P0096,0,1,running_head,:
 V03-P0097,0,15,running_head,"MAY 18, 1618 93"
+V03-P0097,17,79,document_heading,"XLIV. Governor ARGALL. PROCLAMATIONS oR EpiIcts May 10, 1618"
 V03-P0097,108,130,editorial_metadata,List of Records No. 74
+V03-P0097,326,387,document_heading,"XLV. GovEeRNOR ARGALL. PROCLAMATIONS OR EDICTS May 18, 1618"
 V03-P0097,416,438,editorial_metadata,List of Records No. 75
 V03-P0098,0,34,running_head,94 RECORDS OF THE VIRGINIA COMPANY
+V03-P0098,36,163,document_heading,"XLVI. Str Epwin Sanpys, Henry TIMBERLAKE, JOHN FERRAR. MEETING OF A COMMITTEE FOR SMYTHES HUNDRED May 18, 1618 Ferrar Papers"
 V03-P0098,149,162,editorial_metadata,Ferrar Papers
 V03-P0098,163,214,editorial_metadata,"Document in Magdalene College, Cambridge University"
 V03-P0098,316,338,editorial_metadata,List of Records No..76
@@ -1182,6 +1223,7 @@ V03-P0099,0,15,running_head,"MAY 18, 1618 95"
 V03-P0100,0,34,running_head,96 RECORDS OF THE VIRGINIA COMPANY
 V03-P0101,0,15,running_head,"MAY 18, 1618 97"
 V03-P0102,0,34,running_head,98 RECORDS OF THE VIRGINIA COMPANY
+V03-P0102,442,603,document_heading,"XLVII. Vircinta CoMPANY. INSTRUCTIONS TO GEORGE YEARDLEY NOVEMBER 18, 1618 (1) Miscellaneous Records, 1606-1692, pp. 72-83. (2) Randolph MSS., III, pp. 46-150"
 V03-P0102,687,709,editorial_metadata,List of Records No. 87
 V03-P0103,0,20,running_head,"NOVEMBER 18, 1618 99"
 V03-P0104,0,35,running_head,100 RECORDS OF THE VIRGINIA COMPANY
@@ -1194,6 +1236,7 @@ V03-P0110,0,35,running_head,106 RECORDS OF THE VIRGINIA COMPANY
 V03-P0111,0,21,running_head,"NOVEMBER 18, 1618 107"
 V03-P0112,0,35,running_head,108 RECORDS OF THE VIRGINIA COMPANY
 V03-P0113,0,8,running_head,1619 109
+V03-P0113,576,672,document_heading,"XLVIII. Ferpinanpo Yate. ‘‘THE VoyaGce * * * To VerGINIA 1619” 1619 Smyth of Nibley Papers, 13"
 V03-P0113,735,757,editorial_metadata,List of Records No. 91
 V03-P0114,0,35,running_head,110 RECORDS OF THE VIRGINIA COMPANY
 V03-P0115,0,8,running_head,1619 iil
@@ -1201,10 +1244,12 @@ V03-P0116,0,35,running_head,112 RECORDS OF THE VIRGINIA COMPANY
 V03-P0117,0,8,running_head,1619 113
 V03-P0118,0,35,running_head,114 RECORDS OF THE VIRGINIA COMPANY
 V03-P0119,0,8,running_head,1619 115
+V03-P0119,10,245,document_heading,"XLIX. Virernta Company. A Note or tHe Suippinc, MEN, AND PROVISIONS, SENT TO VIRGINIA, BY THE TREASURER AND COMPANY IN THE YEERE 1619” (1) Pamphlet. Printed. (2"
 V03-P0119,305,327,editorial_metadata,List of Records No. 92
 V03-P0120,0,35,running_head,116 RECORDS OF THE VIRGINIA COMPANY
 V03-P0121,0,9,running_head,1619 1 br
 V03-P0122,0,35,running_head,118 RECORDS OF THE VIRGINIA COMPANY
+V03-P0122,782,865,document_heading,L. (JOHN) DELBRIDGE (YEARDLEY). A LETTER TO Sir EpwIn Sanpys {1619} Ferrar Papers
 V03-P0122,851,864,editorial_metadata,Ferrar Papers
 V03-P0122,865,916,editorial_metadata,"Document in Magdalene College, Cambridge University"
 V03-P0122,1121,1143,editorial_metadata,List of Records No. 93
@@ -1212,6 +1257,7 @@ V03-P0123,0,8,running_head,1619 119
 V03-P0124,0,35,running_head,120 RECORDS OF THE VIRGINIA COMPANY
 V03-P0125,0,8,running_head,1619 121
 V03-P0126,0,35,running_head,122 RECORDS OF THE VIRGINIA COMPANY
+V03-P0126,1477,1556,document_heading,LI. Str GrorGk YEARDLEY. A LETTER TO [Sir Epwin Sanpys]? [1619] Ferrar Papers
 V03-P0126,1542,1555,editorial_metadata,Ferrar Papers
 V03-P0126,1556,1607,editorial_metadata,"Document in Magdalene College, Cambridge University"
 V03-P0126,1608,1630,editorial_metadata,List of Records No. 94
@@ -1233,14 +1279,18 @@ V03-P0139,194,234,editorial_metadata,"Document in Public Record Office, London"
 V03-P0139,235,259,editorial_metadata,"Autograph Letter, Signed"
 V03-P0139,260,282,editorial_metadata,List of Records No. 99
 V03-P0140,0,35,running_head,136 RECORDS OF THE VIRGINIA COMPANY
+V03-P0140,272,397,document_heading,"LIV. Str WititiAM THROCKMORTON AND OTHERS. A LETTER TO SIR GEORGE YEARDLEY Fresruary 18, 1618/19 Smyth of Nibley Papers, 4"
 V03-P0140,458,481,editorial_metadata,List of Records No. 100
 V03-P0141,0,17,running_head,"APRIL 8, 1619 137"
+V03-P0141,789,895,document_heading,"LV. RicHarp BERKELEY. A LeTrer TO JOHN SmytTuH, OF NIBLEY APRIL 3, 1619 Smyth of Nibley Papers, Smyth, 5"
 V03-P0141,895,972,editorial_metadata,"Document in the New York Public Library (Autograph Letter, Signed, with Seal)"
 V03-P0141,973,996,editorial_metadata,List of Records No. 104
 V03-P0142,0,35,running_head,138 RECORDS OF THE VIRGINIA COMPANY
+V03-P0142,173,321,document_heading,"LVI. Str Wiuit1Am TuHrockmortTon. A LETTER TO JOHN SMYTH, CON- CERNING THE PLANTATION IN VIRGINIA Aprit 10, 1619 Smyth of Nibley Papers, Smyth, 6"
 V03-P0142,321,397,editorial_metadata,"Document in the New York Public Library. Autograph Letter, Signed, with Seal"
 V03-P0142,398,421,editorial_metadata,List of Records No. 103
 V03-P0143,0,18,running_head,"APRIL 27, 1619 139"
+V03-P0143,526,681,document_heading,"LVII. Sanpys, Harwoop, WorRSsELNHAM, RIcHE, JOHNSON. DrRarr OF A REPORT OF A COMMITTEE OF THE VIRGINIA COMPANY APRIL 27, 1619 Manchester Papers, No. 245"
 V03-P0143,654,680,editorial_metadata,"Manchester Papers, No. 245"
 V03-P0143,681,721,editorial_metadata,"Document in Public Record Office, London"
 V03-P0143,722,745,editorial_metadata,List of Records No. 105
@@ -1250,31 +1300,39 @@ V03-P0146,0,35,running_head,142 RECORDS OF THE VIRGINIA COMPANY
 V03-P0147,0,18,running_head,"APRIL 27, 1619 143"
 V03-P0148,0,35,running_head,144 RECORDS OF THE VIRGINIA COMPANY
 V03-P0149,0,17,running_head,"JUNE 17, 1619 145"
+V03-P0149,19,162,document_heading,"LVIII. TREASURER AND COUNCIL FOR VIRGINIA. A COMMISSION TO WILLIAM WYE JUNE 17, 1619 Admiralty Court, Instance and Prize, Libels 80, No. 123"
 V03-P0149,162,241,editorial_metadata,"Document in the Public Record Office, London, in the records of the suit of the"
 V03-P0149,274,297,editorial_metadata,List of Records No. 110
 V03-P0150,0,35,running_head,146 RECORDS OF THE VIRGINIA COMPANY
+V03-P0150,1448,1594,document_heading,"LIX. TREASURER AND CouNcIL FOR VirGInNIA. A LETTER TO SIR GEORGE YEARDLEY JUNE 21, 1619 Admiralty Court, Instance and Prize, Libels 80, No. 123"
 V03-P0150,1594,1673,editorial_metadata,"Document in the Public Record Office, London. In the Records of the Suit of the"
 V03-P0150,1706,1729,editorial_metadata,List of Records No. 110
 V03-P0151,0,17,running_head,"JUNE 21, 1619 147"
 V03-P0152,0,35,running_head,148 RECORDS OF THE VIRGINIA COMPANY
+V03-P0152,684,780,document_heading,"LX. Grorce Tuorree. A Lerrer to Jonun Smytu or NIBLEY. JULY 2, 1619 Smyth of Nibley Papers, 7"
 V03-P0152,780,851,editorial_metadata,"Document in New York Public Library, Autograph Letter Signed, with Seal"
 V03-P0152,852,875,editorial_metadata,List of Records No. 111
 V03-P0153,0,16,running_head,"JULY 8, 1619 149"
+V03-P0153,18,171,document_heading,"LXI. CoMMITTEE OF THE COUNCIL FOR VIRGINIA. Copy or MINUTES RELATING TO THE CENSURE PASSED ON ALDERMAN JOHNSON JULY 8, 1619 Manchester Papers, No. 250"
 V03-P0153,144,170,editorial_metadata,"Manchester Papers, No. 250"
 V03-P0153,171,211,editorial_metadata,"Document in Public Record Office, London"
 V03-P0153,212,235,editorial_metadata,List of Records No. 112
 V03-P0154,0,35,running_head,150 RECORDS OF THE VIRGINIA COMPANY
+V03-P0154,1354,1527,document_heading,"LXII. ComMitTer oF THE CouNcIL FoR VireiniA. A SHort Drarr OF CENSURE AGAINST ALDERMAN JOHNSON ABANDONED IN FAVoR OF THE PRECEDING JuLy 8, 1619 Manchester Paper"
 V03-P0154,1500,1526,editorial_metadata,"Manchester Papers, No. 251"
 V03-P0154,1527,1567,editorial_metadata,"Document in Public Record Office, London"
 V03-P0154,1568,1591,editorial_metadata,List of Records No. 113
 V03-P0155,0,17,running_head,"JULY 20, 1619 151"
+V03-P0155,820,916,document_heading,"LXIII. Greorce Tuorpee. A Letrer to Jonn Smytu! JuLy 20, 1619 Smyth of Nibley Papers, Smyth, 8"
 V03-P0155,916,992,editorial_metadata,"Document in the New York Public Library. Autograph Letter, Signed, with Seal"
 V03-P0155,993,1016,editorial_metadata,List of Records No. 114
 V03-P0156,0,35,running_head,152 RECORDS OF THE VIRGINIA COMPANY
+V03-P0156,37,149,document_heading,"LXIV. Str Gerorce YEARDLEY. A LETTER CONCERNING ARGALL’S LETTERS FROM LorpD RitTcH Juy 20, 1619 Ferrar Papers"
 V03-P0156,135,148,editorial_metadata,Ferrar Papers
 V03-P0156,149,226,editorial_metadata,"Document in Magdalene College, Cambridge University. Autograph Letter, Signed"
 V03-P0156,227,250,editorial_metadata,List of Records No. 115
 V03-P0157,0,37,running_head,"JULY 80, 31, AUGUST 2, 8, 4, 1619 153"
+V03-P0157,766,958,document_heading,"LXV. JoHn Pory. ‘A REPORTE OF THE MANNER OF PROCEEDING IN THE GENERAL ASSEMBLY CONVENTED AT JAMES CitTy’’ JuLy 30, 31, Aucusr 2, 3, 4, 1619 State Papers, Domest"
 V03-P0157,958,991,editorial_metadata,Document in Public Record Office!
 V03-P0157,992,1015,editorial_metadata,List of Records No. 116
 V03-P0158,0,35,running_head,154 RECORDS OF THE VIRGINIA COMPANY
@@ -1302,6 +1360,7 @@ V03-P0179,0,39,running_head,"JULY 380, 381, AUGUST 2, 3, 4, 1619 175"
 V03-P0180,0,35,running_head,176 RECORDS OF THE VIRGINIA COMPANY
 V03-P0181,0,37,running_head,"JULY 30, 31, AUGUST 2, 3, 4, 1619 Lee"
 V03-P0182,0,35,running_head,178 RECORDS OF THE VIRGINIA COMPANY
+V03-P0182,37,174,document_heading,"LXVI. Tue Cost or FuRNISHING THE ‘‘ MARGARET” JuLY, AUGUST, AND SEPTEMBER, 1619 Smyth of Nibley Papers, Smyth, 3 (13)-(16), Pages 79-93"
 V03-P0182,214,237,editorial_metadata,List of Records No. 117
 V03-P0183,0,37,running_head,"JULY, AUGUST, AND SEPTEMBER, 1619 179"
 V03-P0184,0,35,running_head,180 RECORDS OF THE VIRGINIA COMPANY
@@ -1315,28 +1374,36 @@ V03-P0191,0,37,running_head,"JULY, AUGUST, AND SEPTEMBER, 1619 187"
 V03-P0192,0,35,running_head,188 RECORDS OF THE VIRGINIA COMPANY
 V03-P0193,0,37,running_head,"JULY, AUGUST, AND SEPTEMBER, 1619 189"
 V03-P0194,0,35,running_head,190 RECORDS OF THE VIRGINIA COMPANY
+V03-P0194,37,150,document_heading,"LXVII. Sir Epwin Sanpys. A Lerrer To Sir GEORGE YEARDLEY Avaust 3, 1619 Smith of Nibley Papers, 3 (12), Page 78"
 V03-P0194,186,209,editorial_metadata,List of Records No. 118
+V03-P0194,867,955,document_heading,"LXVIII. Gasriet BarsBor. A LeEetrrer To Sir Epwin SAnpys Aveust 11, 1619 Ferrar Papers"
 V03-P0194,941,954,editorial_metadata,Ferrar Papers
 V03-P0194,955,1025,editorial_metadata,"Document in Magdalene College, Cambridge University. Autograph Letter,"
 V03-P0194,1054,1077,editorial_metadata,List of Records No. 119
 V03-P0195,0,19,running_head,"AUGUST 16, 1619 191"
+V03-P0195,476,554,document_heading,"LXIX. Sir Epwin Sanpys. A Lerrer to JoHN FERRAR Aucust 16, 1619 Ferrar Papers"
 V03-P0195,540,553,editorial_metadata,Ferrar Papers
 V03-P0195,554,631,editorial_metadata,"Document in Magdalene College, Cambridge University. Autograph Letter, Signed"
 V03-P0195,632,655,editorial_metadata,List of Records No. 120
 V03-P0196,0,35,running_head,192 RECORDS OF THE VIRGINIA COMPANY
 V03-P0197,0,19,running_head,"AUGUST 18, 1619 193"
+V03-P0197,21,136,document_heading,"LXX. Cuarter Party with Mr. WILLIAMS, or BristoL Avaust 18, 1619 Smyth of Nibley Papers, Smyth, 3 (17), pp. 94-96"
 V03-P0197,176,199,editorial_metadata,List of Records No. 121
 V03-P0198,0,35,running_head,194 RECORDS OF THE VIRGINIA COMPANY
 V03-P0199,0,19,running_head,"SEPTEMBER, 1619 195"
+V03-P0199,896,1002,document_heading,"LXXI. REMEMBRANCES FOR CAPTAIN WOODLEEFE SEPTEMBER, 1619 Smyth of Nibley Papers, Smyth, 3 (8), pp. 71-72"
 V03-P0199,1042,1065,editorial_metadata,List of Records No. 122
 V03-P0200,0,35,running_head,196 RECORDS OF THE VIRGINIA COMPANY
 V03-P0201,0,19,running_head,"SEPTEMBER, 1619 197"
+V03-P0201,21,174,document_heading,"LXXII. “A LYST OF THE MEN NOWE SENT FOR PLANTACGON VNDER CAPTAYNE WOODLEEFE GOVERNOR” SEPTEMBER, 1619 Smyth of Nibley Papers, Smyth, 3 (9), pp. 73-75"
 V03-P0201,214,237,editorial_metadata,List of Records No. 123
 V03-P0202,0,35,running_head,198 RECORDS OF THE VIRGINIA COMPANY
 V03-P0203,0,21,running_head,"SEPTEMBER 4, 1619 199"
+V03-P0203,1473,1641,document_heading,"LXXIII. StR WILLIAM THROCKMORTON AND HIS THREE ASSOCIATES A CoMMISssION. TO CAPTAIN JOHN WOODLEEFE SEPTEMBER 4, 1619 Smyth of Nibley Papers, Smyth, 3 (5), pp. 5"
 V03-P0203,1681,1704,editorial_metadata,List of Records No. 124
 V03-P0204,0,35,running_head,200 RECORDS OF THE VIRGINIA COMPANY
 V03-P0205,0,21,running_head,"SEPTEMBER 4, 1619 201"
+V03-P0205,797,996,document_heading,"LXXIV. AGREEMENT BETWEEN Sir WILLIAM THROCKMORTON, RICHARD BERKELEY, GEORGE THORPE, JOHN SMYTH, AND CAPTAIN JOHN WOODLEEFE SEPTEMBER 4, 1619 Smyth of Nibley Pap"
 V03-P0205,1036,1059,editorial_metadata,List of Records No. 125
 V03-P0206,0,35,running_head,202 RECORDS OF THE VIRGINIA COMPANY
 V03-P0207,0,21,running_head,"SEPTEMBER 4, 1619 203"
@@ -1344,38 +1411,48 @@ V03-P0208,0,35,running_head,204 RECORDS OF THE VIRGINIA COMPANY
 V03-P0209,0,21,running_head,"SEPTEMBER 4, 1619 205"
 V03-P0210,0,35,running_head,206 RECORDS OF THE VIRGINIA COMPANY
 V03-P0211,0,21,running_head,"SEPTEMBER 4, 1619 207"
+V03-P0211,1002,1207,document_heading,"LXXV. Sir WriiitraAm THROCKMORTON, RICHARD BERKELEY, ET AL. ‘(ORDINANCES DIRECCONS AND INSTRUCTIONS TO CAPTAINE JOHN WOODLEFE”’ SEPTEMBER 4, 1619 Smyth of Nible"
 V03-P0211,1248,1271,editorial_metadata,List of Records No. 126
 V03-P0212,0,35,running_head,208 RECORDS OF THE VIRGINIA COMPANY
 V03-P0213,0,21,running_head,"SEPTEMBER 4, 1619 209"
 V03-P0214,0,35,running_head,210 RECORDS OF THE VIRGINIA COMPANY
+V03-P0214,1372,1526,document_heading,"LXXVI. INDENTURE BETWEEN THE Four ADVENTURERS OF BERKELEY HUNDRED AND ROBERT Coopy or NortTH NIBLEY SEPTEMBER 7, 1619 Smyth of Nibley Papers, Smyth, 11"
 V03-P0214,1619,1642,editorial_metadata,List of Records No. 127
 V03-P0215,0,21,running_head,"SEPTEMBER 7, 1619 211"
 V03-P0216,0,35,running_head,212 RECORDS OF THE VIRGINIA COMPANY
+V03-P0216,37,193,document_heading,"LXXVII. Str Witt1AmM THROCKMORTON AND HIS THREE ASSOCIATES LETTER TO Str GEORGE YEARDLEY SEPTEMBER 9, 1619 Smyth of Nibley Papers, Smyth, 3 (11), Page 77"
 V03-P0216,233,256,editorial_metadata,List of Records No. 128
 V03-P0217,0,22,running_head,"SEPTEMBER 16, 1619 213"
+V03-P0217,24,209,document_heading,"LXXVIII. THe Certiricate or JoHN Swysr, Mayor or Brisrou, OF THE MEN WHO SHIPPED IN THE ‘‘MARGARET” UNDER CAPTAIN WOODLEEFE SEPTEMBER 15, 1619 Smyth of Nibley P"
 V03-P0217,249,272,editorial_metadata,List of Records No. 129
 V03-P0218,0,35,running_head,214 RECORDS OF THE VIRGINIA COMPANY
+V03-P0218,37,243,document_heading,"LXXIX. Account or A. B. oF THE EXPENSES OF THE VOYAGE, REN- DERED TO SIR WILLIAM THROCKMORTON AND ASSOCIATES SEPTEMBER 16, 1619, TO SEPTEMBER 16, 1620 Smyth of "
 V03-P0218,283,306,editorial_metadata,List of Records No. 130
 V03-P0219,0,22,running_head,"SEPTEMBER 20, 1619 215"
+V03-P0219,535,621,document_heading,"LXXX. Sir Epwin Sanpys. A LeEetrrer to JOHN FERRAR SEPTEMBER 20, 1619 Ferrar Papers"
 V03-P0219,607,620,editorial_metadata,Ferrar Papers
 V03-P0219,621,698,editorial_metadata,"Document in Magdalene College, Cambridge University. Autograph Letter, Signed"
 V03-P0219,699,722,editorial_metadata,List of Records No. 131
 V03-P0220,0,35,running_head,216 RECORDS OF THE VIRGINIA COMPANY
+V03-P0220,405,505,document_heading,"LXXXI. Str Epwin Sanpys. A LEerrer To THE [EARL OF SOUTHAMPTON] SEPTEMBER 29, 1619 2 Ferrar Papers"
 V03-P0220,491,504,editorial_metadata,Ferrar Papers
 V03-P0220,505,582,editorial_metadata,"Document in Magdalene College, Cambridge University. A Rough Draft in Sandys’"
 V03-P0220,593,616,editorial_metadata,List of Records No. 132
 V03-P0221,0,22,running_head,"SEPTEMBER 29, 1619 217"
 V03-P0222,0,35,running_head,218 RECORDS OF THE VIRGINIA COMPANY
 V03-P0223,0,22,running_head,"SEPTEMBER 80, 1619 219"
+V03-P0223,444,568,document_heading,"LXXXII. Joun Pory. A Lerrer to ‘‘tHr RIGHT HONBLE AND MY SINGULAR GOOD LORDE”’ SEPTEMBER 30, 1619 Barlow Collection, 2270"
 V03-P0223,568,633,editorial_metadata,"Document in the New York Public Library. Autograph Letter, Signed"
 V03-P0223,634,657,editorial_metadata,List of Records No. 133
 V03-P0224,0,35,running_head,220 RECORDS OF THE VIRGINIA COMPANY
 V03-P0225,0,22,running_head,"SEPTEMBER 30, 1619 221"
 V03-P0226,0,35,running_head,222 RECORDS OF THE VIRGINIA COMPANY
 V03-P0227,0,19,running_head,"OCTOBER 4, 1619 223"
+V03-P0227,21,108,document_heading,"LXXXIII. Gasrret Barspor. A LETTER TO Sir Epwin Sanpys OcrToBER 2, 1619 Ferrar Papers"
 V03-P0227,94,107,editorial_metadata,Ferrar Papers
 V03-P0227,108,185,editorial_metadata,"Document in Magdalene College, Cambridge University. Autograph Letter, Signed"
 V03-P0227,186,209,editorial_metadata,List of Records No. 134
+V03-P0227,1358,1440,document_heading,"LXXXIV. Str Epwin Sanpys. A Letrer to JoHN FERRAR OcrToBER 4, 1619 Ferrar Papers"
 V03-P0227,1426,1439,editorial_metadata,Ferrar Papers
 V03-P0227,1440,1517,editorial_metadata,"Document in Magdalene College, Cambridge University. Autograph Letter, Signed"
 V03-P0227,1518,1541,editorial_metadata,List of Records No. 135
@@ -1385,22 +1462,27 @@ V03-P0228,626,666,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0228,667,690,editorial_metadata,List of Records No. 136
 V03-P0229,0,20,running_head,"OCTOBER 18, 1619 225"
 V03-P0230,0,35,running_head,226 RECORDS OF THE VIRGINIA COMPANY
+V03-P0230,37,195,document_heading,"LXXXVI. Councit In Vircinia. ‘‘THE PUTTING OUT OF THE TENANT THAT CAME OUER IN THE B. N. wT OTHER ORDERS OF THE CoUNCELL”’ NovEmMBER 11, 1619 Ferrar Papers"
 V03-P0230,181,194,editorial_metadata,Ferrar Papers
 V03-P0230,195,246,editorial_metadata,"Document in Magdalene College, Cambridge University"
 V03-P0230,247,270,editorial_metadata,List of Records No. 138
 V03-P0231,0,21,running_head,"NOVEMBER 11, 1619 227"
 V03-P0232,0,35,running_head,228 RECORDS OF THE VIRGINIA COMPANY
 V03-P0233,0,21,running_head,"NOVEMBER 12, 1619 229"
+V03-P0233,531,617,document_heading,"LXXXVII. GovERNOR AND CoUNCIL IN VIRGINIA. AN ORDER NovEMBER 12, 1619 Ferrar Papers"
 V03-P0233,603,616,editorial_metadata,Ferrar Papers
 V03-P0233,617,668,editorial_metadata,"Document in Magdalene College, Cambridge University"
 V03-P0233,669,692,editorial_metadata,List of Records No. 139
 V03-P0234,0,35,running_head,230 RECORDS OF THE VIRGINIA COMPANY
+V03-P0234,37,208,document_heading,"LXXXVIII. Str Georce YARDLEY. A CERTIFICATE WITH REGARD TO THE ARRIVAL OF THE ‘‘ MARGARET” IN VIRGINIA?! DECEMBER 4, 1619 Smyth of Nibley Papers, Smyth, 3 (18),"
 V03-P0234,244,267,editorial_metadata,List of Records No. 140
 V03-P0235,0,12,running_head,1620 (?) 231
+V03-P0235,14,134,document_heading,"LXXXIX. ADVENTURERS AND PLANTERS. Copy oF A PETITION TO THE COUNSELL FOR VIRGINIA 1620 (?) Manchester Papers, No. 247"
 V03-P0235,107,133,editorial_metadata,"Manchester Papers, No. 247"
 V03-P0235,134,174,editorial_metadata,"Document in Public Record Office, London"
 V03-P0235,175,198,editorial_metadata,List of Records No. 142
 V03-P0236,0,35,running_head,232 RECORDS OF THE VIRGINIA COMPANY
+V03-P0236,1101,1293,document_heading,XC. Str NatTHANIEL Ricuw. Roucu Notes ror HIS DEFENSE BEFORE THE COUNCIL OF THE VIRGINIA COMPANY ON THE CHARGE OF HAVING ALTERED AN ORDER OF THE CoUNCIL! 1620 (
 V03-P0236,1266,1292,editorial_metadata,"Manchester Papers, No. 280"
 V03-P0236,1293,1333,editorial_metadata,"Document in Public Record Office, London"
 V03-P0236,1334,1357,editorial_metadata,List of Records No. 144
@@ -1408,19 +1490,23 @@ V03-P0237,0,12,running_head,1620 (?) 233
 V03-P0238,0,35,running_head,234 RECORDS OF THE VIRGINIA COMPANY
 V03-P0239,0,12,running_head,1620 (?) 235
 V03-P0240,0,35,running_head,236 RECORDS OF THE VIRGINIA COMPANY
+V03-P0240,37,166,document_heading,"XCI. Rovau Drart or A PROPOSITION AFFECTING THE VIRGINIA COMPANY CONCERNING CAPTAIN ARGALL 1620 (?) Manchester Papers, No. 281"
 V03-P0240,139,165,editorial_metadata,"Manchester Papers, No. 281"
 V03-P0240,166,206,editorial_metadata,"Document in Public Record Office, London"
 V03-P0240,207,230,editorial_metadata,List of Records No. 145
 V03-P0241,0,8,running_head,1620 237
+V03-P0241,355,467,document_heading,"XCII. ‘‘A VALUATION OF THE COMMODITIES GROWING AND TO BE HAD IN VIRGINIA” 1620 C. O. 1, Vol. I, No. 24 (MSS.)"
 V03-P0241,467,507,editorial_metadata,"Document in Public Record Office, London"
 V03-P0241,786,809,editorial_metadata,List of Records No. 151
 V03-P0242,0,35,running_head,238 RECORDS OF THE VIRGINIA COMPANY
 V03-P0243,0,8,running_head,1620 239
+V03-P0243,1015,1210,document_heading,"XCIII. Virainta Company. ‘A Norte or THE SHrppinG, Men, anv Pro- VISIONS, SENT AND PROUIDED FOR VIRGINIA” 1620 (1) Printed Broadsides, James I, No. 180. (2) Man"
 V03-P0243,1128,1209,editorial_metadata,"(1) Printed Broadsides, James I, No. 180. (2) Manchester Papers, No. 291. Printed"
 V03-P0243,1210,1283,editorial_metadata,"Document in (1) Society of Antiquaries, London. (2) Public Record Office,"
 V03-P0243,1291,1314,editorial_metadata,List of Records No. 152
 V03-P0244,0,35,running_head,240 RECORDS OF THE VIRGINIA COMPANY
 V03-P0245,0,20,running_head,"JANUARY, 1619/20 241"
+V03-P0245,436,516,document_heading,XCIV. JoHn Routre. A Lerrer to Str EpwIn SAnpys JANUARY 1619/20 Ferrar Papers.
 V03-P0245,501,515,editorial_metadata,Ferrar Papers.
 V03-P0245,516,594,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seals"
 V03-P0245,595,618,editorial_metadata,List of Records No. 154
@@ -1431,8 +1517,10 @@ V03-P0249,0,20,running_head,"JANUARY, 1619/20 245"
 V03-P0250,0,35,running_head,246 RECORDS OF THE VIRGINIA COMPANY
 V03-P0251,0,20,running_head,"JANUARY, 1619/20 247"
 V03-P0252,0,35,running_head,248 RECORDS OF THE VIRGINIA COMPANY
+V03-P0252,1045,1135,document_heading,"XCV. Sir Georce YEARDLEY. A LETTER JANUARY 10, 1619/20 Smyth of Nibley Papers, Smyth, 14"
 V03-P0252,1199,1222,editorial_metadata,List of Records No. 155
 V03-P0253,0,23,running_head,"JANUARY 18, 1619/20 249"
+V03-P0253,1613,1694,document_heading,"XCVI. Jonn Pory. A Lerrer To Sir EpwIN SANDYS JANUARY 18, 1619/20 Ferrar Papers"
 V03-P0253,1680,1693,editorial_metadata,Ferrar Papers
 V03-P0253,1694,1760,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0253,1761,1784,editorial_metadata,List of Records No. 156
@@ -1441,10 +1529,12 @@ V03-P0255,0,23,running_head,"JANUARY 18, 1619/20 251"
 V03-P0256,0,35,running_head,252 RECORDS OF THE VIRGINIA COMPANY
 V03-P0257,0,23,running_head,"JANUARY 18, 1619/20 253"
 V03-P0258,0,35,running_head,254 RECORDS OF THE VIRGINIA COMPANY
+V03-P0258,37,121,document_heading,"XCVII. Joun Pory. A LETrerR To Sir EpwIn Sanpys JANUARY 14, 1619/20 Ferrar Papers"
 V03-P0258,107,120,editorial_metadata,Ferrar Papers
 V03-P0258,121,161,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0258,162,185,editorial_metadata,List of Records No. 157
 V03-P0259,0,23,running_head,"JANUARY 16, 1619/20 200"
+V03-P0259,25,109,document_heading,"XCVIII. Joun Pory. A LeErrer To Sir Epwin Sanpys JANUARY 16, 1619/20 Ferrar Papers"
 V03-P0259,95,108,editorial_metadata,Ferrar Papers
 V03-P0259,109,165,editorial_metadata,"Document in Magdalene College, Cambridge. Letter, Signed"
 V03-P0259,166,189,editorial_metadata,List of Records No. 158
@@ -1452,49 +1542,60 @@ V03-P0260,0,35,running_head,256 RECORDS OF THE VIRGINIA COMPANY
 V03-P0261,0,23,running_head,"JANUARY 16, 1619/20 257"
 V03-P0262,0,35,running_head,258 RECORDS OF THE VIRGINIA COMPANY
 V03-P0263,0,23,running_head,"JANUARY 28, 1619/20 259"
+V03-P0263,25,162,document_heading,"XCIX. Str Epwin Sanpys. A LETTER To Str Ropert NAuntTON JANUARY 28, 1619/20 State Papers, Domestic, James I, Vol. 112, No. 26, Folio 49"
 V03-P0263,162,241,editorial_metadata,"Document in Public Record Office, London. Letter Signed and Sealed with Coat of"
 V03-P0263,247,270,editorial_metadata,List of Records No. 160
 V03-P0264,0,35,running_head,260 RECORDS OF THE VIRGINIA COMPANY
+V03-P0264,37,221,document_heading,"C. ACCOUNT RENDERED TO Sir WILLIAM THROCKMORTON AND ASSO- CIATES FOR SUPPLIES SENT IN THE Suip, “LONpoN MeErcuant”’ FEBRUARY, 1619/20 Smyth of Nibley Papers, Sm"
 V03-P0264,257,280,editorial_metadata,List of Records No. 162
 V03-P0265,0,27,running_head,2 ‘nt “y 5 he Ferre ASE | .
 V03-P0266,0,35,running_head,260 RECORDS OF THE ViSGiNIA COMPANY
 V03-P0267,0,1,running_head,y
 V03-P0269,0,21,running_head,"FEBRUARY, 1619/20 261"
 V03-P0270,0,35,running_head,262 RECORDS OF THE VIRGINIA COMPANY
+V03-P0270,37,120,document_heading,"CI. James BerBLtocke. AN OrpDER TO Mr. FEeRRAR FEBRUARY 25, 1619/20 Ferrar Papers"
 V03-P0270,106,119,editorial_metadata,Ferrar Papers
 V03-P0270,120,160,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0270,161,184,editorial_metadata,List of Records No. 164
+V03-P0270,821,903,document_heading,"CII. WintiAm Wetpon. A Lerrer To Sir EpWIN SANDYS Marcu 6, 1619/20 Ferrar Papers"
 V03-P0270,889,902,editorial_metadata,Ferrar Papers
 V03-P0270,903,980,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0270,981,1004,editorial_metadata,List of Records No. 166
 V03-P0271,0,20,running_head,"MARCH 6, 1619/20 263"
 V03-P0272,0,35,running_head,264 RECORDS OF THE VIRGINIA COMPANY
 V03-P0273,0,21,running_head,"APRIL 5, 10, 1620 265"
+V03-P0273,1026,1234,document_heading,"CIII. Str Tuomas Rowe, Mr. Leatr, Mr. Canine, rT AL. A PETITION To THE Privy CouNcIL For A PATENT. Apriu 5, 10, 1620 (1) Privy Council Register, James I, Vol. I"
 V03-P0273,1145,1223,editorial_metadata,"(1) Privy Council Register, James I, Vol. IV, p. 475. (2) Lansdowne MSS., 162,"
 V03-P0273,1234,1299,editorial_metadata,"Document in (1) Privy Council, Londen. (2) British Museum, London"
 V03-P0273,1300,1323,editorial_metadata,List of Records No. 167
 V03-P0274,0,35,running_head,266 RECORDS OF THE VIRGINIA COMPANY
+V03-P0274,291,385,document_heading,"CIV. Wiiu1am Tracy. A Letrer to JoHN SMYTH ApriL 15, 1620 Smyth of Nibley Papers, Smyth, 16"
 V03-P0274,385,446,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0274,447,470,editorial_metadata,List of Records No. 169
 V03-P0275,0,13,running_head,"MAY, 1620 267"
+V03-P0275,15,126,document_heading,"CV. Copy oF OPINION OF COUNSEL UPON THE PATENTS OF THE VIRGINIA COMPANY May, 1620 Manchester Papers, No. 271"
 V03-P0275,99,125,editorial_metadata,"Manchester Papers, No. 271"
 V03-P0275,126,166,editorial_metadata,"Document in Public Record Office, London"
 V03-P0275,167,190,editorial_metadata,List of Records No. 170
 V03-P0276,0,35,running_head,268 RECORDS OF THE VIRGINIA COMPANY
 V03-P0277,0,15,running_head,"MAY 1, 1620 269"
+V03-P0277,1860,1934,document_heading,"CVI. Str Epwin Sanpys. A Lerrer To JOHN FERRAR May 1, 1620 Ferrar Papers"
 V03-P0277,1920,1933,editorial_metadata,Ferrar Papers
 V03-P0277,1934,2011,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0277,2012,2035,editorial_metadata,List of Records No. 171
 V03-P0278,0,35,running_head,270 RECORDS OF THE VIRGINIA COMPANY
 V03-P0279,0,15,running_head,"MAY 7, 1620 271"
+V03-P0279,1055,1215,document_heading,"CVII. INDENTURE ASSIGNING SiR WILLIAM THROCKMORTON’S SHARE OF BERKELEY HUNDRED TO WILLIAM TRACY May 7, 1620 Smyth of Nibley Papers, Smyth 3 (20), pp. 100-102"
 V03-P0279,1251,1274,editorial_metadata,List of Records No. 172
 V03-P0280,0,35,running_head,272 RECORDS OF THE VIRGINIA COMPANY
 V03-P0281,0,15,running_head,"MAY 7, 1620 273"
 V03-P0282,0,35,running_head,274 RECORDS OF THE VIRGINIA COMPANY
+V03-P0282,221,303,document_heading,"CVIII. AuperMAN Jounson. A Letter to Sir Epwin SANDYS May 16, 1620 Ferrar Papers"
 V03-P0282,289,302,editorial_metadata,Ferrar Papers
 V03-P0282,303,369,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0282,370,393,editorial_metadata,List of Records No. 173
 V03-P0283,0,16,running_head,"MAY 17, 1620 275"
+V03-P0283,18,121,document_heading,"CIX. “‘TREASUROR, COUNCELL, AND COMPANY FOR VIRGINIA.” A BROADSIDE May 17, 1620 A Broadside. Printed"
 V03-P0283,157,180,editorial_metadata,List of Records No. 174
 V03-P0284,0,35,running_head,276 RECORDS OF THE VIRGINIA COMPANY
 V03-P0285,0,16,running_head,"MAY 17, 1620 277"
@@ -1502,6 +1603,7 @@ V03-P0286,0,35,running_head,278 RECORDS OF THE VIRGINIA COMPANY
 V03-P0287,0,16,running_head,"MAY 17, 1620 279"
 V03-P0288,0,35,running_head,280 RECORDS OF THE VIRGINIA COMPANY
 V03-P0289,0,22,running_head,"TRINITY TERM, 1620 281"
+V03-P0289,24,152,document_heading,"CX. VIRGINIA COMPANY VS WILLIAM WyYE. CoMPLAINTS Trinity TERM, 1620 Admiralty Court, Instance & Prize, Libels 80, Nos. 121-124"
 V03-P0289,152,224,editorial_metadata,"Document in the Public Record Office, London. Accompanying Documents are"
 V03-P0289,261,284,editorial_metadata,List of Records No. 149
 V03-P0290,0,35,running_head,282 RECORDS OF THE VIRGINIA COMPANY
@@ -1512,27 +1614,33 @@ V03-P0294,0,35,running_head,286 RECORDS OF THE VIRGINIA COMPANY
 V03-P0295,0,22,running_head,"TRINITY TERM, 1620 287"
 V03-P0296,0,35,running_head,288 RECORDS OF THE VIRGINIA COMPANY
 V03-P0297,0,14,running_head,"JUNE, 1620 289"
+V03-P0297,1098,1190,document_heading,"CXI. Wiuuram Tracy. A LetTTer to Joun SmytTH JUNE, 1620 Smyth of Nibley Papers, Smyth, 17"
 V03-P0297,1190,1251,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0297,1252,1275,editorial_metadata,List of Records No. 182
 V03-P0298,0,35,running_head,290 RECORDS OF THE VIRGINIA COMPANY
 V03-P0299,0,14,running_head,"JUNE, 1620 291"
+V03-P0299,16,133,document_heading,"CXII. Winuram Tracy. Lerrers to WituiIAM ARTHARD AND JOHN SMYTH [JUNE,] 1620 Smyth of Nibley Papers, Smyth, 18, 19"
 V03-P0299,133,194,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0299,195,223,editorial_metadata,"List of Records No. 175, 176"
 V03-P0300,0,35,running_head,292 RECORDS OF THE VIRGINIA COMPANY
+V03-P0300,37,131,document_heading,"CXIII. Jonn SmytoH. A Letter to Mr. BERKELEY June 1, 1620 Smyth of Nibley Papers, Smyth, 15"
 V03-P0300,168,191,editorial_metadata,List of Records No. 177
 V03-P0301,0,16,running_head,"JUNE 1, 1620 293"
 V03-P0302,0,35,running_head,294 RECORDS OF THE VIRGINIA COMPANY
+V03-P0302,1045,1163,document_heading,"CXIV. Str Epwin Sanpys. A LETTER To THE Marquis oF BUCKINGHAM JUNE 7, 1620 State Papers, Colonial, 1, Vol. I, No. 51"
 V03-P0302,1163,1238,editorial_metadata,"Document in Public Record Office, London. Autograph Letter, Signed. Part of"
 V03-P0302,1256,1279,editorial_metadata,List of Records No. 178
 V03-P0303,0,16,running_head,"JUNE 7, 1620 295"
 V03-P0304,0,35,running_head,296 RECORDS OF THE VIRGINIA COMPANY
 V03-P0305,0,16,running_head,"JUNE 7, 1620 297"
+V03-P0305,18,101,document_heading,"CXV. Str GeorGe YEARDLEY. A Lerrer To Sir Epwin Sanpys JuNE 7, 1620 Ferrar Papers"
 V03-P0305,87,100,editorial_metadata,Ferrar Papers
 V03-P0305,101,167,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0305,168,191,editorial_metadata,List of Records No. 179
 V03-P0306,0,35,running_head,298 RECORDS OF THE VIRGINIA COMPANY
 V03-P0307,0,17,running_head,"JUNE 7%, 1620 299"
 V03-P0308,0,35,running_head,300 RECORDS OF THE VIRGINIA COMPANY
+V03-P0308,1617,1698,document_heading,"CXVI. Joun Pory. A LeEetrrerR To Sir EpwINn SAnpDys JUNE 12, 1620 Ferrar Papers"
 V03-P0308,1684,1697,editorial_metadata,Ferrar Papers
 V03-P0308,1698,1754,editorial_metadata,"Document in Magdalene College, Cambridge. Letter, Signed"
 V03-P0308,1755,1778,editorial_metadata,List of Records No. 180
@@ -1542,10 +1650,12 @@ V03-P0311,0,17,running_head,"JUNE 12, 1620 303"
 V03-P0312,0,35,running_head,304 RECORDS OF THE VIRGINIA COMPANY
 V03-P0313,0,17,running_head,"JUNE 12, 1620 305"
 V03-P0314,0,35,running_head,306 RECORDS OF THE VIRGINIA COMPANY
+V03-P0314,564,642,document_heading,"CXVII. Str Epwin Sanpys. A LETTER TO JOHN FERRAR JUNE 12, 1620 Ferrar Papers"
 V03-P0314,628,641,editorial_metadata,Ferrar Papers
 V03-P0314,642,719,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0314,720,743,editorial_metadata,List of Records No. 181
 V03-P0315,0,17,running_head,"JUNE 22, 1620 307"
+V03-P0315,201,524,document_heading,"CXVIII. “His Maresties CounsEIL For VirGINIA.” ‘A DECLARA- TION OF THE STaTeE * * * IN VIRGINIA.” JUNE 22, 1620 Printed. Copies in British Museum, Bodleian Libr"
 V03-P0315,315,389,editorial_metadata,"Printed. Copies in British Museum, Bodleian Library, Cambridge University,"
 V03-P0315,524,547,editorial_metadata,List of Records No. 183
 V03-P0316,0,35,running_head,308 RECORDS OF THE VIRGINIA COMPANY
@@ -1607,52 +1717,67 @@ V03-P0370,0,35,running_head,362 RECORDS OF THE VIRGINIA COMPANY
 V03-P0371,0,8,running_head,1620 363
 V03-P0372,0,35,running_head,364 RECORDS OF THE VIRGINIA COMPANY
 V03-P0373,0,14,running_head,"JULY, 1620 365"
+V03-P0373,465,588,document_heading,"CXIX. Privy Councit. A COMMISSION TO THE COMMISSIONERS FOR THE TREASURY JuLY, 1620 Docquet Book, Signet Office, Volume 7"
 V03-P0373,588,628,editorial_metadata,"Document in Public Record Office, London"
 V03-P0373,629,652,editorial_metadata,List of Records No. 185
 V03-P0373,1245,1268,editorial_metadata,List of Records No. 186
 V03-P0374,0,35,running_head,366 RECORDS OF THE VIRGINIA COMPANY
 V03-P0375,0,16,running_head,"JULY 5, 1620 367"
+V03-P0375,911,1004,document_heading,"CXXI. Wiiuram Tracy. A LErrer to JOHN SMYTH JuLy 5, 1620 Smyth of Nibley Papers, Smyth, 20"
 V03-P0375,1004,1065,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0375,1066,1089,editorial_metadata,List of Records No. 187
 V03-P0376,0,35,running_head,368 RECORDS OF THE VIRGINIA COMPANY
+V03-P0376,732,848,document_heading,"CXXII. Virainta Company. A Commission TO WILLIAM TRACY JULY 12, 1620 Smyth of Nibley Papers, Smyth, 3 (22), p. 123"
 V03-P0376,892,915,editorial_metadata,List of Records No. 189
 V03-P0377,0,17,running_head,"JULY 14, 1620 369"
+V03-P0377,1381,1486,document_heading,"CXXIII. Wituram Tracy. Two LeEtrrers To JoHN SMYTH JuLy 14, 1620 Smyth of Nibley Papers, Smyth, 21, 22"
 V03-P0377,1486,1548,editorial_metadata,"Document in New York Public Library. Autograph Letters, Signed"
 V03-P0377,1549,1572,editorial_metadata,List of Records No. 190
 V03-P0378,0,35,running_head,370 RECORDS OF THE VIRGINIA COMPANY
 V03-P0379,0,17,running_head,"JULY 19, 1620 371"
+V03-P0379,19,97,document_heading,"CXXIV. Str Epwin Sanpys. A Lerrer to JoHn FERRAR JuLy 19, 1620 Ferrar Papers"
 V03-P0379,83,96,editorial_metadata,Ferrar Papers
 V03-P0379,97,163,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0379,164,187,editorial_metadata,List of Records No. 191
 V03-P0380,0,35,running_head,372 RECORDS OF THE VIRGINIA COMPANY
+V03-P0380,265,352,document_heading,"CXXV. Virainta Counctn. Extract FROM A LETTER Auaust, 1620 Manchester Papers, No. 272"
 V03-P0380,325,351,editorial_metadata,"Manchester Papers, No. 272"
 V03-P0380,352,392,editorial_metadata,Document in Public Record Office. London
 V03-P0380,393,416,editorial_metadata,List of Records No. 193
 V03-P0381,0,20,running_head,"AUGUST 9, 1620 oy he"
+V03-P0381,22,117,document_heading,"CXXVI. Wiuu1AM Tracy. A LETTER TO JOHN SMYTH Aveust 2, 1620 Smyth of Nibley Papers, Smyth, 23"
 V03-P0381,117,178,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0381,179,202,editorial_metadata,List of Records No. 194
+V03-P0381,1109,1206,document_heading,"CXXVII. Witttam Tracy. A Letrer to JoHN SMYTH Avaust 9, 1620 Smyth of Nibley Papers, Smyth, 24"
 V03-P0381,1206,1267,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0381,1268,1291,editorial_metadata,List of Records No. 195
 V03-P0382,0,35,running_head,374 RECORDS OF THE VIRGINIA COMPANY
+V03-P0382,796,968,document_heading,"CXXVIII. Str Witu1AM THROCKMORTON AND ASSOCIATES. REVOCATION OF CAPTAIN JOHN WOODLEEFE’S COMMISSION Avaust 18 or 28, 1620 Smyth of Nibley Papers, Smyth, 3 (23),"
 V03-P0382,1042,1065,editorial_metadata,List of Records No. 196
 V03-P0383,0,19,running_head,"AUGUST 25, 1620 375"
+V03-P0383,2007,2086,document_heading,"CXXIX. Str Epwin Sanpys. A Lerrer to JoHN FERRAR Aveust 25, 1620 Ferrar Papers"
 V03-P0383,2072,2085,editorial_metadata,Ferrar Papers
 V03-P0383,2086,2152,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0383,2153,2176,editorial_metadata,List of Records No. 197
 V03-P0384,0,35,running_head,376 RECORDS OF THE VIRGINIA COMPANY
+V03-P0384,1078,1314,document_heading,"CXXX. ‘‘CovENANT€ AND AGREEMENT@€__BETWENE RICHARD BERKELEY OF STOKE-_GEORGE THORPE LATE OF WANSWELL,----WILtM TRAcY OF GAYLES”’ AND “JOHN SMYTH OF NORTHNIBLY’’"
 V03-P0384,1350,1373,editorial_metadata,List of Records No. 198
 V03-P0385,0,19,running_head,"AUGUST 28, 1620 377"
 V03-P0386,0,35,running_head,378 RECORDS OF THE VIRGINIA COMPANY
 V03-P0387,0,19,running_head,"AUGUST 28, 1620 379"
+V03-P0387,1306,1473,document_heading,"CXXXI. Commission TO GEORGE THORPE AND WILLIAM TRACY AS GOVERNORS OF THE PLANTATION IN VIRGINIA Auaust 28, 1620 Smyth of Nibley Papers, Smyth, 3 (24), Pages 125"
 V03-P0387,1515,1538,editorial_metadata,List of Records No. 199
 V03-P0388,0,35,running_head,380 RECORDS OF THE VIRGINIA COMPANY
 V03-P0389,0,19,running_head,"AUGUST 31, 1620 381"
+V03-P0389,1774,1953,document_heading,"CXXXII. CHarter Party BETWEEN RICHARD BERKELEY AND ASSOCI- ATES AND WILLIAM EwINs, FOR THE SHIP ‘“‘SuPPLY”’ Avaust 31, 1620 Smyth of Nibley Papers, Smyth, 3 (29"
 V03-P0389,1995,2018,editorial_metadata,List of Records No. 200
 V03-P0390,0,35,running_head,382 RECORDS OF THE VIRGINIA COMPANY
 V03-P0391,0,19,running_head,"AUGUST 31, 1620 383"
 V03-P0392,0,35,running_head,384 RECORDS OF THE VIRGINIA COMPANY
+V03-P0392,1733,1875,document_heading,"CXXXIII. Tue Account or A. B. with Epwarp WILLIAMS FOR THE Sure ‘‘ MARGARET” SEPTEMBER, 1620 Smyth of Nibley Papers, Smyth, 3 (33), Page 142"
 V03-P0392,1912,1935,editorial_metadata,List of Records No. 201
 V03-P0393,0,19,running_head,"SEPTEMBER, 1620 385"
+V03-P0393,822,954,document_heading,"CXXXIV. THe Account or A. B. ror FuRNISHING THE SHIP “SUPPLY ”’ SEPTEMBER, 1620 Smyth of Nibley Papers, Smyth, 3, Pages 143-150"
 V03-P0393,994,1017,editorial_metadata,List of Records No. 202
 V03-P0394,0,35,running_head,386 RECORDS OF THE VIRGINIA COMPANY
 V03-P0395,0,19,running_head,"SEPTEMBER, 1620 387"
@@ -1665,54 +1790,69 @@ V03-P0401,0,21,running_head,"SEPTEMBER 1, 1620 393"
 V03-P0401,621,644,editorial_metadata,List of Records No. 203
 V03-P0402,0,35,running_head,394 RECORDS OF THE VIRGINIA COMPANY
 V03-P0403,0,21,running_head,"SEPTEMBER 1, 1620 395"
+V03-P0403,23,124,document_heading,"CXXXVI. WituramM Tracy. A LETTER To Joun SmytTH SEPTEMBER 1, 1620 Smyth of Nibley Papers, Smyth, 25"
 V03-P0403,124,185,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0403,186,209,editorial_metadata,List of Records No. 204
 V03-P0404,0,35,running_head,396 RECORDS OF THE VIRGINIA COMPANY
+V03-P0404,37,172,document_heading,"CXXXVII. ‘A LIST OF MEN NOWE SENT FOR PLANTACON IN VIRGINIA”’ SEPTEMBER 3, 1620 Smyth of Nibley Papers, Smyth, 3 (31), Pages 138-139"
 V03-P0404,208,231,editorial_metadata,List of Records No. 205
 V03-P0405,0,16,running_head,"1,1 $ ie p w \ S"
+V03-P0405,574,759,document_heading,"CXXXVIII. Ricuarp BERKELEY AND JOUN Smyvu. A CoxMMIsston TO GEORGE THORPE FOR THE GOVERNMENT OF THE PLANTATION SEPTEMBER 10, 1620 Smyth of Nibley Papers, Smyth,"
 V03-P0405,795,818,editorial_metadata,List of Records No. 206
 V03-P0406,0,35,running_head,398 RECORDS OF THE VIRGINIA COMPANY
 V03-P0407,0,22,running_head,"SEPTEMBER 10, 1620 399"
 V03-P0408,0,35,running_head,400 RECORDS OF THE VIRGINIA COMPANY
 V03-P0409,0,22,running_head,"SEPTEMBER 16, 1620 401"
+V03-P0409,24,127,document_heading,"CXXXIX. WiiiraM Tracy. A LeEtTrer to Joun Smyru SEPTEMBER 15, 1620 Smyth of Nibley Papers, Smyth, 26"
 V03-P0409,127,188,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0409,189,212,editorial_metadata,List of Records No. 207
+V03-P0409,1063,1208,document_heading,"CXL. AGREEMENT BETWEEN RICHARD BERKELEY AND ASSOCIATES, AND RoBerRT PAWLETT SEPTEMBER 15, 1620 Smyth of Nibley Papers, Smyth, 3 (28), Page 133"
 V03-P0409,1244,1267,editorial_metadata,List of Records No. 208
 V03-P0410,0,35,running_head,402 RECORDS OF THE VIRGINIA COMPANY
+V03-P0410,1098,1253,document_heading,"CXLI. Account oF MONEY EXPENDED SINCE WILLIAM TRACY’S DEPARTURE 1620, SEPTEMBER 18-1621, MIcHAELMAS Smyth of Nibley Papers, Smyth, 3 (35), pages 151-152"
 V03-P0410,1289,1312,editorial_metadata,List of Records No. 209
 V03-P0411,0,39,running_head,"1620, SEPTEMBER 18-1621, MICHAELMAS 403"
 V03-P0412,0,35,running_head,404 RECORDS OF THE VIRGINIA COMPANY
 V03-P0413,0,22,running_head,"SEPTEMBER 18, 1620 405"
 V03-P0413,216,239,editorial_metadata,List of Records No. 210
 V03-P0414,0,35,running_head,406 RECORDS OF THE VIRGINIA COMPANY
+V03-P0414,374,458,document_heading,"CXLIII. Str Epwin Sanpys. A Letter To JoHN FERRAR SEPTEMBER 18, 1620 Ferrar Papers"
 V03-P0414,444,457,editorial_metadata,Ferrar Papers
 V03-P0414,458,535,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0414,536,559,editorial_metadata,List of Records No. 211
 V03-P0415,0,22,running_head,"SEPTEMBER 18, 1620 407"
 V03-P0416,0,35,running_head,408 RECORDS OF THE VIRGINIA COMPANY
+V03-P0416,37,174,document_heading,"CXLIV. Jonn Smytu. Account oF EXPENSES FOR VIRGINIA PLANTATION Sent TO Mr. THORPE SEPTEMBER 20, 1620 Smyth of Nibley Papers, Smyth, 32"
 V03-P0416,229,252,editorial_metadata,List of Records No. 212
 V03-P0417,0,22,running_head,"SEPTEMBER 22, 1620 409"
+V03-P0417,24,129,document_heading,"CXLV. Timotuy Gate. A Lerrer to Mr. WinutamM Tracy SEPTEMBER 22, 1620 Smyth of Nibley Papers, Smyth, 45"
 V03-P0417,129,189,editorial_metadata,"Document in New York Public Library Autograph Letter, Signed"
 V03-P0417,190,213,editorial_metadata,List of Records No. 213
 V03-P0418,0,35,running_head,410 RECORDS OF THE VIRGINIA COMPANY
+V03-P0418,37,135,document_heading,"CXLVI. Joun Bripces. A LETTER To JoHN SmyTH SEPTEMBER 23, 1620 Smyth of Nibley Papers, Smyth, 29"
 V03-P0418,135,207,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed, with Seal"
 V03-P0418,208,231,editorial_metadata,List of Records No. 214
+V03-P0418,1205,1305,document_heading,"CXLVII. Wituram Tracy. A Lerrer to JoHn SMYTH SEPTEMBER 24, 1620 Smyth of Nibley Papers, Smyth, 27"
 V03-P0418,1305,1366,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0418,1367,1390,editorial_metadata,List of Records No. 215
 V03-P0419,0,22,running_head,"SEPTEMBER 25, 1620 411"
 V03-P0419,1171,1239,editorial_metadata,[In another hand but probably with autograph signature:] Receyved by
+V03-P0419,1600,1701,document_heading,"CXLVIII. Witiiam Tracy. A LeTTer To JoHN SMYTH SEPTEMBER 25, 1620 Smyth of Nibley Papers, Smyth, 28"
 V03-P0419,1701,1762,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0419,1763,1786,editorial_metadata,List of Records No. 216
 V03-P0420,0,35,running_head,412 RECORDS OF THE VIRGINIA COMPANY
+V03-P0420,646,780,document_heading,"CXLIX. INDENTURE BETWEEN GEORGE THORPE, AND ROBERT OLDES- WORTH AND JOHN SMYTH SEPTEMBER 30, 1620 Smyth of Nibley Papers, Smyth, 12"
 V03-P0420,816,839,editorial_metadata,List of Records No. 217
 V03-P0421,0,22,running_head,"SEPTEMBER 30, 1620 413"
 V03-P0422,0,35,running_head,414 RECORDS OF THE VIRGINIA COMPANY
 V03-P0423,0,20,running_head,"OCTOBER 28, 1620 415"
+V03-P0423,1774,1853,document_heading,"CL. Sir Epwin Sanpys. A Lerrer tro JoHn FERRAR OcToBER 23, 1620 Ferrar Papers"
 V03-P0423,1839,1852,editorial_metadata,Ferrar Papers
 V03-P0423,1853,1930,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0423,1931,1954,editorial_metadata,List of Records No. 219
 V03-P0424,0,35,running_head,416 RECORDS OF THE VIRGINIA COMPANY
 V03-P0425,0,21,running_head,"DECEMBER 19, 1620 417"
+V03-P0425,23,119,document_heading,"CLI. Grorce Tuorpe. A Lerrer to Joun Smytu DECEMBER 19, 1620 Smyth of Nibley Papers, Smyth, 33"
 V03-P0425,119,180,editorial_metadata,"Document in New York Public Library. Autograph Letter, Signed"
 V03-P0425,181,204,editorial_metadata,List of Records No. 221
 V03-P0426,0,35,running_head,418 RECORDS OF THE VIRGINIA COMPANY
@@ -1724,6 +1864,7 @@ V03-P0429,0,8,running_head,1621 421
 V03-P0430,0,35,running_head,422 RECORDS OF THE VIRGINIA COMPANY
 V03-P0431,0,8,running_head,1621 423
 V03-P0432,0,35,running_head,424 RECORDS OF THE VIRGINIA COMPANY
+V03-P0432,37,220,document_heading,"CLIII. Str Grtorck YEARDLEY AND THE CoUNCIL IN VirGIniA. A LETTER TO THE EARL OF SOUTHAMPTON AND THE COUNCIL AND COMPANY FOR VIRGINIA JANUARY 21, 1620/21 Manche"
 V03-P0432,193,219,editorial_metadata,"Manchester Papers, No. 290"
 V03-P0432,220,260,editorial_metadata,"Document in Public Record Office, London"
 V03-P0432,261,284,editorial_metadata,List of Records No. 229
@@ -1736,117 +1877,146 @@ V03-P0434,0,33,running_head,dod Hewes OF THE VIRGINIA COMPANY
 V03-P0435,0,48,running_head,“ppHe Piiamd fe ~~. won seid a Petites ¢ You ‘na
 V03-P0437,0,23,running_head,"JANUARY 21, 1620/21 425"
 V03-P0438,0,35,running_head,426 RECORDS OF THE VIRGINIA COMPANY
+V03-P0438,37,211,document_heading,"CLIV. Str GEoRGE YEARDLEY. CERTIFICATE TO THE COUNCIL AND Com- PANY OF VIRGINIA OF THE ARRIVAL OF PLANTERS AT BARKLAY JANUARY 29, 1620/21 Smyth of Nibley Papers"
 V03-P0438,342,365,editorial_metadata,List of Records No. 228
 V03-P0439,0,24,running_head,"FEBRUARY 14, 1620/21 427"
+V03-P0439,267,447,document_heading,"CLV. Houss or Lorps. “AN act [BILL]! FOR THE REPRESSINGE OF THE ODIOUS . . . SINNE OF DRUNKENESSE, AND FOR PREVENTINGE THE ONORDINATE CONSUMINGE OF CORNE”’ Fres"
 V03-P0439,492,515,editorial_metadata,List of Records No. 230
 V03-P0440,0,35,running_head,428 RECORDS OF THE VIRGINIA COMPANY
 V03-P0441,0,24,running_head,"FEBRUARY 14, 1620/21 429"
 V03-P0442,0,35,running_head,430 RECORDS OF THE VIRGINIA COMPANY
 V03-P0443,0,24,running_head,"FEBRUARY 14, 1620/21 431"
 V03-P0444,0,35,running_head,432 RECORDS OF THE VIRGINIA COMPANY
+V03-P0444,1037,1142,document_heading,"CLVI. Str GEorGE YEARDLEY. GRANT OF LAND TO GEORGE HARRISON Marca 6, 1620/21 C. O. 1, Volume I, No. 53"
 V03-P0444,1142,1228,editorial_metadata,"Document in Public Record Office, London. Original Document, with Autograph Signatures"
 V03-P0444,1229,1252,editorial_metadata,List of Records No. 232
 V03-P0445,0,20,running_head,"MARCH 6, 1620/21 433"
 V03-P0446,0,35,running_head,434 RECORDS OF THE VIRGINIA COMPANY
+V03-P0446,288,474,document_heading,"CLVII. James I. PrRocLAMATION TO VIRGINIA COMPANY PROHIBITING LOTTERY Marczu 8, 1620/21 State Papers, Domestic, James I, Volume 187. Printed, No. 89. (Proclamat"
 V03-P0446,474,514,editorial_metadata,"Document in Public Record Office, London"
 V03-P0446,515,538,editorial_metadata,List of Records No. 233
 V03-P0447,0,21,running_head,"MARCH 24, 1620/21 435"
+V03-P0447,1356,1484,document_heading,"CLVIII. Grorce Tuorre. ‘A Note FFoR M® FFELGATE TO RECEAUE HIS FFRAIGHT”’ Marcu 24, 1620/21 Smyth of Nibley Papers, Smyth, 35"
 V03-P0447,1538,1561,editorial_metadata,List of Records No. 234
 V03-P0448,0,35,running_head,436 RECORDS OF THE VIRGINIA COMPANY
+V03-P0448,525,608,document_heading,"CLIX. Witt1AmM Poweuu. A Letrer To Sir EpWwIn SANDYS Aprit 12, 1621 Ferrar Papers"
 V03-P0448,594,607,editorial_metadata,Ferrar Papers
 V03-P0448,608,674,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0448,675,698,editorial_metadata,List of Records No. 236
 V03-P0449,0,18,running_head,"APRIL 12, 1621 437"
 V03-P0450,0,35,running_head,438 RECORDS OF THE VIRGINIA COMPANY
 V03-P0451,0,18,running_head,"APRIL 17, 1621 439"
+V03-P0451,20,110,document_heading,"CLX. Housst or Commons. DrRart oF AN ACT FOR THE FREER LIBERTY OF FISHING Apri 17, 1621"
 V03-P0451,164,187,editorial_metadata,List of Records No. 237
 V03-P0452,0,35,running_head,440 RECORDS OF THE VIRGINIA COMPANY
 V03-P0453,0,13,running_head,"MAY, 1621 441"
+V03-P0453,384,462,document_heading,"CLXI. JaBez Wuirraker. A LETTER TO Sir EDWIN SaAnpys May, 1621 Ferrar Papers"
 V03-P0453,448,461,editorial_metadata,Ferrar Papers
 V03-P0453,462,539,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0453,540,563,editorial_metadata,List of Records No. 238
 V03-P0454,0,35,running_head,442 RECORDS OF THE VIRGINIA COMPANY
 V03-P0455,0,15,running_head,"MAY 3, 1621 443"
+V03-P0455,469,547,document_heading,"CLXII. Ricuarp Bucke. A LETTER TO Sir EpwIn SANDYS May 8, 1621 Ferrar Papers"
 V03-P0455,533,546,editorial_metadata,Ferrar Papers
 V03-P0455,547,624,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0455,625,648,editorial_metadata,List of Records No. 239
 V03-P0456,0,35,running_head,444 RECORDS OF THE VIRGINIA COMPANY
+V03-P0456,422,572,document_heading,"CLXIII. Str Georce YEARDLEY AND THE CoUNCIL OF VIRGINIA. WARRANT FOR LIEUTENANT SAUNDERS May 3, 1621 State Papers, C. O. 1, Volume III, No. 36, III"
 V03-P0456,572,612,editorial_metadata,"Document in Public Record Office, London"
 V03-P0456,613,636,editorial_metadata,List of Records No. 240
 V03-P0457,0,15,running_head,"MAY 9, 1621 445"
+V03-P0457,17,110,document_heading,"CLXIV. Grorct THORPE AND JoHN Pory. A Lerrer To Sir Epwin SANDYS May 9, 1621 Ferrar Papers"
 V03-P0457,96,109,editorial_metadata,Ferrar Papers
 V03-P0457,110,150,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0457,151,174,editorial_metadata,List of Records No. 241
 V03-P0458,0,35,running_head,446 RECORDS OF THE VIRGINIA COMPANY
+V03-P0458,37,137,document_heading,"CLXV. GEorGE THORPE AND JOHN Pory. A LETTER TO Str EDWIN SANDYS May 15 anv 16, 1621 Ferrar Papers"
 V03-P0458,123,136,editorial_metadata,Ferrar Papers
 V03-P0458,137,214,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0458,215,239,editorial_metadata,List of Records No. 2438
 V03-P0459,0,23,running_head,"MAY 16 AND 16, 1621 447"
 V03-P0460,0,35,running_head,448 RECORDS OF THE VIRGINIA COMPANY
+V03-P0460,205,286,document_heading,"CLXVI. Greorce Tuorrer. A Lerrer To Mr. JoHN FERRAR May 15, 1621 Ferrar Papers"
 V03-P0460,272,285,editorial_metadata,Ferrar Papers
 V03-P0460,286,344,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter"
 V03-P0460,345,368,editorial_metadata,List of Records No. 244
 V03-P0461,0,16,running_head,"MAY 16, 1621 449"
+V03-P0461,623,719,document_heading,"CLXVII. Str GeorGce YEARDLEY. A LETTER TO THE New MAGAZINE CoMPANY May 16, 1621 Ferrar Papers"
 V03-P0461,705,718,editorial_metadata,Ferrar Papers
 V03-P0461,719,759,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0461,760,783,editorial_metadata,List of Records No. 245
 V03-P0462,0,35,running_head,450 RECORDS OF THE VIRGINIA COMPANY
+V03-P0462,353,440,document_heading,"CLXVIII. Str Georce YEARDLEY. A LETTER TO Sir EDWIN SANDYS May 16, 1621 Ferrar Papers"
 V03-P0462,426,439,editorial_metadata,Ferrar Papers
 V03-P0462,440,480,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0462,481,504,editorial_metadata,List of Records No. 246
 V03-P0463,0,16,running_head,"MAY 16, 1621 451"
 V03-P0464,0,35,running_head,452 RECORDS OF THE VIRGINIA COMPANY
+V03-P0464,37,122,document_heading,"CLXIX. Str Georce YEARDLEY. A Lerrer To Sir Epwin Sanpys May 16, 1621 Ferrar Papers"
 V03-P0464,108,121,editorial_metadata,Ferrar Papers
 V03-P0464,122,162,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0464,163,186,editorial_metadata,List of Records No. 247
 V03-P0465,0,16,running_head,"MAY 16, 1621 453"
 V03-P0466,0,35,running_head,454 RECORDS OF THE VIRGINIA COMPANY
+V03-P0466,37,116,document_heading,"CLXX. ABRAHAM PriersEy. LETTER To Str EDWIN SANDYS May 24, 1621 Ferrar Papers"
 V03-P0466,102,115,editorial_metadata,Ferrar Papers
 V03-P0466,116,193,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0466,194,217,editorial_metadata,List of Records No. 248
 V03-P0467,0,16,running_head,"MAY 27, 1621 455"
+V03-P0467,18,97,document_heading,"CLXXI. Captain Nuce. A LETTER TO Sir EDWIN SANDYS May 27, 1621 Ferrar Papers"
 V03-P0467,83,96,editorial_metadata,Ferrar Papers
 V03-P0467,97,137,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0467,138,161,editorial_metadata,List of Records No. 249
 V03-P0468,0,35,running_head,456 RECORDS OF THE VIRGINIA COMPANY
 V03-P0469,0,16,running_head,"MAY 27, 1621 457"
 V03-P0470,0,35,running_head,458 RECORDS OF THE VIRGINIA COMPANY
+V03-P0470,745,826,document_heading,"CLXXII. Francis Smiry. A LEerrer To Sir EpwIn SANDYS JUNE 9, 1621 Ferrar Papers"
 V03-P0470,812,825,editorial_metadata,Ferrar Papers
 V03-P0470,826,903,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0470,904,927,editorial_metadata,List of Records No. 250
 V03-P0471,0,17,running_head,"JUNE 18, 1621 459"
+V03-P0471,637,763,document_heading,"CLXXIII. Privy Councit. ORDER REGARDING FREEDOM OF FISHING JUNE 18, 1621 Privy Council Register, James I, Volume V, Page 58"
 V03-P0471,712,762,editorial_metadata,"Privy Council Register, James I, Volume V, Page 58"
 V03-P0471,804,827,editorial_metadata,List of Records No. 251
 V03-P0472,0,35,running_head,460 RECORDS OF THE VIRGINIA COMPANY
+V03-P0472,1101,1184,document_heading,"CLXXIV. Ricnoarp Buckre. A LETTER TO Sir EDWIN SANDYS JUNE 22, 1621 Ferrar Papers"
 V03-P0472,1170,1183,editorial_metadata,Ferrar Papers
 V03-P0472,1184,1261,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0472,1262,1285,editorial_metadata,List of Records No. 252
 V03-P0473,0,17,running_head,"JUNE 22, 1621 461"
 V03-P0474,0,35,running_head,462 RECORDS OF THE VIRGINIA COMPANY
+V03-P0474,37,117,document_heading,"CLXXV. Grorce Tuorpe. A Letrer To Sir Epwin Sanpys JUNE 27, 1621 Ferrar Papers"
 V03-P0474,103,116,editorial_metadata,Ferrar Papers
 V03-P0474,117,194,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0474,195,218,editorial_metadata,List of Records No. 253
+V03-P0474,1323,1411,document_heading,"CLXXVI. Str GEorRGE YEARDLEY. A LETTER TO SiR EDWIN SANDYS JUNE 27, 1621 Ferrar Papers"
 V03-P0474,1397,1410,editorial_metadata,Ferrar Papers
 V03-P0474,1411,1451,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0475,0,17,running_head,"JUNE 27, 1621 463"
 V03-P0476,0,35,running_head,464 RECORDS OF THE VIRGINIA COMPANY
+V03-P0476,595,670,document_heading,"CLXXVII. JoHn Rowe. A Lerrer to Sir Epwin Sanpys JULY, 1621 Ferrar Papers"
 V03-P0476,656,669,editorial_metadata,Ferrar Papers
 V03-P0476,670,736,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0476,737,760,editorial_metadata,List of Records No. 255
 V03-P0477,0,14,running_head,"JULY, 1621 465"
+V03-P0477,16,140,document_heading,"CLXXVIII. Wituiam Ewrens. COVENANT WITH THE COMPANY FOR VIRGINIA Jouy, 1621 Additional Manuscripts, 14285, Folios 78a-79a"
 V03-P0477,140,174,editorial_metadata,"Document in British Museum, London"
 V03-P0477,175,198,editorial_metadata,List of Records No. 256
 V03-P0478,0,35,running_head,466 RECORDS OF THE VIRGINIA COMPANY
+V03-P0478,1396,1516,document_heading,"CLXXIX. Wititiam Ewens. CovENANT WITH THE COMPANY FOR VIRGINIA JuLy, 1621 Additional Manuscripts, 14285. Folios 80-81"
 V03-P0478,1516,1550,editorial_metadata,"Document in British Museum, London"
 V03-P0478,1551,1574,editorial_metadata,List of Records No. 257
 V03-P0479,0,16,running_head,"JULY 6, 1621 467"
+V03-P0479,780,877,document_heading,"CLXXX. Nicuoutas FerrRAR AND OTHERS. A WARRANT TO Pay GEORGE SANDYS JuLY 6, 1621 Ferrar Papers"
 V03-P0479,863,876,editorial_metadata,Ferrar Papers
 V03-P0479,877,939,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Signatures"
 V03-P0479,940,963,editorial_metadata,List of Records No. 258
 V03-P0480,0,35,running_head,468 RECORDS OF THE VIRGINIA COMPANY
+V03-P0480,37,130,document_heading,"CLXXXI. Joun BARNARD AND OTHERS. WARRANT TO DEPUTY JOHN FERRAR JuLy 24, 1621 Ferrar Papers"
 V03-P0480,116,129,editorial_metadata,Ferrar Papers
 V03-P0480,130,170,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0480,171,194,editorial_metadata,List of Records No. 259
+V03-P0480,653,822,document_heading,"CLXXXII. Virernta Company. INSTRUCTIONS TO THE GOVERNOR AND CouNCIL OF STATE IN VIRGINIA JuLy 24, 1621 Manuscript Records, Virginia Company, III, Part ii, Pages"
 V03-P0480,758,821,editorial_metadata,"Manuscript Records, Virginia Company, III, Part ii, Pages 11-14"
 V03-P0480,822,872,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0480,873,896,editorial_metadata,List of Records No. 260
@@ -1864,12 +2034,14 @@ V03-P0491,0,17,running_head,"JULY 24, 1621 479"
 V03-P0492,0,35,running_head,480 RECORDS OF THE VIRGINIA COMPANY
 V03-P0493,0,17,running_head,"JULY 24, 1621 481"
 V03-P0494,0,35,running_head,482 RECORDS OF THE VIRGINIA COMPANY
+V03-P0494,560,741,document_heading,"CLXXXIII. TreasuRER AND Company. AN ORDINANCE AND CONSTI- TUTION FOR COUNCIL AND ASSEMBLY IN VIRGINIA JuLY 24, 1621 Manuscript Records, Virginia Company, III, P"
 V03-P0494,678,740,editorial_metadata,"Manuscript Records, Virginia Company, III, Part i, Pages 9a—10"
 V03-P0494,741,791,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0494,792,815,editorial_metadata,List of Records No. 261
 V03-P0495,0,17,running_head,"JULY 24, 1621 483"
 V03-P0496,0,35,running_head,484 RECORDS OF THE VIRGINIA COMPANY
 V03-P0497,0,17,running_head,"JULY 26, 1621 485"
+V03-P0497,19,175,document_heading,"CLXXXIV. TREASURER AND Company. LETTER TO GOVERNOR AND CoUNCIL IN VIRGINIA JuLY 25, 1621 Manuscript Records, Virginia Company, III, Part ii, Pages 15, 16"
 V03-P0497,110,174,editorial_metadata,"Manuscript Records, Virginia Company, III, Part ii, Pages 15, 16"
 V03-P0497,175,225,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0497,226,249,editorial_metadata,List of Records No. 262
@@ -1879,9 +2051,11 @@ V03-P0500,0,35,running_head,488 RECORDS OF THE VIRGINIA COMPANY
 V03-P0501,0,17,running_head,"JULY 26, 1621 489"
 V03-P0502,0,35,running_head,490 RECORDS OF THE VIRGINIA COMPANY
 V03-P0503,0,19,running_head,"AUGUST 11, 1621 491"
+V03-P0503,414,572,document_heading,"CLXXXV. Councit For VIRGINIA. ANSWER TO THE REQUEST OF THE WALLOONS AND FRENCH TO PLANT IN VIRGINIA Aveust 11, 1621 State Papers, C. O. 1, Volume I, No. 55"
 V03-P0503,572,643,editorial_metadata,"Document in Public Record Office, London. Signed by John Ferrar, Deputy"
 V03-P0503,644,667,editorial_metadata,List of Records No. 264
 V03-P0504,0,35,running_head,492 RECORDS OF THE VIRGINIA COMPANY
+V03-P0504,1616,1777,document_heading,"CLXXXVI. ViraintA Company. LETTER TO THE GOVERNOR AND CouNn- CIL IN VIRGINIA Auvaust 12, 1621 Manuscript Records, Virginia Company, III, Part ii, Pages 17-18a"
 V03-P0504,1712,1776,editorial_metadata,"Manuscript Records, Virginia Company, III, Part ii, Pages 17-18a"
 V03-P0504,1777,1827,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0504,1828,1851,editorial_metadata,List of Records No. 265
@@ -1891,16 +2065,20 @@ V03-P0507,0,19,running_head,"AUGUST 12, 1621 495"
 V03-P0508,0,35,running_head,496 RECORDS OF THE VIRGINIA COMPANY
 V03-P0509,0,19,running_head,"AUGUST 12, 1621 497"
 V03-P0510,0,35,running_head,498 RECORDS OF THE VIRGINIA COMPANY
+V03-P0510,507,668,document_heading,"CLXXXVII. VrireintA Company. A COMMISSION GRANTED UNTO CapTaAIn ARTHUR Guy AND NicHoLtas NORBURNE Aucust 24, 1621 Additional Manuscripts, 14285, Folios 70—70a"
 V03-P0510,668,702,editorial_metadata,"Document in British Museum, London"
 V03-P0510,703,726,editorial_metadata,List of Records No. 266
 V03-P0511,0,19,running_head,"AUGUST 24, 1621 499"
+V03-P0511,1550,1730,document_heading,"CLXXXVIII. TreasureER AND COMPANY OF VIRGINIA. COVENANT TO PAY Caprain ArTHUR Guy, RoBERT JOAKLEY, AND JOHN PACKESALL August 24, 1621 Additional Manuscripts, 14"
 V03-P0511,1730,1764,editorial_metadata,"Document in British Museum, London"
 V03-P0511,1765,1788,editorial_metadata,List of Records No. 267
 V03-P0512,0,35,running_head,500 RECORDS OF THE VIRGINIA COMPANY
+V03-P0512,1879,2023,document_heading,"CLXXXIX. TREASURER AND COMPANY OF VIRGINIA. COVENANT TO Pay CapraiIn ARTHUR GUY Avuaust 24, 1621 Additional Manuscripts, 14285, Folios 72—72a"
 V03-P0512,2023,2057,editorial_metadata,"Document in British Museum, London"
 V03-P0512,2058,2081,editorial_metadata,List of Records No. 268
 V03-P0513,0,19,running_head,"AUGUST 24, 1621 501"
 V03-P0514,0,35,running_head,502 RECORDS OF THE VIRGINIA COMPANY
+V03-P0514,37,202,document_heading,"CXC. VirGcin1iA CouNCIL AND ComMpANY. LETTER TO GOVERNOR AND CouNCIL IN VIRGINIA SEPTEMBER 11, 1621 Manuscript Records Virginia Company, III, Part ii, Pages 19-"
 V03-P0514,139,201,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 19-20"
 V03-P0514,202,252,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0514,253,276,editorial_metadata,List of Records No. 269
@@ -1910,34 +2088,43 @@ V03-P0517,0,22,running_head,"SEPTEMBER 11, 1621 505"
 V03-P0518,0,35,running_head,506 RECORDS OF THE VIRGINIA COMPANY
 V03-P0519,0,22,running_head,"SEPTEMBER 11, 1621 507"
 V03-P0520,0,35,running_head,508 RECORDS OF THE VIRGINIA COMPANY
+V03-P0520,123,209,document_heading,"CXCI. Epwarp Buayney. A LETTER To Sir EDWIN SANDYS SEPTEMBER 17, 1621 Ferrar Papers"
 V03-P0520,195,208,editorial_metadata,Ferrar Papers
 V03-P0520,209,286,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0520,287,310,editorial_metadata,List of Records No. 270
 V03-P0521,0,20,running_head,"OCTOBER 20, 1621 509"
+V03-P0521,22,195,document_heading,"CXCII. Str Epwin Sanpys. A Letrer to JoHN FrERRAR, OR TO NICHOLAS FERRAR ! OcroBER 1, 1621 Ferrar Papers Magdalene College, Cambridge. Autograph Letter, Signed,"
 V03-P0521,115,128,editorial_metadata,Ferrar Papers
 V03-P0521,129,194,editorial_metadata,"Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0521,195,218,editorial_metadata,List of Records No. 271
+V03-P0521,917,1035,document_heading,"CXCIII. THoomas Dawson. Nore or ToBacco soLp TO JOHN STRAT- FORD OcToBER 20, 1621 Smyth of Nibley Papers, Smyth, 39"
 V03-P0521,1071,1094,editorial_metadata,List of Records No. 273
 V03-P0522,0,35,running_head,510 RECORDS OF THE VIRGINIA COMPANY
+V03-P0522,487,680,document_heading,"CXCIV. Privy Counciu. ORDER TO THE VIRGINIA COMPANY OcToBER 24, 1621 (1) Privy Council Register, James I, Volume V, Page 173 (New Number). (2) Colo- nial Entry "
 V03-P0522,557,636,editorial_metadata,"(1) Privy Council Register, James I, Volume V, Page 173 (New Number). (2) Colo-"
 V03-P0522,680,758,editorial_metadata,"Document in (1) Privy Council Office, London. (2) Public Record Office, London"
 V03-P0522,759,782,editorial_metadata,List of Records No. 272
 V03-P0523,0,20,running_head,"NOVEMBER 4, 1621 511"
+V03-P0523,1432,1513,document_heading,"CXCV. Srr Epwin Sanpys. A LeTrrer to JOHN FERRAR NOVEMBER 5, 1621 Ferrar Papers"
 V03-P0523,1499,1512,editorial_metadata,Ferrar Papers
 V03-P0523,1513,1590,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0523,1591,1614,editorial_metadata,List of Records No. 275
 V03-P0524,0,35,running_head,512 RECORDS OF THE VIRGINIA COMPANY
 V03-P0525,0,21,running_head,"NOVEMBER 21, 1621 513"
+V03-P0525,23,141,document_heading,"CXCVI. VirernrA Company. A Commission To THomMAS SMITH NOVEMBER 21, 1621 Additional Manuscripts, 14285, Folios 73-74"
 V03-P0525,141,175,editorial_metadata,"Document in British Museum, London"
 V03-P0525,176,199,editorial_metadata,List of Records No. 225
 V03-P0526,0,35,running_head,514 RECORDS OF THE VIRGINIA COMPANY
+V03-P0526,1128,1244,document_heading,"CXCVII. ViraintaA Company. GRANT TO DANIEL GATES NovEMBER 21, 1621 Additional Manuscripts, 14285, Folios 74a, 75 ?"
 V03-P0526,1244,1278,editorial_metadata,"Document in British Museum, London"
 V03-P0526,1279,1302,editorial_metadata,List of Records No. 276
 V03-P0527,0,21,running_head,"NOVEMBER 21, 1621 515"
 V03-P0528,0,35,running_head,516 RECORDS OF THE VIRGINIA COMPANY
+V03-P0528,37,186,document_heading,"CXCVIII. Councin AND CoMPANY FOR VIRGINIA. A COMMISSION GRANTED To JOHN HUDDLESTON NOVEMBER 21, 1621 Additional Manuscripts, 14285, Folios 75a-76a"
 V03-P0528,186,220,editorial_metadata,"Document in British Museum, London"
 V03-P0528,221,244,editorial_metadata,List of Records No. 277
 V03-P0529,0,29,running_head,"NOVEMBER (AFTER 22), 1621 517"
+V03-P0529,1383,1657,document_heading,"CXCIX. JoHN BARGRAVE. A PETITION TO THE COMMITTEE FOR GRIEV- ANCES, HousE oF COMMONS NOVEMBER (AFTER 22), 1621 C. O. 1, Vol. III, No. 11; also State Papers, Dom"
 V03-P0529,1579,1613,editorial_metadata,"also, Manchester Papers, No. 401 '"
 V03-P0529,1615,1656,editorial_metadata,"Documents in Public Record Office, London"
 V03-P0529,1657,1680,editorial_metadata,List of Records No. 662
@@ -1945,28 +2132,34 @@ V03-P0530,0,35,running_head,518 RECORDS OF THE VIRGINIA COMPANY
 V03-P0531,0,29,running_head,"NOVEMBER (AFTER 22), 1621 519"
 V03-P0532,0,35,running_head,520 RECORDS OF THE VIRGINIA COMPANY
 V03-P0533,0,29,running_head,"NOVEMBER (AFTER 22), 1621 521"
+V03-P0533,31,184,document_heading,"CC. Str Tuomas SmytrH AND ALDERMAN JOHNSON. REPLY TO THE PETITION OF JOHN BARGRAVE NOVEMBER (AFTER 22), 1621 State Papers, C. O. 1, Volume III, No. 12"
 V03-P0533,184,224,editorial_metadata,"Document in Public Record Office, London"
 V03-P0533,225,248,editorial_metadata,List of Records No. 274
 V03-P0534,0,35,running_head,522 RECORDS OF THE VIRGINIA COMPANY
 V03-P0535,0,29,running_head,"NOVEMBER (AFTER 22), 1621 523"
 V03-P0536,0,35,running_head,524 RECORDS OF THE VIRGINIA COMPANY
 V03-P0537,0,27,running_head,"NOVEMBER 24 [21?], 1621 525"
+V03-P0537,29,184,document_heading,"CCI. Councin AND COMPANY FOR VIRGINIA. A COMMISSION GRANTED TO CapraIn THOMAS JONES NoveMBER 24 [21?], 1621 Additional Manuscripts, 14285, Folios 77-78a"
 V03-P0537,184,218,editorial_metadata,"Document in British Museum, London"
 V03-P0537,219,242,editorial_metadata,List of Records No. 278
 V03-P0538,0,35,running_head,526 RECORDS OF THE VIRGINIA COMPANY
+V03-P0538,37,205,document_heading,"CCII. Councit oF THE VirGINIA Company. A LETTER TO THE GOVERNOR AND CoUNCIL IN VIRGINIA NOVEMBER 26, 1621 Manuscript Records Virginia Company, III, Part ii, Pag"
 V03-P0538,145,204,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 20a"
 V03-P0538,205,255,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0538,256,279,editorial_metadata,List of Records No. 279
 V03-P0539,0,21,running_head,"NOVEMBER 26, 1621 527"
 V03-P0540,0,35,running_head,528 RECORDS OF THE VIRGINIA COMPANY
+V03-P0540,714,884,document_heading,"CCIII. GovERNoR AND COUNCIL IN VIRGINIA. PROCLAMATION WARNING PERSONS GOING ABOARD SHIPS NovrEMBER 30, 1621 Manuscript Records Virginia Company, III, Part ii, P"
 V03-P0540,824,883,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 45a"
 V03-P0540,884,934,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0540,935,958,editorial_metadata,List of Records No. 280
 V03-P0541,0,20,running_head,"DECEMBER 8, 1621 529"
+V03-P0541,22,102,document_heading,"CCIV. Sir Epwin Sanpys. A LETTER To JOHN FERRAR DECEMBER 8, 1621 Ferrar Papers"
 V03-P0541,88,101,editorial_metadata,Ferrar Papers
 V03-P0541,102,168,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0541,169,192,editorial_metadata,List of Records No. 282
 V03-P0542,0,35,running_head,530 RECORDS OF THE VIRGINIA COMPANY
+V03-P0542,37,205,document_heading,"CCV. CouNcIL OF THE VIRGINIA COMPANY. LETTER TO THE GOVERNOR AND COUNCIL IN VIRGINIA DEcEMBER 5, 1621 Manuscript Records Virginia Company, III, Part 11, Pages 2"
 V03-P0542,141,204,editorial_metadata,"Manuscript Records Virginia Company, III, Part 11, Pages 21-21a"
 V03-P0542,205,255,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0542,256,279,editorial_metadata,List of Records No. 283
@@ -1974,24 +2167,29 @@ V03-P0543,0,20,running_head,"DECEMBER 6, 1621 031"
 V03-P0544,0,35,running_head,532 RECORDS OF THE VIRGINIA COMPANY
 V03-P0545,0,21,running_head,"DECEMBER 54, 1621 533"
 V03-P0546,0,35,running_head,534 RECORDS OF THE VIRGINIA COMPANY
+V03-P0546,321,408,document_heading,"CCVI. Perer ARONDELLE. A LETTER TO Str EDWIN SANDYS DrEcEMBER 15, 1621 Ferrar Papers"
 V03-P0546,394,407,editorial_metadata,Ferrar Papers
 V03-P0546,408,485,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0546,486,509,editorial_metadata,List of Records No. 285
 V03-P0547,0,21,running_head,"DECEMBER 23, 1621 535"
+V03-P0547,1149,1285,document_heading,"CCVII. GoveRNoR IN VIRGINIA. COMMISSION TO WILLIAM TUCKER DECEMBER 23, 1621 Manuscript Records Virginia Company, III, Part 11, Page 36"
 V03-P0547,1226,1284,editorial_metadata,"Manuscript Records Virginia Company, III, Part 11, Page 36"
 V03-P0547,1285,1335,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0547,1336,1359,editorial_metadata,List of Records No. 286
 V03-P0548,0,35,running_head,536 RECORDS OF THE VIRGINIA COMPANY
+V03-P0548,1269,1387,document_heading,"CCVIII. Mr. Wrorn. Nores rrom Lists sHowinc Totat NUMBER oF EMIGRANTS TO VIRGINIA } 1622 Manchester Papers, No. 298"
 V03-P0548,1360,1386,editorial_metadata,"Manchester Papers, No. 298"
 V03-P0548,1387,1427,editorial_metadata,"Document in Public Record Office, London"
 V03-P0548,1428,1451,editorial_metadata,List of Records No. 288
 V03-P0549,0,8,running_head,1622 537
+V03-P0549,1280,1619,document_heading,"CCIX. Patrick Copianp. ‘fA DECLARATION HOW THE MONIES (VIZ, SEUENTY POUND EIGHT SHILLINGS SIXE PENCE) WERE DISPOSED, WHICH WAS GATHERED BY M. Patrick CopLann, ("
 V03-P0549,1611,1651,editorial_metadata,Printed Document in Public Record Office
 V03-P0549,1652,1675,editorial_metadata,List of Records No. 289
 V03-P0550,0,35,running_head,538 RECORDS OF THE VIRGINIA COMPANY
 V03-P0551,0,8,running_head,1622 539
 V03-P0552,0,35,running_head,5AD RECORDS OF THE VIRGINIA COMPANY
 V03-P0553,0,8,running_head,1622 541
+V03-P0553,10,346,document_heading,CCX. Epwarp WATERHOUSE. “A DECLARATION OF THE STATE OF THE COLONY AND ... A RELATION OF THE BARBAROUS MASSACRE .. .”’ 1622 Printed. Copies in Library of Congres
 V03-P0553,289,344,editorial_metadata,"berry Library, British Museum, Lambeth Palace Library !"
 V03-P0553,346,375,editorial_metadata,"List of Records Nos. 293, 292"
 V03-P0554,0,35,running_head,542 RECORDS OF THE VIRGINIA COMPANY
@@ -2033,6 +2231,7 @@ V03-P0589,0,8,running_head,1622 577
 V03-P0590,0,35,running_head,578 RECORDS OF THE VIRGINIA COMPANY
 V03-P0591,0,4,running_head,1622
 V03-P0592,0,35,running_head,580 RECORDS OF THE VIRGINIA COMPANY
+V03-P0592,37,156,document_heading,"CCXI. Francis Wrest, WILLIAM CLAYBOURNE ET AL. PETITION TO THE KING 1622(?) State Papers, C. O. 1, Volume II, No. 15"
 V03-P0592,156,204,editorial_metadata,"Document in Public Record Office, London. Signed"
 V03-P0592,205,228,editorial_metadata,List of Records No. 294
 V03-P0593,0,59,running_head,XIII. Photographs of Handwriting of Planters in the Colony.
@@ -2052,6 +2251,7 @@ V03-P0596,0,38,running_head,580 RECORDS OF THE VIRGINIA COMPANY ~—
 V03-P0596,152,200,editorial_metadata,"ioeument to Public Record Office, London. Signed"
 V03-P0596,201,224,editorial_metadata,List of Records No. 294
 V03-P0597,0,20,running_head,"JANUARY, 1621/22 581"
+V03-P0597,346,491,document_heading,"CCXII. Councin In VirainiA. LETTER TO VIRGINIA COMPANY OF LONDON JANUARY, 1621/22 Manuscript Records Virginia Company, III, Part ii, Pages 1-2a"
 V03-P0597,429,490,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 1-2a"
 V03-P0597,491,541,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0597,542,565,editorial_metadata,List of Records No. 295
@@ -2063,15 +2263,19 @@ V03-P0602,0,35,running_head,586 RECORDS OF THE VIRGINIA COMPANY
 V03-P0603,0,20,running_head,"JANUARY, 1621/22 587"
 V03-P0604,0,35,running_head,588 RECORDS OF THE VIRGINIA COMPANY
 V03-P0605,0,23,running_head,"JANUARY 14, 1621/22 589"
+V03-P0605,25,147,document_heading,"CCXIII. Peter ARUNDLE. FRAGMENT OF A LETTER TO JOHN SMYTH oF NIBLEY JANUARY 1, 1621/2 Smyth of Nibley Papers, Smyth, 37"
 V03-P0605,183,206,editorial_metadata,List of Records No. 296
+V03-P0605,1625,1780,document_heading,"CCXIV. VirgintA Councin. SETTLEMENT OF THE WAGES OF TRADESMEN IN VIRGINIA January 14, 1621/22 Manuscript Records Virginia Company, III, Part ii, Page 46"
 V03-P0605,1721,1779,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 46"
 V03-P0605,1780,1830,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0605,1831,1854,editorial_metadata,List of Records No. 297
 V03-P0606,0,35,running_head,590 RECORDS OF THE VIRGINIA COMPANY
 V03-P0607,0,23,running_head,"JANUARY 16, 1621/22 591"
+V03-P0607,25,151,document_heading,"CCXV. Virginia Company. A ComMISsION TO THEODORE WADSWORTH JANUARY 16, 1621/22 Additional Manuscripts, 14285, Folios 69-69a"
 V03-P0607,151,185,editorial_metadata,"Document in British Museum, London"
 V03-P0607,186,209,editorial_metadata,List of Records No. 298
 V03-P0608,0,35,running_head,592 RECORDS OF THE VIRGINIA COMPANY
+V03-P0608,476,588,document_heading,"CCXVI. Virainta Company. THE Form oF A PATENT JANUARY 30, 1621/22 Additional Manuscripts, 14285, Folios 58-64"
 V03-P0608,588,622,editorial_metadata,"Document in British Museum, London"
 V03-P0608,623,646,editorial_metadata,List of Records No. 299
 V03-P0609,0,23,running_head,"JANUARY 30, 1621/22 593"
@@ -2080,29 +2284,35 @@ V03-P0611,0,23,running_head,"JANUARY 80, 1621/22 595"
 V03-P0612,0,35,running_head,596 RECORDS OF THE VIRGINIA COMPANY
 V03-P0613,0,23,running_head,"JANUARY 30, 1621/22 597"
 V03-P0614,0,35,running_head,598 RECORDS OF THE VIRGINIA COMPANY
+V03-P0614,1386,1540,document_heading,"CCXVII. Lorp Krnper WILLIAMS. DECREE IN CHANCERY, BARGRAVE VERSUS Sir THOMAS SMYTHE ET AL. FEeBRuARY 19, 1622 State Papers C. O. 1, Volume II, No. 4, I"
 V03-P0614,1540,1580,editorial_metadata,"Document in Public Record Office, London"
 V03-P0614,1581,1604,editorial_metadata,List of Records No. 302
 V03-P0615,0,21,running_head,"FEBRUARY 19, 1622 599"
 V03-P0616,0,35,running_head,600 RECORDS OF THE VIRGINIA COMPANY
 V03-P0617,0,21,running_head,"FEBRUARY 19, 1622 601"
 V03-P0618,0,35,running_head,602 RECORDS OF THE VIRGINIA COMPANY
+V03-P0618,1510,1603,document_heading,"CCXVIII. Somer Istanps Company. CourRT FOR SOMER ISLANDS FEBRUARY 25, 1621/2 Ferrar Papers"
 V03-P0618,1589,1602,editorial_metadata,Ferrar Papers
 V03-P0618,1603,1643,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0618,1644,1667,editorial_metadata,List of Records No. 303
 V03-P0619,0,19,running_head,"MARCH 6, 1921/2 603"
+V03-P0619,626,713,document_heading,"CCXIX. Somer IsuaAnps CoMPpANY. CourT FOR SOMER ISLANDS Marcu 6, 1621/2 Ferrar Papers"
 V03-P0619,699,712,editorial_metadata,Ferrar Papers
 V03-P0619,713,753,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0619,754,777,editorial_metadata,List of Records No. 304
 V03-P0620,0,35,running_head,604 RECORDS OF THE VIRGINIA COMPANY
+V03-P0620,826,903,document_heading,"CCXX. Str Epwin Sanpys. A Lerrer to JoHN FERRAR APRIL 9, 1622 Ferrar Papers"
 V03-P0620,889,902,editorial_metadata,Ferrar Papers
 V03-P0620,903,975,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with"
 V03-P0620,989,1012,editorial_metadata,List of Records No. 307
 V03-P0621,0,22,running_head,"APRIL 12 (?), 1622 605"
+V03-P0621,24,164,document_heading,"CCXXI. Joun BarGravre. CHARGES AGAINST THE FoRMER GovERN- MENT OF VIRGINIA! APRIL 12 (?), 1622 State Papers, C. O. 1, Volume II, No. 4, I"
 V03-P0621,164,204,editorial_metadata,"Document in Public Record Office, London"
 V03-P0621,205,228,editorial_metadata,List of Records No. 308
 V03-P0622,0,35,running_head,606 RECORDS OF THE VIRGINIA COMPANY
 V03-P0623,0,22,running_head,"APRIL 12 (#), 1622 607"
 V03-P0624,0,35,running_head,608 RECORDS OF THE VIRGINIA COMPANY
+V03-P0624,37,147,document_heading,"CCXXII. Joun BarcrRAve. Peririon To THE Privy CoUNCIL AprIL 12, 1622 State Papers, C. O. 1, Volume II, No. 4"
 V03-P0624,147,187,editorial_metadata,"Document in Public Record Office, London"
 V03-P0624,188,211,editorial_metadata,List of Records No. 309
 V03-P0625,0,18,running_head,"APRIL 18, 1622 609"
@@ -2110,16 +2320,20 @@ V03-P0625,643,701,editorial_metadata,"Manuscript Records Virginia Company, III, 
 V03-P0625,702,752,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0625,753,776,editorial_metadata,List of Records No. 310
 V03-P0626,0,35,running_head,610 RECORDS OF THE VIRGINIA COMPANY
+V03-P0626,37,174,document_heading,"CCXXIV. GoverRNoR IN VIRGINIA. COMMISSION TO Capt. RALPH HAMOR APRIL 15, 1622 Manuscript Records Virginia Company, III, Part i, Page 37"
 V03-P0626,116,173,editorial_metadata,"Manuscript Records Virginia Company, III, Part i, Page 37"
 V03-P0626,174,224,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0626,225,248,editorial_metadata,List of Records No. 311
+V03-P0626,981,1109,document_heading,"CCXXV. GovERNOR IN VIRGINIA. ORDER TO RALPH HAMOoR APRIL 19, 1622 Manuscript Records Virginia Company, III, Part ii, Page 50a"
 V03-P0626,1049,1108,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 50a"
 V03-P0626,1109,1159,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0626,1160,1183,editorial_metadata,List of Records No. 313
 V03-P0627,0,26,running_head,"APRIL (AFTER 20), 1622 611"
+V03-P0627,28,162,document_heading,"CCXXVI. GovERNOR IN VIRGINIA. COMMISSION TO CAPTAIN SMITH APRIL 20, 1622 Manuscript Records Virginia Company, III, Part ii, Page 37"
 V03-P0627,103,161,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 37"
 V03-P0627,162,212,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0627,213,236,editorial_metadata,List of Records No. 314
+V03-P0627,1143,1304,document_heading,"CCXXVII. Counciu In ViraintA. A LETTER TO THE VIRGINIA COMPANY oF LONDON APRIL (AFTER 20), 1622 Manuscript Records Virginia Company, III, Part ii, Pages 3, 3a"
 V03-P0627,1241,1303,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 3, 3a"
 V03-P0627,1304,1354,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0627,1355,1378,editorial_metadata,List of Records No. 306
@@ -2127,32 +2341,40 @@ V03-P0628,0,35,running_head,612 RECORDS OF THE VIRGINIA COMPANY
 V03-P0629,0,26,running_head,"APRIL (AFTER 20,) 1622 613"
 V03-P0630,0,35,running_head,614 RECORDS OF THE VIRGINIA COMPANY
 V03-P0631,0,18,running_head,"APRIL 22, 1622 615"
+V03-P0631,474,557,document_heading,"CCXXVIII. Str Epwin Sanpys. A Lerrer to JoHn FERRAR APRIL 22, 1622 Ferrar Papers"
 V03-P0631,543,556,editorial_metadata,Ferrar Papers
 V03-P0631,557,635,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seale"
 V03-P0631,636,659,editorial_metadata,List of Records No. 315
 V03-P0632,0,35,running_head,616 RECORDS OF THE VIRGINIA COMPANY
+V03-P0632,1579,1659,document_heading,"CCXXIX. Sir Epwin Sanpys. A LETTER To JOHN FERRAR APRIL 25, 1622 Ferrar Papers"
 V03-P0632,1645,1658,editorial_metadata,Ferrar Papers
 V03-P0632,1659,1725,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0632,1726,1749,editorial_metadata,List of Records No. 316
 V03-P0633,0,18,running_head,"APRIL 80, 1622 617"
+V03-P0633,613,692,document_heading,"CCXXX. Str Epwin Sanpys. A Lerrer to JOHN FERRAR APRIL 30, 1622 Ferrar Papers"
 V03-P0633,678,691,editorial_metadata,Ferrar Papers
 V03-P0633,692,769,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0633,770,793,editorial_metadata,List of Records No. 317
 V03-P0634,0,35,running_head,618 RECORDS OF THE VIRGINIA COMPANY
+V03-P0634,1099,1270,document_heading,"CCXXXI. “Tur AccoMPpT OF THE CHARGE OF THE .4. SERVANTS SENT INTO VIRGINIA IN THE SHIP CALLED THE FURTHERANCE” May, 1622 Smyth of Nibley Papers, Smyth, 3 (36), "
 V03-P0634,1306,1329,editorial_metadata,List of Records No. 319
 V03-P0635,0,13,running_head,"MAY, 1622 619"
 V03-P0636,0,35,running_head,620 RECORDS OF THE VIRGINIA COMPANY
+V03-P0636,37,157,document_heading,"CCXXXII. Virainta CoMPpANY vs. WYE. DEFENSE OF WYE May 6, 1622 Admiralty Court, Instance and Prize, Libels 81, No. 340"
 V03-P0636,157,197,editorial_metadata,"Document in Public Record Office, London"
 V03-P0636,198,221,editorial_metadata,List of Records No. 305
 V03-P0637,0,15,running_head,"MAY 6, 1622 621"
 V03-P0638,0,35,running_head,622 RECORDS OF THE VIRGINIA COMPANY
+V03-P0638,474,613,document_heading,"CCXXXIII. GovERNOR IN VIRGINIA. COMMISSION TO CAPTAIN RAPH HAMoR May 7, 1622 Manuscript Records Virginia Company, III, Part ii, Page 37a"
 V03-P0638,553,612,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 37a"
 V03-P0638,613,662,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V03-P0638,663,686,editorial_metadata,List of Records No. 321
 V03-P0639,0,16,running_head,"MAY 22, 1622 623"
+V03-P0639,18,157,document_heading,"CCXXXIV. GOVERNOR IN VIRGINIA. COMMISSION TO CAPTAIN RoGer SMITH May 18, 1622 Manuscript Records Virginia Company, III, Part ii, Page 37"
 V03-P0639,98,156,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 37"
 V03-P0639,157,207,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0639,208,231,editorial_metadata,List of Records No. 322
+V03-P0639,1106,1279,document_heading,"CCXXXV. VirGiIn1iA Company. THE ForM oF A PATENT FOR ADVEN- TURERS UNDERTAKING TO TRANSPORT AND PLANT 100 PERSONS May 22, 1622 Additional Manuscripts, 14285, Fo"
 V03-P0639,1279,1313,editorial_metadata,"Document in British Museum, London"
 V03-P0639,1314,1337,editorial_metadata,List of Records No. 323
 V03-P0640,0,35,running_head,624 RECORDS OF THE VIRGINIA COMPANY
@@ -2161,6 +2383,7 @@ V03-P0642,0,35,running_head,626 RECORDS OF THE VIRGINIA COMPANY
 V03-P0643,0,16,running_head,"MAY 22, 1622 627"
 V03-P0644,0,35,running_head,628 RECORDS OF THE VIRGINIA COMPANY
 V03-P0645,0,16,running_head,"MAY 22, 1622 629"
+V03-P0645,18,144,document_heading,"CCXXXVI. ViraintA Company. THe Form or A PATENT FOR A PLANTER ONLY May 22, 1622 Additional Manuscripts, 14285, Folios 54—57"
 V03-P0645,144,178,editorial_metadata,"Document in British Museum, London"
 V03-P0645,179,202,editorial_metadata,List of Records No. 324
 V03-P0646,0,35,running_head,630 RECORDS OF THE VIRGINIA COMPANY
@@ -2168,27 +2391,33 @@ V03-P0647,0,16,running_head,"MAY 22, 1622 631"
 V03-P0648,0,35,running_head,632 RECORDS OF THE VIRGINIA COMPANY
 V03-P0649,0,16,running_head,"MAY 22, 1622 633"
 V03-P0650,0,35,running_head,634 RECORDS OF THE VIRGINIA COMPANY
+V03-P0650,37,175,document_heading,"CCXXXVII. ViraintaA Company. A GRANT FOR A PRIVATE PLANTATION To JoHN BoOUNALL May 22, 1622 Additional Manuscripts, 14285, Folios 65-68"
 V03-P0650,175,209,editorial_metadata,"Document in British Museum, London"
 V03-P0650,210,233,editorial_metadata,List of Records No. 325
 V03-P0651,0,16,running_head,"MAY 22, 1622 635"
 V03-P0652,0,35,running_head,636 RECORDS OF THE VIRGINIA COMPANY
 V03-P0653,0,16,running_head,"MAY 80, 1622 637"
+V03-P0653,1194,1337,document_heading,"CCXXXVIII. Caprain JoHN BARGRAVE. DISCLAIMER OF OPPOSITION TO THE PRESENT MANAGEMENT May 30, 1622 State Papers, C. O. 1, Volume II, No. 7, I"
 V03-P0653,1337,1396,editorial_metadata,"Document in Public Record Office, London. Autograph, Signed"
 V03-P0653,1397,1420,editorial_metadata,List of Records No. 326
 V03-P0654,0,35,running_head,638 RECORDS OF THE VIRGINIA COMPANY
 V03-P0655,0,20,running_head,"END OF MAY, 1622 639"
+V03-P0655,22,245,document_heading,"CCXXXIX. Vireinia Company. ‘A NOTE OF THE SHIPPING, MEN, AND PROUISIONS SENT AND PROUIDED FOR VIRGINIA, ... IN THE YEERE 1621.” Enp or May, 1622 Printed. (1) A "
 V03-P0655,317,340,editorial_metadata,List of Records No. 223
 V03-P0656,0,35,running_head,640 RECORDS OF THE VIRGINIA COMPANY
 V03-P0657,0,20,running_head,"END OF MAY, 1622 641"
 V03-P0658,0,35,running_head,642 RECORDS OF THE VIRGINIA COMPANY
 V03-P0659,0,20,running_head,"END OF MAY, 1622 643"
 V03-P0660,0,35,running_head,644 RECORDS OF THE VIRGINIA COMPANY
+V03-P0660,37,148,document_heading,"CCXL. Caprain JoHN BARGRAVE. PETITION TO Privy CoUNCIL JUNE (?), 1622 State Papers, C. O. 1, Volume II, No. 8"
 V03-P0660,148,188,editorial_metadata,"Document in Public Record Office, London"
 V03-P0660,189,212,editorial_metadata,List of Records No. 327
 V03-P0661,0,18,running_head,"JUNE (?), 1622 645"
+V03-P0661,197,356,document_heading,"CCXLI. TREASURER AND CoUNCIL FOR VIRGINIA. ANSWER TO THE Privy CoUNCIL CONCERNING CAPTAIN JOHN BARGRAVE’S PETITION Jons (7), 1622’ C. O. 1, Volume II, No. 7"
 V03-P0661,356,396,editorial_metadata,"Document in Public Record Office, London"
 V03-P0661,397,420,editorial_metadata,List of Records No. 517
 V03-P0662,0,35,running_head,646 RECORDS OF THE VIRGINIA COMPANY
+V03-P0662,612,778,document_heading,"CCXLII. Councit oF THE VIRGINIA Company. A LETTER TO GOVERNOR AND COUNCIL IN VIRGINIA JUNE 10, 1622 Manuscript Records Virginia Company, III, Part ii, Pages 22,"
 V03-P0662,714,777,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 22, 23"
 V03-P0662,778,828,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0662,829,852,editorial_metadata,List of Records No. 328
@@ -2198,10 +2427,12 @@ V03-P0665,0,17,running_head,"JUNE 10, 1622 649"
 V03-P0666,0,35,running_head,650 RECORDS OF THE VIRGINIA COMPANY
 V03-P0667,0,17,running_head,"JUNE 10, 1622 651"
 V03-P0668,0,35,running_head,652 RECORDS OF THE VIRGINIA COMPANY
+V03-P0668,570,719,document_heading,"CCXLIII. Jonn Pountis. PErTItTION TO THE GOVERNOR AND COUNCIL OF VIRGINIA JUNE 15, 1622 Manuscript Records Virginia Company, III, Part 11, Page 58"
 V03-P0668,660,718,editorial_metadata,"Manuscript Records Virginia Company, III, Part 11, Page 58"
 V03-P0668,719,769,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0668,770,793,editorial_metadata,List of Records No. 329
 V03-P0669,0,17,running_head,"JUNE 17, 1622 653"
+V03-P0669,690,869,document_heading,"CCXLIV. Tye Kine. A LeErTer To THE PRivy CoUNCIL JUNE 17, 1622 (1) Additional Manuscripts, 12496, Folio 450, Caesar Papers (2) State Papers, Domestic, James I, "
 V03-P0669,869,932,editorial_metadata,"Document in (1) British Museum (2) Public Record Office, London"
 V03-P0670,0,35,running_head,654 RECORDS OF THE VIRGINIA COMPANY
 V03-P0670,1182,1246,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 37a, 38"
@@ -2209,32 +2440,39 @@ V03-P0670,1247,1297,editorial_metadata,"Document in Library of Congress, Washing
 V03-P0670,1298,1321,editorial_metadata,List of Records No. 331
 V03-P0671,0,17,running_head,"JUNE 17, 1622 655"
 V03-P0672,0,35,running_head,656 RECORDS OF THE VIRGINIA COMPANY
+V03-P0672,37,175,document_heading,"CCXLVI. Sir Francis Wyatt. A CoMMISSION TO SIR GEORGE YEARDLEY JUNE 20, 1622 Manuscript Records Virginia Company, III, Part ii, Page 38"
 V03-P0672,116,174,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 38"
 V03-P0672,175,225,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0672,226,249,editorial_metadata,List of Records No. 341
 V03-P0673,0,17,running_head,"JUNE 20, 1622 657"
 V03-P0674,0,35,running_head,658 RECORDS OF THE VIRGINIA COMPANY
+V03-P0674,37,154,document_heading,"CCXLVII. Sir Francis Wyatt. PROCLAMATIONS JUNE 21, 1622 Manuscript Records Virginia Company, III, Part ii, Page 46a"
 V03-P0674,94,153,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 46a"
 V03-P0674,154,204,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0674,205,228,editorial_metadata,List of Records No. 342
 V03-P0675,0,17,running_head,"JUNE 21, 1622 659"
 V03-P0676,0,35,running_head,660 RECORDS OF THE VIRGINIA COMPANY
+V03-P0676,223,363,document_heading,"CCXLVIII. Rospert Newuanp. A Letrrer to Nicuouas FERRAR JUNE 27, 1622 Ferrar Papers Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0676,294,307,editorial_metadata,Ferrar Papers
 V03-P0676,308,362,editorial_metadata,"Magdalene College, Cambridge. Autograph Letter, Signed"
 V03-P0676,363,386,editorial_metadata,List of Records No. 343
 V03-P0677,0,16,running_head,"JULY 9, 1622 661"
+V03-P0677,477,850,document_heading,"CCXLIX. Toe King. A Lerrer To THE VIRGINIA COMPANY. Tue VIRGINIA Company. A LETTER TO THE GOVERNOR AND COUNCIL IN VIRGINIA JuLY 9, 1622 Printed, prefixed to Joh"
 V03-P0677,834,848,editorial_metadata,British Museum
 V03-P0677,850,873,editorial_metadata,List of Records No. 347
 V03-P0678,0,35,running_head,662 RECORDS OF THE VIRGINIA COMPANY
 V03-P0679,0,16,running_head,"JULY 9, 1622 663"
 V03-P0680,0,35,running_head,664 RECORDS OF THE VIRGINIA COMPANY
+V03-P0680,1262,1394,document_heading,"CCL. GoveRNOR IN VIRGINIA. A COMMISSION TO WILLIAM TUCKER JuLY 16, 1622 Manuscript Records Virginia Company, III, Part u, Page 36a"
 V03-P0680,1335,1393,editorial_metadata,"Manuscript Records Virginia Company, III, Part u, Page 36a"
 V03-P0680,1394,1444,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0680,1445,1468,editorial_metadata,List of Records No. 352
 V03-P0681,0,36,running_head,"JULY 17(?); BEFORE JULY 29, 1622 665"
+V03-P0681,221,376,document_heading,"CCLI. Note or ARMS IN THE TOWER FOR WHICH THE VIRGINIA Com- PANY ARE SurtTors ! JuLy 17(?); BEFORE JULY 29, 1622 State Papers, C. O. 1, Volume II, No. 9"
 V03-P0681,376,416,editorial_metadata,"Document in Public Record Office, London"
 V03-P0681,417,440,editorial_metadata,List of Records No. 354
 V03-P0682,0,35,running_head,666 RECORDS OF THE VIRGINIA COMPANY
+V03-P0682,37,206,document_heading,"CCLII. TREASURER AND COUNCIL FOR VIRGINIA. LETTER TO Gov- ERNOR AND COUNCIL IN VIRGINIA Aveust 1, 1622 Manuscript Records Virginia Company, III, Part ii, Pages "
 V03-P0682,142,205,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 23a—25"
 V03-P0682,206,256,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0682,257,280,editorial_metadata,List of Records No. 356
@@ -2246,35 +2484,43 @@ V03-P0687,0,18,running_head,"AUGUST 1, 1622 671"
 V03-P0688,0,35,running_head,672 RECORDS OF THE VIRGINIA COMPANY
 V03-P0689,0,18,running_head,"AUGUST 1, 1622 673"
 V03-P0690,0,35,running_head,674 RECORDS OF THE VIRGINIA COMPANY
+V03-P0690,37,165,document_heading,"CCLIII. [Joun Smytu.] A List oF SERVANTS REMAINING IN VIRGINIA Avaust 1, 1622 Smyth of Nibley Papers, Smyth, 3 (37), Page 153"
 V03-P0690,226,249,editorial_metadata,List of Records No. 357
 V03-P0691,0,21,running_head,"SEPTEMBER 1, 1622 675"
+V03-P0691,23,185,document_heading,"CCLIV. Joun Carter. PETITION TO THE PRIvy CoUNCIL SEPTEMBER 1, 1622 State Papers, C. O. 1, Volume II, No. 12. State Papers, Domestic, James I Volume 133, No. 10"
 V03-P0691,185,225,editorial_metadata,"Document in Public Record Office, London"
 V03-P0691,226,249,editorial_metadata,List of Records No. 359
 V03-P0692,0,35,running_head,676 RECORDS OF THE VIRGINIA COMPANY
 V03-P0692,131,171,editorial_metadata,"Document in Public Record Office, London"
 V03-P0692,172,195,editorial_metadata,List of Records No. 360
+V03-P0692,999,1081,document_heading,"CCLVI. Str Epwin Sanpys. A LETTER To JOHN FERRAR SEPTEMBER 1, 1622 Ferrar Papers"
 V03-P0692,1067,1080,editorial_metadata,Ferrar Papers
 V03-P0692,1081,1121,editorial_metadata,"Document in Magdalene College, Cambridge"
 V03-P0692,1122,1145,editorial_metadata,List of Records No. 361
 V03-P0693,0,21,running_head,"SEPTEMBER 1, 1622 677"
 V03-P0694,0,35,running_head,678 RECORDS OF THE VIRGINIA COMPANY
+V03-P0694,37,189,document_heading,"CCLVII. GovERNoR IN VIRGINIA. A COMMISSION TO SiR GEORGE YEARDLEY SEPTEMBER 10, 1622 Manuscript Records Virginia Company, III, Part ii, Pages 38a, 39"
 V03-P0694,124,188,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 38a, 39"
 V03-P0694,189,239,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0694,240,263,editorial_metadata,List of Records No. 362
 V03-P0695,0,22,running_head,"SEPTEMBER 23, 1622 679"
+V03-P0695,1332,1419,document_heading,"CCLVIII. Str Epwin Sanpys. A LETTER TO JOHN FERRAR SEPTEMBER 238, 1622 Ferrar Papers"
 V03-P0695,1405,1418,editorial_metadata,Ferrar Papers
 V03-P0695,1419,1496,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0695,1497,1520,editorial_metadata,List of Records No. 364
 V03-P0696,0,35,running_head,680 RECORDS OF THE VIRGINIA COMPANY
 V03-P0697,0,40,running_head,"BETWEEN OCTOBER AND JANUARY, 1622/23 681"
+V03-P0697,42,217,document_heading,"CCLIX. THomasin WoopsHAWE. PETITION TO THE GOVERNOR OF VIRGINIA BETWEEN OcTOBER, 1622, AND JANUARY, 1622/23 Manuscript Records Virginia Company, III, Part ii, P"
 V03-P0697,152,216,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Pages 58, 58a"
 V03-P0697,217,267,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0697,268,291,editorial_metadata,List of Records No. 365
 V03-P0698,0,35,running_head,682 RECORDS OF THE VIRGINIA COMPANY
+V03-P0698,226,400,document_heading,"CCLX. Ricuarp Pacer. PETITION TO THE GOVERNOR AND COUNCIL IN VIRGINIA BETWEEN OcToBER, 1622, AND JANUARY, 1622/23 Manuscript Records Virginia Company, III, Part"
 V03-P0698,342,399,editorial_metadata,"Manuscript Records Virginia Company, III, Part u, Page 58"
 V03-P0698,400,450,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0698,451,474,editorial_metadata,List of Records No. 366
 V03-P0699,0,19,running_head,"OCTOBER 7, 1622 683"
+V03-P0699,21,180,document_heading,"CCLXI. Viratnta Company. A LETTER TO THE GOVERNOR AND THE CoUNCIL IN VIRGINIA OcTOBER 7, 1622 Manuscript Records Virginia Company, III, Part 1, Pages 25a—27"
 V03-P0699,117,179,editorial_metadata,"Manuscript Records Virginia Company, III, Part 1, Pages 25a—27"
 V03-P0699,180,230,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0699,231,254,editorial_metadata,List of Records No. 367
@@ -2285,52 +2531,64 @@ V03-P0703,0,19,running_head,"OCTOBER 7, 1622 687"
 V03-P0704,0,35,running_head,688 RECORDS OF THE VIRGINIA COMPANY
 V03-P0705,0,19,running_head,"OCTOBER 7, 1622 689"
 V03-P0706,0,35,running_head,690 RECORDS OF THE VIRGINIA COMPANY
+V03-P0706,1163,1245,document_heading,"CCLXII. Sir Epwin Sanpys. A LETTER TO JOHN FERRAR OcToBER 13, 1622 Ferrar Papers"
 V03-P0706,1231,1244,editorial_metadata,Ferrar Papers
 V03-P0706,1245,1322,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph Letter, Signed, with Seal"
 V03-P0706,1323,1346,editorial_metadata,List of Records No. 368
 V03-P0707,0,20,running_head,"OCTOBER 18, 1622 691"
 V03-P0708,0,35,running_head,692 RECORDS OF THE VIRGINIA COMPANY
+V03-P0708,795,902,document_heading,"CCLXIII. YouncE contra ROBERTS OcTroBER 14, 1622 Admiralty Court, Instance and Prize, Libels 81, No. 256."
 V03-P0708,902,943,editorial_metadata,"Document in Public Record Office, London."
 V03-P0708,944,969,editorial_metadata,"List of Records, No. 380."
 V03-P0709,0,20,running_head,"OCTOBER 14, 1622 693"
 V03-P0710,0,35,running_head,694 RECORDS OF THE VIRGINIA COMPANY
 V03-P0711,0,20,running_head,"OCTOBER 18, 1622 695"
+V03-P0711,438,590,document_heading,"CCLXIV. Tuomas HamMour. PETITION TO THE GOVERNOR AND COUNCIL IN VIRGINIA OctToBER 18, 1622 Manuscript Records Virginia Company, III, Part ii, Page 58"
 V03-P0711,531,589,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 58"
 V03-P0711,590,640,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0711,641,664,editorial_metadata,List of Records No. 369
 V03-P0712,0,35,running_head,696 RECORDS OF THE VIRGINIA COMPANY
+V03-P0712,290,433,document_heading,"CCLXV. GovERNOR OF VIRGINIA. A COMMISSION TO CAPTAIN RAPH HAMOR OcToOBER 23, 1622 Manuscript Records Virginia Company, III, Part ii, Page 39"
 V03-P0712,374,432,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 39"
 V03-P0712,433,483,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0712,484,507,editorial_metadata,List of Records No. 370
 V03-P0713,0,20,running_head,"OCTOBER 28, 1622 697"
 V03-P0714,0,35,running_head,698 RECORDS OF THE VIRGINIA COMPANY
+V03-P0714,37,198,document_heading,"CCLXVI. GovERNoR OF VIRGINIA. A COMMISSION TO CAPTAIN WILLIAM EDEN, ALIAS SAMPSON OcToBER 24, 1622 Manuscript Records Virginia Company, III, Part ii, Page 39a"
 V03-P0714,138,197,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 39a"
 V03-P0714,198,248,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0714,249,272,editorial_metadata,List of Records No. 371
 V03-P0715,0,20,running_head,"NOVEMBER 2, 1622 699"
+V03-P0715,582,730,document_heading,"CCLXVII. GrorcEe Sanpys. PETITION TO GOVERNOR AND COUNCIL IN VIRGINIA NOVEMBER 2, 1622 Manuscript Records Virginia Company, III, Part ii, Page 58"
 V03-P0715,671,729,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 58"
 V03-P0715,730,780,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0715,781,804,editorial_metadata,List of Records No. 373
 V03-P0716,0,35,running_head,700 RECORDS OF THE VIRGINIA COMPANY
+V03-P0716,37,208,document_heading,"CCLXVIII. Governor or VirGINIA. A COMMISSION TO CAPTAIN IsackK MADDISON AND Rospert BENNET NOVEMBER 12, 1622 Manuscript Records Virginia Company, III, Part ii, "
 V03-P0716,148,207,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 39a"
 V03-P0716,208,258,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0716,259,282,editorial_metadata,List of Records No. 374
 V03-P0717,0,20,running_head,"DECEMBER 9, 1622 701"
+V03-P0717,193,360,document_heading,"CCLXIX. Henry Marten. DECREE IN CASE OF THE VIRGINIA Com- PANY AGAINST WYE, ABSOLVING WYBE DECEMBER 9, 1622 Admiralty Court, Instance and Prize, Libels 81, No. "
 V03-P0717,360,401,editorial_metadata,"Document in Public Record Office, London."
 V03-P0717,402,427,editorial_metadata,"List of Records, No. 379."
 V03-P0718,0,35,running_head,702 RECORDS OF THE VIRGINIA COMPANY
+V03-P0718,1331,1482,document_heading,"CCLXX. Jonn Martin. REQUEST TO THE MASTER OF THE ROLLS (SIR JULIUS CAESAR) DECEMBER 9, 1622 Additional Manuscripts, 12496, fo. 452. (Caesar Papers)."
 V03-P0718,1482,1517,editorial_metadata,"Document in British Museum, London."
 V03-P0718,1518,1543,editorial_metadata,"List of Records, No. 382."
 V03-P0719,0,21,running_head,"DECEMBER 10, 1622 703"
+V03-P0719,1355,1489,document_heading,"CCLXXI. GovERNOR AND COUNCIL IN VIRGINIA. PROCLAMATION DEcEMBER 10, 1622 Manuscript Records Virginia Company, III, Part ii, Page 47."
 V03-P0719,1429,1488,editorial_metadata,"Manuscript Records Virginia Company, III, Part ii, Page 47."
 V03-P0719,1489,1539,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V03-P0719,1540,1565,editorial_metadata,"List of Records, No. 383."
 V03-P0720,0,35,running_head,704 RECORDS OF THE VIRGINIA COMPANY
+V03-P0720,437,598,document_heading,"CCLXXII. Joun Martin. “THe Manner Howe to BRINGE THE INDIANS INTO SUBIECTION.” DECEMBER 15, 1622 Additional Manuscripts, 12496, fos. 459-460. (Caesar Papers.)"
 V03-P0720,598,633,editorial_metadata,"Document in British Museum, London."
 V03-P0720,634,659,editorial_metadata,"List of Records, No. 384."
 V03-P0721,0,21,running_head,"DECEMBER 15, 1622 705"
 V03-P0722,0,35,running_head,706 RECORDS OF THE VIRGINIA COMPANY
 V03-P0723,0,21,running_head,"DECEMBER 16, 1622 707"
+V03-P0723,1156,1306,document_heading,"CCLXXIII. Joann Martin. How VIRGINIA MAY BE MADE A ROYAL PLANTATION DECEMBER 15, 1622 Additional Manuscripts, 12496, fos. 456-457. (Casear Papers.)"
 V03-P0723,1306,1341,editorial_metadata,"Document in British Museum, London."
 V03-P0723,1342,1367,editorial_metadata,"List of Records, No. 385."
 V03-P0724,0,35,running_head,708 RECORDS OF THE VIRGINIA COMPANY
@@ -2338,14 +2596,17 @@ V03-P0725,0,21,running_head,"DECEMBER 16, 1622 709"
 V03-P0726,0,35,running_head,710 RECORDS OF THE VIRGINIA COMPANY
 V04-P0001,0,12,running_head,1622/3 (?) 3
 V04-P0002,0,33,running_head,4 RECORDS OF THE VIRGINIA COMPANY
+V04-P0002,35,233,document_heading,"CCLXXVI. ALDERMAN RoBerRT JOHNSON. DECLARATION OF THE PROSPEROUS STATE OF THE COLONY EaRLy IN 1628 (?) (1) Manuscript Records Virginia Company, III, pt.i, p.4. "
 V04-P0002,140,219,editorial_metadata,"(1) Manuscript Records Virginia Company, III, pt.i, p.4. (2) Manchester Papers,"
 V04-P0002,233,314,editorial_metadata,"Document in (1) Library of Congress, Washington, D. C.; (2) Public Record Office,"
 V04-P0002,365,388,editorial_metadata,List of Records No. 395
 V04-P0003,0,36,running_head,"BETWEEN JANUARY AND APRIL, 1622/8 5)"
+V04-P0003,975,1127,document_heading,"CCLXXVII. Jonn Rosrnson’s Son. PETITION TO GOVERNOR WYATT BETWEEN JANUARY AND APRIL, 1622/3 Manuscript Records Virginia Company, III, pt. ui, p. 58a"
 V04-P0003,1069,1125,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ui, p. 58a"
 V04-P0003,1127,1176,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0003,1177,1200,editorial_metadata,List of Records No. 397
 V04-P0004,0,33,running_head,6 RECORDS OF THE VIRGINIA COMPANY
+V04-P0004,797,946,document_heading,"CCLXXVIII. Governor in ViraintaA. INSTRUCTIONS TO CAPTAIN WILLIAM TUCKER JANUARY 38, 1622/3 Manuscript Records Virginia Company, III, pt. u, p. 36"
 V04-P0004,891,945,editorial_metadata,"Manuscript Records Virginia Company, III, pt. u, p. 36"
 V04-P0004,946,995,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0004,996,1019,editorial_metadata,List of Records No. 398
@@ -2355,6 +2616,7 @@ V04-P0006,383,439,editorial_metadata,"Manuscript Records Virginia Company, III, 
 V04-P0006,440,490,editorial_metadata,"Document in Library of Congress, Washington, D. C,"
 V04-P0006,491,514,editorial_metadata,List of Records No. 399
 V04-P0007,0,20,running_head,"JANUARY 20, 1622/3 9"
+V04-P0007,22,167,document_heading,"CCLXXX. Councit In ViraintA. LETTER TO VIRGINIA COMPANY OF LONDON JANUARY 20, 1622/3 Manuscript Records Virginia Company, III, pt. u, pp. 4—5a"
 V04-P0007,109,166,editorial_metadata,"Manuscript Records Virginia Company, III, pt. u, pp. 4—5a"
 V04-P0007,167,217,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0007,218,241,editorial_metadata,List of Records No. 400
@@ -2367,18 +2629,22 @@ V04-P0013,0,21,running_head,"JANUARY 20, 1622/3 15"
 V04-P0014,0,34,running_head,16 RECORDS OF THE VIRGINIA COMPANY
 V04-P0015,0,21,running_head,"JANUARY 20, 1622/8 17"
 V04-P0016,0,34,running_head,18 RECORDS OF THE VIRGINIA COMPANY
+V04-P0016,36,179,document_heading,"CCLXXXI. Governor IN VrratntA. A COMMISSION TO SIR GEORGE YEARDLEY JANUARY 25, 1622/3 Manuscript Records Virginia Company, III, pt. 1, p. 40"
 V04-P0016,124,178,editorial_metadata,"Manuscript Records Virginia Company, III, pt. 1, p. 40"
 V04-P0016,179,228,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0016,229,252,editorial_metadata,List of Records No. 618
 V04-P0017,0,23,running_head,"FEBRUARY (?), 1622/8 19"
+V04-P0017,25,258,document_heading,"CCLXXXII. [Sir Natrwanitet Ricu.] Roucn Nores TOUCHING THE AFFAIRS OF THE VIRGINIA AND SOMERS ISLANDS COMPANIES, ESPECIALLY THE SALARY ! FEBRUARY(?), 1622/3 Man"
 V04-P0017,184,210,editorial_metadata,"Manchester Papers, No. 304"
 V04-P0017,211,257,editorial_metadata,"Document found in Public Record Office, London"
 V04-P0017,258,281,editorial_metadata,List of Records No. 404
 V04-P0018,0,34,running_head,20 RECORDS OF THE VIRGINIA COMPANY
+V04-P0018,36,208,document_heading,"CCLXXXIII. Paper TOUCHING DISCUSSION OF SALARIES IN Somers ISLANDS COMPANY FEBRUARY (?), 1622/3 Manchester Papers, No. 309 Document found in Public Record Offic"
 V04-P0018,134,160,editorial_metadata,"Manchester Papers, No. 309"
 V04-P0018,161,207,editorial_metadata,"Document found in Public Record Office, London"
 V04-P0018,208,231,editorial_metadata,List of Records No. 405
 V04-P0019,0,22,running_head,"FEBRUARY 14, 1622/8 21"
+V04-P0019,461,587,document_heading,"CCLXXXIV. GoveRNoR or VIRGINIA. ORDER OR WARRANT Frpruary 14, 1622/3 Manuscript Records Virginia Company, II, pt. ii, p. dla"
 V04-P0019,531,586,editorial_metadata,"Manuscript Records Virginia Company, II, pt. ii, p. dla"
 V04-P0019,587,637,editorial_metadata,"Document in Library of Congress, Washington, D. C,"
 V04-P0019,638,661,editorial_metadata,List of Records No. 409
@@ -2391,12 +2657,14 @@ V04-P0021,0,16,running_head,"MARCH, 1622/3 23"
 V04-P0022,0,34,running_head,24 RECORDS OF THE VIRGINIA COMPANY
 V04-P0023,0,16,running_head,"MARCH, 1622/3 25"
 V04-P0024,0,34,running_head,26 RECORDS OF THE VIRGINIA COMPANY
+V04-P0024,391,556,document_heading,"CCLXXXVI. [Sir Naruantet Ricu.] A First Rouen Drarr oF A PROPOSITION CONCERNING TOBACCO [Marcu], 1622/3 Manchester Papers, No. 312. See No. 313, post, Doc. CCXC"
 V04-P0024,497,555,editorial_metadata,"Manchester Papers, No. 312. See No. 313, post, Doc. CCXCVI"
 V04-P0024,556,596,editorial_metadata,"Document in Public Reeord Office, London"
 V04-P0024,597,620,editorial_metadata,List of Records No. 411
 V04-P0025,0,18,running_head,"[MARCH], 1622/3 ea"
 V04-P0026,0,34,running_head,28 RECORDS OF THE VIRGINIA COMPANY
 V04-P0027,0,19,running_head,"[ALARCH], 1622/3 29"
+V04-P0027,148,256,document_heading,"CCLXXXVII. [Str NatHanrev Ricu.] Nores on THE ToBacco CONTRACT [Marcy], 1622/3 Manchester Papers, No. 316"
 V04-P0027,229,255,editorial_metadata,"Manchester Papers, No. 316"
 V04-P0027,256,296,editorial_metadata,"Document in Public Record Office, London"
 V04-P0027,297,320,editorial_metadata,List of Records No. 414
@@ -2408,15 +2676,18 @@ V04-P0032,0,34,running_head,34 RECORDS OF THE VIRGINIA COMPANY
 V04-P0033,0,18,running_head,"MARCH (?), 1623 35"
 V04-P0034,0,34,running_head,36 RECORDS OF THE VIRGINIA COMPANY
 V04-P0035,0,26,running_head,"MARCH OR APRIL (), 1623 37"
+V04-P0035,28,135,document_heading,"CCXC. Wittiam Capps. Lerrer to Docror THomas Wynston! Marcu or Aprit(?), 1623 Manchester Papers, No. 323"
 V04-P0035,108,134,editorial_metadata,"Manchester Papers, No. 323"
 V04-P0035,135,175,editorial_metadata,"Document in Public Record Office, London"
 V04-P0035,176,199,editorial_metadata,List of Records No. 433
 V04-P0036,0,34,running_head,38 RECORDS OF THE VIRGINIA COMPANY
 V04-P0037,0,31,running_head,"MARCH, 1622/3, TO JULY, 1624 39"
+V04-P0037,412,589,document_heading,"CCXCI. Rove Notes oF AN ESTIMATE OF THE VALUE TO THE JXING FOR A YEAR OF THE PROPOSED PREEMPTION OF TOBACCO AND PEPPER Marcu, 1622/3, To Juty, 1624 Manchester P"
 V04-P0037,562,588,editorial_metadata,"Manchester Papers, No. 314"
 V04-P0037,589,629,editorial_metadata,"Document in Public Record Office, London"
 V04-P0037,630,653,editorial_metadata,List of Records No. 413
 V04-P0038,0,34,running_head,40 RECORDS OF THE VIRGINIA COMPANY
+V04-P0038,36,179,document_heading,"CCXCII. GoveERNoR IN VIRGINIA. ORDER TO IKKEEP THE 22D or Marcu Hoty Marcu 4, 1622/3 Manuscript Records Virginia Company, III, pt. i, p. dla"
 V04-P0038,123,178,editorial_metadata,"Manuscript Records Virginia Company, III, pt. i, p. dla"
 V04-P0038,179,228,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0038,229,252,editorial_metadata,List of Records No. 417
@@ -2425,10 +2696,12 @@ V04-P0038,1333,1420,editorial_metadata,"Document in (1) Public Record Office, Lo
 V04-P0038,1421,1444,editorial_metadata,List of Records No. 416
 V04-P0038,1592,1659,editorial_metadata,"pp. 57-58, and in Records of the Virginia Company, I, pp. 821-822.]"
 V04-P0039,0,18,running_head,"MARCH 5, 1622/8 41"
+V04-P0039,20,118,document_heading,"CCXCIII. Ricuarp FrrerHorne. Letrrer tro Mr. BatrEMAN Marcu 5, 1622/3 Manchester Papers, No. 317"
 V04-P0039,91,117,editorial_metadata,"Manchester Papers, No. 317"
 V04-P0039,118,158,editorial_metadata,"Document in Public Record Office, London"
 V04-P0039,159,182,editorial_metadata,List of Records No. 419
 V04-P0040,0,34,running_head,42 RECORDS OF THE VIRGINIA COMPANY
+V04-P0040,1520,1610,document_heading,"CCXCIV. Orper or Court FoR VIRGINIA AND THE SOMERS ISLANDS Marcu 7, 1622/3 Ferrar Papers"
 V04-P0040,1596,1609,editorial_metadata,Ferrar Papers
 V04-P0040,1610,1650,editorial_metadata,"Document in Magdalene College, Cambridge"
 V04-P0040,1651,1674,editorial_metadata,List of Records No. 421
@@ -2442,6 +2715,7 @@ V04-P0044,0,34,running_head,46 RECORDS OF THE VIRGINIA COMPANY
 V04-P0045,0,19,running_head,"MARCH 17, 1622/8 47"
 V04-P0046,0,34,running_head,48 RECORDS OF THE VIRGINIA COMPANY
 V04-P0047,0,19,running_head,"MARCH 20, 1622/3 49"
+V04-P0047,21,285,document_heading,CCXCVI. Str NatTHaNIEL Ricw. ‘A ProposiGoN FOR THE ADUANCE- MEN* oF His Mat Prorritr AND GooD OF THE PLANTAGONS OF VIR- GINIA AND THE SUMER ILAND@ BY SETLING TH
 V04-P0047,223,284,editorial_metadata,"Manchester Papers, No. 313. See No. 312, ante, Doc. CCLXXXVI!"
 V04-P0047,285,325,editorial_metadata,"Document in Public Record Office, London"
 V04-P0047,326,351,editorial_metadata,List of Records No. 411la
@@ -2449,6 +2723,7 @@ V04-P0048,0,34,running_head,50 RECORDS OF THE VIRGINIA COMPANY
 V04-P0049,0,19,running_head,"MARCH 20, 1622/3 51"
 V04-P0050,0,34,running_head,52 RECORDS OF THE VIRGINIA COMPANY
 V04-P0051,0,20,running_head,"MARCH 20, 1622/38 53"
+V04-P0051,22,210,document_heading,"CCXCVII. REASONS OFFERED TO THE Privy COUNCIL AGAINST SIR EDWIN SAnpys’s ConTRACT AND JOINT STOCK FOR THE VIRGINIA AND SOMERS ISLANDS TOBACCO Marcu 20, 1622/3! "
 V04-P0051,210,250,editorial_metadata,"Document in Public Record Office, London"
 V04-P0051,251,274,editorial_metadata,List of Records No. 424
 V04-P0052,0,35,running_head,54 RECORDS OF THEI VIRGINIA COMPANY
@@ -2456,6 +2731,7 @@ V04-P0053,0,19,running_head,"MARCH 20, 1622/8 55"
 V04-P0054,0,34,running_head,56 RECORDS OF THE VIRGINIA COMPANY
 V04-P0055,0,19,running_head,"MARCH 20, 1622/3 57"
 V04-P0056,0,34,running_head,58 RECORDS OF THE VIRGINIA COMPANY
+V04-P0056,36,157,document_heading,"CCXCVIII. Richarp FFRETHORNE. LETTER TO HIS FATHER AND MOTHER! Marcu 20, Aprit 2 AND 8, 1623 Manchester Papers, No. 325"
 V04-P0056,130,156,editorial_metadata,"Manchester Papers, No. 325"
 V04-P0056,157,197,editorial_metadata,"Document in Public Record Office, London"
 V04-P0056,198,221,editorial_metadata,List of Records No. 455
@@ -2467,6 +2743,7 @@ V04-P0061,0,19,running_head,"MARCH 24, 1622/8 63"
 V04-P0061,183,223,editorial_metadata,"Document in Public Record Office, London"
 V04-P0061,224,247,editorial_metadata,List of Records No. 389
 V04-P0062,0,34,running_head,64 RECORDS OF THE VIRGINIA COMPANY
+V04-P0062,1222,1311,document_heading,"CCCI. Greorce Sanpys. Lerrer TO SAMUEL Wrote! Marcu 28, 1623 Manchester Papers, No. 319"
 V04-P0062,1284,1310,editorial_metadata,"Manchester Papers, No. 319"
 V04-P0062,1311,1351,editorial_metadata,"Document in Public Record Office, London"
 V04-P0062,1352,1375,editorial_metadata,List of Records No. 427
@@ -2477,12 +2754,14 @@ V04-P0066,0,34,running_head,68 RECORDS OF THE VIRGINIA COMPANY
 V04-P0067,0,17,running_head,"MARCH 80, 1623 69"
 V04-P0067,152,175,editorial_metadata,List of Records No. 431
 V04-P0068,0,34,running_head,70 RECORDS OF THE VIRGINIA COMPANY
+V04-P0068,690,784,document_heading,"CCCIII. Grorce Sanpys. Lerrer To Str Mites Sandys Marcu 30, 1623! Manchester Papers, No. 321"
 V04-P0068,757,783,editorial_metadata,"Manchester Papers, No. 321"
 V04-P0068,784,824,editorial_metadata,"Document in Public Record Office, London"
 V04-P0068,825,848,editorial_metadata,List of Records No. 430
 V04-P0069,0,17,running_head,"MARCH 30, 1623 71"
 V04-P0070,0,34,running_head,72 RECORDS OF THE VIRGINIA COMPANY
 V04-P0071,0,17,running_head,"MARCH 30, 1623 73"
+V04-P0071,19,114,document_heading,"CCCIV. Grorce Sanpys. LeETreR TO SIR SAMUEL SANDYS Marcu 30, 1623 Manchester Papers, No. 320"
 V04-P0071,87,113,editorial_metadata,"Manchester Papers, No. 320"
 V04-P0071,155,178,editorial_metadata,List of Records No. 429
 V04-P0072,0,34,running_head,74 RECORDS OF THE VIRGINIA COMPANY
@@ -2494,12 +2773,14 @@ V04-P0074,194,217,editorial_metadata,List of Records No. 432
 V04-P0075,0,18,running_head,"MARCH 31, 1623 ric"
 V04-P0076,0,34,running_head,78 RECORDS OF THE VIRGINIA COMPANY
 V04-P0077,0,14,running_head,"APRIL, 1623 79"
+V04-P0077,209,336,document_heading,"CCCVI. AccouNT OF A SMALL SUPPLY SENT TO VIRGINIA IN THE ‘‘ BONNY Bess” APRIL, 1623 Smyth of Nibley Papers, 3 (38), page 155"
 V04-P0077,372,395,editorial_metadata,List of Records No. 451
 V04-P0078,0,34,running_head,80 RECORDS OF THE VIRGINIA COMPANY
 V04-P0078,153,194,editorial_metadata,"Document in Public Record Office, London."
 V04-P0078,209,235,editorial_metadata,"Manchester Papers, No. 327"
 V04-P0078,272,295,editorial_metadata,List of Records No. 446
 V04-P0079,0,18,running_head,"APRIL (?), 1628 81"
+V04-P0079,601,762,document_heading,"CCCVIII. Caprain JOHN BARGRAVE. CHARGES AGAINST Sir THOMAS SMYTH, WITH ANSWERS IN RouGH Drart By Sir NATHANIEL Ricu APRIL (?), 1623 Manchester Papers, No. 351"
 V04-P0079,735,761,editorial_metadata,"Manchester Papers, No. 351"
 V04-P0079,762,802,editorial_metadata,"Document in Public Record Office, London"
 V04-P0079,803,826,editorial_metadata,List of Records No. 434
@@ -2507,29 +2788,35 @@ V04-P0080,0,34,running_head,82 RECORDS OF THE VIRGINIA COMPANY
 V04-P0081,0,18,running_head,"APRIL (?), 1628 83"
 V04-P0082,0,34,running_head,84 RECORDS OF THE VIRGINIA COMPANY
 V04-P0083,0,18,running_head,"APRIL (?), 1623 85"
+V04-P0083,20,155,document_heading,"CCCIX. ALDERMAN JouNnsOoN. His ‘RoucH DrRauGut To A CoMISSION & THE Peticon To His Mar*”’ APRIL (?), 1623 Manchester Papers, No. 329"
 V04-P0083,128,154,editorial_metadata,"Manchester Papers, No. 329"
 V04-P0083,155,195,editorial_metadata,"Document in Public Record Office, London"
 V04-P0083,196,219,editorial_metadata,List of Records No. 448
 V04-P0084,0,34,running_head,86 RECORDS OF THE VIRGINIA COMPANY
 V04-P0085,0,18,running_head,"APRIL (?), 1623 87"
+V04-P0085,322,424,document_heading,"CCCX. “Heapé or INQUIRY IN VIRGINIA BY THE COM™ THERE”! APRIL (?), 1623 Manchester Papers, No. 334"
 V04-P0085,396,422,editorial_metadata,"Manchester Papers, No. 334"
 V04-P0085,424,500,editorial_metadata,"Document in Public Record Office, London. Autograph similar to John Harvey’s"
 V04-P0085,501,524,editorial_metadata,List of Records No. 449
 V04-P0086,0,34,running_head,88 RECORDS OF THE VIRGINIA COMPANY
 V04-P0087,0,18,running_head,"APRIL (?), 1623 89"
+V04-P0087,20,128,document_heading,"CCCXI. Perer ARUNDEL. Extract FROM A LETTER TO WILLIAM ‘ANINGE APRIL (?), 1623 Manchester Papers, No. 341"
 V04-P0087,101,127,editorial_metadata,"Manchester Papers, No. 341"
 V04-P0087,128,168,editorial_metadata,"Document in Public Record Office, London"
 V04-P0087,169,192,editorial_metadata,List of Records No. 450
 V04-P0088,0,34,running_head,90 RECORDS OF THE VIRGINIA COMPANY
+V04-P0088,358,530,document_heading,"CCCXII. List or PERSONS FIT TO BE GOVERNOR AND DEpuTY GOVERNOR OF VIRGINIA AND SoMERS ISLANDS COMPANIES APRIL OR May (?), 1623 Manchester Papers, Nos. 356, 3857"
 V04-P0088,485,528,editorial_metadata,"Manchester Papers, Nos. 356, 3857, 358, 359"
 V04-P0088,530,570,editorial_metadata,"Document in Public Record Office, London"
 V04-P0088,571,594,editorial_metadata,List of Records No. 436
 V04-P0089,0,25,running_head,"APRIL OR MAY (?), 1623 91"
 V04-P0090,0,34,running_head,92 RECORDS OF THE VIRGINIA COMPANY
+V04-P0090,36,219,document_heading,"CCCXIII. [Sir NatHaniet Ricu.] BrGinninc oF RoucH Drart oF A CERTIFICATE AFFIRMING THE TRUTH OF STATEMENTS OF CAPTAIN BUTLER BETWEEN APRIL AND JUNE, 1623 Manche"
 V04-P0090,192,218,editorial_metadata,"Manchester Papers, No. 350"
 V04-P0090,219,259,editorial_metadata,"Document in Public Record Office, London"
 V04-P0090,260,283,editorial_metadata,List of Records No. 442
 V04-P0091,0,31,running_head,"BETWEEN APRIL AND JUNE, 1623 93"
+V04-P0091,381,499,document_heading,"CCCXIV. STATEMENTS OF SEAMEN AS TO CONDITIONS IN VIRGINIA 2 BETWEEN APRIL AND JUNE, 1623 Manchester Papers, No. 349"
 V04-P0091,472,498,editorial_metadata,"Manchester Papers, No. 349"
 V04-P0091,499,539,editorial_metadata,"Document in Public Record Office, London"
 V04-P0091,540,563,editorial_metadata,List of Records No. 441
@@ -2542,18 +2829,22 @@ V04-P0094,0,48,running_head,“onvp edie TS a muito! or tomenalt ali leone! TZ
 V04-P0095,0,49,running_head,% hh. Geos Pee Prarpoece ia al th pe fags 4 fores
 V04-P0096,0,54,running_head,C A... Gnas seer Gereseer Corse aa oy ac fogs A tae Pe
 V04-P0097,0,36,running_head,"BETWEEN APRIL AND SEPTEMBER, 1623 95"
+V04-P0097,435,578,document_heading,"CCCXVI. THomas PassMorE. PETITION TO GOVERNOR WYATT BETWEEN APRIL AND SEPTEMBER, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 59"
 V04-P0097,522,577,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 59"
 V04-P0097,578,628,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0097,629,652,editorial_metadata,List of Records No. 453
 V04-P0098,0,34,running_head,96 RECORDS OF THE VIRGINIA COMPANY
+V04-P0098,911,1075,document_heading,"CCCXVII. Peririon ro GOVERNOR WYATT BY ‘‘ MARGARET AND JOHN’S”’ COMPANY BETWEEN APRIL AND SEPTEMBER, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 5"
 V04-P0098,1019,1074,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 59"
 V04-P0098,1075,1125,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0098,1126,1149,editorial_metadata,List of Records No. 454
 V04-P0099,0,36,running_head,"BETWEEN APRIL AND SEPTEMBER, 1623 of"
+V04-P0099,868,1011,document_heading,"CCCXVIII. Samurt Mouu. Petition to GoveRNOoR Wyatt BETWEEN APRIL AND SEPTEMBER, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 59a"
 V04-P0099,954,1010,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 59a"
 V04-P0099,1011,1061,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0099,1062,1085,editorial_metadata,List of Records No. 452
 V04-P0100,0,34,running_head,98 RECORDS OF THE VIRGINIA COMPANY
+V04-P0100,36,212,document_heading,"CCCXIX. Councit In ViraintA. LETTER TO VIRGINIA COMPANY OF LONDON APRIL 4, 1623 (1) Manuscript Records Virginia Company, III, pt. ii, pp. 6, 6a. (2) C. O. 1, Vo"
 V04-P0100,118,204,editorial_metadata,"(1) Manuscript Records Virginia Company, III, pt. ii, pp. 6, 6a. (2) C. O. 1, Vol. II,"
 V04-P0100,212,293,editorial_metadata,"Document in (1) Library of Congress, Washington, D. C.; (2) Public Record Office,"
 V04-P0100,301,324,editorial_metadata,List of Records No. 457
@@ -2561,44 +2852,53 @@ V04-P0101,0,16,running_head,"APRIL 4, 1623 99"
 V04-P0102,0,35,running_head,100 RECORDS OF THE VIRGINIA COMPANY
 V04-P0103,0,17,running_head,"APRIL 4, 1623 101"
 V04-P0104,0,35,running_head,102 RECORDS OF THE VIRGINIA COMPANY
+V04-P0104,37,180,document_heading,"CCCXX. Councit IN Virainta. LETTER TO VIRGINIA COMPANY OF LONDON AFTER APRIL 4, 1623. Manuscript Records Virginia Company, III, pt. ui, p. 7"
 V04-P0104,125,179,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ui, p. 7"
 V04-P0104,180,230,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0104,231,254,editorial_metadata,List of Records No. 456
 V04-P0105,0,23,running_head,"AFTER APRIL 4, 1623 103"
 V04-P0106,0,35,running_head,104 RECORDS OF THE VIRGINIA COMPANY
+V04-P0106,37,128,document_heading,"CCCXXI. Str Francis Wyatt. LEetrrer to JoHN FERRAR ApRIL 7, 1623 C. O. 1, Vol. II, No. 26"
 V04-P0106,128,168,editorial_metadata,"Document in Public Record Office, London"
 V04-P0106,169,192,editorial_metadata,List of Records No. 459
 V04-P0107,0,17,running_head,"APRIL 7, 1623 105"
 V04-P0108,0,35,running_head,106 RECORDS OF THE VIRGINIA COMPANY
+V04-P0108,537,633,document_heading,"CCCXXII. Grorce Sanpys. LEtTrer to JOHN FERRAR APRIL 8, 1623! C. O. 1, Vol. II, Nos. 27, 3511"
 V04-P0108,633,699,editorial_metadata,"Document in Public Record Office, London. Autograph letter, signed"
 V04-P0108,700,723,editorial_metadata,List of Records No. 460
 V04-P0109,0,17,running_head,"APRIL 8, 1628 107"
 V04-P0110,0,35,running_head,108 RECORDS OF THE VIRGINIA COMPANY
 V04-P0111,0,17,running_head,"APRIL 8, 1623 109"
 V04-P0112,0,35,running_head,110 RECORDS OF THE VIRGINIA COMPANY
+V04-P0112,1054,1144,document_heading,"CCCXXIII. Grorce Sanpys. Lerrer To JOHN FERRAR Aprit 11, 1628 Manchester Papers, No. 326"
 V04-P0112,1117,1143,editorial_metadata,"Manchester Papers, No. 326"
 V04-P0112,1144,1184,editorial_metadata,"Document in Public Record Office, London"
 V04-P0112,1185,1208,editorial_metadata,List of Records No. 461
 V04-P0113,0,36,running_head,"APRIL, SOON AFTER APRIL 12, 1623 111"
+V04-P0113,1432,1559,document_heading,"CCCXXIV. Caprain NATHANIEL Buruter. Lerrer ro Str NATHANIEL RicH APRIL, SOON AFTER APRIL 12, 1623 Manchester Papers, No. 355"
 V04-P0113,1532,1558,editorial_metadata,"Manchester Papers, No. 355"
 V04-P0113,1559,1636,editorial_metadata,"Document in Public Record Office, London. Autograph letter, signed, with seal"
 V04-P0113,1637,1660,editorial_metadata,List of Records No. 435
 V04-P0114,0,35,running_head,112 tHCORDS OF THE VIRGINIA COMPANY
 V04-P0115,0,35,running_head,"APRIL (?), AFTER APRIL 12, 1623 113"
+V04-P0115,37,186,document_heading,"CCCXXV. ANSWER OF ADVENTURERS AND PLANTERS OF VIRGINIA AND Somers ISLANDS TO A PETITION APRIL (?), AFTER APRIL 12, 1623 Manchester Papers, No. 353"
 V04-P0115,159,185,editorial_metadata,"Manchester Papers, No. 353"
 V04-P0115,186,226,editorial_metadata,"Document in Public Record Office, London"
 V04-P0115,227,250,editorial_metadata,List of Records No. 444
 V04-P0116,0,35,running_head,114 RECORDS OF THE VIRGINIA COMPANY
 V04-P0117,0,18,running_head,"APRIL 14, 1623 115"
+V04-P0117,20,116,document_heading,"CCCXXVI. CuyristoPpHER Davison. Letrrer to JOHN FERRAR Aprit 14, 1623 C. 0. 1, Vol. II, No. 28"
 V04-P0117,116,182,editorial_metadata,"Document in Public Record Office, London. Autograph letter, signed"
 V04-P0117,184,207,editorial_metadata,List of Records No. 464
 V04-P0118,0,35,running_head,116 RECORDS OF THE VIRGINIA COMPANY
+V04-P0118,850,1000,document_heading,"CCCXXVII. Str NatuanieLt Ricu. Drarr or INSTRUCTIONS TO THE COMMISSIONERS TO INVESTIGATE VIRGINIA AFFAIRS APRIL 14, 1623 Manchester Papers, No. 330"
 V04-P0118,973,999,editorial_metadata,"Manchester Papers, No. 330"
 V04-P0118,1000,1040,editorial_metadata,"Document in Public Record Office, London"
 V04-P0118,1041,1064,editorial_metadata,List of Records No. 465
 V04-P0119,0,18,running_head,"APRIL 14, 1623 117"
 V04-P0120,0,35,running_head,118 RECORDS OF THE VIRGINIA COMPANY
 V04-P0121,0,18,running_head,"APRIL 15, 1623 119"
+V04-P0121,20,136,document_heading,"CCCXXVIII. Capratn Mites Kenpauy. Lerrer From tHe SoMERS ISLANDS TO Sir EDWIN SANDYS APRIL 15, 1623 Ferrar Papers"
 V04-P0121,122,135,editorial_metadata,Ferrar Papers
 V04-P0121,136,202,editorial_metadata,"Document in Magdalene College, Cambridge. Autograph letter, signed"
 V04-P0121,203,226,editorial_metadata,List of Records No. 466
@@ -2608,33 +2908,40 @@ V04-P0124,0,35,running_head,122 RECORDS OF THE VIRGINIA COMPANY
 V04-P0124,1089,1129,editorial_metadata,"Document in Public Record Office, London"
 V04-P0124,1130,1153,editorial_metadata,List of Records No. 467
 V04-P0125,0,18,running_head,"APRIL 21, 1623 123"
+V04-P0125,20,132,document_heading,"CCCXXIX. Receret FoR Court BooKS DELIVERED TO THE SECRETARY OF THE Privy CoUNCIL ApRIL 21, 1623 Ferrar Papers"
 V04-P0125,118,131,editorial_metadata,Ferrar Papers
 V04-P0125,132,172,editorial_metadata,"Document in Magdalene College, Cambridge"
 V04-P0125,173,196,editorial_metadata,List of Records No. 470
 V04-P0126,0,35,running_head,124 RECORDS OF THE VIRGINIA COMPANY
+V04-P0126,37,215,document_heading,"CCCXXX. “A Mermoriauu oF Some Tuinces w°? rr May PLEASE THE LLS TO INSERT IN THEIR Lo?’ LETTERS TO VIRGINIA AND THE SUMMER ISLANDe”’ APRIL 21, 1623 Manchester P"
 V04-P0126,187,214,editorial_metadata,"Manchester Papers, No. 335!"
 V04-P0126,215,295,editorial_metadata,"Document in Public Record Office, London. Indorsed in autograph of Sir Nathaniel"
 V04-P0126,301,324,editorial_metadata,List of Records No. 471
 V04-P0127,0,18,running_head,"APRIL 21, 1623 125"
 V04-P0128,0,35,running_head,126 RECORDS OF THE VIRGINIA COMPANY
+V04-P0128,1631,1757,document_heading,"CCCXXXI. Joun Wricut. PrrTiTion TO GOVERNOR WYATT APRIL 23, 25, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 59"
 V04-P0128,1701,1756,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 59"
 V04-P0128,1757,1807,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0128,1808,1831,editorial_metadata,List of Records No. 472
 V04-P0129,0,28,running_head,"APRIL 24 AND MAY 8, 1623 127"
+V04-P0129,843,1032,document_heading,"CCCXXXII. Petition To GOVERNOR WYATT AND COUNCIL IN VIRGINIA BY PASSENGERS IN THE ‘‘ MARGARET AND JOHN”’ APRIL 24 and May 3, 1623 Manuscript Records Virginia Co"
 V04-P0129,975,1031,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 58a"
 V04-P0129,1032,1082,editorial_metadata,"Document in Library of Congress, Washington, D. ©."
 V04-P0129,1083,1106,editorial_metadata,List of Records No. 473
 V04-P0130,0,35,running_head,128 RECORDS OF THE VIRGINIA COMPANY
+V04-P0130,762,912,document_heading,"CCCXXXIII. Jonn Loype. PETITION TO GOVERNOR AND COUNCIL IN VIRGINIA APRIL 26 AND May 8, 1623 Manuscript Records Virginia Company, III, pt. u, p. 59"
 V04-P0130,857,911,editorial_metadata,"Manuscript Records Virginia Company, III, pt. u, p. 59"
 V04-P0130,912,961,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0130,962,985,editorial_metadata,List of Records No. 475
 V04-P0131,0,18,running_head,"APRIL 29, 1628 129"
 V04-P0131,692,732,editorial_metadata,"Document in Public Record Office, London"
 V04-P0131,733,765,editorial_metadata,List of Records Nos. 476 and 477
+V04-P0131,1113,1230,document_heading,"CCCXXXIV. GovERNOR IN VIRGINIA. PROCLAMATION APRIL 29, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 50a"
 V04-P0131,1173,1229,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 50a"
 V04-P0131,1230,1279,editorial_metadata,"Document in Library of Congress, Washington, D.C,"
 V04-P0131,1281,1304,editorial_metadata,List of Records No. 481
 V04-P0132,0,35,running_head,130 RECORDS OF THE VIRGINIA COMPANY
+V04-P0132,930,1048,document_heading,"CCCXXXV. ‘AN ANSWERE TO A DECLARAGON OF THE PRESENT STATE OF VIRGINIA” May, 1623 Manchester Papers, Nos. 361, 362 !"
 V04-P0132,1013,1047,editorial_metadata,"Manchester Papers, Nos. 361, 362 !"
 V04-P0132,1048,1088,editorial_metadata,"Document in Public Record Office, London"
 V04-P0132,1089,1112,editorial_metadata,List of Records No. 483
@@ -2660,22 +2967,26 @@ V04-P0151,0,13,running_head,"MAY, 1628 149"
 V04-P0152,0,35,running_head,150 RECORDS OF THE VIRGINIA COMPANY
 V04-P0153,0,13,running_head,"MAY, 1623 151"
 V04-P0154,0,35,running_head,152 RECORDS OF THE VIRGINIA COMPANY
+V04-P0154,37,165,document_heading,"CCCXXXVI. ‘A Notre or Some THINGS FIT TO BE INQUIRED INTO BY THE Com®s’’! May (?), 1623 Manchester Papers, Nos. 331, 332, 333"
 V04-P0154,127,164,editorial_metadata,"Manchester Papers, Nos. 331, 332, 333"
 V04-P0154,165,205,editorial_metadata,"Document in Public Record Office, London"
 V04-P0154,206,229,editorial_metadata,List of Records No. 447
 V04-P0155,0,17,running_head,"MAY (?), 1623 153"
 V04-P0156,0,35,running_head,154 RECORDS OF THE VIRGINIA COMPANY
 V04-P0157,0,17,running_head,"MAY (?), 1623 155"
+V04-P0157,1072,1182,document_heading,"CCCXXXVII. Nicuoutas Ferrar. COMPUTATION CONCERNING Tosacco CHARGE May (?), 1623 Manchester Papers, No. 354"
 V04-P0157,1155,1181,editorial_metadata,"Manchester Papers, No. 354"
 V04-P0157,1182,1262,editorial_metadata,"Document in Public Record Office, London. Indorsed in autograph of Sir Nathaniel"
 V04-P0157,1268,1291,editorial_metadata,List of Records No. 482
 V04-P0157,1747,1830,editorial_metadata,1The draft (Manchester Papers 331) has ‘‘ayming” altered by Sir Nathaniel Rich from
 V04-P0158,0,35,running_head,156 RECORDS OF THE VIRGINIA COMPANY
 V04-P0159,0,17,running_head,"MAY (?), 1623 157"
+V04-P0159,19,165,document_heading,"CCCXXXVIII. [Nicuouas] Frerrar. Names oF MEMBERS OF THE HOUSE oF Commons, FREE OF THE VIRGINIA COMPANY May (?), 1623 Manchester Papers, No. 371"
 V04-P0159,138,164,editorial_metadata,"Manchester Papers, No. 371"
 V04-P0159,165,235,editorial_metadata,"Document in Public Record Office, London. Autograph of Nicholas Ferrar"
 V04-P0159,295,318,editorial_metadata,List of Records No. 484
 V04-P0160,0,35,running_head,158 RECORDS OF THE VIRGINIA COMPANY
+V04-P0160,161,269,document_heading,"CCCXXXIX. [Str NaTHANIEL Ricu.] Notes or LETTERS FROM VIRGINIA! May-JuNE, 1623 Manchester Papers, No. 340"
 V04-P0160,242,268,editorial_metadata,"Manchester Papers, No. 340"
 V04-P0160,269,309,editorial_metadata,"Document in Public Record Office, London"
 V04-P0160,310,333,editorial_metadata,List of Records No. 437
@@ -2683,11 +2994,13 @@ V04-P0161,0,18,running_head,"MAY-JUNE, 1623 159"
 V04-P0162,0,35,running_head,160 RECORDS OF THE VIRGINIA COMPANY
 V04-P0163,0,18,running_head,"MAY-JUNE, 1628 161"
 V04-P0164,0,35,running_head,162 RECORDS OF THE VIRGINIA COMPANY
+V04-P0164,37,181,document_heading,"CCCXL. VirainiaA Company. LETTER TO THE GOVERNOR AND COUNCIL IN VIRGINIA May 2, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 27a"
 V04-P0164,124,180,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 27a"
 V04-P0164,181,231,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0164,232,255,editorial_metadata,List of Records No. 489
 V04-P0165,0,15,running_head,"MAY 2, 1623 163"
 V04-P0166,0,35,running_head,164 RECORDS OF THE VIRGINIA COMPANY
+V04-P0166,689,775,document_heading,"CCCXLI. Anruony Hitton. Letrer to nis MOTHER. May 4, 1623 Manchester Papers, No. 364"
 V04-P0166,748,774,editorial_metadata,"Manchester Papers, No. 364"
 V04-P0166,775,815,editorial_metadata,"Document in Public Record Office, London"
 V04-P0166,816,839,editorial_metadata,List of Records No. 490
@@ -2698,11 +3011,13 @@ V04-P0169,303,358,editorial_metadata,"Manuscript Records Virginia Company, III, 
 V04-P0169,359,409,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0169,410,433,editorial_metadata,List of Records No. 498
 V04-P0170,0,35,running_head,168 RECORDS OF THE VIRGINIA COMPANY
+V04-P0170,424,620,document_heading,CCCXLIII. ADVENTURERS AND PLANTERS OF THE VIRGINIA AND SOMERS ISLANDS COMPANIES. PETITION TO THE PRIVY COUNCIL CONCERNING Ungsust ACCUSATIONS. May (AFTER May 7)
 V04-P0170,593,619,editorial_metadata,"Manchester Papers, No. 363"
 V04-P0170,620,660,editorial_metadata,"Document in Public Record Office, London"
 V04-P0170,661,684,editorial_metadata,List of Records No. 488
 V04-P0171,0,27,running_head,"MAY (AFTER MAY 7), 1623 169"
 V04-P0172,0,35,running_head,170 RECORDS OF THE VIRGINIA COMPANY
+V04-P0172,37,153,document_heading,"CCCXLIV. ADVENTURERS AND PLANTERS. PETITION TO PRIvY CoUNCIL BETWEEN May 7 AND 13, 1623 Manchester Papers, No. 366"
 V04-P0172,126,152,editorial_metadata,"Manchester Papers, No. 366"
 V04-P0172,153,193,editorial_metadata,"Document in Public Record Office, London"
 V04-P0172,194,217,editorial_metadata,List of Records No. 495
@@ -2710,14 +3025,17 @@ V04-P0173,0,30,running_head,"BETWEEN MAY 7 AND 13, 1623 val"
 V04-P0174,0,35,running_head,172 RECORDS OF THE VIRGINIA COMPANY
 V04-P0174,205,245,editorial_metadata,"Document in Public Record Office, London"
 V04-P0174,246,275,editorial_metadata,"List of Records Nos. 496, 497"
+V04-P0174,757,871,document_heading,"CCCXLVI. GOVERNOR IN VIRGINIA. PROCLAMATION May 9, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 47a"
 V04-P0174,814,870,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 47a"
 V04-P0174,871,920,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0174,921,944,editorial_metadata,List of Records No. 500
 V04-P0175,0,35,running_head,"MAY OR JUNE (AFTER MAY 9), 1623 173"
+V04-P0175,1039,1180,document_heading,"CCCXLVII. ADVENTURERS AND PLANTERS. COMPLAINT TO His MaJesty’s ComMMISssIONERS! May or JUNE (AFTER May 9), 1623 Manchester Papers, No. 343"
 V04-P0175,1153,1179,editorial_metadata,"Manchester Papers, No. 343"
 V04-P0175,1180,1220,editorial_metadata,"Document in Public Record Office, London"
 V04-P0175,1221,1244,editorial_metadata,List of Records No. 439
 V04-P0176,0,35,running_head,174 RECORDS OF THE VIRGINIA COMPANY
+V04-P0176,1139,1317,document_heading,"CCCXLVIII. [AtprErRMAN JoHNSON?] Parts oF DRAFTs OF A STATEMENT TOUCHING THE MISERABLE CONDITION OF VIRGINIA ! May or JUNE (AFTER May 9), 1623 Manchester Papers"
 V04-P0176,1284,1316,editorial_metadata,"Manchester Papers, Nos. 348, 347"
 V04-P0176,1317,1357,editorial_metadata,"Document in Public Record Office, London"
 V04-P0176,1358,1381,editorial_metadata,List of Records No. 440
@@ -2737,6 +3055,7 @@ V04-P0182,0,35,running_head,180 RECORDS OF THE VIRGINIA COMPANY
 V04-P0183,0,35,running_head,"MAY OR JUNE (AFTER MAY 9), 1623 181"
 V04-P0184,0,35,running_head,182 RECORDS OF THE VIRGINIA COMPANY
 V04-P0185,0,35,running_head,"MAY OR JUNE (AFTER MAY 9), 1623 183"
+V04-P0185,37,219,document_heading,"CCCXLIX. [Sir NaTHANIEL Ricu.]| Roucu Notes In SuPPoRT OF THE PRECEDING CHARGES OF MISMANAGEMENT OF THE VIRGINIA COMPANY May or JUNE (AFTER May 9), 1623 Manches"
 V04-P0185,192,218,editorial_metadata,"Manchester Papers, No. 342"
 V04-P0185,219,259,editorial_metadata,"Document in Public Record Office, London"
 V04-P0185,260,283,editorial_metadata,List of Records No. 438
@@ -2745,33 +3064,40 @@ V04-P0187,0,35,running_head,"MAY OR JUNE (AFTER MAY 9), 1623 185"
 V04-P0188,0,35,running_head,186 RECORDS OF THE VIRGINIA COMPANY
 V04-P0189,0,35,running_head,"MAY OR JUNE (AFTER MAY 9), 1623 187"
 V04-P0190,0,35,running_head,188 RECORDS OF THE VIRGINIA COMPANY
+V04-P0190,37,169,document_heading,"CCCL. GovERNOR IN VIRGINIA. COMMISSION TO CAPTAIN ROGER SMITH May 11, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 40"
 V04-P0190,113,168,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 40"
 V04-P0190,169,219,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0190,220,243,editorial_metadata,List of Records No. 501
 V04-P0191,0,16,running_head,"MAY 12, 1623 189"
+V04-P0191,18,146,document_heading,"CCCLI. GoveRNoR IN VIRGINIA. COMMISSION TO GILBERT PEpPET May 12, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 40"
 V04-P0191,90,145,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 40"
 V04-P0191,146,196,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0191,197,220,editorial_metadata,List of Records No. 502
 V04-P0192,0,35,running_head,190 RECORDS OF THE VIRGINIA COMPANY
+V04-P0192,37,176,document_heading,"CCCLII. Governor IN VIRGINIA. COMMISSION TO CAPTAIN WILLIAM TUCKER May 12, 1623 Manuscript Records Virginia Company, III, pt. ul, p. 50a"
 V04-P0192,119,175,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ul, p. 50a"
 V04-P0192,176,226,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0192,227,250,editorial_metadata,List of Records No. 503
 V04-P0193,0,16,running_head,"MAY 13, 1623 191"
+V04-P0193,18,129,document_heading,"CCCLIII. Governor 1n VirGintaA. WARRANT May 13, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 5la"
 V04-P0193,72,128,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 5la"
 V04-P0193,129,178,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0193,179,202,editorial_metadata,List of Records No. 504
 V04-P0194,0,35,running_head,192 RECORDS OF THE VIRGINIA COMPANY
 V04-P0194,153,193,editorial_metadata,"Document in Public Record Office, London"
 V04-P0194,194,217,editorial_metadata,List of Records No. 505
+V04-P0194,407,520,document_heading,"CCCLIV. Str GrorGE CALVERT, SECRETARY. LETTER TO THE EARL OF SOUTHAMPTON May 14, 1623 C. O. 1, Vol. II, No. 29"
 V04-P0194,520,560,editorial_metadata,"Document in Public Record Office, London"
 V04-P0194,561,584,editorial_metadata,List of Records No. 506
 V04-P0195,0,16,running_head,"MAY 14, 1623 193"
 V04-P0195,150,190,editorial_metadata,"Document in Public Record Office, London"
 V04-P0196,0,35,running_head,194 RECORDS OF THE VIRGINIA COMPANY
+V04-P0196,37,218,document_heading,"CCCLVI. [Sir Naruaniet Ricu.]! ‘“‘Nore Wuicu I Presentty Took oF CAPTAIN JOHN BarGRAVE’sS DiscourRsSE TO Mr CONCERNING SIR EpWwINn SANDYS” May 16, 1623 Manchest"
 V04-P0196,191,217,editorial_metadata,"Manchester Papers, No. 368"
 V04-P0196,218,258,editorial_metadata,"Document in Public Record Office, London"
 V04-P0196,259,282,editorial_metadata,List of Records No. 508
 V04-P0197,0,37,running_head,"MAY (SHORTLY BEFORE MAY 18), 1623 195"
+V04-P0197,722,900,document_heading,"CCCLVII. [Str NatuanreL, Ricw.] Heaps or Two LETTERS TO BE WRITTEN TO THE VIRGINIA COMPANY BY MR. SECRETARY May (SHORTLY BEFORE May 18), 1623 Manchester Papers,"
 V04-P0197,866,899,editorial_metadata,"Manchester Papers, Nos. 372, 373!"
 V04-P0197,900,940,editorial_metadata,"Document in Public Record Office, London"
 V04-P0197,941,964,editorial_metadata,List of Records No. 485
@@ -2785,19 +3111,23 @@ V04-P0201,0,16,running_head,"MAY 22, 1628 199"
 V04-P0201,1105,1145,editorial_metadata,"Document in Public Record Office, London"
 V04-P0201,1146,1169,editorial_metadata,List of Records No. 513
 V04-P0202,0,35,running_head,200 RECORDS OF THE VIRGINIA COMPANY
+V04-P0202,37,126,document_heading,"CCCLIX. Vircinta Company. PETITION TO THE KinG! May 24, 1623 Manchester Papers, No. 375"
 V04-P0202,99,125,editorial_metadata,"Manchester Papers, No. 375"
 V04-P0202,126,166,editorial_metadata,"Document in Public Record Office, London"
 V04-P0202,167,190,editorial_metadata,List of Records No. 486
 V04-P0203,0,33,running_head,"MAY (SOON AFTER MAY 24), 1623 201"
+V04-P0203,35,162,document_heading,"CCCLX. [Str NatHanreL Ricuw.]| AN ANSWER TO THE COMPANY’S PETITION! May (soon AFTER May 24), 1623 Manchester Papers, No. 374"
 V04-P0203,135,161,editorial_metadata,"Manchester Papers, No. 374"
 V04-P0203,162,202,editorial_metadata,"Document in Public Record Office, London"
 V04-P0203,203,227,editorial_metadata,List of Records No. 486a
 V04-P0204,0,35,running_head,202 RECORDS OF THE VIRGINIA COMPANY
+V04-P0204,660,836,document_heading,"CCCLXI. [ALtpERMAN JoHNSON.] DRAFT OF HIS OBSERVATIONS ON THE VirGINIA Court’s INTERPRETATION OF His Magsesty’s LETTER! May (arTrerR May 24), 1623 Manchester Pa"
 V04-P0204,809,835,editorial_metadata,"Manchester Papers, No. 377"
 V04-P0204,836,876,editorial_metadata,"Document in Public Record Office, London"
 V04-P0204,877,900,editorial_metadata,List of Records No. 487
 V04-P0205,0,28,running_head,"MAY (AFTER MAY 24), 1623 203"
 V04-P0206,0,35,running_head,204 RECORDS OF THE VIRGINIA COMPANY
+V04-P0206,678,787,document_heading,"CCCLXII. Virainta Company. RESPONSE TO THE KING’s LETTER OF May 18 May 25, 1623 Manchester Papers, No. 376"
 V04-P0206,760,786,editorial_metadata,"Manchester Papers, No. 376"
 V04-P0206,787,941,editorial_metadata,"Document in Public Record Office, London. For the King’s letter, see Records of the Virginia Company, Vol. I, pp. 434-435; for the Company’s petition, see"
 V04-P0206,959,982,editorial_metadata,List of Records No. 511
@@ -2806,10 +3136,12 @@ V04-P0208,0,35,running_head,206 RECORDS OF THE VIRGINIA COMPANY
 V04-P0209,0,16,running_head,"MAY 26, 1623 207"
 V04-P0210,0,35,running_head,208 RECORDS OF THE VIRGINIA COMPANY
 V04-P0211,0,16,running_head,"MAY 29, 1623 209"
+V04-P0211,18,150,document_heading,"CCCLXIII. Governor IN VIRGINIA. COMMISSION TO CAPTAIN PIERCE May 29, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 40a"
 V04-P0211,93,149,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 40a"
 V04-P0211,150,199,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0211,200,223,editorial_metadata,List of Records No. 514
 V04-P0212,0,35,running_head,210 RECORDS OF THE VIRGINIA COMPANY
+V04-P0212,37,138,document_heading,"CCCLXIV. List oF 72 PATENTS GRANTED TO SEVERAL PERSONS NAMED JUNE, 1623 C. O. 1, Vol. II, No. 33, I"
 V04-P0212,138,178,editorial_metadata,"Document in Public Record Office, London"
 V04-P0212,179,202,editorial_metadata,List of Records No. 518
 V04-P0213,0,18,running_head,"JUNE (?), 1623 211"
@@ -2820,12 +3152,14 @@ V04-P0214,0,35,running_head,212 RECORDS OF THE VIRGINIA COMPANY
 V04-P0215,0,18,running_head,"JUNE (?), 1623 213"
 V04-P0216,0,35,running_head,214 RECORDS OF THE VIRGINIA COMPANY
 V04-P0217,0,26,running_head,"JUNE OR JULY (?), 1623 215"
+V04-P0217,28,172,document_heading,"CCCLXVI. Drarr FOR THE COMMISSIONERS OF A PRELIMINARY REPORT ON THE CONDITION OF THE COLONY JUNE OR JULY (?), 1623 Manchester Papers, No. 382"
 V04-P0217,145,171,editorial_metadata,"Manchester Papers, No. 382"
 V04-P0217,172,212,editorial_metadata,"Document in Public Record Office, London"
 V04-P0217,213,236,editorial_metadata,List of Records No. 515
 V04-P0218,0,35,running_head,216 RECORDS OF THE VIRGINIA COMPANY
 V04-P0219,0,26,running_head,"JUNE OR JULY (?), 1628 217"
 V04-P0220,0,35,running_head,218 RECORDS OF THE VIRGINIA COMPANY
+V04-P0220,1322,1462,document_heading,"CCCLXVII. ExaMINaTION OF CAPTAIN Isaac Mapison, Mary Mapison, AND SERGEANT JOHN HARRIS JuNE 4, NOVEMBER 17, 1623 C. O. 1, Vol. II, No. 30"
 V04-P0220,1462,1502,editorial_metadata,"Document in Public Record Office, London"
 V04-P0220,1503,1526,editorial_metadata,List of Records No. 521
 V04-P0221,0,29,running_head,"JUNE 4, NOVEMBER 17, 1623 219"
@@ -2834,15 +3168,18 @@ V04-P0223,0,16,running_head,"JUNE 9, 1623 221"
 V04-P0224,0,35,running_head,222 RECORDS OF THE VIRGINIA COMPANY
 V04-P0225,0,20,running_head,"JUNE 9 (?), 1628 223"
 V04-P0226,0,35,running_head,224 RECORDS OF THE VIRGINIA COMPANY
+V04-P0226,548,638,document_heading,"CCCLXX. Tuomas Gipss. Notre Tro Sir EDWIN SANDYS JUNE (AFTER JUNE 9), 1623 Ferrar Papers"
 V04-P0226,624,637,editorial_metadata,Ferrar Papers
 V04-P0226,638,678,editorial_metadata,"Document in Magdalene College, Cambridge"
 V04-P0226,679,702,editorial_metadata,List of Records No. 394
 V04-P0227,0,29,running_head,"JUNE (AFTER JUNE 9), 1623 225"
 V04-P0228,0,35,running_head,226 RECORDS OF THE VIRGINIA COMPANY
 V04-P0229,0,21,running_head,"JUNE 18 (?), 1623 227"
+V04-P0229,23,153,document_heading,"CCCLXXI. ‘A ProporTION OF THE CHARGE TO FURNISHE AND TRANSPORT Stx MEN To VIRGINIA” JUNE 18 (?), 1623 C. O. 1, Vol. II, No. 54"
 V04-P0229,153,193,editorial_metadata,"Document in Public Record Office, London"
 V04-P0229,194,217,editorial_metadata,List of Records No. 391
 V04-P0230,0,35,running_head,228 RECORDS OF THE VIRGINIA COMPANY
+V04-P0230,868,998,document_heading,"CCCLXXII. Notes TAKEN FROM LETTERS WHICH CAME FROM VIRGINIA IN THE ‘‘ ABIGAIL” ! JUNE 19, 1623 Manchester Papers, Nos. 338, 339"
 V04-P0230,965,997,editorial_metadata,"Manchester Papers, Nos. 338, 339"
 V04-P0230,998,1038,editorial_metadata,"Document in Public Record Office, London"
 V04-P0230,1039,1062,editorial_metadata,List of Records No. 523
@@ -2861,30 +3198,37 @@ V04-P0240,1674,1825,editorial_metadata,"[There follow extracts from some only of
 V04-P0241,0,17,running_head,"JUNE 19, 1623 239"
 V04-P0242,0,35,running_head,240 RECORDS OF THE VIRGINIA COMPANY
 V04-P0243,0,17,running_head,"JUNE 23, 1623 241"
+V04-P0243,19,154,document_heading,"CCCLXXIV. Str NatruanreL Ricu. Drarr or A PROPOSITION FOR RESETTLING THE ESTATE OF VIRGINIA JUNE 23, 1623 Manchester Papers, No. 379"
 V04-P0243,127,153,editorial_metadata,"Manchester Papers, No. 379"
 V04-P0243,154,194,editorial_metadata,"Document in Public Record Office, London"
 V04-P0243,195,218,editorial_metadata,List of Records No. 524
 V04-P0244,0,35,running_head,242 RECORDS OF THE VIRGINIA COMPANY
+V04-P0244,650,772,document_heading,"CCCLXXV. SecreTaRY Conway. A LETTER TO SECRETARY CALVERT JUNE 30, 1623 State Papers, Domestic, James I, Vol. 147, No. 88"
 V04-P0244,772,812,editorial_metadata,"Document in Public Record Office, London"
 V04-P0244,813,836,editorial_metadata,List of Records No. 527
 V04-P0245,0,17,running_head,"JUNE 30, 1623 243"
 V04-P0246,0,35,running_head,244 RECORDS OF THE VIRGINIA COMPANY
+V04-P0246,37,165,document_heading,"CCCLXXVI. Secretary Conway. LETTER to Lorp TREASURER MIpDLESEX JULY 3, 1623 State Papers, Domestic, James I, Vol. 148, No. 19"
 V04-P0246,165,205,editorial_metadata,"Document in Public Record Office, London"
 V04-P0246,206,229,editorial_metadata,List of Records No. 534
 V04-P0246,1360,1400,editorial_metadata,"Document in Public Record Office, London"
 V04-P0246,1401,1424,editorial_metadata,List of Records No. 535
 V04-P0247,0,16,running_head,"JULY 4, 1628 245"
+V04-P0247,18,135,document_heading,"CCCLXXVII. List or SUBSCRIBERS AND SUBSCRIPTIONS FOR RELIEF OF THE COLONY JuLy [4], 1623! C. O. 1, Vol. II, No. 38"
 V04-P0247,135,175,editorial_metadata,"Document in Public Record Office, London"
 V04-P0247,176,199,editorial_metadata,List of Records No. 536
 V04-P0248,0,35,running_head,246 RECORDS OF THE VIRGINIA COMPANY
 V04-P0249,0,16,running_head,"JULY 4, 1623 247"
+V04-P0249,18,168,document_heading,"CCCLXXVIII. List oF SuBSCRIBERS AND SUBSCRIPTIONS TO BE PaIpD To RicHARD CASWELL FOR PROVISIONS FOR VIRGINIA JuLy 4, 1623! C. O. 1, Vol. II, No. 39"
 V04-P0249,168,208,editorial_metadata,"Document in Public Record Office, London"
 V04-P0249,209,232,editorial_metadata,List of Records No. 538
 V04-P0250,0,35,running_head,248 RECORDS OF THE VIRGINIA COMPANY
+V04-P0250,703,808,document_heading,"CCCLXXIX. Lorp PresipeENT MANDEVILLE. LETTER TO SECRETARY CoNWAY JULY 5, 1623 C. O. 1, Vol. II, No. 40"
 V04-P0250,808,848,editorial_metadata,"Document in Public Record Office, London"
 V04-P0250,849,872,editorial_metadata,List of Records No. 540
 V04-P0251,0,17,running_head,"JULY 56, 1623 249"
 V04-P0252,0,35,running_head,250 RECORDS OF THE VIRGINIA COMPANY
+V04-P0252,37,211,document_heading,"CCCLXXX. GovERNOoR Wyatt. COMMISSIONS TO CAPTAIN PIERCE, TO CapTAIN SAMUELL MATHEWS, AND TO OTHERS JuLy 17, 23, 1623 Manuscript Records Virginia Company, III, p"
 V04-P0252,156,210,editorial_metadata,"Manuscript Records Virginia Company, III, pt. u, p. 4!"
 V04-P0252,211,261,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0252,262,285,editorial_metadata,List of Records No. 544
@@ -2902,13 +3246,16 @@ V04-P0259,1104,1127,editorial_metadata,List of Records No. 545
 V04-P0259,1416,1456,editorial_metadata,"Document in Public Record Office, London"
 V04-P0259,1457,1480,editorial_metadata,List of Records No. 547
 V04-P0260,0,35,running_head,252 RECORDS OF THE VIRGINIA COMPANY
+V04-P0260,37,148,document_heading,"CCCLXXXI. An Account OF SUMS SUBSCRIBED AND SUPPLIES SENT SINCE APRIL JULY 23, 1623 C. O. 1, Vol. II, No. 42"
 V04-P0260,148,188,editorial_metadata,"Document in Public Record Office, London"
 V04-P0260,189,212,editorial_metadata,List of Records No. 548
 V04-P0261,0,17,running_head,"JULY 28, 1623 253"
+V04-P0261,1197,1330,document_heading,"CCCLXXXII. Lorp Presipent MANDEVILLE. A LETTER TO SECRETARY CoNWAY JULY 28, 1623 State Papers, Domestic, James I, Vol. 149, No. 76"
 V04-P0261,1330,1370,editorial_metadata,"Document in Public Record Office, London"
 V04-P0261,1371,1394,editorial_metadata,List of Records No. 550
 V04-P0262,0,35,running_head,254 RECORDS OF THE VIRGINIA COMPANY
 V04-P0263,0,17,running_head,"JULY 81, 1623 255"
+V04-P0263,19,146,document_heading,"CCCLXXXIII. ArrorNEY-GENERAL COVENTRY AND SOLICITOR-GENERAL Hearty. Lerrer to THe KING JuLY 31, 1623 C. O. 1, Vol. H, No. 43"
 V04-P0263,146,186,editorial_metadata,"Document in Public Record Office, London"
 V04-P0263,187,210,editorial_metadata,List of Records No. 551
 V04-P0264,0,35,running_head,256 RECORDS OF THE VIRGINIA COMPANY
@@ -2916,15 +3263,18 @@ V04-P0265,0,17,running_head,"JULY 81, 1623 257"
 V04-P0265,133,173,editorial_metadata,"Document in Public Record Office, London"
 V04-P0265,174,197,editorial_metadata,List of Records No. 552
 V04-P0266,0,35,running_head,258 RECORDS OF THE VIRGINIA COMPANY
+V04-P0266,651,749,document_heading,"CCCLXXXV. PrRorectTIon To CAPTAIN JOHN BARGRAVE Auaust, 1623 Docquet Book, Signet Office, Vol. 7"
 V04-P0266,749,789,editorial_metadata,"Document in Public Record Office, London"
 V04-P0266,790,813,editorial_metadata,List of Records No. 553
 V04-P0267,0,29,running_head,"AUGUST OR SEPTEMBER, 1623 259"
+V04-P0267,31,161,document_heading,"CCCLXXXVI. Notes ror AN ANSWER TO THE PROPOSITIONS MADE BY Lorp CHICHESTER AUGUST OR SEPTEMBER, 1623 Manchester Papers, No. 387"
 V04-P0267,134,160,editorial_metadata,"Manchester Papers, No. 387"
 V04-P0267,161,201,editorial_metadata,"Document in Public Record Office, London"
 V04-P0267,202,225,editorial_metadata,List of Records No. 528
 V04-P0268,0,35,running_head,260 RECORDS OF THE VIRGINIA COMPANY
 V04-P0269,0,29,running_head,"AUGUST OR SEPTEMBER, 1623 261"
 V04-P0270,0,35,running_head,262 RECORDS OF THE VIRGINIA COMPANY
+V04-P0270,1302,1455,document_heading,"CCCLXXXVII. Virernta Company. A LETTER TO THE GOVERNOR AND CouNCIL IN VIRGINIA Avaust 6, 1623 Manuscript Records Virginia Company, II, pt. , pp. 28-30"
 V04-P0270,1398,1454,editorial_metadata,"Manuscript Records Virginia Company, II, pt. , pp. 28-30"
 V04-P0270,1455,1505,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0270,1506,1529,editorial_metadata,List of Records No. 554
@@ -2937,11 +3287,13 @@ V04-P0276,0,35,running_head,268 RECORDS OF THE VIRGINIA COMPANY
 V04-P0277,0,18,running_head,"AUGUST 6, 1628 269"
 V04-P0278,0,35,running_head,270 RECORDS OF THE VIRGINIA COMPANY
 V04-P0279,0,19,running_head,"AUGUST 31, 1628 271"
+V04-P0279,794,916,document_heading,"CCCLXXXVIII. Governor In VirGINIA. PROCLAMATION Aveust 31, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 48a"
 V04-P0279,859,915,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 48a"
 V04-P0279,916,966,editorial_metadata,"Document in Library of Congress, Washington, D. C,"
 V04-P0279,967,990,editorial_metadata,List of Records No. 556
 V04-P0280,0,35,running_head,272 RECORDS OF THE VIRGINIA COMPANY
 V04-P0281,0,19,running_head,"AUGUST 31, 1623 273"
+V04-P0281,178,297,document_heading,"CCCLXXXIX. GOVERNOR IN VIRGINIA. PROCLAMATION Auvaust 31, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 49"
 V04-P0281,241,296,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 49"
 V04-P0281,297,346,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0281,347,370,editorial_metadata,List of Records No. 557
@@ -2950,13 +3302,16 @@ V04-P0282,130,185,editorial_metadata,"Manuscript Records Virginia Company, III, 
 V04-P0282,186,235,editorial_metadata,"Document in Library of Congress, Washington, D.C."
 V04-P0282,236,259,editorial_metadata,List of Records No. 559
 V04-P0283,0,21,running_head,"SEPTEMBER 4, 1623 275"
+V04-P0283,23,176,document_heading,"CCCXCI. STEPHEN GINGBY AND OTHERS. PETITION TO GOVERNOR IN VIRGINIA SEPTEMBER OR OCTOBER, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 60"
 V04-P0283,120,175,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 60"
 V04-P0283,176,226,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0283,227,250,editorial_metadata,List of Records No. 558
+V04-P0283,893,1012,document_heading,"CCCXCII. GovERNOR IN VIRGINIA. PROCLAMATION SEPTEMBER 4, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 49"
 V04-P0283,956,1011,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 49"
 V04-P0283,1012,1062,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0283,1063,1086,editorial_metadata,List of Records No. 561
 V04-P0284,0,35,running_head,276 RECORDS OF THE VIRGINIA COMPANY
+V04-P0284,505,654,document_heading,"CCCXCIII. Joun Penrers. PETITION TO GOVERNOR AND COUNCIL IN VIRGINIA SEPTEMBER 4, 8, 1623 Manuscript Records Virginia Company, II], pt. ii, p. 59a"
 V04-P0284,597,653,editorial_metadata,"Manuscript Records Virginia Company, II], pt. ii, p. 59a"
 V04-P0284,654,704,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0284,705,728,editorial_metadata,List of Records No. 560
@@ -2973,18 +3328,22 @@ V04-P0291,415,472,editorial_metadata,"Manuscript Records Virginia Company, ITI, 
 V04-P0291,473,523,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0291,524,547,editorial_metadata,List of Records No. 563
 V04-P0292,0,35,running_head,284 RECORDS OF THE VIRGINIA COMPANY
+V04-P0292,1122,1231,document_heading,"CCCXCVI. GovERNoR IN VIRGINIA. WARRANT OcToBER, 1623 Manuscript Records Virginia Company, II, pt. ii, p. 52"
 V04-P0292,1176,1230,editorial_metadata,"Manuscript Records Virginia Company, II, pt. ii, p. 52"
 V04-P0292,1231,1281,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0292,1282,1305,editorial_metadata,List of Records No. 567
 V04-P0293,0,17,running_head,"OCTOBER, 1628 285"
+V04-P0293,1190,1299,document_heading,"CCCXCVII. GovERNOR IN VIRGINIA. ORDER OcToBER, 1623 Manuscript Records Virginia Company, III, pt. ii, p. 52"
 V04-P0293,1243,1298,editorial_metadata,"Manuscript Records Virginia Company, III, pt. ii, p. 52"
 V04-P0293,1299,1349,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0293,1350,1374,editorial_metadata,"List of Records, No. 568"
 V04-P0294,0,35,running_head,286 RECORDS OF THE VIRGINIA COMPANY
+V04-P0294,909,1041,document_heading,"CCCXCVIII. THomas PasmMorE. PETITION TO GOVERNOR OF VIRGINIA OcToBER, 1623 Manuscript Records Virginia Company, III, pt. i, p. 60"
 V04-P0294,986,1040,editorial_metadata,"Manuscript Records Virginia Company, III, pt. i, p. 60"
 V04-P0294,1041,1091,editorial_metadata,"Document in Library of Congress, Washington, D. C."
 V04-P0294,1092,1115,editorial_metadata,List of Records No. 566
 V04-P0295,0,38,running_head,"OCTOBER, 1623, TO FEBRUARY, 1623/4 287"
+V04-P0295,309,463,document_heading,"CCCXCIX. Carsten BeckyHamM. PETITION TO GOVERNOR AND CouNCIL OcToBER, 1623, TO FeBRuaARY, 1623/4 Manuscript Records Virginia Company, III, pt. u, p. 60"
 V04-P0295,408,462,editorial_metadata,"Manuscript Records Virginia Company, III, pt. u, p. 60"
 V04-P0295,463,513,editorial_metadata,"Document in Library of Congress, Washington, D. C,"
 V04-P0295,514,537,editorial_metadata,List of Records No. 565

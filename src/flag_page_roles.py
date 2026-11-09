@@ -8,8 +8,10 @@ script annotates rather than deletes: the source text is unchanged.
 
 * ``page_roles.csv``: ``index`` for the trailing run of index-shaped pages in
   each volume, otherwise ``record``.
-* ``editorial_spans.csv``: character spans of running heads and editorial
-  metadata lines on record pages.
+* ``editorial_spans.csv``: character spans of running heads, editorial
+  metadata lines, and (Volumes III-IV) the editor's document headings
+  (``CCLXXII. JOHN MARTIN. "THE MANNER HOWE TO BRINGE THE INDIANS INTO
+  SUBIECTION"``), on record pages.
 """
 
 from __future__ import annotations
@@ -19,6 +21,7 @@ import csv
 import re
 from pathlib import Path
 
+from date_pages import document_headings
 from source_loader import load_primary_pages
 
 
@@ -73,7 +76,7 @@ def page_roles(pages: list[dict]) -> dict[str, str]:
     return roles
 
 
-def editorial_spans(page: dict) -> list[tuple[int, int, str]]:
+def editorial_spans(page: dict, headings: dict[int, tuple] | None = None) -> list[tuple[int, int, str]]:
     text = page["text"]
     spans = []
     first_end = text.find("\n")
@@ -84,7 +87,9 @@ def editorial_spans(page: dict) -> list[tuple[int, int, str]]:
     for match in EDITORIAL_LINE_RE.finditer(text):
         if match.start() >= first_end:
             spans.append((match.start(), match.end(), "editorial_metadata"))
-    return spans
+    for start, (*_, end) in (headings or {}).items():
+        spans.append((start, end, "document_heading"))
+    return sorted(spans)
 
 
 def main() -> None:
@@ -100,6 +105,7 @@ def main() -> None:
         writer.writerow(["page_id", "volume", "role"])
         for page in pages:
             writer.writerow([page["page_id"], page["volume"], roles[page["page_id"]]])
+    headings = document_headings(pages)
     span_count = 0
     with args.spans_output.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle, lineterminator="\n")
@@ -107,7 +113,7 @@ def main() -> None:
         for page in pages:
             if roles[page["page_id"]] != "record":
                 continue
-            for start, end, kind in editorial_spans(page):
+            for start, end, kind in editorial_spans(page, headings.get(page["page_id"])):
                 writer.writerow([page["page_id"], start, end, kind, " ".join(page["text"][start:end].split())[:160]])
                 span_count += 1
     index_pages = sum(1 for role in roles.values() if role == "index")

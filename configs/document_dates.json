@@ -1,0 +1,17 @@
+{
+  "description": "Dates for Volume III-IV documents whose editorial heading is missing, OCR-damaged, or too broad (a bare year). Keys are the document's Roman numeral. Each entry replaces the heading date for the whole document.",
+  "documents": {
+    "CCVIII": {
+      "start": "1622-03-22", "end": "1622-12-31",
+      "basis": "Heading reads only 1622; Wroth's notes count the colonists 'about the tyme of the Massacre' and the 3000 lost, so they postdate 22 March 1622."
+    },
+    "CCX": {
+      "start": "1622-03-22", "end": "1622-12-31",
+      "basis": "Waterhouse's Declaration (heading: 1622) is the printed relation of the 22 March 1622 attack, so it postdates the attack."
+    },
+    "CCXLI": {
+      "start": "1622-06-01", "end": "1622-06-30",
+      "basis": "Heading 'JUNE (?), 1622' is OCR-damaged ('Jons (7), 1622')."
+    }
+  }
+}

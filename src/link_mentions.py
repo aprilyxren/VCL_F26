@@ -40,9 +40,14 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 
 
 class Locator:
-    """Find the meeting segment, page role, and editorial span for a position."""
+    """Find the meeting segment, page role, and editorial span for a position.
 
-    def __init__(self, segments: Path, roles: Path, editorial: Path) -> None:
+    A mention in an editorial span is not usable for association unless the
+    span's kind is in ``usable_kinds`` (it is still recorded in ``editorial_span``).
+    """
+
+    def __init__(self, segments: Path, roles: Path, editorial: Path, usable_kinds: frozenset = frozenset()) -> None:
+        self.usable_kinds = usable_kinds
         self.segments: dict[str, list[dict[str, str]]] = defaultdict(list)
         for row in read_csv(segments):
             self.segments[row["page_id"]].append(row)
@@ -69,7 +74,7 @@ class Locator:
             "date_confidence": segment.get("confidence", ""),
             "page_role": role,
             "editorial_span": kind,
-            "usable_for_association": "yes" if role == "record" and not kind else "no",
+            "usable_for_association": "yes" if role == "record" and (not kind or kind in self.usable_kinds) else "no",
         }
 
 
