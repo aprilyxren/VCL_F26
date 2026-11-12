@@ -9,7 +9,8 @@ are drawn from data embedded in it. Two frames:
   ways (fetched with Overpass), since the narrow upper James is below the
   Census file's resolution.
 * ``england``: southern Britain and the near Continent, from Natural Earth
-  10m land.
+  10m land, with the Thames, Medway, Severn and a few other rivers from
+  OpenStreetMap (the 10m coastline is too coarse to show the Thames at London).
 
 Shapes are clipped to the frame (Sutherland-Hodgman for land rings), thinned
 with Douglas-Peucker, and rounded to 4 decimals (about 10 m). Sources and
@@ -28,6 +29,7 @@ FRAMES = {
     "england": (-6.2, 49.8, 2.6, 54.2),
 }
 TOLERANCE = {"virginia": 0.002, "england": 0.01}
+RIVER_TOLERANCE = {"virginia": 0.001, "england": 0.002}
 
 
 def read_shp_polygons(path: Path) -> list[list[tuple[float, float]]]:
@@ -155,12 +157,12 @@ def land(rings, frame):
 
 
 def rivers(overpass: Path, frame: str) -> list[dict]:
-    box, tolerance = FRAMES[frame], TOLERANCE[frame]
+    box, tolerance = FRAMES[frame], RIVER_TOLERANCE[frame]
     by_name: dict[str, list] = {}
     for element in json.loads(overpass.read_text(encoding="utf-8"))["elements"]:
         line = [(node["lon"], node["lat"]) for node in element.get("geometry", [])]
         for piece in clip_line(line, box):
-            by_name.setdefault(element["tags"]["name"], []).append(rounded(simplify(piece, tolerance / 2)))
+            by_name.setdefault(element["tags"]["name"], []).append(rounded(simplify(piece, tolerance)))
     return [{"name": name, "lines": lines} for name, lines in sorted(by_name.items())]
 
 
@@ -169,18 +171,20 @@ def main() -> None:
     parser.add_argument("--census-states", type=Path, required=True, help="cb_2018_us_state_500k.shp")
     parser.add_argument("--rivers", type=Path, required=True, help="Overpass JSON of waterway=river ways")
     parser.add_argument("--world-land", type=Path, required=True, help="ne_10m_land.geojson")
+    parser.add_argument("--england-rivers", type=Path, required=True, help="Overpass JSON of English rivers")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     basemap = {
         "virginia": {"bbox": FRAMES["virginia"], "land": land(read_shp_polygons(args.census_states), "virginia"),
                      "rivers": rivers(args.rivers, "virginia")},
-        "england": {"bbox": FRAMES["england"], "land": land(geojson_rings(args.world_land), "england")},
+        "england": {"bbox": FRAMES["england"], "land": land(geojson_rings(args.world_land), "england"),
+                    "rivers": rivers(args.england_rivers, "england")},
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(basemap, separators=(",", ":")), encoding="utf-8")
     points = sum(len(r) for frame in basemap.values() for r in frame["land"])
     print(f"wrote {args.output} ({args.output.stat().st_size / 1e3:.0f} kB; {points} land points, "
-          f"{len(basemap['virginia']['rivers'])} rivers)")
+          f"{len(basemap['virginia']['rivers']) + len(basemap['england']['rivers'])} rivers)")
 
 
 if __name__ == "__main__":

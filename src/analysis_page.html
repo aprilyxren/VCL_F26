@@ -138,6 +138,14 @@ table.plain td.num,table.plain th.num{text-align:right}
 .mapgrid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px;align-items:start}
 @media (max-width:860px){.mapgrid{grid-template-columns:1fr}}
 .mapbox svg{display:block;width:100%;height:auto;border-radius:4px}
+.mapwrap{position:relative}
+.mapsvg{aspect-ratio:4/3;touch-action:none;cursor:grab;user-select:none}
+.mapsvg.dragging{cursor:grabbing}
+.mapctl{position:absolute;top:8px;right:8px;display:grid;gap:4px}
+.mapctl button{font:600 16px/1 var(--body);width:32px;height:32px;border:1px solid var(--rule);border-radius:5px;background:var(--surface);color:var(--ink);cursor:pointer}
+.mapctl button.reset{font-size:11px}
+.maphint{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ink);color:var(--paper);font-size:13px;padding:6px 10px;border-radius:5px;pointer-events:none;opacity:0;transition:opacity .2s}
+.maphint.on{opacity:.92}
 .marker{cursor:pointer}
 .marker:focus-visible{outline:none}
 .marker:focus-visible circle,.marker:focus-visible rect{stroke:var(--focus);stroke-width:2.5px}
@@ -240,10 +248,6 @@ input[type=range]{accent-color:var(--accent);width:min(320px,100%)}
             <button data-min="2" aria-pressed="true">Close or direct</button>
             <button data-min="1" aria-pressed="false">Any mention in the record</button>
           </div>
-          <div class="seg" role="group" aria-label="Map extent" id="map-zoom">
-            <button data-zoom="james" aria-pressed="true">James River</button>
-            <button data-zoom="bay" aria-pressed="false">Whole Chesapeake</button>
-          </div>
           <div class="seg" role="group" aria-label="Indigenous nations"><button id="map-nations" aria-pressed="true">Indigenous nations</button></div>
         </div>
       </div>
@@ -255,14 +259,23 @@ input[type=range]{accent-color:var(--accent);width:min(320px,100%)}
         <button class="more" id="map-all">All years</button>
       </div>
       <div class="legend"><span><i style="background:var(--accent);border-radius:50%"></i>English settlement or place, sized by people tied to it</span><span><i class="diamond"></i>Indigenous nation, at its principal town or territory</span><span><i style="background:transparent;border:1.5px dashed var(--muted);border-radius:50%"></i>No one tied to it in this selection</span></div>
-      <div class="mapgrid">
-        <div class="mapbox"><svg id="map-va" role="img" aria-label="Map of the James River, the Chesapeake and Virginia's Eastern Shore"></svg></div>
-        <div style="display:grid;gap:12px;min-width:0">
-          <div class="mapbox"><span class="label">England</span><svg id="map-en" role="img" aria-label="Map of southern England"></svg></div>
-          <div class="panel" id="map-detail" style="padding:12px" aria-live="polite"></div>
+      <div class="row">
+        <div class="seg" role="group" aria-label="Which map" id="map-frame">
+          <button data-frame="virginia" aria-pressed="true">New World</button>
+          <button data-frame="england" aria-pressed="false">England</button>
         </div>
+        <div class="seg" role="group" aria-label="Map extent" id="map-zoom"></div>
       </div>
-      <p class="note">Each point is placed by the source listed for it in the project's <code>data/geo/place_coordinate_sources.csv</code>; plantations known only roughly (“approximate”) are placed within a few kilometres. Shorelines are modern: US Census 1:500,000 state boundaries, river courses © OpenStreetMap contributors, England from Natural Earth. Places outside these two frames (Bermuda, New England, the Indies) are not shown.</p>
+      <div class="mapgrid">
+        <div class="mapbox mapwrap">
+          <svg id="map-va" class="mapsvg" role="img" aria-label="Map of the James River, the Chesapeake and Virginia's Eastern Shore. Drag to pan; use the buttons, pinch, or Ctrl or Command with the scroll wheel to zoom."></svg>
+          <svg id="map-en" class="mapsvg" hidden role="img" aria-label="Map of southern England. Drag to pan; use the buttons, pinch, or Ctrl or Command with the scroll wheel to zoom."></svg>
+          <div class="mapctl"><button id="map-in" aria-label="Zoom in">+</button><button id="map-out" aria-label="Zoom out">−</button><button id="map-reset" class="reset" aria-label="Reset view">⟲</button></div>
+          <div class="maphint" id="map-hint">Hold Ctrl or ⌘ and scroll to zoom</div>
+        </div>
+        <div class="panel" id="map-detail" style="padding:12px" aria-live="polite"></div>
+      </div>
+      <p class="note">Drag the map to move it; zoom with the + and − buttons, a pinch, a double-click, or Ctrl/⌘ and the scroll wheel. More places are labelled as you zoom in. Each point is placed by the source listed for it in the project's <code>data/geo/place_coordinate_sources.csv</code>; plantations known only roughly (“approximate”) are placed within a few kilometres. Shorelines are modern: US Census 1:500,000 state boundaries, river courses © OpenStreetMap contributors, England’s coast from Natural Earth. Places outside these two maps (Bermuda, New England, the Indies) are not shown.</p>
     </div>
   </section>
 </div>
@@ -599,27 +612,124 @@ function renderPerson(){
 /* ============ MAP ============ */
 var mapReady = false;
 const M = DATA.map;
-const mapPeople = M.people, mapState = {year:null, minTier:2, nations:true, place:null, zoom:"james"};
-// The James River view: Henricus to Point Comfort, where most settlements were.
-const JAMES_VIEW = [-77.48, 36.86, -76.2, 37.52];
+const mapPeople = M.people, mapState = {year:null, minTier:2, nations:true, place:null, frame:"virginia"};
 const mapYears = M.places.flatMap(p => p.links.map(l => l[1]));
 const yearMin = Math.min(...mapYears), yearMax = Math.max(...mapYears);
-const FRAME_W = {virginia:640, england:300};
+const FRAMES = ["virginia", "england"];
+// Preset views per map; the first is the starting view.
+const PRESETS = {
+  virginia:[{label:"James River", bbox:[-77.48, 36.86, -76.2, 37.52]}, {label:"Whole Chesapeake", bbox:M.frames.virginia.bbox}],
+  england:[{label:"London and the Thames", bbox:[-0.45, 51.33, 0.5, 51.62]}, {label:"Southern England", bbox:M.frames.england.bbox}],
+};
+const MAP_W = 640, MAP_ASPECT = 0.75;
 function frameProj(name){
-  const [x0, y0, x1, y1] = M.frames[name].bbox, k = Math.cos((y0 + y1) / 2 * Math.PI / 180), W = FRAME_W[name];
-  const H = W * (y1 - y0) / ((x1 - x0) * k);
-  return {W, H, x:lon => (lon - x0) / (x1 - x0) * W, y:lat => (y1 - lat) / (y1 - y0) * H};
+  const [x0, y0, x1, y1] = M.frames[name].bbox, k = Math.cos((y0 + y1) / 2 * Math.PI / 180);
+  const H = MAP_W * (y1 - y0) / ((x1 - x0) * k);
+  return {W:MAP_W, H, x:lon => (lon - x0) / (x1 - x0) * MAP_W, y:lat => (y1 - lat) / (y1 - y0) * H};
 }
+const PROJ = Object.fromEntries(FRAMES.map(f => [f, frameProj(f)]));
 const mapSvgs = {virginia:$("#map-va"), england:$("#map-en")}, markerLayers = {};
-for (const name of ["virginia", "england"]){
-  const svg = mapSvgs[name], f = M.frames[name], P = frameProj(name);
-  svg.setAttribute("viewBox", `0 0 ${P.W} ${P.H.toFixed(1)}`);
-  svgEl("rect", {x:0, y:0, width:P.W, height:P.H, fill:"var(--water)"}, svg);
+for (const name of FRAMES){
+  const svg = mapSvgs[name], f = M.frames[name], P = PROJ[name];
+  svgEl("rect", {x:-P.W, y:-P.H, width:P.W * 3, height:P.H * 3, fill:"var(--water)"}, svg);
   const pathOf = (pts, close) => "M" + pts.map(([lon, lat]) => `${P.x(lon).toFixed(1)},${P.y(lat).toFixed(1)}`).join("L") + (close ? "Z" : "");
   svgEl("path", {d:f.land.map(r => pathOf(r, true)).join(""), fill:"var(--land)", stroke:"var(--shore)", "stroke-width":0.6, "fill-rule":"evenodd", "vector-effect":"non-scaling-stroke"}, svg);
   for (const r of f.rivers || []) svgEl("path", {d:r.lines.map(l => pathOf(l, false)).join(""), fill:"none", stroke:"var(--river)", "stroke-width":1, "vector-effect":"non-scaling-stroke"}, svg);
   markerLayers[name] = svgEl("g", {}, svg);
 }
+// Pan and zoom: each map's view box, in projected units, kept at the box's 4:3 shape.
+const maxW = name => Math.max(PROJ[name].W, PROJ[name].H / MAP_ASPECT), MIN_W = MAP_W / 24;
+function clampView(name, [x, y, w]){
+  const P = PROJ[name];
+  w = Math.min(Math.max(w, MIN_W), maxW(name));
+  const h = w * MAP_ASPECT;
+  x = Math.min(Math.max(x, Math.min(0, P.W - w) - w * 0.1), Math.max(P.W - w, 0) + w * 0.1);
+  y = Math.min(Math.max(y, Math.min(0, P.H - h) - h * 0.1), Math.max(P.H - h, 0) + h * 0.1);
+  return [x, y, w, h];
+}
+function fitView(name, [x0, y0, x1, y1]){
+  const P = PROJ[name], vx = P.x(x0), vy = P.y(y1), vw = P.x(x1) - vx, vh = P.y(y0) - vy;
+  const w = Math.max(vw, vh / MAP_ASPECT);
+  return clampView(name, [vx + vw / 2 - w / 2, vy + vh / 2 - w * MAP_ASPECT / 2, w]);
+}
+// Each map keeps its own view, so switching back returns to where you were.
+const mapViews = Object.fromEntries(FRAMES.map(f => [f, fitView(f, PRESETS[f][0].bbox)]));
+let mapFrame = 0, mapDragged = false, presetOn = {virginia:0, england:0};
+function scheduleMap(){ if (!mapFrame) mapFrame = requestAnimationFrame(() => { mapFrame = 0; renderMap(); }); }
+function setView(name, v, preset = null){
+  mapViews[name] = clampView(name, v);
+  presetOn[name] = preset;
+  renderPresets();
+  scheduleMap();
+}
+function zoomAt(name, [cx, cy], factor){
+  const [x, y, w] = mapViews[name], w2 = Math.min(Math.max(w / factor, MIN_W), maxW(name)), k = w2 / w;
+  setView(name, [cx - (cx - x) * k, cy - (cy - y) * k, w2]);
+}
+function toView(name, e){
+  const r = mapSvgs[name].getBoundingClientRect(), [x, y, w, h] = mapViews[name];
+  return [x + (e.clientX - r.left) / r.width * w, y + (e.clientY - r.top) / r.height * h];
+}
+const viewCentre = name => { const [x, y, w, h] = mapViews[name]; return [x + w / 2, y + h / 2]; };
+function renderPresets(){
+  const box = $("#map-zoom"), f = mapState.frame;
+  box.innerHTML = PRESETS[f].map((p, i) => `<button data-i="${i}" aria-pressed="${presetOn[f] === i}">${esc(p.label)}</button>`).join("");
+  box.querySelectorAll("button").forEach(b => b.addEventListener("click", () => setView(f, fitView(f, PRESETS[f][+b.dataset.i].bbox).slice(0, 3), +b.dataset.i)));
+}
+const hint = $("#map-hint");
+let hintTimer = 0;
+for (const name of FRAMES){
+  const svg = mapSvgs[name], pointers = new Map();
+  let start = null;
+  svg.addEventListener("wheel", e => {
+    if (!(e.ctrlKey || e.metaKey)){ hint.classList.add("on"); clearTimeout(hintTimer); hintTimer = setTimeout(() => hint.classList.remove("on"), 1200); return; }
+    e.preventDefault();  // trackpad pinches arrive as ctrl + wheel
+    zoomAt(name, toView(name, e), Math.exp(-e.deltaY * 0.01));
+  }, {passive:false});
+  svg.addEventListener("dblclick", e => { e.preventDefault(); zoomAt(name, toView(name, e), 2); });
+  svg.addEventListener("pointerdown", e => {
+    pointers.set(e.pointerId, e);
+    start = {view:mapViews[name].slice(), pts:[...pointers.values()].map(p => [p.clientX, p.clientY])};
+    mapDragged = false;
+  });
+  svg.addEventListener("pointermove", e => {
+    if (!pointers.has(e.pointerId) || !start) return;
+    pointers.set(e.pointerId, e);
+    const r = svg.getBoundingClientRect(), pts = [...pointers.values()].map(p => [p.clientX, p.clientY]);
+    const [x0, y0, w0] = start.view, unit = w0 / r.width;
+    const mid = q => q.length > 1 ? [(q[0][0] + q[1][0]) / 2, (q[0][1] + q[1][1]) / 2] : q[0];
+    const [m0, m1] = [mid(start.pts), mid(pts)];
+    if (!mapDragged && Math.hypot(m1[0] - m0[0], m1[1] - m0[1]) < 4 && pts.length < 2) return;
+    if (!mapDragged){ mapDragged = true; svg.classList.add("dragging"); svg.setPointerCapture(e.pointerId); hideTip(); }
+    let w = w0;
+    if (pts.length > 1 && start.pts.length > 1){
+      const d0 = Math.hypot(start.pts[0][0] - start.pts[1][0], start.pts[0][1] - start.pts[1][1]);
+      const d1 = Math.hypot(pts[0][0] - pts[1][0], pts[0][1] - pts[1][1]);
+      w = Math.min(Math.max(w0 * d0 / Math.max(d1, 1), MIN_W), maxW(name));
+    }
+    // Keep the map point under the fingers (or cursor) under them.
+    const ax = x0 + (m0[0] - r.left) * unit, ay = y0 + (m0[1] - r.top) * unit, u = w / r.width;
+    setView(name, [ax - (m1[0] - r.left) * u, ay - (m1[1] - r.top) * u, w]);
+  });
+  const end = e => {
+    pointers.delete(e.pointerId);
+    start = pointers.size ? {view:mapViews[name].slice(), pts:[...pointers.values()].map(p => [p.clientX, p.clientY])} : null;
+    svg.classList.remove("dragging");
+  };
+  svg.addEventListener("pointerup", end);
+  svg.addEventListener("pointercancel", end);
+}
+$("#map-in").addEventListener("click", () => zoomAt(mapState.frame, viewCentre(mapState.frame), 1.6));
+$("#map-out").addEventListener("click", () => zoomAt(mapState.frame, viewCentre(mapState.frame), 1 / 1.6));
+$("#map-reset").addEventListener("click", () => { const f = mapState.frame; setView(f, fitView(f, PRESETS[f][0].bbox).slice(0, 3), 0); });
+function showFrame(name){
+  mapState.frame = name;
+  for (const f of FRAMES) mapSvgs[f].toggleAttribute("hidden", f !== name);  // SVG elements have no .hidden property
+  document.querySelectorAll("#map-frame button").forEach(b => b.setAttribute("aria-pressed", b.dataset.frame === name));
+  renderPresets();
+  renderMap();
+}
+document.querySelectorAll("#map-frame button").forEach(b => b.addEventListener("click", () => showFrame(b.dataset.frame)));
 function activePeople(){
   if (selPerson != null) return new Set([selPerson]);
   if (selCluster != null) return new Set(N.nodes.flatMap((n, i) => n.c === selCluster ? [i] : []));
@@ -630,13 +740,13 @@ function mapColor(){
   const c = selPerson != null ? N.nodes[selPerson].c : selCluster;
   return c != null && COLORS[c] ? COLORS[c] : "var(--accent)";
 }
-// Streets and buildings inside London sit on London's point; only London is labelled.
+// Streets and buildings inside London sit on London's point; they are labelled only when zoomed in on London.
 const LONDON_PARTS = new Set(["OW-002", "OW-003", "OW-004", "OW-049", "OW-050"]);
 function placeLinks(p, active){
   return p.links.filter(([who, year, tier]) => tier >= mapState.minTier && (mapState.year == null || year === mapState.year) && (!active || active.has(who)));
 }
 function renderMap(){
-  const active = activePeople(), color = mapColor();
+  const active = activePeople(), color = mapColor(), name = mapState.frame, P = PROJ[name];
   const rows = M.places.filter(p => p.kind === "place" || mapState.nations).map(p => {
     const links = placeLinks(p, active), people = new Map();
     for (const [who, year, tier] of links){ const e = people.get(who) || {years:new Set(), tier:0}; e.years.add(year); e.tier = Math.max(e.tier, tier); people.set(who, e); }
@@ -646,54 +756,61 @@ function renderMap(){
   });
   const maxPlace = Math.max(1, ...rows.filter(r => r.p.kind === "place").map(r => r.size));
   const maxNation = Math.max(1, ...rows.filter(r => r.p.kind === "nation").map(r => r.size));
-  const ranked = rows.filter(r => r.size).sort((a, b) => b.size - a.size);
-  const labelled = new Set([...ranked.filter(r => r.p.frame === "virginia" && r.p.kind === "place").slice(0, 9),
-    ...ranked.filter(r => r.p.frame === "england" && !LONDON_PARTS.has(r.p.id)).slice(0, 4), ...ranked.filter(r => r.p.kind === "nation").slice(0, 8)].map(r => r.p.id));
-  for (const name of ["virginia", "england"]){
-    const layer = markerLayers[name], P = frameProj(name);
-    // Zoomed in, the view box is smaller, so markers and labels are scaled down to keep their screen size.
-    let zoom = 1;
-    if (name === "virginia"){
-      const [x0, y0, x1, y1] = mapState.zoom === "james" ? JAMES_VIEW : M.frames.virginia.bbox;
-      const vx = P.x(x0), vy = P.y(y1), vw = P.x(x1) - vx, vh = P.y(y0) - vy;
-      mapSvgs.virginia.setAttribute("viewBox", `${vx.toFixed(1)} ${vy.toFixed(1)} ${vw.toFixed(1)} ${vh.toFixed(1)}`);
-      zoom = vw / P.W;
+  const view = mapViews[name], [vx, vy, vw, vh] = view;
+  mapSvgs[name].setAttribute("viewBox", view.map(v => v.toFixed(2)).join(" "));
+  // Zoomed in, the view box is smaller, so markers and labels shrink with it to keep their screen size.
+  const scale = vw / P.W;
+  const inView = p => { const x = P.x(p.lon), y = P.y(p.lat); return x >= vx && x <= vx + vw && y >= vy && y <= vy + vh; };
+  // More labels as the map is zoomed in: about 9 at the starting view, counting only places in view.
+  const labelCount = Math.round(9 * (fitView(name, PRESETS[name][0].bbox)[2] / vw) ** 1.2);
+  const londonClose = name === "england" && vw < P.W / 4;
+  const mine = rows.filter(r => r.p.frame === name);
+  const ranked = mine.filter(r => r.size && inView(r.p) && (londonClose || !LONDON_PARTS.has(r.p.id))).sort((a, b) => b.size - a.size);
+  const labelled = new Set([...ranked.filter(r => r.p.kind === "place").slice(0, Math.max(4, labelCount)),
+    ...ranked.filter(r => r.p.kind === "nation").slice(0, Math.max(5, Math.round(labelCount * 0.8)))].map(r => r.p.id));
+  const layer = markerLayers[name];
+  layer.replaceChildren();
+  const labels = [];  // drawn after the markers: English places by size, then nations; one that would overlap is skipped
+  // Nations underneath (English towns were often built on them), then larger before smaller.
+  for (const r of mine.sort((a, b) => (b.p.kind === "nation") - (a.p.kind === "nation") || b.size - a.size)){
+    const {p} = r, x = P.x(p.lon), y = P.y(p.lat), nation = p.kind === "nation";
+    const radius = (r.size ? 3.5 + Math.sqrt(r.size / (nation ? maxNation : maxPlace)) * (nation ? 11 : 16) : 2.5) * scale;
+    const g = svgEl("g", {class:"marker", tabindex:0, role:"button", "aria-label":`${p.name}: ${r.size} ${nation && !active ? "mentions" : "people"}`}, layer);
+    if (nation){
+      const s = radius * 1.5;
+      svgEl("rect", {x:x - s / 2, y:y - s / 2, width:s, height:s, transform:`rotate(45 ${x} ${y})`, fill:r.size ? "var(--nation)" : "none",
+        "fill-opacity":r.size ? .55 : 1, stroke:"var(--nation)", "stroke-width":1.2 * scale, "stroke-dasharray":r.size ? "" : `${2 * scale} ${2 * scale}`}, g);
+    } else {
+      svgEl("circle", {cx:x, cy:y, r:radius, fill:r.size ? color : "none", "fill-opacity":r.size ? .7 : 1,
+        stroke:r.size ? "var(--surface)" : "var(--muted)", "stroke-width":(r.size ? 1.2 : 1) * scale, "stroke-dasharray":r.size ? "" : `${2 * scale} ${2 * scale}`}, g);
     }
-    const scale = (name === "england" ? 0.7 : 1) * zoom, [vbx, , vbw] = mapSvgs[name].getAttribute("viewBox").split(" ").map(Number);
-    layer.replaceChildren();
-    // Nations underneath (English towns were often built on them), then larger before smaller.
-    const mine = rows.filter(r => r.p.frame === name).sort((a, b) => (b.p.kind === "nation") - (a.p.kind === "nation") || b.size - a.size);
-    for (const r of mine){
-      const {p} = r, x = P.x(p.lon), y = P.y(p.lat), nation = p.kind === "nation";
-      const radius = (r.size ? 3.5 + Math.sqrt(r.size / (nation ? maxNation : maxPlace)) * (nation ? 11 : 16) : 2.5) * scale;
-      const g = svgEl("g", {class:"marker", tabindex:0, role:"button", "aria-label":`${p.name}: ${r.size} ${nation && !active ? "mentions" : "people"}`}, layer);
-      if (nation){
-        const s = radius * 1.5;
-        svgEl("rect", {x:x - s / 2, y:y - s / 2, width:s, height:s, transform:`rotate(45 ${x} ${y})`, fill:r.size ? "var(--nation)" : "none",
-          "fill-opacity":r.size ? .55 : 1, stroke:"var(--nation)", "stroke-width":1.2 * scale, "stroke-dasharray":r.size ? "" : `${2 * scale} ${2 * scale}`}, g);
-      } else {
-        svgEl("circle", {cx:x, cy:y, r:radius, fill:r.size ? color : "none", "fill-opacity":r.size ? .7 : 1,
-          stroke:r.size ? "var(--surface)" : "var(--muted)", "stroke-width":(r.size ? 1.2 : 1) * scale, "stroke-dasharray":r.size ? "" : `${2 * scale} ${2 * scale}`}, g);
-      }
-      if (mapState.place === p.id) svgEl("circle", {cx:x, cy:y, r:radius + 4 * scale, fill:"none", stroke:"var(--ink)", "stroke-width":1.5 * scale}, g);
-      if (labelled.has(p.id)){
-        const right = x > vbx + vbw * 0.75;  // near the right edge, label on the left
-        svgEl("text", {x:right ? x - radius - 3 * scale : x + radius + 3 * scale, y:y + 4 * scale, "text-anchor":right ? "end" : "start",
-          class:"maplabel" + (nation ? " nation" : ""), style:`font-size:${(11 * scale).toFixed(2)}px;stroke-width:${(3 * scale).toFixed(2)}px`}, layer).textContent = p.name;
-      }
-      hover(g, () => {
-        const top = [...r.people.entries()].sort((a, b) => b[1].tier - a[1].tier || b[1].years.size - a[1].years.size).slice(0, 5).map(([w]) => esc(mapPeople[w]));
-        return `<b>${esc(p.name)}</b><br>${nation && !active ? `${r.size} mentions` : `${r.people.size} ${r.people.size === 1 ? "person" : "people"} tied to it`}${top.length ? "<br>" + top.join(", ") : ""}<br><span style="opacity:.75">${esc(p.precision.replace("_", " "))}</span>`;
-      });
-      const pick = () => { mapState.place = mapState.place === p.id ? null : p.id; renderMap(); };
-      g.addEventListener("click", pick);
-      g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
+    if (mapState.place === p.id) svgEl("circle", {cx:x, cy:y, r:radius + 4 * scale, fill:"none", stroke:"var(--ink)", "stroke-width":1.5 * scale}, g);
+    if (labelled.has(p.id)){
+      const right = x > vx + vw * 0.75;  // near the right edge, label on the left
+      const lx = right ? x - radius - 3 * scale : x + radius + 3 * scale, lw = p.name.length * 6.2 * scale;
+      labels.push({p, nation, size:r.size, lx, y, right, box:[right ? lx - lw : lx, y - 8 * scale, right ? lx : lx + lw, y + 6 * scale]});
     }
+    hover(g, () => {
+      const top = [...r.people.entries()].sort((a, b) => b[1].tier - a[1].tier || b[1].years.size - a[1].years.size).slice(0, 5).map(([w]) => esc(mapPeople[w]));
+      return `<b>${esc(p.name)}</b><br>${nation && !active ? `${r.size} mentions` : `${r.people.size} ${r.people.size === 1 ? "person" : "people"} tied to it`}${top.length ? "<br>" + top.join(", ") : ""}<br><span style="opacity:.75">${esc(p.precision.replace("_", " "))}</span>`;
+    });
+    const pick = () => { if (mapDragged) return; mapState.place = mapState.place === p.id ? null : p.id; renderMap(); };
+    g.addEventListener("click", pick);
+    g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
+  }
+  const placed = [];
+  for (const l of labels.sort((a, b) => a.nation - b.nation || b.size - a.size)){
+    if (placed.some(b => l.box[0] < b[2] && b[0] < l.box[2] && l.box[1] < b[3] && b[1] < l.box[3])) continue;
+    placed.push(l.box);
+    svgEl("text", {x:l.lx, y:l.y + 4 * scale, "text-anchor":l.right ? "end" : "start", class:"maplabel" + (l.nation ? " nation" : ""),
+      style:`font-size:${(11 * scale).toFixed(2)}px;stroke-width:${(3 * scale).toFixed(2)}px`}, layer).textContent = l.p.name;
   }
   const who = selPerson != null ? N.nodes[selPerson].id : selCluster != null ? `the cluster ${clusters.find(c => c.c === selCluster).name}` : "everyone in the records";
+  const elsewhere = rows.filter(r => r.p.frame !== name && r.p.kind === "place" && r.size).length;
   $("#map-note").textContent = `Showing ${who}${mapState.year == null ? ", all years" : `, ${mapState.year}`}. ` +
     (selPerson == null && selCluster == null ? "Select a person or cluster in the network above to see only their places. " : "") +
-    (mapState.nations && !active ? "Nations are sized by how often they are named." : "");
+    (elsewhere ? `${elsewhere} more ${elsewhere === 1 ? "place is" : "places are"} on the ${name === "virginia" ? "England" : "New World"} map. ` : "") +
+    (mapState.nations && !active && name === "virginia" ? "Nations are sized by how often they are named." : "");
   renderMapDetail(rows);
 }
 const TIER_WORD = {4:"relation in the text", 3:"close", 2:"near", 1:"same record"};
@@ -717,13 +834,9 @@ function renderMapDetail(rows){
     document.querySelectorAll("#map-strength button").forEach(x => x.setAttribute("aria-pressed", x === b));
     renderMap();
   }));
-  document.querySelectorAll("#map-zoom button").forEach(b => b.addEventListener("click", () => {
-    mapState.zoom = b.dataset.zoom;
-    document.querySelectorAll("#map-zoom button").forEach(x => x.setAttribute("aria-pressed", x === b));
-    renderMap();
-  }));
   $("#map-nations").addEventListener("click", e => { mapState.nations = !mapState.nations; e.currentTarget.setAttribute("aria-pressed", mapState.nations); renderMap(); });
   show();
+  renderPresets();
 })();
 mapReady = true;
 renderPerson(); paint();

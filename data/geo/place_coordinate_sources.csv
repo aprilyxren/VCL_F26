@@ -153,5 +153,5 @@ IG-025,Nacotchtank (Anacostans),nation,,https://en.wikipedia.org/wiki/Joint_Base
 IG-026,Chowanoke,nation,"Choanoac A-84 historical marker (NC DNCR); Harrellsville, North Carolina (Wikipedia)",https://www.dncr.nc.gov/blog/2023/12/04/choanoac-84,2026-11-09
 IG-026,Chowanoke,nation,,"https://en.wikipedia.org/wiki/Harrellsville,_North_Carolina",2026-11-09
 BASEMAP,basemap: Virginia land and shoreline,basemap,"US Census Bureau, 2018 cartographic boundary file, states 1:500,000 (public domain)",https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_state_500k.zip,2026-11-09
-BASEMAP,basemap: Virginia river courses,basemap,OpenStreetMap waterway=river ways via the Overpass API (ODbL; © OpenStreetMap contributors),https://www.openstreetmap.org/copyright,2026-11-09
+BASEMAP,basemap: river courses (Virginia and England),basemap,OpenStreetMap waterway=river ways via the Overpass API (ODbL; © OpenStreetMap contributors),https://www.openstreetmap.org/copyright,2026-11-09
 BASEMAP,basemap: England land,basemap,Natural Earth 10m land (public domain),https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_land.geojson,2026-11-09
